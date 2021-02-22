@@ -1,7 +1,7 @@
 
 Beam b0 assembly
 |- Action 0 (LoadBeamAction): Operator load Beam ('b0') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b0') for pickup at Frame(Point(24232.715, 7849.686, 370.365), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, 1.000)) (Side 3 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b0') for pickup at Frame(Point(22875.898, 5076.094, 620.825), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 3 face up).
 |- Action 1 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 528.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
@@ -9,11 +9,11 @@ Beam b0 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 2 (BeamPickupAction): Pick Beam ('b0') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9323.219, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9323.219, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9323.219, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 3 (BeamPlacementWithoutClampsAction): Place Beam ('b0') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(16038.051, 7049.996, 1844.357), Vector(0.000, 1.000, -0.000), Vector(-0.000, 0.000, 1.000))
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(16038.051, 7049.996, 1794.357), Vector(0.000, 1.000, -0.000), Vector(-0.000, 0.000, 1.000))
@@ -28,7 +28,7 @@ Beam b0 assembly
 
 Beam b1 assembly
 |- Action 5 (LoadBeamAction): Operator load Beam ('b1') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b1') for pickup at Frame(Point(24232.715, 7849.686, 370.365), Vector(0.000, 1.000, 0.000), Vector(0.000, -0.000, 1.000)) (Side 3 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b1') for pickup at Frame(Point(22875.898, 5008.365, 620.825), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 3 face up).
 |- Action 6 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 528.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
@@ -36,11 +36,11 @@ Beam b1 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 7 (BeamPickupAction): Pick Beam ('b1') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9390.948, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9390.948, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9390.948, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 8 (BeamPlacementWithoutClampsAction): Place Beam ('b1') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(16038.051, 6249.996, 1912.086), Vector(-0.000, -1.000, 0.000), Vector(-0.000, -0.000, -1.000))
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(16038.051, 6249.996, 1862.086), Vector(-0.000, -1.000, 0.000), Vector(-0.000, -0.000, -1.000))
@@ -55,7 +55,7 @@ Beam b1 assembly
 
 Beam b2 assembly
 |- Action 10 (LoadBeamAction): Operator load Beam ('b2') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b2') for pickup at Frame(Point(24232.715, 7849.686, 370.365), Vector(0.000, 1.000, -0.000), Vector(-0.000, 0.000, 1.000)) (Side 3 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b2') for pickup at Frame(Point(22875.898, 5191.357, 620.825), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 3 face up).
 |- Action 11 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 5497.537, 1011.951), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 5475.040, 985.140), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
@@ -91,11 +91,11 @@ Beam b2 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 16 (BeamPickupAction): Pick Beam ('b2') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9207.956, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9207.956, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9207.956, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 17 (BeamPlacementWithClampsAction): Place Beam ('b2') to Joint final location with clamps at ['b1-b2', 'b0-b2'] using Clamp ['c4', 'c3']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(15928.051, 6080.910, 1480.172), Vector(0.000, -0.165, 0.986), Vector(-0.000, -0.986, -0.165))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(15928.051, 6064.445, 1578.807), Vector(0.000, -0.165, 0.986), Vector(-0.000, -0.986, -0.165))
@@ -142,7 +142,7 @@ Beam b2 assembly
 
 Beam b3 assembly
 |- Action 23 (LoadBeamAction): Operator load Beam ('b3') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b3') for pickup at Frame(Point(24232.715, 7849.686, 370.365), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, 1.000)) (Side 3 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b3') for pickup at Frame(Point(22875.898, 4943.852, 620.825), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 3 face up).
 |- Action 24 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 5097.537, 1011.951), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 5075.040, 985.140), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
@@ -178,11 +178,11 @@ Beam b3 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 29 (BeamPickupAction): Pick Beam ('b3') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9455.461, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9455.461, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9455.461, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 30 (BeamPlacementWithClampsAction): Place Beam ('b3') to Joint final location with clamps at ['b1-b3', 'b0-b3'] using Clamp ['c3', 'c4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(15928.051, 6094.520, 2814.093), Vector(0.000, 0.391, -0.920), Vector(-0.000, 0.920, 0.391))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(15928.051, 6055.386, 2906.118), Vector(0.000, 0.391, -0.920), Vector(-0.000, 0.920, 0.391))
@@ -229,7 +229,7 @@ Beam b3 assembly
 
 Beam b4 assembly
 |- Action 36 (LoadBeamAction): Operator load Beam ('b4') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b4') for pickup at Frame(Point(24232.715, 7849.686, 370.365), Vector(0.000, 1.000, -0.000), Vector(-0.000, 0.000, 1.000)) (Side 3 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b4') for pickup at Frame(Point(22875.898, 5193.505, 620.825), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 3 face up).
 |- Action 37 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 3789.319, 1011.951), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 3811.816, 985.140), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
@@ -265,11 +265,11 @@ Beam b4 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 42 (BeamPickupAction): Pick Beam ('b4') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9205.809, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9205.809, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9205.809, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 43 (BeamPlacementWithClampsAction): Place Beam ('b4') to Joint final location with clamps at ['b2-b4', 'b3-b4'] using Clamp ['c1', 'c2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(15928.051, 5052.734, 1643.679), Vector(0.000, 0.966, -0.259), Vector(0.000, 0.259, 0.966))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(15928.051, 5149.327, 1617.797), Vector(0.000, 0.966, -0.259), Vector(0.000, 0.259, 0.966))
@@ -316,7 +316,7 @@ Beam b4 assembly
 
 Beam b5 assembly
 |- Action 49 (LoadBeamAction): Operator load Beam ('b5') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b5') for pickup at Frame(Point(24232.715, 7849.686, 470.365), Vector(0.000, 1.000, 0.000), Vector(1.000, -0.000, -0.000)) (Side 2 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b5') for pickup at Frame(Point(22775.898, 4877.397, 620.825), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, 1.000)) (Side 2 face up).
 |- Action 50 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 528.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
@@ -324,11 +324,11 @@ Beam b5 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 51 (BeamPickupAction): Pick Beam ('b5') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9521.916, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9521.916, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9521.916, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 52 (BeamPlacementWithoutClampsAction): Place Beam ('b5') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(17046.002, 7357.946, 2043.055), Vector(1.000, -0.000, -0.000), Vector(0.000, 0.000, 1.000))
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(17046.002, 7357.946, 1993.055), Vector(1.000, -0.000, -0.000), Vector(0.000, 0.000, 1.000))
@@ -343,7 +343,7 @@ Beam b5 assembly
 
 Beam b6 assembly
 |- Action 54 (LoadBeamAction): Operator load Beam ('b6') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b6') for pickup at Frame(Point(24332.715, 7849.686, 370.365), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, -0.000)) (Side 4 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b6') for pickup at Frame(Point(22875.898, 5195.534, 720.825), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, -1.000)) (Side 4 face up).
 |- Action 55 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 4189.319, 1011.951), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 4211.816, 985.140), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
@@ -379,11 +379,11 @@ Beam b6 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(23379.398, 4643.428, 813.775), Vector(0.000, -1.000, -0.000), Vector(-1.000, -0.000, -0.000))
 |- Action 60 (BeamPickupAction): Pick Beam ('b6') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9203.779, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9203.779, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9203.779, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 61 (BeamPlacementWithClampsAction): Place Beam ('b6') to Joint final location with clamps at ['b0-b6', 'b5-b6'] using Clamp ['c2', 'c1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(16603.568, 7467.946, 1754.189), Vector(-0.906, -0.000, -0.423), Vector(0.423, -0.000, -0.906))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(16694.199, 7467.946, 1796.450), Vector(-0.906, -0.000, -0.423), Vector(0.423, -0.000, -0.906))
@@ -430,7 +430,7 @@ Beam b6 assembly
 
 Beam b7 assembly
 |- Action 67 (LoadBeamAction): Operator load Beam ('b7') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b7') for pickup at Frame(Point(24332.715, 7849.686, 370.365), Vector(0.000, 1.000, 0.000), Vector(-1.000, 0.000, 0.000)) (Side 4 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b7') for pickup at Frame(Point(22875.898, 5218.135, 720.825), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, -1.000)) (Side 4 face up).
 |- Action 68 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 528.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
@@ -438,11 +438,11 @@ Beam b7 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 69 (BeamPickupAction): Pick Beam ('b7') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9181.178, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9181.178, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9181.178, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 70 (BeamPlacementWithoutClampsAction): Place Beam ('b7') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(17046.002, 5942.046, 1702.316), Vector(-1.000, 0.000, -0.000), Vector(-0.000, -0.000, 1.000))
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(17046.002, 5942.046, 1652.316), Vector(-1.000, 0.000, -0.000), Vector(-0.000, -0.000, 1.000))
@@ -457,7 +457,7 @@ Beam b7 assembly
 
 Beam b8 assembly
 |- Action 72 (LoadBeamAction): Operator load Beam ('b8') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b8') for pickup at Frame(Point(24232.715, 7849.686, 470.365), Vector(0.000, 1.000, -0.000), Vector(1.000, -0.000, -0.000)) (Side 2 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b8') for pickup at Frame(Point(22775.898, 5138.025, 620.825), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, 1.000)) (Side 2 face up).
 |- Action 73 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 3789.319, 1011.951), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 3811.816, 985.140), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
@@ -493,11 +493,11 @@ Beam b8 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(23379.398, 4643.428, 813.775), Vector(0.000, -1.000, -0.000), Vector(-1.000, -0.000, -0.000))
 |- Action 78 (BeamPickupAction): Pick Beam ('b8') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9261.289, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9261.289, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9261.289, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 79 (BeamPlacementWithClampsAction): Place Beam ('b8') to Joint final location with clamps at ['b1-b8', 'b7-b8'] using Clamp ['c1', 'c2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(16762.256, 5832.046, 1517.919), Vector(0.906, 0.000, -0.423), Vector(-0.423, 0.000, -0.906))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(16671.625, 5832.046, 1560.181), Vector(0.906, 0.000, -0.423), Vector(-0.423, 0.000, -0.906))
@@ -544,7 +544,7 @@ Beam b8 assembly
 
 Beam b9 assembly
 |- Action 85 (LoadBeamAction): Operator load Beam ('b9') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b9') for pickup at Frame(Point(24332.715, 7849.686, 470.365), Vector(0.000, 1.000, -0.000), Vector(-0.000, -0.000, -1.000)) (Side 1 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b9') for pickup at Frame(Point(22775.898, 5336.709, 720.825), Vector(0.000, 1.000, 0.000), Vector(1.000, -0.000, 0.000)) (Side 1 face up).
 |- Action 86 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 4189.319, 1011.951), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 4211.816, 985.140), Vector(-0.258, -0.740, -0.621), Vector(-0.966, 0.198, 0.166))
@@ -580,11 +580,11 @@ Beam b9 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 91 (BeamPickupAction): Pick Beam ('b9') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9062.604, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9062.604, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9062.604, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 92 (BeamPlacementWithClampsAction): Place Beam ('b9') to Joint final location with clamps at ['b7-b9', 'b5-b9'] using Clamp ['c2', 'c1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(17463.952, 6305.209, 1451.773), Vector(-0.000, -0.341, 0.940), Vector(0.000, 0.940, 0.341))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(17463.952, 6271.073, 1545.766), Vector(-0.000, -0.341, 0.940), Vector(0.000, 0.940, 0.341))
@@ -631,7 +631,7 @@ Beam b9 assembly
 
 Beam b10 assembly
 |- Action 98 (LoadBeamAction): Operator load Beam ('b10') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b10') for pickup at Frame(Point(24232.715, 7849.686, 470.365), Vector(0.000, 1.000, 0.000), Vector(1.000, -0.000, -0.000)) (Side 2 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b10') for pickup at Frame(Point(22775.898, 4492.282, 620.825), Vector(0.000, 1.000, 0.000), Vector(-0.000, 0.000, 1.000)) (Side 2 face up).
 |- Action 99 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 5497.537, 1011.951), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 5475.040, 985.140), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
@@ -667,11 +667,11 @@ Beam b10 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 104 (BeamPickupAction): Pick Beam ('b10') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9907.031, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9907.031, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9907.031, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 105 (BeamPlacementWithClampsAction): Place Beam ('b10') to Joint final location with clamps at ['b7-b10', 'b5-b10'] using Clamp ['c4', 'c3']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(16936.002, 5496.345, 2967.241), Vector(1.000, 0.000, 0.000), Vector(0.000, -0.950, -0.313))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(16936.002, 5465.021, 3062.209), Vector(1.000, 0.000, 0.000), Vector(0.000, -0.950, -0.313))
@@ -718,7 +718,7 @@ Beam b10 assembly
 
 Beam b11 assembly
 |- Action 111 (LoadBeamAction): Operator load Beam ('b11') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b11') for pickup at Frame(Point(24332.715, 7849.686, 470.365), Vector(0.000, 1.000, -0.000), Vector(-0.000, -0.000, -1.000)) (Side 1 face up).
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Load Beam ('b11') for pickup at Frame(Point(22775.898, 4867.868, 720.825), Vector(0.000, 1.000, 0.000), Vector(1.000, -0.000, 0.000)) (Side 1 face up).
 |- Action 112 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24007.898, 5097.537, 1011.951), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(24007.898, 5075.040, 985.140), Vector(0.966, 0.199, -0.167), Vector(0.260, -0.740, 0.621))
@@ -754,11 +754,11 @@ Beam b11 assembly
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO OpenGripper
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22750.398, 4643.428, 563.775), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, -0.000))
 |- Action 117 (BeamPickupAction): Pick Beam ('b11') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(24282.715, 9531.446, 833.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(22412.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 1 (RoboticDigitalOutput): IO OpenGripper
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9531.446, 728.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Move to Frame(Point(22517.948, 6549.628, 670.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |  |- <x> Movement 3 (RoboticDigitalOutput): IO CloseGripper
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(24282.715, 9531.446, 828.315), Vector(-1.000, -0.000, -0.000), Vector(-0.000, 1.000, 0.000))
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Move to Frame(Point(22522.948, 6549.628, 820.825), Vector(0.000, 0.000, -1.000), Vector(-0.000, 1.000, -0.000))
 |- Action 118 (BeamPlacementWithClampsAction): Place Beam ('b11') to Joint final location with clamps at ['b10-b11', 'b9-b11'] using Clamp ['c3', 'c4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to Frame(Point(17463.952, 5633.511, 1988.024), Vector(-0.000, -0.998, 0.070), Vector(0.000, 0.070, 0.998))
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to Frame(Point(17463.952, 5533.754, 1995.000), Vector(-0.000, -0.998, 0.070), Vector(0.000, 0.070, 0.998))
