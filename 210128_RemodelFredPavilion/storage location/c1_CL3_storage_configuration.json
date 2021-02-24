@@ -1,0 +1,38 @@
+{
+    "dtype": "compas_fab.robots/Configuration", 
+    "value": {
+        "joint_names": [
+            "robot11_joint_EA_X", 
+            "robot11_joint_EA_Y", 
+            "robot11_joint_EA_Z", 
+            "robot11_joint_1", 
+            "robot11_joint_2", 
+            "robot11_joint_3", 
+            "robot11_joint_4", 
+            "robot11_joint_5", 
+            "robot11_joint_6"
+        ], 
+        "types": [
+            2, 
+            2, 
+            2, 
+            0, 
+            0, 
+            0, 
+            0, 
+            0, 
+            0
+        ], 
+        "values": [
+            23.607898437999999, 
+            -3.1580429690000003, 
+            -3.3492180180000002, 
+            -0.98814487700743769, 
+            -0.4407064222633455, 
+            -0.068164985853944857, 
+            3.8502329294539051, 
+            0.57831301505260646, 
+            5.4508473338544992
+        ]
+    }
+}
