@@ -2,7 +2,7 @@
     "dtype": "compas_fab.robots/Configuration", 
     "value": {
         "joint_names": [
-            "robot11_joint_EA_X", 
+            "bridge1_joint_EA_X", 
             "robot11_joint_EA_Y", 
             "robot11_joint_EA_Z", 
             "robot11_joint_1", 
