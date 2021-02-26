@@ -1,0 +1,6372 @@
+{
+ "dtype": "integral_timber_joints.process/RoboticFreeMovement",
+ "value": {
+  "attached_beam_id": null,
+  "attached_tool_id": "g2",
+  "end_state": {
+   "b0": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        16396.001562499903,
+        7099.996347656268,
+        320.82403621054937
+       ],
+       "xaxis": [
+        6.123031769111886e-17,
+        0.0,
+        1.0
+       ],
+       "yaxis": [
+        -1.0,
+        2.715067211854494e-14,
+        6.123031769111886e-17
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b1": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23522.511532606895,
+        7319.572169433537,
+        1006.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b10": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23382.511532606895,
+        7319.572169433537,
+        726.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b11": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23522.511532606895,
+        7319.572169433537,
+        726.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b2": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23662.511532606895,
+        7319.572169433537,
+        1006.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b3": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23802.511532606895,
+        7319.572169433537,
+        1006.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b4": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23942.511532606895,
+        7319.572169433537,
+        1006.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b5": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23382.511532606895,
+        7319.572169433537,
+        866.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b6": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23522.511532606895,
+        7319.572169433537,
+        866.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b7": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23662.511532606895,
+        7319.572169433537,
+        866.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b8": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23802.511532606895,
+        7319.572169433537,
+        866.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "b9": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23942.511532606895,
+        7319.572169433537,
+        866.4095031447296
+       ],
+       "xaxis": [
+        0.0,
+        1.0,
+        0.0
+       ],
+       "yaxis": [
+        -1.0,
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   },
+   "c1": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        24009.34032135755,
+        3897.398026880536,
+        937.1673250938657
+       ],
+       "xaxis": [
+        -0.2580399987624484,
+        -0.7452908567196358,
+        -0.6147819921962476
+       ],
+       "yaxis": [
+        -0.9661161606781467,
+        0.1951600454728571,
+        0.16891453675616527
+       ]
+      }
+     },
+     "kinematic_config": {
+      "clamp_jaw_position": 240.0,
+      "gripper_jaw_position": 0.0
+     }
+    }
+   },
+   "c2": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        24008.941301573814,
+        4349.178484823677,
+        936.1314847556702
+       ],
+       "xaxis": [
+        -0.257944000089755,
+        -0.7478075553432,
+        -0.6117587375667988
+       ],
+       "yaxis": [
+        -0.9661558174824312,
+        0.19781402103724177,
+        0.16556735616036494
+       ]
+      }
+     },
+     "kinematic_config": {
+      "clamp_jaw_position": 240.0,
+      "gripper_jaw_position": 0.0
+     }
+    }
+   },
+   "c3": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        24012.041431646438,
+        4977.923170445029,
+        933.5607486529132
+       ],
+       "xaxis": [
+        0.965705841760989,
+        0.19902155177753908,
+        -0.16674126398933237
+       ],
+       "yaxis": [
+        0.25963860198493627,
+        -0.7398655589505485,
+        0.6206341523297764
+       ]
+      }
+     },
+     "kinematic_config": {
+      "clamp_jaw_position": 240.0,
+      "gripper_jaw_position": 0.0
+     }
+    }
+   },
+   "c4": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        24012.527768576172,
+        5428.99204341298,
+        935.4510717922903
+       ],
+       "xaxis": [
+        0.9657291339825337,
+        0.19875933926553654,
+        -0.16691903675756348
+       ],
+       "yaxis": [
+        0.25954583104417006,
+        -0.7439503088146466,
+        0.6157709798311244
+       ]
+      }
+     },
+     "kinematic_config": {
+      "clamp_jaw_position": 240.0,
+      "gripper_jaw_position": 0.0
+     }
+    }
+   },
+   "g1": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        23326.617181290545,
+        4644.080802525897,
+        713.1098999419881
+       ],
+       "xaxis": [
+        2.1242280072964672e-05,
+        -0.999999999607369,
+        -1.8276424839315677e-05
+       ],
+       "yaxis": [
+        -0.9999999993438738,
+        -2.124174377307346e-05,
+        -2.9343501175897078e-05
+       ]
+      }
+     },
+     "kinematic_config": {
+      "gripper_jaw_position": 0.8
+     }
+    }
+   },
+   "g2": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": true,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        22744.864479674994,
+        4645.283755855652,
+        499.78098186129023
+       ],
+       "xaxis": [
+        -0.9999999943746365,
+        -6.155314678829308e-05,
+        8.6382505801329e-05
+       ],
+       "yaxis": [
+        -6.156507717793924e-05,
+        0.9999999885669505,
+        -0.00013811531570789834
+       ]
+      }
+     },
+     "kinematic_config": {
+      "gripper_jaw_position": 10.0
+     }
+    }
+   },
+   "robot": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": false,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        22744.870210590117,
+        4645.292920159658,
+        566.1309809809014
+       ],
+       "xaxis": [
+        -0.9999999943746365,
+        -6.155314684247196e-05,
+        8.63825057740516e-05
+       ],
+       "yaxis": [
+        -6.156507723211435e-05,
+        0.9999999885669505,
+        -0.00013811531570789837
+       ]
+      }
+     },
+     "kinematic_config": {
+      "dtype": "compas_fab.robots/JointTrajectoryPoint",
+      "value": {
+       "accelerations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "effort": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "joint_names": [
+        "bridge1_joint_EA_X",
+        "robot11_joint_EA_Y",
+        "robot11_joint_EA_Z",
+        "robot11_joint_1",
+        "robot11_joint_2",
+        "robot11_joint_3",
+        "robot11_joint_4",
+        "robot11_joint_5",
+        "robot11_joint_6"
+       ],
+       "time_from_start": {
+        "nsecs": 0,
+        "secs": 0
+       },
+       "types": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
+       "values": [
+        19.960979948357167,
+        -5.988312725120249,
+        -1.8039491610794962,
+        -0.22725535420647233,
+        1.4676292431015274,
+        -1.627789814471244,
+        -2.1753958857359237,
+        -0.27719661040034105,
+        -0.947885695412624
+       ],
+       "velocities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     }
+    }
+   },
+   "tool_changer": {
+    "dtype": "integral_timber_joints.process/ObjectState",
+    "value": {
+     "attached_to_robot": true,
+     "current_frame": {
+      "dtype": "compas.geometry/Frame",
+      "value": {
+       "point": [
+        22744.870210590117,
+        4645.292920159658,
+        566.1309809809014
+       ],
+       "xaxis": [
+        -0.9999999943746365,
+        -6.155314684247196e-05,
+        8.63825057740516e-05
+       ],
+       "yaxis": [
+        -6.156507723211435e-05,
+        0.9999999885669505,
+        -0.00013811531570789837
+       ]
+      }
+     },
+     "kinematic_config": null
+    }
+   }
+  },
+  "movement_id": "A4_M0",
+  "operator_stop_after": "",
+  "operator_stop_before": "",
+  "planning_priority": 0,
+  "speed_type": "speed.transit.rapid",
+  "target_configuration": null,
+  "target_frame": {
+   "dtype": "compas.geometry/Frame",
+   "value": {
+    "point": [
+     22744.870210590117,
+     4645.292920159658,
+     566.1309809809014
+    ],
+    "xaxis": [
+     -0.9999999943746365,
+     -6.155314684247196e-05,
+     8.63825057740516e-05
+    ],
+    "yaxis": [
+     -6.156507723211435e-05,
+     0.9999999885669505,
+     -0.00013811531570789837
+    ]
+   }
+  },
+  "trajectory": {
+   "dtype": "compas_fab.robots/JointTrajectory",
+   "value": {
+    "fraction": 1.0,
+    "joint_names": [
+     "bridge1_joint_EA_X",
+     "robot11_joint_EA_Y",
+     "robot11_joint_EA_Z",
+     "robot11_joint_1",
+     "robot11_joint_2",
+     "robot11_joint_3",
+     "robot11_joint_4",
+     "robot11_joint_5",
+     "robot11_joint_6"
+    ],
+    "points": [
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 0
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       19.960979948357167,
+       -5.988312725120249,
+       -1.8039491610794962,
+       -0.22725535420647233,
+       1.4676292431015274,
+       -1.627789814471244,
+       -2.1753958857359237,
+       -0.27719661040034105,
+       -0.947885695412624
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 1
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       19.97091762208396,
+       -5.957528756052521,
+       -1.8233487652259728,
+       -0.24547858979325235,
+       1.4321657976438649,
+       -1.6012921994903515,
+       -2.1081169423596924,
+       -0.25149912167903044,
+       -0.9217371927361805
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 2
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       19.980855295810752,
+       -5.926744786984793,
+       -1.8427483693724493,
+       -0.26370182538003234,
+       1.3967023521862023,
+       -1.574794584509459,
+       -2.040837998983461,
+       -0.22580163295771985,
+       -0.895588690059737
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 3
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       19.990792969537544,
+       -5.895960817917064,
+       -1.862147973518926,
+       -0.28192506096681236,
+       1.3612389067285398,
+       -1.5482969695285667,
+       -1.9735590556072298,
+       -0.20010414423640926,
+       -0.8694401873832935
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 4
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.000730643264337,
+       -5.865176848849336,
+       -1.8815475776654025,
+       -0.3001482965535924,
+       1.3257754612708772,
+       -1.5217993545476742,
+       -1.9062801122309987,
+       -0.17440665551509868,
+       -0.84329168470685
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 5
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.01066831699113,
+       -5.834392879781608,
+       -1.900947181811879,
+       -0.3183715321403724,
+       1.2903120158132146,
+       -1.4953017395667818,
+       -1.8390011688547676,
+       -0.1487091667937881,
+       -0.8171431820304065
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 6
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.02060599071792,
+       -5.80360891071388,
+       -1.9203467859583556,
+       -0.3365947677271524,
+       1.254848570355552,
+       -1.4688041245858894,
+       -1.7717222254785363,
+       -0.12301167807247751,
+       -0.7909946793539631
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 7
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.030543664444714,
+       -5.772824941646151,
+       -1.9397463901048322,
+       -0.35481800331393243,
+       1.2193851248978895,
+       -1.442306509604997,
+       -1.7044432821023052,
+       -0.09731418935116692,
+       -0.7648461766775196
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 8
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.040481338171507,
+       -5.7420409725784225,
+       -1.9591459942513088,
+       -0.37304123890071245,
+       1.183921679440227,
+       -1.4158088946241045,
+       -1.6371643387260741,
+       -0.07161670062985634,
+       -0.7386976740010761
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 9
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.0504190118983,
+       -5.711257003510695,
+       -1.9785455983977855,
+       -0.39126447448749246,
+       1.1484582339825644,
+       -1.389311279643212,
+       -1.5698853953498428,
+       -0.04591921190854575,
+       -0.7125491713246326
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 10
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.06035668562509,
+       -5.680473034442967,
+       -1.9979452025442623,
+       -0.4094877100742725,
+       1.1129947885249019,
+       -1.3628136646623197,
+       -1.5026064519736115,
+       -0.020221723187235155,
+       -0.6864006686481892
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 11
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.070294359351884,
+       -5.649689065375238,
+       -2.017344806690739,
+       -0.4277109456610525,
+       1.0775313430672393,
+       -1.3363160496814273,
+       -1.4353275085973805,
+       0.005475765534075434,
+       -0.6602521659717456
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 12
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.080232033078676,
+       -5.618905096307509,
+       -2.036744410837216,
+       -0.4459341812478325,
+       1.0420678976095767,
+       -1.3098184347005348,
+       -1.3680485652211494,
+       0.031173254255386026,
+       -0.6341036632953021
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 13
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.09016970680547,
+       -5.5881211272397815,
+       -2.0561440149836927,
+       -0.46415741683461254,
+       1.0066044521519142,
+       -1.2833208197196424,
+       -1.300769621844918,
+       0.056870742976696614,
+       -0.6079551606188587
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 14
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.10010738053226,
+       -5.557337158172054,
+       -2.0755436191301695,
+       -0.48238065242139255,
+       0.9711410066942516,
+       -1.25682320473875,
+       -1.2334906784686868,
+       0.0825682316980072,
+       -0.5818066579424153
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 15
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.110045054259054,
+       -5.526553189104325,
+       -2.0949432232766463,
+       -0.5006038880081726,
+       0.9356775612365891,
+       -1.2303255897578576,
+       -1.1662117350924557,
+       0.10826572041931778,
+       -0.5556581552659717
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 16
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.119982727985846,
+       -5.495769220036596,
+       -2.114342827423123,
+       -0.5188271235949525,
+       0.9002141157789265,
+       -1.2038279747769651,
+       -1.0989327917162246,
+       0.13396320914062837,
+       -0.5295096525895282
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 17
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.12992040171264,
+       -5.464985250968868,
+       -2.1337424315696,
+       -0.5370503591817325,
+       0.864750670321264,
+       -1.1773303597960727,
+       -1.0316538483399933,
+       0.15966069786193895,
+       -0.5033611499130848
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 18
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.13985807543943,
+       -5.4342012819011405,
+       -2.153142035716076,
+       -0.5552735947685126,
+       0.8292872248636014,
+       -1.1508327448151803,
+       -0.9643749049637621,
+       0.18535818658324954,
+       -0.4772126472366413
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 19
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.149795749166223,
+       -5.403417312833412,
+       -2.172541639862553,
+       -0.5734968303552925,
+       0.7938237794059388,
+       -1.1243351298342878,
+       -0.8970959615875309,
+       0.21105567530456013,
+       -0.45106414456019783
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 20
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.159733422893016,
+       -5.372633343765683,
+       -2.19194124400903,
+       -0.5917200659420725,
+       0.7583603339482763,
+       -1.0978375148533954,
+       -0.8298170182112997,
+       0.2367531640258707,
+       -0.42491564188375436
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 21
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.16967109661981,
+       -5.341849374697955,
+       -2.211340848155506,
+       -0.6099433015288526,
+       0.7228968884906137,
+       -1.071339899872503,
+       -0.7625380748350685,
+       0.2624506527471813,
+       -0.3987671392073109
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 22
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.1796087703466,
+       -5.311065405630227,
+       -2.2307404523019825,
+       -0.6281665371156326,
+       0.6874334430329512,
+       -1.0448422848916108,
+       -0.6952591314588373,
+       0.28814814146849194,
+       -0.3726186365308674
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 23
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.189546444073393,
+       -5.280281436562499,
+       -2.2501400564484593,
+       -0.6463897727024126,
+       0.6519699975752887,
+       -1.0183446699107184,
+       -0.6279801880826061,
+       0.31384563018980255,
+       -0.34647013385442393
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 24
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.199484117800182,
+       -5.24949746749477,
+       -2.269539660594936,
+       -0.6646130082891926,
+       0.6165065521176263,
+       -0.991847054929826,
+       -0.560701244706375,
+       0.3395431189111131,
+       -0.32032163117798046
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 25
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.209421791526974,
+       -5.218713498427042,
+       -2.2889392647414124,
+       -0.6828362438759726,
+       0.5810431066599637,
+       -0.9653494399489337,
+       -0.49342230133014375,
+       0.3652406076324237,
+       -0.294173128501537
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 26
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.225712895241273,
+       -5.188184284435657,
+       -2.3077501281310395,
+       -0.6994913490380468,
+       0.5469591167969281,
+       -0.9392585486466699,
+       -0.42280418199015546,
+       0.38978999113550755,
+       -0.26719460017532376
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 27
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.242003998955568,
+       -5.157655070444271,
+       -2.326560991520666,
+       -0.7161464542001208,
+       0.5128751269338925,
+       -0.9131676573444061,
+       -0.35218606265016716,
+       0.4143393746385914,
+       -0.24021607184911054
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 28
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.258295102669862,
+       -5.127125856452885,
+       -2.345371854910293,
+       -0.7328015593621948,
+       0.47879113707085685,
+       -0.8870767660421423,
+       -0.28156794331017887,
+       0.4388887581416752,
+       -0.2132375435228973
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 29
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.27458620638416,
+       -5.0965966424615,
+       -2.36418271829992,
+       -0.749456664524269,
+       0.44470714720782123,
+       -0.8609858747398784,
+       -0.21094982397019055,
+       0.46343814164475905,
+       -0.18625901519668409
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 30
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.29087731009846,
+       -5.066067428470115,
+       -2.382993581689547,
+       -0.7661117696863431,
+       0.4106231573447856,
+       -0.8348949834376146,
+       -0.14033170463020223,
+       0.4879875251478429,
+       -0.15928048687047086
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 31
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.307168413812754,
+       -5.035538214478729,
+       -2.401804445079174,
+       -0.7827668748484171,
+       0.37653916748175,
+       -0.8088040921353508,
+       -0.0697135852902139,
+       0.5125369086509267,
+       -0.13230195854425764
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 32
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.32345951752705,
+       -5.005009000487343,
+       -2.4206153084688005,
+       -0.7994219800104911,
+       0.34245517761871436,
+       -0.7827132008330869,
+       0.0009045340497744192,
+       0.5370862921540106,
+       -0.10532343021804443
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 33
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.339750621241347,
+       -4.974479786495958,
+       -2.4394261718584276,
+       -0.8160770851725653,
+       0.30837118775567873,
+       -0.7566223095308231,
+       0.07152265338976274,
+       0.5616356756570945,
+       -0.07834490189183121
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 34
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.356041724955645,
+       -4.943950572504573,
+       -2.4582370352480547,
+       -0.8327321903346394,
+       0.2742871978926431,
+       -0.7305314182285593,
+       0.14214077272975106,
+       0.5861850591601783,
+       -0.05136637356561801
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 35
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.37233282866994,
+       -4.913421358513187,
+       -2.4770478986376814,
+       -0.8493872954967134,
+       0.2402032080296075,
+       -0.7044405269262954,
+       0.2127588920697394,
+       0.6107344426632622,
+       -0.0243878452394048
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 36
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.388623932384235,
+       -4.882892144521801,
+       -2.495858762027308,
+       -0.8660424006587875,
+       0.20611921816657192,
+       -0.6783496356240316,
+       0.2833770114097277,
+       0.635283826166346,
+       0.002590683086808411
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 37
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.404915036098533,
+       -4.852362930530416,
+       -2.514669625416935,
+       -0.8826975058208616,
+       0.17203522830353635,
+       -0.6522587443217678,
+       0.353995130749716,
+       0.6598332096694298,
+       0.029569211413021615
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 38
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.42120613981283,
+       -4.821833716539031,
+       -2.5334804888065623,
+       -0.8993526109829357,
+       0.13795123844050075,
+       -0.6261678530195038,
+       0.42461325008970435,
+       0.6843825931725136,
+       0.056547739739234826
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 39
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.437497243527126,
+       -4.791304502547645,
+       -2.552291352196189,
+       -0.9160077161450098,
+       0.10386724857746515,
+       -0.60007696171724,
+       0.4952313694296927,
+       0.7089319766755975,
+       0.08352626806544804
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 40
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.486166012125736,
+       -4.769430642376777,
+       -2.5633075813155344,
+       -0.9197932425909021,
+       0.08568931164001868,
+       -0.5824606422444396,
+       0.5682249191469482,
+       0.7211438201214193,
+       0.10887159115660053
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 41
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.534834780724346,
+       -4.74755678220591,
+       -2.57432381043488,
+       -0.9235787690367945,
+       0.06751137470257221,
+       -0.5648443227716393,
+       0.6412184688642035,
+       0.7333556635672411,
+       0.134216914247753
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 42
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.583503549322955,
+       -4.725682922035043,
+       -2.5853400395542256,
+       -0.927364295482687,
+       0.04933343776512573,
+       -0.547228003298839,
+       0.7142120185814589,
+       0.7455675070130628,
+       0.15956223733890548
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 43
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.632172317921565,
+       -4.703809061864176,
+       -2.5963562686735715,
+       -0.9311498219285794,
+       0.03115550082767925,
+       -0.5296116838260386,
+       0.7872055682987142,
+       0.7577793504588846,
+       0.18490756043005796
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 44
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.680841086520175,
+       -4.6819352016933085,
+       -2.607372497792917,
+       -0.9349353483744718,
+       0.012977563890232774,
+       -0.5119953643532382,
+       0.8601991180159696,
+       0.7699911939047064,
+       0.21025288352121044
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 45
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.729509855118785,
+       -4.660061341522441,
+       -2.6183887269122623,
+       -0.9387208748203641,
+       -0.005200373047213703,
+       -0.4943790448804379,
+       0.933192667733225,
+       0.7822030373505282,
+       0.23559820661236291
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 46
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.778178623717395,
+       -4.638187481351574,
+       -2.629404956031608,
+       -0.9425064012662566,
+       -0.02337830998466018,
+       -0.47676272540763753,
+       1.0061862174504803,
+       0.7944148807963499,
+       0.2609435297035154
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 47
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.826847392316004,
+       -4.616313621180707,
+       -2.640421185150954,
+       -0.9462919277121491,
+       -0.04155624692210666,
+       -0.4591464059348372,
+       1.0791797671677357,
+       0.8066267242421716,
+       0.2862888527946679
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 48
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.875516160914614,
+       -4.5944397610098395,
+       -2.6514374142702994,
+       -0.9500774541580415,
+       -0.05973418385955314,
+       -0.44153008646203684,
+       1.152173316884991,
+       0.8188385676879935,
+       0.31163417588582043
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 49
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.924184929513224,
+       -4.572565900838972,
+       -2.662453643389645,
+       -0.9538629806039338,
+       -0.07791212079699962,
+       -0.4239137669892365,
+       1.2251668666022464,
+       0.8310504111338153,
+       0.33697949897697294
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 50
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       20.972853698111834,
+       -4.550692040668105,
+       -2.6734698725089907,
+       -0.9576485070498263,
+       -0.0960900577344461,
+       -0.40629744751643615,
+       1.2981604163195017,
+       0.843262254579637,
+       0.36232482206812544
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 51
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.021522466710444,
+       -4.528818180497238,
+       -2.6844861016283366,
+       -0.9614340334957188,
+       -0.11426799467189258,
+       -0.3886811280436358,
+       1.371153966036757,
+       0.8554740980254587,
+       0.38767014515927795
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 52
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.070191235309053,
+       -4.506944320326371,
+       -2.695502330747682,
+       -0.9652195599416111,
+       -0.13244593160933907,
+       -0.37106480857083546,
+       1.4441475157540125,
+       0.8676859414712805,
+       0.41301546825043045
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 53
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.118860003907663,
+       -4.485070460155503,
+       -2.7065185598670274,
+       -0.9690050863875035,
+       -0.15062386854678556,
+       -0.3534484890980351,
+       1.5171410654712678,
+       0.8798977849171024,
+       0.43836079134158296
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 54
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.16752877250627,
+       -4.463196599984636,
+       -2.7175347889863732,
+       -0.972790612833396,
+       -0.16880180548423204,
+       -0.33583216962523477,
+       1.5901346151885232,
+       0.8921096283629241,
+       0.46370611443273546
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 55
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.216197541104876,
+       -4.441322739813769,
+       -2.728551018105719,
+       -0.9765761392792884,
+       -0.18697974242167853,
+       -0.3182158501524344,
+       1.6631281649057785,
+       0.9043214718087458,
+       0.4890514375238879
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 56
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.264866309703486,
+       -4.419448879642902,
+       -2.7395672472250645,
+       -0.9803616657251808,
+       -0.20515767935912502,
+       -0.3005995306796341,
+       1.7361217146230339,
+       0.9165333152545676,
+       0.5143967606150404
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 57
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.313535078302095,
+       -4.397575019472034,
+       -2.75058347634441,
+       -0.9841471921710732,
+       -0.2233356162965715,
+       -0.28298321120683373,
+       1.8091152643402895,
+       0.9287451587003894,
+       0.5397420837061928
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 58
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.3622038469007,
+       -4.375701159301167,
+       -2.7615997054637558,
+       -0.9879327186169656,
+       -0.24151355323401796,
+       -0.2653668917340334,
+       1.8821088140575448,
+       0.9409570021462111,
+       0.5650874067973453
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 59
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.410872615499308,
+       -4.3538272991303,
+       -2.7726159345831016,
+       -0.9917182450628581,
+       -0.2596914901714644,
+       -0.24775057226123304,
+       1.9551023637748002,
+       0.9531688455920329,
+       0.5904327298884977
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 60
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.459541384097918,
+       -4.331953438959433,
+       -2.783632163702447,
+       -0.9955037715087505,
+       -0.2778694271089109,
+       -0.2301342527884327,
+       2.0280959134920558,
+       0.9653806890378547,
+       0.6157780529796502
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 61
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.508210152696527,
+       -4.3100795787885655,
+       -2.7946483928217924,
+       -0.9992892979546428,
+       -0.29604736404635734,
+       -0.21251793331563235,
+       2.1010894632093113,
+       0.9775925324836765,
+       0.6411233760708026
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 62
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.556878921295134,
+       -4.288205718617698,
+       -2.8056646219411383,
+       -1.0030748244005352,
+       -0.3142253009838038,
+       -0.194901613842832,
+       2.174083012926567,
+       0.9898043759294982,
+       0.6664686991619551
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 63
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.60554768989374,
+       -4.266331858446831,
+       -2.816680851060484,
+       -1.0068603508464276,
+       -0.33240323792125026,
+       -0.17728529437003165,
+       2.2470765626438225,
+       1.00201621937532,
+       0.6918140222531075
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 64
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.65421645849235,
+       -4.244457998275964,
+       -2.8276970801798296,
+       -1.01064587729232,
+       -0.3505811748586967,
+       -0.1596689748972313,
+       2.320070112361078,
+       1.0142280628211418,
+       0.7171593453442601
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 65
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.70288522709096,
+       -4.222584138105097,
+       -2.838713309299175,
+       -1.0144314037382123,
+       -0.3687591117961432,
+       -0.14205265542443096,
+       2.3930636620783337,
+       1.0264399062669636,
+       0.7425046684354126
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 66
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.751553995689566,
+       -4.200710277934229,
+       -2.849729538418521,
+       -1.0182169301841046,
+       -0.3869370487335897,
+       -0.12443633595163062,
+       2.4660572117955892,
+       1.0386517497127854,
+       0.7678499915265651
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 67
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.800222764288172,
+       -4.178836417763362,
+       -2.8607457675378667,
+       -1.022002456629997,
+       -0.4051149856710362,
+       -0.10682001647883027,
+       2.5390507615128444,
+       1.0508635931586072,
+       0.7931953146177175
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 68
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.848891532886782,
+       -4.156962557592495,
+       -2.871761996657212,
+       -1.0257879830758896,
+       -0.42329292260848267,
+       -0.08920369700602993,
+       2.6120443112301,
+       1.063075436604429,
+       0.8185406377088701
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 69
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.89756030148539,
+       -4.135088697421628,
+       -2.8827782257765575,
+       -1.0295735095217822,
+       -0.44147085954592913,
+       -0.07158737753322958,
+       2.6850378609473555,
+       1.0752872800502509,
+       0.8438859608000226
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 70
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.946229070083998,
+       -4.11321483725076,
+       -2.8937944548959034,
+       -1.0333590359676745,
+       -0.45964879648337564,
+       -0.05397105806042923,
+       2.7580314106646107,
+       1.0874991234960725,
+       0.8692312838911751
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 71
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       21.994897838682604,
+       -4.091340977079893,
+       -2.9048106840152492,
+       -1.037144562413567,
+       -0.47782673342082216,
+       -0.03635473858762889,
+       2.831024960381866,
+       1.099710966941894,
+       0.8945766069823275
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 72
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.043566607281214,
+       -4.069467116909025,
+       -2.9158269131345946,
+       -1.0409300888594595,
+       -0.4960046703582686,
+       -0.01873841911482855,
+       2.9040185100991214,
+       1.111922810387716,
+       0.9199219300734801
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 73
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.12027407646091,
+       -4.062956721931769,
+       -2.914965765850946,
+       -1.0283536830935067,
+       -0.49091549718538596,
+       -0.015307444248970552,
+       2.96341104774367,
+       1.1065133113654175,
+       0.9375826508877165
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 74
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.196981545640607,
+       -4.056446326954513,
+       -2.9141046185672974,
+       -1.0157772773275542,
+       -0.4858263240125033,
+       -0.011876469383112556,
+       3.0228035853882185,
+       1.101103812343119,
+       0.9552433717019531
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 75
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.273689014820306,
+       -4.049935931977256,
+       -2.913243471283649,
+       -1.0032008715616014,
+       -0.48073715083962065,
+       -0.008445494517254558,
+       3.082196123032767,
+       1.0956943133208203,
+       0.9729040925161896
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 76
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.350396484,
+       -4.043425537,
+       -2.912382324,
+       -0.9906244657956488,
+       -0.475647977666738,
+       -0.00501451965139656,
+       3.1415886606773156,
+       1.090284814298522,
+       0.990564813330426
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "accelerations": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "effort": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "joint_names": [
+       "bridge1_joint_EA_X",
+       "robot11_joint_EA_Y",
+       "robot11_joint_EA_Z",
+       "robot11_joint_1",
+       "robot11_joint_2",
+       "robot11_joint_3",
+       "robot11_joint_4",
+       "robot11_joint_5",
+       "robot11_joint_6"
+      ],
+      "time_from_start": {
+       "nsecs": 0,
+       "secs": 77
+      },
+      "types": [
+       2,
+       2,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "values": [
+       22.350396484,
+       -4.043425537,
+       -2.912382324,
+       -0.9906244657956488,
+       -0.475647977666738,
+       -0.00501451965139656,
+       3.1415886606773156,
+       1.090284814298522,
+       0.990564813330426
+      ],
+      "velocities": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     }
+    ],
+    "start_configuration": {
+     "accelerations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "effort": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "joint_names": [
+      "bridge1_joint_EA_X",
+      "robot11_joint_EA_Y",
+      "robot11_joint_EA_Z",
+      "robot11_joint_1",
+      "robot11_joint_2",
+      "robot11_joint_3",
+      "robot11_joint_4",
+      "robot11_joint_5",
+      "robot11_joint_6"
+     ],
+     "time_from_start": {
+      "nsecs": 0,
+      "secs": 0
+     },
+     "types": [
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "values": [
+      19.960979948357167,
+      -5.988312725120249,
+      -1.8039491610794962,
+      -0.22725535420647233,
+      1.4676292431015274,
+      -1.627789814471244,
+      -2.1753958857359237,
+      -0.27719661040034105,
+      -0.947885695412624
+     ],
+     "velocities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   }
+  }
+ }
+}
