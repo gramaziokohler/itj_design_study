@@ -1,25 +1,24 @@
 
 Beam b0 assembly
-|- Action 0 (LoadBeamAction): Operator load Beam ('b0') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 1 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 0 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 2 (BeamPickupAction): Pick Beam ('b0') from Storage
+|- Action 1 (BeamPickupAction): Pick Beam ('b0') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b0')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b0')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b0')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b0')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b0')
-|- Action 3 (BeamPlacementWithoutClampsAction): Place Beam ('b0') to final location without clamps
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b0')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b0')
+|- Action 2 (BeamPlacementWithoutClampsAction): Place Beam ('b0') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b0') to final location
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Advance to Final Frame of Beam ('b0')
 |  |- <x> Movement 2 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b0')
 |  |- <0> Movement 3 (RoboticLinearMovement): Linear retract after placing Beam ('b0')
-|- Action 4 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 3 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
@@ -27,26 +26,25 @@ Beam b0 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 
 Beam b1 assembly
-|- Action 5 (LoadBeamAction): Operator load Beam ('b1') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 6 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 4 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 7 (BeamPickupAction): Pick Beam ('b1') from Storage
+|- Action 5 (BeamPickupAction): Pick Beam ('b1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b1')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b1')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b1')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b1')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b1')
-|- Action 8 (BeamPlacementWithoutClampsAction): Place Beam ('b1') to final location without clamps
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b1')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b1')
+|- Action 6 (BeamPlacementWithoutClampsAction): Place Beam ('b1') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b1') to final location
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Advance to Final Frame of Beam ('b1')
 |  |- <x> Movement 2 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b1')
 |  |- <0> Movement 3 (RoboticLinearMovement): Linear retract after placing Beam ('b1')
-|- Action 9 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 7 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
@@ -54,62 +52,61 @@ Beam b1 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 
 Beam b2 assembly
-|- Action 10 (LoadBeamAction): Operator load Beam ('b2') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 11 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
+|- Action 8 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c4'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c4') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c4') from storage.
-|- Action 12 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b1-b2')
+|- Action 9 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b1-b2')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c4') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c4') on structure
-|- Action 13 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
+|- Action 10 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c3'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c3') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c3') from storage.
-|- Action 14 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b0-b2')
+|- Action 11 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b0-b2')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
-|- Action 15 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 12 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 16 (BeamPickupAction): Pick Beam ('b2') from Storage
+|- Action 13 (BeamPickupAction): Pick Beam ('b2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b2')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b2')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b2')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b2')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b2')
-|- Action 17 (BeamPlacementWithClampsAction): Place Beam ('b2') to Joint final location with clamps at ['b1-b2', 'b0-b2'] using Clamp ['c4', 'c3']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b2')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b2')
+|- Action 14 (BeamPlacementWithClampsAction): Place Beam ('b2') to Joint final location with clamps at ['b1-b2', 'b0-b2'] using Clamp ['c4', 'c3']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b2') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b2') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c4', 'c3']) close slightly to touch Beam ('b2')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b2')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b2')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b2')
-|- Action 18 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 15 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 19 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b1-b2')
+|- Action 16 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b1-b2')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c4') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c4') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
@@ -117,14 +114,14 @@ Beam b2 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c4') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c4') from structure.
-|- Action 20 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
+|- Action 17 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c4') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c4') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3M ('c4') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c4') in storage
-|- Action 21 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b0-b2')
+|- Action 18 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b0-b2')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c3') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
@@ -132,7 +129,7 @@ Beam b2 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c3') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c3') from structure.
-|- Action 22 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
+|- Action 19 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c3') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c3') in storage.
@@ -141,62 +138,61 @@ Beam b2 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c3') in storage
 
 Beam b3 assembly
-|- Action 23 (LoadBeamAction): Operator load Beam ('b3') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 24 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
+|- Action 20 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c3'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c3') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c3') from storage.
-|- Action 25 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b1-b3')
+|- Action 21 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b1-b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
-|- Action 26 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
+|- Action 22 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c4'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c4') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c4') from storage.
-|- Action 27 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b0-b3')
+|- Action 23 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b0-b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c4') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c4') on structure
-|- Action 28 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 24 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 29 (BeamPickupAction): Pick Beam ('b3') from Storage
+|- Action 25 (BeamPickupAction): Pick Beam ('b3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b3')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b3')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b3')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b3')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b3')
-|- Action 30 (BeamPlacementWithClampsAction): Place Beam ('b3') to Joint final location with clamps at ['b1-b3', 'b0-b3'] using Clamp ['c3', 'c4']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b3')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b3')
+|- Action 26 (BeamPlacementWithClampsAction): Place Beam ('b3') to Joint final location with clamps at ['b1-b3', 'b0-b3'] using Clamp ['c3', 'c4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b3') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b3') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c3', 'c4']) close slightly to touch Beam ('b3')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c3', 'c4']) syncronously move to clamp Beam ('b3')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b3')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b3')
-|- Action 31 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 27 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 32 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b1-b3')
+|- Action 28 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b1-b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c3') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
@@ -204,14 +200,14 @@ Beam b3 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c3') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c3') from structure.
-|- Action 33 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
+|- Action 29 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c3') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c3') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3M ('c3') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c3') in storage
-|- Action 34 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b0-b3')
+|- Action 30 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b0-b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c4') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c4') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
@@ -219,7 +215,7 @@ Beam b3 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c4') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c4') from structure.
-|- Action 35 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
+|- Action 31 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c4') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c4') in storage.
@@ -228,62 +224,61 @@ Beam b3 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c4') in storage
 
 Beam b4 assembly
-|- Action 36 (LoadBeamAction): Operator load Beam ('b4') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 37 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
+|- Action 32 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c1') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c1') from storage.
-|- Action 38 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b2-b4')
+|- Action 33 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b2-b4')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c1') on structure
-|- Action 39 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
+|- Action 34 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c2') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c2') from storage.
-|- Action 40 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b3-b4')
+|- Action 35 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b3-b4')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c2') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c2') on structure
-|- Action 41 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 36 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 42 (BeamPickupAction): Pick Beam ('b4') from Storage
+|- Action 37 (BeamPickupAction): Pick Beam ('b4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b4')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b4')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b4')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b4')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b4')
-|- Action 43 (BeamPlacementWithClampsAction): Place Beam ('b4') to Joint final location with clamps at ['b2-b4', 'b3-b4'] using Clamp ['c1', 'c2']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b4')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b4')
+|- Action 38 (BeamPlacementWithClampsAction): Place Beam ('b4') to Joint final location with clamps at ['b2-b4', 'b3-b4'] using Clamp ['c1', 'c2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b4') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b4') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c1', 'c2']) close slightly to touch Beam ('b4')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b4')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b4')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b4')
-|- Action 44 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 39 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 45 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b2-b4')
+|- Action 40 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b2-b4')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c1') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c1') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
@@ -291,14 +286,14 @@ Beam b4 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c1') from structure.
-|- Action 46 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
+|- Action 41 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c1') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c1') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3 ('c1') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c1') in storage
-|- Action 47 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b3-b4')
+|- Action 42 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b3-b4')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c2') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c2') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
@@ -306,7 +301,7 @@ Beam b4 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c2') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c2') from structure.
-|- Action 48 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
+|- Action 43 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c2') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c2') in storage.
@@ -315,26 +310,25 @@ Beam b4 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c2') in storage
 
 Beam b5 assembly
-|- Action 49 (LoadBeamAction): Operator load Beam ('b5') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 50 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 44 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 51 (BeamPickupAction): Pick Beam ('b5') from Storage
+|- Action 45 (BeamPickupAction): Pick Beam ('b5') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b5')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b5')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b5')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b5')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b5')
-|- Action 52 (BeamPlacementWithoutClampsAction): Place Beam ('b5') to final location without clamps
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b5')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b5')
+|- Action 46 (BeamPlacementWithoutClampsAction): Place Beam ('b5') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b5') to final location
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Advance to Final Frame of Beam ('b5')
 |  |- <x> Movement 2 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b5')
 |  |- <0> Movement 3 (RoboticLinearMovement): Linear retract after placing Beam ('b5')
-|- Action 53 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 47 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
@@ -342,62 +336,61 @@ Beam b5 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 
 Beam b6 assembly
-|- Action 54 (LoadBeamAction): Operator load Beam ('b6') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 55 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
+|- Action 48 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c2') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c2') from storage.
-|- Action 56 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b0-b6')
+|- Action 49 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b0-b6')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c2') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c2') on structure
-|- Action 57 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
+|- Action 50 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c1') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c1') from storage.
-|- Action 58 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b5-b6')
+|- Action 51 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b5-b6')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c1') on structure
-|- Action 59 (PickGripperFromStorageAction): Pick PG500 ('g1') from Storage
+|- Action 52 (PickGripperFromStorageAction): Pick PG500 ('g1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG500 ('g1'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG500 ('g1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG500 ('g1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG500 ('g1') from storage.
-|- Action 60 (BeamPickupAction): Pick Beam ('b6') from Storage
+|- Action 53 (BeamPickupAction): Pick Beam ('b6') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b6')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g1') Open Gripper before gripping Beam ('b6')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b6')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g1') Close Gripper to grip Beam ('b6')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b6')
-|- Action 61 (BeamPlacementWithClampsAction): Place Beam ('b6') to Joint final location with clamps at ['b0-b6', 'b5-b6'] using Clamp ['c2', 'c1']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g1') Close Gripper to grip Beam ('b6')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b6')
+|- Action 54 (BeamPlacementWithClampsAction): Place Beam ('b6') to Joint final location with clamps at ['b0-b6', 'b5-b6'] using Clamp ['c2', 'c1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b6') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b6') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c2', 'c1']) close slightly to touch Beam ('b6')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b6')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b6')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b6')
-|- Action 62 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
+|- Action 55 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG500 ('g1'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG500 ('g1') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG500 ('g1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG500 ('g1') in storage
-|- Action 63 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b0-b6')
+|- Action 56 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b0-b6')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c2') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c2') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
@@ -405,14 +398,14 @@ Beam b6 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c2') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c2') from structure.
-|- Action 64 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
+|- Action 57 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c2') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c2') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3 ('c2') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c2') in storage
-|- Action 65 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b5-b6')
+|- Action 58 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b5-b6')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c1') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c1') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
@@ -420,7 +413,7 @@ Beam b6 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c1') from structure.
-|- Action 66 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
+|- Action 59 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c1') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c1') in storage.
@@ -429,26 +422,25 @@ Beam b6 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c1') in storage
 
 Beam b7 assembly
-|- Action 67 (LoadBeamAction): Operator load Beam ('b7') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 68 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 60 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 69 (BeamPickupAction): Pick Beam ('b7') from Storage
+|- Action 61 (BeamPickupAction): Pick Beam ('b7') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b7')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b7')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b7')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b7')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b7')
-|- Action 70 (BeamPlacementWithoutClampsAction): Place Beam ('b7') to final location without clamps
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b7')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b7')
+|- Action 62 (BeamPlacementWithoutClampsAction): Place Beam ('b7') to final location without clamps
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b7') to final location
 |  |- <1> Movement 1 (RoboticLinearMovement): Linear Advance to Final Frame of Beam ('b7')
 |  |- <x> Movement 2 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b7')
 |  |- <0> Movement 3 (RoboticLinearMovement): Linear retract after placing Beam ('b7')
-|- Action 71 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 63 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
@@ -456,62 +448,61 @@ Beam b7 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 
 Beam b8 assembly
-|- Action 72 (LoadBeamAction): Operator load Beam ('b8') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 73 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
+|- Action 64 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c1') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c1') from storage.
-|- Action 74 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b1-b8')
+|- Action 65 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b1-b8')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c1') on structure
-|- Action 75 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
+|- Action 66 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c2') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c2') from storage.
-|- Action 76 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b7-b8')
+|- Action 67 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b7-b8')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c2') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c2') on structure
-|- Action 77 (PickGripperFromStorageAction): Pick PG500 ('g1') from Storage
+|- Action 68 (PickGripperFromStorageAction): Pick PG500 ('g1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG500 ('g1'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG500 ('g1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG500 ('g1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG500 ('g1') from storage.
-|- Action 78 (BeamPickupAction): Pick Beam ('b8') from Storage
+|- Action 69 (BeamPickupAction): Pick Beam ('b8') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b8')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g1') Open Gripper before gripping Beam ('b8')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b8')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g1') Close Gripper to grip Beam ('b8')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b8')
-|- Action 79 (BeamPlacementWithClampsAction): Place Beam ('b8') to Joint final location with clamps at ['b1-b8', 'b7-b8'] using Clamp ['c1', 'c2']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g1') Close Gripper to grip Beam ('b8')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b8')
+|- Action 70 (BeamPlacementWithClampsAction): Place Beam ('b8') to Joint final location with clamps at ['b1-b8', 'b7-b8'] using Clamp ['c1', 'c2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b8') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b8') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c1', 'c2']) close slightly to touch Beam ('b8')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b8')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b8')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b8')
-|- Action 80 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
+|- Action 71 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG500 ('g1'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG500 ('g1') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG500 ('g1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG500 ('g1') in storage
-|- Action 81 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b1-b8')
+|- Action 72 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b1-b8')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c1') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c1') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
@@ -519,14 +510,14 @@ Beam b8 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c1') from structure.
-|- Action 82 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
+|- Action 73 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c1') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c1') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3 ('c1') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c1') in storage
-|- Action 83 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b7-b8')
+|- Action 74 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b7-b8')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c2') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c2') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
@@ -534,7 +525,7 @@ Beam b8 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c2') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c2') from structure.
-|- Action 84 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
+|- Action 75 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c2') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c2') in storage.
@@ -543,62 +534,61 @@ Beam b8 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c2') in storage
 
 Beam b9 assembly
-|- Action 85 (LoadBeamAction): Operator load Beam ('b9') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 86 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
+|- Action 76 (PickClampFromStorageAction): Pick CL3 ('c2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c2') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c2') from storage.
-|- Action 87 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b7-b9')
+|- Action 77 (PlaceClampToStructureAction): Place CL3 ('c2') to Joint ('b7-b9')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c2') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c2') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c2') on structure
-|- Action 88 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
+|- Action 78 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3 ('c1'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3 ('c1') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3 ('c1') from storage.
-|- Action 89 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b5-b9')
+|- Action 79 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b5-b9')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c1') on structure
-|- Action 90 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 80 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 91 (BeamPickupAction): Pick Beam ('b9') from Storage
+|- Action 81 (BeamPickupAction): Pick Beam ('b9') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b9')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b9')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b9')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b9')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b9')
-|- Action 92 (BeamPlacementWithClampsAction): Place Beam ('b9') to Joint final location with clamps at ['b7-b9', 'b5-b9'] using Clamp ['c2', 'c1']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b9')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b9')
+|- Action 82 (BeamPlacementWithClampsAction): Place Beam ('b9') to Joint final location with clamps at ['b7-b9', 'b5-b9'] using Clamp ['c2', 'c1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b9') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b9') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c2', 'c1']) close slightly to touch Beam ('b9')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b9')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b9')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b9')
-|- Action 93 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 83 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 94 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b7-b9')
+|- Action 84 (PickClampFromStructureAction): Pick CL3 ('c2') from Joint ('b7-b9')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c2') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c2') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c2')
@@ -606,14 +596,14 @@ Beam b9 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c2') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c2') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c2') from structure.
-|- Action 95 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
+|- Action 85 (PlaceClampToStorageAction): Place CL3 ('c2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c2'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c2') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c2') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3 ('c2') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c2')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c2') in storage
-|- Action 96 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b5-b9')
+|- Action 86 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b5-b9')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c1') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3 ('c1') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
@@ -621,7 +611,7 @@ Beam b9 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3 ('c1') from structure.
-|- Action 97 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
+|- Action 87 (PlaceClampToStorageAction): Place CL3 ('c1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3 ('c1') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3 ('c1') in storage.
@@ -630,62 +620,61 @@ Beam b9 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3 ('c1') in storage
 
 Beam b10 assembly
-|- Action 98 (LoadBeamAction): Operator load Beam ('b10') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 99 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
+|- Action 88 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c4'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c4') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c4') from storage.
-|- Action 100 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b7-b10')
+|- Action 89 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b7-b10')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c4') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c4') on structure
-|- Action 101 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
+|- Action 90 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c3'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c3') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c3') from storage.
-|- Action 102 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b5-b10')
+|- Action 91 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b5-b10')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
-|- Action 103 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 92 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 104 (BeamPickupAction): Pick Beam ('b10') from Storage
+|- Action 93 (BeamPickupAction): Pick Beam ('b10') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b10')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b10')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b10')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b10')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b10')
-|- Action 105 (BeamPlacementWithClampsAction): Place Beam ('b10') to Joint final location with clamps at ['b7-b10', 'b5-b10'] using Clamp ['c4', 'c3']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b10')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b10')
+|- Action 94 (BeamPlacementWithClampsAction): Place Beam ('b10') to Joint final location with clamps at ['b7-b10', 'b5-b10'] using Clamp ['c4', 'c3']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b10') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b10') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c4', 'c3']) close slightly to touch Beam ('b10')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b10')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b10')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b10')
-|- Action 106 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 95 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 107 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b7-b10')
+|- Action 96 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b7-b10')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c4') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c4') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
@@ -693,14 +682,14 @@ Beam b10 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c4') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c4') from structure.
-|- Action 108 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
+|- Action 97 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c4') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c4') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3M ('c4') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c4') in storage
-|- Action 109 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b5-b10')
+|- Action 98 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b5-b10')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c3') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
@@ -708,7 +697,7 @@ Beam b10 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c3') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c3') from structure.
-|- Action 110 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
+|- Action 99 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c3') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c3') in storage.
@@ -717,62 +706,61 @@ Beam b10 assembly
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c3') in storage
 
 Beam b11 assembly
-|- Action 111 (LoadBeamAction): Operator load Beam ('b11') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
-|- Action 112 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
+|- Action 100 (PickClampFromStorageAction): Pick CL3M ('c3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c3'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c3') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c3') from storage.
-|- Action 113 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b10-b11')
+|- Action 101 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b10-b11')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
-|- Action 114 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
+|- Action 102 (PickClampFromStorageAction): Pick CL3M ('c4') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to get clamp.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of CL3M ('c4'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 of 2 after getting CL3M ('c4') from storage.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 of 2 after getting CL3M ('c4') from storage.
-|- Action 115 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b9-b11')
+|- Action 103 (PlaceClampToStructureAction): Place CL3M ('c4') to Joint ('b9-b11')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c4') to structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3M ('c4') Close Gripper and attach to structure.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c4').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c4') on structure
-|- Action 116 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|- Action 104 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
 |  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
-|- Action 117 (BeamPickupAction): Pick Beam ('b11') from Storage
+|- Action 105 (BeamPickupAction): Pick Beam ('b11') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b11')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b11')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b11')
-|  |- <x> Movement 3 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b11')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after picking up Beam ('b11')
-|- Action 118 (BeamPlacementWithClampsAction): Place Beam ('b11') to Joint final location with clamps at ['b10-b11', 'b9-b11'] using Clamp ['c3', 'c4']
+|  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
+|  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b11')
+|  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b11')
+|- Action 106 (BeamPlacementWithClampsAction): Place Beam ('b11') to Joint final location with clamps at ['b10-b11', 'b9-b11'] using Clamp ['c3', 'c4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b11') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b11') into clamp jaws
 |  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c3', 'c4']) close slightly to touch Beam ('b11')
 |  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c3', 'c4']) syncronously move to clamp Beam ('b11')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b11')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b11')
-|- Action 119 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|- Action 107 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 120 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b10-b11')
+|- Action 108 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b10-b11')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c3') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
@@ -780,14 +768,14 @@ Beam b11 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c3') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c3') from structure.
-|- Action 121 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
+|- Action 109 (PlaceClampToStorageAction): Place CL3M ('c3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c3'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c3') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c3') in storage.
 |  |- <x> Movement 3 (RoboticDigitalOutput): Close Gripper to lock CL3M ('c3') onto storage pad.
 |  |- <x> Movement 4 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract from storage after placing CL3M ('c3') in storage
-|- Action 122 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b9-b11')
+|- Action 110 (PickClampFromStructureAction): Pick CL3M ('c4') from Joint ('b9-b11')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c4') to detach it from structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to mate toolchanger of CL3M ('c4') to detach it from structure.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c4')
@@ -795,7 +783,7 @@ Beam b11 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c4') Open Gripper to be released from structure.
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 1 of 2 from storage after picking up CL3M ('c4') from structure.
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 2 of 2 from storage after picking up CL3M ('c4') from structure.
-|- Action 123 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
+|- Action 111 (PlaceClampToStorageAction): Place CL3M ('c4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of CL3M ('c4'), to place clamp in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Approach 1 of 2 to place CL3M ('c4') in storage.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 2 of 2 to place CL3M ('c4') in storage.
