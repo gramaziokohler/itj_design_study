@@ -93,11 +93,11 @@ Beam b2 assembly
 |  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
 |  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b2')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b2')
-|- Action 14 (BeamPlacementWithClampsAction): Place Beam ('b2') to Joint final location with clamps at ['b1-b2', 'b0-b2'] using Clamp ['c4', 'c3']
+|- Action 14 (BeamPlacementWithClampsAction): Place Beam ('b2') to Joint final location with clamps at ['b1-b2', 'b0-b2'] using Clamp ['c3', 'c4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b2') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b2') into clamp jaws
-|  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c4', 'c3']) close slightly to touch Beam ('b2')
-|  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b2')
+|  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c3', 'c4']) close slightly to touch Beam ('b2')
+|  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c3', 'c4']) syncronously move to clamp Beam ('b2')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b2')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b2')
 |- Action 15 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
@@ -291,11 +291,11 @@ Beam b6 assembly
 |  |- <x> Movement 3 (OperatorLoadBeamMovement): Opeartor Load Beam to Pickup Location
 |  |- <x> Movement 4 (RoboticDigitalOutput): Gripper ('g1') Close Gripper to grip Beam ('b6')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract after picking up Beam ('b6')
-|- Action 42 (BeamPlacementWithClampsAction): Place Beam ('b6') to Joint final location with clamps at ['b0-b6', 'b5-b6'] using Clamp ['c2', 'c1']
+|- Action 42 (BeamPlacementWithClampsAction): Place Beam ('b6') to Joint final location with clamps at ['b0-b6', 'b5-b6'] using Clamp ['c1', 'c2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b6') to approach clamps on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Beam ('b6') into clamp jaws
-|  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c2', 'c1']) close slightly to touch Beam ('b6')
-|  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b6')
+|  |- <x> Movement 2 (ClampsJawMovement): Clamps (['c1', 'c2']) close slightly to touch Beam ('b6')
+|  |- <1> Movement 3 (RoboticClampSyncLinearMovement): Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b6')
 |  |- <x> Movement 4 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b6')
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear retract after placing Beam ('b6')
 |- Action 43 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
