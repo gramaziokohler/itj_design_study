@@ -155,8 +155,9 @@ Beam b3 assembly
 |  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b3) to Pickup Location
 |- Action 26 (CloseGripperOnBeamAction): Gripper (g2) close gripper on Beam ('b3')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b3')
-|- Action 27 (GenericFreeMoveBeamWithGripperAction): Reorient Beam ('b3') using Gripper (g2)
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reorient Beam ('b3')
+|- Action 27 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b3') using Gripper (g2)
+|  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b3')
+|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b3')
 |- Action 28 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b1-b3) of Beam (b3).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b1-b3) of Beam (b3).
 |- Action 29 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b0-b3) of Beam (b3).
@@ -450,8 +451,9 @@ Beam b4 assembly
 |  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b4) to Pickup Location
 |- Action 78 (CloseGripperOnBeamAction): Gripper (s1) close gripper on Beam ('b4')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('s1') Close Gripper to grip Beam ('b4')
-|- Action 79 (GenericFreeMoveBeamWithGripperAction): Reorient Beam ('b4') using Gripper (s1)
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reorient Beam ('b4')
+|- Action 79 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b4') using Gripper (s1)
+|  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b4')
+|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b4')
 |- Action 80 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b5-b4) of Beam (b4).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s2') to Joint (b5-b4) of Beam (b4).
 |- Action 81 (AssembleBeamWithScrewdriversAction): Place Beam ('b4') to Joint final location with clamps at ['b7-b4', 'b5-b4'] using Clamp ['s1', 's2']
