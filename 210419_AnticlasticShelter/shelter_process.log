@@ -1184,14 +1184,14 @@ Beam b22 assembly
 |- Action 275 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b22') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b22')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b22')
-|- Action 276 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b22) of Beam (b22).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b22) of Beam (b22).
+|- Action 276 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b16-b22) of Beam (b22).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b16-b22) of Beam (b22).
 |- Action 277 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b22) of Beam (b22).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s2') to Joint (b14-b22) of Beam (b22).
-|- Action 278 (AssembleBeamWithScrewdriversAction): Place Beam ('b22') to Joint final location with clamps at ['b16-b22', 'b15-b22', 'b14-b22'] using Clamp ['s4', 's1', 's2']
+|- Action 278 (AssembleBeamWithScrewdriversAction): Place Beam ('b22') to Joint final location with clamps at ['b16-b22', 'b15-b22', 'b14-b22'] using Clamp ['s1', 's4', 's2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b22') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b22')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4', 's2']) syncronously move to screw Beam ('b22')
 |- Action 279 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b22')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b22')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b22')
@@ -1306,14 +1306,14 @@ Beam b24 assembly
 |- Action 303 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b24') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b24')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b24')
-|- Action 304 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b21-b24) of Beam (b24).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b21-b24) of Beam (b24).
-|- Action 305 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b20-b24) of Beam (b24).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s2') to Joint (b20-b24) of Beam (b24).
-|- Action 306 (AssembleBeamWithScrewdriversAction): Place Beam ('b24') to Joint final location with clamps at ['b19-b24', 'b21-b24', 'b20-b24'] using Clamp ['s4', 's1', 's2']
+|- Action 304 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b24) of Beam (b24).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b24) of Beam (b24).
+|- Action 305 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b24) of Beam (b24).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s2') to Joint (b21-b24) of Beam (b24).
+|- Action 306 (AssembleBeamWithScrewdriversAction): Place Beam ('b24') to Joint final location with clamps at ['b19-b24', 'b21-b24', 'b20-b24'] using Clamp ['s1', 's2', 's4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b24') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b24')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b24')
 |- Action 307 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b24')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b24')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b24')
@@ -1376,12 +1376,12 @@ Beam b27 assembly
 |- Action 319 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b27') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b27')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b27')
-|- Action 320 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b14-b27) of Beam (b27).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b14-b27) of Beam (b27).
-|- Action 321 (AssembleBeamWithScrewdriversAction): Place Beam ('b27') to Joint final location with clamps at ['b15-b27', 'b14-b27'] using Clamp ['s4', 's1']
+|- Action 320 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b27) of Beam (b27).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b27) of Beam (b27).
+|- Action 321 (AssembleBeamWithScrewdriversAction): Place Beam ('b27') to Joint final location with clamps at ['b15-b27', 'b14-b27'] using Clamp ['s1', 's4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b27') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b27')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b27')
 |- Action 322 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b27')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b27')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b27')
@@ -1480,14 +1480,14 @@ Beam b30 assembly
 |- Action 343 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b30') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b30')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b30')
-|- Action 344 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b30) of Beam (b30).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b30) of Beam (b30).
+|- Action 344 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b16-b30) of Beam (b30).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b16-b30) of Beam (b30).
 |- Action 345 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b30) of Beam (b30).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s2') to Joint (b14-b30) of Beam (b30).
-|- Action 346 (AssembleBeamWithScrewdriversAction): Place Beam ('b30') to Joint final location with clamps at ['b16-b30', 'b15-b30', 'b14-b30'] using Clamp ['s4', 's1', 's2']
+|- Action 346 (AssembleBeamWithScrewdriversAction): Place Beam ('b30') to Joint final location with clamps at ['b16-b30', 'b15-b30', 'b14-b30'] using Clamp ['s1', 's4', 's2']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b30') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b30')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4', 's2']) syncronously move to screw Beam ('b30')
 |- Action 347 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b30')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b30')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b30')
@@ -1602,12 +1602,12 @@ Beam b12 assembly
 |- Action 371 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b12') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b12')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b12')
-|- Action 372 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b10-b12) of Beam (b12).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b10-b12) of Beam (b12).
-|- Action 373 (AssembleBeamWithScrewdriversAction): Place Beam ('b12') to Joint final location with clamps at ['b2-b12', 'b10-b12'] using Clamp ['s4', 's1']
+|- Action 372 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b2-b12) of Beam (b12).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b2-b12) of Beam (b12).
+|- Action 373 (AssembleBeamWithScrewdriversAction): Place Beam ('b12') to Joint final location with clamps at ['b2-b12', 'b10-b12'] using Clamp ['s1', 's4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b12') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b12')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b12')
 |- Action 374 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b12')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b12')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b12')
@@ -1654,12 +1654,12 @@ Beam b7 assembly
 |- Action 383 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b7') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b7')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b7')
-|- Action 384 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b5-b7) of Beam (b7).
-|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b5-b7) of Beam (b7).
-|- Action 385 (AssembleBeamWithScrewdriversAction): Place Beam ('b7') to Joint final location with clamps at ['b2-b7', 'b5-b7'] using Clamp ['s4', 's1']
+|- Action 384 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b2-b7) of Beam (b7).
+|  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b2-b7) of Beam (b7).
+|- Action 385 (AssembleBeamWithScrewdriversAction): Place Beam ('b7') to Joint final location with clamps at ['b2-b7', 'b5-b7'] using Clamp ['s1', 's4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b7') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b7')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b7')
 |- Action 386 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b7')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b7')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b7')
