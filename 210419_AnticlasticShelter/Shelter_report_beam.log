@@ -1,0 +1,429 @@
+{
+    "attributes": [
+        {
+            "assembly_type_counter": {
+                "GroundContact": 3, 
+                "ScrewedWithGripper": 20, 
+                "ScrewedWithoutGripper": 34
+            }, 
+            "beam_size_counter": {
+                "100 x 100": 42, 
+                "100 x 120": 13, 
+                "100 x 140": 2
+            }
+        }
+    ], 
+    "beam_ids": [
+        [
+            "b0", 
+            "b1", 
+            "b2", 
+            "b3", 
+            "b4", 
+            "b5", 
+            "b6", 
+            "b7", 
+            "b8", 
+            "b9", 
+            "b10", 
+            "b11", 
+            "b12", 
+            "b13", 
+            "b14", 
+            "b15", 
+            "b16", 
+            "b17", 
+            "b18", 
+            "b19", 
+            "b20", 
+            "b21", 
+            "b22", 
+            "b23", 
+            "b24", 
+            "b25", 
+            "b26", 
+            "b27", 
+            "b28", 
+            "b29", 
+            "b30", 
+            "b31", 
+            "b32", 
+            "b33", 
+            "b34", 
+            "b35", 
+            "b36", 
+            "b37", 
+            "b38", 
+            "b39", 
+            "b40", 
+            "b41", 
+            "b42", 
+            "b43", 
+            "b44", 
+            "b45", 
+            "b46", 
+            "b47", 
+            "b48", 
+            "b49", 
+            "b50", 
+            "b51", 
+            "b52", 
+            "b53", 
+            "b54", 
+            "b55", 
+            "b56"
+        ]
+    ], 
+    "error": [
+        {}
+    ], 
+    "info": [
+        {
+            "b0": [
+                "Size = 100 x 120, Length = 2251.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = GroundContact", 
+                "Number of Joints (# to previous elements) = 2 (0)"
+            ], 
+            "b1": [
+                "Size = 100 x 120, Length = 2251.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = GroundContact", 
+                "Number of Joints (# to previous elements) = 3 (0)"
+            ], 
+            "b10": [
+                "Size = 100 x 100, Length = 1741.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b11": [
+                "Size = 100 x 100, Length = 2447.0", 
+                "Estimated Weight = 12.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 4 (1)"
+            ], 
+            "b12": [
+                "Size = 100 x 120, Length = 3475.0", 
+                "Estimated Weight = 21.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b13": [
+                "Size = 100 x 100, Length = 1359.0", 
+                "Estimated Weight = 7.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b14": [
+                "Size = 100 x 140, Length = 5792.0", 
+                "Estimated Weight = 41.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 14 (3)"
+            ], 
+            "b15": [
+                "Size = 100 x 140, Length = 5497.0", 
+                "Estimated Weight = 38.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 10 (2)"
+            ], 
+            "b16": [
+                "Size = 100 x 100, Length = 1649.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b17": [
+                "Size = 100 x 100, Length = 1938.0", 
+                "Estimated Weight = 10.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b18": [
+                "Size = 100 x 100, Length = 2227.0", 
+                "Estimated Weight = 11.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b19": [
+                "Size = 100 x 120, Length = 4701.0", 
+                "Estimated Weight = 28.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b2": [
+                "Size = 100 x 120, Length = 2251.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = GroundContact", 
+                "Number of Joints (# to previous elements) = 4 (0)"
+            ], 
+            "b20": [
+                "Size = 100 x 120, Length = 4134.0", 
+                "Estimated Weight = 25.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b21": [
+                "Size = 100 x 120, Length = 3735.0", 
+                "Estimated Weight = 22.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b22": [
+                "Size = 100 x 120, Length = 3555.0", 
+                "Estimated Weight = 21.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b23": [
+                "Size = 100 x 120, Length = 3678.0", 
+                "Estimated Weight = 22.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b24": [
+                "Size = 100 x 120, Length = 4036.0", 
+                "Estimated Weight = 24.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b25": [
+                "Size = 100 x 120, Length = 4572.0", 
+                "Estimated Weight = 27.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b26": [
+                "Size = 100 x 120, Length = 5233.0", 
+                "Estimated Weight = 31.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 12 (2)"
+            ], 
+            "b27": [
+                "Size = 100 x 100, Length = 2417.0", 
+                "Estimated Weight = 12.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b28": [
+                "Size = 100 x 100, Length = 1452.0", 
+                "Estimated Weight = 7.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b29": [
+                "Size = 100 x 100, Length = 2631.0", 
+                "Estimated Weight = 13.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b3": [
+                "Size = 100 x 100, Length = 500.0", 
+                "Estimated Weight = 3.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 1 (1)"
+            ], 
+            "b30": [
+                "Size = 100 x 100, Length = 1773.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b31": [
+                "Size = 100 x 100, Length = 3074.0", 
+                "Estimated Weight = 15.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 4 (4)"
+            ], 
+            "b32": [
+                "Size = 100 x 100, Length = 2061.0", 
+                "Estimated Weight = 10.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b33": [
+                "Size = 100 x 100, Length = 2711.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b34": [
+                "Size = 100 x 100, Length = 1611.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b35": [
+                "Size = 100 x 100, Length = 3083.0", 
+                "Estimated Weight = 15.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b36": [
+                "Size = 100 x 100, Length = 1602.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b37": [
+                "Size = 100 x 100, Length = 2833.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 4 (4)"
+            ], 
+            "b38": [
+                "Size = 100 x 100, Length = 1754.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b39": [
+                "Size = 100 x 100, Length = 2256.0", 
+                "Estimated Weight = 11.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b4": [
+                "Size = 100 x 100, Length = 1232.0", 
+                "Estimated Weight = 6.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (1)"
+            ], 
+            "b40": [
+                "Size = 100 x 100, Length = 1375.0", 
+                "Estimated Weight = 7.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b41": [
+                "Size = 100 x 100, Length = 2356.0", 
+                "Estimated Weight = 12.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b42": [
+                "Size = 100 x 100, Length = 1537.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b43": [
+                "Size = 100 x 100, Length = 2774.0", 
+                "Estimated Weight = 14.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 4 (4)"
+            ], 
+            "b44": [
+                "Size = 100 x 100, Length = 1591.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b45": [
+                "Size = 100 x 100, Length = 2272.0", 
+                "Estimated Weight = 11.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b46": [
+                "Size = 100 x 100, Length = 1394.0", 
+                "Estimated Weight = 7.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b47": [
+                "Size = 100 x 100, Length = 2267.0", 
+                "Estimated Weight = 11.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b48": [
+                "Size = 100 x 100, Length = 1610.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b49": [
+                "Size = 100 x 100, Length = 2909.0", 
+                "Estimated Weight = 15.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 4 (4)"
+            ], 
+            "b5": [
+                "Size = 100 x 100, Length = 1810.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 3 (1)"
+            ], 
+            "b50": [
+                "Size = 100 x 100, Length = 1540.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b51": [
+                "Size = 100 x 100, Length = 2450.0", 
+                "Estimated Weight = 12.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b52": [
+                "Size = 100 x 100, Length = 1506.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b53": [
+                "Size = 100 x 100, Length = 2314.0", 
+                "Estimated Weight = 12.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 3 (3)"
+            ], 
+            "b54": [
+                "Size = 100 x 100, Length = 1777.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b55": [
+                "Size = 100 x 100, Length = 3212.0", 
+                "Estimated Weight = 16.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 4 (4)"
+            ], 
+            "b56": [
+                "Size = 100 x 100, Length = 1562.0", 
+                "Estimated Weight = 8.0kg", 
+                "Assembly Method = ScrewedWithoutGripper", 
+                "Number of Joints (# to previous elements) = 2 (2)"
+            ], 
+            "b6": [
+                "Size = 100 x 100, Length = 2967.0", 
+                "Estimated Weight = 15.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 4 (1)"
+            ], 
+            "b7": [
+                "Size = 100 x 120, Length = 4700.0", 
+                "Estimated Weight = 28.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 6 (3)"
+            ], 
+            "b8": [
+                "Size = 100 x 100, Length = 2286.0", 
+                "Estimated Weight = 11.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 3 (2)"
+            ], 
+            "b9": [
+                "Size = 100 x 100, Length = 1750.0", 
+                "Estimated Weight = 9.0kg", 
+                "Assembly Method = ScrewedWithGripper", 
+                "Number of Joints (# to previous elements) = 4 (1)"
+            ]
+        }
+    ], 
+    "warn": [
+        {}
+    ]
+}

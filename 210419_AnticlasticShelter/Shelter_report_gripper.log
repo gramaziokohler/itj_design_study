@@ -1,6 +1,21 @@
 {
     "attributes": [
-        {}
+        {
+            "gripper_id_num_of_times_used": {
+                "g1": 3, 
+                "g2": 13, 
+                "g3": 7, 
+                "s1": 1, 
+                "s4": 33
+            }, 
+            "gripper_type_num_of_times_used": {
+                "PG1000": 13, 
+                "PG1500": 7, 
+                "PG500": 3, 
+                "SL1": 1, 
+                "SL1_G200": 33
+            }
+        }
     ], 
     "beam_ids": [
         [
