@@ -1,0 +1,83 @@
+2021-09-28 14:47:00,477 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b20!
+2021-09-28 14:54:52,622 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b20!
+2021-09-28 14:56:07,067 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b20!
+2021-09-28 15:11:28,496 | INFO | A plan has been found for beam id b20!
+2021-09-28 15:12:17,243 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b15!
+2021-09-28 15:19:26,004 | INFO | A plan has been found for beam id b15!
+2021-09-28 15:28:27,308 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[21, 25], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 15:28:52,558 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[33], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 15:39:14,020 | INFO | A plan has been found for beam id b33!
+2021-09-28 15:52:27,904 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[35], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 15:52:41,632 | INFO | A plan NOT found using nonlinear planning at stage 2 for beam b35!
+2021-09-28 16:07:26,471 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b35!
+2021-09-28 16:07:34,505 | INFO | A plan NOT found using nonlinear planning at stage 2 for beam b35!
+2021-09-28 16:19:35,223 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b35!
+2021-09-28 16:23:19,689 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[35], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 16:23:35,199 | INFO | A plan NOT found using nonlinear planning at stage 2 for beam b35!
+2021-09-28 16:39:58,868 | INFO | A plan has been found for beam id b35!
+2021-09-28 19:06:29,965 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[54], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 19:10:00,433 | INFO | A plan has been found for beam id b54!
+2021-09-28 19:21:26,933 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[56], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-28 19:27:24,130 | INFO | A plan has been found for beam id b56!
+2021-09-29 00:13:47,539 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[21, 29], smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-29 00:25:19,942 | INFO | A plan has been found for beam id b21!
+2021-09-29 00:25:24,004 | INFO | A plan NOT found using nonlinear planning at stage 2 for beam b22!
+2021-09-29 00:25:42,657 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[21, 29], smooth=False, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-29 00:26:01,631 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[22, 29], smooth=False, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-29 00:29:48,614 | INFO | A plan has been found for beam id b22!
+2021-09-29 00:29:55,912 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b23!
+2021-09-29 00:41:30,902 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b23!
+2021-09-29 00:52:46,449 | INFO | A plan has been found for beam id b23!
+2021-09-29 01:05:29,570 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b24!
+2021-09-29 01:13:37,621 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b24!
+2021-09-29 01:24:46,982 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 01:25:00,112 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b25!
+2021-09-29 01:34:43,238 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 01:43:39,952 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b26!
+2021-09-29 01:57:03,018 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b26!
+2021-09-29 01:59:58,855 | INFO | A plan has been found for beam id b27!
+2021-09-29 02:05:11,115 | INFO | A plan has been found for beam id b28!
+2021-09-29 02:05:44,922 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[29, 50], smooth=False, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-29 02:13:27,623 | INFO | A plan has been found for beam id b29!
+2021-09-29 02:16:18,729 | INFO | A plan has been found for beam id b30!
+2021-09-29 02:31:40,529 | INFO | A plan has been found for beam id b31!
+2021-09-29 02:36:36,617 | INFO | A plan has been found for beam id b32!
+2021-09-29 02:41:46,535 | INFO | A plan has been found for beam id b33!
+2021-09-29 02:46:50,513 | INFO | A plan has been found for beam id b34!
+2021-09-29 02:54:19,914 | INFO | A plan has been found for beam id b35!
+2021-09-29 02:54:22,854 | INFO | A plan NOT found using nonlinear planning at stage 1 for beam b36!
+2021-09-29 02:54:34,530 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b36!
+2021-09-29 02:56:36,637 | INFO | A plan has been found for beam id b36!
+2021-09-29 02:56:52,658 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b37!
+2021-09-29 03:08:05,443 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b37!
+2021-09-29 03:19:34,062 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b37!
+2021-09-29 03:26:56,009 | INFO | A plan has been found for beam id b38!
+2021-09-29 03:30:01,557 | INFO | A plan has been found for beam id b39!
+2021-09-29 03:40:58,950 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b40!
+2021-09-29 03:42:57,618 | INFO | A plan has been found for beam id b40!
+2021-09-29 03:55:56,454 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b41!
+2021-09-29 03:59:49,553 | INFO | A plan has been found for beam id b41!
+2021-09-29 04:01:50,361 | INFO | A plan has been found for beam id b42!
+2021-09-29 04:02:05,175 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b43!
+2021-09-29 04:08:10,712 | INFO | A plan has been found for beam id b43!
+2021-09-29 04:08:15,357 | INFO | A plan NOT found using nonlinear planning at stage 2 for beam b44!
+2021-09-29 04:18:38,152 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b44!
+2021-09-29 04:23:03,571 | INFO | A plan has been found for beam id b44!
+2021-09-29 04:24:26,199 | INFO | A plan has been found for beam id b45!
+2021-09-29 04:26:31,869 | INFO | A plan has been found for beam id b46!
+2021-09-29 04:36:53,525 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b47!
+2021-09-29 04:41:38,243 | INFO | A plan has been found for beam id b47!
+2021-09-29 04:44:02,949 | INFO | A plan has been found for beam id b48!
+2021-09-29 04:47:52,294 | INFO | A plan has been found for beam id b49!
+2021-09-29 04:52:19,850 | INFO | A plan has been found for beam id b50!
+2021-09-29 10:29:38,413 | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_AnticlasticShelter', diagnosis=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, problem='shelter_process.json', problem_subdir='.', reinit_tool=True, seq_n=[24, 26], smooth=False, solve_mode='nonlinear', solve_timeout=2400.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-09-29 10:29:55,657 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b24!
+2021-09-29 10:36:01,045 | INFO | A plan has been found for beam id b24!
+2021-09-29 10:45:35,390 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 10:53:42,190 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 10:56:41,069 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 11:07:14,439 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 11:07:23,813 | INFO | A plan NOT found using nonlinear planning at stage 3 for beam b25!
+2021-09-29 11:21:28,445 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b25!
+2021-09-29 11:33:21,112 | INFO | A plan NOT found using nonlinear planning at stage 4 for beam b26!
+2021-09-29 11:42:01,951 | INFO | A plan has been found for beam id b26!
