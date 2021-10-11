@@ -4,3 +4,4 @@
 *.tmp
 */export/backups/*.3db
 *.stlbak
+*.bak
