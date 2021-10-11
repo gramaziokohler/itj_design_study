@@ -3,3 +3,4 @@
 *.3dm_tmp
 *.tmp
 */export/backups/*.3db
+*.stlbak
