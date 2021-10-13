@@ -1,0 +1,266 @@
+{
+    "attributes": [
+        {
+            "gripper_id_num_of_times_used": {
+                "g1": 3, 
+                "g2": 13, 
+                "g3": 7, 
+                "s1": 1, 
+                "s4": 33
+            }, 
+            "gripper_type_num_of_times_used": {
+                "PG1000": 13, 
+                "PG1500": 7, 
+                "PG500": 3, 
+                "SL1": 1, 
+                "SL1_G200": 33
+            }
+        }
+    ], 
+    "beam_ids": [
+        [
+            "b0", 
+            "b1", 
+            "b2", 
+            "b3", 
+            "b4", 
+            "b5", 
+            "b6", 
+            "b7", 
+            "b8", 
+            "b9", 
+            "b10", 
+            "b11", 
+            "b12", 
+            "b13", 
+            "b14", 
+            "b15", 
+            "b16", 
+            "b17", 
+            "b18", 
+            "b19", 
+            "b20", 
+            "b21", 
+            "b22", 
+            "b23", 
+            "b24", 
+            "b25", 
+            "b26", 
+            "b27", 
+            "b28", 
+            "b29", 
+            "b30", 
+            "b31", 
+            "b32", 
+            "b33", 
+            "b34", 
+            "b35", 
+            "b36", 
+            "b37", 
+            "b38", 
+            "b39", 
+            "b40", 
+            "b41", 
+            "b42", 
+            "b43", 
+            "b44", 
+            "b45", 
+            "b46", 
+            "b47", 
+            "b48", 
+            "b49", 
+            "b50", 
+            "b51", 
+            "b52", 
+            "b53", 
+            "b54", 
+            "b55", 
+            "b56"
+        ]
+    ], 
+    "error": [
+        {}
+    ], 
+    "info": [
+        {
+            "b0": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b1": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b10": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b11": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b12": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b13": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b14": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b15": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b16": [
+                "Gripper Type (id): PG500 (g1)"
+            ], 
+            "b17": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b18": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b19": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b2": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b20": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b21": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b22": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b23": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b24": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b25": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b26": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b27": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b28": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b29": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b3": [
+                "Gripper Type (id): SL1 (s1)"
+            ], 
+            "b30": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b31": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b32": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b33": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b34": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b35": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b36": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b37": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b38": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b39": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b4": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b40": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b41": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b42": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b43": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b44": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b45": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b46": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b47": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b48": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b49": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b5": [
+                "Gripper Type (id): PG500 (g1)"
+            ], 
+            "b50": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b51": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b52": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b53": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b54": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b55": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b56": [
+                "Gripper Type (id): SL1_G200 (s4)"
+            ], 
+            "b6": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b7": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b8": [
+                "Gripper Type (id): PG1000 (g2)"
+            ], 
+            "b9": [
+                "Gripper Type (id): PG500 (g1)"
+            ]
+        }
+    ], 
+    "warn": [
+        {
+            "b3": [
+                "beam.length (500.000000000) is outside Gripper Limits: [500 , 5000]"
+            ]
+        }
+    ]
+}
