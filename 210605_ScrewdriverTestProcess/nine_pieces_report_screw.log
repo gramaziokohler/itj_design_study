@@ -1,0 +1,78 @@
+{
+    "attributes": [
+        {
+            "beam_with_screw_counter": {
+                "beam_no_screws": 9, 
+                "beam_with_screws": 2
+            }, 
+            "screw_counter": {
+                "SL40_40": 4
+            }, 
+            "screw_thickness_counter": {
+                "SL40_40 ms_thickness 30.0mm": 1, 
+                "SL40_40 ms_thickness 40.0mm": 1, 
+                "SL40_40 ms_thickness 50.0mm": 2
+            }
+        }
+    ], 
+    "beam_ids": [
+        [
+            "b0", 
+            "b9", 
+            "b1", 
+            "b10", 
+            "b2", 
+            "b3", 
+            "b5", 
+            "b6", 
+            "b7", 
+            "b8", 
+            "b4"
+        ]
+    ], 
+    "error": [
+        {}
+    ], 
+    "info": [
+        {
+            "b0": [
+                "Beam is not assembled by screws."
+            ], 
+            "b1": [
+                "Beam is not assembled by screws."
+            ], 
+            "b10": [
+                "Beam is not assembled by screws."
+            ], 
+            "b2": [
+                "Beam is not assembled by screws."
+            ], 
+            "b3": [
+                "Joint (('b3', 'b1')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b3', 'b0')) uses Screw: SL40_40 MovingSideThickness: 40.0mm"
+            ], 
+            "b4": [
+                "Joint (('b4', 'b7')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b4', 'b5')) uses Screw: SL40_40 MovingSideThickness: 30.0mm"
+            ], 
+            "b5": [
+                "Beam is not assembled by screws."
+            ], 
+            "b6": [
+                "Beam is not assembled by screws."
+            ], 
+            "b7": [
+                "Beam is not assembled by screws."
+            ], 
+            "b8": [
+                "Beam is not assembled by screws."
+            ], 
+            "b9": [
+                "Beam is not assembled by screws."
+            ]
+        }
+    ], 
+    "warn": [
+        {}
+    ]
+}
