@@ -1,0 +1,166 @@
+{
+    "attributes": [
+        {
+            "beam_with_screw_counter": {
+                "beam_no_screws": 28, 
+                "beam_with_screws": 4
+            }, 
+            "screw_counter": {
+                "SL40_40": 12
+            }, 
+            "screw_thickness_counter": {
+                "SL40_40 ms_thickness 50.0mm": 12
+            }
+        }
+    ], 
+    "beam_ids": [
+        [
+            "b1", 
+            "b0", 
+            "b2", 
+            "b23", 
+            "b25", 
+            "b24", 
+            "b3", 
+            "b20", 
+            "b22", 
+            "b21", 
+            "b4", 
+            "b9", 
+            "b5", 
+            "b26", 
+            "b27", 
+            "b28", 
+            "b6", 
+            "b7", 
+            "b30", 
+            "b29", 
+            "b31", 
+            "b12", 
+            "b13", 
+            "b8", 
+            "b10", 
+            "b11", 
+            "b14", 
+            "b15", 
+            "b16", 
+            "b17", 
+            "b18", 
+            "b19"
+        ]
+    ], 
+    "error": [
+        {}
+    ], 
+    "info": [
+        {
+            "b0": [
+                "Beam is not assembled by screws."
+            ], 
+            "b1": [
+                "Beam is not assembled by screws."
+            ], 
+            "b10": [
+                "Beam is not assembled by screws."
+            ], 
+            "b11": [
+                "Joint (('b11', 'b10')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b11', 'b9')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b11', 'b4')) uses Screw: SL40_40 MovingSideThickness: 50.0mm"
+            ], 
+            "b12": [
+                "Beam is not assembled by screws."
+            ], 
+            "b13": [
+                "Beam is not assembled by screws."
+            ], 
+            "b14": [
+                "Beam is not assembled by screws."
+            ], 
+            "b15": [
+                "Joint (('b15', 'b13')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b15', 'b12')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b15', 'b14')) uses Screw: SL40_40 MovingSideThickness: 50.0mm"
+            ], 
+            "b16": [
+                "Beam is not assembled by screws."
+            ], 
+            "b17": [
+                "Joint (('b17', 'b6')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b17', 'b0')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b17', 'b16')) uses Screw: SL40_40 MovingSideThickness: 50.0mm"
+            ], 
+            "b18": [
+                "Beam is not assembled by screws."
+            ], 
+            "b19": [
+                "Joint (('b19', 'b1')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b19', 'b18')) uses Screw: SL40_40 MovingSideThickness: 50.0mm", 
+                "Joint (('b19', 'b8')) uses Screw: SL40_40 MovingSideThickness: 50.0mm"
+            ], 
+            "b2": [
+                "Beam is not assembled by screws."
+            ], 
+            "b20": [
+                "Beam is not assembled by screws."
+            ], 
+            "b21": [
+                "Beam is not assembled by screws."
+            ], 
+            "b22": [
+                "Beam is not assembled by screws."
+            ], 
+            "b23": [
+                "Beam is not assembled by screws."
+            ], 
+            "b24": [
+                "Beam is not assembled by screws."
+            ], 
+            "b25": [
+                "Beam is not assembled by screws."
+            ], 
+            "b26": [
+                "Beam is not assembled by screws."
+            ], 
+            "b27": [
+                "Beam is not assembled by screws."
+            ], 
+            "b28": [
+                "Beam is not assembled by screws."
+            ], 
+            "b29": [
+                "Beam is not assembled by screws."
+            ], 
+            "b3": [
+                "Beam is not assembled by screws."
+            ], 
+            "b30": [
+                "Beam is not assembled by screws."
+            ], 
+            "b31": [
+                "Beam is not assembled by screws."
+            ], 
+            "b4": [
+                "Beam is not assembled by screws."
+            ], 
+            "b5": [
+                "Beam is not assembled by screws."
+            ], 
+            "b6": [
+                "Beam is not assembled by screws."
+            ], 
+            "b7": [
+                "Beam is not assembled by screws."
+            ], 
+            "b8": [
+                "Beam is not assembled by screws."
+            ], 
+            "b9": [
+                "Beam is not assembled by screws."
+            ]
+        }
+    ], 
+    "warn": [
+        {}
+    ]
+}
