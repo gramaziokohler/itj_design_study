@@ -58,28 +58,7 @@
         ]
     ], 
     "error": [
-        {
-            "b11": [
-                "WARNING : JointPolylineLap (b11-b9) interior angle < 90degs, min = 72.274587", 
-                "WARNING : JointPolylineLap (b11-b4) interior angle < 90degs, min = 70.000000"
-            ], 
-            "b18": [
-                "WARNING : JointPolylineLap (b18-b7) interior angle < 90degs, min = 80.138635"
-            ], 
-            "b19": [
-                "WARNING : JointPolylineLap (b19-b1) interior angle < 90degs, min = 70.000000", 
-                "WARNING : JointPolylineLap (b19-b8) interior angle < 90degs, min = 70.000000"
-            ], 
-            "b5": [
-                "WARNING : JointPolylineLap (b5-b0) interior angle < 90degs, min = 75.000000"
-            ], 
-            "b7": [
-                "WARNING : JointPolylineLap (b7-b1) interior angle < 90degs, min = 76.505959"
-            ], 
-            "b8": [
-                "WARNING : JointPolylineLap (b8-b7) interior angle < 90degs, min = 86.515336"
-            ]
-        }
+        {}
     ], 
     "info": [
         {
