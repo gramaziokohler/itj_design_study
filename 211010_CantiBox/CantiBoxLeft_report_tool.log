@@ -2,17 +2,17 @@
     "attributes": [
         {
             "assembly_tool_id_num_of_times_used": {
-                "c1": 12, 
+                "c1": 11, 
                 "c2": 3, 
-                "c3": 8, 
+                "c3": 9, 
                 "c4": 1, 
                 "s1": 4, 
                 "s2": 4, 
                 "s3": 4
             }, 
             "assembly_tool_type_num_of_times_used": {
-                "CL3": 15, 
-                "CL3M": 9, 
+                "CL3": 14, 
+                "CL3M": 10, 
                 "SL1": 12
             }, 
             "gripper_id_num_of_times_used": {
@@ -114,7 +114,7 @@
             ], 
             "b2": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)"
+                "Assembly Tool used: CL3M (c3)"
             ], 
             "b20": [
                 "MANUAL_ASSEMBLY, no gripper used."

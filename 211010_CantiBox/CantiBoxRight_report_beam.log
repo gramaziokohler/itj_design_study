@@ -17,7 +17,7 @@
             "estimated_density_kg_per_m3": "500.0", 
             "estimated_total_weight_kg": 812.0, 
             "joint_type_counter_pairs": {
-                "JointHalfLap": 36
+                "JointPolylineLap": 36
             }, 
             "total_beam_number": 32
         }
