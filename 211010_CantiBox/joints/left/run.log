@@ -1,0 +1,485 @@
+2021-11-24 12:44:01,481 | customize_polyline_lap | INFO |  -- 
+2021-11-24 12:44:01,509 | customize_polyline_lap | INFO |  -- 
+2021-11-24 12:44:01,509 | customize_polyline_lap | INFO | customize_polyline_lap started with folder: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\
+2021-11-24 12:44:01,542 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:44:01,543 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\3.txt
+2021-11-24 12:44:01,550 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.05],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.05],[1.,0.]]]]
+2021-11-24 12:44:01,564 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:44:01,565 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:44:01,567 | customize_polyline_lap | DEBUG | [-1.0, 0.0, 1.0, 0.0]
+2021-11-24 12:44:01,567 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:44:01,574 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:44:01,580 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:44:01,581 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:44:01,583 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:44:03,647 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:44:03,654 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b10'), 2.05692637572e-10
+2021-11-24 12:44:03,673 | customize_polyline_lap | INFO | Joint Found: ('b10', 'b11'), 1.49890135158e-10
+2021-11-24 12:44:03,692 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b10'), 1.14267431796e-10
+2021-11-24 12:44:03,708 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:44:03,734 | customize_polyline_lap | INFO | Joint Found: ('b9', 'b11'), 1.54787875632e-10
+2021-11-24 12:44:03,751 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b9'), 1.12811260605e-10
+2021-11-24 12:44:03,776 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b4'), 2.05674665977e-10
+2021-11-24 12:44:03,801 | customize_polyline_lap | INFO | Joint Found: ('b4', 'b11'), 1.81044424027e-10
+2021-11-24 12:44:03,823 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b4'), 1.15133057872e-10
+2021-11-24 12:44:03,846 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b16'), 2.77312376876e-10
+2021-11-24 12:44:03,861 | customize_polyline_lap | INFO | Joint Found: ('b16', 'b17'), 2.09829810226e-10
+2021-11-24 12:44:03,880 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b16'), 2.05676551183e-10
+2021-11-24 12:44:03,896 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b6'), 2.34332152689e-10
+2021-11-24 12:44:03,913 | customize_polyline_lap | INFO | Joint Found: ('b6', 'b17'), 2.07247082746e-10
+2021-11-24 12:44:03,938 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b6'), 2.05815254947e-10
+2021-11-24 12:44:03,964 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b5'), 1.20483812975e-07
+2021-11-24 12:44:03,990 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b17'), 2.04894876836e-10
+2021-11-24 12:44:04,008 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b2'), 1.16427325323e-07
+2021-11-24 12:44:04,048 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b14'), 1.35086755433e-10
+2021-11-24 12:44:04,064 | customize_polyline_lap | INFO | Joint Found: ('b14', 'b15'), 3.60926472266e-10
+2021-11-24 12:44:04,079 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b14'), 2.40919979251e-10
+2021-11-24 12:44:04,103 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b13'), 1.34162029387e-10
+2021-11-24 12:44:04,118 | customize_polyline_lap | INFO | Joint Found: ('b13', 'b15'), 2.26644911788e-10
+2021-11-24 12:44:04,137 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b13'), 2.33150612115e-10
+2021-11-24 12:44:04,153 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b12'), 1.36802683759e-10
+2021-11-24 12:44:04,168 | customize_polyline_lap | INFO | Joint Found: ('b12', 'b15'), 4.02257448874e-10
+2021-11-24 12:44:04,182 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b12'), 2.1520314805e-10
+2021-11-24 12:44:04,197 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b18'), 1.14235756831e-10
+2021-11-24 12:44:04,211 | customize_polyline_lap | INFO | Joint Found: ('b18', 'b19'), 1.05066322243e-10
+2021-11-24 12:44:04,228 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b18'), 1.37931700811e-10
+2021-11-24 12:44:04,243 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b8'), 1.14730692854e-10
+2021-11-24 12:44:04,257 | customize_polyline_lap | INFO | Joint Found: ('b8', 'b19'), 1.10409060711e-10
+2021-11-24 12:44:04,271 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b8'), 1.37680346137e-10
+2021-11-24 12:44:04,287 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b3'), 1.13304206042e-10
+2021-11-24 12:44:04,303 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b19'), 1.35059628277e-10
+2021-11-24 12:44:04,322 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b7'), 1.49689262233e-10
+2021-11-24 12:45:02,247 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:45:02,247 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b10'), 2.05692637572e-10
+2021-11-24 12:45:02,247 | customize_polyline_lap | INFO | Joint Found: ('b10', 'b11'), 1.49890135158e-10
+2021-11-24 12:45:02,264 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b10'), 1.14267431796e-10
+2021-11-24 12:45:02,267 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:45:02,270 | customize_polyline_lap | INFO | Joint Found: ('b9', 'b11'), 1.54787875632e-10
+2021-11-24 12:45:02,274 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b9'), 1.12811260605e-10
+2021-11-24 12:45:02,277 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b4'), 2.05674665977e-10
+2021-11-24 12:45:02,281 | customize_polyline_lap | INFO | Joint Found: ('b4', 'b11'), 1.81044424027e-10
+2021-11-24 12:45:02,285 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b4'), 1.15133057872e-10
+2021-11-24 12:45:02,287 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b16'), 2.77312376876e-10
+2021-11-24 12:45:02,289 | customize_polyline_lap | INFO | Joint Found: ('b16', 'b17'), 2.09829810226e-10
+2021-11-24 12:45:02,292 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b16'), 2.05676551183e-10
+2021-11-24 12:45:02,296 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b6'), 2.34332152689e-10
+2021-11-24 12:45:02,299 | customize_polyline_lap | INFO | Joint Found: ('b6', 'b17'), 2.07247082746e-10
+2021-11-24 12:45:02,302 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b6'), 2.05815254947e-10
+2021-11-24 12:45:02,304 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b5'), 1.20483812975e-07
+2021-11-24 12:45:02,307 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b17'), 2.04894876836e-10
+2021-11-24 12:45:02,309 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b2'), 1.16427325323e-07
+2021-11-24 12:45:02,312 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b14'), 1.35086755433e-10
+2021-11-24 12:45:02,315 | customize_polyline_lap | INFO | Joint Found: ('b14', 'b15'), 3.60926472266e-10
+2021-11-24 12:45:02,321 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b14'), 2.40919979251e-10
+2021-11-24 12:45:02,324 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b13'), 1.34162029387e-10
+2021-11-24 12:45:02,326 | customize_polyline_lap | INFO | Joint Found: ('b13', 'b15'), 2.26644911788e-10
+2021-11-24 12:45:02,329 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b13'), 2.33150612115e-10
+2021-11-24 12:45:02,331 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b12'), 1.36802683759e-10
+2021-11-24 12:45:02,334 | customize_polyline_lap | INFO | Joint Found: ('b12', 'b15'), 4.02257448874e-10
+2021-11-24 12:45:02,336 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b12'), 2.1520314805e-10
+2021-11-24 12:45:02,339 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b18'), 1.14235756831e-10
+2021-11-24 12:45:02,341 | customize_polyline_lap | INFO | Joint Found: ('b18', 'b19'), 1.05066322243e-10
+2021-11-24 12:45:02,344 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b18'), 1.37931700811e-10
+2021-11-24 12:45:02,346 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b8'), 1.14730692854e-10
+2021-11-24 12:45:02,351 | customize_polyline_lap | INFO | Joint Found: ('b8', 'b19'), 1.10409060711e-10
+2021-11-24 12:45:02,354 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b8'), 1.37680346137e-10
+2021-11-24 12:45:02,356 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b3'), 1.13304206042e-10
+2021-11-24 12:45:02,359 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b19'), 1.35059628277e-10
+2021-11-24 12:45:02,361 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b7'), 1.49689262233e-10
+2021-11-24 12:45:13,971 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:45:13,975 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:13,980 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:13,985 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:13,989 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:13,998 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,002 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,008 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,013 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,017 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,021 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,026 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,037 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,078 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,083 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,087 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,091 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,094 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,094 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,094 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,094 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,110 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,110 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,110 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,110 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,125 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,125 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,125 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,141 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,149 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,154 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,156 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,165 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,171 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,175 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,179 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:14,183 | customize_polyline_lap | WARNING | Joint Not Found
+2021-11-24 12:45:18,523 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:45:18,526 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b10'), 2.05692637572e-10
+2021-11-24 12:45:18,529 | customize_polyline_lap | INFO | Joint Found: ('b10', 'b11'), 1.49890135158e-10
+2021-11-24 12:45:18,532 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b10'), 1.14267431796e-10
+2021-11-24 12:45:18,535 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:45:18,539 | customize_polyline_lap | INFO | Joint Found: ('b9', 'b11'), 1.54787875632e-10
+2021-11-24 12:45:18,541 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b9'), 1.12811260605e-10
+2021-11-24 12:45:18,543 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b4'), 2.05674665977e-10
+2021-11-24 12:45:18,546 | customize_polyline_lap | INFO | Joint Found: ('b4', 'b11'), 1.81044424027e-10
+2021-11-24 12:45:18,551 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b4'), 1.15133057872e-10
+2021-11-24 12:45:18,554 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b16'), 2.77312376876e-10
+2021-11-24 12:45:18,560 | customize_polyline_lap | INFO | Joint Found: ('b16', 'b17'), 2.09829810226e-10
+2021-11-24 12:45:18,563 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b16'), 2.05676551183e-10
+2021-11-24 12:45:18,565 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b6'), 2.34332152689e-10
+2021-11-24 12:45:18,568 | customize_polyline_lap | INFO | Joint Found: ('b6', 'b17'), 2.07247082746e-10
+2021-11-24 12:45:18,571 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b6'), 2.05815254947e-10
+2021-11-24 12:45:18,573 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b5'), 1.20483812975e-07
+2021-11-24 12:45:18,576 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b17'), 2.04894876836e-10
+2021-11-24 12:45:18,580 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b2'), 1.16427325323e-07
+2021-11-24 12:45:18,582 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b14'), 1.35086755433e-10
+2021-11-24 12:45:18,585 | customize_polyline_lap | INFO | Joint Found: ('b14', 'b15'), 3.60926472266e-10
+2021-11-24 12:45:18,587 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b14'), 2.40919979251e-10
+2021-11-24 12:45:18,590 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b13'), 1.34162029387e-10
+2021-11-24 12:45:18,592 | customize_polyline_lap | INFO | Joint Found: ('b13', 'b15'), 2.26644911788e-10
+2021-11-24 12:45:18,594 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b13'), 2.33150612115e-10
+2021-11-24 12:45:18,597 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b12'), 1.36802683759e-10
+2021-11-24 12:45:18,600 | customize_polyline_lap | INFO | Joint Found: ('b12', 'b15'), 4.02257448874e-10
+2021-11-24 12:45:18,603 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b12'), 2.1520314805e-10
+2021-11-24 12:45:18,605 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b18'), 1.14235756831e-10
+2021-11-24 12:45:18,607 | customize_polyline_lap | INFO | Joint Found: ('b18', 'b19'), 1.05066322243e-10
+2021-11-24 12:45:18,610 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b18'), 1.37931700811e-10
+2021-11-24 12:45:18,613 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b8'), 1.14730692854e-10
+2021-11-24 12:45:18,616 | customize_polyline_lap | INFO | Joint Found: ('b8', 'b19'), 1.10409060711e-10
+2021-11-24 12:45:18,618 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b8'), 1.37680346137e-10
+2021-11-24 12:45:18,621 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b3'), 1.13304206042e-10
+2021-11-24 12:45:18,624 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b19'), 1.35059628277e-10
+2021-11-24 12:45:18,626 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b7'), 1.49689262233e-10
+2021-11-24 12:45:38,091 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:45:38,094 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b10'), 2.05692637572e-10
+2021-11-24 12:45:38,097 | customize_polyline_lap | INFO | Joint Found: ('b10', 'b11'), 1.49890135158e-10
+2021-11-24 12:45:38,101 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b10'), 1.14267431796e-10
+2021-11-24 12:45:38,104 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:45:38,106 | customize_polyline_lap | INFO | Joint Found: ('b9', 'b11'), 1.54787875632e-10
+2021-11-24 12:45:38,109 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b9'), 1.12811260605e-10
+2021-11-24 12:45:38,112 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b4'), 2.05674665977e-10
+2021-11-24 12:45:38,115 | customize_polyline_lap | INFO | Joint Found: ('b4', 'b11'), 1.81044424027e-10
+2021-11-24 12:45:38,117 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b4'), 1.15133057872e-10
+2021-11-24 12:45:38,121 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b16'), 2.77312376876e-10
+2021-11-24 12:45:38,123 | customize_polyline_lap | INFO | Joint Found: ('b16', 'b17'), 2.09829810226e-10
+2021-11-24 12:45:38,126 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b16'), 2.05676551183e-10
+2021-11-24 12:45:38,130 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b6'), 2.34332152689e-10
+2021-11-24 12:45:38,132 | customize_polyline_lap | INFO | Joint Found: ('b6', 'b17'), 2.07247082746e-10
+2021-11-24 12:45:38,135 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b6'), 2.05815254947e-10
+2021-11-24 12:45:38,137 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b5'), 1.20483812975e-07
+2021-11-24 12:45:38,140 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b17'), 2.04894876836e-10
+2021-11-24 12:45:38,142 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b2'), 1.16427325323e-07
+2021-11-24 12:45:38,146 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b14'), 1.35086755433e-10
+2021-11-24 12:45:38,151 | customize_polyline_lap | INFO | Joint Found: ('b14', 'b15'), 3.60926472266e-10
+2021-11-24 12:45:38,153 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b14'), 2.40919979251e-10
+2021-11-24 12:45:38,156 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b13'), 1.34162029387e-10
+2021-11-24 12:45:38,159 | customize_polyline_lap | INFO | Joint Found: ('b13', 'b15'), 2.26644911788e-10
+2021-11-24 12:45:38,162 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b13'), 2.33150612115e-10
+2021-11-24 12:45:38,165 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b12'), 1.36802683759e-10
+2021-11-24 12:45:38,168 | customize_polyline_lap | INFO | Joint Found: ('b12', 'b15'), 4.02257448874e-10
+2021-11-24 12:45:38,171 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b12'), 2.1520314805e-10
+2021-11-24 12:45:38,173 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b18'), 1.14235756831e-10
+2021-11-24 12:45:38,177 | customize_polyline_lap | INFO | Joint Found: ('b18', 'b19'), 1.05066322243e-10
+2021-11-24 12:45:38,180 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b18'), 1.37931700811e-10
+2021-11-24 12:45:38,182 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b8'), 1.14730692854e-10
+2021-11-24 12:45:38,185 | customize_polyline_lap | INFO | Joint Found: ('b8', 'b19'), 1.10409060711e-10
+2021-11-24 12:45:38,188 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b8'), 1.37680346137e-10
+2021-11-24 12:45:38,191 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b3'), 1.13304206042e-10
+2021-11-24 12:45:38,193 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b19'), 1.35059628277e-10
+2021-11-24 12:45:38,196 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b7'), 1.49689262233e-10
+2021-11-24 12:46:11,168 | customize_polyline_lap | INFO |  -- 
+2021-11-24 12:46:11,168 | customize_polyline_lap | INFO |  -- 
+2021-11-24 12:46:11,168 | customize_polyline_lap | INFO | customize_polyline_lap started with folder: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\
+2021-11-24 12:46:11,180 | customize_polyline_lap | DEBUG | Structural model_frame: Frame(Point(24468.570, 6204.681, 319.218), Vector(0.985, 0.174, 0.000), Vector(-0.174, 0.985, 0.000))
+2021-11-24 12:46:11,184 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\0.txt
+2021-11-24 12:46:11,189 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.026,0.],[0.03,0.03],[0.5,0.03],[1.,0.]],[[0.,0.],[0.5,0.09],[0.97,0.03],[1.,0.026],[1.,0.]],[[0.,0.],[0.026,0.],[0.03,0.03],[0.5,0.03],[1.,0.]],[[0.,0.],[0.5,0.09],[0.97,0.03],[1.,0.026],[1.,0.]]]]
+2021-11-24 12:46:11,193 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b10'), 2.05692637572e-10
+2021-11-24 12:46:11,194 | customize_polyline_lap | DEBUG | [0.0, 0.99999999999997624, 0.0, -0.99999999999997624]
+2021-11-24 12:46:11,195 | customize_polyline_lap | DEBUG | [-1.0, 0.0, 1.0, 0.0]
+2021-11-24 12:46:11,195 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:11,195 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:13,176 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\1.txt
+2021-11-24 12:46:13,178 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.031,0.],[0.05,0.05],[0.5,0.12],[1.,0.]],[[0.,0.],[0.5,0.1],[0.95,0.05],[1.,0.031],[1.,0.]],[[0.,0.],[0.031,0.],[0.05,0.05],[0.5,0.12],[1.,0.]],[[0.,0.],[0.5,0.1],[0.95,0.05],[1.,0.031],[1.,0.]]]]
+2021-11-24 12:46:13,182 | customize_polyline_lap | INFO | Joint Found: ('b10', 'b11'), 1.49890135158e-10
+2021-11-24 12:46:13,182 | customize_polyline_lap | DEBUG | [0.99999999999997624, -0.34202014332568764, -0.99999999999997624, 0.34202014332568764]
+2021-11-24 12:46:13,182 | customize_polyline_lap | DEBUG | [-0.34201991742399673, 0.9999999999999587, 0.34201991742399673, -0.9999999999999587]
+2021-11-24 12:46:13,182 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:46:15,027 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\2.txt
+2021-11-24 12:46:15,030 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.038,0.],[0.05,0.05],[0.5,0.18],[0.9,0.1],[0.915,0.],[1.,0.]],[[0.,0.],[0.,0.085],[0.1,0.1],[0.5,0.16],[0.95,0.05],[1.,0.038],[1.,0.]],[[0.,0.],[0.038,0.],[0.05,0.05],[0.5,0.18],[0.9,0.1],[0.915,0.],[1.,0.]],[[0.,0.],[0.,0.085],[0.1,0.1],[0.5,0.16],[0.95,0.05],[1.,0.038],[1.,0.]]]]
+2021-11-24 12:46:15,033 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b10'), 1.14267431796e-10
+2021-11-24 12:46:15,034 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:46:15,034 | customize_polyline_lap | DEBUG | [1.0, 0.0, -1.0, 0.0]
+2021-11-24 12:46:15,034 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=1
+2021-11-24 12:46:15,034 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:15,034 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:15,035 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:17,223 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\3.txt
+2021-11-24 12:46:17,227 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.05],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.05],[1.,0.]]]]
+2021-11-24 12:46:17,230 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b9'), 2.06585470264e-10
+2021-11-24 12:46:17,230 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:46:17,230 | customize_polyline_lap | DEBUG | [-1.0, 0.0, 1.0, 0.0]
+2021-11-24 12:46:17,231 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:46:17,231 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:17,231 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:17,231 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:17,231 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:19,200 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\4.txt
+2021-11-24 12:46:19,203 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.08,0.],[0.08,0.08],[0.5,0.12],[0.95,0.05],[1.,0.]],[[0.,0.],[0.05,0.05],[0.5,0.08],[0.92,0.08],[1.,0.08],[1.,0.]],[[0.,0.],[0.08,0.],[0.08,0.08],[0.5,0.12],[0.95,0.05],[1.,0.]],[[0.,0.],[0.05,0.05],[0.5,0.08],[0.92,0.08],[1.,0.08],[1.,0.]]]]
+2021-11-24 12:46:19,206 | customize_polyline_lap | INFO | Joint Found: ('b9', 'b11'), 1.54787875632e-10
+2021-11-24 12:46:19,206 | customize_polyline_lap | DEBUG | [0.99999999999997624, -0.34202014332569036, -0.99999999999997624, 0.34202014332569036]
+2021-11-24 12:46:19,206 | customize_polyline_lap | DEBUG | [-0.34201991742399673, 0.9999999999999587, 0.34201991742399673, -0.9999999999999587]
+2021-11-24 12:46:19,206 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:46:20,730 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\5.txt
+2021-11-24 12:46:20,732 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.063,0.],[0.08,0.08],[0.5,0.18],[0.9,0.1],[0.918,0.],[1.,0.]],[[0.,0.],[0.,0.083],[0.1,0.1],[0.5,0.17],[0.92,0.08],[1.,0.063],[1.,0.]],[[0.,0.],[0.063,0.],[0.08,0.08],[0.5,0.18],[0.9,0.1],[0.918,0.],[1.,0.]],[[0.,0.],[0.,0.083],[0.1,0.1],[0.5,0.17],[0.92,0.08],[1.,0.063],[1.,0.]]]]
+2021-11-24 12:46:20,736 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b9'), 1.12811260605e-10
+2021-11-24 12:46:20,736 | customize_polyline_lap | DEBUG | [0.0, 0.99999999999997624, 0.0, -0.99999999999997624]
+2021-11-24 12:46:20,736 | customize_polyline_lap | DEBUG | [1.0, 0.0, -1.0, 0.0]
+2021-11-24 12:46:20,736 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=1
+2021-11-24 12:46:20,737 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:20,737 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:22,951 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\6.txt
+2021-11-24 12:46:22,954 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.08,0.],[0.08,0.08],[0.5,0.11],[0.92,0.08],[0.92,0.],[1.,0.]],[[0.,0.],[0.,0.08],[0.08,0.08],[0.5,0.08],[0.92,0.08],[1.,0.08],[1.,0.]],[[0.,0.],[0.08,0.],[0.08,0.08],[0.5,0.11],[0.92,0.08],[0.92,0.],[1.,0.]],[[0.,0.],[0.,0.08],[0.08,0.08],[0.5,0.08],[0.92,0.08],[1.,0.08],[1.,0.]]]]
+2021-11-24 12:46:22,957 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b4'), 2.05674665977e-10
+2021-11-24 12:46:22,957 | customize_polyline_lap | DEBUG | [0.0, 0.99999999999997624, 0.0, -0.99999999999997624]
+2021-11-24 12:46:22,957 | customize_polyline_lap | DEBUG | [-1.0, 0.0, 1.0, 0.0]
+2021-11-24 12:46:22,957 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:22,958 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:24,937 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\7.txt
+2021-11-24 12:46:24,940 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.085,0.],[0.1,0.1],[0.5,0.16],[0.9,0.1],[0.936,0.],[1.,0.]],[[0.,0.],[0.,0.064],[0.1,0.1],[0.5,0.16],[0.9,0.1],[1.,0.085],[1.,0.]],[[0.,0.],[0.085,0.],[0.1,0.1],[0.5,0.16],[0.9,0.1],[0.936,0.],[1.,0.]],[[0.,0.],[0.,0.064],[0.1,0.1],[0.5,0.16],[0.9,0.1],[1.,0.085],[1.,0.]]]]
+2021-11-24 12:46:24,943 | customize_polyline_lap | INFO | Joint Found: ('b4', 'b11'), 1.81044424027e-10
+2021-11-24 12:46:24,943 | customize_polyline_lap | DEBUG | [0.99999999999997624, -0.34202014332565744, -0.99999999999997624, 0.34202014332565744]
+2021-11-24 12:46:24,943 | customize_polyline_lap | DEBUG | [-0.34201991742399673, 0.9999999999999587, 0.34201991742399673, -0.9999999999999587]
+2021-11-24 12:46:24,943 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:46:26,480 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\8.txt
+2021-11-24 12:46:26,483 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.07,0.],[0.07,0.07],[0.5,0.07],[0.93,0.07],[0.93,0.],[1.,0.]],[[0.,0.],[0.,0.07],[0.07,0.07],[0.5,0.07],[0.93,0.07],[1.,0.07],[1.,0.]],[[0.,0.],[0.07,0.],[0.07,0.07],[0.5,0.07],[0.93,0.07],[0.93,0.],[1.,0.]],[[0.,0.],[0.,0.07],[0.07,0.07],[0.5,0.07],[0.93,0.07],[1.,0.07],[1.,0.]]]]
+2021-11-24 12:46:26,487 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b4'), 1.15133057872e-10
+2021-11-24 12:46:26,488 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:46:26,488 | customize_polyline_lap | DEBUG | [1.0, 0.0, -1.0, 0.0]
+2021-11-24 12:46:26,488 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=1
+2021-11-24 12:46:26,488 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:26,488 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:26,489 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:28,835 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\9.txt
+2021-11-24 12:46:28,838 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:28,841 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b16'), 2.77312376876e-10
+2021-11-24 12:46:28,842 | customize_polyline_lap | DEBUG | [-0.42261815323156271, 0.99999999999999267, 0.42261815323156271, -0.99999999999999267]
+2021-11-24 12:46:28,842 | customize_polyline_lap | DEBUG | [-0.99999999999989186, 0.42261814981103663, 0.99999999999989186, -0.42261814981103663]
+2021-11-24 12:46:28,842 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:28,842 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:30,676 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\10.txt
+2021-11-24 12:46:30,678 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:30,682 | customize_polyline_lap | INFO | Joint Found: ('b16', 'b17'), 2.09829810226e-10
+2021-11-24 12:46:30,682 | customize_polyline_lap | DEBUG | [0.99999999999999267, 0.17364805975925354, -0.99999999999999267, -0.17364805975925354]
+2021-11-24 12:46:30,682 | customize_polyline_lap | DEBUG | [0.17364817766692864, 1.0, -0.17364817766692864, -1.0]
+2021-11-24 12:46:30,682 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:46:31,999 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\11.txt
+2021-11-24 12:46:31,999 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:31,999 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b16'), 2.05676551183e-10
+2021-11-24 12:46:31,999 | customize_polyline_lap | DEBUG | [-0.17364805975925354, 0.99999999999999256, 0.17364805975925354, -0.99999999999999256]
+2021-11-24 12:46:31,999 | customize_polyline_lap | DEBUG | [-1.0, 0.17364817766693449, 1.0, -0.17364817766693449]
+2021-11-24 12:46:31,999 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:31,999 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:34,134 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\12.txt
+2021-11-24 12:46:34,137 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:34,142 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b6'), 2.34332152689e-10
+2021-11-24 12:46:34,142 | customize_polyline_lap | DEBUG | [-0.25881904510252302, -0.99999999999997624, 0.25881904510252302, 0.99999999999997624]
+2021-11-24 12:46:34,142 | customize_polyline_lap | DEBUG | [-0.99999999999989175, -0.25881892581000515, 0.99999999999989175, 0.25881892581000515]
+2021-11-24 12:46:34,142 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:46:34,143 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:34,143 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:34,143 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:34,143 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:36,242 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\13.txt
+2021-11-24 12:46:36,245 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.029,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[0.96,0.],[1.,0.]],[[0.,0.],[0.,0.04],[0.04,0.04],[0.5,0.04],[0.97,0.03],[1.,0.029],[1.,0.]],[[0.,0.],[0.029,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[0.96,0.],[1.,0.]],[[0.,0.],[0.,0.04],[0.04,0.04],[0.5,0.04],[0.97,0.03],[1.,0.029],[1.,0.]]]]
+2021-11-24 12:46:36,248 | customize_polyline_lap | INFO | Joint Found: ('b6', 'b17'), 2.07247082746e-10
+2021-11-24 12:46:36,248 | customize_polyline_lap | DEBUG | [-0.99999999999997624, 0.0, 0.99999999999997624, 0.0]
+2021-11-24 12:46:36,248 | customize_polyline_lap | DEBUG | [0.0, -1.0, 0.0, 1.0]
+2021-11-24 12:46:36,248 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:46:36,249 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:36,249 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:37,784 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\14.txt
+2021-11-24 12:46:37,784 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.029,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[0.96,0.],[1.,0.]],[[0.,0.],[0.,0.04],[0.04,0.04],[0.5,0.04],[0.97,0.03],[1.,0.029],[1.,0.]],[[0.,0.],[0.029,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[0.96,0.],[1.,0.]],[[0.,0.],[0.,0.04],[0.04,0.04],[0.5,0.04],[0.97,0.03],[1.,0.029],[1.,0.]]]]
+2021-11-24 12:46:37,784 | customize_polyline_lap | INFO | Joint Found: ('b2', 'b6'), 2.05815254947e-10
+2021-11-24 12:46:37,784 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:46:37,784 | customize_polyline_lap | DEBUG | [-1.0, 0.0, 1.0, 0.0]
+2021-11-24 12:46:37,784 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:46:37,792 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:37,792 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:37,792 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:37,793 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:40,060 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\15.txt
+2021-11-24 12:46:40,062 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.04,0.04],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.96,0.04],[1.,0.]],[[0.,0.],[0.04,0.04],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.96,0.04],[1.,0.]]]]
+2021-11-24 12:46:40,066 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b5'), 1.20483812975e-07
+2021-11-24 12:46:40,066 | customize_polyline_lap | DEBUG | [-0.99999999999997624, 0.25881904510253584, 0.99999999999997624, -0.25881904510253584]
+2021-11-24 12:46:40,066 | customize_polyline_lap | DEBUG | [-0.25881892573029153, 0.99999999999989186, 0.25881892573029153, -0.99999999999989186]
+2021-11-24 12:46:40,066 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=2
+2021-11-24 12:46:40,067 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:40,067 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:40,067 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:42,300 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\16.txt
+2021-11-24 12:46:42,302 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.095,0.],[0.1,0.1],[0.5,0.12],[0.9,0.1],[0.905,0.],[1.,0.]],[[0.,0.],[0.,0.095],[0.1,0.1],[0.5,0.12],[0.9,0.1],[1.,0.095],[1.,0.]],[[0.,0.],[0.095,0.],[0.1,0.1],[0.5,0.12],[0.9,0.1],[0.905,0.],[1.,0.]],[[0.,0.],[0.,0.095],[0.1,0.1],[0.5,0.12],[0.9,0.1],[1.,0.095],[1.,0.]]]]
+2021-11-24 12:46:42,305 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b17'), 2.04894876836e-10
+2021-11-24 12:46:42,305 | customize_polyline_lap | DEBUG | [-0.99999999999997624, 0.0, 0.99999999999997624, 0.0]
+2021-11-24 12:46:42,306 | customize_polyline_lap | DEBUG | [8.2529822975627685e-11, -1.0, -8.2529822975627685e-11, 1.0]
+2021-11-24 12:46:42,306 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:46:42,306 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:42,306 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:43,976 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\17.txt
+2021-11-24 12:46:43,979 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.049,0.],[0.05,0.05],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.95,0.05],[1.,0.049],[1.,0.]],[[0.,0.],[0.049,0.],[0.05,0.05],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.95,0.05],[1.,0.049],[1.,0.]]]]
+2021-11-24 12:46:43,982 | customize_polyline_lap | INFO | Joint Found: ('b0', 'b2'), 1.16427325323e-07
+2021-11-24 12:46:43,982 | customize_polyline_lap | DEBUG | [-0.99999999999997624, 0.0, 0.99999999999997624, 0.0]
+2021-11-24 12:46:43,982 | customize_polyline_lap | DEBUG | [8.253095984400565e-11, 1.0, -8.253095984400565e-11, -1.0]
+2021-11-24 12:46:43,982 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=2
+2021-11-24 12:46:43,983 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:43,983 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:43,983 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:46,314 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\18.txt
+2021-11-24 12:46:46,317 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:46,320 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b14'), 1.35086755433e-10
+2021-11-24 12:46:46,320 | customize_polyline_lap | DEBUG | [0.17364798396839243, 0.99999999999993161, -0.17364798396839243, -0.99999999999993161]
+2021-11-24 12:46:46,321 | customize_polyline_lap | DEBUG | [-0.99999999999989164, -0.17364861907479123, 0.99999999999989164, 0.17364861907479123]
+2021-11-24 12:46:46,321 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:46,321 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:48,707 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\19.txt
+2021-11-24 12:46:48,710 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:48,713 | customize_polyline_lap | INFO | Joint Found: ('b14', 'b15'), 3.60926472266e-10
+2021-11-24 12:46:48,713 | customize_polyline_lap | DEBUG | [-0.99999999999993183, 0.17364798396860412, 0.99999999999993183, -0.17364798396860412]
+2021-11-24 12:46:48,713 | customize_polyline_lap | DEBUG | [0.17364861907479262, -0.99999999999989175, -0.17364861907479262, 0.99999999999989175]
+2021-11-24 12:46:48,713 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:46:48,714 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:48,714 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:50,350 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\20.txt
+2021-11-24 12:46:50,353 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:50,357 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b14'), 2.40919979251e-10
+2021-11-24 12:46:50,357 | customize_polyline_lap | DEBUG | [0.17364798396839243, 0.99999999999993172, -0.17364798396839243, -0.99999999999993172]
+2021-11-24 12:46:50,357 | customize_polyline_lap | DEBUG | [-0.99999999999989175, -0.17364861907478898, 0.99999999999989175, 0.17364861907478898]
+2021-11-24 12:46:50,357 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:50,357 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:52,453 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\21.txt
+2021-11-24 12:46:52,456 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.03],[0.97,0.03],[0.97,0.],[1.,0.]],[[0.,0.],[0.,0.03],[0.03,0.03],[0.5,0.03],[1.,0.]],[[0.,0.],[0.5,0.03],[0.97,0.03],[0.97,0.],[1.,0.]],[[0.,0.],[0.,0.03],[0.03,0.03],[0.5,0.03],[1.,0.]]]]
+2021-11-24 12:46:52,459 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b13'), 1.34162029387e-10
+2021-11-24 12:46:52,459 | customize_polyline_lap | DEBUG | [-5.6385471679652354e-08, -0.99999999999997624, 5.6385471679652354e-08, 0.99999999999997624]
+2021-11-24 12:46:52,459 | customize_polyline_lap | DEBUG | [-0.99999999999989164, 4.4821730528734417e-07, 0.99999999999989164, -4.4821730528734417e-07]
+2021-11-24 12:46:52,460 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:46:52,460 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:52,460 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:52,460 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:52,460 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:55,100 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\22.txt
+2021-11-24 12:46:55,103 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.049,0.],[0.05,0.05],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.95,0.05],[1.,0.049],[1.,0.]],[[0.,0.],[0.049,0.],[0.05,0.05],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.95,0.05],[1.,0.049],[1.,0.]]]]
+2021-11-24 12:46:55,106 | customize_polyline_lap | INFO | Joint Found: ('b13', 'b15'), 2.26644911788e-10
+2021-11-24 12:46:55,106 | customize_polyline_lap | DEBUG | [-0.99999999999997624, -5.6385217021147459e-08, 0.99999999999997624, 5.6385217021147459e-08]
+2021-11-24 12:46:55,106 | customize_polyline_lap | DEBUG | [4.4821730497197755e-07, -0.99999999999989175, -4.4821730497197755e-07, 0.99999999999989175]
+2021-11-24 12:46:55,106 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:46:55,106 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:55,107 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:56,910 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\23.txt
+2021-11-24 12:46:56,912 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]],[[0.,0.],[0.5,0.],[1.,0.]]]]
+2021-11-24 12:46:56,916 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b13'), 2.33150612115e-10
+2021-11-24 12:46:56,916 | customize_polyline_lap | DEBUG | [-5.6385471679659514e-08, -0.99999999999997624, 5.6385471679659514e-08, 0.99999999999997624]
+2021-11-24 12:46:56,916 | customize_polyline_lap | DEBUG | [-0.99999999999989175, 4.4821730528734417e-07, 0.99999999999989175, -4.4821730528734417e-07]
+2021-11-24 12:46:56,916 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:46:56,917 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:56,917 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:56,917 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:46:56,917 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:46:59,125 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\24.txt
+2021-11-24 12:46:59,128 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.06,0.],[0.06,0.06],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.94,0.06],[1.,0.06],[1.,0.]],[[0.,0.],[0.06,0.],[0.06,0.06],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.94,0.06],[1.,0.06],[1.,0.]]]]
+2021-11-24 12:46:59,131 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b12'), 1.36802683759e-10
+2021-11-24 12:46:59,132 | customize_polyline_lap | DEBUG | [-5.6385471679652354e-08, 0.99999999999997624, 5.6385471679652354e-08, -0.99999999999997624]
+2021-11-24 12:46:59,132 | customize_polyline_lap | DEBUG | [-0.99999999999989164, -4.4821730748360525e-07, 0.99999999999989164, 4.4821730748360525e-07]
+2021-11-24 12:46:59,132 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:46:59,132 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:01,861 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\25.txt
+2021-11-24 12:47:01,863 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.093,0.],[0.1,0.1],[0.5,0.13],[0.9,0.1],[0.908,0.],[1.,0.]],[[0.,0.],[0.,0.093],[0.1,0.1],[0.5,0.13],[0.9,0.1],[1.,0.093],[1.,0.]],[[0.,0.],[0.093,0.],[0.1,0.1],[0.5,0.13],[0.9,0.1],[0.908,0.],[1.,0.]],[[0.,0.],[0.,0.093],[0.1,0.1],[0.5,0.13],[0.9,0.1],[1.,0.093],[1.,0.]]]]
+2021-11-24 12:47:01,866 | customize_polyline_lap | INFO | Joint Found: ('b12', 'b15'), 4.02257448874e-10
+2021-11-24 12:47:01,867 | customize_polyline_lap | DEBUG | [-0.99999999999997624, -5.63852170211474e-08, 0.99999999999997624, 5.63852170211474e-08]
+2021-11-24 12:47:01,867 | customize_polyline_lap | DEBUG | [4.4821730497197755e-07, -0.99999999999989198, -4.4821730497197755e-07, 0.99999999999989198]
+2021-11-24 12:47:01,867 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:47:01,867 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:01,867 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:03,787 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\26.txt
+2021-11-24 12:47:03,790 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.06,0.],[0.06,0.06],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.94,0.06],[1.,0.06],[1.,0.]],[[0.,0.],[0.06,0.],[0.06,0.06],[0.5,0.06],[0.94,0.06],[0.94,0.],[1.,0.]],[[0.,0.],[0.,0.06],[0.06,0.06],[0.5,0.06],[0.94,0.06],[1.,0.06],[1.,0.]]]]
+2021-11-24 12:47:03,793 | customize_polyline_lap | INFO | Joint Found: ('b5', 'b12'), 2.1520314805e-10
+2021-11-24 12:47:03,793 | customize_polyline_lap | DEBUG | [-5.6385471679656053e-08, 0.99999999999997624, 5.6385471679656053e-08, -0.99999999999997624]
+2021-11-24 12:47:03,794 | customize_polyline_lap | DEBUG | [-0.99999999999989175, -4.4821730418921359e-07, 0.99999999999989175, 4.4821730418921359e-07]
+2021-11-24 12:47:03,794 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:47:03,794 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:06,319 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\27.txt
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.053,0.],[0.06,0.06],[0.5,0.11],[0.92,0.08],[0.926,0.],[1.,0.]],[[0.,0.],[0.,0.074],[0.08,0.08],[0.5,0.11],[0.94,0.06],[1.,0.053],[1.,0.]],[[0.,0.],[0.053,0.],[0.06,0.06],[0.5,0.11],[0.92,0.08],[0.926,0.],[1.,0.]],[[0.,0.],[0.,0.074],[0.08,0.08],[0.5,0.11],[0.94,0.06],[1.,0.053],[1.,0.]]]]
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b18'), 1.14235756831e-10
+2021-11-24 12:47:06,335 | customize_polyline_lap | DEBUG | [0.0, -0.99999999999997624, 0.0, 0.99999999999997624]
+2021-11-24 12:47:06,335 | customize_polyline_lap | DEBUG | [1.0, 0.0, -1.0, 0.0]
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=1
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:06,335 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:09,266 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\28.txt
+2021-11-24 12:47:09,269 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.1],[0.97,0.03],[0.972,0.],[1.,0.]],[[0.,0.],[0.,0.028],[0.03,0.03],[0.5,0.06],[1.,0.]],[[0.,0.],[0.5,0.1],[0.97,0.03],[0.972,0.],[1.,0.]],[[0.,0.],[0.,0.028],[0.03,0.03],[0.5,0.06],[1.,0.]]]]
+2021-11-24 12:47:09,273 | customize_polyline_lap | INFO | Joint Found: ('b18', 'b19'), 1.05066322243e-10
+2021-11-24 12:47:09,273 | customize_polyline_lap | DEBUG | [0.99999999999997624, 0.34202014332566499, -0.99999999999997624, -0.34202014332566499]
+2021-11-24 12:47:09,273 | customize_polyline_lap | DEBUG | [0.34201991742399673, 0.99999999999995881, -0.34201991742399673, -0.99999999999995881]
+2021-11-24 12:47:09,273 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:47:11,289 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\29.txt
+2021-11-24 12:47:11,292 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.026,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[1.,0.]],[[0.,0.],[0.04,0.04],[0.5,0.1],[0.97,0.03],[1.,0.026],[1.,0.]],[[0.,0.],[0.026,0.],[0.03,0.03],[0.5,0.04],[0.96,0.04],[1.,0.]],[[0.,0.],[0.04,0.04],[0.5,0.1],[0.97,0.03],[1.,0.026],[1.,0.]]]]
+2021-11-24 12:47:11,298 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b18'), 1.37931700811e-10
+2021-11-24 12:47:11,298 | customize_polyline_lap | DEBUG | [0.25881904510250664, 0.99999999999997624, -0.25881904510250664, -0.99999999999997624]
+2021-11-24 12:47:11,298 | customize_polyline_lap | DEBUG | [-0.99999999999989175, -0.25881892581000515, 0.99999999999989175, 0.25881892581000515]
+2021-11-24 12:47:11,298 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=3
+2021-11-24 12:47:11,299 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:14,128 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\30.txt
+2021-11-24 12:47:14,130 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.061,0.],[0.08,0.08],[0.5,0.14],[0.9,0.1],[0.92,0.],[1.,0.]],[[0.,0.],[0.,0.08],[0.1,0.1],[0.5,0.18],[0.92,0.08],[1.,0.061],[1.,0.]],[[0.,0.],[0.061,0.],[0.08,0.08],[0.5,0.14],[0.9,0.1],[0.92,0.],[1.,0.]],[[0.,0.],[0.,0.08],[0.1,0.1],[0.5,0.18],[0.92,0.08],[1.,0.061],[1.,0.]]]]
+2021-11-24 12:47:14,136 | customize_polyline_lap | INFO | Joint Found: ('b3', 'b8'), 1.14730692854e-10
+2021-11-24 12:47:14,136 | customize_polyline_lap | DEBUG | [0.0, 0.99999999999997624, 0.0, -0.99999999999997624]
+2021-11-24 12:47:14,136 | customize_polyline_lap | DEBUG | [1.0, 4.5474735088645585e-15, -1.0, -4.5474735088645585e-15]
+2021-11-24 12:47:14,137 | customize_polyline_lap | INFO | v1_on_side=2 v2_on_side=1
+2021-11-24 12:47:14,137 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:14,138 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:47:17,366 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\31.txt
+2021-11-24 12:47:17,368 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.03,0.03],[0.5,0.13],[0.94,0.06],[0.941,0.],[1.,0.]],[[0.,0.],[0.,0.059],[0.06,0.06],[0.5,0.07],[0.97,0.03],[1.,0.]],[[0.,0.],[0.03,0.03],[0.5,0.13],[0.94,0.06],[0.941,0.],[1.,0.]],[[0.,0.],[0.,0.059],[0.06,0.06],[0.5,0.07],[0.97,0.03],[1.,0.]]]]
+2021-11-24 12:47:17,372 | customize_polyline_lap | INFO | Joint Found: ('b8', 'b19'), 1.10409060711e-10
+2021-11-24 12:47:17,372 | customize_polyline_lap | DEBUG | [-0.99999999999997624, -0.34202014332565467, 0.99999999999997624, 0.34202014332565467]
+2021-11-24 12:47:17,372 | customize_polyline_lap | DEBUG | [-0.34201991742400073, -0.9999999999999587, 0.34201991742400073, 0.9999999999999587]
+2021-11-24 12:47:17,372 | customize_polyline_lap | INFO | v1_on_side=3 v2_on_side=4
+2021-11-24 12:47:17,373 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:17,373 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:19,484 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\32.txt
+2021-11-24 12:47:19,487 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.5,0.03],[0.97,0.03],[1.,0.]],[[0.,0.],[0.03,0.03],[0.5,0.08],[1.,0.]],[[0.,0.],[0.5,0.03],[0.97,0.03],[1.,0.]],[[0.,0.],[0.03,0.03],[0.5,0.08],[1.,0.]]]]
+2021-11-24 12:47:19,491 | customize_polyline_lap | INFO | Joint Found: ('b7', 'b8'), 1.37680346137e-10
+2021-11-24 12:47:19,492 | customize_polyline_lap | DEBUG | [0.25881904510250553, -0.99999999999997624, -0.25881904510250553, 0.99999999999997624]
+2021-11-24 12:47:19,492 | customize_polyline_lap | DEBUG | [-0.99999999999989175, 0.25881892581000937, 0.99999999999989175, -0.25881892581000937]
+2021-11-24 12:47:19,492 | customize_polyline_lap | INFO | v1_on_side=4 v2_on_side=3
+2021-11-24 12:47:19,493 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:19,493 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:19,493 | customize_polyline_lap | INFO |  - rotate CCW
+2021-11-24 12:47:19,493 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:47:22,319 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\33.txt
+2021-11-24 12:47:22,323 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.05,0.],[0.05,0.05],[0.5,0.05],[0.95,0.05],[0.95,0.],[1.,0.]],[[0.,0.],[0.,0.05],[0.05,0.05],[0.5,0.05],[0.95,0.05],[1.,0.05],[1.,0.]],[[0.,0.],[0.05,0.],[0.05,0.05],[0.5,0.05],[0.95,0.05],[0.95,0.],[1.,0.]],[[0.,0.],[0.,0.05],[0.05,0.05],[0.5,0.05],[0.95,0.05],[1.,0.05],[1.,0.]]]]
+2021-11-24 12:47:22,326 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b3'), 1.13304206042e-10
+2021-11-24 12:47:22,326 | customize_polyline_lap | DEBUG | [0.99999999999997624, 0.0, -0.99999999999997624, 0.0]
+2021-11-24 12:47:22,327 | customize_polyline_lap | DEBUG | [0.0, -1.0, 0.0, 1.0]
+2021-11-24 12:47:22,327 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=4
+2021-11-24 12:47:22,328 | customize_polyline_lap | INFO |  - flip 2-4
+2021-11-24 12:47:25,470 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\34.txt
+2021-11-24 12:47:25,473 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.064,0.],[0.1,0.1],[0.5,0.14],[0.9,0.1],[0.908,0.],[1.,0.]],[[0.,0.],[0.,0.093],[0.1,0.1],[0.5,0.13],[0.9,0.1],[1.,0.064],[1.,0.]],[[0.,0.],[0.064,0.],[0.1,0.1],[0.5,0.14],[0.9,0.1],[0.908,0.],[1.,0.]],[[0.,0.],[0.,0.093],[0.1,0.1],[0.5,0.13],[0.9,0.1],[1.,0.064],[1.,0.]]]]
+2021-11-24 12:47:25,476 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b19'), 1.35059628277e-10
+2021-11-24 12:47:25,476 | customize_polyline_lap | DEBUG | [0.99999999999997624, 0.34202014332565711, -0.99999999999997624, -0.34202014332565711]
+2021-11-24 12:47:25,476 | customize_polyline_lap | DEBUG | [0.34201991742399673, 0.9999999999999587, -0.34201991742399673, -0.9999999999999587]
+2021-11-24 12:47:25,476 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=2
+2021-11-24 12:47:27,731 | customize_polyline_lap | INFO | File: C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\211010_CantiBox\joints\left\35.txt
+2021-11-24 12:47:27,735 | customize_polyline_lap | INFO | polyline_string = [50.,[[[0.,0.],[0.07,0.],[0.07,0.07],[0.5,0.12],[0.93,0.07],[0.949,0.],[1.,0.]],[[0.,0.],[0.,0.051],[0.07,0.07],[0.5,0.07],[0.93,0.07],[1.,0.07],[1.,0.]],[[0.,0.],[0.07,0.],[0.07,0.07],[0.5,0.12],[0.93,0.07],[0.949,0.],[1.,0.]],[[0.,0.],[0.,0.051],[0.07,0.07],[0.5,0.07],[0.93,0.07],[1.,0.07],[1.,0.]]]]
+2021-11-24 12:47:27,738 | customize_polyline_lap | INFO | Joint Found: ('b1', 'b7'), 1.49689262233e-10
+2021-11-24 12:47:27,739 | customize_polyline_lap | DEBUG | [0.99999999999997624, 0.25881904510250747, -0.99999999999997624, -0.25881904510250747]
+2021-11-24 12:47:27,739 | customize_polyline_lap | DEBUG | [-0.25881892581000937, -0.99999999999989186, 0.25881892581000937, 0.99999999999989186]
+2021-11-24 12:47:27,739 | customize_polyline_lap | INFO | v1_on_side=1 v2_on_side=4
+2021-11-24 12:47:27,739 | customize_polyline_lap | INFO |  - flip 2-4
