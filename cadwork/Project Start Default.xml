@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cadwork3D version="V28" version-string="28.0.293.8334" from="3D">
+    <Name>HyparHut</Name>
+    <Number>1</Number>
+    <Part></Part>
+    <Architect>Victor Leung</Architect>
+    <Customer>ETH Zurich</Customer>
+    <Designer>leungp</Designer>
+    <Deadline></Deadline>
+    <Name_trans></Name_trans>
+    <Number_trans></Number_trans>
+    <Part_trans></Part_trans>
+    <Architect_trans></Architect_trans>
+    <Customer_trans></Customer_trans>
+    <Designer_trans></Designer_trans>
+    <Deadline_trans></Deadline_trans>
+    <GUID_trans></GUID_trans>
+    <UserData count="10">
+        <Item title="Text 1" index="1"></Item>
+        <Item title="Text 2" index="2"></Item>
+        <Item title="Text 3" index="3"></Item>
+        <Item title="Text 4" index="4"></Item>
+        <Item title="Text 5" index="5"></Item>
+        <Item title="Text 6" index="6"></Item>
+        <Item title="Text 7" index="7"></Item>
+        <Item title="Text 8" index="8"></Item>
+        <Item title="Text 9" index="9"></Item>
+        <Item title="Text 10" index="10"></Item>
+    </UserData>
+    <Logo>CH_Logo.2dc</Logo>
+    <Description>Beschreibung</Description>
+    <Geolocation>
+        <Latitude>47.4087</Latitude>
+        <Longitude>8.5056</Longitude>
+        <LocationEditable>0</LocationEditable>
+        <Address>Albert-Einstein-Strasse 8049</Address>
+        <PostalCode>8049</PostalCode>
+        <City>Zürich</City>
+        <Country>Switzerland</Country>
+        <State>ZH</State>
+        <Site></Site>
+    </Geolocation>
+    <GUID>{C227E024-5F44-40DC-BF5A-7B6BD6D22F8F}</GUID>
+    <Height>0</Height>
+</Cadwork3D>
