@@ -1,0 +1,604 @@
+2021-11-07 17:52:21,114 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, smooth=True, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-07 17:53:55,439 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, smooth=False, solve_mode='nonlinear', solve_timeout=1200.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-07 17:54:40,232 | INFO | A plan has been found for (seq_n=0) beam id b0!
+2021-11-07 17:54:42,320 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=1) beam b1!
+2021-11-07 17:55:43,221 | INFO | A plan has been found for (seq_n=1) beam id b1!
+2021-11-07 17:56:09,659 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=2) beam b2!
+2021-11-07 17:56:24,062 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=2) beam b2!
+2021-11-07 17:59:25,589 | INFO | A plan has been found for (seq_n=2) beam id b2!
+2021-11-07 17:59:26,195 | INFO | A plan has been found for (seq_n=3) beam id b24!
+2021-11-07 17:59:26,801 | INFO | A plan has been found for (seq_n=4) beam id b25!
+2021-11-07 17:59:27,626 | INFO | A plan has been found for (seq_n=5) beam id b23!
+2021-11-07 18:01:27,507 | INFO | A plan has been found for (seq_n=6) beam id b3!
+2021-11-07 18:01:28,234 | INFO | A plan has been found for (seq_n=7) beam id b21!
+2021-11-07 18:01:28,916 | INFO | A plan has been found for (seq_n=8) beam id b22!
+2021-11-07 18:01:29,484 | INFO | A plan has been found for (seq_n=9) beam id b20!
+2021-11-07 18:01:30,822 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=10) beam b4!
+2021-11-07 18:03:59,952 | INFO | A plan has been found for (seq_n=10) beam id b4!
+2021-11-07 18:06:43,326 | INFO | A plan has been found for (seq_n=11) beam id b5!
+2021-11-07 18:10:28,399 | INFO | A plan has been found for (seq_n=12) beam id b6!
+2021-11-07 18:10:29,068 | INFO | A plan has been found for (seq_n=13) beam id b29!
+2021-11-07 18:10:29,820 | INFO | A plan has been found for (seq_n=14) beam id b30!
+2021-11-07 18:10:30,488 | INFO | A plan has been found for (seq_n=15) beam id b31!
+2021-11-07 18:10:36,191 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=16) beam b8!
+2021-11-07 18:10:49,271 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=16) beam b8!
+2021-11-07 18:15:10,358 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:18:36,944 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:18:48,341 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=16) beam b8!
+2021-11-07 18:21:03,803 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:21:13,819 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=16) beam b8!
+2021-11-07 18:21:31,471 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=16) beam b8!
+2021-11-07 18:24:22,572 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:27:36,167 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:30:38,575 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b8!
+2021-11-07 18:34:36,973 | INFO | A plan has been found for (seq_n=16) beam id b8!
+2021-11-07 18:34:37,634 | INFO | A plan has been found for (seq_n=17) beam id b26!
+2021-11-07 18:34:38,217 | INFO | A plan has been found for (seq_n=18) beam id b28!
+2021-11-07 18:34:39,020 | INFO | A plan has been found for (seq_n=19) beam id b27!
+2021-11-07 18:34:42,408 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-07 18:37:08,918 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:37:24,440 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-07 18:37:34,891 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=20) beam b12!
+2021-11-07 18:40:37,912 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:44:11,134 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:47:15,487 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:47:26,084 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=20) beam b12!
+2021-11-07 18:50:15,235 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:53:23,545 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:53:42,755 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-07 18:53:51,884 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=20) beam b12!
+2021-11-07 18:56:26,752 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-07 18:57:34,048 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b13!
+2021-11-07 18:57:43,422 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=21) beam b13!
+2021-11-07 19:00:44,930 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b13!
+2021-11-07 19:00:56,911 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=21) beam b13!
+2021-11-07 19:02:15,594 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b13!
+2021-11-07 19:02:30,665 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=21) beam b13!
+2021-11-07 19:02:39,597 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=21) beam b13!
+2021-11-07 19:05:06,576 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b13!
+2021-11-07 19:05:16,939 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=21) beam b13!
+2021-11-07 19:09:40,838 | INFO | A plan has been found for (seq_n=21) beam id b13!
+2021-11-07 19:09:42,784 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=22) beam b7!
+2021-11-07 19:13:33,293 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b7!
+2021-11-07 19:13:52,175 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=22) beam b7!
+2021-11-07 19:14:15,289 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=22) beam b7!
+2021-11-07 19:14:24,379 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=22) beam b7!
+2021-11-07 19:16:11,475 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b7!
+2021-11-07 19:16:20,597 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=22) beam b7!
+2021-11-07 19:16:33,792 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=22) beam b7!
+2021-11-07 19:21:23,259 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b7!
+2021-11-07 19:23:48,774 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b7!
+2021-11-07 19:23:58,412 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=22) beam b7!
+2021-11-07 19:24:07,592 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=22) beam b7!
+2021-11-07 19:29:15,517 | INFO | A plan has been found for (seq_n=22) beam id b7!
+2021-11-07 19:32:03,984 | INFO | A plan has been found for (seq_n=23) beam id b9!
+2021-11-07 19:32:11,104 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:32:22,387 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:32:35,037 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:32:44,509 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:32:58,385 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:33:14,364 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:33:49,962 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:34:01,066 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:34:15,449 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:34:25,262 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:37:53,315 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:38:02,197 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:41:10,767 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:41:25,953 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:41:34,977 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:41:46,762 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:45:21,336 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:48:04,269 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:48:13,646 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:48:25,388 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:48:36,999 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:48:46,111 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:49:02,625 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:49:16,057 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:49:31,662 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:49:44,049 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:49:56,655 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:54:04,082 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:54:14,021 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-07 19:54:24,602 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:54:40,225 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:54:51,620 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-07 19:57:04,958 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-07 19:59:59,470 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b11!
+2021-11-07 20:00:14,755 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=25) beam b11!
+2021-11-07 20:02:45,931 | INFO | A plan has been found for (seq_n=25) beam id b11!
+2021-11-07 20:04:52,599 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:05:02,583 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-07 20:08:30,868 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:08:42,024 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-07 20:09:05,573 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:09:32,493 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:11:11,719 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:11:25,963 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:13:34,892 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:15:41,321 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:18:28,866 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:20:48,034 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:21:03,321 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:21:27,708 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:21:37,959 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-07 20:23:47,270 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:23:56,770 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-07 20:24:10,105 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-07 20:26:15,320 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-07 20:26:48,154 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-07 20:27:15,029 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-07 20:30:30,268 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:30:55,215 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2021-11-07 20:31:22,529 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2021-11-07 20:34:48,010 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:35:09,264 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2021-11-07 20:35:35,411 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-07 20:36:02,223 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-07 20:36:15,630 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2021-11-07 20:38:46,570 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:42:33,135 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:47:11,358 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:49:43,496 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-07 20:53:03,519 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 20:53:27,159 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-07 20:53:36,359 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-07 20:59:40,317 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 21:02:09,336 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 21:05:11,272 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 21:05:28,371 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-07 21:05:49,138 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-07 21:08:40,344 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 21:08:52,802 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-07 21:09:07,451 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-07 21:13:05,775 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-07 21:13:20,536 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=29) beam b17!
+2021-11-07 21:13:41,555 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=29) beam b17!
+2021-11-07 21:13:57,340 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=29) beam b17!
+2021-11-07 21:15:13,280 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=29) beam b17!
+2021-11-07 21:17:16,632 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=29) beam b17!
+2021-11-07 21:17:30,825 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=29) beam b17!
+2021-11-07 21:21:01,525 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=29) beam b17!
+2021-11-07 21:23:20,836 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=29) beam b17!
+2021-11-07 21:26:21,924 | INFO | A plan has been found for (seq_n=29) beam id b17!
+2021-11-07 21:28:44,591 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:30:56,402 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:32:47,698 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:33:04,465 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:33:14,824 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:33:25,784 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-07 21:33:35,259 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:35:35,824 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:39:51,108 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:42:10,552 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:42:28,036 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:42:38,626 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:44:56,788 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:45:06,200 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:45:20,007 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:45:29,318 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:45:39,177 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:45:49,708 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-07 21:46:01,067 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:46:16,816 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:46:31,462 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-07 21:48:30,108 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:51:06,847 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-07 21:54:40,487 | INFO | A plan has been found for (seq_n=31) beam id b19!
+2021-11-08 00:02:28,471 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[26, 28], smooth=False, solve_mode='nonlinear', solve_timeout=6000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 00:06:08,696 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[24], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 00:06:10,143 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:06:23,716 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:07:37,688 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[20], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 00:07:58,043 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:08:16,392 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:08:48,365 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:10:25,490 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:10:40,439 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:11:40,111 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:11:48,512 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:12:05,890 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:12:08,663 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:12:29,037 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:12:40,590 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:14:57,662 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:14:59,244 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:15:13,987 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:16:39,277 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:17:37,484 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:17:52,033 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:18:08,387 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:18:38,092 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:19:40,818 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:20:04,465 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:20:28,266 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:20:41,389 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:20:59,258 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:22:14,584 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:22:30,539 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:22:41,523 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:23:02,004 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:23:17,383 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-08 00:23:37,969 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:24:01,194 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:24:18,470 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:25:06,300 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:25:22,032 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:25:36,572 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:25:39,215 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=20) beam b12!
+2021-11-08 00:26:14,426 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:26:24,398 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:27:44,687 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:27:56,595 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:28:15,322 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:28:42,255 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b12!
+2021-11-08 00:31:08,512 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:31:09,857 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:31:22,278 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:32:50,910 | INFO | A plan has been found for (seq_n=20) beam id b12!
+2021-11-08 00:34:39,204 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:34:54,577 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:36:06,104 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:36:15,897 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:36:22,396 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:36:31,265 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:38:25,345 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:39:27,873 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:39:43,032 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:39:58,927 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:40:09,110 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:40:18,917 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:40:31,153 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:40:41,798 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:40:57,274 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:41:07,271 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:41:26,847 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:43:11,491 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:43:20,998 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-08 00:43:33,126 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:44:03,946 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:47:32,870 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:48:24,973 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:48:39,846 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:48:50,614 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:49:00,067 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:49:12,341 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:49:22,131 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:49:28,753 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:49:41,567 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:49:50,058 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:49:52,340 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:50:02,417 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 00:52:54,379 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:55:17,613 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:57:28,101 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 00:57:45,081 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:58:03,540 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:58:10,316 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 00:58:20,360 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 00:58:27,665 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 00:58:36,993 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 01:00:10,905 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b10!
+2021-11-08 01:00:11,466 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 01:00:21,793 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 01:01:55,677 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 01:05:02,660 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:07:54,768 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:08:20,767 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:11:13,043 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:11:36,611 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:13:59,257 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:17:30,632 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:19:56,961 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:20:23,495 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:20:49,240 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:24:56,851 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:27:48,288 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:33:32,098 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:34:05,212 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2021-11-08 01:34:24,688 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2021-11-08 01:37:09,050 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:42:59,987 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:43:27,574 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:43:52,205 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:44:17,460 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:44:35,625 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2021-11-08 01:45:01,041 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2021-11-08 01:47:35,423 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:48:08,709 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:48:38,130 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:49:09,808 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:52:48,980 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:53:16,381 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:53:48,110 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 01:56:28,899 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:59:10,103 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 01:59:33,722 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 02:00:02,258 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 02:00:25,098 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 02:03:51,904 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 02:06:55,520 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 02:09:51,145 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 02:10:19,823 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 02:10:52,951 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2021-11-08 02:11:18,407 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2021-11-08 02:11:30,977 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:11:40,504 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:15:35,086 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:15:45,390 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:19:12,023 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:19:21,443 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:19:32,902 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:19:50,203 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:19:59,738 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:20:09,220 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:23:15,311 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:29:34,920 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:32:33,997 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:35:06,914 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:35:34,976 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:35:44,306 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:38:51,983 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:39:11,853 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:39:23,135 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:39:32,471 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:44:31,020 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:48:06,227 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:48:16,131 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:48:29,145 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 02:51:19,719 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:54:15,335 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:55:05,980 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 02:55:15,592 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 02:58:47,959 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:01:26,450 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:03:39,366 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:03:50,258 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=28) beam b16!
+2021-11-08 03:04:19,971 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:09:12,764 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:11:00,595 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:14:40,286 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:14:49,784 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 03:15:04,914 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 03:16:58,266 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 03:17:12,759 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 11:10:33,299 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[30], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 11:15:06,826 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:15:16,783 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:17:25,482 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:17:35,342 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:17:44,670 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:17:55,424 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:18:05,434 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:18:19,356 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 11:21:20,196 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:21:29,496 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:21:40,686 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-08 11:21:49,629 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:22:04,072 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 11:24:29,233 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:26:32,386 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:26:46,612 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 11:26:55,938 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:27:06,706 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-08 11:37:39,242 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[30], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 11:44:57,926 | INFO | No plan found for A269_M0 after 1 attempts. RoboticFreeMovement(#A269_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., traj 0)
+2021-11-08 11:44:57,926 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:45:09,779 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 11:45:09,779 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 11:45:18,877 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 11:45:18,877 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 11:49:50,859 | INFO | No plan found for A261_M0 after 1 attempts. RoboticFreeMovement(#A261_M0, Free Move to bring CL3 ('c1') to structure., traj 0)
+2021-11-08 11:49:50,859 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 11:50:07,683 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 11:50:07,683 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 11:50:17,622 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 11:50:17,622 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:01:16,162 | INFO | No plan found for A271_M0 after 1 attempts. RoboticFreeMovement(#A271_M0, Free Move reach Storage Approach Frame of CL3 ('c2'), to place clamp in storage., traj 0)
+2021-11-08 12:01:16,162 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:03:00,698 | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[30], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 12:03:59,261 | INFO | No plan found for A262_M0 after 1 attempts. RoboticFreeMovement(#A262_M0, Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp., traj 0)
+2021-11-08 12:03:59,262 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:04:17,985 | INFO | No plan found for A265_M4 after 1 attempts. RoboticLinearMovement(#A265_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 12:04:17,985 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:04:37,982 | INFO | No plan found for A265_M4 after 1 attempts. RoboticLinearMovement(#A265_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 12:04:37,982 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:04:48,381 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:04:48,381 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:05:03,182 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:05:03,182 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:05:16,240 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:05:16,240 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:05:25,825 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:05:25,825 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:05:35,871 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:05:35,872 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:10:21,999 | INFO | No plan found for A267_M0 after 1 attempts. RoboticFreeMovement(#A267_M0, Free Move to bring Beam ('b18') to approach clamps on structure., traj 0)
+2021-11-08 12:10:21,999 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:10:47,480 | INFO | No plan found for A272_M6 after 1 attempts. RoboticLinearMovement(#A272_M6, Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure., traj 0)
+2021-11-08 12:10:47,480 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:10:57,037 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:10:57,037 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:11:14,762 | INFO | No plan found for A266_M4 after 1 attempts. RoboticLinearMovement(#A266_M4, Linear Retract after picking up Beam ('b18'), traj 0)
+2021-11-08 12:11:14,762 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:11:38,471 | INFO | No plan found for A270_M5 after 1 attempts. RoboticLinearMovement(#A270_M5, Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure., traj 0)
+2021-11-08 12:11:38,471 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:12:28,448 | INFO | No plan found for A262_M0 after 1 attempts. RoboticFreeMovement(#A262_M0, Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp., traj 0)
+2021-11-08 12:12:28,448 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:12:45,548 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:12:45,548 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:12:55,308 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:12:55,308 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:17:48,734 | INFO | No plan found for A261_M0 after 1 attempts. RoboticFreeMovement(#A261_M0, Free Move to bring CL3 ('c1') to structure., traj 0)
+2021-11-08 12:17:48,735 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:22:04,038 | INFO | No plan found for A262_M0 after 1 attempts. RoboticFreeMovement(#A262_M0, Free Move reach Storage Approach Frame of CL3 ('c2'), to get clamp., traj 0)
+2021-11-08 12:22:04,038 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:22:18,670 | INFO | No plan found for A262_M5 after 1 attempts. RoboticLinearMovement(#A262_M5, Linear Retract 2 of 2 after getting CL3 ('c2') from storage., traj 0)
+2021-11-08 12:22:18,671 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:22:29,970 | INFO | No plan found for A267_M3 after 1 attempts. RoboticClampSyncLinearMovement(#A267_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), traj 0)
+2021-11-08 12:22:29,970 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-08 12:22:42,946 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:22:42,946 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:22:54,209 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:22:54,209 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:23:06,128 | INFO | No plan found for A268_M1 after 1 attempts. RoboticLinearMovement(#A268_M1, Linear retract after placing Beam ('b18'), traj 0)
+2021-11-08 12:23:06,128 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:23:17,791 | INFO | No plan found for A267_M3 after 1 attempts. RoboticClampSyncLinearMovement(#A267_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), traj 0)
+2021-11-08 12:23:17,791 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-08 12:23:32,252 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:23:32,252 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:33:33,293 | INFO | No plan found for A263_M0 after 1 attempts. RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c2') to structure., traj 0)
+2021-11-08 12:33:33,293 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:33:43,350 | INFO | No plan found for A268_M1 after 1 attempts. RoboticLinearMovement(#A268_M1, Linear retract after placing Beam ('b18'), traj 0)
+2021-11-08 12:33:43,350 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:34:01,617 | INFO | No plan found for A266_M4 after 1 attempts. RoboticLinearMovement(#A266_M4, Linear Retract after picking up Beam ('b18'), traj 0)
+2021-11-08 12:34:01,617 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:34:15,197 | INFO | No plan found for A262_M5 after 1 attempts. RoboticLinearMovement(#A262_M5, Linear Retract 2 of 2 after getting CL3 ('c2') from storage., traj 0)
+2021-11-08 12:34:15,197 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:34:26,883 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:34:26,883 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:34:38,144 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:34:38,144 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:34:48,713 | INFO | No plan found for A267_M3 after 1 attempts. RoboticClampSyncLinearMovement(#A267_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), traj 0)
+2021-11-08 12:34:48,713 | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=30) beam b18!
+2021-11-08 12:34:58,833 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:34:58,833 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:40:32,582 | INFO | No plan found for A265_M0 after 1 attempts. RoboticFreeMovement(#A265_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0)
+2021-11-08 12:40:32,582 | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=30) beam b18!
+2021-11-08 12:40:52,043 | INFO | No plan found for A265_M4 after 1 attempts. RoboticLinearMovement(#A265_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 12:40:52,043 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:41:04,942 | INFO | No plan found for A261_M5 after 1 attempts. RoboticLinearMovement(#A261_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 12:41:04,942 | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2021-11-08 12:41:15,141 | INFO | No plan found for A267_M1 after 1 attempts. RoboticLinearMovement(#A267_M1, Linear Advance to bring Beam ('b18') into clamp jaws, traj 0)
+2021-11-08 12:41:15,141 | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=30) beam b18!
+2021-11-08 12:53:10,680 | INFO | A plan has been found for (seq_n=30) beam id b18!2021-11-08 14:27:01,906 | root | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[24], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 14:27:15,727 | root | INFO | No plan found for A165_M1 after 1 attempts. RoboticLinearMovement(#A165_M1, Linear Advance to bring Beam ('b10') into clamp jaws, traj 0)
+2021-11-08 14:27:15,727 | root | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 14:27:31,030 | root | INFO | No plan found for A159_M5 after 1 attempts. RoboticLinearMovement(#A159_M5, Linear Retract after attaching CL3M ('c3') on structure, traj 0)
+2021-11-08 14:27:31,030 | root | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:27:47,183 | root | INFO | No plan found for A163_M4 after 1 attempts. RoboticLinearMovement(#A163_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 14:27:47,183 | root | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:31:25,558 | run.py | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[24], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 14:31:42,242 | solve.py | INFO | No plan found for A159_M5 after 1 attempts. RoboticLinearMovement(#A159_M5, Linear Retract after attaching CL3M ('c3') on structure, traj 0)
+2021-11-08 14:31:42,242 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:31:55,325 | solve.py | INFO | No plan found for A159_M5 after 1 attempts. RoboticLinearMovement(#A159_M5, Linear Retract after attaching CL3M ('c3') on structure, traj 0)
+2021-11-08 14:31:55,325 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:32:14,452 | solve.py | INFO | No plan found for A164_M4 after 1 attempts. RoboticLinearMovement(#A164_M4, Linear Retract after picking up Beam ('b10'), traj 0)
+2021-11-08 14:32:14,452 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:32:25,807 | solve.py | INFO | No plan found for A159_M2 after 1 attempts. RoboticLinearMovement(#A159_M2, Linear Approach 2 of 2 to attach CL3M ('c3') to structure., traj 0)
+2021-11-08 14:32:25,807 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=24) beam b10!
+2021-11-08 14:32:35,661 | solve.py | INFO | No plan found for A165_M1 after 1 attempts. RoboticLinearMovement(#A165_M1, Linear Advance to bring Beam ('b10') into clamp jaws, traj 0)
+2021-11-08 14:32:35,662 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=24) beam b10!
+2021-11-08 14:37:55,309 | run.py | INFO | A plan has been found for (seq_n=24) beam id b10!
+2021-11-08 14:41:57,373 | run.py | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='211010_CantiBox', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='CantiBoxRight_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[26, 28], smooth=False, solve_mode='nonlinear', solve_timeout=9000.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2021-11-08 14:42:16,416 | solve.py | INFO | No plan found for A197_M4 after 1 attempts. RoboticLinearMovement(#A197_M4, Linear Retract after getting PG1000 ('g2') from storage., traj 0)
+2021-11-08 14:42:16,416 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 14:42:36,845 | solve.py | INFO | No plan found for A199_M1 after 1 attempts. RoboticLinearMovement(#A199_M1, Linear Advance to bring Beam ('b14') into clamp jaws, traj 0)
+2021-11-08 14:42:36,845 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-08 14:46:27,990 | solve.py | INFO | No plan found for A193_M0 after 1 attempts. RoboticFreeMovement(#A193_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 14:46:27,990 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 14:53:49,467 | solve.py | INFO | No plan found for A194_M0 after 1 attempts. RoboticFreeMovement(#A194_M0, Free Move reach Storage Approach Frame of CL3M ('c4'), to get clamp., traj 0)
+2021-11-08 14:53:49,467 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 14:54:10,703 | solve.py | INFO | No plan found for A204_M6 after 1 attempts. RoboticLinearMovement(#A204_M6, Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure., traj 0)
+2021-11-08 14:54:10,703 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:02:59,026 | solve.py | INFO | No plan found for A199_M0 after 1 attempts. RoboticFreeMovement(#A199_M0, Free Move to bring Beam ('b14') to approach clamps on structure., traj 0)
+2021-11-08 15:02:59,026 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:06:44,017 | solve.py | INFO | No plan found for A193_M0 after 1 attempts. RoboticFreeMovement(#A193_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 15:06:44,017 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:15:09,914 | solve.py | INFO | No plan found for A199_M0 after 1 attempts. RoboticFreeMovement(#A199_M0, Free Move to bring Beam ('b14') to approach clamps on structure., traj 0)
+2021-11-08 15:15:09,914 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:15:29,805 | solve.py | INFO | No plan found for A202_M6 after 1 attempts. RoboticLinearMovement(#A202_M6, Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure., traj 0)
+2021-11-08 15:15:29,805 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:15:52,948 | solve.py | INFO | No plan found for A204_M5 after 1 attempts. RoboticLinearMovement(#A204_M5, Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure., traj 0)
+2021-11-08 15:15:52,948 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:21:28,164 | solve.py | INFO | No plan found for A198_M0 after 1 attempts. RoboticFreeMovement(#A198_M0, Free Move to reach Pickup Approach Frame of Beam ('b14'), traj 0)
+2021-11-08 15:21:28,164 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:21:46,235 | solve.py | INFO | No plan found for A202_M5 after 1 attempts. RoboticLinearMovement(#A202_M5, Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure., traj 0)
+2021-11-08 15:21:46,235 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:22:12,616 | solve.py | INFO | No plan found for A204_M6 after 1 attempts. RoboticLinearMovement(#A204_M6, Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure., traj 0)
+2021-11-08 15:22:12,616 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:28:12,941 | solve.py | INFO | No plan found for A193_M0 after 1 attempts. RoboticFreeMovement(#A193_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 15:28:12,941 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:32:14,588 | solve.py | INFO | No plan found for A193_M0 after 1 attempts. RoboticFreeMovement(#A193_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 15:32:14,588 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:32:28,243 | solve.py | INFO | No plan found for A193_M2 after 1 attempts. RoboticLinearMovement(#A193_M2, Linear Approach 2 of 2 to attach CL3M ('c3') to structure., traj 0)
+2021-11-08 15:32:28,243 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:32:49,182 | solve.py | INFO | No plan found for A197_M4 after 1 attempts. RoboticLinearMovement(#A197_M4, Linear Retract after getting PG1000 ('g2') from storage., traj 0)
+2021-11-08 15:32:49,182 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:33:04,619 | solve.py | INFO | No plan found for A193_M2 after 1 attempts. RoboticLinearMovement(#A193_M2, Linear Approach 2 of 2 to attach CL3M ('c3') to structure., traj 0)
+2021-11-08 15:33:04,619 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2021-11-08 15:37:39,191 | solve.py | INFO | No plan found for A193_M0 after 1 attempts. RoboticFreeMovement(#A193_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 15:37:39,191 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2021-11-08 15:37:50,289 | solve.py | INFO | No plan found for A199_M1 after 1 attempts. RoboticLinearMovement(#A199_M1, Linear Advance to bring Beam ('b14') into clamp jaws, traj 0)
+2021-11-08 15:37:50,289 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b14!
+2021-11-08 15:43:22,723 | run.py | INFO | A plan has been found for (seq_n=26) beam id b14!
+2021-11-08 15:49:23,451 | solve.py | INFO | No plan found for A214_M0 after 1 attempts. RoboticFreeMovement(#A214_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2021-11-08 15:49:23,451 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 15:49:54,612 | solve.py | INFO | No plan found for A221_M1 after 1 attempts. RobotScrewdriverSyncLinearMovement(#A221_M1, Robot and Screwdriver (s2) syncronously move to retract from Beam ('b15'), traj 0)
+2021-11-08 15:49:54,612 | run.py | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 15:55:30,996 | solve.py | INFO | No plan found for A214_M0 after 1 attempts. RoboticFreeMovement(#A214_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2021-11-08 15:55:30,996 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 16:01:11,191 | solve.py | INFO | No plan found for A214_M0 after 1 attempts. RoboticFreeMovement(#A214_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2021-11-08 16:01:11,191 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2021-11-08 16:01:32,675 | solve.py | INFO | No plan found for A221_M1 after 1 attempts. RobotScrewdriverSyncLinearMovement(#A221_M1, Robot and Screwdriver (s2) syncronously move to retract from Beam ('b15'), traj 0)
+2021-11-08 16:01:32,675 | run.py | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 16:02:01,919 | solve.py | INFO | No plan found for A221_M1 after 1 attempts. RobotScrewdriverSyncLinearMovement(#A221_M1, Robot and Screwdriver (s2) syncronously move to retract from Beam ('b15'), traj 0)
+2021-11-08 16:02:01,919 | run.py | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 16:02:29,380 | solve.py | INFO | No plan found for A221_M1 after 1 attempts. RobotScrewdriverSyncLinearMovement(#A221_M1, Robot and Screwdriver (s2) syncronously move to retract from Beam ('b15'), traj 0)
+2021-11-08 16:02:29,380 | run.py | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2021-11-08 16:12:21,958 | run.py | INFO | A plan has been found for (seq_n=27) beam id b15!
+2021-11-08 16:12:23,594 | solve.py | INFO | No plan found for A234_M1 after 1 attempts. RoboticLinearMovement(#A234_M1, Linear retract after placing Beam ('b16'), traj 0)
+2021-11-08 16:12:23,594 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 16:26:19,372 | solve.py | INFO | No plan found for A236_M0 after 1 attempts. RoboticFreeMovement(#A236_M0, Free Move to reach CL3 ('c1') to detach it from structure., traj 0)
+2021-11-08 16:26:19,372 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 16:26:44,612 | solve.py | INFO | No plan found for A238_M6 after 1 attempts. RoboticLinearMovement(#A238_M6, Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure., traj 0)
+2021-11-08 16:26:44,612 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 16:27:00,958 | solve.py | INFO | No plan found for A229_M5 after 1 attempts. RoboticLinearMovement(#A229_M5, Linear Retract after attaching CL3 ('c1') on structure, traj 0)
+2021-11-08 16:27:00,958 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 16:38:58,957 | solve.py | INFO | No plan found for A239_M0 after 1 attempts. RoboticFreeMovement(#A239_M0, Free Move reach Storage Approach Frame of CL3M ('c3'), to place clamp in storage., traj 0)
+2021-11-08 16:38:58,957 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 16:39:08,695 | solve.py | INFO | No plan found for A234_M1 after 1 attempts. RoboticLinearMovement(#A234_M1, Linear retract after placing Beam ('b16'), traj 0)
+2021-11-08 16:39:08,696 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 16:39:18,525 | solve.py | INFO | No plan found for A234_M1 after 1 attempts. RoboticLinearMovement(#A234_M1, Linear retract after placing Beam ('b16'), traj 0)
+2021-11-08 16:39:18,525 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 16:48:15,565 | solve.py | INFO | No plan found for A233_M0 after 1 attempts. RoboticFreeMovement(#A233_M0, Free Move to bring Beam ('b16') to approach clamps on structure., traj 0)
+2021-11-08 16:48:15,566 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 16:59:52,264 | solve.py | INFO | No plan found for A237_M0 after 1 attempts. RoboticFreeMovement(#A237_M0, Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage., traj 0)
+2021-11-08 16:59:52,264 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:06:13,269 | solve.py | INFO | No plan found for A229_M0 after 1 attempts. RoboticFreeMovement(#A229_M0, Free Move to bring CL3 ('c1') to structure., traj 0)
+2021-11-08 17:06:13,269 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:18:06,155 | solve.py | INFO | No plan found for A237_M0 after 1 attempts. RoboticFreeMovement(#A237_M0, Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage., traj 0)
+2021-11-08 17:18:06,155 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:18:23,317 | solve.py | INFO | No plan found for A231_M4 after 1 attempts. RoboticLinearMovement(#A231_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 17:18:23,318 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:18:40,236 | solve.py | INFO | No plan found for A232_M4 after 1 attempts. RoboticLinearMovement(#A232_M4, Linear Retract after picking up Beam ('b16'), traj 0)
+2021-11-08 17:18:40,236 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:30:56,506 | solve.py | INFO | No plan found for A237_M0 after 1 attempts. RoboticFreeMovement(#A237_M0, Free Move reach Storage Approach Frame of CL3 ('c1'), to place clamp in storage., traj 0)
+2021-11-08 17:30:56,506 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:31:08,320 | solve.py | INFO | No plan found for A234_M1 after 1 attempts. RoboticLinearMovement(#A234_M1, Linear retract after placing Beam ('b16'), traj 0)
+2021-11-08 17:31:08,320 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2021-11-08 17:39:04,405 | solve.py | INFO | No plan found for A233_M0 after 1 attempts. RoboticFreeMovement(#A233_M0, Free Move to bring Beam ('b16') to approach clamps on structure., traj 0)
+2021-11-08 17:39:04,406 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:39:17,513 | solve.py | INFO | No plan found for A228_M4 after 1 attempts. RoboticLinearMovement(#A228_M4, Linear Retract 1 of 2 after getting CL3 ('c1') from storage., traj 0)
+2021-11-08 17:39:17,513 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:39:32,805 | solve.py | INFO | No plan found for A231_M4 after 1 attempts. RoboticLinearMovement(#A231_M4, Linear Retract after getting PG1500 ('g3') from storage., traj 0)
+2021-11-08 17:39:32,805 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:46:26,640 | solve.py | INFO | No plan found for A235_M0 after 1 attempts. RoboticFreeMovement(#A235_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., traj 0)
+2021-11-08 17:46:26,641 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 17:46:37,916 | solve.py | INFO | No plan found for A226_M4 after 1 attempts. RoboticLinearMovement(#A226_M4, Linear Retract 1 of 2 after getting CL3M ('c3') from storage., traj 0)
+2021-11-08 17:46:37,916 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:46:52,087 | solve.py | INFO | No plan found for A226_M5 after 1 attempts. RoboticLinearMovement(#A226_M5, Linear Retract 2 of 2 after getting CL3M ('c3') from storage., traj 0)
+2021-11-08 17:46:52,088 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:47:03,133 | solve.py | INFO | No plan found for A226_M5 after 1 attempts. RoboticLinearMovement(#A226_M5, Linear Retract 2 of 2 after getting CL3M ('c3') from storage., traj 0)
+2021-11-08 17:47:03,133 | run.py | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2021-11-08 17:55:35,796 | solve.py | INFO | No plan found for A236_M0 after 1 attempts. RoboticFreeMovement(#A236_M0, Free Move to reach CL3 ('c1') to detach it from structure., traj 0)
+2021-11-08 17:55:35,796 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 18:02:05,079 | solve.py | INFO | No plan found for A233_M0 after 1 attempts. RoboticFreeMovement(#A233_M0, Free Move to bring Beam ('b16') to approach clamps on structure., traj 0)
+2021-11-08 18:02:05,079 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 18:07:09,122 | solve.py | INFO | No plan found for A227_M0 after 1 attempts. RoboticFreeMovement(#A227_M0, Free Move to bring CL3M ('c3') to structure., traj 0)
+2021-11-08 18:07:09,122 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 18:13:59,431 | solve.py | INFO | No plan found for A233_M0 after 1 attempts. RoboticFreeMovement(#A233_M0, Free Move to bring Beam ('b16') to approach clamps on structure., traj 0)
+2021-11-08 18:13:59,431 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2021-11-08 18:23:55,021 | solve.py | INFO | No plan found for A235_M0 after 1 attempts. RoboticFreeMovement(#A235_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., traj 0)
+2021-11-08 18:23:55,021 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
