@@ -81,38 +81,38 @@ Beam b2 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 
 Beam b3 assembly
-|- Action 15 (PickScrewdriverFromStorageAction): Pick SL1_G200 ('s4') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
-|  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|- Action 16 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b3')
+|- Action 15 (PickScrewdriverFromStorageAction): Pick SL1 ('s1') from Storage
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1 ('s1'), to pick tool from storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1 ('s1').
+|  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1 ('s1'), after picking up tool.
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1 ('s1'), after picking up tool.
+|- Action 16 (GenericGripperApproachBeamPickupAction): Gripper (s1) approaching pickup of Beam ('b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b3')
-|  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b3')
+|  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s1') Open Gripper before gripping Beam ('b3')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b3')
 |- Action 17 (LoadBeamAction): Operator load Beam ('b3') for pickup
 |  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b3) to Pickup Location
-|- Action 18 (CloseGripperOnBeamAction): Gripper (s4) close gripper on Beam ('b3')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('s4') Close Gripper to grip Beam ('b3')
-|- Action 19 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b3') using Gripper (s4)
+|- Action 18 (CloseGripperOnBeamAction): Gripper (s1) close gripper on Beam ('b3')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('s1') Close Gripper to grip Beam ('b3')
+|- Action 19 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b3') using Gripper (s1)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b3')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b3')
-|- Action 20 (AssembleBeamWithScrewdriversAction): Place Beam ('b3') to Joint final location with clamps at ['b0-b3'] using Clamp ['s4']
+|- Action 20 (AssembleBeamWithScrewdriversAction): Place Beam ('b3') to Joint final location with clamps at ['b0-b3'] using Clamp ['s1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b3') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
-|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4']) syncronously move to screw Beam ('b3')
-|- Action 21 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b3')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b3')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b3')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b3')
+|  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b3')
+|- Action 21 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b3')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b0-b3')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b0-b3')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
-|- Action 22 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
+|- Action 22 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
 Beam b4 assembly
 |- Action 23 (PickScrewdriverFromStorageAction): Pick SL1_G200 ('s4') from Storage
@@ -137,9 +137,9 @@ Beam b4 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4']) syncronously move to screw Beam ('b4')
 |- Action 29 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b4')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b4')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b4')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b4')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b0-b4')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b0-b4')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 30 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -174,7 +174,7 @@ Beam b5 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b5')
 |- Action 38 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b5')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b5')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b5')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b5')
 |- Action 39 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG500 ('g1'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to place tool in storage.
@@ -187,9 +187,9 @@ Beam b5 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 41 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b5')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b5')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b5')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b5')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b1-b5')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b5')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 42 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -224,7 +224,7 @@ Beam b6 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b6')
 |- Action 50 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b6')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b6')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b6')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b6')
 |- Action 51 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -237,9 +237,9 @@ Beam b6 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 53 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b6')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b6')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b6')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b6')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b2-b6')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b2-b6')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 54 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -278,7 +278,7 @@ Beam b7 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b7')
 |- Action 64 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b7')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b7')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b7')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b7')
 |- Action 65 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -291,9 +291,9 @@ Beam b7 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 67 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b7')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b7')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b7')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b7')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b4-b7')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b4-b7')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 68 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -307,9 +307,9 @@ Beam b7 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 70 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b7')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b7')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b7')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b7')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b6-b7')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b6-b7')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 71 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -323,9 +323,9 @@ Beam b7 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 73 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b7')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b7')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b7')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b7')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b5-b7')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b5-b7')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 74 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -362,7 +362,7 @@ Beam b8 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b8')
 |- Action 83 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b8')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b8')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b8')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b8')
 |- Action 84 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -375,9 +375,9 @@ Beam b8 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 86 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b8')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b8')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b8')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b8')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b2-b8')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b2-b8')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 87 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -391,9 +391,9 @@ Beam b8 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 89 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b8')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b8')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b8')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b8')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b6-b8')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b6-b8')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 90 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -428,7 +428,7 @@ Beam b9 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b9')
 |- Action 98 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b9')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b9')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b9')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b9')
 |- Action 99 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG500 ('g1'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to place tool in storage.
@@ -441,9 +441,9 @@ Beam b9 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 101 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b9')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b9')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b9')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b9')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b2-b9')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b2-b9')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 102 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -479,9 +479,9 @@ Beam b10 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b10')
 |- Action 111 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b10')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b10')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b10')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b10')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b8-b10')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b8-b10')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 112 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -495,9 +495,9 @@ Beam b10 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 114 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b10')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b10')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b10')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b10')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b9-b10')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b9-b10')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 115 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -511,9 +511,9 @@ Beam b10 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 117 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b10')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b10')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b10')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b10')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b2-b10')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b2-b10')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 118 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -548,7 +548,7 @@ Beam b11 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b11')
 |- Action 126 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b11')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b11')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b11')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b11')
 |- Action 127 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -561,9 +561,9 @@ Beam b11 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 129 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b11')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b11')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b11')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b11')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b1-b11')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b11')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 130 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -600,7 +600,7 @@ Beam b12 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b12')
 |- Action 139 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b12')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b12')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b12')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b12')
 |- Action 140 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -613,9 +613,9 @@ Beam b12 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 142 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b12')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b12')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b12')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b12')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b9-b12')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b9-b12')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 143 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -629,9 +629,9 @@ Beam b12 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 145 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b12')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b12')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b12')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b12')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b11-b12')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b11-b12')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 146 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -665,9 +665,9 @@ Beam b13 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b13')
 |- Action 154 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b13')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b13')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b13')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b13')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b11-b13')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b11-b13')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 155 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -681,9 +681,9 @@ Beam b13 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 157 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b13')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b13')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b13')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b13')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b1-b13')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b13')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 158 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -722,7 +722,7 @@ Beam b14 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b14')
 |- Action 168 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b14')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b14')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b14')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b14')
 |- Action 169 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -735,9 +735,9 @@ Beam b14 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 171 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b14')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b14')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b14')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b14')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b4-b14')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b4-b14')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 172 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -751,9 +751,9 @@ Beam b14 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 174 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b14')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b14')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b14')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b14')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b6-b14')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b6-b14')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 175 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -767,9 +767,9 @@ Beam b14 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 177 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b14')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b14')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b14')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b14')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b5-b14')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b5-b14')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 178 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -806,7 +806,7 @@ Beam b15 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b15')
 |- Action 187 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b15')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b15')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b15')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b15')
 |- Action 188 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -819,9 +819,9 @@ Beam b15 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 190 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b15')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b15')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b15')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b15')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b11-b15')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b11-b15')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 191 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -835,9 +835,9 @@ Beam b15 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 193 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b15')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b15')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b15')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b15')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b9-b15')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b9-b15')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 194 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -874,7 +874,7 @@ Beam b16 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b16')
 |- Action 203 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b16')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b16')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b16')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b16')
 |- Action 204 (PlaceGripperToStorageAction): Place PG500 ('g1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG500 ('g1'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG500 ('g1'), to place tool in storage.
@@ -887,9 +887,9 @@ Beam b16 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 206 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b16')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b16')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b16')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b16')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b16')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b16')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 207 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -903,9 +903,9 @@ Beam b16 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 209 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b16')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b16')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b16')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b16')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b7-b16')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b7-b16')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 210 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -942,7 +942,7 @@ Beam b17 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b17')
 |- Action 219 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b17')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b17')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b17')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b17')
 |- Action 220 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -955,9 +955,9 @@ Beam b17 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 222 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b17')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b17')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b17')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b17')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b17')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b17')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 223 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -971,9 +971,9 @@ Beam b17 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 225 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b17')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b17')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b17')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b17')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b7-b17')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b7-b17')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 226 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1010,7 +1010,7 @@ Beam b18 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b18')
 |- Action 235 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b18')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b18')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b18')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b18')
 |- Action 236 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -1023,9 +1023,9 @@ Beam b18 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 238 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b18')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b18')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b18')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b18')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b18')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b18')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 239 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1039,9 +1039,9 @@ Beam b18 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 241 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b18')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b18')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b18')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b18')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b7-b18')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b7-b18')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 242 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1078,7 +1078,7 @@ Beam b19 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b19')
 |- Action 251 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b19')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b19')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b19')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b19')
 |- Action 252 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -1091,9 +1091,9 @@ Beam b19 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 254 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b19')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b19')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b19')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b19')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b19')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b19')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 255 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1107,9 +1107,9 @@ Beam b19 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 257 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b19')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b19')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b19')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b19')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b19')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b19')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 258 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1146,7 +1146,7 @@ Beam b20 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b20')
 |- Action 267 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b20')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b20')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b20')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b20')
 |- Action 268 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -1159,9 +1159,9 @@ Beam b20 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 270 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b20')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b20')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b20')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b20')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b20')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b20')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 271 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1175,9 +1175,9 @@ Beam b20 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 273 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b20')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b20')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b20')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b20')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b20')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b20')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 274 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1214,7 +1214,7 @@ Beam b21 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b21')
 |- Action 283 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b21')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b21')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b21')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b21')
 |- Action 284 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -1227,9 +1227,9 @@ Beam b21 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 286 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b21')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b21')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b21')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b21')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b21')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b21')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 287 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1243,9 +1243,9 @@ Beam b21 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 289 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b21')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b21')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b21')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b21')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b21')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b21')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 290 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1282,7 +1282,7 @@ Beam b22 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b22')
 |- Action 299 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b22')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b22')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b22')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b22')
 |- Action 300 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -1295,9 +1295,9 @@ Beam b22 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 302 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b22')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b22')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b22')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b22')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b15-b22')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b15-b22')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 303 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1311,9 +1311,9 @@ Beam b22 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 305 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b22')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b22')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b22')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b22')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b14-b22')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b14-b22')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 306 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1350,7 +1350,7 @@ Beam b23 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b23')
 |- Action 315 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b23')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b23')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b23')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b23')
 |- Action 316 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
@@ -1363,9 +1363,9 @@ Beam b23 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 318 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b23')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b23')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b23')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b23')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b15-b23')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b15-b23')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 319 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1379,9 +1379,9 @@ Beam b23 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 321 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b23')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b23')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b23')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b23')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b14-b23')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b14-b23')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 322 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1391,21 +1391,21 @@ Beam b23 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
 Beam b24 assembly
-|- Action 323 (PickGripperFromStorageAction): Pick PG1500 ('g3') from Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
-|  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1500 ('g3')
-|  |- <x> Movement 3 (RoboticDigitalOutput): PG1500 ('g3') Open Gripper to release itself from storage pad.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1500 ('g3') from storage.
-|- Action 324 (GenericGripperApproachBeamPickupAction): Gripper (g3) approaching pickup of Beam ('b24')
+|- Action 323 (PickGripperFromStorageAction): Pick PG1000 ('g2') from Storage
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
+|  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock PG1000 ('g2')
+|  |- <x> Movement 3 (RoboticDigitalOutput): PG1000 ('g2') Open Gripper to release itself from storage pad.
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after getting PG1000 ('g2') from storage.
+|- Action 324 (GenericGripperApproachBeamPickupAction): Gripper (g2) approaching pickup of Beam ('b24')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b24')
-|  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g3') Open Gripper before gripping Beam ('b24')
+|  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('g2') Open Gripper before gripping Beam ('b24')
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to Storage Frame of Beam ('b24')
 |- Action 325 (LoadBeamAction): Operator load Beam ('b24') for pickup
 |  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b24) to Pickup Location
-|- Action 326 (CloseGripperOnBeamAction): Gripper (g3) close gripper on Beam ('b24')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('g3') Close Gripper to grip Beam ('b24')
-|- Action 327 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b24') using Gripper (g3)
+|- Action 326 (CloseGripperOnBeamAction): Gripper (g2) close gripper on Beam ('b24')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Gripper ('g2') Close Gripper to grip Beam ('b24')
+|- Action 327 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b24') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b24')
 |  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b24')
 |- Action 328 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b24) of Beam (b24).
@@ -1416,24 +1416,24 @@ Beam b24 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b24') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b24')
-|- Action 331 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b24')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b24')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b24')
-|- Action 332 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
-|  |- <x> Movement 2 (RoboticDigitalOutput): PG1500 ('g3') Close Gripper to lock onto storage pad.
-|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1500 ('g3')
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1500 ('g3') in storage
+|- Action 331 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b24')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b24')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b24')
+|- Action 332 (PlaceGripperToStorageAction): Place PG1000 ('g2') to Storage
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
+|  |- <x> Movement 2 (RoboticDigitalOutput): PG1000 ('g2') Close Gripper to lock onto storage pad.
+|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
 |- Action 333 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b24') in screwdriver_assembled_attached
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach SL1 ('s2') on Beam ('b24') 
 |  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset to Toolchanger of SL1 ('s2') and move to alignment.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 334 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b24')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b24')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b24')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b24')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b24')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b24')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 335 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1447,9 +1447,9 @@ Beam b24 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 337 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b24')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b24')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b24')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b24')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b24')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b24')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 338 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1486,7 +1486,7 @@ Beam b25 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b25')
 |- Action 347 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b25')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b25')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b25')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b25')
 |- Action 348 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -1499,9 +1499,9 @@ Beam b25 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 350 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b25')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b25')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b25')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b25')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b25')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b25')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 351 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1515,9 +1515,9 @@ Beam b25 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 353 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b25')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b25')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b25')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b25')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b25')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b25')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 354 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1554,7 +1554,7 @@ Beam b26 assembly
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b26')
 |- Action 363 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b26')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b26')
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract after placing Beam ('b26')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b26')
 |- Action 364 (PlaceGripperToStorageAction): Place PG1500 ('g3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
@@ -1567,9 +1567,9 @@ Beam b26 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 366 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b26')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b26')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b26')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b26')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b14-b26')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b14-b26')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 367 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1583,9 +1583,9 @@ Beam b26 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 369 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b26')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b26')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b26')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b26')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b15-b26')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b15-b26')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 370 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1621,9 +1621,9 @@ Beam b27 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b27')
 |- Action 379 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b27')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b27')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b27')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b27')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b27')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b27')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 380 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1637,9 +1637,9 @@ Beam b27 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 382 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b27')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b27')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b27')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b27')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b21-b27')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b21-b27')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 383 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1653,9 +1653,9 @@ Beam b27 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 385 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b27')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b27')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b27')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b27')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b19-b27')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b19-b27')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 386 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1689,9 +1689,9 @@ Beam b28 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b28')
 |- Action 394 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b28')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b28')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b28')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b28')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b28')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b28')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 395 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1705,9 +1705,9 @@ Beam b28 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 397 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b28')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b28')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b28')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b28')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b22-b28')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b22-b28')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 398 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1743,9 +1743,9 @@ Beam b29 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b29')
 |- Action 407 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b29')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b29')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b29')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b29')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b29')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b29')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 408 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1759,9 +1759,9 @@ Beam b29 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 410 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b29')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b29')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b29')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b29')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b26-b29')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b26-b29')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 411 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1775,9 +1775,9 @@ Beam b29 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 413 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b29')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b29')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b29')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b29')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b29')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b29')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 414 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1811,9 +1811,9 @@ Beam b30 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b30')
 |- Action 422 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b30')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b30')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b30')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b30')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b30')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b30')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 423 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1827,9 +1827,9 @@ Beam b30 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 425 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b30')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b30')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b30')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b30')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b20-b30')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b20-b30')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 426 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1867,9 +1867,9 @@ Beam b31 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b31')
 |- Action 436 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b31')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b31')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b31')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b31')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b31')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b31')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 437 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1883,9 +1883,9 @@ Beam b31 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 439 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b31')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b31')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b31')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b31')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b21-b31')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b21-b31')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 440 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -1899,9 +1899,9 @@ Beam b31 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 442 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b31')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b31')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b31')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b31')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b23-b31')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b23-b31')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 443 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -1915,9 +1915,9 @@ Beam b31 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 445 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b31')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b31')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b31')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b31')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b31')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b31')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 446 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -1951,9 +1951,9 @@ Beam b32 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b32')
 |- Action 454 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b32')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b32')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b32')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b32')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b32')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b32')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 455 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -1967,9 +1967,9 @@ Beam b32 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 457 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b32')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b32')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b32')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b32')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b25-b32')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b25-b32')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 458 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2005,9 +2005,9 @@ Beam b33 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b33')
 |- Action 467 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b33')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b33')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b33')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b33')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b33')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b33')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 468 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2021,9 +2021,9 @@ Beam b33 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 470 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b33')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b33')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b33')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b33')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b21-b33')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b21-b33')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 471 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2037,9 +2037,9 @@ Beam b33 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 473 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b33')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b33')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b33')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b33')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b19-b33')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b19-b33')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 474 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2073,9 +2073,9 @@ Beam b34 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b34')
 |- Action 482 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b34')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b34')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b34')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b34')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b34')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b34')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 483 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2089,9 +2089,9 @@ Beam b34 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 485 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b34')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b34')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b34')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b34')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b22-b34')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b22-b34')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 486 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2127,9 +2127,9 @@ Beam b35 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b35')
 |- Action 495 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b35')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b35')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b35')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b35')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b35')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b35')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 496 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2143,9 +2143,9 @@ Beam b35 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 498 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b35')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b35')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b35')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b35')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b26-b35')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b26-b35')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 499 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2159,9 +2159,9 @@ Beam b35 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 501 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b35')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b35')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b35')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b35')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b35')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b35')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 502 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2195,9 +2195,9 @@ Beam b36 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b36')
 |- Action 510 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b36')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b36')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b36')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b36')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b36')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b36')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 511 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2211,9 +2211,9 @@ Beam b36 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 513 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b36')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b36')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b36')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b36')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b20-b36')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b20-b36')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 514 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2251,9 +2251,9 @@ Beam b37 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b37')
 |- Action 524 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b37')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b37')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b37')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b37')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b37')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b37')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 525 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2267,9 +2267,9 @@ Beam b37 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 527 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b37')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b37')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b37')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b37')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b21-b37')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b21-b37')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 528 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -2283,9 +2283,9 @@ Beam b37 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 530 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b37')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b37')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b37')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b37')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b23-b37')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b23-b37')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 531 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2299,9 +2299,9 @@ Beam b37 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 533 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b37')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b37')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b37')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b37')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b37')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b37')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 534 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2335,9 +2335,9 @@ Beam b38 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b38')
 |- Action 542 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b38')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b38')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b38')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b38')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b38')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b38')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 543 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2351,9 +2351,9 @@ Beam b38 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 545 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b38')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b38')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b38')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b38')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b25-b38')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b25-b38')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 546 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2389,9 +2389,9 @@ Beam b39 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b39')
 |- Action 555 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b39')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b39')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b39')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b39')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b39')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b39')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 556 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2405,9 +2405,9 @@ Beam b39 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 558 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b39')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b39')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b39')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b39')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b21-b39')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b21-b39')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 559 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2421,9 +2421,9 @@ Beam b39 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 561 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b39')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b39')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b39')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b39')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b19-b39')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b19-b39')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 562 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2457,9 +2457,9 @@ Beam b40 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b40')
 |- Action 570 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b40')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b40')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b40')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b40')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b40')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b40')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 571 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2473,9 +2473,9 @@ Beam b40 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 573 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b40')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b40')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b40')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b40')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b22-b40')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b22-b40')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 574 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2511,9 +2511,9 @@ Beam b41 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b41')
 |- Action 583 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b41')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b41')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b41')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b41')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b41')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b41')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 584 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2527,9 +2527,9 @@ Beam b41 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 586 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b41')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b41')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b41')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b41')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b26-b41')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b26-b41')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 587 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2543,9 +2543,9 @@ Beam b41 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 589 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b41')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b41')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b41')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b41')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b41')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b41')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 590 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2579,9 +2579,9 @@ Beam b42 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b42')
 |- Action 598 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b42')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b42')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b42')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b42')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b42')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b42')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 599 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2595,9 +2595,9 @@ Beam b42 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 601 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b42')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b42')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b42')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b42')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b20-b42')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b20-b42')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 602 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2635,9 +2635,9 @@ Beam b43 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b43')
 |- Action 612 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b43')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b43')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b43')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b43')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b43')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b43')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 613 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2651,9 +2651,9 @@ Beam b43 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 615 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b43')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b43')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b43')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b43')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b21-b43')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b21-b43')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 616 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -2667,9 +2667,9 @@ Beam b43 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 618 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b43')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b43')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b43')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b43')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b23-b43')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b23-b43')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 619 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2683,9 +2683,9 @@ Beam b43 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 621 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b43')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b43')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b43')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b43')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b43')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b43')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 622 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2719,9 +2719,9 @@ Beam b44 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b44')
 |- Action 630 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b44')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b44')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b44')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b44')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b44')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b44')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 631 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2735,9 +2735,9 @@ Beam b44 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 633 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b44')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b44')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b44')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b44')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b25-b44')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b25-b44')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 634 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2773,9 +2773,9 @@ Beam b45 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b45')
 |- Action 643 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b45')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b45')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b45')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b45')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b45')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b45')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 644 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2789,9 +2789,9 @@ Beam b45 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 646 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b45')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b45')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b45')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b45')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b21-b45')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b21-b45')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 647 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2805,9 +2805,9 @@ Beam b45 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 649 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b45')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b45')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b45')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b45')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b19-b45')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b19-b45')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 650 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2841,9 +2841,9 @@ Beam b46 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b46')
 |- Action 658 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b46')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b46')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b46')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b46')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b46')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b46')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 659 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2857,9 +2857,9 @@ Beam b46 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 661 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b46')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b46')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b46')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b46')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b22-b46')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b22-b46')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 662 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2895,9 +2895,9 @@ Beam b47 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b47')
 |- Action 671 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b47')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b47')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b47')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b47')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b47')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b47')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 672 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2911,9 +2911,9 @@ Beam b47 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 674 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b47')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b47')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b47')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b47')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b26-b47')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b26-b47')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 675 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -2927,9 +2927,9 @@ Beam b47 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 677 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b47')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b47')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b47')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b47')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b47')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b47')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 678 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -2963,9 +2963,9 @@ Beam b48 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b48')
 |- Action 686 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b48')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b48')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b48')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b48')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b48')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b48')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 687 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -2979,9 +2979,9 @@ Beam b48 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 689 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b48')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b48')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b48')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b48')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b20-b48')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b20-b48')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 690 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3019,9 +3019,9 @@ Beam b49 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b49')
 |- Action 700 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b49')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b49')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b49')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b49')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b49')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b49')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 701 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3035,9 +3035,9 @@ Beam b49 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 703 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b49')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b49')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b49')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b49')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b21-b49')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b21-b49')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 704 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -3051,9 +3051,9 @@ Beam b49 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 706 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b49')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b49')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b49')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b49')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b23-b49')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b23-b49')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 707 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -3067,9 +3067,9 @@ Beam b49 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 709 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b49')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b49')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b49')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b49')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b49')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b49')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 710 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3103,9 +3103,9 @@ Beam b50 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b50')
 |- Action 718 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b50')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b50')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b50')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b50')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b50')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b50')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 719 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3119,9 +3119,9 @@ Beam b50 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 721 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b50')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b50')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b50')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b50')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b25-b50')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b25-b50')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 722 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3157,9 +3157,9 @@ Beam b51 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b51')
 |- Action 731 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b51')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b51')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b51')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b51')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b51')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b51')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 732 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3173,9 +3173,9 @@ Beam b51 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 734 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b51')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b51')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b51')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b51')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b21-b51')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b21-b51')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 735 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -3189,9 +3189,9 @@ Beam b51 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 737 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b51')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b51')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b51')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b51')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b19-b51')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b19-b51')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 738 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3225,9 +3225,9 @@ Beam b52 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b52')
 |- Action 746 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b52')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b52')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b52')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b52')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b52')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b52')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 747 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3241,9 +3241,9 @@ Beam b52 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 749 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b52')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b52')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b52')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b52')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b22-b52')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b22-b52')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 750 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3279,9 +3279,9 @@ Beam b53 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b53')
 |- Action 759 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b53')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b53')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b53')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b53')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b53')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b53')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 760 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3295,9 +3295,9 @@ Beam b53 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 762 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b53')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b53')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b53')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b53')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b26-b53')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b26-b53')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 763 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -3311,9 +3311,9 @@ Beam b53 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 765 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b53')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b53')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b53')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b53')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b53')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b53')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 766 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3347,9 +3347,9 @@ Beam b54 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b54')
 |- Action 774 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b54')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b54')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b54')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b54')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b54')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b54')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 775 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3363,9 +3363,9 @@ Beam b54 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 777 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b54')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b54')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b54')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b54')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b20-b54')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b20-b54')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 778 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3403,9 +3403,9 @@ Beam b55 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b55')
 |- Action 788 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b55')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b55')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b55')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b55')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b55')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b55')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 789 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3419,9 +3419,9 @@ Beam b55 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s3')
 |- Action 791 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s3') from Beam ('b55')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Beam ('b55')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Beam ('b55')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b55')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s3') from Joint ('b21-b55')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s3) syncronously move to retract from Joint ('b21-b55')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s3')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 792 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
@@ -3435,9 +3435,9 @@ Beam b55 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s2')
 |- Action 794 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s2') from Beam ('b55')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Beam ('b55')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Beam ('b55')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b55')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s2') from Joint ('b23-b55')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s2) syncronously move to retract from Joint ('b23-b55')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s2')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 795 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
@@ -3451,9 +3451,9 @@ Beam b55 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 797 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b55')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b55')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b55')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b55')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b24-b55')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b24-b55')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 798 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
@@ -3487,9 +3487,9 @@ Beam b56 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b56')
 |- Action 806 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b56')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Beam ('b56')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Beam ('b56')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b56')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b56')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b56')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s4')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 807 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
@@ -3503,9 +3503,9 @@ Beam b56 assembly
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
 |- Action 809 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b56')
-|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Beam ('b56')
-|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Beam ('b56')
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after placing Beam ('b56')
+|  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b25-b56')
+|  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b25-b56')
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear retract after picking up Screwdriver ('s1')
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 810 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
