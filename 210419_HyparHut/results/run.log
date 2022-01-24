@@ -1,0 +1,176 @@
+2022-01-22 23:55:25,968 | run.py | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='Shelter_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, smooth=True, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2022-01-22 23:58:59,949 | run.py | INFO | A plan has been found for (seq_n=0) beam id b0!
+2022-01-23 00:02:44,053 | run.py | INFO | A plan has been found for (seq_n=1) beam id b1!
+2022-01-23 00:06:30,805 | run.py | INFO | A plan has been found for (seq_n=2) beam id b2!
+2022-01-23 00:11:37,064 | run.py | INFO | A plan has been found for (seq_n=3) beam id b3!
+2022-01-23 00:15:50,522 | run.py | INFO | A plan has been found for (seq_n=4) beam id b4!
+2022-01-23 00:22:28,569 | run.py | INFO | A plan has been found for (seq_n=5) beam id b5!
+2022-01-23 00:31:48,704 | run.py | INFO | A plan has been found for (seq_n=6) beam id b6!
+2022-01-23 00:42:29,862 | run.py | INFO | A plan has been found for (seq_n=7) beam id b7!
+2022-01-23 00:52:22,718 | run.py | INFO | A plan has been found for (seq_n=8) beam id b8!
+2022-01-23 01:00:33,521 | run.py | INFO | A plan has been found for (seq_n=9) beam id b9!
+2022-01-23 01:09:02,796 | run.py | INFO | A plan has been found for (seq_n=10) beam id b10!
+2022-01-23 01:15:49,533 | run.py | INFO | A plan has been found for (seq_n=11) beam id b11!
+2022-01-23 01:24:16,642 | run.py | INFO | A plan has been found for (seq_n=12) beam id b12!
+2022-01-23 01:30:44,582 | run.py | INFO | A plan has been found for (seq_n=13) beam id b13!
+2022-01-23 01:33:57,584 | solve.py | INFO | No plan found for A163_M1 after 1 attempts. RoboticFreeMovement(#A163_M1, Free Move to reorient Beam ('b14'), traj 0)
+2022-01-23 01:33:57,584 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=14) beam b14!
+2022-01-23 01:34:08,541 | solve.py | INFO | No plan found for A168_M1 after 1 attempts. RoboticLinearMovement(#A168_M1, Linear retract of Gripper from Beam ('b14'), traj 0)
+2022-01-23 01:34:08,541 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=14) beam b14!
+2022-01-23 01:37:49,997 | solve.py | INFO | No plan found for A167_M0 after 1 attempts. RoboticFreeMovement(#A167_M0, Free Move to bring Beam ('b14') to assemble_approach position on structure., traj 0)
+2022-01-23 01:37:49,997 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=14) beam b14!
+2022-01-23 01:41:49,715 | solve.py | INFO | No plan found for A167_M0 after 1 attempts. RoboticFreeMovement(#A167_M0, Free Move to bring Beam ('b14') to assemble_approach position on structure., traj 0)
+2022-01-23 01:41:49,715 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=14) beam b14!
+2022-01-23 01:55:19,616 | run.py | INFO | A plan has been found for (seq_n=14) beam id b14!
+2022-01-23 02:04:09,606 | run.py | INFO | A plan has been found for (seq_n=15) beam id b15!
+2022-01-23 02:10:39,191 | solve.py | INFO | No plan found for A207_M0 after 1 attempts. RoboticFreeMovement(#A207_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., traj 0)
+2022-01-23 02:10:39,191 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=16) beam b16!
+2022-01-23 02:19:24,723 | run.py | INFO | A plan has been found for (seq_n=16) beam id b16!
+2022-01-23 02:28:12,753 | run.py | INFO | A plan has been found for (seq_n=17) beam id b17!
+2022-01-23 02:36:45,055 | run.py | INFO | A plan has been found for (seq_n=18) beam id b18!
+2022-01-23 02:45:41,479 | run.py | INFO | A plan has been found for (seq_n=19) beam id b19!
+2022-01-23 02:55:05,309 | run.py | INFO | A plan has been found for (seq_n=20) beam id b20!
+2022-01-23 03:01:48,744 | run.py | INFO | A plan has been found for (seq_n=21) beam id b21!
+2022-01-23 03:05:15,311 | solve.py | INFO | No plan found for A298_M0 after 1 attempts. RoboticFreeMovement(#A298_M0, Free Move to bring Beam ('b22') to assemble_approach position on structure., traj 0)
+2022-01-23 03:05:15,311 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b22!
+2022-01-23 03:10:10,705 | solve.py | INFO | No plan found for A300_M0 after 1 attempts. RoboticFreeMovement(#A300_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., traj 0)
+2022-01-23 03:10:10,705 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b22!
+2022-01-23 03:19:14,019 | run.py | INFO | A plan has been found for (seq_n=22) beam id b22!
+2022-01-23 03:23:02,958 | solve.py | INFO | No plan found for A314_M0 after 1 attempts. RoboticFreeMovement(#A314_M0, Free Move to bring Beam ('b23') to assemble_approach position on structure., traj 0)
+2022-01-23 03:23:02,958 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=23) beam b23!
+2022-01-23 03:31:17,759 | run.py | INFO | A plan has been found for (seq_n=23) beam id b23!
+2022-01-23 03:40:47,189 | run.py | INFO | A plan has been found for (seq_n=24) beam id b24!
+2022-01-23 03:43:51,826 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 03:43:51,826 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 03:49:12,856 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 03:49:12,856 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 03:52:39,497 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 03:52:39,497 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 03:56:24,326 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 03:56:24,326 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:00:38,735 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:00:38,735 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:04:18,544 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:04:18,544 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:09:27,439 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:09:27,439 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:12:36,190 | solve.py | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-01-23 04:12:36,190 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:15:30,439 | solve.py | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-01-23 04:15:30,439 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:18:46,505 | solve.py | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-01-23 04:18:46,505 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:22:18,514 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:22:18,514 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:25:49,315 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:25:49,315 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:31:24,495 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:31:24,495 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:35:34,104 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:35:34,104 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:41:00,386 | solve.py | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-01-23 04:41:00,386 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:44:12,746 | solve.py | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-01-23 04:44:12,746 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-01-23 04:47:39,687 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 04:47:39,687 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 04:51:31,907 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 04:51:31,907 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 04:54:32,717 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 04:54:32,717 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 04:58:24,143 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 04:58:24,143 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:01:46,683 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 05:01:46,683 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:01:55,972 | solve.py | INFO | No plan found for A362_M1 after 1 attempts. RoboticLinearMovement(#A362_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., traj 0)
+2022-01-23 05:01:55,972 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b26!
+2022-01-23 05:05:21,210 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 05:05:21,210 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:08:44,234 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:08:44,235 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:12:18,548 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:12:18,548 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:17:40,579 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:17:40,579 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:20:31,015 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 05:20:31,015 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:24:08,783 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:24:08,783 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:24:19,187 | solve.py | INFO | No plan found for A362_M1 after 1 attempts. RoboticLinearMovement(#A362_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., traj 0)
+2022-01-23 05:24:19,187 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b26!
+2022-01-23 05:24:30,005 | solve.py | INFO | No plan found for A366_M2 after 1 attempts. RoboticLinearMovement(#A366_M2, Linear retract after picking up Screwdriver ('s2'), traj 0)
+2022-01-23 05:24:30,005 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b26!
+2022-01-23 05:28:22,676 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:28:22,676 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:32:13,876 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:32:13,876 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:36:50,979 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:36:50,979 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:40:05,773 | solve.py | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-01-23 05:40:05,773 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:44:00,817 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:44:00,817 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:47:47,530 | solve.py | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-01-23 05:47:47,530 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-01-23 05:57:23,219 | run.py | INFO | A plan has been found for (seq_n=27) beam id b27!
+2022-01-23 05:57:31,975 | solve.py | INFO | No plan found for A393_M1 after 1 attempts. RoboticLinearMovement(#A393_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., traj 0)
+2022-01-23 05:57:31,975 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b28!
+2022-01-23 06:05:33,972 | run.py | INFO | A plan has been found for (seq_n=28) beam id b28!
+2022-01-23 06:15:53,599 | run.py | INFO | A plan has been found for (seq_n=29) beam id b29!
+2022-01-23 06:23:24,043 | run.py | INFO | A plan has been found for (seq_n=30) beam id b30!
+2022-01-23 06:31:13,722 | solve.py | INFO | No plan found for A444_M0 after 1 attempts. RoboticFreeMovement(#A444_M0, Free Move to reach SL1 ('s1') on Beam ('b31') , traj 0)
+2022-01-23 06:31:13,722 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=31) beam b31!
+2022-01-23 06:42:54,620 | run.py | INFO | A plan has been found for (seq_n=31) beam id b31!
+2022-01-23 06:50:34,261 | run.py | INFO | A plan has been found for (seq_n=32) beam id b32!
+2022-01-23 06:58:33,749 | run.py | INFO | A plan has been found for (seq_n=33) beam id b33!
+2022-01-23 07:05:09,328 | solve.py | INFO | No plan found for A486_M0 after 1 attempts. RoboticFreeMovement(#A486_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-01-23 07:05:09,328 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=34) beam b34!
+2022-01-23 07:13:11,025 | run.py | INFO | A plan has been found for (seq_n=34) beam id b34!
+2022-01-23 07:22:07,240 | solve.py | INFO | No plan found for A502_M0 after 1 attempts. RoboticFreeMovement(#A502_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-01-23 07:22:07,240 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=35) beam b35!
+2022-01-23 07:31:24,772 | run.py | INFO | A plan has been found for (seq_n=35) beam id b35!
+2022-01-23 07:31:33,397 | solve.py | INFO | No plan found for A513_M2 after 1 attempts. RoboticLinearMovement(#A513_M2, Linear retract after picking up Screwdriver ('s1'), traj 0)
+2022-01-23 07:31:33,397 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=36) beam b36!
+2022-01-23 07:36:33,256 | run.py | INFO | A plan has been found for (seq_n=36) beam id b36!
+2022-01-23 07:41:36,305 | solve.py | INFO | No plan found for A523_M0 after 1 attempts. RoboticFreeMovement(#A523_M0, Free Move to bring Beam ('b37') to assemble_approach position on structure., traj 0)
+2022-01-23 07:41:36,305 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=37) beam b37!
+2022-01-23 07:55:29,000 | run.py | INFO | A plan has been found for (seq_n=37) beam id b37!
+2022-01-23 08:01:29,383 | solve.py | INFO | No plan found for A546_M0 after 1 attempts. RoboticFreeMovement(#A546_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-01-23 08:01:29,383 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=38) beam b38!
+2022-01-23 08:05:20,298 | solve.py | INFO | No plan found for A541_M0 after 1 attempts. RoboticFreeMovement(#A541_M0, Free Move to bring Beam ('b38') to assemble_approach position on structure., traj 0)
+2022-01-23 08:05:20,298 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=38) beam b38!
+2022-01-23 08:12:14,243 | run.py | INFO | A plan has been found for (seq_n=38) beam id b38!
+2022-01-23 08:19:48,925 | run.py | INFO | A plan has been found for (seq_n=39) beam id b39!
+2022-01-23 08:19:58,027 | solve.py | INFO | No plan found for A573_M2 after 1 attempts. RoboticLinearMovement(#A573_M2, Linear retract after picking up Screwdriver ('s1'), traj 0)
+2022-01-23 08:19:58,027 | run.py | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=40) beam b40!
+2022-01-23 08:27:19,661 | run.py | INFO | A plan has been found for (seq_n=40) beam id b40!
+2022-01-23 08:31:00,366 | solve.py | INFO | No plan found for A582_M0 after 1 attempts. RoboticFreeMovement(#A582_M0, Free Move to bring Beam ('b41') to assemble_approach position on structure., traj 0)
+2022-01-23 08:31:00,366 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=41) beam b41!
+2022-01-23 08:40:15,329 | run.py | INFO | A plan has been found for (seq_n=41) beam id b41!
+2022-01-23 08:46:58,703 | run.py | INFO | A plan has been found for (seq_n=42) beam id b42!
+2022-01-23 08:53:08,323 | solve.py | INFO | No plan found for A611_M0 after 1 attempts. RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0)
+2022-01-23 08:53:08,323 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=43) beam b43!
+2022-01-23 08:56:52,169 | solve.py | INFO | No plan found for A611_M0 after 1 attempts. RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0)
+2022-01-23 08:56:52,170 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=43) beam b43!
+2022-01-23 09:07:59,357 | run.py | INFO | A plan has been found for (seq_n=43) beam id b43!
+2022-01-23 09:13:59,429 | run.py | INFO | A plan has been found for (seq_n=44) beam id b44!
+2022-01-23 09:18:01,824 | solve.py | INFO | No plan found for A642_M0 after 1 attempts. RoboticFreeMovement(#A642_M0, Free Move to bring Beam ('b45') to assemble_approach position on structure., traj 0)
+2022-01-23 09:18:01,824 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=45) beam b45!
+2022-01-23 09:25:46,008 | run.py | INFO | A plan has been found for (seq_n=45) beam id b45!
+2022-01-23 09:34:03,950 | run.py | INFO | A plan has been found for (seq_n=46) beam id b46!
+2022-01-23 09:37:45,651 | solve.py | INFO | No plan found for A667_M1 after 1 attempts. RoboticFreeMovement(#A667_M1, Free Move to reorient Beam ('b47'), traj 0)
+2022-01-23 09:37:45,651 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-01-23 09:42:08,568 | solve.py | INFO | No plan found for A670_M0 after 1 attempts. RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., traj 0)
+2022-01-23 09:42:08,568 | run.py | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-01-23 09:51:36,317 | run.py | INFO | A plan has been found for (seq_n=47) beam id b47!
+2022-01-23 09:56:41,432 | run.py | INFO | A plan has been found for (seq_n=48) beam id b48!
+2022-01-23 10:06:21,959 | run.py | INFO | A plan has been found for (seq_n=49) beam id b49!
+2022-01-23 10:15:04,070 | run.py | INFO | A plan has been found for (seq_n=50) beam id b50!
+2022-01-23 10:22:28,600 | run.py | INFO | A plan has been found for (seq_n=51) beam id b51!
+2022-01-23 10:28:35,050 | run.py | INFO | A plan has been found for (seq_n=52) beam id b52!
+2022-01-23 10:37:08,717 | run.py | INFO | A plan has been found for (seq_n=53) beam id b53!
+2022-01-23 10:42:55,798 | run.py | INFO | A plan has been found for (seq_n=54) beam id b54!
+2022-01-23 10:54:34,487 | run.py | INFO | A plan has been found for (seq_n=55) beam id b55!
+2022-01-23 11:00:31,805 | run.py | INFO | A plan has been found for (seq_n=56) beam id b56!
+2022-01-23 22:58:57,671 | run.py | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, max_distance=0.0, movement_id=None, mp_algorithm='birrt', problem='Shelter_process.json', problem_subdir='.', reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[25], smooth=True, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, verbose=True, viewer=False, watch=False, write=True)
+2022-01-23 23:06:31,850 | run.py | INFO | A plan has been found for (seq_n=25) beam id b25!
