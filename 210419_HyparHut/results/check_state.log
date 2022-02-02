@@ -1,0 +1,1696 @@
+2022-02-02 13:49:00,684 | itj_planning | INFO | planning.run.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=[0], traj_collision=True, verify_plan=True, viewer=False)
+2022-02-02 13:49:02,245 | itj_planning | INFO | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-02-02 13:49:02,246 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-02 13:49:10,034 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-02-02 13:49:10,108 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-02-02 13:49:10,212 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-02-02 13:49:10,307 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-02-02 13:49:10,400 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-02-02 13:49:10,483 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-02-02 13:49:10,560 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-02-02 13:49:10,635 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-02-02 13:49:10,707 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-02-02 13:49:10,793 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-02-02 13:49:10,886 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-02-02 13:49:10,984 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-02-02 13:49:11,203 | itj_planning | INFO | [36mSolving for beam ['b0'][0m
+2022-02-02 13:49:11,203 | itj_planning | INFO | ====================
+2022-02-02 13:49:11,203 | itj_planning | INFO | (Seq#0) Beam b0
+2022-02-02 13:49:11,206 | itj_planning | INFO | ----------
+2022-02-02 13:49:11,206 | itj_planning | INFO | [1m[47m[34m(MovementIndex=0) (Seq#0-#0) OperatorLoadBeamMovement(#A0_M0, Opeartor Load Beam (b0) to Pickup Location)[0m
+2022-02-02 13:49:11,206 | itj_planning | INFO | [31mJoint conf not consistent![0m
+2022-02-02 13:49:11,209 | itj_planning | INFO | ----------
+2022-02-02 13:49:11,209 | itj_planning | INFO | [1m[47m[34m(MovementIndex=1) (Seq#0-#0) RoboticFreeMovement(#A1_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 1)[0m
+2022-02-02 13:49:11,209 | itj_planning | INFO | Start State:
+2022-02-02 13:49:11,334 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 13:49:11,335 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 13:49:11,336 | itj_planning | INFO | ####################
+2022-02-02 13:49:11,696 | itj_planning | INFO | 	 traj point #1/294
+2022-02-02 13:49:11,697 | itj_planning | INFO | ==========
+2022-02-02 13:49:11,804 | itj_planning | INFO | 	 traj point #2/294
+2022-02-02 13:49:11,804 | itj_planning | INFO | ==========
+2022-02-02 13:49:11,907 | itj_planning | INFO | 	 traj point #3/294
+2022-02-02 13:49:11,908 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,011 | itj_planning | INFO | 	 traj point #4/294
+2022-02-02 13:49:12,011 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,119 | itj_planning | INFO | 	 traj point #5/294
+2022-02-02 13:49:12,119 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,228 | itj_planning | INFO | 	 traj point #6/294
+2022-02-02 13:49:12,228 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,333 | itj_planning | INFO | 	 traj point #7/294
+2022-02-02 13:49:12,333 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,433 | itj_planning | INFO | 	 traj point #8/294
+2022-02-02 13:49:12,433 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,538 | itj_planning | INFO | 	 traj point #9/294
+2022-02-02 13:49:12,539 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,642 | itj_planning | INFO | 	 traj point #10/294
+2022-02-02 13:49:12,642 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,744 | itj_planning | INFO | 	 traj point #11/294
+2022-02-02 13:49:12,744 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,868 | itj_planning | INFO | 	 traj point #12/294
+2022-02-02 13:49:12,868 | itj_planning | INFO | ==========
+2022-02-02 13:49:12,971 | itj_planning | INFO | 	 traj point #13/294
+2022-02-02 13:49:12,971 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,079 | itj_planning | INFO | 	 traj point #14/294
+2022-02-02 13:49:13,079 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,185 | itj_planning | INFO | 	 traj point #15/294
+2022-02-02 13:49:13,185 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,296 | itj_planning | INFO | 	 traj point #16/294
+2022-02-02 13:49:13,297 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,399 | itj_planning | INFO | 	 traj point #17/294
+2022-02-02 13:49:13,399 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,500 | itj_planning | INFO | 	 traj point #18/294
+2022-02-02 13:49:13,500 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,610 | itj_planning | INFO | 	 traj point #19/294
+2022-02-02 13:49:13,610 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,712 | itj_planning | INFO | 	 traj point #20/294
+2022-02-02 13:49:13,712 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,815 | itj_planning | INFO | 	 traj point #21/294
+2022-02-02 13:49:13,815 | itj_planning | INFO | ==========
+2022-02-02 13:49:13,921 | itj_planning | INFO | 	 traj point #22/294
+2022-02-02 13:49:13,921 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,024 | itj_planning | INFO | 	 traj point #23/294
+2022-02-02 13:49:14,024 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,135 | itj_planning | INFO | 	 traj point #24/294
+2022-02-02 13:49:14,135 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,241 | itj_planning | INFO | 	 traj point #25/294
+2022-02-02 13:49:14,241 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,344 | itj_planning | INFO | 	 traj point #26/294
+2022-02-02 13:49:14,344 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,449 | itj_planning | INFO | 	 traj point #27/294
+2022-02-02 13:49:14,449 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,553 | itj_planning | INFO | 	 traj point #28/294
+2022-02-02 13:49:14,553 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,657 | itj_planning | INFO | 	 traj point #29/294
+2022-02-02 13:49:14,657 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,766 | itj_planning | INFO | 	 traj point #30/294
+2022-02-02 13:49:14,766 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,872 | itj_planning | INFO | 	 traj point #31/294
+2022-02-02 13:49:14,872 | itj_planning | INFO | ==========
+2022-02-02 13:49:14,974 | itj_planning | INFO | 	 traj point #32/294
+2022-02-02 13:49:14,974 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,080 | itj_planning | INFO | 	 traj point #33/294
+2022-02-02 13:49:15,081 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,191 | itj_planning | INFO | 	 traj point #34/294
+2022-02-02 13:49:15,191 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,304 | itj_planning | INFO | 	 traj point #35/294
+2022-02-02 13:49:15,305 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,413 | itj_planning | INFO | 	 traj point #36/294
+2022-02-02 13:49:15,413 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,519 | itj_planning | INFO | 	 traj point #37/294
+2022-02-02 13:49:15,519 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,620 | itj_planning | INFO | 	 traj point #38/294
+2022-02-02 13:49:15,621 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,723 | itj_planning | INFO | 	 traj point #39/294
+2022-02-02 13:49:15,724 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,825 | itj_planning | INFO | 	 traj point #40/294
+2022-02-02 13:49:15,825 | itj_planning | INFO | ==========
+2022-02-02 13:49:15,925 | itj_planning | INFO | 	 traj point #41/294
+2022-02-02 13:49:15,925 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,027 | itj_planning | INFO | 	 traj point #42/294
+2022-02-02 13:49:16,027 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,136 | itj_planning | INFO | 	 traj point #43/294
+2022-02-02 13:49:16,137 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,237 | itj_planning | INFO | 	 traj point #44/294
+2022-02-02 13:49:16,237 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,339 | itj_planning | INFO | 	 traj point #45/294
+2022-02-02 13:49:16,339 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,442 | itj_planning | INFO | 	 traj point #46/294
+2022-02-02 13:49:16,443 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,545 | itj_planning | INFO | 	 traj point #47/294
+2022-02-02 13:49:16,545 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,647 | itj_planning | INFO | 	 traj point #48/294
+2022-02-02 13:49:16,648 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,751 | itj_planning | INFO | 	 traj point #49/294
+2022-02-02 13:49:16,752 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,854 | itj_planning | INFO | 	 traj point #50/294
+2022-02-02 13:49:16,855 | itj_planning | INFO | ==========
+2022-02-02 13:49:16,962 | itj_planning | INFO | 	 traj point #51/294
+2022-02-02 13:49:16,962 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,066 | itj_planning | INFO | 	 traj point #52/294
+2022-02-02 13:49:17,066 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,169 | itj_planning | INFO | 	 traj point #53/294
+2022-02-02 13:49:17,170 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,272 | itj_planning | INFO | 	 traj point #54/294
+2022-02-02 13:49:17,272 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,376 | itj_planning | INFO | 	 traj point #55/294
+2022-02-02 13:49:17,376 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,479 | itj_planning | INFO | 	 traj point #56/294
+2022-02-02 13:49:17,479 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,585 | itj_planning | INFO | 	 traj point #57/294
+2022-02-02 13:49:17,585 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,685 | itj_planning | INFO | 	 traj point #58/294
+2022-02-02 13:49:17,685 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,786 | itj_planning | INFO | 	 traj point #59/294
+2022-02-02 13:49:17,786 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,889 | itj_planning | INFO | 	 traj point #60/294
+2022-02-02 13:49:17,889 | itj_planning | INFO | ==========
+2022-02-02 13:49:17,994 | itj_planning | INFO | 	 traj point #61/294
+2022-02-02 13:49:17,994 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,102 | itj_planning | INFO | 	 traj point #62/294
+2022-02-02 13:49:18,102 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,206 | itj_planning | INFO | 	 traj point #63/294
+2022-02-02 13:49:18,206 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,308 | itj_planning | INFO | 	 traj point #64/294
+2022-02-02 13:49:18,309 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,410 | itj_planning | INFO | 	 traj point #65/294
+2022-02-02 13:49:18,410 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,512 | itj_planning | INFO | 	 traj point #66/294
+2022-02-02 13:49:18,512 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,616 | itj_planning | INFO | 	 traj point #67/294
+2022-02-02 13:49:18,616 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,718 | itj_planning | INFO | 	 traj point #68/294
+2022-02-02 13:49:18,718 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,830 | itj_planning | INFO | 	 traj point #69/294
+2022-02-02 13:49:18,830 | itj_planning | INFO | ==========
+2022-02-02 13:49:18,938 | itj_planning | INFO | 	 traj point #70/294
+2022-02-02 13:49:18,939 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,043 | itj_planning | INFO | 	 traj point #71/294
+2022-02-02 13:49:19,043 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,154 | itj_planning | INFO | 	 traj point #72/294
+2022-02-02 13:49:19,154 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,265 | itj_planning | INFO | 	 traj point #73/294
+2022-02-02 13:49:19,266 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,377 | itj_planning | INFO | 	 traj point #74/294
+2022-02-02 13:49:19,378 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,497 | itj_planning | INFO | 	 traj point #75/294
+2022-02-02 13:49:19,497 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,602 | itj_planning | INFO | 	 traj point #76/294
+2022-02-02 13:49:19,602 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,703 | itj_planning | INFO | 	 traj point #77/294
+2022-02-02 13:49:19,704 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,805 | itj_planning | INFO | 	 traj point #78/294
+2022-02-02 13:49:19,805 | itj_planning | INFO | ==========
+2022-02-02 13:49:19,907 | itj_planning | INFO | 	 traj point #79/294
+2022-02-02 13:49:19,907 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,009 | itj_planning | INFO | 	 traj point #80/294
+2022-02-02 13:49:20,009 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,122 | itj_planning | INFO | 	 traj point #81/294
+2022-02-02 13:49:20,122 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,224 | itj_planning | INFO | 	 traj point #82/294
+2022-02-02 13:49:20,224 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,328 | itj_planning | INFO | 	 traj point #83/294
+2022-02-02 13:49:20,328 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,430 | itj_planning | INFO | 	 traj point #84/294
+2022-02-02 13:49:20,430 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,544 | itj_planning | INFO | 	 traj point #85/294
+2022-02-02 13:49:20,545 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,655 | itj_planning | INFO | 	 traj point #86/294
+2022-02-02 13:49:20,655 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,757 | itj_planning | INFO | 	 traj point #87/294
+2022-02-02 13:49:20,757 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,864 | itj_planning | INFO | 	 traj point #88/294
+2022-02-02 13:49:20,864 | itj_planning | INFO | ==========
+2022-02-02 13:49:20,963 | itj_planning | INFO | 	 traj point #89/294
+2022-02-02 13:49:20,964 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,065 | itj_planning | INFO | 	 traj point #90/294
+2022-02-02 13:49:21,066 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,178 | itj_planning | INFO | 	 traj point #91/294
+2022-02-02 13:49:21,178 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,286 | itj_planning | INFO | 	 traj point #92/294
+2022-02-02 13:49:21,287 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,388 | itj_planning | INFO | 	 traj point #93/294
+2022-02-02 13:49:21,388 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,508 | itj_planning | INFO | 	 traj point #94/294
+2022-02-02 13:49:21,508 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,610 | itj_planning | INFO | 	 traj point #95/294
+2022-02-02 13:49:21,610 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,713 | itj_planning | INFO | 	 traj point #96/294
+2022-02-02 13:49:21,713 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,814 | itj_planning | INFO | 	 traj point #97/294
+2022-02-02 13:49:21,814 | itj_planning | INFO | ==========
+2022-02-02 13:49:21,914 | itj_planning | INFO | 	 traj point #98/294
+2022-02-02 13:49:21,915 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,016 | itj_planning | INFO | 	 traj point #99/294
+2022-02-02 13:49:22,016 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,122 | itj_planning | INFO | 	 traj point #100/294
+2022-02-02 13:49:22,122 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,227 | itj_planning | INFO | 	 traj point #101/294
+2022-02-02 13:49:22,227 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,343 | itj_planning | INFO | 	 traj point #102/294
+2022-02-02 13:49:22,343 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,445 | itj_planning | INFO | 	 traj point #103/294
+2022-02-02 13:49:22,445 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,555 | itj_planning | INFO | 	 traj point #104/294
+2022-02-02 13:49:22,555 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,655 | itj_planning | INFO | 	 traj point #105/294
+2022-02-02 13:49:22,655 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,756 | itj_planning | INFO | 	 traj point #106/294
+2022-02-02 13:49:22,756 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,858 | itj_planning | INFO | 	 traj point #107/294
+2022-02-02 13:49:22,858 | itj_planning | INFO | ==========
+2022-02-02 13:49:22,963 | itj_planning | INFO | 	 traj point #108/294
+2022-02-02 13:49:22,963 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,063 | itj_planning | INFO | 	 traj point #109/294
+2022-02-02 13:49:23,064 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,166 | itj_planning | INFO | 	 traj point #110/294
+2022-02-02 13:49:23,166 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,272 | itj_planning | INFO | 	 traj point #111/294
+2022-02-02 13:49:23,272 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,373 | itj_planning | INFO | 	 traj point #112/294
+2022-02-02 13:49:23,374 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,474 | itj_planning | INFO | 	 traj point #113/294
+2022-02-02 13:49:23,474 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,574 | itj_planning | INFO | 	 traj point #114/294
+2022-02-02 13:49:23,574 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,672 | itj_planning | INFO | 	 traj point #115/294
+2022-02-02 13:49:23,672 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,784 | itj_planning | INFO | 	 traj point #116/294
+2022-02-02 13:49:23,784 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,883 | itj_planning | INFO | 	 traj point #117/294
+2022-02-02 13:49:23,883 | itj_planning | INFO | ==========
+2022-02-02 13:49:23,984 | itj_planning | INFO | 	 traj point #118/294
+2022-02-02 13:49:23,984 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,096 | itj_planning | INFO | 	 traj point #119/294
+2022-02-02 13:49:24,096 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,207 | itj_planning | INFO | 	 traj point #120/294
+2022-02-02 13:49:24,208 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,308 | itj_planning | INFO | 	 traj point #121/294
+2022-02-02 13:49:24,308 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,420 | itj_planning | INFO | 	 traj point #122/294
+2022-02-02 13:49:24,420 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,521 | itj_planning | INFO | 	 traj point #123/294
+2022-02-02 13:49:24,521 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,619 | itj_planning | INFO | 	 traj point #124/294
+2022-02-02 13:49:24,619 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,734 | itj_planning | INFO | 	 traj point #125/294
+2022-02-02 13:49:24,734 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,846 | itj_planning | INFO | 	 traj point #126/294
+2022-02-02 13:49:24,846 | itj_planning | INFO | ==========
+2022-02-02 13:49:24,948 | itj_planning | INFO | 	 traj point #127/294
+2022-02-02 13:49:24,948 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,048 | itj_planning | INFO | 	 traj point #128/294
+2022-02-02 13:49:25,048 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,154 | itj_planning | INFO | 	 traj point #129/294
+2022-02-02 13:49:25,154 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,256 | itj_planning | INFO | 	 traj point #130/294
+2022-02-02 13:49:25,256 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,358 | itj_planning | INFO | 	 traj point #131/294
+2022-02-02 13:49:25,359 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,460 | itj_planning | INFO | 	 traj point #132/294
+2022-02-02 13:49:25,460 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,563 | itj_planning | INFO | 	 traj point #133/294
+2022-02-02 13:49:25,563 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,665 | itj_planning | INFO | 	 traj point #134/294
+2022-02-02 13:49:25,665 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,783 | itj_planning | INFO | 	 traj point #135/294
+2022-02-02 13:49:25,783 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,889 | itj_planning | INFO | 	 traj point #136/294
+2022-02-02 13:49:25,889 | itj_planning | INFO | ==========
+2022-02-02 13:49:25,992 | itj_planning | INFO | 	 traj point #137/294
+2022-02-02 13:49:25,992 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,094 | itj_planning | INFO | 	 traj point #138/294
+2022-02-02 13:49:26,094 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,199 | itj_planning | INFO | 	 traj point #139/294
+2022-02-02 13:49:26,199 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,311 | itj_planning | INFO | 	 traj point #140/294
+2022-02-02 13:49:26,312 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,415 | itj_planning | INFO | 	 traj point #141/294
+2022-02-02 13:49:26,415 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,518 | itj_planning | INFO | 	 traj point #142/294
+2022-02-02 13:49:26,518 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,621 | itj_planning | INFO | 	 traj point #143/294
+2022-02-02 13:49:26,621 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,722 | itj_planning | INFO | 	 traj point #144/294
+2022-02-02 13:49:26,723 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,824 | itj_planning | INFO | 	 traj point #145/294
+2022-02-02 13:49:26,824 | itj_planning | INFO | ==========
+2022-02-02 13:49:26,924 | itj_planning | INFO | 	 traj point #146/294
+2022-02-02 13:49:26,924 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,030 | itj_planning | INFO | 	 traj point #147/294
+2022-02-02 13:49:27,030 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,138 | itj_planning | INFO | 	 traj point #148/294
+2022-02-02 13:49:27,139 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,241 | itj_planning | INFO | 	 traj point #149/294
+2022-02-02 13:49:27,242 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,343 | itj_planning | INFO | 	 traj point #150/294
+2022-02-02 13:49:27,343 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,452 | itj_planning | INFO | 	 traj point #151/294
+2022-02-02 13:49:27,452 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,554 | itj_planning | INFO | 	 traj point #152/294
+2022-02-02 13:49:27,554 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,656 | itj_planning | INFO | 	 traj point #153/294
+2022-02-02 13:49:27,656 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,758 | itj_planning | INFO | 	 traj point #154/294
+2022-02-02 13:49:27,758 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,881 | itj_planning | INFO | 	 traj point #155/294
+2022-02-02 13:49:27,881 | itj_planning | INFO | ==========
+2022-02-02 13:49:27,988 | itj_planning | INFO | 	 traj point #156/294
+2022-02-02 13:49:27,988 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,089 | itj_planning | INFO | 	 traj point #157/294
+2022-02-02 13:49:28,089 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,192 | itj_planning | INFO | 	 traj point #158/294
+2022-02-02 13:49:28,192 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,295 | itj_planning | INFO | 	 traj point #159/294
+2022-02-02 13:49:28,295 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,398 | itj_planning | INFO | 	 traj point #160/294
+2022-02-02 13:49:28,398 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,506 | itj_planning | INFO | 	 traj point #161/294
+2022-02-02 13:49:28,507 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,616 | itj_planning | INFO | 	 traj point #162/294
+2022-02-02 13:49:28,616 | itj_planning | INFO | ==========
+2022-02-02 13:49:28,815 | itj_planning | INFO | 	 traj point #164/294
+2022-02-02 13:49:28,815 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,203 | itj_planning | INFO | 	 traj point #165/294
+2022-02-02 13:49:29,204 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,306 | itj_planning | INFO | 	 traj point #166/294
+2022-02-02 13:49:29,306 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,408 | itj_planning | INFO | 	 traj point #167/294
+2022-02-02 13:49:29,409 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,509 | itj_planning | INFO | 	 traj point #168/294
+2022-02-02 13:49:29,509 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,613 | itj_planning | INFO | 	 traj point #169/294
+2022-02-02 13:49:29,613 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,724 | itj_planning | INFO | 	 traj point #170/294
+2022-02-02 13:49:29,724 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,823 | itj_planning | INFO | 	 traj point #171/294
+2022-02-02 13:49:29,824 | itj_planning | INFO | ==========
+2022-02-02 13:49:29,934 | itj_planning | INFO | 	 traj point #172/294
+2022-02-02 13:49:29,934 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,038 | itj_planning | INFO | 	 traj point #173/294
+2022-02-02 13:49:30,038 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,140 | itj_planning | INFO | 	 traj point #174/294
+2022-02-02 13:49:30,141 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,245 | itj_planning | INFO | 	 traj point #175/294
+2022-02-02 13:49:30,245 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,352 | itj_planning | INFO | 	 traj point #176/294
+2022-02-02 13:49:30,352 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,454 | itj_planning | INFO | 	 traj point #177/294
+2022-02-02 13:49:30,454 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,555 | itj_planning | INFO | 	 traj point #178/294
+2022-02-02 13:49:30,556 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,667 | itj_planning | INFO | 	 traj point #179/294
+2022-02-02 13:49:30,667 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,784 | itj_planning | INFO | 	 traj point #180/294
+2022-02-02 13:49:30,784 | itj_planning | INFO | ==========
+2022-02-02 13:49:30,904 | itj_planning | INFO | 	 traj point #181/294
+2022-02-02 13:49:30,904 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,019 | itj_planning | INFO | 	 traj point #182/294
+2022-02-02 13:49:31,021 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,128 | itj_planning | INFO | 	 traj point #183/294
+2022-02-02 13:49:31,128 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,236 | itj_planning | INFO | 	 traj point #184/294
+2022-02-02 13:49:31,236 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,337 | itj_planning | INFO | 	 traj point #185/294
+2022-02-02 13:49:31,337 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,442 | itj_planning | INFO | 	 traj point #186/294
+2022-02-02 13:49:31,442 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,544 | itj_planning | INFO | 	 traj point #187/294
+2022-02-02 13:49:31,544 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,644 | itj_planning | INFO | 	 traj point #188/294
+2022-02-02 13:49:31,644 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,744 | itj_planning | INFO | 	 traj point #189/294
+2022-02-02 13:49:31,745 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,845 | itj_planning | INFO | 	 traj point #190/294
+2022-02-02 13:49:31,845 | itj_planning | INFO | ==========
+2022-02-02 13:49:31,946 | itj_planning | INFO | 	 traj point #191/294
+2022-02-02 13:49:31,946 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,047 | itj_planning | INFO | 	 traj point #192/294
+2022-02-02 13:49:32,047 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,153 | itj_planning | INFO | 	 traj point #193/294
+2022-02-02 13:49:32,153 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,256 | itj_planning | INFO | 	 traj point #194/294
+2022-02-02 13:49:32,256 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,361 | itj_planning | INFO | 	 traj point #195/294
+2022-02-02 13:49:32,362 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,464 | itj_planning | INFO | 	 traj point #196/294
+2022-02-02 13:49:32,465 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,563 | itj_planning | INFO | 	 traj point #197/294
+2022-02-02 13:49:32,564 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,673 | itj_planning | INFO | 	 traj point #198/294
+2022-02-02 13:49:32,674 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,776 | itj_planning | INFO | 	 traj point #199/294
+2022-02-02 13:49:32,776 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,877 | itj_planning | INFO | 	 traj point #200/294
+2022-02-02 13:49:32,877 | itj_planning | INFO | ==========
+2022-02-02 13:49:32,976 | itj_planning | INFO | 	 traj point #201/294
+2022-02-02 13:49:32,977 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,078 | itj_planning | INFO | 	 traj point #202/294
+2022-02-02 13:49:33,078 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,181 | itj_planning | INFO | 	 traj point #203/294
+2022-02-02 13:49:33,181 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,284 | itj_planning | INFO | 	 traj point #204/294
+2022-02-02 13:49:33,284 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,385 | itj_planning | INFO | 	 traj point #205/294
+2022-02-02 13:49:33,385 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,486 | itj_planning | INFO | 	 traj point #206/294
+2022-02-02 13:49:33,486 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,586 | itj_planning | INFO | 	 traj point #207/294
+2022-02-02 13:49:33,586 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,687 | itj_planning | INFO | 	 traj point #208/294
+2022-02-02 13:49:33,687 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,807 | itj_planning | INFO | 	 traj point #209/294
+2022-02-02 13:49:33,807 | itj_planning | INFO | ==========
+2022-02-02 13:49:33,910 | itj_planning | INFO | 	 traj point #210/294
+2022-02-02 13:49:33,910 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,010 | itj_planning | INFO | 	 traj point #211/294
+2022-02-02 13:49:34,010 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,112 | itj_planning | INFO | 	 traj point #212/294
+2022-02-02 13:49:34,112 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,215 | itj_planning | INFO | 	 traj point #213/294
+2022-02-02 13:49:34,215 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,316 | itj_planning | INFO | 	 traj point #214/294
+2022-02-02 13:49:34,316 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,418 | itj_planning | INFO | 	 traj point #215/294
+2022-02-02 13:49:34,418 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,527 | itj_planning | INFO | 	 traj point #216/294
+2022-02-02 13:49:34,528 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,629 | itj_planning | INFO | 	 traj point #217/294
+2022-02-02 13:49:34,629 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,733 | itj_planning | INFO | 	 traj point #218/294
+2022-02-02 13:49:34,733 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,833 | itj_planning | INFO | 	 traj point #219/294
+2022-02-02 13:49:34,833 | itj_planning | INFO | ==========
+2022-02-02 13:49:34,934 | itj_planning | INFO | 	 traj point #220/294
+2022-02-02 13:49:34,934 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,034 | itj_planning | INFO | 	 traj point #221/294
+2022-02-02 13:49:35,035 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,141 | itj_planning | INFO | 	 traj point #222/294
+2022-02-02 13:49:35,141 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,243 | itj_planning | INFO | 	 traj point #223/294
+2022-02-02 13:49:35,243 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,344 | itj_planning | INFO | 	 traj point #224/294
+2022-02-02 13:49:35,345 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,447 | itj_planning | INFO | 	 traj point #225/294
+2022-02-02 13:49:35,447 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,548 | itj_planning | INFO | 	 traj point #226/294
+2022-02-02 13:49:35,548 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,647 | itj_planning | INFO | 	 traj point #227/294
+2022-02-02 13:49:35,648 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,747 | itj_planning | INFO | 	 traj point #228/294
+2022-02-02 13:49:35,748 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,849 | itj_planning | INFO | 	 traj point #229/294
+2022-02-02 13:49:35,849 | itj_planning | INFO | ==========
+2022-02-02 13:49:35,948 | itj_planning | INFO | 	 traj point #230/294
+2022-02-02 13:49:35,949 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,050 | itj_planning | INFO | 	 traj point #231/294
+2022-02-02 13:49:36,050 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,158 | itj_planning | INFO | 	 traj point #232/294
+2022-02-02 13:49:36,158 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,274 | itj_planning | INFO | 	 traj point #233/294
+2022-02-02 13:49:36,274 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,379 | itj_planning | INFO | 	 traj point #234/294
+2022-02-02 13:49:36,379 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,480 | itj_planning | INFO | 	 traj point #235/294
+2022-02-02 13:49:36,480 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,581 | itj_planning | INFO | 	 traj point #236/294
+2022-02-02 13:49:36,581 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,681 | itj_planning | INFO | 	 traj point #237/294
+2022-02-02 13:49:36,681 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,790 | itj_planning | INFO | 	 traj point #238/294
+2022-02-02 13:49:36,790 | itj_planning | INFO | ==========
+2022-02-02 13:49:36,910 | itj_planning | INFO | 	 traj point #239/294
+2022-02-02 13:49:36,910 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,012 | itj_planning | INFO | 	 traj point #240/294
+2022-02-02 13:49:37,012 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,117 | itj_planning | INFO | 	 traj point #241/294
+2022-02-02 13:49:37,117 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,219 | itj_planning | INFO | 	 traj point #242/294
+2022-02-02 13:49:37,219 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,322 | itj_planning | INFO | 	 traj point #243/294
+2022-02-02 13:49:37,322 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,423 | itj_planning | INFO | 	 traj point #244/294
+2022-02-02 13:49:37,423 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,528 | itj_planning | INFO | 	 traj point #245/294
+2022-02-02 13:49:37,528 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,631 | itj_planning | INFO | 	 traj point #246/294
+2022-02-02 13:49:37,631 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,829 | itj_planning | INFO | 	 traj point #248/294
+2022-02-02 13:49:37,830 | itj_planning | INFO | ==========
+2022-02-02 13:49:37,929 | itj_planning | INFO | 	 traj point #249/294
+2022-02-02 13:49:37,929 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,029 | itj_planning | INFO | 	 traj point #250/294
+2022-02-02 13:49:38,030 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,248 | itj_planning | INFO | 	 traj point #252/294
+2022-02-02 13:49:38,248 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,349 | itj_planning | INFO | 	 traj point #253/294
+2022-02-02 13:49:38,349 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,462 | itj_planning | INFO | 	 traj point #254/294
+2022-02-02 13:49:38,462 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,562 | itj_planning | INFO | 	 traj point #255/294
+2022-02-02 13:49:38,563 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,669 | itj_planning | INFO | 	 traj point #256/294
+2022-02-02 13:49:38,669 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,772 | itj_planning | INFO | 	 traj point #257/294
+2022-02-02 13:49:38,772 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,873 | itj_planning | INFO | 	 traj point #258/294
+2022-02-02 13:49:38,873 | itj_planning | INFO | ==========
+2022-02-02 13:49:38,974 | itj_planning | INFO | 	 traj point #259/294
+2022-02-02 13:49:38,974 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,078 | itj_planning | INFO | 	 traj point #260/294
+2022-02-02 13:49:39,078 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,180 | itj_planning | INFO | 	 traj point #261/294
+2022-02-02 13:49:39,181 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,289 | itj_planning | INFO | 	 traj point #262/294
+2022-02-02 13:49:39,290 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,396 | itj_planning | INFO | 	 traj point #263/294
+2022-02-02 13:49:39,397 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,497 | itj_planning | INFO | 	 traj point #264/294
+2022-02-02 13:49:39,498 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,598 | itj_planning | INFO | 	 traj point #265/294
+2022-02-02 13:49:39,598 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,699 | itj_planning | INFO | 	 traj point #266/294
+2022-02-02 13:49:39,699 | itj_planning | INFO | ==========
+2022-02-02 13:49:39,801 | itj_planning | INFO | 	 traj point #267/294
+2022-02-02 13:49:39,801 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,006 | itj_planning | INFO | 	 traj point #269/294
+2022-02-02 13:49:40,006 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,106 | itj_planning | INFO | 	 traj point #270/294
+2022-02-02 13:49:40,106 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,207 | itj_planning | INFO | 	 traj point #271/294
+2022-02-02 13:49:40,208 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,316 | itj_planning | INFO | 	 traj point #272/294
+2022-02-02 13:49:40,317 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,420 | itj_planning | INFO | 	 traj point #273/294
+2022-02-02 13:49:40,420 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,527 | itj_planning | INFO | 	 traj point #274/294
+2022-02-02 13:49:40,527 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,628 | itj_planning | INFO | 	 traj point #275/294
+2022-02-02 13:49:40,629 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,735 | itj_planning | INFO | 	 traj point #276/294
+2022-02-02 13:49:40,735 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,838 | itj_planning | INFO | 	 traj point #277/294
+2022-02-02 13:49:40,839 | itj_planning | INFO | ==========
+2022-02-02 13:49:40,942 | itj_planning | INFO | 	 traj point #278/294
+2022-02-02 13:49:40,942 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,045 | itj_planning | INFO | 	 traj point #279/294
+2022-02-02 13:49:41,046 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,159 | itj_planning | INFO | 	 traj point #280/294
+2022-02-02 13:49:41,159 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,270 | itj_planning | INFO | 	 traj point #281/294
+2022-02-02 13:49:41,270 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,399 | itj_planning | INFO | 	 traj point #282/294
+2022-02-02 13:49:41,399 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,512 | itj_planning | INFO | 	 traj point #283/294
+2022-02-02 13:49:41,512 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,618 | itj_planning | INFO | 	 traj point #284/294
+2022-02-02 13:49:41,618 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,723 | itj_planning | INFO | 	 traj point #285/294
+2022-02-02 13:49:41,724 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,837 | itj_planning | INFO | 	 traj point #286/294
+2022-02-02 13:49:41,837 | itj_planning | INFO | ==========
+2022-02-02 13:49:41,944 | itj_planning | INFO | 	 traj point #287/294
+2022-02-02 13:49:41,945 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,055 | itj_planning | INFO | 	 traj point #288/294
+2022-02-02 13:49:42,055 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,166 | itj_planning | INFO | 	 traj point #289/294
+2022-02-02 13:49:42,166 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,272 | itj_planning | INFO | 	 traj point #290/294
+2022-02-02 13:49:42,272 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,372 | itj_planning | INFO | 	 traj point #291/294
+2022-02-02 13:49:42,372 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,488 | itj_planning | INFO | 	 traj point #292/294
+2022-02-02 13:49:42,488 | itj_planning | INFO | ==========
+2022-02-02 13:49:42,687 | itj_planning | INFO | [31mTrajectory in trouble: in_collision False | joint_flip True[0m
+2022-02-02 13:49:42,688 | itj_planning | INFO | ####################
+2022-02-02 13:49:42,688 | itj_planning | INFO | End State:
+2022-02-02 13:49:42,811 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 13:49:42,811 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 13:49:42,812 | itj_planning | INFO | ####################
+2022-02-02 13:49:42,815 | itj_planning | INFO | ----------
+2022-02-02 13:49:42,816 | itj_planning | INFO | [1m[47m[34m(MovementIndex=2) (Seq#0-#1) RoboticLinearMovement(#A1_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to get tool., traj 1)[0m
+2022-02-02 13:49:42,816 | itj_planning | INFO | Start State:
+2022-02-02 13:49:42,965 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 13:49:42,966 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 13:49:42,966 | itj_planning | INFO | ####################
+2022-02-02 14:04:43,847 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip False[0m
+2022-02-02 14:04:43,848 | itj_planning | INFO | ####################
+2022-02-02 14:04:43,848 | itj_planning | INFO | End State:
+2022-02-02 14:04:43,972 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:04:43,974 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:04:43,974 | itj_planning | INFO | ####################
+2022-02-02 14:04:43,977 | itj_planning | INFO | ----------
+2022-02-02 14:04:43,978 | itj_planning | INFO | [1m[47m[34m(MovementIndex=3) (Seq#0-#2) RoboticDigitalOutput(#A1_M2, Toolchanger Lock PG1000 ('g2'))[0m
+2022-02-02 14:04:43,980 | itj_planning | INFO | ----------
+2022-02-02 14:04:43,981 | itj_planning | INFO | [1m[47m[34m(MovementIndex=4) (Seq#0-#3) RoboticDigitalOutput(#A1_M3, PG1000 ('g2') Open Gripper to release itself from storage pad.)[0m
+2022-02-02 14:04:43,983 | itj_planning | INFO | ----------
+2022-02-02 14:04:43,983 | itj_planning | INFO | [1m[47m[34m(MovementIndex=5) (Seq#0-#4) RoboticLinearMovement(#A1_M4, Linear Retract after getting PG1000 ('g2') from storage., traj 1)[0m
+2022-02-02 14:04:43,998 | itj_planning | INFO | Start State:
+2022-02-02 14:04:44,131 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:04:44,132 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:04:44,133 | itj_planning | INFO | ####################
+2022-02-02 14:05:05,821 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip False[0m
+2022-02-02 14:05:05,821 | itj_planning | INFO | ####################
+2022-02-02 14:05:05,821 | itj_planning | INFO | End State:
+2022-02-02 14:05:05,958 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:05:05,959 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:05,960 | itj_planning | INFO | ####################
+2022-02-02 14:05:05,962 | itj_planning | INFO | ----------
+2022-02-02 14:05:05,963 | itj_planning | INFO | [1m[47m[34m(MovementIndex=6) (Seq#0-#0) RoboticFreeMovement(#A2_M0, Free Move to reach Pickup Approach Frame of Beam ('b0'), traj 1)[0m
+2022-02-02 14:05:05,963 | itj_planning | INFO | Start State:
+2022-02-02 14:05:06,109 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:05:06,111 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:06,111 | itj_planning | INFO | ####################
+2022-02-02 14:05:06,355 | itj_planning | INFO | 	 traj point #1/162
+2022-02-02 14:05:06,355 | itj_planning | INFO | ==========
+2022-02-02 14:05:06,477 | itj_planning | INFO | 	 traj point #2/162
+2022-02-02 14:05:06,477 | itj_planning | INFO | ==========
+2022-02-02 14:05:06,604 | itj_planning | INFO | 	 traj point #3/162
+2022-02-02 14:05:06,605 | itj_planning | INFO | ==========
+2022-02-02 14:05:06,729 | itj_planning | INFO | 	 traj point #4/162
+2022-02-02 14:05:06,729 | itj_planning | INFO | ==========
+2022-02-02 14:05:06,852 | itj_planning | INFO | 	 traj point #5/162
+2022-02-02 14:05:06,852 | itj_planning | INFO | ==========
+2022-02-02 14:05:06,975 | itj_planning | INFO | 	 traj point #6/162
+2022-02-02 14:05:06,975 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,099 | itj_planning | INFO | 	 traj point #7/162
+2022-02-02 14:05:07,100 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,222 | itj_planning | INFO | 	 traj point #8/162
+2022-02-02 14:05:07,223 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,349 | itj_planning | INFO | 	 traj point #9/162
+2022-02-02 14:05:07,350 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,473 | itj_planning | INFO | 	 traj point #10/162
+2022-02-02 14:05:07,473 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,614 | itj_planning | INFO | 	 traj point #11/162
+2022-02-02 14:05:07,614 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,743 | itj_planning | INFO | 	 traj point #12/162
+2022-02-02 14:05:07,743 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,867 | itj_planning | INFO | 	 traj point #13/162
+2022-02-02 14:05:07,867 | itj_planning | INFO | ==========
+2022-02-02 14:05:07,988 | itj_planning | INFO | 	 traj point #14/162
+2022-02-02 14:05:07,988 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,112 | itj_planning | INFO | 	 traj point #15/162
+2022-02-02 14:05:08,112 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,234 | itj_planning | INFO | 	 traj point #16/162
+2022-02-02 14:05:08,234 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,358 | itj_planning | INFO | 	 traj point #17/162
+2022-02-02 14:05:08,358 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,480 | itj_planning | INFO | 	 traj point #18/162
+2022-02-02 14:05:08,481 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,613 | itj_planning | INFO | 	 traj point #19/162
+2022-02-02 14:05:08,613 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,736 | itj_planning | INFO | 	 traj point #20/162
+2022-02-02 14:05:08,736 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,860 | itj_planning | INFO | 	 traj point #21/162
+2022-02-02 14:05:08,860 | itj_planning | INFO | ==========
+2022-02-02 14:05:08,983 | itj_planning | INFO | 	 traj point #22/162
+2022-02-02 14:05:08,984 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,107 | itj_planning | INFO | 	 traj point #23/162
+2022-02-02 14:05:09,108 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,234 | itj_planning | INFO | 	 traj point #24/162
+2022-02-02 14:05:09,234 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,360 | itj_planning | INFO | 	 traj point #25/162
+2022-02-02 14:05:09,360 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,482 | itj_planning | INFO | 	 traj point #26/162
+2022-02-02 14:05:09,482 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,605 | itj_planning | INFO | 	 traj point #27/162
+2022-02-02 14:05:09,605 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,730 | itj_planning | INFO | 	 traj point #28/162
+2022-02-02 14:05:09,730 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,855 | itj_planning | INFO | 	 traj point #29/162
+2022-02-02 14:05:09,856 | itj_planning | INFO | ==========
+2022-02-02 14:05:09,979 | itj_planning | INFO | 	 traj point #30/162
+2022-02-02 14:05:09,980 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,110 | itj_planning | INFO | 	 traj point #31/162
+2022-02-02 14:05:10,110 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,234 | itj_planning | INFO | 	 traj point #32/162
+2022-02-02 14:05:10,234 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,359 | itj_planning | INFO | 	 traj point #33/162
+2022-02-02 14:05:10,359 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,487 | itj_planning | INFO | 	 traj point #34/162
+2022-02-02 14:05:10,487 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,612 | itj_planning | INFO | 	 traj point #35/162
+2022-02-02 14:05:10,613 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,736 | itj_planning | INFO | 	 traj point #36/162
+2022-02-02 14:05:10,736 | itj_planning | INFO | ==========
+2022-02-02 14:05:10,863 | itj_planning | INFO | 	 traj point #37/162
+2022-02-02 14:05:10,863 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,004 | itj_planning | INFO | 	 traj point #38/162
+2022-02-02 14:05:11,004 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,131 | itj_planning | INFO | 	 traj point #39/162
+2022-02-02 14:05:11,131 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,262 | itj_planning | INFO | 	 traj point #40/162
+2022-02-02 14:05:11,262 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,393 | itj_planning | INFO | 	 traj point #41/162
+2022-02-02 14:05:11,393 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,517 | itj_planning | INFO | 	 traj point #42/162
+2022-02-02 14:05:11,517 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,639 | itj_planning | INFO | 	 traj point #43/162
+2022-02-02 14:05:11,639 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,761 | itj_planning | INFO | 	 traj point #44/162
+2022-02-02 14:05:11,761 | itj_planning | INFO | ==========
+2022-02-02 14:05:11,888 | itj_planning | INFO | 	 traj point #45/162
+2022-02-02 14:05:11,888 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,012 | itj_planning | INFO | 	 traj point #46/162
+2022-02-02 14:05:12,012 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,139 | itj_planning | INFO | 	 traj point #47/162
+2022-02-02 14:05:12,140 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,264 | itj_planning | INFO | 	 traj point #48/162
+2022-02-02 14:05:12,264 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,390 | itj_planning | INFO | 	 traj point #49/162
+2022-02-02 14:05:12,390 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,522 | itj_planning | INFO | 	 traj point #50/162
+2022-02-02 14:05:12,523 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,646 | itj_planning | INFO | 	 traj point #51/162
+2022-02-02 14:05:12,646 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,771 | itj_planning | INFO | 	 traj point #52/162
+2022-02-02 14:05:12,771 | itj_planning | INFO | ==========
+2022-02-02 14:05:12,901 | itj_planning | INFO | 	 traj point #53/162
+2022-02-02 14:05:12,901 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,028 | itj_planning | INFO | 	 traj point #54/162
+2022-02-02 14:05:13,029 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,156 | itj_planning | INFO | 	 traj point #55/162
+2022-02-02 14:05:13,156 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,287 | itj_planning | INFO | 	 traj point #56/162
+2022-02-02 14:05:13,288 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,421 | itj_planning | INFO | 	 traj point #57/162
+2022-02-02 14:05:13,422 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,544 | itj_planning | INFO | 	 traj point #58/162
+2022-02-02 14:05:13,544 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,668 | itj_planning | INFO | 	 traj point #59/162
+2022-02-02 14:05:13,668 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,792 | itj_planning | INFO | 	 traj point #60/162
+2022-02-02 14:05:13,792 | itj_planning | INFO | ==========
+2022-02-02 14:05:13,916 | itj_planning | INFO | 	 traj point #61/162
+2022-02-02 14:05:13,916 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,038 | itj_planning | INFO | 	 traj point #62/162
+2022-02-02 14:05:14,038 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,169 | itj_planning | INFO | 	 traj point #63/162
+2022-02-02 14:05:14,169 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,296 | itj_planning | INFO | 	 traj point #64/162
+2022-02-02 14:05:14,296 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,423 | itj_planning | INFO | 	 traj point #65/162
+2022-02-02 14:05:14,423 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,548 | itj_planning | INFO | 	 traj point #66/162
+2022-02-02 14:05:14,548 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,674 | itj_planning | INFO | 	 traj point #67/162
+2022-02-02 14:05:14,674 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,798 | itj_planning | INFO | 	 traj point #68/162
+2022-02-02 14:05:14,798 | itj_planning | INFO | ==========
+2022-02-02 14:05:14,921 | itj_planning | INFO | 	 traj point #69/162
+2022-02-02 14:05:14,921 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,044 | itj_planning | INFO | 	 traj point #70/162
+2022-02-02 14:05:15,044 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,168 | itj_planning | INFO | 	 traj point #71/162
+2022-02-02 14:05:15,169 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,297 | itj_planning | INFO | 	 traj point #72/162
+2022-02-02 14:05:15,297 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,429 | itj_planning | INFO | 	 traj point #73/162
+2022-02-02 14:05:15,429 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,554 | itj_planning | INFO | 	 traj point #74/162
+2022-02-02 14:05:15,554 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,677 | itj_planning | INFO | 	 traj point #75/162
+2022-02-02 14:05:15,677 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,801 | itj_planning | INFO | 	 traj point #76/162
+2022-02-02 14:05:15,801 | itj_planning | INFO | ==========
+2022-02-02 14:05:15,928 | itj_planning | INFO | 	 traj point #77/162
+2022-02-02 14:05:15,929 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,063 | itj_planning | INFO | 	 traj point #78/162
+2022-02-02 14:05:16,063 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,210 | itj_planning | INFO | 	 traj point #79/162
+2022-02-02 14:05:16,210 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,338 | itj_planning | INFO | 	 traj point #80/162
+2022-02-02 14:05:16,338 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,469 | itj_planning | INFO | 	 traj point #81/162
+2022-02-02 14:05:16,469 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,592 | itj_planning | INFO | 	 traj point #82/162
+2022-02-02 14:05:16,592 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,714 | itj_planning | INFO | 	 traj point #83/162
+2022-02-02 14:05:16,714 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,836 | itj_planning | INFO | 	 traj point #84/162
+2022-02-02 14:05:16,836 | itj_planning | INFO | ==========
+2022-02-02 14:05:16,971 | itj_planning | INFO | 	 traj point #85/162
+2022-02-02 14:05:16,971 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,096 | itj_planning | INFO | 	 traj point #86/162
+2022-02-02 14:05:17,096 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,220 | itj_planning | INFO | 	 traj point #87/162
+2022-02-02 14:05:17,221 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,354 | itj_planning | INFO | 	 traj point #88/162
+2022-02-02 14:05:17,354 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,485 | itj_planning | INFO | 	 traj point #89/162
+2022-02-02 14:05:17,485 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,622 | itj_planning | INFO | 	 traj point #90/162
+2022-02-02 14:05:17,622 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,748 | itj_planning | INFO | 	 traj point #91/162
+2022-02-02 14:05:17,748 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,873 | itj_planning | INFO | 	 traj point #92/162
+2022-02-02 14:05:17,873 | itj_planning | INFO | ==========
+2022-02-02 14:05:17,998 | itj_planning | INFO | 	 traj point #93/162
+2022-02-02 14:05:17,998 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,133 | itj_planning | INFO | 	 traj point #94/162
+2022-02-02 14:05:18,134 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,269 | itj_planning | INFO | 	 traj point #95/162
+2022-02-02 14:05:18,269 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,396 | itj_planning | INFO | 	 traj point #96/162
+2022-02-02 14:05:18,397 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,521 | itj_planning | INFO | 	 traj point #97/162
+2022-02-02 14:05:18,521 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,645 | itj_planning | INFO | 	 traj point #98/162
+2022-02-02 14:05:18,645 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,767 | itj_planning | INFO | 	 traj point #99/162
+2022-02-02 14:05:18,767 | itj_planning | INFO | ==========
+2022-02-02 14:05:18,891 | itj_planning | INFO | 	 traj point #100/162
+2022-02-02 14:05:18,891 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,016 | itj_planning | INFO | 	 traj point #101/162
+2022-02-02 14:05:19,016 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,139 | itj_planning | INFO | 	 traj point #102/162
+2022-02-02 14:05:19,139 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,275 | itj_planning | INFO | 	 traj point #103/162
+2022-02-02 14:05:19,275 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,399 | itj_planning | INFO | 	 traj point #104/162
+2022-02-02 14:05:19,399 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,523 | itj_planning | INFO | 	 traj point #105/162
+2022-02-02 14:05:19,523 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,648 | itj_planning | INFO | 	 traj point #106/162
+2022-02-02 14:05:19,649 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,774 | itj_planning | INFO | 	 traj point #107/162
+2022-02-02 14:05:19,775 | itj_planning | INFO | ==========
+2022-02-02 14:05:19,898 | itj_planning | INFO | 	 traj point #108/162
+2022-02-02 14:05:19,898 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,020 | itj_planning | INFO | 	 traj point #109/162
+2022-02-02 14:05:20,020 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,151 | itj_planning | INFO | 	 traj point #110/162
+2022-02-02 14:05:20,152 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,280 | itj_planning | INFO | 	 traj point #111/162
+2022-02-02 14:05:20,280 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,403 | itj_planning | INFO | 	 traj point #112/162
+2022-02-02 14:05:20,403 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,527 | itj_planning | INFO | 	 traj point #113/162
+2022-02-02 14:05:20,527 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,650 | itj_planning | INFO | 	 traj point #114/162
+2022-02-02 14:05:20,650 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,792 | itj_planning | INFO | 	 traj point #115/162
+2022-02-02 14:05:20,792 | itj_planning | INFO | ==========
+2022-02-02 14:05:20,918 | itj_planning | INFO | 	 traj point #116/162
+2022-02-02 14:05:20,918 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,040 | itj_planning | INFO | 	 traj point #117/162
+2022-02-02 14:05:21,040 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,168 | itj_planning | INFO | 	 traj point #118/162
+2022-02-02 14:05:21,168 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,294 | itj_planning | INFO | 	 traj point #119/162
+2022-02-02 14:05:21,297 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,439 | itj_planning | INFO | 	 traj point #120/162
+2022-02-02 14:05:21,439 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,566 | itj_planning | INFO | 	 traj point #121/162
+2022-02-02 14:05:21,567 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,690 | itj_planning | INFO | 	 traj point #122/162
+2022-02-02 14:05:21,690 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,811 | itj_planning | INFO | 	 traj point #123/162
+2022-02-02 14:05:21,811 | itj_planning | INFO | ==========
+2022-02-02 14:05:21,938 | itj_planning | INFO | 	 traj point #124/162
+2022-02-02 14:05:21,938 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,065 | itj_planning | INFO | 	 traj point #125/162
+2022-02-02 14:05:22,065 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,196 | itj_planning | INFO | 	 traj point #126/162
+2022-02-02 14:05:22,196 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,321 | itj_planning | INFO | 	 traj point #127/162
+2022-02-02 14:05:22,321 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,447 | itj_planning | INFO | 	 traj point #128/162
+2022-02-02 14:05:22,448 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,582 | itj_planning | INFO | 	 traj point #129/162
+2022-02-02 14:05:22,582 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,712 | itj_planning | INFO | 	 traj point #130/162
+2022-02-02 14:05:22,712 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,835 | itj_planning | INFO | 	 traj point #131/162
+2022-02-02 14:05:22,835 | itj_planning | INFO | ==========
+2022-02-02 14:05:22,962 | itj_planning | INFO | 	 traj point #132/162
+2022-02-02 14:05:22,962 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,090 | itj_planning | INFO | 	 traj point #133/162
+2022-02-02 14:05:23,090 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,217 | itj_planning | INFO | 	 traj point #134/162
+2022-02-02 14:05:23,218 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,349 | itj_planning | INFO | 	 traj point #135/162
+2022-02-02 14:05:23,349 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,473 | itj_planning | INFO | 	 traj point #136/162
+2022-02-02 14:05:23,473 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,599 | itj_planning | INFO | 	 traj point #137/162
+2022-02-02 14:05:23,599 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,730 | itj_planning | INFO | 	 traj point #138/162
+2022-02-02 14:05:23,730 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,853 | itj_planning | INFO | 	 traj point #139/162
+2022-02-02 14:05:23,853 | itj_planning | INFO | ==========
+2022-02-02 14:05:23,979 | itj_planning | INFO | 	 traj point #140/162
+2022-02-02 14:05:23,979 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,108 | itj_planning | INFO | 	 traj point #141/162
+2022-02-02 14:05:24,108 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,234 | itj_planning | INFO | 	 traj point #142/162
+2022-02-02 14:05:24,234 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,359 | itj_planning | INFO | 	 traj point #143/162
+2022-02-02 14:05:24,359 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,484 | itj_planning | INFO | 	 traj point #144/162
+2022-02-02 14:05:24,484 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,612 | itj_planning | INFO | 	 traj point #145/162
+2022-02-02 14:05:24,612 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,736 | itj_planning | INFO | 	 traj point #146/162
+2022-02-02 14:05:24,736 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,858 | itj_planning | INFO | 	 traj point #147/162
+2022-02-02 14:05:24,858 | itj_planning | INFO | ==========
+2022-02-02 14:05:24,983 | itj_planning | INFO | 	 traj point #148/162
+2022-02-02 14:05:24,983 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,111 | itj_planning | INFO | 	 traj point #149/162
+2022-02-02 14:05:25,111 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,236 | itj_planning | INFO | 	 traj point #150/162
+2022-02-02 14:05:25,236 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,373 | itj_planning | INFO | 	 traj point #151/162
+2022-02-02 14:05:25,373 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,508 | itj_planning | INFO | 	 traj point #152/162
+2022-02-02 14:05:25,508 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,649 | itj_planning | INFO | 	 traj point #153/162
+2022-02-02 14:05:25,649 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,774 | itj_planning | INFO | 	 traj point #154/162
+2022-02-02 14:05:25,774 | itj_planning | INFO | ==========
+2022-02-02 14:05:25,898 | itj_planning | INFO | 	 traj point #155/162
+2022-02-02 14:05:25,898 | itj_planning | INFO | ==========
+2022-02-02 14:05:26,022 | itj_planning | INFO | 	 traj point #156/162
+2022-02-02 14:05:26,022 | itj_planning | INFO | ==========
+2022-02-02 14:05:26,167 | itj_planning | INFO | 	 traj point #157/162
+2022-02-02 14:05:26,167 | itj_planning | INFO | ==========
+2022-02-02 14:05:26,290 | itj_planning | INFO | 	 traj point #158/162
+2022-02-02 14:05:26,290 | itj_planning | INFO | ==========
+2022-02-02 14:05:26,419 | itj_planning | INFO | 	 traj point #159/162
+2022-02-02 14:05:26,419 | itj_planning | INFO | ==========
+2022-02-02 14:05:27,346 | itj_planning | INFO | 	 traj point #160/162
+2022-02-02 14:05:27,347 | itj_planning | INFO | ==========
+2022-02-02 14:05:27,587 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip True[0m
+2022-02-02 14:05:27,587 | itj_planning | INFO | ####################
+2022-02-02 14:05:27,587 | itj_planning | INFO | End State:
+2022-02-02 14:05:27,717 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:05:27,719 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:27,719 | itj_planning | INFO | ####################
+2022-02-02 14:05:27,723 | itj_planning | INFO | ----------
+2022-02-02 14:05:27,723 | itj_planning | INFO | [1m[47m[34m(MovementIndex=7) (Seq#0-#1) RoboticDigitalOutput(#A2_M1, Gripper ('g2') Open Gripper before gripping Beam ('b0'))[0m
+2022-02-02 14:05:27,726 | itj_planning | INFO | ----------
+2022-02-02 14:05:27,726 | itj_planning | INFO | [1m[47m[34m(MovementIndex=8) (Seq#0-#2) RoboticLinearMovement(#A2_M2, Linear Advance to Storage Frame of Beam ('b0'), traj 1)[0m
+2022-02-02 14:05:27,726 | itj_planning | INFO | Start State:
+2022-02-02 14:05:27,855 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:05:27,856 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:27,856 | itj_planning | INFO | ####################
+2022-02-02 14:05:30,283 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip False[0m
+2022-02-02 14:05:30,283 | itj_planning | INFO | ####################
+2022-02-02 14:05:30,284 | itj_planning | INFO | End State:
+2022-02-02 14:05:30,424 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:05:30,425 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:30,425 | itj_planning | INFO | ####################
+2022-02-02 14:05:30,428 | itj_planning | INFO | ----------
+2022-02-02 14:05:30,428 | itj_planning | INFO | [1m[47m[34m(MovementIndex=9) (Seq#0-#3) RoboticDigitalOutput(#A2_M3, Gripper ('g2') Close Gripper to grip Beam ('b0'))[0m
+2022-02-02 14:05:30,431 | itj_planning | INFO | ----------
+2022-02-02 14:05:30,431 | itj_planning | INFO | [1m[47m[34m(MovementIndex=10) (Seq#0-#4) RoboticLinearMovement(#A2_M4, Linear Retract after picking up Beam ('b0'), traj 1)[0m
+2022-02-02 14:05:30,445 | itj_planning | INFO | Start State:
+2022-02-02 14:05:30,587 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:05:30,589 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:30,589 | itj_planning | INFO | ####################
+2022-02-02 14:05:33,274 | itj_planning | INFO | [32mTrajectory in trouble: in_collision False | joint_flip False[0m
+2022-02-02 14:05:33,274 | itj_planning | INFO | ####################
+2022-02-02 14:05:33,274 | itj_planning | INFO | End State:
+2022-02-02 14:05:33,410 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:05:33,411 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:33,411 | itj_planning | INFO | ####################
+2022-02-02 14:05:33,414 | itj_planning | INFO | ----------
+2022-02-02 14:05:33,414 | itj_planning | INFO | [1m[47m[34m(MovementIndex=11) (Seq#0-#0) RoboticFreeMovement(#A3_M0, Free Move to bring Beam ('b0') to final location, traj 1)[0m
+2022-02-02 14:05:33,414 | itj_planning | INFO | Start State:
+2022-02-02 14:05:33,550 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:05:33,551 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:05:33,552 | itj_planning | INFO | ####################
+2022-02-02 14:05:33,797 | itj_planning | INFO | 	 traj point #1/215
+2022-02-02 14:05:33,797 | itj_planning | INFO | ==========
+2022-02-02 14:05:33,920 | itj_planning | INFO | 	 traj point #2/215
+2022-02-02 14:05:33,920 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,044 | itj_planning | INFO | 	 traj point #3/215
+2022-02-02 14:05:34,045 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,171 | itj_planning | INFO | 	 traj point #4/215
+2022-02-02 14:05:34,171 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,304 | itj_planning | INFO | 	 traj point #5/215
+2022-02-02 14:05:34,304 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,443 | itj_planning | INFO | 	 traj point #6/215
+2022-02-02 14:05:34,443 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,579 | itj_planning | INFO | 	 traj point #7/215
+2022-02-02 14:05:34,579 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,709 | itj_planning | INFO | 	 traj point #8/215
+2022-02-02 14:05:34,709 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,836 | itj_planning | INFO | 	 traj point #9/215
+2022-02-02 14:05:34,836 | itj_planning | INFO | ==========
+2022-02-02 14:05:34,960 | itj_planning | INFO | 	 traj point #10/215
+2022-02-02 14:05:34,960 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,105 | itj_planning | INFO | 	 traj point #11/215
+2022-02-02 14:05:35,105 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,234 | itj_planning | INFO | 	 traj point #12/215
+2022-02-02 14:05:35,234 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,359 | itj_planning | INFO | 	 traj point #13/215
+2022-02-02 14:05:35,360 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,495 | itj_planning | INFO | 	 traj point #14/215
+2022-02-02 14:05:35,495 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,620 | itj_planning | INFO | 	 traj point #15/215
+2022-02-02 14:05:35,621 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,747 | itj_planning | INFO | 	 traj point #16/215
+2022-02-02 14:05:35,747 | itj_planning | INFO | ==========
+2022-02-02 14:05:35,885 | itj_planning | INFO | 	 traj point #17/215
+2022-02-02 14:05:35,885 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,011 | itj_planning | INFO | 	 traj point #18/215
+2022-02-02 14:05:36,011 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,151 | itj_planning | INFO | 	 traj point #19/215
+2022-02-02 14:05:36,152 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,276 | itj_planning | INFO | 	 traj point #20/215
+2022-02-02 14:05:36,276 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,402 | itj_planning | INFO | 	 traj point #21/215
+2022-02-02 14:05:36,402 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,527 | itj_planning | INFO | 	 traj point #22/215
+2022-02-02 14:05:36,527 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,653 | itj_planning | INFO | 	 traj point #23/215
+2022-02-02 14:05:36,653 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,780 | itj_planning | INFO | 	 traj point #24/215
+2022-02-02 14:05:36,780 | itj_planning | INFO | ==========
+2022-02-02 14:05:36,907 | itj_planning | INFO | 	 traj point #25/215
+2022-02-02 14:05:36,907 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,042 | itj_planning | INFO | 	 traj point #26/215
+2022-02-02 14:05:37,043 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,170 | itj_planning | INFO | 	 traj point #27/215
+2022-02-02 14:05:37,170 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,299 | itj_planning | INFO | 	 traj point #28/215
+2022-02-02 14:05:37,299 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,424 | itj_planning | INFO | 	 traj point #29/215
+2022-02-02 14:05:37,425 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,553 | itj_planning | INFO | 	 traj point #30/215
+2022-02-02 14:05:37,553 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,679 | itj_planning | INFO | 	 traj point #31/215
+2022-02-02 14:05:37,679 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,805 | itj_planning | INFO | 	 traj point #32/215
+2022-02-02 14:05:37,805 | itj_planning | INFO | ==========
+2022-02-02 14:05:37,932 | itj_planning | INFO | 	 traj point #33/215
+2022-02-02 14:05:37,933 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,058 | itj_planning | INFO | 	 traj point #34/215
+2022-02-02 14:05:38,058 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,186 | itj_planning | INFO | 	 traj point #35/215
+2022-02-02 14:05:38,186 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,310 | itj_planning | INFO | 	 traj point #36/215
+2022-02-02 14:05:38,311 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,438 | itj_planning | INFO | 	 traj point #37/215
+2022-02-02 14:05:38,438 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,568 | itj_planning | INFO | 	 traj point #38/215
+2022-02-02 14:05:38,568 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,696 | itj_planning | INFO | 	 traj point #39/215
+2022-02-02 14:05:38,697 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,826 | itj_planning | INFO | 	 traj point #40/215
+2022-02-02 14:05:38,826 | itj_planning | INFO | ==========
+2022-02-02 14:05:38,951 | itj_planning | INFO | 	 traj point #41/215
+2022-02-02 14:05:38,951 | itj_planning | INFO | ==========
+2022-02-02 14:05:39,077 | itj_planning | INFO | 	 traj point #42/215
+2022-02-02 14:05:39,078 | itj_planning | INFO | ==========
+2022-02-02 14:05:39,205 | itj_planning | INFO | 	 traj point #43/215
+2022-02-02 14:05:39,206 | itj_planning | INFO | ==========
+2022-02-02 14:05:39,332 | itj_planning | INFO | 	 traj point #44/215
+2022-02-02 14:05:39,332 | itj_planning | INFO | ==========
+2022-02-02 14:05:39,463 | itj_planning | INFO | 	 traj point #45/215
+2022-02-02 14:05:39,463 | itj_planning | INFO | ==========
+2022-02-02 14:05:39,589 | itj_planning | INFO | 	 traj point #46/215
+2022-02-02 14:05:39,590 | itj_planning | INFO | ==========
+2022-02-02 14:05:52,815 | itj_planning | INFO | 	 traj point #148/215
+2022-02-02 14:05:52,815 | itj_planning | INFO | ==========
+2022-02-02 14:05:52,938 | itj_planning | INFO | 	 traj point #149/215
+2022-02-02 14:05:52,938 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,064 | itj_planning | INFO | 	 traj point #150/215
+2022-02-02 14:05:53,064 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,195 | itj_planning | INFO | 	 traj point #151/215
+2022-02-02 14:05:53,195 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,321 | itj_planning | INFO | 	 traj point #152/215
+2022-02-02 14:05:53,321 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,457 | itj_planning | INFO | 	 traj point #153/215
+2022-02-02 14:05:53,457 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,583 | itj_planning | INFO | 	 traj point #154/215
+2022-02-02 14:05:53,583 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,709 | itj_planning | INFO | 	 traj point #155/215
+2022-02-02 14:05:53,709 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,844 | itj_planning | INFO | 	 traj point #156/215
+2022-02-02 14:05:53,844 | itj_planning | INFO | ==========
+2022-02-02 14:05:53,969 | itj_planning | INFO | 	 traj point #157/215
+2022-02-02 14:05:53,969 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,092 | itj_planning | INFO | 	 traj point #158/215
+2022-02-02 14:05:54,092 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,223 | itj_planning | INFO | 	 traj point #159/215
+2022-02-02 14:05:54,224 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,348 | itj_planning | INFO | 	 traj point #160/215
+2022-02-02 14:05:54,348 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,473 | itj_planning | INFO | 	 traj point #161/215
+2022-02-02 14:05:54,473 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,599 | itj_planning | INFO | 	 traj point #162/215
+2022-02-02 14:05:54,599 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,726 | itj_planning | INFO | 	 traj point #163/215
+2022-02-02 14:05:54,726 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,855 | itj_planning | INFO | 	 traj point #164/215
+2022-02-02 14:05:54,855 | itj_planning | INFO | ==========
+2022-02-02 14:05:54,979 | itj_planning | INFO | 	 traj point #165/215
+2022-02-02 14:05:54,979 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,108 | itj_planning | INFO | 	 traj point #166/215
+2022-02-02 14:05:55,109 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,238 | itj_planning | INFO | 	 traj point #167/215
+2022-02-02 14:05:55,238 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,361 | itj_planning | INFO | 	 traj point #168/215
+2022-02-02 14:05:55,362 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,495 | itj_planning | INFO | 	 traj point #169/215
+2022-02-02 14:05:55,495 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,630 | itj_planning | INFO | 	 traj point #170/215
+2022-02-02 14:05:55,631 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,755 | itj_planning | INFO | 	 traj point #171/215
+2022-02-02 14:05:55,755 | itj_planning | INFO | ==========
+2022-02-02 14:05:55,882 | itj_planning | INFO | 	 traj point #172/215
+2022-02-02 14:05:55,882 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,005 | itj_planning | INFO | 	 traj point #173/215
+2022-02-02 14:05:56,005 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,130 | itj_planning | INFO | 	 traj point #174/215
+2022-02-02 14:05:56,130 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,256 | itj_planning | INFO | 	 traj point #175/215
+2022-02-02 14:05:56,256 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,381 | itj_planning | INFO | 	 traj point #176/215
+2022-02-02 14:05:56,382 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,515 | itj_planning | INFO | 	 traj point #177/215
+2022-02-02 14:05:56,515 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,639 | itj_planning | INFO | 	 traj point #178/215
+2022-02-02 14:05:56,639 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,773 | itj_planning | INFO | 	 traj point #179/215
+2022-02-02 14:05:56,773 | itj_planning | INFO | ==========
+2022-02-02 14:05:56,899 | itj_planning | INFO | 	 traj point #180/215
+2022-02-02 14:05:56,899 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,031 | itj_planning | INFO | 	 traj point #181/215
+2022-02-02 14:05:57,031 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,157 | itj_planning | INFO | 	 traj point #182/215
+2022-02-02 14:05:57,157 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,290 | itj_planning | INFO | 	 traj point #183/215
+2022-02-02 14:05:57,290 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,422 | itj_planning | INFO | 	 traj point #184/215
+2022-02-02 14:05:57,422 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,550 | itj_planning | INFO | 	 traj point #185/215
+2022-02-02 14:05:57,550 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,677 | itj_planning | INFO | 	 traj point #186/215
+2022-02-02 14:05:57,678 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,818 | itj_planning | INFO | 	 traj point #187/215
+2022-02-02 14:05:57,818 | itj_planning | INFO | ==========
+2022-02-02 14:05:57,944 | itj_planning | INFO | 	 traj point #188/215
+2022-02-02 14:05:57,944 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,068 | itj_planning | INFO | 	 traj point #189/215
+2022-02-02 14:05:58,068 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,194 | itj_planning | INFO | 	 traj point #190/215
+2022-02-02 14:05:58,194 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,336 | itj_planning | INFO | 	 traj point #191/215
+2022-02-02 14:05:58,336 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,463 | itj_planning | INFO | 	 traj point #192/215
+2022-02-02 14:05:58,464 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,592 | itj_planning | INFO | 	 traj point #193/215
+2022-02-02 14:05:58,592 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,733 | itj_planning | INFO | 	 traj point #194/215
+2022-02-02 14:05:58,734 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,862 | itj_planning | INFO | 	 traj point #195/215
+2022-02-02 14:05:58,863 | itj_planning | INFO | ==========
+2022-02-02 14:05:58,992 | itj_planning | INFO | 	 traj point #196/215
+2022-02-02 14:05:58,992 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,116 | itj_planning | INFO | 	 traj point #197/215
+2022-02-02 14:05:59,116 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,253 | itj_planning | INFO | 	 traj point #198/215
+2022-02-02 14:05:59,253 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,380 | itj_planning | INFO | 	 traj point #199/215
+2022-02-02 14:05:59,380 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,506 | itj_planning | INFO | 	 traj point #200/215
+2022-02-02 14:05:59,506 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,635 | itj_planning | INFO | 	 traj point #201/215
+2022-02-02 14:05:59,635 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,764 | itj_planning | INFO | 	 traj point #202/215
+2022-02-02 14:05:59,764 | itj_planning | INFO | ==========
+2022-02-02 14:05:59,889 | itj_planning | INFO | 	 traj point #203/215
+2022-02-02 14:05:59,890 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,017 | itj_planning | INFO | 	 traj point #204/215
+2022-02-02 14:06:00,017 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,150 | itj_planning | INFO | 	 traj point #205/215
+2022-02-02 14:06:00,150 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,285 | itj_planning | INFO | 	 traj point #206/215
+2022-02-02 14:06:00,285 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,418 | itj_planning | INFO | 	 traj point #207/215
+2022-02-02 14:06:00,418 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,553 | itj_planning | INFO | 	 traj point #208/215
+2022-02-02 14:06:00,553 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,681 | itj_planning | INFO | 	 traj point #209/215
+2022-02-02 14:06:00,681 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,809 | itj_planning | INFO | 	 traj point #210/215
+2022-02-02 14:06:00,809 | itj_planning | INFO | ==========
+2022-02-02 14:06:00,948 | itj_planning | INFO | 	 traj point #211/215
+2022-02-02 14:06:00,948 | itj_planning | INFO | ==========
+2022-02-02 14:06:01,199 | itj_planning | INFO | 	 traj point #213/215
+2022-02-02 14:06:01,199 | itj_planning | INFO | ==========
+2022-02-02 14:06:01,447 | itj_planning | INFO | [31mTrajectory in trouble: in_collision False | joint_flip True[0m
+2022-02-02 14:06:01,447 | itj_planning | INFO | ####################
+2022-02-02 14:06:01,447 | itj_planning | INFO | End State:
+2022-02-02 14:06:01,589 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:06:01,590 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:01,590 | itj_planning | INFO | ####################
+2022-02-02 14:06:01,594 | itj_planning | INFO | ----------
+2022-02-02 14:06:01,594 | itj_planning | INFO | [1m[47m[34m(MovementIndex=12) (Seq#0-#1) RoboticLinearMovement(#A3_M1, Linear Advance to Final Frame of Beam ('b0'), traj 1)[0m
+2022-02-02 14:06:01,606 | itj_planning | INFO | Start State:
+2022-02-02 14:06:01,761 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:06:01,762 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:01,762 | itj_planning | INFO | ####################
+2022-02-02 14:06:02,788 | itj_planning | INFO | [32mTrajectory in trouble: in_collision False | joint_flip False[0m
+2022-02-02 14:06:02,788 | itj_planning | INFO | ####################
+2022-02-02 14:06:02,788 | itj_planning | INFO | End State:
+2022-02-02 14:06:02,934 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:06:02,935 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:02,936 | itj_planning | INFO | ####################
+2022-02-02 14:06:02,939 | itj_planning | INFO | ----------
+2022-02-02 14:06:02,940 | itj_planning | INFO | [1m[47m[34m(MovementIndex=13) (Seq#0-#2) RoboticDigitalOutput(#A3_M2, Open Gripper ('g2') and let go of Beam ('b0'))[0m
+2022-02-02 14:06:02,943 | itj_planning | INFO | ----------
+2022-02-02 14:06:02,943 | itj_planning | INFO | [1m[47m[34m(MovementIndex=14) (Seq#0-#3) RoboticLinearMovement(#A3_M3, Linear retract after placing Beam ('b0'), traj 1)[0m
+2022-02-02 14:06:02,944 | itj_planning | INFO | Start State:
+2022-02-02 14:06:03,083 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:06:03,085 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:03,085 | itj_planning | INFO | ####################
+2022-02-02 14:06:04,700 | itj_planning | INFO | [32mTrajectory in trouble: in_collision False | joint_flip False[0m
+2022-02-02 14:06:04,701 | itj_planning | INFO | ####################
+2022-02-02 14:06:04,701 | itj_planning | INFO | End State:
+2022-02-02 14:06:04,841 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:06:04,842 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:04,843 | itj_planning | INFO | ####################
+2022-02-02 14:06:04,846 | itj_planning | INFO | ----------
+2022-02-02 14:06:04,846 | itj_planning | INFO | [1m[47m[34m(MovementIndex=15) (Seq#0-#0) RoboticFreeMovement(#A4_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., traj 1)[0m
+2022-02-02 14:06:04,846 | itj_planning | INFO | Start State:
+2022-02-02 14:06:04,986 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:06:04,987 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:04,987 | itj_planning | INFO | ####################
+2022-02-02 14:06:05,231 | itj_planning | INFO | 	 traj point #1/219
+2022-02-02 14:06:05,231 | itj_planning | INFO | ==========
+2022-02-02 14:06:05,361 | itj_planning | INFO | 	 traj point #2/219
+2022-02-02 14:06:05,362 | itj_planning | INFO | ==========
+2022-02-02 14:06:05,493 | itj_planning | INFO | 	 traj point #3/219
+2022-02-02 14:06:05,494 | itj_planning | INFO | ==========
+2022-02-02 14:06:05,619 | itj_planning | INFO | 	 traj point #4/219
+2022-02-02 14:06:05,619 | itj_planning | INFO | ==========
+2022-02-02 14:06:05,751 | itj_planning | INFO | 	 traj point #5/219
+2022-02-02 14:06:05,751 | itj_planning | INFO | ==========
+2022-02-02 14:06:05,881 | itj_planning | INFO | 	 traj point #6/219
+2022-02-02 14:06:05,881 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,005 | itj_planning | INFO | 	 traj point #7/219
+2022-02-02 14:06:06,006 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,130 | itj_planning | INFO | 	 traj point #8/219
+2022-02-02 14:06:06,130 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,253 | itj_planning | INFO | 	 traj point #9/219
+2022-02-02 14:06:06,254 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,395 | itj_planning | INFO | 	 traj point #10/219
+2022-02-02 14:06:06,395 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,519 | itj_planning | INFO | 	 traj point #11/219
+2022-02-02 14:06:06,520 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,644 | itj_planning | INFO | 	 traj point #12/219
+2022-02-02 14:06:06,644 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,786 | itj_planning | INFO | 	 traj point #13/219
+2022-02-02 14:06:06,786 | itj_planning | INFO | ==========
+2022-02-02 14:06:06,910 | itj_planning | INFO | 	 traj point #14/219
+2022-02-02 14:06:06,910 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,034 | itj_planning | INFO | 	 traj point #15/219
+2022-02-02 14:06:07,034 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,157 | itj_planning | INFO | 	 traj point #16/219
+2022-02-02 14:06:07,157 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,283 | itj_planning | INFO | 	 traj point #17/219
+2022-02-02 14:06:07,283 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,408 | itj_planning | INFO | 	 traj point #18/219
+2022-02-02 14:06:07,409 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,541 | itj_planning | INFO | 	 traj point #19/219
+2022-02-02 14:06:07,541 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,669 | itj_planning | INFO | 	 traj point #20/219
+2022-02-02 14:06:07,669 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,795 | itj_planning | INFO | 	 traj point #21/219
+2022-02-02 14:06:07,795 | itj_planning | INFO | ==========
+2022-02-02 14:06:07,919 | itj_planning | INFO | 	 traj point #22/219
+2022-02-02 14:06:07,919 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,043 | itj_planning | INFO | 	 traj point #23/219
+2022-02-02 14:06:08,044 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,184 | itj_planning | INFO | 	 traj point #24/219
+2022-02-02 14:06:08,185 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,315 | itj_planning | INFO | 	 traj point #25/219
+2022-02-02 14:06:08,316 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,451 | itj_planning | INFO | 	 traj point #26/219
+2022-02-02 14:06:08,451 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,579 | itj_planning | INFO | 	 traj point #27/219
+2022-02-02 14:06:08,579 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,702 | itj_planning | INFO | 	 traj point #28/219
+2022-02-02 14:06:08,702 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,827 | itj_planning | INFO | 	 traj point #29/219
+2022-02-02 14:06:08,828 | itj_planning | INFO | ==========
+2022-02-02 14:06:08,952 | itj_planning | INFO | 	 traj point #30/219
+2022-02-02 14:06:08,952 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,075 | itj_planning | INFO | 	 traj point #31/219
+2022-02-02 14:06:09,075 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,199 | itj_planning | INFO | 	 traj point #32/219
+2022-02-02 14:06:09,200 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,324 | itj_planning | INFO | 	 traj point #33/219
+2022-02-02 14:06:09,324 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,447 | itj_planning | INFO | 	 traj point #34/219
+2022-02-02 14:06:09,448 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,574 | itj_planning | INFO | 	 traj point #35/219
+2022-02-02 14:06:09,574 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,695 | itj_planning | INFO | 	 traj point #36/219
+2022-02-02 14:06:09,696 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,822 | itj_planning | INFO | 	 traj point #37/219
+2022-02-02 14:06:09,822 | itj_planning | INFO | ==========
+2022-02-02 14:06:09,946 | itj_planning | INFO | 	 traj point #38/219
+2022-02-02 14:06:09,946 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,069 | itj_planning | INFO | 	 traj point #39/219
+2022-02-02 14:06:10,070 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,194 | itj_planning | INFO | 	 traj point #40/219
+2022-02-02 14:06:10,195 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,320 | itj_planning | INFO | 	 traj point #41/219
+2022-02-02 14:06:10,320 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,446 | itj_planning | INFO | 	 traj point #42/219
+2022-02-02 14:06:10,446 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,570 | itj_planning | INFO | 	 traj point #43/219
+2022-02-02 14:06:10,570 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,694 | itj_planning | INFO | 	 traj point #44/219
+2022-02-02 14:06:10,694 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,816 | itj_planning | INFO | 	 traj point #45/219
+2022-02-02 14:06:10,816 | itj_planning | INFO | ==========
+2022-02-02 14:06:10,941 | itj_planning | INFO | 	 traj point #46/219
+2022-02-02 14:06:10,941 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,076 | itj_planning | INFO | 	 traj point #47/219
+2022-02-02 14:06:11,076 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,202 | itj_planning | INFO | 	 traj point #48/219
+2022-02-02 14:06:11,202 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,333 | itj_planning | INFO | 	 traj point #49/219
+2022-02-02 14:06:11,333 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,457 | itj_planning | INFO | 	 traj point #50/219
+2022-02-02 14:06:11,458 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,585 | itj_planning | INFO | 	 traj point #51/219
+2022-02-02 14:06:11,585 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,708 | itj_planning | INFO | 	 traj point #52/219
+2022-02-02 14:06:11,708 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,833 | itj_planning | INFO | 	 traj point #53/219
+2022-02-02 14:06:11,833 | itj_planning | INFO | ==========
+2022-02-02 14:06:11,960 | itj_planning | INFO | 	 traj point #54/219
+2022-02-02 14:06:11,960 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,089 | itj_planning | INFO | 	 traj point #55/219
+2022-02-02 14:06:12,089 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,221 | itj_planning | INFO | 	 traj point #56/219
+2022-02-02 14:06:12,221 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,348 | itj_planning | INFO | 	 traj point #57/219
+2022-02-02 14:06:12,348 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,477 | itj_planning | INFO | 	 traj point #58/219
+2022-02-02 14:06:12,477 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,603 | itj_planning | INFO | 	 traj point #59/219
+2022-02-02 14:06:12,603 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,730 | itj_planning | INFO | 	 traj point #60/219
+2022-02-02 14:06:12,730 | itj_planning | INFO | ==========
+2022-02-02 14:06:12,867 | itj_planning | INFO | 	 traj point #61/219
+2022-02-02 14:06:12,867 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,031 | itj_planning | INFO | 	 traj point #62/219
+2022-02-02 14:06:13,031 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,182 | itj_planning | INFO | 	 traj point #63/219
+2022-02-02 14:06:13,182 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,319 | itj_planning | INFO | 	 traj point #64/219
+2022-02-02 14:06:13,319 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,461 | itj_planning | INFO | 	 traj point #65/219
+2022-02-02 14:06:13,461 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,595 | itj_planning | INFO | 	 traj point #66/219
+2022-02-02 14:06:13,595 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,720 | itj_planning | INFO | 	 traj point #67/219
+2022-02-02 14:06:13,721 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,843 | itj_planning | INFO | 	 traj point #68/219
+2022-02-02 14:06:13,843 | itj_planning | INFO | ==========
+2022-02-02 14:06:13,978 | itj_planning | INFO | 	 traj point #69/219
+2022-02-02 14:06:13,979 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,101 | itj_planning | INFO | 	 traj point #70/219
+2022-02-02 14:06:14,101 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,226 | itj_planning | INFO | 	 traj point #71/219
+2022-02-02 14:06:14,227 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,369 | itj_planning | INFO | 	 traj point #72/219
+2022-02-02 14:06:14,370 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,499 | itj_planning | INFO | 	 traj point #73/219
+2022-02-02 14:06:14,499 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,631 | itj_planning | INFO | 	 traj point #74/219
+2022-02-02 14:06:14,631 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,761 | itj_planning | INFO | 	 traj point #75/219
+2022-02-02 14:06:14,761 | itj_planning | INFO | ==========
+2022-02-02 14:06:14,891 | itj_planning | INFO | 	 traj point #76/219
+2022-02-02 14:06:14,892 | itj_planning | INFO | ==========
+2022-02-02 14:06:15,676 | itj_planning | INFO | 	 traj point #82/219
+2022-02-02 14:06:15,677 | itj_planning | INFO | ==========
+2022-02-02 14:06:15,801 | itj_planning | INFO | 	 traj point #83/219
+2022-02-02 14:06:15,801 | itj_planning | INFO | ==========
+2022-02-02 14:06:15,927 | itj_planning | INFO | 	 traj point #84/219
+2022-02-02 14:06:15,927 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,052 | itj_planning | INFO | 	 traj point #85/219
+2022-02-02 14:06:16,052 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,178 | itj_planning | INFO | 	 traj point #86/219
+2022-02-02 14:06:16,178 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,322 | itj_planning | INFO | 	 traj point #87/219
+2022-02-02 14:06:16,322 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,445 | itj_planning | INFO | 	 traj point #88/219
+2022-02-02 14:06:16,446 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,568 | itj_planning | INFO | 	 traj point #89/219
+2022-02-02 14:06:16,568 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,692 | itj_planning | INFO | 	 traj point #90/219
+2022-02-02 14:06:16,692 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,817 | itj_planning | INFO | 	 traj point #91/219
+2022-02-02 14:06:16,817 | itj_planning | INFO | ==========
+2022-02-02 14:06:16,941 | itj_planning | INFO | 	 traj point #92/219
+2022-02-02 14:06:16,941 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,064 | itj_planning | INFO | 	 traj point #93/219
+2022-02-02 14:06:17,065 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,189 | itj_planning | INFO | 	 traj point #94/219
+2022-02-02 14:06:17,189 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,312 | itj_planning | INFO | 	 traj point #95/219
+2022-02-02 14:06:17,312 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,436 | itj_planning | INFO | 	 traj point #96/219
+2022-02-02 14:06:17,436 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,557 | itj_planning | INFO | 	 traj point #97/219
+2022-02-02 14:06:17,557 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,679 | itj_planning | INFO | 	 traj point #98/219
+2022-02-02 14:06:17,679 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,802 | itj_planning | INFO | 	 traj point #99/219
+2022-02-02 14:06:17,802 | itj_planning | INFO | ==========
+2022-02-02 14:06:17,927 | itj_planning | INFO | 	 traj point #100/219
+2022-02-02 14:06:17,927 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,061 | itj_planning | INFO | 	 traj point #101/219
+2022-02-02 14:06:18,061 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,189 | itj_planning | INFO | 	 traj point #102/219
+2022-02-02 14:06:18,189 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,314 | itj_planning | INFO | 	 traj point #103/219
+2022-02-02 14:06:18,314 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,441 | itj_planning | INFO | 	 traj point #104/219
+2022-02-02 14:06:18,442 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,586 | itj_planning | INFO | 	 traj point #105/219
+2022-02-02 14:06:18,586 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,713 | itj_planning | INFO | 	 traj point #106/219
+2022-02-02 14:06:18,713 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,841 | itj_planning | INFO | 	 traj point #107/219
+2022-02-02 14:06:18,841 | itj_planning | INFO | ==========
+2022-02-02 14:06:18,968 | itj_planning | INFO | 	 traj point #108/219
+2022-02-02 14:06:18,969 | itj_planning | INFO | ==========
+2022-02-02 14:06:19,096 | itj_planning | INFO | 	 traj point #109/219
+2022-02-02 14:06:19,096 | itj_planning | INFO | ==========
+2022-02-02 14:06:19,223 | itj_planning | INFO | 	 traj point #110/219
+2022-02-02 14:06:19,223 | itj_planning | INFO | ==========
+2022-02-02 14:06:19,349 | itj_planning | INFO | 	 traj point #111/219
+2022-02-02 14:06:19,349 | itj_planning | INFO | ==========
+2022-02-02 14:06:19,480 | itj_planning | INFO | 	 traj point #112/219
+2022-02-02 14:06:19,480 | itj_planning | INFO | ==========
+2022-02-02 14:06:19,612 | itj_planning | INFO | 	 traj point #113/219
+2022-02-02 14:06:19,612 | itj_planning | INFO | ==========
+2022-02-02 14:06:21,864 | itj_planning | INFO | 	 traj point #129/219
+2022-02-02 14:06:21,864 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,123 | itj_planning | INFO | 	 traj point #131/219
+2022-02-02 14:06:22,123 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,258 | itj_planning | INFO | 	 traj point #132/219
+2022-02-02 14:06:22,258 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,387 | itj_planning | INFO | 	 traj point #133/219
+2022-02-02 14:06:22,387 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,535 | itj_planning | INFO | 	 traj point #134/219
+2022-02-02 14:06:22,535 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,660 | itj_planning | INFO | 	 traj point #135/219
+2022-02-02 14:06:22,660 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,785 | itj_planning | INFO | 	 traj point #136/219
+2022-02-02 14:06:22,785 | itj_planning | INFO | ==========
+2022-02-02 14:06:22,916 | itj_planning | INFO | 	 traj point #137/219
+2022-02-02 14:06:22,916 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,043 | itj_planning | INFO | 	 traj point #138/219
+2022-02-02 14:06:23,043 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,176 | itj_planning | INFO | 	 traj point #139/219
+2022-02-02 14:06:23,177 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,307 | itj_planning | INFO | 	 traj point #140/219
+2022-02-02 14:06:23,307 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,445 | itj_planning | INFO | 	 traj point #141/219
+2022-02-02 14:06:23,445 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,588 | itj_planning | INFO | 	 traj point #142/219
+2022-02-02 14:06:23,588 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,728 | itj_planning | INFO | 	 traj point #143/219
+2022-02-02 14:06:23,728 | itj_planning | INFO | ==========
+2022-02-02 14:06:23,865 | itj_planning | INFO | 	 traj point #144/219
+2022-02-02 14:06:23,865 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,013 | itj_planning | INFO | 	 traj point #145/219
+2022-02-02 14:06:24,014 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,143 | itj_planning | INFO | 	 traj point #146/219
+2022-02-02 14:06:24,143 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,275 | itj_planning | INFO | 	 traj point #147/219
+2022-02-02 14:06:24,276 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,410 | itj_planning | INFO | 	 traj point #148/219
+2022-02-02 14:06:24,411 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,555 | itj_planning | INFO | 	 traj point #149/219
+2022-02-02 14:06:24,555 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,703 | itj_planning | INFO | 	 traj point #150/219
+2022-02-02 14:06:24,703 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,842 | itj_planning | INFO | 	 traj point #151/219
+2022-02-02 14:06:24,842 | itj_planning | INFO | ==========
+2022-02-02 14:06:24,971 | itj_planning | INFO | 	 traj point #152/219
+2022-02-02 14:06:24,972 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,101 | itj_planning | INFO | 	 traj point #153/219
+2022-02-02 14:06:25,101 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,230 | itj_planning | INFO | 	 traj point #154/219
+2022-02-02 14:06:25,231 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,485 | itj_planning | INFO | 	 traj point #156/219
+2022-02-02 14:06:25,486 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,614 | itj_planning | INFO | 	 traj point #157/219
+2022-02-02 14:06:25,614 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,745 | itj_planning | INFO | 	 traj point #158/219
+2022-02-02 14:06:25,745 | itj_planning | INFO | ==========
+2022-02-02 14:06:25,871 | itj_planning | INFO | 	 traj point #159/219
+2022-02-02 14:06:25,872 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,008 | itj_planning | INFO | 	 traj point #160/219
+2022-02-02 14:06:26,009 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,143 | itj_planning | INFO | 	 traj point #161/219
+2022-02-02 14:06:26,143 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,273 | itj_planning | INFO | 	 traj point #162/219
+2022-02-02 14:06:26,273 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,399 | itj_planning | INFO | 	 traj point #163/219
+2022-02-02 14:06:26,399 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,537 | itj_planning | INFO | 	 traj point #164/219
+2022-02-02 14:06:26,537 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,662 | itj_planning | INFO | 	 traj point #165/219
+2022-02-02 14:06:26,662 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,799 | itj_planning | INFO | 	 traj point #166/219
+2022-02-02 14:06:26,799 | itj_planning | INFO | ==========
+2022-02-02 14:06:26,932 | itj_planning | INFO | 	 traj point #167/219
+2022-02-02 14:06:26,933 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,089 | itj_planning | INFO | 	 traj point #168/219
+2022-02-02 14:06:27,089 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,219 | itj_planning | INFO | 	 traj point #169/219
+2022-02-02 14:06:27,219 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,351 | itj_planning | INFO | 	 traj point #170/219
+2022-02-02 14:06:27,351 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,488 | itj_planning | INFO | 	 traj point #171/219
+2022-02-02 14:06:27,488 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,620 | itj_planning | INFO | 	 traj point #172/219
+2022-02-02 14:06:27,620 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,755 | itj_planning | INFO | 	 traj point #173/219
+2022-02-02 14:06:27,755 | itj_planning | INFO | ==========
+2022-02-02 14:06:27,884 | itj_planning | INFO | 	 traj point #174/219
+2022-02-02 14:06:27,884 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,010 | itj_planning | INFO | 	 traj point #175/219
+2022-02-02 14:06:28,010 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,147 | itj_planning | INFO | 	 traj point #176/219
+2022-02-02 14:06:28,147 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,321 | itj_planning | INFO | 	 traj point #177/219
+2022-02-02 14:06:28,322 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,533 | itj_planning | INFO | 	 traj point #178/219
+2022-02-02 14:06:28,534 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,751 | itj_planning | INFO | 	 traj point #179/219
+2022-02-02 14:06:28,751 | itj_planning | INFO | ==========
+2022-02-02 14:06:28,917 | itj_planning | INFO | 	 traj point #180/219
+2022-02-02 14:06:28,918 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,069 | itj_planning | INFO | 	 traj point #181/219
+2022-02-02 14:06:29,069 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,218 | itj_planning | INFO | 	 traj point #182/219
+2022-02-02 14:06:29,218 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,380 | itj_planning | INFO | 	 traj point #183/219
+2022-02-02 14:06:29,380 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,522 | itj_planning | INFO | 	 traj point #184/219
+2022-02-02 14:06:29,523 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,669 | itj_planning | INFO | 	 traj point #185/219
+2022-02-02 14:06:29,669 | itj_planning | INFO | ==========
+2022-02-02 14:06:29,854 | itj_planning | INFO | 	 traj point #186/219
+2022-02-02 14:06:29,854 | itj_planning | INFO | ==========
+2022-02-02 14:06:30,035 | itj_planning | INFO | 	 traj point #187/219
+2022-02-02 14:06:30,036 | itj_planning | INFO | ==========
+2022-02-02 14:06:30,237 | itj_planning | INFO | 	 traj point #188/219
+2022-02-02 14:06:30,237 | itj_planning | INFO | ==========
+2022-02-02 14:06:30,475 | itj_planning | INFO | 	 traj point #189/219
+2022-02-02 14:06:30,475 | itj_planning | INFO | ==========
+2022-02-02 14:06:30,670 | itj_planning | INFO | 	 traj point #190/219
+2022-02-02 14:06:30,670 | itj_planning | INFO | ==========
+2022-02-02 14:06:30,864 | itj_planning | INFO | 	 traj point #191/219
+2022-02-02 14:06:30,864 | itj_planning | INFO | ==========
+2022-02-02 14:06:31,081 | itj_planning | INFO | 	 traj point #192/219
+2022-02-02 14:06:31,082 | itj_planning | INFO | ==========
+2022-02-02 14:06:31,319 | itj_planning | INFO | 	 traj point #193/219
+2022-02-02 14:06:31,319 | itj_planning | INFO | ==========
+2022-02-02 14:06:31,509 | itj_planning | INFO | 	 traj point #194/219
+2022-02-02 14:06:31,509 | itj_planning | INFO | ==========
+2022-02-02 14:06:31,709 | itj_planning | INFO | 	 traj point #195/219
+2022-02-02 14:06:31,709 | itj_planning | INFO | ==========
+2022-02-02 14:06:31,936 | itj_planning | INFO | 	 traj point #196/219
+2022-02-02 14:06:31,936 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,139 | itj_planning | INFO | 	 traj point #197/219
+2022-02-02 14:06:32,139 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,335 | itj_planning | INFO | 	 traj point #198/219
+2022-02-02 14:06:32,336 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,521 | itj_planning | INFO | 	 traj point #199/219
+2022-02-02 14:06:32,521 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,664 | itj_planning | INFO | 	 traj point #200/219
+2022-02-02 14:06:32,664 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,792 | itj_planning | INFO | 	 traj point #201/219
+2022-02-02 14:06:32,792 | itj_planning | INFO | ==========
+2022-02-02 14:06:32,923 | itj_planning | INFO | 	 traj point #202/219
+2022-02-02 14:06:32,923 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,054 | itj_planning | INFO | 	 traj point #203/219
+2022-02-02 14:06:33,054 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,188 | itj_planning | INFO | 	 traj point #204/219
+2022-02-02 14:06:33,188 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,316 | itj_planning | INFO | 	 traj point #205/219
+2022-02-02 14:06:33,316 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,446 | itj_planning | INFO | 	 traj point #206/219
+2022-02-02 14:06:33,446 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,608 | itj_planning | INFO | 	 traj point #207/219
+2022-02-02 14:06:33,609 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,790 | itj_planning | INFO | 	 traj point #208/219
+2022-02-02 14:06:33,790 | itj_planning | INFO | ==========
+2022-02-02 14:06:33,951 | itj_planning | INFO | 	 traj point #209/219
+2022-02-02 14:06:33,951 | itj_planning | INFO | ==========
+2022-02-02 14:06:34,094 | itj_planning | INFO | 	 traj point #210/219
+2022-02-02 14:06:34,095 | itj_planning | INFO | ==========
+2022-02-02 14:06:34,392 | itj_planning | INFO | 	 traj point #212/219
+2022-02-02 14:06:34,392 | itj_planning | INFO | ==========
+2022-02-02 14:06:34,539 | itj_planning | INFO | 	 traj point #213/219
+2022-02-02 14:06:34,539 | itj_planning | INFO | ==========
+2022-02-02 14:06:34,680 | itj_planning | INFO | 	 traj point #214/219
+2022-02-02 14:06:34,680 | itj_planning | INFO | ==========
+2022-02-02 14:06:34,947 | itj_planning | INFO | 	 traj point #216/219
+2022-02-02 14:06:34,948 | itj_planning | INFO | ==========
+2022-02-02 14:06:35,080 | itj_planning | INFO | 	 traj point #217/219
+2022-02-02 14:06:35,080 | itj_planning | INFO | ==========
+2022-02-02 14:06:35,346 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip True[0m
+2022-02-02 14:06:35,346 | itj_planning | INFO | ####################
+2022-02-02 14:06:35,347 | itj_planning | INFO | End State:
+2022-02-02 14:06:35,517 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:06:35,518 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:35,519 | itj_planning | INFO | ####################
+2022-02-02 14:06:35,522 | itj_planning | INFO | ----------
+2022-02-02 14:06:35,522 | itj_planning | INFO | [1m[47m[34m(MovementIndex=16) (Seq#0-#1) RoboticLinearMovement(#A4_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage., traj 1)[0m
+2022-02-02 14:06:35,537 | itj_planning | INFO | Start State:
+2022-02-02 14:06:35,671 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:06:35,673 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:06:35,673 | itj_planning | INFO | ####################
+2022-02-02 14:11:51,918 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip False[0m
+2022-02-02 14:11:51,918 | itj_planning | INFO | ####################
+2022-02-02 14:11:51,918 | itj_planning | INFO | End State:
+2022-02-02 14:11:52,057 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:11:52,058 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:11:52,058 | itj_planning | INFO | ####################
+2022-02-02 14:11:52,062 | itj_planning | INFO | ----------
+2022-02-02 14:11:52,062 | itj_planning | INFO | [1m[47m[34m(MovementIndex=17) (Seq#0-#2) RoboticDigitalOutput(#A4_M2, PG1000 ('g2') Close Gripper to lock onto storage pad.)[0m
+2022-02-02 14:11:52,064 | itj_planning | INFO | ----------
+2022-02-02 14:11:52,064 | itj_planning | INFO | [1m[47m[34m(MovementIndex=18) (Seq#0-#3) RoboticDigitalOutput(#A4_M3, Toolchanger Unlock PG1000 ('g2'))[0m
+2022-02-02 14:11:52,067 | itj_planning | INFO | ----------
+2022-02-02 14:11:52,067 | itj_planning | INFO | [1m[47m[34m(MovementIndex=19) (Seq#0-#4) RoboticLinearMovement(#A4_M4, Linear Retract from storage after placing PG1000 ('g2') in storage, traj 1)[0m
+2022-02-02 14:11:52,069 | itj_planning | INFO | Start State:
+2022-02-02 14:11:52,205 | itj_planning | INFO | [32mStart State in collision: False.[0m
+2022-02-02 14:11:52,207 | itj_planning | INFO | [32mStart State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:11:52,207 | itj_planning | INFO | ####################
+2022-02-02 14:11:53,545 | itj_planning | INFO | [31mTrajectory in trouble: in_collision True | joint_flip False[0m
+2022-02-02 14:11:53,545 | itj_planning | INFO | ####################
+2022-02-02 14:11:53,545 | itj_planning | INFO | End State:
+2022-02-02 14:11:53,687 | itj_planning | INFO | [32mEnd State in collision: False.[0m
+2022-02-02 14:11:53,688 | itj_planning | INFO | [32mEnd State FK consistency: True | Given robot's FK agrees with the given robot_frame.[0m
+2022-02-02 14:11:53,688 | itj_planning | INFO | ####################
+2022-02-02 14:11:53,688 | itj_planning | INFO | ====================
+2022-02-02 14:11:53,688 | itj_planning | INFO | [33mMovements that requires care and love:[0m
+2022-02-02 14:11:53,688 | itj_planning | INFO | OperatorLoadBeamMovement(#A0_M0, Opeartor Load Beam (b0) to Pickup Location): in_collision: [32mFalse[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,688 | itj_planning | INFO | RoboticFreeMovement(#A1_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 1): in_collision: [32mFalse[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,689 | itj_planning | INFO | RoboticLinearMovement(#A1_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to get tool., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,689 | itj_planning | INFO | RoboticLinearMovement(#A1_M4, Linear Retract after getting PG1000 ('g2') from storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,690 | itj_planning | INFO | RoboticFreeMovement(#A2_M0, Free Move to reach Pickup Approach Frame of Beam ('b0'), traj 1): in_collision: [31mTrue[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,690 | itj_planning | INFO | RoboticLinearMovement(#A2_M2, Linear Advance to Storage Frame of Beam ('b0'), traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,690 | itj_planning | INFO | RoboticFreeMovement(#A3_M0, Free Move to bring Beam ('b0') to final location, traj 1): in_collision: [32mFalse[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,690 | itj_planning | INFO | RoboticFreeMovement(#A4_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,690 | itj_planning | INFO | RoboticLinearMovement(#A4_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,691 | itj_planning | INFO | RoboticLinearMovement(#A4_M4, Linear Retract from storage after placing PG1000 ('g2') in storage, traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-02 14:11:53,691 | itj_planning | INFO | ====================
