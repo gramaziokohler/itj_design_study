@@ -1,0 +1,513 @@
+2022-02-03 22:28:57,842 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='.', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, viewer=False, watch=False, write=True)
+2022-02-03 22:28:59,783 | itj_planning | INFO | Loading external movements from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-03 22:29:04,684 | itj_planning | INFO | [36mSolving for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19', 'b20', 'b21', 'b22', 'b23', 'b24', 'b25', 'b26', 'b27', 'b28', 'b29', 'b30', 'b31', 'b32', 'b33', 'b34', 'b35', 'b36', 'b37', 'b38', 'b39', 'b40', 'b41', 'b42', 'b43', 'b44', 'b45', 'b46', 'b47', 'b48', 'b49', 'b50', 'b51', 'b52', 'b53', 'b54', 'b55', 'b56'][0m
+2022-02-03 22:29:04,685 | itj_planning | INFO | Beam b0 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:29:04,710 | itj_planning | INFO | Beam b1 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:29:27,865 | itj_planning | INFO | Beam b1 | nonlinear | Trail #1 | time 23.15
+2022-02-03 22:29:35,083 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A6_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:32:08,172 | itj_planning | INFO | Beam b2 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:32:31,759 | itj_planning | INFO | Beam b2 | nonlinear | Trail #1 | time 23.59
+2022-02-03 22:32:39,318 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A11_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:35:55,588 | itj_planning | INFO | Beam b3 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:35:55,603 | itj_planning | INFO | Beam b4 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:35:55,619 | itj_planning | INFO | Beam b5 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:36:17,762 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A35_M1, Free Move to reorient Beam ('b5'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:42:02,732 | itj_planning | INFO | Beam b6 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:42:26,486 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A47_M1, Free Move to reorient Beam ('b6'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:42:52,527 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A49_M0, Free Move to bring Beam ('b6') to assemble_approach position on structure., traj 0).
+2022-02-03 22:42:52,542 | itj_planning | INFO | No plan found for A49_M0 after 1 attempts. RoboticFreeMovement(#A49_M0, Free Move to bring Beam ('b6') to assemble_approach position on structure., traj 0)
+2022-02-03 22:42:52,543 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=6) beam b6!
+2022-02-03 22:42:57,664 | itj_planning | INFO | Beam b6 | nonlinear | Trail #1 | time 54.93
+2022-02-03 22:43:11,305 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A43_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:43:23,062 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A47_M1, Free Move to reorient Beam ('b6'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:49:01,011 | itj_planning | INFO | Beam b7 | nonlinear | Trail #0 | time 0.00
+2022-02-03 22:49:28,793 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A59_M1, Free Move to reorient Beam ('b7'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:51:23,022 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A59_M1, Free Move to reorient Beam ('b7'), traj 0).
+2022-02-03 22:51:23,022 | itj_planning | INFO | No plan found for A59_M1 after 1 attempts. RoboticFreeMovement(#A59_M1, Free Move to reorient Beam ('b7'), traj 0)
+2022-02-03 22:51:23,022 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=7) beam b7!
+2022-02-03 22:51:27,704 | itj_planning | INFO | Beam b7 | nonlinear | Trail #1 | time 146.69
+2022-02-03 22:51:49,838 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A55_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:52:05,991 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A59_M1, Free Move to reorient Beam ('b7'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:54:16,164 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A63_M0, Free Move to bring Beam ('b7') to assemble_approach position on structure., traj 0).
+2022-02-03 22:54:16,166 | itj_planning | INFO | No plan found for A63_M0 after 1 attempts. RoboticFreeMovement(#A63_M0, Free Move to bring Beam ('b7') to assemble_approach position on structure., traj 0)
+2022-02-03 22:54:16,166 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=7) beam b7!
+2022-02-03 22:54:20,799 | itj_planning | INFO | Beam b7 | nonlinear | Trail #2 | time 319.79
+2022-02-03 22:54:44,099 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A55_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 22:54:56,791 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A59_M1, Free Move to reorient Beam ('b7'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:04:46,314 | itj_planning | INFO | Beam b8 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:05:12,555 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A79_M1, Free Move to reorient Beam ('b8'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:05:31,222 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A82_M0, Free Move to bring Beam ('b8') to assemble_approach position on structure., traj 0).
+2022-02-03 23:05:31,222 | itj_planning | INFO | No plan found for A82_M0 after 1 attempts. RoboticFreeMovement(#A82_M0, Free Move to bring Beam ('b8') to assemble_approach position on structure., traj 0)
+2022-02-03 23:05:31,222 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=8) beam b8!
+2022-02-03 23:05:36,123 | itj_planning | INFO | Beam b8 | nonlinear | Trail #1 | time 49.81
+2022-02-03 23:05:53,044 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A75_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:06:04,916 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A79_M1, Free Move to reorient Beam ('b8'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:13:29,853 | itj_planning | INFO | Beam b9 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:14:01,739 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A95_M1, Free Move to reorient Beam ('b9'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:20:43,836 | itj_planning | INFO | Beam b10 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:21:14,923 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A107_M1, Free Move to reorient Beam ('b10'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:26:27,498 | itj_planning | INFO | Beam b11 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:26:52,126 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A123_M1, Free Move to reorient Beam ('b11'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:31:00,994 | itj_planning | INFO | Beam b12 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:31:27,316 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A135_M1, Free Move to reorient Beam ('b12'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:35:13,551 | itj_planning | INFO | Beam b13 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:35:35,726 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A151_M1, Free Move to reorient Beam ('b13'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:40:43,731 | itj_planning | INFO | Beam b14 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:41:12,487 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A163_M1, Free Move to reorient Beam ('b14'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:49:31,674 | itj_planning | INFO | Beam b15 | nonlinear | Trail #0 | time 0.00
+2022-02-03 23:49:43,929 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A193_M2, Linear retract after picking up Screwdriver ('s1'), traj 0).
+2022-02-03 23:49:43,944 | itj_planning | INFO | No plan found for A193_M2 after 1 attempts. RoboticLinearMovement(#A193_M2, Linear retract after picking up Screwdriver ('s1'), traj 0)
+2022-02-03 23:49:43,944 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=15) beam b15!
+2022-02-03 23:49:48,750 | itj_planning | INFO | Beam b15 | nonlinear | Trail #1 | time 17.08
+2022-02-03 23:50:05,703 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:50:13,708 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:52:09,482 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0).
+2022-02-03 23:52:09,482 | itj_planning | INFO | No plan found for A183_M1 after 1 attempts. RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0)
+2022-02-03 23:52:09,482 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-03 23:52:14,214 | itj_planning | INFO | Beam b15 | nonlinear | Trail #2 | time 162.54
+2022-02-03 23:52:32,685 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:52:46,326 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:54:40,259 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0).
+2022-02-03 23:54:40,259 | itj_planning | INFO | No plan found for A183_M1 after 1 attempts. RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0)
+2022-02-03 23:54:40,259 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-03 23:54:45,044 | itj_planning | INFO | Beam b15 | nonlinear | Trail #3 | time 313.37
+2022-02-03 23:55:02,656 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:55:12,712 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:57:45,900 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0).
+2022-02-03 23:57:45,915 | itj_planning | INFO | No plan found for A186_M0 after 1 attempts. RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2022-02-03 23:57:45,915 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-03 23:57:50,591 | itj_planning | INFO | Beam b15 | nonlinear | Trail #4 | time 498.92
+2022-02-03 23:58:09,458 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-03 23:58:19,561 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:00:54,374 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0).
+2022-02-04 00:00:54,389 | itj_planning | INFO | No plan found for A186_M0 after 1 attempts. RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2022-02-04 00:00:54,389 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-04 00:00:59,098 | itj_planning | INFO | Beam b15 | nonlinear | Trail #5 | time 687.42
+2022-02-04 00:01:09,101 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0).
+2022-02-04 00:01:09,101 | itj_planning | INFO | No plan found for A187_M1 after 1 attempts. RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0)
+2022-02-04 00:01:09,101 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=15) beam b15!
+2022-02-04 00:01:13,812 | itj_planning | INFO | Beam b15 | nonlinear | Trail #6 | time 702.14
+2022-02-04 00:01:31,753 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:01:49,215 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:05:06,278 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0).
+2022-02-04 00:05:06,294 | itj_planning | INFO | No plan found for A186_M0 after 1 attempts. RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2022-02-04 00:05:06,294 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-04 00:05:11,019 | itj_planning | INFO | Beam b15 | nonlinear | Trail #7 | time 939.34
+2022-02-04 00:05:29,675 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:05:42,564 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:07:24,218 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0).
+2022-02-04 00:07:24,234 | itj_planning | INFO | No plan found for A183_M1 after 1 attempts. RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0)
+2022-02-04 00:07:24,234 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-04 00:07:28,901 | itj_planning | INFO | Beam b15 | nonlinear | Trail #8 | time 1077.23
+2022-02-04 00:07:49,153 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:08:12,443 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:10:56,298 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0).
+2022-02-04 00:10:56,314 | itj_planning | INFO | No plan found for A186_M0 after 1 attempts. RoboticFreeMovement(#A186_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., traj 0)
+2022-02-04 00:10:56,314 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=15) beam b15!
+2022-02-04 00:11:01,093 | itj_planning | INFO | Beam b15 | nonlinear | Trail #9 | time 1289.42
+2022-02-04 00:11:09,951 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0).
+2022-02-04 00:11:09,951 | itj_planning | INFO | No plan found for A187_M1 after 1 attempts. RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0)
+2022-02-04 00:11:09,951 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=15) beam b15!
+2022-02-04 00:11:14,759 | itj_planning | INFO | Beam b15 | nonlinear | Trail #10 | time 1303.08
+2022-02-04 00:11:22,809 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0).
+2022-02-04 00:11:22,825 | itj_planning | INFO | No plan found for A187_M1 after 1 attempts. RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0)
+2022-02-04 00:11:22,825 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=15) beam b15!
+2022-02-04 00:11:27,561 | itj_planning | INFO | Beam b15 | nonlinear | Trail #11 | time 1315.89
+2022-02-04 00:11:36,742 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0).
+2022-02-04 00:11:36,742 | itj_planning | INFO | No plan found for A187_M1 after 1 attempts. RoboticLinearMovement(#A187_M1, Linear retract of Gripper from Beam ('b15'), traj 0)
+2022-02-04 00:11:36,742 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=15) beam b15!
+2022-02-04 00:11:41,422 | itj_planning | INFO | Beam b15 | nonlinear | Trail #12 | time 1329.75
+2022-02-04 00:11:58,783 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A179_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:12:15,240 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A183_M1, Free Move to reorient Beam ('b15'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:17:39,631 | itj_planning | INFO | Beam b16 | nonlinear | Trail #0 | time 0.00
+2022-02-04 00:17:57,470 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A195_M0, Free Move reach Storage Approach Frame of PG500 ('g1'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:18:07,243 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A199_M1, Free Move to reorient Beam ('b16'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:24:23,640 | itj_planning | INFO | Beam b17 | nonlinear | Trail #0 | time 0.00
+2022-02-04 00:24:51,860 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A215_M1, Free Move to reorient Beam ('b17'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:31:28,154 | itj_planning | INFO | Beam b18 | nonlinear | Trail #0 | time 0.00
+2022-02-04 00:31:55,612 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A231_M1, Free Move to reorient Beam ('b18'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:35:11,143 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A242_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0).
+2022-02-04 00:35:11,143 | itj_planning | INFO | No plan found for A242_M0 after 1 attempts. RoboticFreeMovement(#A242_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-02-04 00:35:11,143 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=18) beam b18!
+2022-02-04 00:35:16,081 | itj_planning | INFO | Beam b18 | nonlinear | Trail #1 | time 227.93
+2022-02-04 00:35:42,579 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A227_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:35:51,890 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A231_M1, Free Move to reorient Beam ('b18'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:43:01,029 | itj_planning | INFO | Beam b19 | nonlinear | Trail #0 | time 0.00
+2022-02-04 00:43:34,080 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A247_M1, Free Move to reorient Beam ('b19'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:47:04,331 | itj_planning | ERROR | compute_free_motion: start conf disagreement | (ST No retraction motion specified. ; END No retraction motion specified.).
+2022-02-04 00:47:04,331 | itj_planning | INFO | No plan found for A255_M0 after 1 attempts. RoboticFreeMovement(#A255_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., traj 0)
+2022-02-04 00:47:04,347 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=19) beam b19!
+2022-02-04 00:47:09,160 | itj_planning | INFO | Beam b19 | nonlinear | Trail #1 | time 248.13
+2022-02-04 00:47:29,985 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A243_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:47:41,982 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A247_M1, Free Move to reorient Beam ('b19'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:50:34,664 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A250_M0, Free Move to bring Beam ('b19') to assemble_approach position on structure., traj 0).
+2022-02-04 00:50:34,664 | itj_planning | INFO | No plan found for A250_M0 after 1 attempts. RoboticFreeMovement(#A250_M0, Free Move to bring Beam ('b19') to assemble_approach position on structure., traj 0)
+2022-02-04 00:50:34,664 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=19) beam b19!
+2022-02-04 00:50:39,139 | itj_planning | INFO | Beam b19 | nonlinear | Trail #2 | time 458.11
+2022-02-04 00:50:58,316 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A243_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:51:08,317 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A247_M1, Free Move to reorient Beam ('b19'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:56:36,730 | itj_planning | INFO | Beam b20 | nonlinear | Trail #0 | time 0.00
+2022-02-04 00:57:05,219 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:59:04,168 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0).
+2022-02-04 00:59:04,168 | itj_planning | INFO | No plan found for A263_M1 after 1 attempts. RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0)
+2022-02-04 00:59:04,168 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b20!
+2022-02-04 00:59:09,159 | itj_planning | INFO | Beam b20 | nonlinear | Trail #1 | time 152.43
+2022-02-04 00:59:19,980 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A270_M2, Linear retract after picking up Screwdriver ('s2'), traj 0).
+2022-02-04 00:59:19,980 | itj_planning | INFO | No plan found for A270_M2 after 1 attempts. RoboticLinearMovement(#A270_M2, Linear retract after picking up Screwdriver ('s2'), traj 0)
+2022-02-04 00:59:19,980 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=20) beam b20!
+2022-02-04 00:59:24,761 | itj_planning | INFO | Beam b20 | nonlinear | Trail #2 | time 168.03
+2022-02-04 00:59:43,883 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A259_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 00:59:56,356 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:01:51,411 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0).
+2022-02-04 01:01:51,427 | itj_planning | INFO | No plan found for A263_M1 after 1 attempts. RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0)
+2022-02-04 01:01:51,427 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=20) beam b20!
+2022-02-04 01:01:56,152 | itj_planning | INFO | Beam b20 | nonlinear | Trail #3 | time 319.42
+2022-02-04 01:02:16,016 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A259_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:02:30,185 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A263_M1, Free Move to reorient Beam ('b20'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:08:28,658 | itj_planning | INFO | Beam b21 | nonlinear | Trail #0 | time 0.00
+2022-02-04 01:08:59,339 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A279_M1, Free Move to reorient Beam ('b21'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:09:21,979 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A282_M0, Free Move to bring Beam ('b21') to assemble_approach position on structure., traj 0).
+2022-02-04 01:09:21,979 | itj_planning | INFO | No plan found for A282_M0 after 1 attempts. RoboticFreeMovement(#A282_M0, Free Move to bring Beam ('b21') to assemble_approach position on structure., traj 0)
+2022-02-04 01:09:21,979 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b21!
+2022-02-04 01:09:26,999 | itj_planning | INFO | Beam b21 | nonlinear | Trail #1 | time 58.34
+2022-02-04 01:09:51,330 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A275_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:10:00,752 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A279_M1, Free Move to reorient Beam ('b21'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:15:53,787 | itj_planning | INFO | Beam b22 | nonlinear | Trail #0 | time 0.00
+2022-02-04 01:16:25,089 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A295_M1, Free Move to reorient Beam ('b22'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:22:24,648 | itj_planning | INFO | Beam b23 | nonlinear | Trail #0 | time 0.00
+2022-02-04 01:22:54,608 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A311_M1, Free Move to reorient Beam ('b23'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:28:48,872 | itj_planning | INFO | Beam b24 | nonlinear | Trail #0 | time 0.00
+2022-02-04 01:29:15,939 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A327_M1, Free Move to reorient Beam ('b24'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:31:27,461 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A330_M0, Free Move to bring Beam ('b24') to assemble_approach position on structure., traj 0).
+2022-02-04 01:31:27,461 | itj_planning | INFO | No plan found for A330_M0 after 1 attempts. RoboticFreeMovement(#A330_M0, Free Move to bring Beam ('b24') to assemble_approach position on structure., traj 0)
+2022-02-04 01:31:27,461 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=24) beam b24!
+2022-02-04 01:31:32,133 | itj_planning | INFO | Beam b24 | nonlinear | Trail #1 | time 163.26
+2022-02-04 01:31:50,224 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A323_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:31:57,194 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A327_M1, Free Move to reorient Beam ('b24'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:39:30,984 | itj_planning | INFO | Beam b25 | nonlinear | Trail #0 | time 0.00
+2022-02-04 01:39:55,746 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:41:49,376 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 01:41:49,376 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 01:41:49,376 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:41:54,450 | itj_planning | INFO | Beam b25 | nonlinear | Trail #1 | time 143.47
+2022-02-04 01:42:13,174 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:42:21,726 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:45:09,271 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 01:45:09,286 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 01:45:09,286 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:45:13,853 | itj_planning | INFO | Beam b25 | nonlinear | Trail #2 | time 342.87
+2022-02-04 01:45:32,732 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:45:38,350 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:47:29,035 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0).
+2022-02-04 01:47:29,035 | itj_planning | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-02-04 01:47:29,035 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:47:34,077 | itj_planning | INFO | Beam b25 | nonlinear | Trail #3 | time 483.09
+2022-02-04 01:47:54,925 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:48:06,164 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:50:46,645 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 01:50:46,645 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 01:50:46,645 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:50:51,396 | itj_planning | INFO | Beam b25 | nonlinear | Trail #4 | time 680.41
+2022-02-04 01:51:09,391 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:51:19,094 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:52:58,009 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0).
+2022-02-04 01:52:58,012 | itj_planning | INFO | No plan found for A343_M1 after 1 attempts. RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0)
+2022-02-04 01:52:58,012 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:53:03,095 | itj_planning | INFO | Beam b25 | nonlinear | Trail #5 | time 812.11
+2022-02-04 01:53:21,488 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:53:40,057 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:56:06,916 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 01:56:06,932 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 01:56:06,932 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:56:11,838 | itj_planning | INFO | Beam b25 | nonlinear | Trail #6 | time 1000.85
+2022-02-04 01:56:33,292 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:56:40,852 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:59:13,112 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 01:59:13,112 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 01:59:13,112 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 01:59:17,946 | itj_planning | INFO | Beam b25 | nonlinear | Trail #7 | time 1186.96
+2022-02-04 01:59:37,567 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 01:59:50,717 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:01:48,723 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0).
+2022-02-04 02:01:48,726 | itj_planning | INFO | No plan found for A346_M0 after 1 attempts. RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., traj 0)
+2022-02-04 02:01:48,727 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-02-04 02:01:53,594 | itj_planning | INFO | Beam b25 | nonlinear | Trail #8 | time 1342.61
+2022-02-04 02:02:12,670 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A339_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:02:20,274 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A343_M1, Free Move to reorient Beam ('b25'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:10:03,966 | itj_planning | INFO | Beam b26 | nonlinear | Trail #0 | time 0.00
+2022-02-04 02:10:30,077 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:12:22,061 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:12:22,061 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:12:22,061 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:12:27,016 | itj_planning | INFO | Beam b26 | nonlinear | Trail #1 | time 143.05
+2022-02-04 02:12:45,749 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:12:54,615 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:14:38,421 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:14:38,421 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:14:38,421 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:14:43,281 | itj_planning | INFO | Beam b26 | nonlinear | Trail #2 | time 279.31
+2022-02-04 02:15:03,145 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:15:13,175 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:17:19,901 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:17:19,903 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:17:19,904 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:17:24,959 | itj_planning | INFO | Beam b26 | nonlinear | Trail #3 | time 440.99
+2022-02-04 02:17:32,709 | itj_planning | ERROR | No linear movement found for RoboticLinearMovement(#A362_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., traj 0).
+2022-02-04 02:17:32,709 | itj_planning | INFO | No plan found for A362_M1 after 1 attempts. RoboticLinearMovement(#A362_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., traj 0)
+2022-02-04 02:17:32,709 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=26) beam b26!
+2022-02-04 02:17:37,623 | itj_planning | INFO | Beam b26 | nonlinear | Trail #4 | time 453.66
+2022-02-04 02:17:56,858 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:18:13,781 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:19:57,587 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:19:57,603 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:19:57,603 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:20:02,559 | itj_planning | INFO | Beam b26 | nonlinear | Trail #5 | time 598.59
+2022-02-04 02:20:24,926 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:20:32,484 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:22:26,843 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:22:26,843 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:22:26,843 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:22:31,968 | itj_planning | INFO | Beam b26 | nonlinear | Trail #6 | time 748.00
+2022-02-04 02:22:52,057 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:23:04,195 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:25:18,576 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:25:18,576 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:25:18,576 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:25:23,518 | itj_planning | INFO | Beam b26 | nonlinear | Trail #7 | time 919.55
+2022-02-04 02:25:42,992 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:25:58,709 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:28:45,360 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:28:45,360 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:28:45,360 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:28:50,267 | itj_planning | INFO | Beam b26 | nonlinear | Trail #8 | time 1126.30
+2022-02-04 02:29:09,664 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:29:18,213 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:31:17,864 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:31:17,864 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:31:17,864 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:31:22,802 | itj_planning | INFO | Beam b26 | nonlinear | Trail #9 | time 1278.84
+2022-02-04 02:31:42,854 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:31:51,657 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:34:03,634 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:34:03,649 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:34:03,649 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:34:08,483 | itj_planning | INFO | Beam b26 | nonlinear | Trail #10 | time 1444.52
+2022-02-04 02:34:27,454 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:34:38,627 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:37:29,274 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:37:29,274 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:37:29,274 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:37:34,250 | itj_planning | INFO | Beam b26 | nonlinear | Trail #11 | time 1650.28
+2022-02-04 02:37:53,750 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:38:03,336 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:39:40,313 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:39:40,313 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:39:40,313 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:39:45,181 | itj_planning | INFO | Beam b26 | nonlinear | Trail #12 | time 1781.22
+2022-02-04 02:40:03,626 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:40:24,719 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:42:48,484 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:42:48,484 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:42:48,484 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:42:53,468 | itj_planning | INFO | Beam b26 | nonlinear | Trail #13 | time 1969.50
+2022-02-04 02:43:12,453 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:43:27,327 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:45:19,017 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:45:19,032 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:45:19,032 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:45:23,906 | itj_planning | INFO | Beam b26 | nonlinear | Trail #14 | time 2119.94
+2022-02-04 02:45:42,420 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:45:51,048 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:48:56,230 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:48:56,230 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:48:56,230 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:49:01,014 | itj_planning | INFO | Beam b26 | nonlinear | Trail #15 | time 2337.05
+2022-02-04 02:49:19,568 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:49:28,856 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:51:24,337 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:51:24,337 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:51:24,337 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:51:29,374 | itj_planning | INFO | Beam b26 | nonlinear | Trail #16 | time 2485.41
+2022-02-04 02:51:47,858 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:51:57,879 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:54:16,078 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 02:54:16,078 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 02:54:16,078 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:54:21,109 | itj_planning | INFO | Beam b26 | nonlinear | Trail #17 | time 2657.14
+2022-02-04 02:54:40,266 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:54:53,055 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:56:46,613 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:56:46,613 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:56:46,613 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:56:51,449 | itj_planning | INFO | Beam b26 | nonlinear | Trail #18 | time 2807.48
+2022-02-04 02:57:10,802 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:57:17,951 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:59:14,603 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0).
+2022-02-04 02:59:14,603 | itj_planning | INFO | No plan found for A359_M1 after 1 attempts. RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0)
+2022-02-04 02:59:14,603 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 02:59:19,595 | itj_planning | INFO | Beam b26 | nonlinear | Trail #19 | time 2955.63
+2022-02-04 02:59:39,881 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 02:59:48,340 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:01:36,801 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0).
+2022-02-04 03:01:36,801 | itj_planning | INFO | No plan found for A362_M0 after 1 attempts. RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., traj 0)
+2022-02-04 03:01:36,801 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-02-04 03:01:41,754 | itj_planning | INFO | Beam b26 | nonlinear | Trail #20 | time 3097.79
+2022-02-04 03:02:02,435 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A355_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:02:10,347 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A359_M1, Free Move to reorient Beam ('b26'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:07:56,050 | itj_planning | INFO | Beam b27 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:08:30,267 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A375_M1, Free Move to reorient Beam ('b27'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:13:10,367 | itj_planning | INFO | Beam b28 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:13:30,674 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A391_M1, Free Move to reorient Beam ('b28'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:17:36,353 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A398_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0).
+2022-02-04 03:17:36,353 | itj_planning | INFO | No plan found for A398_M0 after 1 attempts. RoboticFreeMovement(#A398_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-02-04 03:17:36,353 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b28!
+2022-02-04 03:17:41,178 | itj_planning | INFO | Beam b28 | nonlinear | Trail #1 | time 270.81
+2022-02-04 03:17:57,616 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A387_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:18:09,527 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A391_M1, Free Move to reorient Beam ('b28'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:21:23,583 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A393_M0, Free Move to bring Beam ('b28') to assemble_approach position on structure., traj 0).
+2022-02-04 03:21:23,598 | itj_planning | INFO | No plan found for A393_M0 after 1 attempts. RoboticFreeMovement(#A393_M0, Free Move to bring Beam ('b28') to assemble_approach position on structure., traj 0)
+2022-02-04 03:21:23,598 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b28!
+2022-02-04 03:21:28,100 | itj_planning | INFO | Beam b28 | nonlinear | Trail #2 | time 497.73
+2022-02-04 03:21:43,751 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A387_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:21:56,717 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A391_M1, Free Move to reorient Beam ('b28'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:27:49,530 | itj_planning | INFO | Beam b29 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:28:18,754 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A403_M1, Free Move to reorient Beam ('b29'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:34:45,199 | itj_planning | INFO | Beam b30 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:35:11,994 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A419_M1, Free Move to reorient Beam ('b30'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:40:04,173 | itj_planning | INFO | Beam b31 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:40:36,770 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A431_M1, Free Move to reorient Beam ('b31'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:44:34,208 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A443_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., traj 0).
+2022-02-04 03:44:34,208 | itj_planning | INFO | No plan found for A443_M0 after 1 attempts. RoboticFreeMovement(#A443_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., traj 0)
+2022-02-04 03:44:34,208 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=31) beam b31!
+2022-02-04 03:44:38,927 | itj_planning | INFO | Beam b31 | nonlinear | Trail #1 | time 274.75
+2022-02-04 03:45:05,013 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A427_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:45:13,988 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A431_M1, Free Move to reorient Beam ('b31'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:52:30,063 | itj_planning | INFO | Beam b32 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:52:56,286 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A451_M1, Free Move to reorient Beam ('b32'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 03:57:20,332 | itj_planning | INFO | Beam b33 | nonlinear | Trail #0 | time 0.00
+2022-02-04 03:57:51,354 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A463_M1, Free Move to reorient Beam ('b33'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:02:53,763 | itj_planning | INFO | Beam b34 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:03:15,606 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A479_M1, Free Move to reorient Beam ('b34'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:08:13,595 | itj_planning | INFO | Beam b35 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:08:40,042 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A491_M1, Free Move to reorient Beam ('b35'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:11:56,342 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A494_M0, Free Move to bring Beam ('b35') to assemble_approach position on structure., traj 0).
+2022-02-04 04:11:56,358 | itj_planning | INFO | No plan found for A494_M0 after 1 attempts. RoboticFreeMovement(#A494_M0, Free Move to bring Beam ('b35') to assemble_approach position on structure., traj 0)
+2022-02-04 04:11:56,358 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=35) beam b35!
+2022-02-04 04:12:01,530 | itj_planning | INFO | Beam b35 | nonlinear | Trail #1 | time 227.94
+2022-02-04 04:12:23,404 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A487_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:12:35,863 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A491_M1, Free Move to reorient Beam ('b35'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:20:49,436 | itj_planning | INFO | Beam b36 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:21:20,070 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A507_M1, Free Move to reorient Beam ('b36'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:21:28,658 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A509_M0, Free Move to bring Beam ('b36') to assemble_approach position on structure., traj 0).
+2022-02-04 04:21:28,658 | itj_planning | INFO | No plan found for A509_M0 after 1 attempts. RoboticFreeMovement(#A509_M0, Free Move to bring Beam ('b36') to assemble_approach position on structure., traj 0)
+2022-02-04 04:21:28,658 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=36) beam b36!
+2022-02-04 04:21:33,678 | itj_planning | INFO | Beam b36 | nonlinear | Trail #1 | time 44.24
+2022-02-04 04:21:49,577 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A503_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:22:01,095 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A507_M1, Free Move to reorient Beam ('b36'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:24:56,797 | itj_planning | INFO | Beam b37 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:25:28,077 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A519_M1, Free Move to reorient Beam ('b37'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:37:07,124 | itj_planning | INFO | Beam b38 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:37:31,772 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A539_M1, Free Move to reorient Beam ('b38'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:42:03,646 | itj_planning | INFO | Beam b39 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:42:31,091 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A551_M1, Free Move to reorient Beam ('b39'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:46:18,609 | itj_planning | INFO | Beam b40 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:46:44,903 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A567_M1, Free Move to reorient Beam ('b40'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:47:40,848 | itj_planning | ERROR | compute_free_motion: start conf disagreement | (ST No retraction motion specified. ; END No retraction motion specified.).
+2022-02-04 04:47:40,848 | itj_planning | INFO | No plan found for A574_M0 after 1 attempts. RoboticFreeMovement(#A574_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., traj 0)
+2022-02-04 04:47:40,863 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=40) beam b40!
+2022-02-04 04:47:45,307 | itj_planning | INFO | Beam b40 | nonlinear | Trail #1 | time 86.70
+2022-02-04 04:48:02,329 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A563_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:48:12,227 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A567_M1, Free Move to reorient Beam ('b40'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:52:23,192 | itj_planning | INFO | Beam b41 | nonlinear | Trail #0 | time 0.00
+2022-02-04 04:52:56,625 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A579_M1, Free Move to reorient Beam ('b41'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:56:18,425 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A584_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 0).
+2022-02-04 04:56:18,428 | itj_planning | INFO | No plan found for A584_M0 after 1 attempts. RoboticFreeMovement(#A584_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 0)
+2022-02-04 04:56:18,429 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=41) beam b41!
+2022-02-04 04:56:23,530 | itj_planning | INFO | Beam b41 | nonlinear | Trail #1 | time 240.34
+2022-02-04 04:56:46,745 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A575_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:56:57,749 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A579_M1, Free Move to reorient Beam ('b41'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:58:55,737 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A582_M0, Free Move to bring Beam ('b41') to assemble_approach position on structure., traj 0).
+2022-02-04 04:58:55,737 | itj_planning | INFO | No plan found for A582_M0 after 1 attempts. RoboticFreeMovement(#A582_M0, Free Move to bring Beam ('b41') to assemble_approach position on structure., traj 0)
+2022-02-04 04:58:55,737 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=41) beam b41!
+2022-02-04 04:59:00,494 | itj_planning | INFO | Beam b41 | nonlinear | Trail #2 | time 397.30
+2022-02-04 04:59:21,270 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A575_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 04:59:35,695 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A579_M1, Free Move to reorient Beam ('b41'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:06:02,302 | itj_planning | INFO | Beam b42 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:06:28,252 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A595_M1, Free Move to reorient Beam ('b42'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:11:04,943 | itj_planning | INFO | Beam b43 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:11:37,533 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A607_M1, Free Move to reorient Beam ('b43'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:13:33,901 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0).
+2022-02-04 05:13:33,901 | itj_planning | INFO | No plan found for A611_M0 after 1 attempts. RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0)
+2022-02-04 05:13:33,901 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=43) beam b43!
+2022-02-04 05:13:38,930 | itj_planning | INFO | Beam b43 | nonlinear | Trail #1 | time 153.99
+2022-02-04 05:14:08,148 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A603_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:14:15,236 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A607_M1, Free Move to reorient Beam ('b43'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:16:27,397 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0).
+2022-02-04 05:16:27,397 | itj_planning | INFO | No plan found for A611_M0 after 1 attempts. RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., traj 0)
+2022-02-04 05:16:27,413 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=43) beam b43!
+2022-02-04 05:16:31,969 | itj_planning | INFO | Beam b43 | nonlinear | Trail #2 | time 327.03
+2022-02-04 05:16:58,948 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A603_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:17:07,659 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A607_M1, Free Move to reorient Beam ('b43'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:25:26,658 | itj_planning | INFO | Beam b44 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:25:48,763 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A627_M1, Free Move to reorient Beam ('b44'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:31:20,470 | itj_planning | INFO | Beam b45 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:31:52,071 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A639_M1, Free Move to reorient Beam ('b45'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:34:00,133 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A642_M0, Free Move to bring Beam ('b45') to assemble_approach position on structure., traj 0).
+2022-02-04 05:34:00,133 | itj_planning | INFO | No plan found for A642_M0 after 1 attempts. RoboticFreeMovement(#A642_M0, Free Move to bring Beam ('b45') to assemble_approach position on structure., traj 0)
+2022-02-04 05:34:00,133 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=45) beam b45!
+2022-02-04 05:34:05,220 | itj_planning | INFO | Beam b45 | nonlinear | Trail #1 | time 164.75
+2022-02-04 05:34:33,656 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A635_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:34:41,555 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A639_M1, Free Move to reorient Beam ('b45'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:36:49,658 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A642_M0, Free Move to bring Beam ('b45') to assemble_approach position on structure., traj 0).
+2022-02-04 05:36:49,658 | itj_planning | INFO | No plan found for A642_M0 after 1 attempts. RoboticFreeMovement(#A642_M0, Free Move to bring Beam ('b45') to assemble_approach position on structure., traj 0)
+2022-02-04 05:36:49,658 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=45) beam b45!
+2022-02-04 05:36:54,231 | itj_planning | INFO | Beam b45 | nonlinear | Trail #2 | time 333.76
+2022-02-04 05:37:18,081 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A635_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:37:35,487 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A639_M1, Free Move to reorient Beam ('b45'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:43:13,125 | itj_planning | INFO | Beam b46 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:43:33,319 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A655_M1, Free Move to reorient Beam ('b46'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:49:32,401 | itj_planning | INFO | Beam b47 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:50:02,593 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A667_M1, Free Move to reorient Beam ('b47'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 05:56:55,156 | itj_planning | INFO | Beam b48 | nonlinear | Trail #0 | time 0.00
+2022-02-04 05:57:17,237 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A683_M1, Free Move to reorient Beam ('b48'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:00:17,631 | itj_planning | INFO | Beam b49 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:00:56,609 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A695_M1, Free Move to reorient Beam ('b49'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:06:41,626 | itj_planning | INFO | Beam b50 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:07:07,579 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A715_M1, Free Move to reorient Beam ('b50'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:09:22,123 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A717_M0, Free Move to bring Beam ('b50') to assemble_approach position on structure., traj 0).
+2022-02-04 06:09:22,123 | itj_planning | INFO | No plan found for A717_M0 after 1 attempts. RoboticFreeMovement(#A717_M0, Free Move to bring Beam ('b50') to assemble_approach position on structure., traj 0)
+2022-02-04 06:09:22,123 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=50) beam b50!
+2022-02-04 06:09:26,607 | itj_planning | INFO | Beam b50 | nonlinear | Trail #1 | time 164.98
+2022-02-04 06:09:42,592 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A711_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:10:00,821 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A715_M1, Free Move to reorient Beam ('b50'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:16:06,096 | itj_planning | INFO | Beam b51 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:16:35,273 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A727_M1, Free Move to reorient Beam ('b51'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:21:37,688 | itj_planning | INFO | Beam b52 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:22:05,195 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A743_M1, Free Move to reorient Beam ('b52'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:26:21,907 | itj_planning | INFO | Beam b53 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:26:54,516 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A755_M1, Free Move to reorient Beam ('b53'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:29:05,851 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A758_M0, Free Move to bring Beam ('b53') to assemble_approach position on structure., traj 0).
+2022-02-04 06:29:05,854 | itj_planning | INFO | No plan found for A758_M0 after 1 attempts. RoboticFreeMovement(#A758_M0, Free Move to bring Beam ('b53') to assemble_approach position on structure., traj 0)
+2022-02-04 06:29:05,855 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=53) beam b53!
+2022-02-04 06:29:10,543 | itj_planning | INFO | Beam b53 | nonlinear | Trail #1 | time 168.64
+2022-02-04 06:29:37,097 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A751_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:29:48,672 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A755_M1, Free Move to reorient Beam ('b53'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:32:19,660 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A758_M0, Free Move to bring Beam ('b53') to assemble_approach position on structure., traj 0).
+2022-02-04 06:32:19,660 | itj_planning | INFO | No plan found for A758_M0 after 1 attempts. RoboticFreeMovement(#A758_M0, Free Move to bring Beam ('b53') to assemble_approach position on structure., traj 0)
+2022-02-04 06:32:19,660 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=53) beam b53!
+2022-02-04 06:32:24,699 | itj_planning | INFO | Beam b53 | nonlinear | Trail #2 | time 362.79
+2022-02-04 06:32:48,076 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A751_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:33:05,558 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A755_M1, Free Move to reorient Beam ('b53'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:41:02,469 | itj_planning | INFO | Beam b54 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:41:29,407 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A771_M1, Free Move to reorient Beam ('b54'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:45:57,753 | itj_planning | INFO | Beam b55 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:46:30,276 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:48:51,704 | itj_planning | ERROR | No free movement found for RoboticFreeMovement(#A787_M0, Free Move to bring Beam ('b55') to assemble_approach position on structure., traj 0).
+2022-02-04 06:48:51,704 | itj_planning | INFO | No plan found for A787_M0 after 1 attempts. RoboticFreeMovement(#A787_M0, Free Move to bring Beam ('b55') to assemble_approach position on structure., traj 0)
+2022-02-04 06:48:51,704 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=55) beam b55!
+2022-02-04 06:48:56,787 | itj_planning | INFO | Beam b55 | nonlinear | Trail #1 | time 179.03
+2022-02-04 06:49:22,881 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A779_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:49:42,386 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 06:56:46,501 | itj_planning | INFO | Beam b56 | nonlinear | Trail #0 | time 0.00
+2022-02-04 06:57:13,922 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A803_M1, Free Move to reorient Beam ('b56'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-04 07:01:50,738 | itj_planning | INFO | Planning done.
