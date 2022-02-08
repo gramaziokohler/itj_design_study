@@ -1,0 +1,6 @@
+2022-02-08 15:38:54,424 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, load_external_movements=True, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='.', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[56], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, viewer=False, watch=False, write=True)
+2022-02-08 15:38:56,313 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-08 15:39:00,910 | itj_planning | INFO | [36mSolving for beam ['b56'][0m
+2022-02-08 15:39:00,910 | itj_planning | INFO | Beam b56 | nonlinear | Trail #0 | time 0.00
+2022-02-08 15:39:30,138 | itj_planning | INFO | FreeMovement: Robot end conf is NOT specified in RoboticFreeMovement(#A803_M1, Free Move to reorient Beam ('b56'), traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-08 15:45:12,017 | itj_planning | INFO | Planning done.
