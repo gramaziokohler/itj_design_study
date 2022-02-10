@@ -1,0 +1,14 @@
+2022-02-10 22:28:03,839 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[54, 55], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, viewer=False, watch=False, write=True)
+2022-02-10 22:28:05,743 | itj_planning | INFO | [36mSolving for beam ['b54', 'b55'][0m
+2022-02-10 22:28:18,974 | itj_planning | WARNING | No external movements loaded from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-10 22:28:19,005 | itj_planning | INFO | Beam b54 | nonlinear | Trail #0 | time 2.09
+2022-02-10 22:28:46,511 | itj_planning | INFO | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A767_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., traj 0), we will sample an IK conf based on the given t0cp frame.
+2022-02-10 22:31:54,518 | itj_planning | INFO | Return success: True
+2022-02-10 22:31:56,574 | itj_planning | INFO | Beam b55 | nonlinear | Trail #0 | time 2.05
+2022-02-10 22:33:11,471 | itj_planning | ERROR | compute_free_motion: start conf disagreement | (ST No retraction motion specified. ; END No retraction motion specified.).
+2022-02-10 22:33:11,483 | itj_planning | INFO | No plan found for A787_M0 after 1 attempts. RoboticFreeMovement(#A787_M0, Free Move to bring Beam ('b55') to assemble_approach position on structure., traj 0)
+2022-02-10 22:33:11,484 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=55) beam b55!
+2022-02-10 22:33:11,484 | itj_planning | INFO | Return success: False
+2022-02-10 22:33:13,642 | itj_planning | INFO | Beam b55 | nonlinear | Trail #1 | time 79.12
+2022-02-10 22:39:40,668 | itj_planning | INFO | Return success: True
+2022-02-10 22:39:40,669 | itj_planning | INFO | Planning done.

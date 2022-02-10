@@ -1,0 +1,27 @@
+2022-02-10 22:45:07,517 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=[54, 55], skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-02-10 22:45:08,897 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-10 22:45:13,181 | itj_planning | INFO | [36mSolving for beam ['b54', 'b55'][0m
+2022-02-10 22:45:24,791 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A768_M0, Free Move to reach Pickup Approach Frame of Beam ('b54'), traj 1)
+2022-02-10 22:45:26,600 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A768_M0, Free Move to reach Pickup Approach Frame of Beam ('b54'), traj 1)
+2022-02-10 22:46:09,407 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A775_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 1)
+2022-02-10 22:46:54,689 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), traj 1)
+2022-02-10 22:47:18,159 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A789_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 1)
+2022-02-10 22:47:48,109 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A792_M0, Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage., traj 1)
+2022-02-10 22:47:57,873 | itj_planning | WARNING | Pointwise Collision: RoboticFreeMovement(#A793_M0, Free Move to reach SL1 ('s2') on Beam ('b55') , traj 1)
+2022-02-10 22:48:29,383 | itj_planning | INFO | [33mMovements that requires care and love:[0m
+2022-02-10 22:48:29,384 | itj_planning | INFO | (MovementIndex=2453) RoboticFreeMovement(#A768_M0, Free Move to reach Pickup Approach Frame of Beam ('b54'), traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:48:29,385 | itj_planning | INFO | (MovementIndex=2468) RoboticFreeMovement(#A775_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:48:29,386 | itj_planning | INFO | (MovementIndex=2497) RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:48:29,387 | itj_planning | INFO | (MovementIndex=2508) RoboticFreeMovement(#A789_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:48:29,388 | itj_planning | INFO | (MovementIndex=2521) RoboticFreeMovement(#A792_M0, Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage., traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:48:29,388 | itj_planning | INFO | (MovementIndex=2526) RoboticFreeMovement(#A793_M0, Free Move to reach SL1 ('s2') on Beam ('b55') , traj 1): in_collision: [31mTrue[0m | joint_flip: [32mFalse[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:49:16,227 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=[54, 55], skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-02-10 22:49:17,570 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-10 22:49:21,790 | itj_planning | INFO | [36mSolving for beam ['b54', 'b55'][0m
+2022-02-10 22:52:03,774 | itj_planning | WARNING | RoboticFreeMovement(#A780_M0, Free Move to reach Pickup Approach Frame of Beam ('b55'), traj 1)
+2022-02-10 22:52:03,775 | itj_planning | WARNING | 	 traj point #96/126
+2022-02-10 22:52:43,949 | itj_planning | WARNING | RoboticFreeMovement(#A787_M0, Free Move to bring Beam ('b55') to assemble_approach position on structure., traj 1)
+2022-02-10 22:52:43,949 | itj_planning | WARNING | 	 traj point #158/327
+2022-02-10 22:55:48,868 | itj_planning | INFO | [33mMovements that requires care and love:[0m
+2022-02-10 22:55:48,868 | itj_planning | INFO | (MovementIndex=2491) RoboticFreeMovement(#A780_M0, Free Move to reach Pickup Approach Frame of Beam ('b55'), traj 1): in_collision: [32mFalse[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
+2022-02-10 22:55:48,868 | itj_planning | INFO | (MovementIndex=2501) RoboticFreeMovement(#A787_M0, Free Move to bring Beam ('b55') to assemble_approach position on structure., traj 1): in_collision: [32mFalse[0m | joint_flip: [31mTrue[0m | no_traj: [32mFalse[0m | fk_disagree: [32mFalse[0m
