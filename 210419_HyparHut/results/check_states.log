@@ -1,0 +1,12 @@
+2022-02-21 13:50:37,453 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=[54], skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-02-21 13:50:39,045 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-02-21 13:50:43,848 | itj_planning | INFO | [36mChecking for beam ['b54'][0m
+2022-02-21 13:50:46,249 | itj_planning | WARNING | A767_M0 : polyline collision: trajectory point #17/69
+2022-02-21 13:50:48,315 | itj_planning | WARNING | A767_M0 : polyline collision: trajectory point #35/69
+2022-02-21 13:51:03,508 | itj_planning | WARNING | A768_M0 : pointwise collision: trajectory point #47/110
+2022-02-21 13:51:03,524 | itj_planning | WARNING | A768_M0 : polyline collision: trajectory point #47/110
+2022-02-21 13:52:35,985 | itj_planning | WARNING | A776_M0 : polyline collision: trajectory point #10/63
+2022-02-21 13:53:03,606 | itj_planning | WARNING | Movements that requires care and love:
+2022-02-21 13:53:03,606 | itj_planning | INFO | (MovementIndex=2448) RoboticFreeMovement(#A767_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-02-21 13:53:03,606 | itj_planning | INFO | (MovementIndex=2453) RoboticFreeMovement(#A768_M0, Free Move to reach Pickup Approach Frame of Beam ('b54'), has_traj True): traj_pointwise_collision, traj_polyline_collision
+2022-02-21 13:53:03,606 | itj_planning | INFO | (MovementIndex=2473) RoboticFreeMovement(#A776_M0, Free Move to reach SL1 ('s1') on Beam ('b54') , has_traj True): traj_polyline_collision
