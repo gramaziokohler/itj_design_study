@@ -102,6 +102,7 @@ Beam b3 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b3') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b3')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1']) tightens screw without sync
 |- Action 21 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s1') from Beam ('b3')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s1') from Joint ('b0-b3')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s1) syncronously move to retract from Joint ('b0-b3')
@@ -136,6 +137,7 @@ Beam b4 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b4') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4']) syncronously move to screw Beam ('b4')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4']) tightens screw without sync
 |- Action 29 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b4')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b0-b4')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b0-b4')
@@ -172,6 +174,7 @@ Beam b5 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b5') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b5')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1']) tightens screw without sync
 |- Action 38 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b5')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b5')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b5')
@@ -222,6 +225,7 @@ Beam b6 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b6') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b6')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1']) tightens screw without sync
 |- Action 50 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b6')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b6')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b6')
@@ -276,6 +280,7 @@ Beam b7 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b7') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b7')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's3']) tightens screw without sync
 |- Action 64 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b7')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b7')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b7')
@@ -360,6 +365,7 @@ Beam b8 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b8') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b8')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 83 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b8')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b8')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b8')
@@ -426,6 +432,7 @@ Beam b9 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b9') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b9')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1']) tightens screw without sync
 |- Action 98 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b9')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b9')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b9')
@@ -478,6 +485,7 @@ Beam b10 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b10') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b10')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 111 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b10')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b8-b10')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b8-b10')
@@ -546,6 +554,7 @@ Beam b11 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b11') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1']) syncronously move to screw Beam ('b11')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1']) tightens screw without sync
 |- Action 126 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b11')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b11')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b11')
@@ -598,6 +607,7 @@ Beam b12 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b12') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b12')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 139 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b12')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b12')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b12')
@@ -664,6 +674,7 @@ Beam b13 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b13') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b13')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 154 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b13')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b11-b13')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b11-b13')
@@ -720,6 +731,7 @@ Beam b14 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b14') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b14')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's3']) tightens screw without sync
 |- Action 168 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b14')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b14')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b14')
@@ -804,6 +816,7 @@ Beam b15 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b15') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b15')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 187 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b15')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b15')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b15')
@@ -872,6 +885,7 @@ Beam b16 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b16') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b16')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 203 (RetractGripperFromBeamAction): Retract Gripper ('g1') from Beam ('b16')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g1') and let go of Beam ('b16')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b16')
@@ -940,6 +954,7 @@ Beam b17 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b17') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b17')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 219 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b17')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b17')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b17')
@@ -1008,6 +1023,7 @@ Beam b18 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b18') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b18')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 235 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b18')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b18')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b18')
@@ -1076,6 +1092,7 @@ Beam b19 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b19') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b19')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 251 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b19')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b19')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b19')
@@ -1144,6 +1161,7 @@ Beam b20 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b20') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b20')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 267 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b20')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b20')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b20')
@@ -1212,6 +1230,7 @@ Beam b21 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b21') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b21')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 283 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b21')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b21')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b21')
@@ -1280,6 +1299,7 @@ Beam b22 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b22') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b22')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 299 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b22')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b22')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b22')
@@ -1348,6 +1368,7 @@ Beam b23 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b23') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b23')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 315 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b23')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b23')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b23')
@@ -1416,6 +1437,7 @@ Beam b24 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b24') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b24')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 331 (RetractGripperFromBeamAction): Retract Gripper ('g2') from Beam ('b24')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g2') and let go of Beam ('b24')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b24')
@@ -1484,6 +1506,7 @@ Beam b25 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b25') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b25')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 347 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b25')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b25')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b25')
@@ -1552,6 +1575,7 @@ Beam b26 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b26') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2']) syncronously move to screw Beam ('b26')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2']) tightens screw without sync
 |- Action 363 (RetractGripperFromBeamAction): Retract Gripper ('g3') from Beam ('b26')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Open Gripper ('g3') and let go of Beam ('b26')
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear retract of Gripper from Beam ('b26')
@@ -1620,6 +1644,7 @@ Beam b27 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b27') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b27')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 379 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b27')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b27')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b27')
@@ -1688,6 +1713,7 @@ Beam b28 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b28') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b28')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 394 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b28')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b28')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b28')
@@ -1742,6 +1768,7 @@ Beam b29 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b29') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b29')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1', 's2']) tightens screw without sync
 |- Action 407 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b29')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b29')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b29')
@@ -1810,6 +1837,7 @@ Beam b30 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b30') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b30')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 422 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b30')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b30')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b30')
@@ -1866,6 +1894,7 @@ Beam b31 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b31') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b31')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4', 's3']) tightens screw without sync
 |- Action 436 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b31')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b31')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b31')
@@ -1950,6 +1979,7 @@ Beam b32 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b32') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b32')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 454 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b32')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b32')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b32')
@@ -2004,6 +2034,7 @@ Beam b33 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b33') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b33')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 467 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b33')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b33')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b33')
@@ -2072,6 +2103,7 @@ Beam b34 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b34') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b34')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 482 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b34')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b34')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b34')
@@ -2126,6 +2158,7 @@ Beam b35 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b35') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b35')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1', 's2']) tightens screw without sync
 |- Action 495 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b35')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b35')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b35')
@@ -2194,6 +2227,7 @@ Beam b36 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b36') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b36')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 510 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b36')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b36')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b36')
@@ -2250,6 +2284,7 @@ Beam b37 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b37') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b37')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4', 's3']) tightens screw without sync
 |- Action 524 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b37')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b37')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b37')
@@ -2334,6 +2369,7 @@ Beam b38 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b38') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b38')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 542 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b38')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b38')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b38')
@@ -2388,6 +2424,7 @@ Beam b39 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b39') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b39')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 555 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b39')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b39')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b39')
@@ -2456,6 +2493,7 @@ Beam b40 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b40') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b40')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 570 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b40')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b40')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b40')
@@ -2510,6 +2548,7 @@ Beam b41 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b41') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b41')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1', 's2']) tightens screw without sync
 |- Action 583 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b41')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b41')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b41')
@@ -2578,6 +2617,7 @@ Beam b42 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b42') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b42')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 598 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b42')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b42')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b42')
@@ -2634,6 +2674,7 @@ Beam b43 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b43') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b43')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4', 's3']) tightens screw without sync
 |- Action 612 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b43')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b43')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b43')
@@ -2718,6 +2759,7 @@ Beam b44 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b44') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b44')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 630 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b44')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b44')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b44')
@@ -2772,6 +2814,7 @@ Beam b45 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b45') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b45')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 643 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b45')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b45')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b45')
@@ -2840,6 +2883,7 @@ Beam b46 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b46') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b46')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 658 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b46')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b46')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b46')
@@ -2894,6 +2938,7 @@ Beam b47 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b47') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b47')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1', 's2']) tightens screw without sync
 |- Action 671 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b47')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b47')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b47')
@@ -2962,6 +3007,7 @@ Beam b48 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b48') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b48')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 686 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b48')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b48')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b48')
@@ -3018,6 +3064,7 @@ Beam b49 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b49') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b49')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4', 's3']) tightens screw without sync
 |- Action 700 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b49')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b49')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b49')
@@ -3102,6 +3149,7 @@ Beam b50 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b50') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b50')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 718 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b50')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b50')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b50')
@@ -3156,6 +3204,7 @@ Beam b51 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b51') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b51')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4']) tightens screw without sync
 |- Action 731 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b51')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b20-b51')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b20-b51')
@@ -3224,6 +3273,7 @@ Beam b52 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b52') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b52')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 746 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b52')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b23-b52')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b23-b52')
@@ -3278,6 +3328,7 @@ Beam b53 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b53') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b53')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1', 's2']) tightens screw without sync
 |- Action 759 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b53')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b25-b53')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b53')
@@ -3346,6 +3397,7 @@ Beam b54 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b54') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s4', 's1']) syncronously move to screw Beam ('b54')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s4', 's1']) tightens screw without sync
 |- Action 774 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b54')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b19-b54')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b19-b54')
@@ -3402,6 +3454,7 @@ Beam b55 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b55') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's2', 's4', 's3']) syncronously move to screw Beam ('b55')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's2', 's4', 's3']) tightens screw without sync
 |- Action 788 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b55')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b22-b55')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b22-b55')
@@ -3486,6 +3539,7 @@ Beam b56 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b56') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
 |  |- <1> Movement 2 (RobotScrewdriverSyncLinearMovement): Robot and Screwdrivers (['s1', 's4']) syncronously move to screw Beam ('b56')
+|  |- <x> Movement 3 (ScrewdriverMovement): Screwdrivers (['s1', 's4']) tightens screw without sync
 |- Action 806 (RetractScrewdriverFromBeamAction): Detach and Retract Screwdriver ('s4') from Beam ('b56')
 |  |- <x> Movement 0 (RoboticDigitalOutput): Detach Screwdriver ('s4') from Joint ('b26-b56')
 |  |- <1> Movement 1 (RobotScrewdriverSyncLinearMovement): Robot and Screwdriver (s4) syncronously move to retract from Joint ('b26-b56')
