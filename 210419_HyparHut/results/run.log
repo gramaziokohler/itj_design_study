@@ -1,0 +1,7 @@
+2022-03-02 12:55:14,647 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[51], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-02 12:55:14,942 | itj_planning | WARNING | No process file found, using the original one.
+2022-03-02 12:55:16,289 | itj_planning | INFO | [36mSolving for beam ['b51'][0m
+2022-03-02 12:55:23,445 | itj_planning | INFO | Beam b51 | nonlinear | Trail #0 | time elapsed 0.03
+2022-03-02 12:55:37,951 | itj_planning | WARNING | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A723_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj False), we will sample an IK conf based on the given t0cp frame.
+2022-03-02 13:00:31,951 | itj_planning | INFO | Return success: True | runtime of current attempt: 308.5
+2022-03-02 13:00:31,993 | itj_planning | INFO | Planning done.
