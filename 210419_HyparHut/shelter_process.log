@@ -85,8 +85,8 @@ Beam b3 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1 ('s1'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1 ('s1').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1 ('s1')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1 ('s1'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1 ('s1'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1 ('s1').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1 ('s1'). (Faster)
 |- Action 16 (GenericGripperApproachBeamPickupAction): Gripper (s1) approaching pickup of Beam ('b3')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b3')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s1') Open Gripper before gripping Beam ('b3')
@@ -110,8 +110,8 @@ Beam b3 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 22 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -120,8 +120,8 @@ Beam b4 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 24 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b4')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b4')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b4')
@@ -145,8 +145,8 @@ Beam b4 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 30 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 
@@ -196,8 +196,8 @@ Beam b5 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 42 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -247,8 +247,8 @@ Beam b6 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 54 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -302,8 +302,8 @@ Beam b7 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 68 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 69 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b7') in screwdriver_assembled_attached
@@ -318,8 +318,8 @@ Beam b7 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 71 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 72 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b7') in screwdriver_assembled_attached
@@ -334,8 +334,8 @@ Beam b7 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 74 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -387,8 +387,8 @@ Beam b8 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 87 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 88 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b8') in screwdriver_assembled_attached
@@ -403,8 +403,8 @@ Beam b8 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 90 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -454,8 +454,8 @@ Beam b9 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 102 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -464,8 +464,8 @@ Beam b10 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 104 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b10')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b10')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b10')
@@ -493,8 +493,8 @@ Beam b10 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 112 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 113 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b10') in screwdriver_assembled_attached
@@ -509,8 +509,8 @@ Beam b10 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 115 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 116 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b10') in screwdriver_assembled_attached
@@ -525,8 +525,8 @@ Beam b10 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 118 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -576,8 +576,8 @@ Beam b11 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 130 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -629,8 +629,8 @@ Beam b12 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 143 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 144 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b12') in screwdriver_assembled_attached
@@ -645,8 +645,8 @@ Beam b12 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 146 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -655,8 +655,8 @@ Beam b13 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 148 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b13')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b13')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b13')
@@ -682,8 +682,8 @@ Beam b13 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 155 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 156 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b13') in screwdriver_assembled_attached
@@ -698,8 +698,8 @@ Beam b13 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 158 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -753,8 +753,8 @@ Beam b14 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 172 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 173 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b14') in screwdriver_assembled_attached
@@ -769,8 +769,8 @@ Beam b14 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 175 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 176 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b14') in screwdriver_assembled_attached
@@ -785,8 +785,8 @@ Beam b14 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 178 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -838,8 +838,8 @@ Beam b15 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 191 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 192 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b15') in screwdriver_assembled_attached
@@ -854,8 +854,8 @@ Beam b15 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 194 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -907,8 +907,8 @@ Beam b16 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 207 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 208 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b16') in screwdriver_assembled_attached
@@ -923,8 +923,8 @@ Beam b16 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 210 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -976,8 +976,8 @@ Beam b17 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 223 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 224 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b17') in screwdriver_assembled_attached
@@ -992,8 +992,8 @@ Beam b17 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 226 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1045,8 +1045,8 @@ Beam b18 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 239 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 240 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b18') in screwdriver_assembled_attached
@@ -1061,8 +1061,8 @@ Beam b18 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 242 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1114,8 +1114,8 @@ Beam b19 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 255 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 256 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b19') in screwdriver_assembled_attached
@@ -1130,8 +1130,8 @@ Beam b19 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 258 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1183,8 +1183,8 @@ Beam b20 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 271 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 272 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b20') in screwdriver_assembled_attached
@@ -1199,8 +1199,8 @@ Beam b20 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 274 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1252,8 +1252,8 @@ Beam b21 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 287 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 288 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b21') in screwdriver_assembled_attached
@@ -1268,8 +1268,8 @@ Beam b21 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 290 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1321,8 +1321,8 @@ Beam b22 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 303 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 304 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b22') in screwdriver_assembled_attached
@@ -1337,8 +1337,8 @@ Beam b22 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 306 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1390,8 +1390,8 @@ Beam b23 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 319 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 320 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b23') in screwdriver_assembled_attached
@@ -1406,8 +1406,8 @@ Beam b23 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 322 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1459,8 +1459,8 @@ Beam b24 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 335 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 336 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b24') in screwdriver_assembled_attached
@@ -1475,8 +1475,8 @@ Beam b24 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 338 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1528,8 +1528,8 @@ Beam b25 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 351 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 352 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b25') in screwdriver_assembled_attached
@@ -1544,8 +1544,8 @@ Beam b25 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 354 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1597,8 +1597,8 @@ Beam b26 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 367 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 368 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b26') in screwdriver_assembled_attached
@@ -1613,8 +1613,8 @@ Beam b26 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 370 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1623,8 +1623,8 @@ Beam b27 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 372 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b27')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b27')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b27')
@@ -1652,8 +1652,8 @@ Beam b27 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 380 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 381 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b27') in screwdriver_assembled_attached
@@ -1668,8 +1668,8 @@ Beam b27 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 383 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 384 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b27') in screwdriver_assembled_attached
@@ -1684,8 +1684,8 @@ Beam b27 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 386 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1694,8 +1694,8 @@ Beam b28 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 388 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b28')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b28')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b28')
@@ -1721,8 +1721,8 @@ Beam b28 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 395 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 396 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b28') in screwdriver_assembled_attached
@@ -1737,8 +1737,8 @@ Beam b28 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 398 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1747,8 +1747,8 @@ Beam b29 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 400 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b29')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b29')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b29')
@@ -1776,8 +1776,8 @@ Beam b29 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 408 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 409 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b29') in screwdriver_assembled_attached
@@ -1792,8 +1792,8 @@ Beam b29 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 411 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 412 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b29') in screwdriver_assembled_attached
@@ -1808,8 +1808,8 @@ Beam b29 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 414 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1818,8 +1818,8 @@ Beam b30 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 416 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b30')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b30')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b30')
@@ -1845,8 +1845,8 @@ Beam b30 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 423 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 424 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b30') in screwdriver_assembled_attached
@@ -1861,8 +1861,8 @@ Beam b30 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 426 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1871,8 +1871,8 @@ Beam b31 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 428 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b31')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b31')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b31')
@@ -1902,8 +1902,8 @@ Beam b31 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 437 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 438 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s3') on Beam ('b31') in screwdriver_assembled_attached
@@ -1918,8 +1918,8 @@ Beam b31 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 440 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 441 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b31') in screwdriver_assembled_attached
@@ -1934,8 +1934,8 @@ Beam b31 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 443 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 444 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b31') in screwdriver_assembled_attached
@@ -1950,8 +1950,8 @@ Beam b31 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 446 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -1960,8 +1960,8 @@ Beam b32 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 448 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b32')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b32')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b32')
@@ -1987,8 +1987,8 @@ Beam b32 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 455 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 456 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b32') in screwdriver_assembled_attached
@@ -2003,8 +2003,8 @@ Beam b32 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 458 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2013,8 +2013,8 @@ Beam b33 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 460 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b33')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b33')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b33')
@@ -2042,8 +2042,8 @@ Beam b33 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 468 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 469 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b33') in screwdriver_assembled_attached
@@ -2058,8 +2058,8 @@ Beam b33 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 471 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 472 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b33') in screwdriver_assembled_attached
@@ -2074,8 +2074,8 @@ Beam b33 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 474 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2084,8 +2084,8 @@ Beam b34 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 476 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b34')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b34')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b34')
@@ -2111,8 +2111,8 @@ Beam b34 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 483 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 484 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b34') in screwdriver_assembled_attached
@@ -2127,8 +2127,8 @@ Beam b34 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 486 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2137,8 +2137,8 @@ Beam b35 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 488 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b35')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b35')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b35')
@@ -2166,8 +2166,8 @@ Beam b35 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 496 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 497 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b35') in screwdriver_assembled_attached
@@ -2182,8 +2182,8 @@ Beam b35 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 499 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 500 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b35') in screwdriver_assembled_attached
@@ -2198,8 +2198,8 @@ Beam b35 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 502 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2208,8 +2208,8 @@ Beam b36 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 504 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b36')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b36')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b36')
@@ -2235,8 +2235,8 @@ Beam b36 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 511 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 512 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b36') in screwdriver_assembled_attached
@@ -2251,8 +2251,8 @@ Beam b36 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 514 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2261,8 +2261,8 @@ Beam b37 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 516 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b37')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b37')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b37')
@@ -2292,8 +2292,8 @@ Beam b37 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 525 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 526 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s3') on Beam ('b37') in screwdriver_assembled_attached
@@ -2308,8 +2308,8 @@ Beam b37 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 528 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 529 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b37') in screwdriver_assembled_attached
@@ -2324,8 +2324,8 @@ Beam b37 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 531 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 532 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b37') in screwdriver_assembled_attached
@@ -2340,8 +2340,8 @@ Beam b37 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 534 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2350,8 +2350,8 @@ Beam b38 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 536 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b38')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b38')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b38')
@@ -2377,8 +2377,8 @@ Beam b38 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 543 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 544 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b38') in screwdriver_assembled_attached
@@ -2393,8 +2393,8 @@ Beam b38 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 546 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2403,8 +2403,8 @@ Beam b39 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 548 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b39')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b39')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b39')
@@ -2432,8 +2432,8 @@ Beam b39 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 556 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 557 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b39') in screwdriver_assembled_attached
@@ -2448,8 +2448,8 @@ Beam b39 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 559 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 560 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b39') in screwdriver_assembled_attached
@@ -2464,8 +2464,8 @@ Beam b39 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 562 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2474,8 +2474,8 @@ Beam b40 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 564 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b40')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b40')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b40')
@@ -2501,8 +2501,8 @@ Beam b40 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 571 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 572 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b40') in screwdriver_assembled_attached
@@ -2517,8 +2517,8 @@ Beam b40 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 574 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2527,8 +2527,8 @@ Beam b41 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 576 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b41')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b41')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b41')
@@ -2556,8 +2556,8 @@ Beam b41 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 584 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 585 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b41') in screwdriver_assembled_attached
@@ -2572,8 +2572,8 @@ Beam b41 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 587 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 588 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b41') in screwdriver_assembled_attached
@@ -2588,8 +2588,8 @@ Beam b41 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 590 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2598,8 +2598,8 @@ Beam b42 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 592 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b42')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b42')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b42')
@@ -2625,8 +2625,8 @@ Beam b42 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 599 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 600 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b42') in screwdriver_assembled_attached
@@ -2641,8 +2641,8 @@ Beam b42 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 602 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2651,8 +2651,8 @@ Beam b43 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 604 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b43')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b43')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b43')
@@ -2682,8 +2682,8 @@ Beam b43 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 613 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 614 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s3') on Beam ('b43') in screwdriver_assembled_attached
@@ -2698,8 +2698,8 @@ Beam b43 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 616 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 617 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b43') in screwdriver_assembled_attached
@@ -2714,8 +2714,8 @@ Beam b43 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 619 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 620 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b43') in screwdriver_assembled_attached
@@ -2730,8 +2730,8 @@ Beam b43 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 622 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2740,8 +2740,8 @@ Beam b44 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 624 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b44')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b44')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b44')
@@ -2767,8 +2767,8 @@ Beam b44 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 631 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 632 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b44') in screwdriver_assembled_attached
@@ -2783,8 +2783,8 @@ Beam b44 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 634 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2793,8 +2793,8 @@ Beam b45 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 636 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b45')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b45')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b45')
@@ -2822,8 +2822,8 @@ Beam b45 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 644 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 645 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b45') in screwdriver_assembled_attached
@@ -2838,8 +2838,8 @@ Beam b45 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 647 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 648 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b45') in screwdriver_assembled_attached
@@ -2854,8 +2854,8 @@ Beam b45 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 650 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2864,8 +2864,8 @@ Beam b46 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 652 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b46')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b46')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b46')
@@ -2891,8 +2891,8 @@ Beam b46 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 659 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 660 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b46') in screwdriver_assembled_attached
@@ -2907,8 +2907,8 @@ Beam b46 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 662 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2917,8 +2917,8 @@ Beam b47 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 664 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b47')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b47')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b47')
@@ -2946,8 +2946,8 @@ Beam b47 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 672 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 673 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b47') in screwdriver_assembled_attached
@@ -2962,8 +2962,8 @@ Beam b47 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 675 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 676 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b47') in screwdriver_assembled_attached
@@ -2978,8 +2978,8 @@ Beam b47 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 678 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -2988,8 +2988,8 @@ Beam b48 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 680 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b48')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b48')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b48')
@@ -3015,8 +3015,8 @@ Beam b48 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 687 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 688 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b48') in screwdriver_assembled_attached
@@ -3031,8 +3031,8 @@ Beam b48 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 690 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3041,8 +3041,8 @@ Beam b49 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 692 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b49')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b49')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b49')
@@ -3072,8 +3072,8 @@ Beam b49 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 701 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 702 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s3') on Beam ('b49') in screwdriver_assembled_attached
@@ -3088,8 +3088,8 @@ Beam b49 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 704 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 705 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b49') in screwdriver_assembled_attached
@@ -3104,8 +3104,8 @@ Beam b49 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 707 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 708 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b49') in screwdriver_assembled_attached
@@ -3120,8 +3120,8 @@ Beam b49 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 710 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3130,8 +3130,8 @@ Beam b50 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 712 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b50')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b50')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b50')
@@ -3157,8 +3157,8 @@ Beam b50 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 719 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 720 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b50') in screwdriver_assembled_attached
@@ -3173,8 +3173,8 @@ Beam b50 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 722 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3183,8 +3183,8 @@ Beam b51 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 724 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b51')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b51')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b51')
@@ -3212,8 +3212,8 @@ Beam b51 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 732 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 733 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b51') in screwdriver_assembled_attached
@@ -3228,8 +3228,8 @@ Beam b51 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 735 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 736 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b51') in screwdriver_assembled_attached
@@ -3244,8 +3244,8 @@ Beam b51 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 738 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3254,8 +3254,8 @@ Beam b52 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 740 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b52')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b52')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b52')
@@ -3281,8 +3281,8 @@ Beam b52 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 747 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 748 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b52') in screwdriver_assembled_attached
@@ -3297,8 +3297,8 @@ Beam b52 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 750 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3307,8 +3307,8 @@ Beam b53 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 752 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b53')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b53')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b53')
@@ -3336,8 +3336,8 @@ Beam b53 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 760 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 761 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b53') in screwdriver_assembled_attached
@@ -3352,8 +3352,8 @@ Beam b53 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 763 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 764 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b53') in screwdriver_assembled_attached
@@ -3368,8 +3368,8 @@ Beam b53 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 766 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3378,8 +3378,8 @@ Beam b54 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 768 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b54')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b54')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b54')
@@ -3405,8 +3405,8 @@ Beam b54 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 775 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 776 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b54') in screwdriver_assembled_attached
@@ -3421,8 +3421,8 @@ Beam b54 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 778 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3431,8 +3431,8 @@ Beam b55 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 780 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b55')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b55')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b55')
@@ -3462,8 +3462,8 @@ Beam b55 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 789 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 790 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s3') on Beam ('b55') in screwdriver_assembled_attached
@@ -3478,8 +3478,8 @@ Beam b55 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 792 (PlaceScrewdriverToStorageAction): Place SL1 ('s3') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s3').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s3')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s3') in storage
 |- Action 793 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s2') on Beam ('b55') in screwdriver_assembled_attached
@@ -3494,8 +3494,8 @@ Beam b55 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 795 (PlaceScrewdriverToStorageAction): Place SL1 ('s2') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s2').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s2')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 |- Action 796 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b55') in screwdriver_assembled_attached
@@ -3510,8 +3510,8 @@ Beam b55 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 798 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
 
@@ -3520,8 +3520,8 @@ Beam b56 assembly
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with SL1_G200 ('s4').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock SL1_G200 ('s4')
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
-|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'), after picking up tool.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+|  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
 |- Action 800 (GenericGripperApproachBeamPickupAction): Gripper (s4) approaching pickup of Beam ('b56')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Pickup Approach Frame of Beam ('b56')
 |  |- <x> Movement 1 (RoboticDigitalOutput): Gripper ('s4') Open Gripper before gripping Beam ('b56')
@@ -3547,8 +3547,8 @@ Beam b56 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 807 (PlaceScrewdriverToStorageAction): Place SL1_G200 ('s4') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1_G200 ('s4')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1_G200 ('s4') in storage
 |- Action 808 (DockWithScrewdriverAction): Dock visually with Screwdriver SL1 ('s1') on Beam ('b56') in screwdriver_assembled_attached
@@ -3563,7 +3563,7 @@ Beam b56 assembly
 |  |- <0> Movement 3 (CancelRobotOffset): Cancel Docking Offset
 |- Action 810 (PlaceScrewdriverToStorageAction): Place SL1 ('s1') to Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'), to place tool in storage.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1'), to place tool in storage.
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance 2 to Storage Frame of SL1 ('s1').
 |  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Unlock SL1 ('s1')
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s1') in storage
