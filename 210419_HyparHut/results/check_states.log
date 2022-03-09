@@ -2,3 +2,62 @@
 2022-03-02 12:47:46,244 | itj_planning | WARNING | No process file found, using the original one.
 2022-03-02 12:47:51,791 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19', 'b20', 'b21', 'b22', 'b23', 'b24', 'b25', 'b26', 'b27', 'b28', 'b29', 'b30', 'b31', 'b32', 'b33', 'b34', 'b35', 'b36', 'b37', 'b38', 'b39', 'b40', 'b41', 'b42', 'b43', 'b44', 'b45', 'b46', 'b47', 'b48', 'b49', 'b50', 'b51', 'b52', 'b53', 'b54', 'b55', 'b56'][0m
 2022-03-02 12:52:27,894 | itj_planning | INFO | Congrats, check state done!
+2022-03-09 13:05:46,695 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-03-09 13:05:48,483 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-09 13:06:00,081 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-09 13:06:00,184 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-09 13:06:00,286 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-09 13:06:00,367 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-09 13:06:00,448 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-09 13:06:00,540 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-09 13:06:00,634 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-09 13:06:00,728 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-09 13:06:00,955 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19', 'b20', 'b21', 'b22', 'b23', 'b24', 'b25', 'b26', 'b27', 'b28', 'b29', 'b30', 'b31', 'b32', 'b33', 'b34', 'b35', 'b36', 'b37', 'b38', 'b39', 'b40', 'b41', 'b42', 'b43', 'b44', 'b45', 'b46', 'b47', 'b48', 'b49', 'b50', 'b51', 'b52', 'b53', 'b54', 'b55', 'b56'][0m
+2022-03-09 13:10:38,299 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/11
+2022-03-09 13:27:52,384 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #79/80
+2022-03-09 13:45:48,823 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #202/204
+2022-03-09 14:05:44,589 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #201/203
+2022-03-09 14:27:19,193 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #123/124
+2022-03-09 14:32:08,526 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #14/23
+2022-03-09 14:32:08,623 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #15/23
+2022-03-09 14:40:41,468 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/12
+2022-03-09 14:45:45,381 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/12
+2022-03-09 14:50:56,205 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #11/12
+2022-03-09 14:52:26,102 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #93/95
+2022-03-09 14:55:59,100 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/13
+2022-03-09 14:58:10,902 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/13
+2022-03-09 15:10:03,093 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #232/234
+2022-03-09 15:14:36,664 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #11/12
+2022-03-09 15:15:14,007 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #65/67
+2022-03-09 15:16:01,713 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #60/79
+2022-03-09 15:17:18,977 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #7/62
+2022-03-09 15:19:07,070 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #12/15
+2022-03-09 15:21:36,888 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #14/20
+2022-03-09 15:23:39,817 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #9/10
+2022-03-09 15:29:56,179 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #11/14
+2022-03-09 15:30:19,731 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #31/70
+2022-03-09 15:32:19,509 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #14/15
+2022-03-09 15:34:13,093 | itj_planning | WARNING | Movements that requires care and love:
+2022-03-09 15:34:13,093 | itj_planning | INFO | (MovementIndex=85) RoboticFreeMovement(#A23_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,093 | itj_planning | INFO | (MovementIndex=414) RoboticFreeMovement(#A128_M0, Free Move to reach SL1 ('s1') on Beam ('b11') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,094 | itj_planning | INFO | (MovementIndex=722) RoboticFreeMovement(#A224_M0, Free Move to reach SL1 ('s1') on Beam ('b17') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,094 | itj_planning | INFO | (MovementIndex=1066) RoboticFreeMovement(#A333_M0, Free Move to reach SL1 ('s2') on Beam ('b24') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,094 | itj_planning | INFO | (MovementIndex=1406) RoboticFreeMovement(#A438_M0, Free Move to reach SL1 ('s3') on Beam ('b31') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,095 | itj_planning | INFO | (MovementIndex=1484) RoboticFreeMovement(#A459_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision, traj_polyline_collision
+2022-03-09 15:34:13,095 | itj_planning | INFO | (MovementIndex=1629) RoboticFreeMovement(#A503_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,096 | itj_planning | INFO | (MovementIndex=1735) RoboticFreeMovement(#A535_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,096 | itj_planning | INFO | (MovementIndex=1827) RoboticFreeMovement(#A563_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,096 | itj_planning | INFO | (MovementIndex=1853) RoboticFreeMovement(#A572_M0, Free Move to reach SL1 ('s1') on Beam ('b40') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=1919) RoboticFreeMovement(#A591_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=1958) RoboticFreeMovement(#A603_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=2143) RoboticFreeMovement(#A660_M0, Free Move to reach SL1 ('s1') on Beam ('b46') , has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=2209) RoboticFreeMovement(#A679_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=2222) RoboticFreeMovement(#A685_M0, Free Move to bring Beam ('b48') to assemble_approach position on structure., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,097 | itj_planning | INFO | (MovementIndex=2243) RoboticFreeMovement(#A690_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,098 | itj_planning | INFO | (MovementIndex=2271) RoboticFreeMovement(#A701_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,098 | itj_planning | INFO | (MovementIndex=2315) RoboticFreeMovement(#A711_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,098 | itj_planning | INFO | (MovementIndex=2354) RoboticFreeMovement(#A723_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2407) RoboticFreeMovement(#A739_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2538) RoboticFreeMovement(#A779_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2549) RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), has_traj True): traj_polyline_collision
+2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2605) RoboticFreeMovement(#A799_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
