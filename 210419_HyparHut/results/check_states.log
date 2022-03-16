@@ -61,3 +61,23 @@
 2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2538) RoboticFreeMovement(#A779_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
 2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2549) RoboticFreeMovement(#A783_M1, Free Move to reorient Beam ('b55'), has_traj True): traj_polyline_collision
 2022-03-09 15:34:13,099 | itj_planning | INFO | (MovementIndex=2605) RoboticFreeMovement(#A799_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 22:55:53,151 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id='A23_M0', plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-03-09 22:55:54,540 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-09 22:56:02,635 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-09 22:56:02,695 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-09 22:56:02,763 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-09 22:56:02,838 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-09 22:56:02,917 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-09 22:56:02,998 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-09 22:56:03,079 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-09 22:56:03,164 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-09 22:56:03,362 | itj_planning | INFO | [36mChecking for movement #(85) A23_M0[0m
+2022-03-09 22:56:04,818 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #10/11
+2022-03-09 22:56:04,946 | itj_planning | WARNING | Movements that requires care and love:
+2022-03-09 22:56:04,946 | itj_planning | INFO | (MovementIndex=85) RoboticFreeMovement(#A23_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-03-09 22:56:38,483 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, design_dir='210419_HyparHut', movement_id='A23_M0', plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-03-09 22:56:39,953 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-09 22:56:47,893 | itj_planning | INFO | [36mChecking for movement #(85) A23_M0[0m
+2022-03-09 22:57:18,649 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id='A23_M0', plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-03-09 22:57:20,032 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-09 22:57:28,055 | itj_planning | INFO | [36mChecking for movement #(85) A23_M0[0m
