@@ -98,7 +98,8 @@ Beam b3 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 2.3kg for Beam('b3')
 |- Action 19 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b3') using Gripper (s1)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b3')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b3')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b3')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b3')
 |- Action 20 (AssembleBeamWithScrewdriversAction): Place Beam ('b3') to Joint final location with clamps at ['b0-b3'] using Clamp ['s1']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b3') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
@@ -135,7 +136,8 @@ Beam b4 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 5.66350204245kg for Beam('b4')
 |- Action 27 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b4') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b4')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b4')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b4')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b4')
 |- Action 28 (AssembleBeamWithScrewdriversAction): Place Beam ('b4') to Joint final location with clamps at ['b0-b4'] using Clamp ['s4']
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring Beam ('b4') to assemble_approach position on structure.
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to bring Screwdriver tips to touch the predrilled hole.
@@ -171,7 +173,8 @@ Beam b5 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.32376230650kg for Beam('b5')
 |- Action 35 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b5') using Gripper (g1)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b5')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b5')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b5')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b5')
 |- Action 36 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b1-b5) of Beam (b5).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b1-b5) of Beam (b5).
 |- Action 37 (AssembleBeamWithScrewdriversAction): Place Beam ('b5') to Joint final location with clamps at ['b1-b5'] using Clamp ['s1']
@@ -223,7 +226,8 @@ Beam b6 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 13.6442828346kg for Beam('b6')
 |- Action 47 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b6') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b6')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b6')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b6')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b6')
 |- Action 48 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b2-b6) of Beam (b6).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b2-b6) of Beam (b6).
 |- Action 49 (AssembleBeamWithScrewdriversAction): Place Beam ('b6') to Joint final location with clamps at ['b2-b6'] using Clamp ['s1']
@@ -275,7 +279,8 @@ Beam b7 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 25.9440000000kg for Beam('b7')
 |- Action 59 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b7') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b7')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b7')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b7')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b7')
 |- Action 60 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b5-b7) of Beam (b7).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b5-b7) of Beam (b7).
 |- Action 61 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b6-b7) of Beam (b7).
@@ -365,7 +370,8 @@ Beam b8 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.5152225883kg for Beam('b8')
 |- Action 79 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b8') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b8')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b8')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b8')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b8')
 |- Action 80 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b6-b8) of Beam (b8).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b6-b8) of Beam (b8).
 |- Action 81 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b2-b8) of Beam (b8).
@@ -436,7 +442,8 @@ Beam b9 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.04898247075kg for Beam('b9')
 |- Action 95 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b9') using Gripper (g1)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b9')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b9')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b9')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b9')
 |- Action 96 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b2-b9) of Beam (b9).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b2-b9) of Beam (b9).
 |- Action 97 (AssembleBeamWithScrewdriversAction): Place Beam ('b9') to Joint final location with clamps at ['b2-b9'] using Clamp ['s1']
@@ -489,7 +496,8 @@ Beam b10 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.00826530537kg for Beam('b10')
 |- Action 107 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b10') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b10')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b10')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b10')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b10')
 |- Action 108 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b2-b10) of Beam (b10).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b2-b10) of Beam (b10).
 |- Action 109 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b9-b10) of Beam (b10).
@@ -563,7 +571,8 @@ Beam b11 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 11.2527140453kg for Beam('b11')
 |- Action 123 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b11') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b11')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b11')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b11')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b11')
 |- Action 124 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b1-b11) of Beam (b11).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b1-b11) of Beam (b11).
 |- Action 125 (AssembleBeamWithScrewdriversAction): Place Beam ('b11') to Joint final location with clamps at ['b1-b11'] using Clamp ['s1']
@@ -615,7 +624,8 @@ Beam b12 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 19.182kg for Beam('b12')
 |- Action 135 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b12') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b12')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b12')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b12')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b12')
 |- Action 136 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b11-b12) of Beam (b12).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b11-b12) of Beam (b12).
 |- Action 137 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b9-b12) of Beam (b12).
@@ -687,7 +697,8 @@ Beam b13 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.24992624521kg for Beam('b13')
 |- Action 151 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b13') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b13')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b13')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b13')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b13')
 |- Action 152 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b1-b13) of Beam (b13).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b1-b13) of Beam (b13).
 |- Action 153 (AssembleBeamWithScrewdriversAction): Place Beam ('b13') to Joint final location with clamps at ['b1-b13', 'b11-b13'] using Clamp ['s1', 's4']
@@ -742,7 +753,8 @@ Beam b14 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 37.2992484644kg for Beam('b14')
 |- Action 163 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b14') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b14')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b14')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b14')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b14')
 |- Action 164 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b5-b14) of Beam (b14).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b5-b14) of Beam (b14).
 |- Action 165 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b6-b14) of Beam (b14).
@@ -832,7 +844,8 @@ Beam b15 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 35.3946884823kg for Beam('b15')
 |- Action 183 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b15') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b15')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b15')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b15')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b15')
 |- Action 184 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b9-b15) of Beam (b15).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b9-b15) of Beam (b15).
 |- Action 185 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b11-b15) of Beam (b15).
@@ -903,7 +916,8 @@ Beam b16 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.58389243852kg for Beam('b16')
 |- Action 199 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b16') using Gripper (g1)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b16')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b16')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b16')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b16')
 |- Action 200 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b7-b16) of Beam (b16).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b7-b16) of Beam (b16).
 |- Action 201 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b16) of Beam (b16).
@@ -974,7 +988,8 @@ Beam b17 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.91402257055kg for Beam('b17')
 |- Action 215 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b17') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b17')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b17')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b17')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b17')
 |- Action 216 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b7-b17) of Beam (b17).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b7-b17) of Beam (b17).
 |- Action 217 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b17) of Beam (b17).
@@ -1045,7 +1060,8 @@ Beam b18 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.2441527026kg for Beam('b18')
 |- Action 231 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b18') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b18')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b18')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b18')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b18')
 |- Action 232 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b7-b18) of Beam (b18).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b7-b18) of Beam (b18).
 |- Action 233 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b18) of Beam (b18).
@@ -1116,7 +1132,8 @@ Beam b19 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 25.9448954961kg for Beam('b19')
 |- Action 247 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b19') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b19')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b19')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b19')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b19')
 |- Action 248 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b19) of Beam (b19).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b19) of Beam (b19).
 |- Action 249 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b19) of Beam (b19).
@@ -1187,7 +1204,8 @@ Beam b20 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 22.8195314958kg for Beam('b20')
 |- Action 263 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b20') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b20')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b20')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b20')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b20')
 |- Action 264 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b20) of Beam (b20).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b20) of Beam (b20).
 |- Action 265 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b20) of Beam (b20).
@@ -1258,7 +1276,8 @@ Beam b21 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 20.6158047621kg for Beam('b21')
 |- Action 279 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b21') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b21')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b21')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b21')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b21')
 |- Action 280 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b21) of Beam (b21).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b21) of Beam (b21).
 |- Action 281 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b21) of Beam (b21).
@@ -1329,7 +1348,8 @@ Beam b22 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 19.6218329833kg for Beam('b22')
 |- Action 295 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b22') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b22')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b22')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b22')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b22')
 |- Action 296 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b14-b22) of Beam (b22).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b14-b22) of Beam (b22).
 |- Action 297 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b15-b22) of Beam (b22).
@@ -1400,7 +1420,8 @@ Beam b23 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 20.3007925876kg for Beam('b23')
 |- Action 311 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b23') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b23')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b23')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b23')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b23')
 |- Action 312 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b14-b23) of Beam (b23).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b14-b23) of Beam (b23).
 |- Action 313 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b15-b23) of Beam (b23).
@@ -1471,7 +1492,8 @@ Beam b24 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 22.2741410075kg for Beam('b24')
 |- Action 327 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b24') using Gripper (g2)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b24')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b24')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b24')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b24')
 |- Action 328 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b24) of Beam (b24).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b24) of Beam (b24).
 |- Action 329 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b24) of Beam (b24).
@@ -1542,7 +1564,8 @@ Beam b25 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 25.2324051741kg for Beam('b25')
 |- Action 343 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b25') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b25')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b25')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b25')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b25')
 |- Action 344 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b25) of Beam (b25).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b25) of Beam (b25).
 |- Action 345 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b25) of Beam (b25).
@@ -1613,7 +1636,8 @@ Beam b26 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 28.8855516703kg for Beam('b26')
 |- Action 359 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b26') using Gripper (g3)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b26')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b26')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b26')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b26')
 |- Action 360 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b15-b26) of Beam (b26).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b15-b26) of Beam (b26).
 |- Action 361 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b14-b26) of Beam (b26).
@@ -1685,7 +1709,8 @@ Beam b27 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 11.1369787230kg for Beam('b27')
 |- Action 375 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b27') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b27')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b27')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b27')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b27')
 |- Action 376 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b27) of Beam (b27).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b27) of Beam (b27).
 |- Action 377 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b27) of Beam (b27).
@@ -1760,7 +1785,8 @@ Beam b28 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.67479047271kg for Beam('b28')
 |- Action 391 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b28') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b28')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b28')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b28')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b28')
 |- Action 392 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b22-b28) of Beam (b28).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b22-b28) of Beam (b28).
 |- Action 393 (AssembleBeamWithScrewdriversAction): Place Beam ('b28') to Joint final location with clamps at ['b23-b28', 'b22-b28'] using Clamp ['s4', 's1']
@@ -1816,7 +1842,8 @@ Beam b29 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 11.4375851177kg for Beam('b29')
 |- Action 403 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b29') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b29')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b29')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b29')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b29')
 |- Action 404 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b29) of Beam (b29).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b29) of Beam (b29).
 |- Action 405 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b26-b29) of Beam (b29).
@@ -1891,7 +1918,8 @@ Beam b30 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.38168180902kg for Beam('b30')
 |- Action 419 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b30') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b30')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b30')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b30')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b30')
 |- Action 420 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b20-b30) of Beam (b30).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b20-b30) of Beam (b30).
 |- Action 421 (AssembleBeamWithScrewdriversAction): Place Beam ('b30') to Joint final location with clamps at ['b19-b30', 'b20-b30'] using Clamp ['s4', 's1']
@@ -1947,7 +1975,8 @@ Beam b31 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 13.0295397040kg for Beam('b31')
 |- Action 431 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b31') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b31')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b31')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b31')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b31')
 |- Action 432 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b31) of Beam (b31).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b31) of Beam (b31).
 |- Action 433 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b23-b31) of Beam (b31).
@@ -2041,7 +2070,8 @@ Beam b32 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.52286482113kg for Beam('b32')
 |- Action 451 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b32') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b32')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b32')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b32')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b32')
 |- Action 452 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b25-b32) of Beam (b32).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b25-b32) of Beam (b32).
 |- Action 453 (AssembleBeamWithScrewdriversAction): Place Beam ('b32') to Joint final location with clamps at ['b25-b32', 'b26-b32'] using Clamp ['s1', 's4']
@@ -2097,7 +2127,8 @@ Beam b33 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.3821446259kg for Beam('b33')
 |- Action 463 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b33') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b33')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b33')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b33')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b33')
 |- Action 464 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b33) of Beam (b33).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b33) of Beam (b33).
 |- Action 465 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b33) of Beam (b33).
@@ -2172,7 +2203,8 @@ Beam b34 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.32248694527kg for Beam('b34')
 |- Action 479 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b34') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b34')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b34')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b34')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b34')
 |- Action 480 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b22-b34) of Beam (b34).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b22-b34) of Beam (b34).
 |- Action 481 (AssembleBeamWithScrewdriversAction): Place Beam ('b34') to Joint final location with clamps at ['b23-b34', 'b22-b34'] using Clamp ['s4', 's1']
@@ -2228,7 +2260,8 @@ Beam b35 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.3832098924kg for Beam('b35')
 |- Action 491 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b35') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b35')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b35')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b35')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b35')
 |- Action 492 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b35) of Beam (b35).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b35) of Beam (b35).
 |- Action 493 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b26-b35) of Beam (b35).
@@ -2303,7 +2336,8 @@ Beam b36 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.06708953611kg for Beam('b36')
 |- Action 507 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b36') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b36')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b36')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b36')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b36')
 |- Action 508 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b20-b36) of Beam (b36).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b20-b36) of Beam (b36).
 |- Action 509 (AssembleBeamWithScrewdriversAction): Place Beam ('b36') to Joint final location with clamps at ['b19-b36', 'b20-b36'] using Clamp ['s4', 's1']
@@ -2359,7 +2393,8 @@ Beam b37 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 12.7599478151kg for Beam('b37')
 |- Action 519 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b37') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b37')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b37')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b37')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b37')
 |- Action 520 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b37) of Beam (b37).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b37) of Beam (b37).
 |- Action 521 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b23-b37) of Beam (b37).
@@ -2453,7 +2488,8 @@ Beam b38 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.96074468342kg for Beam('b38')
 |- Action 539 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b38') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b38')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b38')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b38')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b38')
 |- Action 540 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b25-b38) of Beam (b38).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b25-b38) of Beam (b38).
 |- Action 541 (AssembleBeamWithScrewdriversAction): Place Beam ('b38') to Joint final location with clamps at ['b25-b38', 'b26-b38'] using Clamp ['s1', 's4']
@@ -2509,7 +2545,8 @@ Beam b39 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.4408701304kg for Beam('b39')
 |- Action 551 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b39') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b39')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b39')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b39')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b39')
 |- Action 552 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b39) of Beam (b39).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b39) of Beam (b39).
 |- Action 553 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b39) of Beam (b39).
@@ -2584,7 +2621,8 @@ Beam b40 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.41178721781kg for Beam('b40')
 |- Action 567 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b40') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b40')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b40')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b40')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b40')
 |- Action 568 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b22-b40) of Beam (b40).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b22-b40) of Beam (b40).
 |- Action 569 (AssembleBeamWithScrewdriversAction): Place Beam ('b40') to Joint final location with clamps at ['b23-b40', 'b22-b40'] using Clamp ['s4', 's1']
@@ -2640,7 +2678,8 @@ Beam b41 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.1600474511kg for Beam('b41')
 |- Action 579 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b41') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b41')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b41')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b41')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b41')
 |- Action 580 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b41) of Beam (b41).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b41) of Beam (b41).
 |- Action 581 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b26-b41) of Beam (b41).
@@ -2715,7 +2754,8 @@ Beam b42 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.17592557682kg for Beam('b42')
 |- Action 595 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b42') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b42')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b42')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b42')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b42')
 |- Action 596 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b20-b42) of Beam (b42).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b20-b42) of Beam (b42).
 |- Action 597 (AssembleBeamWithScrewdriversAction): Place Beam ('b42') to Joint final location with clamps at ['b19-b42', 'b20-b42'] using Clamp ['s4', 's1']
@@ -2771,7 +2811,8 @@ Beam b43 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 14.1368201056kg for Beam('b43')
 |- Action 607 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b43') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b43')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b43')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b43')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b43')
 |- Action 608 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b43) of Beam (b43).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b43) of Beam (b43).
 |- Action 609 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b23-b43) of Beam (b43).
@@ -2865,7 +2906,8 @@ Beam b44 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.68788590992kg for Beam('b44')
 |- Action 627 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b44') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b44')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b44')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b44')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b44')
 |- Action 628 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b25-b44) of Beam (b44).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b25-b44) of Beam (b44).
 |- Action 629 (AssembleBeamWithScrewdriversAction): Place Beam ('b44') to Joint final location with clamps at ['b25-b44', 'b26-b44'] using Clamp ['s1', 's4']
@@ -2921,7 +2963,8 @@ Beam b45 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 12.4962219702kg for Beam('b45')
 |- Action 639 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b45') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b45')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b45')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b45')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b45')
 |- Action 640 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b45) of Beam (b45).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b45) of Beam (b45).
 |- Action 641 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b45) of Beam (b45).
@@ -2996,7 +3039,8 @@ Beam b46 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.40733187726kg for Beam('b46')
 |- Action 655 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b46') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b46')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b46')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b46')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b46')
 |- Action 656 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b22-b46) of Beam (b46).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b22-b46) of Beam (b46).
 |- Action 657 (AssembleBeamWithScrewdriversAction): Place Beam ('b46') to Joint final location with clamps at ['b23-b46', 'b22-b46'] using Clamp ['s4', 's1']
@@ -3052,7 +3096,8 @@ Beam b47 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 13.2341829201kg for Beam('b47')
 |- Action 667 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b47') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b47')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b47')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b47')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b47')
 |- Action 668 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b47) of Beam (b47).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b47) of Beam (b47).
 |- Action 669 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b26-b47) of Beam (b47).
@@ -3127,7 +3172,8 @@ Beam b48 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.39176062326kg for Beam('b48')
 |- Action 683 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b48') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b48')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b48')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b48')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b48')
 |- Action 684 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b20-b48) of Beam (b48).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b20-b48) of Beam (b48).
 |- Action 685 (AssembleBeamWithScrewdriversAction): Place Beam ('b48') to Joint final location with clamps at ['b19-b48', 'b20-b48'] using Clamp ['s4', 's1']
@@ -3183,7 +3229,8 @@ Beam b49 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 13.3777419414kg for Beam('b49')
 |- Action 695 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b49') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b49')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b49')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b49')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b49')
 |- Action 696 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b49) of Beam (b49).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b49) of Beam (b49).
 |- Action 697 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b23-b49) of Beam (b49).
@@ -3277,7 +3324,8 @@ Beam b50 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.91870229664kg for Beam('b50')
 |- Action 715 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b50') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b50')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b50')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b50')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b50')
 |- Action 716 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b25-b50) of Beam (b50).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b25-b50) of Beam (b50).
 |- Action 717 (AssembleBeamWithScrewdriversAction): Place Beam ('b50') to Joint final location with clamps at ['b25-b50', 'b26-b50'] using Clamp ['s1', 's4']
@@ -3333,7 +3381,8 @@ Beam b51 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 11.2469166182kg for Beam('b51')
 |- Action 727 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b51') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b51')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b51')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b51')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b51')
 |- Action 728 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b19-b51) of Beam (b51).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b19-b51) of Beam (b51).
 |- Action 729 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b21-b51) of Beam (b51).
@@ -3408,7 +3457,8 @@ Beam b52 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 6.92572322596kg for Beam('b52')
 |- Action 743 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b52') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b52')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b52')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b52')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b52')
 |- Action 744 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b22-b52) of Beam (b52).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b22-b52) of Beam (b52).
 |- Action 745 (AssembleBeamWithScrewdriversAction): Place Beam ('b52') to Joint final location with clamps at ['b23-b52', 'b22-b52'] using Clamp ['s4', 's1']
@@ -3464,7 +3514,8 @@ Beam b53 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 10.5835268777kg for Beam('b53')
 |- Action 755 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b53') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b53')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b53')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b53')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b53')
 |- Action 756 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b53) of Beam (b53).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b53) of Beam (b53).
 |- Action 757 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b26-b53) of Beam (b53).
@@ -3539,7 +3590,8 @@ Beam b54 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 8.15141312149kg for Beam('b54')
 |- Action 771 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b54') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b54')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b54')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b54')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b54')
 |- Action 772 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b20-b54) of Beam (b54).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b20-b54) of Beam (b54).
 |- Action 773 (AssembleBeamWithScrewdriversAction): Place Beam ('b54') to Joint final location with clamps at ['b19-b54', 'b20-b54'] using Clamp ['s4', 's1']
@@ -3595,7 +3647,8 @@ Beam b55 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 14.7725899404kg for Beam('b55')
 |- Action 783 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b55') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b55')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b55')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b55')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b55')
 |- Action 784 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b24-b55) of Beam (b55).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b24-b55) of Beam (b55).
 |- Action 785 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s2') to Joint (b23-b55) of Beam (b55).
@@ -3689,7 +3742,8 @@ Beam b56 assembly
 |  |- <x> Movement 1 (SetWorkpieceWeight): Set Workpiece Weight to 7.22540926279kg for Beam('b56')
 |- Action 803 (PickAndRotateBeamForAttachingScrewdriverAction): Reorient Beam ('b56') using Gripper (s4)
 |  |- <0> Movement 0 (RoboticLinearMovement): Linear Move to lift up Beam ('b56')
-|  |- <0> Movement 1 (RoboticFreeMovement): Free Move to reorient Beam ('b56')
+|  |- <0> Movement 1 (RoboticLinearMovement): Linear Move to intermediate position before reorienting Beam ('b56')
+|  |- <0> Movement 2 (RoboticLinearMovement): Final Move to reorient Beam ('b56')
 |- Action 804 (OperatorAttachScrewdriverAction): Operator attach SL1 ('s1') to Joint (b25-b56) of Beam (b56).
 |  |- <x> Movement 0 (OperatorAttachToolMovement): Opeartor Attach SL1 ('s1') to Joint (b25-b56) of Beam (b56).
 |- Action 805 (AssembleBeamWithScrewdriversAction): Place Beam ('b56') to Joint final location with clamps at ['b25-b56', 'b26-b56'] using Clamp ['s1', 's4']
