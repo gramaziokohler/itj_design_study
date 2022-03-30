@@ -412,3 +412,112 @@
 2022-03-18 07:37:35,933 | itj_planning | INFO | Beam b56 | nonlinear | Trail #1 | time elapsed 131.63
 2022-03-18 07:43:21,001 | itj_planning | INFO | Return success: True | runtime of current attempt: 345.1
 2022-03-18 07:43:21,033 | itj_planning | INFO | Planning done.
+2022-03-30 14:58:04,197 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A183_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 14:58:05,981 | itj_planning | INFO | [36mSolving for movement #(629) A183_M0[0m
+2022-03-30 14:58:12,762 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-30 14:58:12,843 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-30 14:58:12,924 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-30 14:58:13,002 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-30 14:58:13,087 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-30 14:58:13,174 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-30 14:58:13,266 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-30 14:58:13,364 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-30 14:58:27,075 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-30 14:58:27,076 | itj_planning | INFO | Computing only for A183_M0
+2022-03-30 14:58:44,553 | itj_planning | INFO | Return success: True | runtime of current attempt: 17.5
+2022-03-30 14:58:44,556 | itj_planning | INFO | Planning done.
+2022-03-30 14:59:22,278 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A183_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 14:59:23,866 | itj_planning | INFO | [36mSolving for movement #(630) A183_M1[0m
+2022-03-30 14:59:30,631 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-30 14:59:30,705 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-30 14:59:30,786 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-30 14:59:30,863 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-30 14:59:30,937 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-30 14:59:31,019 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-30 14:59:31,108 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-30 14:59:31,200 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-30 14:59:44,351 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 14:59:44,352 | itj_planning | INFO | Computing only for A183_M1
+2022-03-30 15:00:02,602 | itj_planning | INFO | Return success: True | runtime of current attempt: 18.3
+2022-03-30 15:00:02,605 | itj_planning | INFO | Planning done.
+2022-03-30 15:00:33,600 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:00:35,238 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-30 15:00:41,909 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-30 15:00:41,972 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-30 15:00:42,041 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-30 15:00:42,112 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-30 15:00:42,188 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-30 15:00:42,269 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-30 15:00:42,356 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-30 15:00:42,447 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-30 15:00:55,496 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 15:00:55,497 | itj_planning | INFO | Computing only for A183_M2
+2022-03-30 15:02:03,635 | itj_planning | INFO | Return success: True | runtime of current attempt: 68.1
+2022-03-30 15:02:03,638 | itj_planning | INFO | Planning done.
+2022-03-30 15:06:16,060 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:06:17,672 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-30 15:06:24,790 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-30 15:06:24,856 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-30 15:06:24,930 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-30 15:06:25,005 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-30 15:06:25,080 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-30 15:06:25,161 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-30 15:06:25,250 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-30 15:06:25,340 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-30 15:06:38,715 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 15:06:38,715 | itj_planning | INFO | Computing only for A183_M2
+2022-03-30 15:09:13,019 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-30 15:09:13,019 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-30 15:09:13,020 | itj_planning | INFO | Return success: False | runtime of current attempt: 154.3
+2022-03-30 15:09:13,060 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 154.45
+2022-03-30 15:09:13,060 | itj_planning | INFO | Computing only for A183_M2
+2022-03-30 15:10:45,533 | itj_planning | INFO | Return success: True | runtime of current attempt: 92.5
+2022-03-30 15:10:45,537 | itj_planning | INFO | Planning done.
+2022-03-30 15:15:01,048 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A186_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:15:02,645 | itj_planning | INFO | [36mSolving for movement #(635) A186_M1[0m
+2022-03-30 15:15:22,397 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 15:15:22,398 | itj_planning | INFO | Computing only for A186_M1
+2022-03-30 15:15:40,701 | itj_planning | INFO | Return success: True | runtime of current attempt: 18.3
+2022-03-30 15:15:40,703 | itj_planning | INFO | Planning done.
+2022-03-30 15:16:43,198 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A186_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:16:44,903 | itj_planning | INFO | [36mSolving for movement #(635) A186_M1[0m
+2022-03-30 15:17:30,716 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A186_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[1.8, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:17:32,315 | itj_planning | INFO | [36mSolving for movement #(635) A186_M1[0m
+2022-03-30 15:17:52,122 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-30 15:17:52,122 | itj_planning | INFO | Computing only for A186_M1
+2022-03-30 15:18:09,209 | itj_planning | INFO | Return success: True | runtime of current attempt: 17.1
+2022-03-30 15:18:09,212 | itj_planning | INFO | Planning done.
+2022-03-30 15:18:28,903 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A186_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[1.8, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:18:30,516 | itj_planning | INFO | [36mSolving for movement #(635) A186_M1[0m
+2022-03-30 15:18:50,977 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-30 15:18:50,978 | itj_planning | INFO | Computing only for A186_M1
+2022-03-30 15:19:10,894 | itj_planning | INFO | Return success: True | runtime of current attempt: 19.9
+2022-03-30 15:19:10,897 | itj_planning | INFO | Planning done.
+2022-03-30 15:26:32,442 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=True, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=[15], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:26:34,049 | itj_planning | INFO | [36mSolving for beam ['b15'][0m
+2022-03-30 15:26:54,442 | itj_planning | INFO | Beam b15 | nonlinear | Trail #0 | time elapsed 0.03
+2022-03-30 15:26:59,620 | itj_planning | ERROR | [33mRoboticLinearMovement(#A194_M4, Linear Retract after placing SL1 ('s1') in storage, has_traj False) has both start, end conf specified, but no traj computed. This is BAD!![0m
+2022-03-30 15:27:04,356 | itj_planning | ERROR | [33mRoboticLinearMovement(#A194_M4, Linear Retract after placing SL1 ('s1') in storage, has_traj False) has both start, end conf specified, but no traj computed. This is BAD!![0m
+2022-03-30 15:27:04,359 | itj_planning | ERROR | [33mRoboticLinearMovement(#A194_M4, Linear Retract after placing SL1 ('s1') in storage, has_traj False) has both start, end conf specified, but no traj computed. This is BAD!![0m
+2022-03-30 15:37:09,567 | itj_planning | INFO | Return success: True | runtime of current attempt: 615.1
+2022-03-30 15:37:09,598 | itj_planning | INFO | Planning done.
+2022-03-30 15:43:40,263 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A194_M4', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:43:41,889 | itj_planning | INFO | [36mSolving for movement #(672) A194_M4[0m
+2022-03-30 15:43:48,595 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-03-30 15:43:48,658 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-03-30 15:43:48,726 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-03-30 15:43:48,796 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-03-30 15:43:48,868 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-03-30 15:43:48,947 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-03-30 15:43:49,030 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-03-30 15:43:49,116 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-03-30 15:44:03,101 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 15:44:03,101 | itj_planning | INFO | Computing only for A194_M4
+2022-03-30 15:44:22,070 | itj_planning | INFO | Return success: True | runtime of current attempt: 19.0
+2022-03-30 15:44:22,072 | itj_planning | INFO | Planning done.
+2022-03-30 15:44:34,874 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A195_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 15:44:36,536 | itj_planning | INFO | [36mSolving for movement #(673) A195_M0[0m
+2022-03-30 15:44:57,029 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.12
+2022-03-30 15:44:57,030 | itj_planning | INFO | Computing only for A195_M0
+2022-03-30 15:45:54,713 | itj_planning | INFO | Return success: True | runtime of current attempt: 57.7
+2022-03-30 15:45:54,716 | itj_planning | INFO | Planning done.
