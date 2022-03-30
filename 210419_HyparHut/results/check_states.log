@@ -16,3 +16,9 @@
 2022-03-30 15:51:55,474 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
 2022-03-30 15:52:02,327 | itj_planning | INFO | [36mChecking for beam ['b16'][0m
 2022-03-30 15:55:41,229 | itj_planning | INFO | Congrats, check state done!
+2022-03-30 16:12:46,101 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=False, seq_n=[16], skip_state_collision_check=False, traj_collision=False, verify_plan=True, viewer=False)
+2022-03-30 16:12:47,418 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-30 16:25:58,901 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='210419_HyparHut', movement_id=None, plan_summary=False, problem='Shelter_process.json', problem_subdir='results', reinit_tool=False, seq_n=[14], skip_state_collision_check=False, traj_collision=False, verify_plan=True, viewer=False)
+2022-03-30 16:26:00,223 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\210419_HyparHut\results
+2022-03-30 16:26:07,405 | itj_planning | INFO | [36mChecking for beam ['b14'][0m
+2022-03-30 16:30:37,381 | itj_planning | INFO | Congrats, check state done!

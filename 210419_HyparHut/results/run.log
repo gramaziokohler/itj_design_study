@@ -521,3 +521,49 @@
 2022-03-30 15:44:57,030 | itj_planning | INFO | Computing only for A195_M0
 2022-03-30 15:45:54,713 | itj_planning | INFO | Return success: True | runtime of current attempt: 57.7
 2022-03-30 15:45:54,716 | itj_planning | INFO | Planning done.
+2022-03-30 16:10:15,826 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:10:17,446 | itj_planning | INFO | [36mSolving for movement #(567) A167_M1[0m
+2022-03-30 16:10:38,088 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-30 16:10:38,088 | itj_planning | INFO | Computing only for A167_M1
+2022-03-30 16:10:56,175 | itj_planning | INFO | Return success: True | runtime of current attempt: 18.1
+2022-03-30 16:10:56,177 | itj_planning | INFO | Planning done.
+2022-03-30 16:12:54,903 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:12:56,555 | itj_planning | INFO | [36mSolving for movement #(567) A167_M1[0m
+2022-03-30 16:13:17,300 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 16:13:17,301 | itj_planning | INFO | Computing only for A167_M1
+2022-03-30 16:13:35,135 | itj_planning | INFO | Return success: True | runtime of current attempt: 17.8
+2022-03-30 16:13:35,138 | itj_planning | INFO | Planning done.
+2022-03-30 16:14:13,076 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:14:14,696 | itj_planning | INFO | [36mSolving for movement #(567) A167_M1[0m
+2022-03-30 16:14:34,586 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 16:14:34,587 | itj_planning | INFO | Computing only for A167_M1
+2022-03-30 16:14:53,614 | itj_planning | INFO | Return success: True | runtime of current attempt: 19.0
+2022-03-30 16:14:53,617 | itj_planning | INFO | Planning done.
+2022-03-30 16:15:19,610 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:15:21,215 | itj_planning | INFO | [36mSolving for movement #(568) A167_M2[0m
+2022-03-30 16:15:41,743 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 16:15:41,744 | itj_planning | INFO | Computing only for A167_M2
+2022-03-30 16:16:00,414 | itj_planning | INFO | Return success: True | runtime of current attempt: 18.7
+2022-03-30 16:16:00,417 | itj_planning | INFO | Planning done.
+2022-03-30 16:17:22,994 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A168_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:17:24,603 | itj_planning | INFO | [36mSolving for movement #(572) A168_M2[0m
+2022-03-30 16:17:44,249 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-30 16:17:44,250 | itj_planning | INFO | Computing only for A168_M2
+2022-03-30 16:18:02,077 | itj_planning | INFO | Return success: True | runtime of current attempt: 17.8
+2022-03-30 16:18:02,077 | itj_planning | INFO | Planning done.
+2022-03-30 16:18:26,561 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M0,A169_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:18:33,944 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A167_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:18:35,602 | itj_planning | INFO | [36mSolving for movement #(566) A167_M0[0m
+2022-03-30 16:18:55,902 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.10
+2022-03-30 16:18:55,903 | itj_planning | INFO | Computing only for A167_M0
+2022-03-30 16:21:20,498 | itj_planning | INFO | Return success: True | runtime of current attempt: 144.6
+2022-03-30 16:21:20,501 | itj_planning | INFO | Planning done.
+2022-03-30 16:21:29,830 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A169_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-30 16:21:31,495 | itj_planning | INFO | [36mSolving for movement #(573) A169_M0[0m
+2022-03-30 16:21:53,607 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.11
+2022-03-30 16:21:53,608 | itj_planning | INFO | Computing only for A169_M0
+2022-03-30 16:24:17,878 | itj_planning | INFO | Return success: True | runtime of current attempt: 144.3
+2022-03-30 16:24:17,880 | itj_planning | INFO | Planning done.
+2022-03-31 00:13:32,053 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A202_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-31 00:13:33,866 | itj_planning | INFO | [36mSolving for movement #(688) A202_M0[0m
+2022-03-31 00:13:56,234 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.11
