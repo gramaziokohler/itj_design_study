@@ -570,3 +570,125 @@
 2022-03-31 00:13:56,235 | itj_planning | INFO | Computing only for A202_M0
 2022-03-31 00:16:09,107 | itj_planning | INFO | Return success: True | runtime of current attempt: 132.9
 2022-03-31 00:16:09,110 | itj_planning | INFO | Planning done.
+2022-04-01 01:52:22,903 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=[24, 25], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 01:52:24,635 | itj_planning | INFO | [36mSolving for beam ['b24', 'b25'][0m
+2022-04-01 01:52:53,582 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[24, 25], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 01:52:55,244 | itj_planning | INFO | [36mSolving for beam ['b24', 'b25'][0m
+2022-04-01 01:52:59,498 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-01 01:52:59,565 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-01 01:52:59,639 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-01 01:52:59,717 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-01 01:52:59,795 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-01 01:52:59,879 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-01 01:52:59,967 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-01 01:53:00,063 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-01 01:53:07,610 | itj_planning | INFO | Beam b24 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 02:03:49,061 | itj_planning | INFO | Return success: True | runtime of current attempt: 641.5
+2022-04-01 02:03:57,499 | itj_planning | INFO | Beam b25 | nonlinear | Trail #0 | time elapsed 0.04
+2022-04-01 02:06:50,984 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:06:50,985 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:06:50,986 | itj_planning | INFO | Return success: False | runtime of current attempt: 173.5
+2022-04-01 02:06:51,066 | itj_planning | INFO | Beam b25 | nonlinear | Trail #1 | time elapsed 173.60
+2022-04-01 02:09:53,767 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:09:53,767 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:09:53,767 | itj_planning | INFO | Return success: False | runtime of current attempt: 182.7
+2022-04-01 02:09:53,841 | itj_planning | INFO | Beam b25 | nonlinear | Trail #2 | time elapsed 356.38
+2022-04-01 02:15:15,078 | itj_planning | INFO | No plan found for A348_M0 | RoboticFreeMovement(#A348_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-04-01 02:15:15,079 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:15:15,079 | itj_planning | INFO | Return success: False | runtime of current attempt: 321.2
+2022-04-01 02:15:15,147 | itj_planning | INFO | Beam b25 | nonlinear | Trail #3 | time elapsed 677.69
+2022-04-01 02:19:00,152 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:19:00,153 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:19:00,155 | itj_planning | INFO | Return success: False | runtime of current attempt: 225.0
+2022-04-01 02:19:00,226 | itj_planning | INFO | Beam b25 | nonlinear | Trail #4 | time elapsed 902.77
+2022-04-01 02:19:13,024 | itj_planning | INFO | No plan found for A350_M3 | RoboticLinearMovement(#A350_M3, Linear retract after picking up Screwdriver ('s2'), has_traj False)
+2022-04-01 02:19:13,024 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=25) beam b25!
+2022-04-01 02:19:13,025 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.8
+2022-04-01 02:19:13,099 | itj_planning | INFO | Beam b25 | nonlinear | Trail #5 | time elapsed 915.64
+2022-04-01 02:22:39,227 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:22:39,227 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:22:39,228 | itj_planning | INFO | Return success: False | runtime of current attempt: 206.1
+2022-04-01 02:22:39,306 | itj_planning | INFO | Beam b25 | nonlinear | Trail #6 | time elapsed 1121.85
+2022-04-01 02:26:40,985 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:26:40,985 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:26:40,986 | itj_planning | INFO | Return success: False | runtime of current attempt: 241.7
+2022-04-01 02:26:41,063 | itj_planning | INFO | Beam b25 | nonlinear | Trail #7 | time elapsed 1363.60
+2022-04-01 02:29:38,455 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:29:38,456 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:29:38,457 | itj_planning | INFO | Return success: False | runtime of current attempt: 177.4
+2022-04-01 02:29:38,522 | itj_planning | INFO | Beam b25 | nonlinear | Trail #8 | time elapsed 1541.06
+2022-04-01 02:29:56,050 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=800, seq_n=[25, 26], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 02:29:57,760 | itj_planning | INFO | [36mSolving for beam ['b25', 'b26'][0m
+2022-04-01 02:30:02,164 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-01 02:30:02,233 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-01 02:30:02,305 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-01 02:30:02,374 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-01 02:30:02,447 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-01 02:30:02,530 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-01 02:30:02,616 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-01 02:30:02,711 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-01 02:30:10,570 | itj_planning | INFO | Beam b25 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 02:35:30,755 | itj_planning | INFO | No plan found for A346_M0 | RoboticFreeMovement(#A346_M0, Free Move to bring Beam ('b25') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:35:30,756 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=25) beam b25!
+2022-04-01 02:35:30,757 | itj_planning | INFO | Return success: False | runtime of current attempt: 320.2
+2022-04-01 02:35:30,826 | itj_planning | INFO | Beam b25 | nonlinear | Trail #1 | time elapsed 320.29
+2022-04-01 02:46:56,535 | itj_planning | INFO | Return success: True | runtime of current attempt: 685.7
+2022-04-01 02:47:05,520 | itj_planning | INFO | Beam b26 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 02:52:40,640 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:52:40,640 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 02:52:40,641 | itj_planning | INFO | Return success: False | runtime of current attempt: 335.1
+2022-04-01 02:52:40,722 | itj_planning | INFO | Beam b26 | nonlinear | Trail #1 | time elapsed 335.23
+2022-04-01 02:59:23,917 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 02:59:23,918 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 02:59:23,919 | itj_planning | INFO | Return success: False | runtime of current attempt: 403.2
+2022-04-01 02:59:23,988 | itj_planning | INFO | Beam b26 | nonlinear | Trail #2 | time elapsed 738.50
+2022-04-01 03:06:50,216 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:06:50,217 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:06:50,218 | itj_planning | INFO | Return success: False | runtime of current attempt: 446.2
+2022-04-01 03:06:50,287 | itj_planning | INFO | Beam b26 | nonlinear | Trail #3 | time elapsed 1184.80
+2022-04-01 03:13:07,898 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:13:07,899 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:13:07,900 | itj_planning | INFO | Return success: False | runtime of current attempt: 377.6
+2022-04-01 03:13:07,974 | itj_planning | INFO | Beam b26 | nonlinear | Trail #4 | time elapsed 1562.49
+2022-04-01 03:19:07,978 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:19:07,979 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:19:07,980 | itj_planning | INFO | Return success: False | runtime of current attempt: 360.0
+2022-04-01 03:19:08,058 | itj_planning | INFO | Beam b26 | nonlinear | Trail #5 | time elapsed 1922.57
+2022-04-01 03:25:07,428 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:25:07,429 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:25:07,430 | itj_planning | INFO | Return success: False | runtime of current attempt: 359.4
+2022-04-01 03:25:07,507 | itj_planning | INFO | Beam b26 | nonlinear | Trail #6 | time elapsed 2282.02
+2022-04-01 03:32:04,570 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:32:04,571 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:32:04,572 | itj_planning | INFO | Return success: False | runtime of current attempt: 417.1
+2022-04-01 03:32:04,646 | itj_planning | INFO | Beam b26 | nonlinear | Trail #7 | time elapsed 2699.16
+2022-04-01 03:38:22,725 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:38:22,725 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:38:22,726 | itj_planning | INFO | Return success: False | runtime of current attempt: 378.1
+2022-04-01 03:38:22,796 | itj_planning | INFO | Beam b26 | nonlinear | Trail #8 | time elapsed 3077.31
+2022-04-01 03:45:08,676 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:45:08,677 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:45:08,678 | itj_planning | INFO | Return success: False | runtime of current attempt: 405.9
+2022-04-01 03:45:08,762 | itj_planning | INFO | Beam b26 | nonlinear | Trail #9 | time elapsed 3483.27
+2022-04-01 03:47:40,422 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[25, 26], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 03:48:12,422 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[26], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 03:48:14,162 | itj_planning | INFO | [36mSolving for beam ['b26'][0m
+2022-04-01 03:48:18,782 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-01 03:48:18,851 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-01 03:48:18,927 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-01 03:48:19,002 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-01 03:48:19,077 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-01 03:48:19,165 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-01 03:48:19,258 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-01 03:48:19,349 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-01 03:48:27,761 | itj_planning | INFO | Beam b26 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 03:52:04,978 | itj_planning | INFO | No plan found for A362_M0 | RoboticFreeMovement(#A362_M0, Free Move to bring Beam ('b26') to assemble_approach position on structure., has_traj False)
+2022-04-01 03:52:04,979 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:52:04,979 | itj_planning | INFO | Return success: False | runtime of current attempt: 217.2
+2022-04-01 03:52:05,057 | itj_planning | INFO | Beam b26 | nonlinear | Trail #1 | time elapsed 217.33
+2022-04-01 03:55:43,144 | itj_planning | INFO | No plan found for A364_M0 | RoboticFreeMovement(#A364_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-04-01 03:55:43,144 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b26!
+2022-04-01 03:55:43,145 | itj_planning | INFO | Return success: False | runtime of current attempt: 218.1
+2022-04-01 03:55:43,213 | itj_planning | INFO | Beam b26 | nonlinear | Trail #2 | time elapsed 435.48
+2022-04-01 04:09:51,146 | itj_planning | INFO | Return success: True | runtime of current attempt: 847.9
+2022-04-01 04:09:51,189 | itj_planning | INFO | Planning done.
