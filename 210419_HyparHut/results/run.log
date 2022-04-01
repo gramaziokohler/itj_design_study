@@ -692,3 +692,154 @@
 2022-04-01 03:55:43,213 | itj_planning | INFO | Beam b26 | nonlinear | Trail #2 | time elapsed 435.48
 2022-04-01 04:09:51,146 | itj_planning | INFO | Return success: True | runtime of current attempt: 847.9
 2022-04-01 04:09:51,189 | itj_planning | INFO | Planning done.
+2022-04-01 06:17:38,360 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=[27, 56], solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-01 06:17:40,007 | itj_planning | INFO | [36mSolving for beam ['b27', 'b28', 'b29', 'b30', 'b31', 'b32', 'b33', 'b34', 'b35', 'b36', 'b37', 'b38', 'b39', 'b40', 'b41', 'b42', 'b43', 'b44', 'b45', 'b46', 'b47', 'b48', 'b49', 'b50', 'b51', 'b52', 'b53', 'b54', 'b55', 'b56'][0m
+2022-04-01 06:17:45,692 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-01 06:17:45,771 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-01 06:17:45,835 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-01 06:17:45,913 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-01 06:17:45,977 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-01 06:17:46,055 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-01 06:17:46,149 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-01 06:17:46,227 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-01 06:17:54,261 | itj_planning | INFO | Beam b27 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 06:22:38,323 | itj_planning | INFO | Return success: True | runtime of current attempt: 284.1
+2022-04-01 06:22:47,163 | itj_planning | INFO | Beam b28 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 06:29:34,477 | itj_planning | INFO | Return success: True | runtime of current attempt: 407.3
+2022-04-01 06:29:43,978 | itj_planning | INFO | Beam b29 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-01 06:33:06,855 | itj_planning | INFO | No plan found for A406_M0 | RoboticFreeMovement(#A406_M0, Free Move to bring Beam ('b29') to assemble_approach position on structure., has_traj False)
+2022-04-01 06:33:06,855 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=29) beam b29!
+2022-04-01 06:33:06,855 | itj_planning | INFO | Return success: False | runtime of current attempt: 202.9
+2022-04-01 06:33:06,950 | itj_planning | INFO | Beam b29 | nonlinear | Trail #1 | time elapsed 202.99
+2022-04-01 06:41:12,161 | itj_planning | INFO | Return success: True | runtime of current attempt: 485.2
+2022-04-01 06:41:22,061 | itj_planning | INFO | Beam b30 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-01 06:47:38,591 | itj_planning | INFO | Return success: True | runtime of current attempt: 376.5
+2022-04-01 06:47:48,796 | itj_planning | INFO | Beam b31 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 06:51:33,796 | itj_planning | INFO | No plan found for A437_M0 | RoboticFreeMovement(#A437_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., has_traj False)
+2022-04-01 06:51:33,796 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=31) beam b31!
+2022-04-01 06:51:33,796 | itj_planning | INFO | Return success: False | runtime of current attempt: 225.0
+2022-04-01 06:51:33,890 | itj_planning | INFO | Beam b31 | nonlinear | Trail #1 | time elapsed 225.13
+2022-04-01 07:00:29,823 | itj_planning | INFO | Return success: True | runtime of current attempt: 535.9
+2022-04-01 07:00:40,480 | itj_planning | INFO | Beam b32 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 07:08:47,295 | itj_planning | INFO | Return success: True | runtime of current attempt: 486.8
+2022-04-01 07:08:57,785 | itj_planning | INFO | Beam b33 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 07:13:11,226 | itj_planning | INFO | Return success: True | runtime of current attempt: 253.4
+2022-04-01 07:13:21,984 | itj_planning | INFO | Beam b34 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-01 07:18:44,413 | itj_planning | INFO | Return success: True | runtime of current attempt: 322.4
+2022-04-01 07:18:55,133 | itj_planning | INFO | Beam b35 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 07:21:35,906 | itj_planning | INFO | No plan found for A494_M0 | RoboticFreeMovement(#A494_M0, Free Move to bring Beam ('b35') to assemble_approach position on structure., has_traj False)
+2022-04-01 07:21:35,906 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=35) beam b35!
+2022-04-01 07:21:35,906 | itj_planning | INFO | Return success: False | runtime of current attempt: 160.8
+2022-04-01 07:21:36,001 | itj_planning | INFO | Beam b35 | nonlinear | Trail #1 | time elapsed 160.90
+2022-04-01 07:27:04,187 | itj_planning | INFO | No plan found for A499_M0 | RoboticFreeMovement(#A499_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., has_traj False)
+2022-04-01 07:27:04,187 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=35) beam b35!
+2022-04-01 07:27:04,187 | itj_planning | INFO | Return success: False | runtime of current attempt: 328.2
+2022-04-01 07:27:04,281 | itj_planning | INFO | Beam b35 | nonlinear | Trail #2 | time elapsed 489.18
+2022-04-01 07:36:51,375 | itj_planning | INFO | Return success: True | runtime of current attempt: 587.1
+2022-04-01 07:37:02,440 | itj_planning | INFO | Beam b36 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 07:41:57,700 | itj_planning | INFO | Return success: True | runtime of current attempt: 295.3
+2022-04-01 07:42:09,185 | itj_planning | INFO | Beam b37 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 07:44:44,581 | itj_planning | INFO | No plan found for A523_M0 | RoboticFreeMovement(#A523_M0, Free Move to bring Beam ('b37') to assemble_approach position on structure., has_traj False)
+2022-04-01 07:44:44,581 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=37) beam b37!
+2022-04-01 07:44:44,596 | itj_planning | INFO | Return success: False | runtime of current attempt: 155.4
+2022-04-01 07:44:44,690 | itj_planning | INFO | Beam b37 | nonlinear | Trail #1 | time elapsed 155.54
+2022-04-01 07:53:13,893 | itj_planning | INFO | Return success: True | runtime of current attempt: 509.2
+2022-04-01 07:53:25,724 | itj_planning | INFO | Beam b38 | nonlinear | Trail #0 | time elapsed 0.05
+2022-04-01 07:59:56,436 | itj_planning | INFO | Return success: True | runtime of current attempt: 390.7
+2022-04-01 08:00:08,321 | itj_planning | INFO | Beam b39 | nonlinear | Trail #0 | time elapsed 0.05
+2022-04-01 08:05:48,188 | itj_planning | INFO | Return success: True | runtime of current attempt: 339.9
+2022-04-01 08:06:00,534 | itj_planning | INFO | Beam b40 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 08:12:38,549 | itj_planning | INFO | Return success: True | runtime of current attempt: 398.0
+2022-04-01 08:12:50,938 | itj_planning | INFO | Beam b41 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 08:15:05,065 | itj_planning | INFO | No plan found for A582_M0 | RoboticFreeMovement(#A582_M0, Free Move to bring Beam ('b41') to assemble_approach position on structure., has_traj False)
+2022-04-01 08:15:05,065 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=41) beam b41!
+2022-04-01 08:15:05,065 | itj_planning | INFO | Return success: False | runtime of current attempt: 134.1
+2022-04-01 08:15:05,159 | itj_planning | INFO | Beam b41 | nonlinear | Trail #1 | time elapsed 134.25
+2022-04-01 08:25:08,562 | itj_planning | INFO | Return success: True | runtime of current attempt: 603.4
+2022-04-01 08:25:20,634 | itj_planning | INFO | Beam b42 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 08:33:47,809 | itj_planning | INFO | Return success: True | runtime of current attempt: 507.2
+2022-04-01 08:34:00,405 | itj_planning | INFO | Beam b43 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 08:36:43,080 | itj_planning | INFO | No plan found for A611_M0 | RoboticFreeMovement(#A611_M0, Free Move to bring Beam ('b43') to assemble_approach position on structure., has_traj False)
+2022-04-01 08:36:43,080 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=43) beam b43!
+2022-04-01 08:36:43,080 | itj_planning | INFO | Return success: False | runtime of current attempt: 162.7
+2022-04-01 08:36:43,174 | itj_planning | INFO | Beam b43 | nonlinear | Trail #1 | time elapsed 162.80
+2022-04-01 08:49:30,551 | itj_planning | INFO | Return success: True | runtime of current attempt: 767.4
+2022-04-01 08:49:43,342 | itj_planning | INFO | Beam b44 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 08:55:35,754 | itj_planning | INFO | Return success: True | runtime of current attempt: 352.4
+2022-04-01 08:55:48,812 | itj_planning | INFO | Beam b45 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 09:01:32,814 | itj_planning | INFO | Return success: True | runtime of current attempt: 344.0
+2022-04-01 09:01:46,104 | itj_planning | INFO | Beam b46 | nonlinear | Trail #0 | time elapsed 0.05
+2022-04-01 09:11:31,202 | itj_planning | INFO | Return success: True | runtime of current attempt: 585.1
+2022-04-01 09:11:44,429 | itj_planning | INFO | Beam b47 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 09:14:42,090 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:14:42,090 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:14:42,090 | itj_planning | INFO | Return success: False | runtime of current attempt: 177.7
+2022-04-01 09:14:42,184 | itj_planning | INFO | Beam b47 | nonlinear | Trail #1 | time elapsed 177.79
+2022-04-01 09:14:44,518 | itj_planning | INFO | No plan found for A671_M2 | RobotScrewdriverSyncLinearMovement(#A671_M2, Robot and Screwdriver (s4) syncronously move to retract from Joint ('b25-b47'), has_traj False)
+2022-04-01 09:14:44,523 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=47) beam b47!
+2022-04-01 09:14:44,523 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.3
+2022-04-01 09:14:44,603 | itj_planning | INFO | Beam b47 | nonlinear | Trail #2 | time elapsed 180.21
+2022-04-01 09:17:35,191 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:17:35,191 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:17:35,199 | itj_planning | INFO | Return success: False | runtime of current attempt: 170.6
+2022-04-01 09:17:35,270 | itj_planning | INFO | Beam b47 | nonlinear | Trail #3 | time elapsed 350.87
+2022-04-01 09:20:05,017 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:20:05,017 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:20:05,033 | itj_planning | INFO | Return success: False | runtime of current attempt: 149.8
+2022-04-01 09:20:05,111 | itj_planning | INFO | Beam b47 | nonlinear | Trail #4 | time elapsed 500.71
+2022-04-01 09:22:29,793 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:22:29,793 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:22:29,793 | itj_planning | INFO | Return success: False | runtime of current attempt: 144.7
+2022-04-01 09:22:29,888 | itj_planning | INFO | Beam b47 | nonlinear | Trail #5 | time elapsed 645.49
+2022-04-01 09:25:34,435 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:25:34,435 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:25:34,451 | itj_planning | INFO | Return success: False | runtime of current attempt: 184.6
+2022-04-01 09:25:34,529 | itj_planning | INFO | Beam b47 | nonlinear | Trail #6 | time elapsed 830.13
+2022-04-01 09:28:30,771 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:28:30,771 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:28:30,771 | itj_planning | INFO | Return success: False | runtime of current attempt: 176.2
+2022-04-01 09:28:30,882 | itj_planning | INFO | Beam b47 | nonlinear | Trail #7 | time elapsed 1006.48
+2022-04-01 09:31:07,073 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:31:07,073 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:31:07,073 | itj_planning | INFO | Return success: False | runtime of current attempt: 156.2
+2022-04-01 09:31:07,151 | itj_planning | INFO | Beam b47 | nonlinear | Trail #8 | time elapsed 1162.75
+2022-04-01 09:34:00,665 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:34:00,665 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:34:00,665 | itj_planning | INFO | Return success: False | runtime of current attempt: 173.5
+2022-04-01 09:34:00,774 | itj_planning | INFO | Beam b47 | nonlinear | Trail #9 | time elapsed 1336.38
+2022-04-01 09:38:01,728 | itj_planning | INFO | No plan found for A672_M0 | RoboticFreeMovement(#A672_M0, Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage., has_traj False)
+2022-04-01 09:38:01,728 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:38:01,728 | itj_planning | INFO | Return success: False | runtime of current attempt: 241.0
+2022-04-01 09:38:01,823 | itj_planning | INFO | Beam b47 | nonlinear | Trail #10 | time elapsed 1577.43
+2022-04-01 09:41:01,166 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:41:01,166 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:41:01,166 | itj_planning | INFO | Return success: False | runtime of current attempt: 179.3
+2022-04-01 09:41:01,245 | itj_planning | INFO | Beam b47 | nonlinear | Trail #11 | time elapsed 1756.85
+2022-04-01 09:44:13,942 | itj_planning | INFO | No plan found for A670_M0 | RoboticFreeMovement(#A670_M0, Free Move to bring Beam ('b47') to assemble_approach position on structure., has_traj False)
+2022-04-01 09:44:13,942 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:44:13,942 | itj_planning | INFO | Return success: False | runtime of current attempt: 192.7
+2022-04-01 09:44:14,027 | itj_planning | INFO | Beam b47 | nonlinear | Trail #12 | time elapsed 1949.63
+2022-04-01 09:48:38,104 | itj_planning | INFO | No plan found for A675_M0 | RoboticFreeMovement(#A675_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., has_traj False)
+2022-04-01 09:48:38,120 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=47) beam b47!
+2022-04-01 09:48:38,120 | itj_planning | INFO | Return success: False | runtime of current attempt: 264.1
+2022-04-01 09:48:38,198 | itj_planning | INFO | Beam b47 | nonlinear | Trail #13 | time elapsed 2213.80
+2022-04-01 09:59:28,012 | itj_planning | INFO | Return success: True | runtime of current attempt: 649.8
+2022-04-01 09:59:41,430 | itj_planning | INFO | Beam b48 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:04:25,107 | itj_planning | INFO | Return success: True | runtime of current attempt: 283.7
+2022-04-01 10:04:39,010 | itj_planning | INFO | Beam b49 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:14:18,824 | itj_planning | INFO | Return success: True | runtime of current attempt: 579.8
+2022-04-01 10:14:32,847 | itj_planning | INFO | Beam b50 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:20:02,267 | itj_planning | INFO | Return success: True | runtime of current attempt: 329.4
+2022-04-01 10:20:17,101 | itj_planning | INFO | Beam b51 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:28:52,267 | itj_planning | INFO | Return success: True | runtime of current attempt: 515.2
+2022-04-01 10:29:07,158 | itj_planning | INFO | Beam b52 | nonlinear | Trail #0 | time elapsed 0.05
+2022-04-01 10:32:36,309 | itj_planning | INFO | Return success: True | runtime of current attempt: 209.2
+2022-04-01 10:32:50,948 | itj_planning | INFO | Beam b53 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:38:54,794 | itj_planning | INFO | Return success: True | runtime of current attempt: 363.8
+2022-04-01 10:39:09,761 | itj_planning | INFO | Beam b54 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:42:43,420 | itj_planning | INFO | Return success: True | runtime of current attempt: 213.7
+2022-04-01 10:42:58,497 | itj_planning | INFO | Beam b55 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:51:37,784 | itj_planning | INFO | Return success: True | runtime of current attempt: 519.3
+2022-04-01 10:51:53,039 | itj_planning | INFO | Beam b56 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-01 10:58:43,879 | itj_planning | INFO | Return success: True | runtime of current attempt: 410.8
+2022-04-01 10:58:43,925 | itj_planning | INFO | Planning done.
