@@ -1,0 +1,21 @@
+2022-03-16 15:41:31,614 - app - INFO - App Started
+2022-03-16 15:41:31,740 - app.model - INFO - Settings loaded from C:\Users\leungp\AppData\Local\Temp\itj_process_execution_setting.json.
+2022-03-16 15:41:31,742 - app.model - INFO - Settings saved to C:\Users\leungp\AppData\Local\Temp\itj_process_execution_setting.json.
+2022-03-16 15:41:31,771 - app.ctr - INFO - Command Line contain -f. Load Json File at C:\Users\leungp\Documents\GitHub\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json.
+2022-03-16 15:41:31,772 - app.bg - INFO - Background Thread Started
+2022-03-16 15:41:31,773 - app.bg - INFO - Relaying BackgroundCommand: MODEL_LOAD_PROCESS
+2022-03-16 15:41:46,491 - app.model - INFO - load_process(): Process Loaded (57 Beams, 811 Actions, 2644 Movements)
+2022-03-16 15:42:14,984 - app.model - INFO - External Movemenmts: 1622 movements loaded
+2022-03-16 15:42:14,991 - app.model - INFO - 0 RoboticClampSyncLinearMovement Marked as Soft Move
+2022-03-16 15:42:14,992 - app.model - INFO - 179 RobotScrewdriverSyncLinearMovement Marked as Soft Move
+2022-03-16 15:42:40,471 - app.gui - INFO - Actions Treeview Updated
+2022-03-16 15:42:48,003 - app.bg - INFO - Processing BG Command: ProcessControllerBackgroundCommand.UI_TREEVIEW_GOTO_BEAM
+2022-03-16 15:42:48,057 - app.bg - INFO - Scrolling Treeview to see b19
+2022-03-16 15:49:59,724 - app.bg - INFO - Processing BG Command: ProcessControllerBackgroundCommand.UI_TREEVIEW_GOTO_BEAM
+2022-03-16 15:49:59,758 - app.bg - INFO - Scrolling Treeview to see b1
+2022-03-16 16:03:34,687 - app.bg - INFO - Processing BG Command: ProcessControllerBackgroundCommand.UI_TREEVIEW_GOTO_BEAM
+2022-03-16 16:03:34,723 - app.bg - INFO - Scrolling Treeview to see b18
+2022-03-16 16:03:38,007 - app.bg - INFO - Processing BG Command: ProcessControllerBackgroundCommand.UI_TREEVIEW_GOTO_BEAM
+2022-03-16 16:03:38,041 - app.bg - INFO - Scrolling Treeview to see b19
+2022-03-16 16:04:42,081 - app.bg - INFO - Processing BG Command: ProcessControllerBackgroundCommand.UI_TREEVIEW_GOTO_BEAM
+2022-03-16 16:04:42,115 - app.bg - INFO - Scrolling Treeview to see b35

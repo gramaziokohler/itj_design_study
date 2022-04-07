@@ -1,0 +1,1154 @@
+2022-03-22 15:55:42,375 - app - INFO - App Started
+2022-03-22 15:55:42,545 - app.bg - INFO - Background Thread Started
+2022-03-22 15:55:44,120 - app.UI - INFO - Button Pressed: Connect Serial
+2022-03-22 15:55:44,121 - app.UI - INFO - Selected Port: COM9
+2022-03-22 15:55:44,121 - app.ctr - INFO - Command Received to Connect to COM9
+2022-03-22 15:55:44,121 - app.cmd - INFO - Connecting to COM9 ...
+2022-03-22 15:55:47,138 - app.cmd - INFO - Connected to COM9.
+2022-03-22 15:55:47,327 - app.cmd - DEBUG - Status Update Fail: Clamp c1 (addr=1) No-Response
+2022-03-22 15:55:47,407 - app.cmd - DEBUG - Status Update Fail: Clamp c2 (addr=2) No-Response
+2022-03-22 15:55:47,427 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17612,0,-17777,0,3
+2022-03-22 15:55:47,509 - app.cmd - DEBUG - Status Update Fail: Screwdriver s2 (addr=6) No-Response
+2022-03-22 15:55:47,589 - app.cmd - DEBUG - Status Update Fail: Screwdriver s3 (addr=7) No-Response
+2022-03-22 15:55:47,669 - app.cmd - DEBUG - Status Update Fail: Screwdriver s4 (addr=8) No-Response
+2022-03-22 15:55:48,263 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17612,0,-17777,0,3
+2022-03-22 15:55:48,343 - app.cmd - DEBUG - Status Update Fail: Screwdriver s2 (addr=6) No-Response
+2022-03-22 15:55:48,424 - app.cmd - DEBUG - Status Update Fail: Screwdriver s3 (addr=7) No-Response
+2022-03-22 15:55:48,504 - app.cmd - DEBUG - Status Update Fail: Screwdriver s4 (addr=8) No-Response
+2022-03-22 15:55:49,298 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17612,0,-17777,0,3
+2022-03-22 15:55:49,379 - app.cmd - DEBUG - Status Update Fail: Screwdriver s4 (addr=8) No-Response
+2022-03-22 15:55:50,277 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17612,0,-17777,0,3
+2022-03-22 15:55:50,932 - app.UI - INFO - Button Pressed: HOME
+2022-03-22 15:55:50,954 - app.cmd - INFO - home_clamps() Issued. Status Update Freq = High
+2022-03-22 15:55:50,954 - app.ctr - INFO - Home command sent to [Screwdriver s1 (addr=5)], results = [True]
+2022-03-22 15:55:51,087 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17513,0,-17513,0,4
+2022-03-22 15:55:51,087 - app.cmd - INFO - All clamps have stopped. Status Update Freq = Low
+2022-03-22 15:55:52,114 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17513,0,-17513,0,4
+2022-03-22 15:55:53,122 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17513,0,-17513,0,4
+2022-03-22 15:55:54,130 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17513,0,-17513,0,4
+2022-03-22 15:55:55,156 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17513,0,-17513,0,4
+2022-03-22 15:55:55,988 - app.UI - INFO - Button Pressed: Gripper Extend
+2022-03-22 15:55:56,011 - app.ctr - INFO - Pin Gripper Extend sent to Screwdrivers [Screwdriver s1 (addr=5)], results = [True]
+2022-03-22 15:55:56,148 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,989,-17512,-17504,-17512,-17504,1
+2022-03-22 15:55:57,159 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,-16902,-16858,-16894,-16858,1
+2022-03-22 15:55:58,172 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,988,-15232,-15185,-15235,-15185,1
+2022-03-22 15:55:59,187 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,988,-12530,-12482,-12523,-12482,1
+2022-03-22 15:56:00,194 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,-8823,-8771,-8818,-8771,1
+2022-03-22 15:56:01,208 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,-4293,-4260,-4292,-4260,1
+2022-03-22 15:56:02,216 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,268,291,284,291,1
+2022-03-22 15:56:03,230 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,4818,4846,4835,4846,1
+2022-03-22 15:56:04,240 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,9362,9388,9382,9388,1
+2022-03-22 15:56:05,253 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,13914,13941,13935,13941,1
+2022-03-22 15:56:06,263 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,18461,18484,18476,18484,1
+2022-03-22 15:56:07,286 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,23069,23090,23083,23091,1
+2022-03-22 15:56:08,297 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,27618,27640,27630,27640,1
+2022-03-22 15:56:09,310 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,32171,32196,32183,32196,1
+2022-03-22 15:56:10,333 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,36772,36799,36782,36799,1
+2022-03-22 15:56:11,342 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,41316,41341,41319,41341,1
+2022-03-22 15:56:12,354 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,45872,45895,45872,45895,1
+2022-03-22 15:56:13,380 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,50486,50511,50483,50511,1
+2022-03-22 15:56:14,388 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,55025,55051,55025,55051,1
+2022-03-22 15:56:15,399 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,59572,59598,59569,59598,1
+2022-03-22 15:56:16,425 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,64196,64217,64190,64219,1
+2022-03-22 15:56:17,435 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,68734,68764,68740,68765,1
+2022-03-22 15:56:18,445 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,73264,73308,73281,73309,1
+2022-03-22 15:56:19,473 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,77863,77933,77879,77933,1
+2022-03-22 15:56:20,483 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,82360,82477,82389,82477,1
+2022-03-22 15:56:21,492 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,86210,87016,86624,87016,1
+2022-03-22 15:56:22,534 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,87731,89785,89313,89965,3
+2022-03-22 15:56:23,544 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,87731,89785,89313,89965,3
+2022-03-22 15:56:24,555 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,87731,89785,89313,89965,3
+2022-03-22 15:56:25,598 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,87731,89785,89313,89965,3
+2022-03-22 15:56:26,605 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,87731,89785,89313,89965,3
+2022-03-22 15:56:27,645 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,87731,89785,89313,89965,3
+2022-03-22 15:56:28,652 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,87731,89785,89313,89965,3
+2022-03-22 15:56:29,664 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,87731,89785,89313,89965,3
+2022-03-22 15:56:30,692 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,87731,89785,89313,89965,3
+2022-03-22 15:56:31,700 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,87731,89785,89313,89965,3
+2022-03-22 15:56:32,813 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:56:33,813 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:56:34,722 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,73977,89785,74169,89965,3
+2022-03-22 15:56:35,733 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,73970,89785,74146,89965,3
+2022-03-22 15:56:36,814 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:56:37,719 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,79798,89785,80647,89965,3
+2022-03-22 15:56:38,729 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,79798,89785,80647,89965,3
+2022-03-22 15:56:39,771 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,79798,89785,80647,89965,3
+2022-03-22 15:56:40,636 - app.UI - INFO - Button Pressed: Gripper Extend
+2022-03-22 15:56:40,661 - app.ctr - INFO - Pin Gripper Extend sent to Screwdrivers [Screwdriver s1 (addr=5)], results = [True]
+2022-03-22 15:56:40,794 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,79798,79806,80647,80655,1
+2022-03-22 15:56:41,816 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,80400,80464,81247,81313,1
+2022-03-22 15:56:42,828 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,82073,82145,82937,82993,1
+2022-03-22 15:56:43,839 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,84775,84848,85614,85696,1
+2022-03-22 15:56:44,863 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,87807,88624,89360,89473,1
+2022-03-22 15:56:45,874 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,88364,90435,91202,93227,3
+2022-03-22 15:56:46,885 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,88364,90435,91202,93227,3
+2022-03-22 15:56:47,908 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,88364,90435,91202,93227,3
+2022-03-22 15:56:48,918 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,88364,90435,91202,93227,3
+2022-03-22 15:56:49,937 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,88364,90435,91202,93227,3
+2022-03-22 15:56:50,950 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:51,960 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:52,988 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:53,999 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:55,009 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:56,032 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:57,037 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,88364,90435,91202,93227,3
+2022-03-22 15:56:58,050 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:56:59,061 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:00,073 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:01,099 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:02,112 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:03,122 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:04,144 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:05,157 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:06,168 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:07,182 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:08,203 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:09,220 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:10,231 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:11,283 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:12,295 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:13,305 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:14,330 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:15,339 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:16,364 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:17,373 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:18,385 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:19,409 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:20,420 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:21,429 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:22,473 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:23,482 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:24,504 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:25,513 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:26,521 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:27,530 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:28,540 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:29,566 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,88364,90435,91202,93227,3
+2022-03-22 15:57:30,578 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:31,590 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:32,600 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:33,611 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:34,623 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:35,633 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:36,660 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:37,671 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:38,679 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:39,703 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:40,713 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:41,740 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:42,753 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:43,763 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:44,771 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:45,784 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:46,792 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:47,818 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:48,831 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:49,842 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:50,854 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:51,866 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:52,892 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:53,905 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:54,917 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:55,941 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:56,952 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:57,975 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:57:59,001 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:00,008 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:01,033 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:02,042 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:03,062 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:04,072 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:05,099 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:06,111 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:07,117 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:08,123 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:09,135 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:10,149 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:11,192 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:12,203 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:13,216 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:14,239 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:15,249 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:16,259 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:17,273 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:18,280 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:19,292 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:20,314 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:21,326 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:22,336 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:23,344 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:24,356 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:25,381 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:26,391 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:27,399 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:28,443 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:29,456 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:30,467 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:31,480 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:32,521 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:33,531 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:34,542 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:35,586 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:36,594 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:37,605 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:38,623 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:39,632 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:40,643 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:41,649 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:42,671 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,987,88364,90435,91202,93227,3
+2022-03-22 15:58:43,682 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,89932,90435,93604,93227,3
+2022-03-22 15:58:44,708 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,89882,90435,93570,93227,3
+2022-03-22 15:58:45,752 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,89882,90435,93570,93227,3
+2022-03-22 15:58:46,817 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:47,796 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:48,763 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:49,724 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:50,690 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:51,657 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 15:58:52,560 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,50224,90435,51837,93227,3
+2022-03-22 15:58:53,579 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,50224,90435,51837,93227,3
+2022-03-22 15:58:54,592 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,50224,90435,51837,93227,3
+2022-03-22 15:58:55,601 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,50224,90435,51837,93227,3
+2022-03-22 15:58:56,612 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,50224,90435,51837,93227,3
+2022-03-22 15:58:57,626 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:58:58,640 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:58:59,649 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:00,709 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:01,721 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:02,729 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:03,741 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:04,766 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:05,775 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:06,798 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:07,809 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:08,822 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:09,848 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:10,861 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:11,873 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:12,884 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:13,945 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:14,953 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:15,971 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:16,984 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,50224,90435,51837,93227,3
+2022-03-22 15:59:17,996 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:19,009 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:20,036 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:21,047 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:22,056 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:23,071 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:24,085 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:25,097 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:26,108 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:27,120 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:28,146 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:29,155 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:30,166 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:31,191 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:32,200 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:33,225 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:34,235 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:35,246 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:36,273 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:37,283 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:38,291 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:39,320 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:40,361 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:41,367 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:42,394 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:43,406 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:44,417 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:45,436 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:46,454 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:47,476 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:48,512 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:49,537 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:50,567 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:51,579 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:52,592 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:53,603 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:54,629 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:55,638 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:56,653 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:57,664 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:58,673 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 15:59:59,681 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:00,704 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:01,717 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:02,727 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:03,766 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:04,774 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:05,798 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:06,811 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:07,834 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:08,848 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:09,859 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:10,870 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:11,897 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:12,908 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:13,914 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:14,938 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:15,955 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:16,964 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:17,990 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:19,003 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:20,012 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:21,024 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:22,041 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:23,054 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:24,078 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:25,085 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:26,095 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:27,107 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:28,118 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:29,159 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:30,173 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:31,186 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:32,198 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:33,214 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:34,232 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:35,243 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:36,268 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:37,280 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:38,292 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:39,308 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:40,323 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:41,356 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:42,368 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:43,392 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:44,400 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:45,427 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:46,433 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:47,457 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:48,465 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:49,477 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:50,504 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:51,514 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:52,523 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:53,553 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:54,561 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:55,573 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:56,600 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:57,608 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:58,622 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:00:59,633 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:00,644 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:01,654 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:02,665 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:03,690 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:04,705 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:05,717 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:06,735 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:07,744 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:08,773 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:09,786 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:10,801 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:11,811 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:12,820 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:13,844 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:14,858 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:15,870 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:16,883 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:17,908 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:18,917 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:19,943 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:20,953 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:21,965 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:22,989 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:23,998 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:25,009 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:26,053 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:27,065 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:28,075 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:29,087 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:30,112 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:31,122 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:32,134 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:33,174 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:34,180 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:35,201 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:36,212 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:37,257 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:38,267 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:39,279 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:40,303 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:41,314 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:42,327 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:43,337 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:44,382 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:45,393 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:46,406 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:47,418 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:48,429 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:49,436 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:50,449 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:51,490 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:52,520 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:53,531 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:54,541 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:55,565 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:56,578 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:57,591 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:58,615 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:01:59,626 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:00,646 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:01,653 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:02,667 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:03,689 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:04,698 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:05,725 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:06,736 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:07,747 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:08,771 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:09,783 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:10,792 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50224,90435,51837,93227,3
+2022-03-22 16:02:11,341 - app.UI - INFO - Button Pressed: Gripper Retract
+2022-03-22 16:02:11,365 - app.ctr - INFO - Pin Gripper Retract sent to Screwdrivers [Screwdriver s1 (addr=5)], results = [True]
+2022-03-22 16:02:11,829 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,986,50153,50116,51775,51729,2
+2022-03-22 16:02:12,842 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,49180,49134,50787,50747,2
+2022-03-22 16:02:13,865 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,47148,47099,48761,48712,2
+2022-03-22 16:02:14,874 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,44120,44068,45726,45681,2
+2022-03-22 16:02:15,897 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,40005,39955,41608,41568,2
+2022-03-22 16:02:16,925 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,35356,35332,36960,36945,2
+2022-03-22 16:02:17,935 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,30800,30787,32402,32399,2
+2022-03-22 16:02:18,944 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,26244,26241,27853,27854,2
+2022-03-22 16:02:19,954 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,21700,21700,23307,23313,2
+2022-03-22 16:02:20,968 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,17132,17134,18737,18747,2
+2022-03-22 16:02:21,982 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,12572,12575,14178,14188,2
+2022-03-22 16:02:23,005 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,8056,8079,9565,9583,2
+2022-03-22 16:02:24,018 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,4481,4523,5628,5665,2
+2022-03-22 16:02:25,034 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,1933,1981,2714,2759,2
+2022-03-22 16:02:26,036 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,436,486,858,904,2
+2022-03-22 16:02:27,064 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,-8,51,7,49,2
+2022-03-22 16:02:28,070 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,-8,51,-1,43,4
+2022-03-22 16:02:29,069 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,-8,51,-1,43,4
+2022-03-22 16:02:30,094 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,-8,51,-1,43,4
+2022-03-22 16:02:31,109 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:32,140 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:33,153 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:34,161 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:35,171 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:36,180 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:37,174 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:38,185 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:39,192 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:40,224 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:41,234 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:42,246 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:43,262 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:44,269 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:45,281 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:46,290 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:47,285 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:48,312 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:49,325 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:50,335 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:51,331 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:52,343 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-8,51,-1,43,4
+2022-03-22 16:02:53,352 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:54,346 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:55,374 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:56,383 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:57,380 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:58,407 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:02:59,419 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:00,434 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:01,444 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:02,439 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:03,451 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:04,459 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:05,455 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:06,464 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:07,464 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:08,472 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:09,500 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:10,513 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:11,523 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:12,535 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:13,549 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:14,592 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:15,603 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:16,597 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:17,607 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:18,616 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:19,623 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:20,630 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:21,642 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:22,652 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:23,651 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:24,659 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:25,671 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:26,680 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:27,675 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:28,685 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:29,699 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:30,694 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:31,705 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:32,714 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:33,708 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:34,716 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:35,726 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:36,751 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:37,762 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:38,761 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:39,760 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:40,756 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:41,764 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:42,777 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:43,769 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:44,780 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:45,792 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:46,787 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:47,796 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:48,805 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:49,803 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:50,812 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:51,825 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:52,821 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:53,819 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:54,830 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:55,842 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:56,855 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:57,876 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:58,887 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:03:59,879 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:00,904 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:01,920 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:02,930 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:03,925 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:04,938 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:05,951 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:06,961 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:07,957 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:08,967 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:09,973 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:10,985 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:11,995 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:12,991 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:13,989 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:14,997 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:16,007 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:17,017 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:18,026 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:19,021 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:20,033 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:21,043 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:22,038 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:23,049 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:24,058 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:25,067 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:26,075 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:27,089 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:28,084 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:29,127 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:30,138 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:31,131 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:32,142 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:33,155 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:34,165 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:35,169 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:36,180 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:37,189 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:38,198 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:39,194 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:40,205 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:41,221 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:42,231 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:43,227 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:44,237 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:45,245 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:46,241 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:47,251 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:48,263 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:49,272 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:50,284 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:51,295 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:52,294 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:53,291 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:54,286 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:55,314 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:56,326 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:57,338 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:58,335 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:04:59,345 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:00,351 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:01,348 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:02,356 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:03,353 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:04,379 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:05,392 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:06,405 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:07,419 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:08,413 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:09,424 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:10,435 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:11,430 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:12,439 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:13,452 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:14,459 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:15,484 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:16,496 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:17,491 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:18,502 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:19,516 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:20,527 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:21,520 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:22,529 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:23,537 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:24,542 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:25,537 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:26,563 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:27,572 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:28,584 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:29,595 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:30,602 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:31,608 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:32,616 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:33,629 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:34,643 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:35,654 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:36,651 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:37,660 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:38,668 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:39,664 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:40,690 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:41,701 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:42,697 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:43,740 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:44,748 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:45,748 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:46,745 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:47,741 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:48,750 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:49,762 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:50,756 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:51,767 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:52,778 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:53,771 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,-8,51,-1,43,4
+2022-03-22 16:05:54,831 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-3280,51,-3642,43,4
+2022-03-22 16:05:55,843 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,-3764,51,-4229,43,4
+2022-03-22 16:05:56,864 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,868,51,1005,43,4
+2022-03-22 16:05:57,878 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,1092,51,1456,43,4
+2022-03-22 16:05:58,890 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,1092,51,1456,43,4
+2022-03-22 16:05:59,903 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-1167,51,-1000,43,4
+2022-03-22 16:06:00,925 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-1167,51,-1000,43,4
+2022-03-22 16:06:01,951 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,-312,51,-100,43,4
+2022-03-22 16:06:02,948 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,424,51,994,43,4
+2022-03-22 16:06:03,947 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,424,51,994,43,4
+2022-03-22 16:06:04,955 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,424,51,994,43,4
+2022-03-22 16:06:05,965 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,424,51,994,43,4
+2022-03-22 16:06:06,962 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,1888,51,2571,43,4
+2022-03-22 16:06:08,055 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:06:08,975 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,9920,51,10982,43,4
+2022-03-22 16:06:09,986 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,12114,51,13284,43,4
+2022-03-22 16:06:10,998 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,12114,51,13284,43,4
+2022-03-22 16:06:12,024 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,12114,51,13284,43,4
+2022-03-22 16:06:13,037 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:14,052 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:15,061 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:16,087 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:17,095 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:18,107 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:19,134 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:20,145 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:21,155 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:22,150 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:23,155 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:24,180 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:25,189 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:26,201 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:27,212 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:28,221 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:29,229 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:30,242 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:31,254 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:32,260 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:33,271 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,12114,51,13284,43,4
+2022-03-22 16:06:34,281 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:35,307 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:36,314 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:37,325 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,12114,51,13284,43,4
+2022-03-22 16:06:38,351 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,985,12114,51,13284,43,4
+2022-03-22 16:06:39,360 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,12114,51,13284,43,4
+2022-03-22 16:06:40,432 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:06:41,346 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,3410,51,4011,43,4
+2022-03-22 16:06:42,419 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:06:43,394 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:06:44,298 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,19374,51,20340,43,4
+2022-03-22 16:06:45,309 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:46,306 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:47,335 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:48,349 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:49,358 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:50,384 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,983,19374,51,20340,43,4
+2022-03-22 16:06:51,397 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:52,404 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:53,414 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:54,427 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:55,439 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:56,447 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:57,456 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:58,466 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:06:59,480 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:00,507 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:01,517 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:02,539 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:03,551 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:04,575 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:05,598 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:06,610 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:07,623 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:08,650 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:09,663 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:10,671 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:11,683 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:12,727 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:13,739 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:14,749 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:15,746 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:16,770 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:17,780 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:18,777 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:19,803 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:20,817 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:21,827 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:22,866 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:23,874 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,984,19374,51,20340,43,4
+2022-03-22 16:07:24,957 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:25,923 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:26,881 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:27,844 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:28,902 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:29,851 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:30,814 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:31,780 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:32,780 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,64818,51,59683,43,4
+2022-03-22 16:07:33,805 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,64818,51,59683,43,4
+2022-03-22 16:07:34,817 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,64818,51,59683,43,4
+2022-03-22 16:07:35,829 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,64818,51,59683,43,4
+2022-03-22 16:07:36,869 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,64818,51,59683,43,4
+2022-03-22 16:07:37,884 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,64818,51,59683,43,4
+2022-03-22 16:07:38,895 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,64818,51,59683,43,4
+2022-03-22 16:07:39,904 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,64818,51,59683,43,4
+2022-03-22 16:07:40,960 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:41,976 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:42,899 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,73906,51,68822,43,4
+2022-03-22 16:07:43,908 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,73903,51,68806,43,4
+2022-03-22 16:07:44,904 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,73903,51,68806,43,4
+2022-03-22 16:07:45,962 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:46,925 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:47,893 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:48,855 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:07:49,759 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,82518,51,77444,43,4
+2022-03-22 16:07:50,773 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,82518,51,77444,43,4
+2022-03-22 16:07:51,783 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,82518,51,77444,43,4
+2022-03-22 16:07:52,797 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,82518,51,77444,43,4
+2022-03-22 16:07:53,820 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82518,51,77444,43,4
+2022-03-22 16:07:54,830 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82518,51,77444,43,4
+2022-03-22 16:07:55,840 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,82564,51,77536,43,4
+2022-03-22 16:07:56,849 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:07:57,858 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:07:58,884 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:07:59,897 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:08:00,906 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:08:01,918 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:08:02,927 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82564,51,77536,43,4
+2022-03-22 16:08:03,938 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,82899,51,77847,43,4
+2022-03-22 16:08:04,950 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:05,961 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:06,969 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:07,979 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:08,990 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:10,003 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,981,82899,51,77847,43,4
+2022-03-22 16:08:11,026 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,982,82899,51,77847,43,4
+2022-03-22 16:08:12,098 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:13,002 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,76946,51,73538,43,4
+2022-03-22 16:08:14,084 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:15,051 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:16,016 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:16,970 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:17,919 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:18,883 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:19,844 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:20,841 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,29865,51,26948,43,4
+2022-03-22 16:08:21,866 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,29865,51,26948,43,4
+2022-03-22 16:08:22,937 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:23,900 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:24,880 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:25,849 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:26,819 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:27,732 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-3940,51,-9168,43,4
+2022-03-22 16:08:28,743 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,-3940,51,-9168,43,4
+2022-03-22 16:08:29,755 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,-3940,51,-9168,43,4
+2022-03-22 16:08:30,770 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:31,779 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:32,804 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:33,815 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:34,839 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:35,850 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,-3940,51,-9168,43,4
+2022-03-22 16:08:36,858 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,-3940,51,-9168,43,4
+2022-03-22 16:08:37,885 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,-3940,51,-9168,43,4
+2022-03-22 16:08:38,895 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,-3940,51,-9168,43,4
+2022-03-22 16:08:39,907 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,-3940,51,-9168,43,4
+2022-03-22 16:08:40,947 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,980,-3940,51,-9168,43,4
+2022-03-22 16:08:42,019 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:42,993 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:43,955 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:45,013 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:45,979 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:46,937 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:47,888 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:48,841 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:49,802 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:50,766 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:51,668 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,52176,51,46996,43,4
+2022-03-22 16:08:52,679 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,52176,51,46996,43,4
+2022-03-22 16:08:53,750 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:54,655 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,56532,51,51496,43,4
+2022-03-22 16:08:55,678 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,56532,51,51496,43,4
+2022-03-22 16:08:56,691 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,56532,51,51496,43,4
+2022-03-22 16:08:57,762 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:08:58,725 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,60036,51,55031,43,4
+2022-03-22 16:08:59,694 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:00,660 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:01,627 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:02,527 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64612,51,59574,43,4
+2022-03-22 16:09:03,573 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64612,51,59574,43,4
+2022-03-22 16:09:04,587 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64612,51,59574,43,4
+2022-03-22 16:09:05,597 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64612,51,59574,43,4
+2022-03-22 16:09:06,622 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64612,51,59574,43,4
+2022-03-22 16:09:07,631 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64612,51,59574,43,4
+2022-03-22 16:09:08,640 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,64612,51,59574,43,4
+2022-03-22 16:09:09,666 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64668,51,59603,43,4
+2022-03-22 16:09:10,678 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64668,51,59603,43,4
+2022-03-22 16:09:11,747 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:12,668 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,64771,51,59710,43,4
+2022-03-22 16:09:13,743 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,65016,51,59995,43,4
+2022-03-22 16:09:14,647 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,65016,51,59959,43,4
+2022-03-22 16:09:15,659 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,65016,51,59959,43,4
+2022-03-22 16:09:16,683 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,65016,51,59959,43,4
+2022-03-22 16:09:17,696 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65016,51,59959,43,4
+2022-03-22 16:09:18,706 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65016,51,59959,43,4
+2022-03-22 16:09:19,720 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65016,51,59959,43,4
+2022-03-22 16:09:20,745 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65016,51,59959,43,4
+2022-03-22 16:09:21,756 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:22,766 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:23,777 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:24,791 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:25,806 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:26,821 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65016,51,59959,43,4
+2022-03-22 16:09:27,889 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:28,825 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65359,51,60279,43,4
+2022-03-22 16:09:29,835 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65505,51,60453,43,4
+2022-03-22 16:09:30,842 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65505,51,60453,43,4
+2022-03-22 16:09:31,870 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65505,51,60453,43,4
+2022-03-22 16:09:32,884 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65505,51,60453,43,4
+2022-03-22 16:09:33,892 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,978,65505,51,60453,43,4
+2022-03-22 16:09:34,901 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:35,930 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:36,945 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:37,954 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:38,969 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:39,996 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:41,022 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:42,033 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:43,061 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:44,072 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,979,65505,51,60453,43,4
+2022-03-22 16:09:45,144 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:46,108 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:47,058 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:48,024 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:48,994 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:49,948 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:50,915 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:51,878 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:52,852 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:53,814 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:54,871 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:55,852 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:09:56,757 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-17552,51,-17456,43,4
+2022-03-22 16:09:57,764 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-17552,51,-17456,43,4
+2022-03-22 16:09:58,790 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17552,51,-17456,43,4
+2022-03-22 16:09:59,800 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17552,51,-17456,43,4
+2022-03-22 16:10:00,826 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17552,51,-17456,43,4
+2022-03-22 16:10:01,837 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17552,51,-17456,43,4
+2022-03-22 16:10:02,849 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17552,51,-17456,43,4
+2022-03-22 16:10:03,919 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:04,839 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-11801,51,-10747,43,4
+2022-03-22 16:10:05,911 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:06,816 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-15058,51,-14544,43,4
+2022-03-22 16:10:07,841 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-15058,51,-14544,43,4
+2022-03-22 16:10:08,853 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-15058,51,-14544,43,4
+2022-03-22 16:10:09,866 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-15057,51,-14545,43,4
+2022-03-22 16:10:10,889 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-15057,51,-14545,43,4
+2022-03-22 16:10:11,898 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-15057,51,-14545,43,4
+2022-03-22 16:10:12,971 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:13,934 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:14,899 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:15,796 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,6513,51,8627,43,4
+2022-03-22 16:10:16,878 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:17,846 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:18,809 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:19,775 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:20,738 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:21,793 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:22,757 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:23,721 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:24,777 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:25,730 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:26,698 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:27,660 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,60868,51,65866,43,4
+2022-03-22 16:10:28,564 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,972,60813,51,65908,43,4
+2022-03-22 16:10:29,580 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,60813,51,65908,43,4
+2022-03-22 16:10:30,607 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,60813,51,65908,43,4
+2022-03-22 16:10:31,638 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,60813,51,65908,43,4
+2022-03-22 16:10:32,646 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,60813,51,65908,43,4
+2022-03-22 16:10:33,658 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,60813,51,65908,43,4
+2022-03-22 16:10:34,655 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,60813,51,65908,43,4
+2022-03-22 16:10:35,758 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:36,663 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,63081,51,68160,43,4
+2022-03-22 16:10:37,731 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:10:38,654 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,64229,51,69303,43,4
+2022-03-22 16:10:39,665 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,64229,51,69303,43,4
+2022-03-22 16:10:40,676 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,64229,51,69303,43,4
+2022-03-22 16:10:41,716 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:42,724 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:43,749 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:44,755 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:45,780 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:46,788 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,64229,51,69303,43,4
+2022-03-22 16:10:47,797 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:48,810 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:49,816 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:50,827 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:51,854 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:52,867 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:53,878 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:54,888 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:55,898 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64229,51,69303,43,4
+2022-03-22 16:10:56,460 - app.UI - INFO - Button Pressed: Gripper Retract
+2022-03-22 16:10:56,483 - app.ctr - INFO - Pin Gripper Retract sent to Screwdrivers [Screwdriver s1 (addr=5)], results = [True]
+2022-03-22 16:10:56,944 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,64196,64123,69245,69197,2
+2022-03-22 16:10:57,958 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,969,63250,63143,68259,68217,2
+2022-03-22 16:10:58,969 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,967,61232,61142,66276,66217,2
+2022-03-22 16:10:59,981 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,58169,58114,63228,63188,2
+2022-03-22 16:11:00,992 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,970,54113,54073,59188,59147,2
+2022-03-22 16:11:02,002 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,967,49550,49527,54610,54601,2
+2022-03-22 16:11:03,023 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,970,44940,44932,50004,50005,2
+2022-03-22 16:11:04,035 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,970,40374,40378,45444,45452,2
+2022-03-22 16:11:05,058 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,35764,35771,40839,40845,2
+2022-03-22 16:11:06,071 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,968,31202,31214,36277,36288,2
+2022-03-22 16:11:07,085 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,967,26637,26651,31712,31724,2
+2022-03-22 16:11:08,097 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,22087,22099,27159,27172,2
+2022-03-22 16:11:09,123 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,17476,17484,22547,22558,2
+2022-03-22 16:11:10,136 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,12917,12922,17990,17996,2
+2022-03-22 16:11:11,151 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,971,8411,8431,13421,13427,2
+2022-03-22 16:11:12,158 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,965,4760,4802,8918,8932,2
+2022-03-22 16:11:13,156 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,970,2160,2205,5173,5209,2
+2022-03-22 16:11:14,180 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,972,529,578,2378,2426,2
+2022-03-22 16:11:15,187 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,972,-8,52,666,713,2
+2022-03-22 16:11:16,199 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,972,-8,52,-1,42,4
+2022-03-22 16:11:17,217 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,972,-8,52,-1,42,4
+2022-03-22 16:11:18,229 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:19,240 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:20,255 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:21,252 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:22,251 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:23,245 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,973,-8,52,-1,42,4
+2022-03-22 16:11:24,260 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:25,273 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:26,288 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:27,296 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:28,322 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:29,333 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:30,331 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:31,327 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:32,337 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:33,345 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:34,356 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:35,367 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:36,378 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:37,373 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:38,387 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,974,-8,52,-1,42,4
+2022-03-22 16:11:39,414 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:40,427 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:41,443 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:42,463 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:43,490 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:44,481 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:45,492 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:46,504 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:47,504 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:48,497 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:49,504 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:50,500 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:51,497 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:52,509 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:53,521 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:54,532 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:55,527 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:56,537 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:57,550 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:58,574 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:11:59,583 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:00,581 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:01,581 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:02,579 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:03,593 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:04,600 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:05,611 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:06,609 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:07,618 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:08,635 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:09,649 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:10,658 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:11,657 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:12,653 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:13,699 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:14,728 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:15,744 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:16,754 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-8,52,-1,42,4
+2022-03-22 16:12:17,752 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:18,748 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:19,750 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:20,778 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:21,789 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:22,806 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:23,817 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:24,815 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:25,817 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:26,812 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:27,826 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:28,838 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:29,853 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:30,867 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:31,881 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:32,873 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:33,920 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:34,933 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:35,941 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:36,937 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:37,949 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:38,962 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:39,971 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:40,967 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:41,969 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:43,012 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:44,021 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:45,017 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:46,015 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:47,027 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:48,042 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:49,074 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:50,086 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:51,097 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:52,094 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:53,092 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:54,103 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:55,116 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:56,128 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:57,126 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:58,124 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:12:59,165 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:00,182 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:01,190 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:02,188 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:03,186 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:04,194 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:05,206 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:06,232 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:07,247 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:08,256 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:09,253 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:10,251 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:11,250 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:12,279 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:13,290 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:14,305 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:15,319 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-8,52,-1,42,4
+2022-03-22 16:13:16,393 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:17,370 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:18,356 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:19,263 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-17477,52,-17492,42,4
+2022-03-22 16:13:20,275 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,975,-17477,52,-17492,42,4
+2022-03-22 16:13:21,291 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:22,304 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:23,317 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:24,345 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:25,390 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:26,404 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:27,418 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:28,430 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:29,440 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:30,468 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:31,481 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:32,496 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:33,508 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:34,521 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:35,547 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:36,548 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:37,561 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,976,-17477,52,-17492,42,4
+2022-03-22 16:13:38,576 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:39,588 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:40,604 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:41,620 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:42,632 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:43,647 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:44,661 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:45,675 - app.cmd - DEBUG - Status Update Success: Screwdriver s1 (addr=5) result = 5,0,0,0,977,-17477,52,-17492,42,4
+2022-03-22 16:13:46,764 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:47,729 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:48,697 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:49,661 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:50,613 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:51,563 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:52,545 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:53,508 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:54,475 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:55,428 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:56,380 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:57,348 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:58,406 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:13:59,359 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:00,339 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:01,307 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:02,270 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:03,222 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:04,184 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:05,169 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:06,138 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:07,121 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:08,087 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:09,050 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:10,004 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:10,959 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:11,911 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:12,862 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:13,813 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:14,770 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:15,721 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:16,670 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:17,624 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:18,580 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:19,545 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:20,528 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:21,515 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:22,485 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:23,465 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:24,432 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:25,397 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:26,348 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:27,406 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:28,374 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:29,328 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:30,293 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:31,256 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:32,206 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:33,157 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:34,124 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:35,107 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:36,070 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:37,034 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:37,985 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:38,936 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:39,901 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
+2022-03-22 16:14:40,864 - app.cmd - DEBUG - Status Update Fail: Screwdriver s1 (addr=5) No-Response
