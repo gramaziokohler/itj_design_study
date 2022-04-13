@@ -1,0 +1,1326 @@
+2022-03-21 12:51:43,417 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M0', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 12:51:43,911 | itj_planning | WARNING | No process file found, using the original one.
+2022-03-21 12:51:47,434 | itj_planning | INFO | [36mSolving for movement #(629) A183_M0[0m
+2022-03-21 12:51:58,725 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 12:51:58,726 | itj_planning | INFO | Computing only for A183_M0
+2022-03-21 12:52:10,728 | itj_planning | INFO | Return success: True | runtime of current attempt: 12.0
+2022-03-21 12:52:10,732 | itj_planning | INFO | Planning done.
+2022-03-21 12:53:45,183 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 12:53:47,527 | itj_planning | INFO | [36mSolving for movement #(630) A183_M1[0m
+2022-03-21 12:53:57,497 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 12:53:57,498 | itj_planning | INFO | Computing only for A183_M1
+2022-03-21 12:54:11,163 | itj_planning | INFO | Return success: True | runtime of current attempt: 13.7
+2022-03-21 12:54:11,167 | itj_planning | INFO | Planning done.
+2022-03-21 12:55:15,193 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 12:55:18,724 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 12:55:28,895 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 12:55:28,897 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:29,750 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:29,752 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:29,754 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:29,930 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 1.08
+2022-03-21 12:55:29,932 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:30,884 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:30,886 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:30,888 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:55:30,935 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | time elapsed 2.09
+2022-03-21 12:55:30,937 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:31,765 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:31,767 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:31,768 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:31,817 | itj_planning | INFO | Beam b15 | movement_id | Trail #3 | time elapsed 2.97
+2022-03-21 12:55:31,818 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:32,670 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:32,672 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:32,673 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:32,726 | itj_planning | INFO | Beam b15 | movement_id | Trail #4 | time elapsed 3.88
+2022-03-21 12:55:32,728 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:33,553 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:33,554 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:33,555 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:33,608 | itj_planning | INFO | Beam b15 | movement_id | Trail #5 | time elapsed 4.76
+2022-03-21 12:55:33,609 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:34,451 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:34,453 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:34,454 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:34,510 | itj_planning | INFO | Beam b15 | movement_id | Trail #6 | time elapsed 5.66
+2022-03-21 12:55:34,512 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:35,329 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:35,331 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:35,332 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:35,379 | itj_planning | INFO | Beam b15 | movement_id | Trail #7 | time elapsed 6.53
+2022-03-21 12:55:35,381 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:36,186 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:36,188 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:36,189 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:36,235 | itj_planning | INFO | Beam b15 | movement_id | Trail #8 | time elapsed 7.39
+2022-03-21 12:55:36,236 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:37,084 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:37,086 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:37,087 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:37,135 | itj_planning | INFO | Beam b15 | movement_id | Trail #9 | time elapsed 8.29
+2022-03-21 12:55:37,137 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:37,982 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:37,984 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:37,985 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:38,038 | itj_planning | INFO | Beam b15 | movement_id | Trail #10 | time elapsed 9.19
+2022-03-21 12:55:38,039 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:38,859 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:38,861 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:38,862 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:38,909 | itj_planning | INFO | Beam b15 | movement_id | Trail #11 | time elapsed 10.06
+2022-03-21 12:55:38,911 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:39,781 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:39,784 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:39,785 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:39,833 | itj_planning | INFO | Beam b15 | movement_id | Trail #12 | time elapsed 10.98
+2022-03-21 12:55:39,835 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:40,856 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:40,858 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:40,859 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:55:40,914 | itj_planning | INFO | Beam b15 | movement_id | Trail #13 | time elapsed 12.06
+2022-03-21 12:55:40,915 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:41,761 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:41,763 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:41,764 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:41,811 | itj_planning | INFO | Beam b15 | movement_id | Trail #14 | time elapsed 12.96
+2022-03-21 12:55:41,813 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:42,642 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:42,644 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:42,645 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:42,692 | itj_planning | INFO | Beam b15 | movement_id | Trail #15 | time elapsed 13.84
+2022-03-21 12:55:42,694 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:43,540 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:43,541 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:43,542 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:43,598 | itj_planning | INFO | Beam b15 | movement_id | Trail #16 | time elapsed 14.75
+2022-03-21 12:55:43,599 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:44,472 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:44,474 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:44,475 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:44,527 | itj_planning | INFO | Beam b15 | movement_id | Trail #17 | time elapsed 15.68
+2022-03-21 12:55:44,528 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:45,401 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:45,402 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:45,403 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:45,454 | itj_planning | INFO | Beam b15 | movement_id | Trail #18 | time elapsed 16.60
+2022-03-21 12:55:45,455 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:46,306 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:46,308 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:46,309 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:46,359 | itj_planning | INFO | Beam b15 | movement_id | Trail #19 | time elapsed 17.51
+2022-03-21 12:55:46,360 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:47,231 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:47,233 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:47,234 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:47,283 | itj_planning | INFO | Beam b15 | movement_id | Trail #20 | time elapsed 18.43
+2022-03-21 12:55:47,284 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:48,149 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:48,151 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:48,152 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:48,200 | itj_planning | INFO | Beam b15 | movement_id | Trail #21 | time elapsed 19.35
+2022-03-21 12:55:48,201 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:49,134 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:49,136 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:49,138 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:49,210 | itj_planning | INFO | Beam b15 | movement_id | Trail #22 | time elapsed 20.36
+2022-03-21 12:55:49,211 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:50,162 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:50,163 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:50,164 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:55:50,213 | itj_planning | INFO | Beam b15 | movement_id | Trail #23 | time elapsed 21.36
+2022-03-21 12:55:50,214 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:51,149 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:51,151 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:51,152 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:51,202 | itj_planning | INFO | Beam b15 | movement_id | Trail #24 | time elapsed 22.35
+2022-03-21 12:55:51,204 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:52,046 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:52,048 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:52,049 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:52,100 | itj_planning | INFO | Beam b15 | movement_id | Trail #25 | time elapsed 23.25
+2022-03-21 12:55:52,101 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:52,931 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:52,933 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:52,934 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:52,980 | itj_planning | INFO | Beam b15 | movement_id | Trail #26 | time elapsed 24.13
+2022-03-21 12:55:52,982 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:53,838 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:53,839 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:53,840 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:53,890 | itj_planning | INFO | Beam b15 | movement_id | Trail #27 | time elapsed 25.04
+2022-03-21 12:55:53,892 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:54,831 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:54,833 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:54,834 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:54,887 | itj_planning | INFO | Beam b15 | movement_id | Trail #28 | time elapsed 26.04
+2022-03-21 12:55:54,889 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:55,792 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:55,794 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:55,795 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:55:55,845 | itj_planning | INFO | Beam b15 | movement_id | Trail #29 | time elapsed 27.00
+2022-03-21 12:55:55,846 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:56,678 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:56,679 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:56,680 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:56,731 | itj_planning | INFO | Beam b15 | movement_id | Trail #30 | time elapsed 27.88
+2022-03-21 12:55:56,732 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:57,568 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:57,570 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:57,571 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:57,618 | itj_planning | INFO | Beam b15 | movement_id | Trail #31 | time elapsed 28.77
+2022-03-21 12:55:57,619 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:58,450 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:58,452 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:58,453 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:58,503 | itj_planning | INFO | Beam b15 | movement_id | Trail #32 | time elapsed 29.65
+2022-03-21 12:55:58,504 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:55:59,341 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:55:59,342 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:55:59,343 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:55:59,395 | itj_planning | INFO | Beam b15 | movement_id | Trail #33 | time elapsed 30.55
+2022-03-21 12:55:59,397 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:09,547 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 12:56:11,889 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 12:56:11,893 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 12:56:15,803 | itj_planning | DEBUG | --------------------
+2022-03-21 12:56:21,329 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:21,331 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.04
+2022-03-21 12:56:21,332 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:21,337 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:21,338 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:21,351 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:21,449 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:21,450 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:22,190 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:22,199 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:22,201 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:22,203 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:22,206 | itj_planning | DEBUG | Copy process takes 0.04251885414123535 | total timeout 3600.0425188541412
+2022-03-21 12:56:22,258 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:22,259 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 0.97
+2022-03-21 12:56:22,260 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:22,262 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:22,263 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:22,267 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:22,374 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:22,376 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:23,121 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:23,124 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:23,125 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:23,126 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:23,130 | itj_planning | DEBUG | Copy process takes 0.050453901290893555 | total timeout 3600.092972755432
+2022-03-21 12:56:23,174 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:23,176 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | time elapsed 1.89
+2022-03-21 12:56:23,177 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:23,179 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:23,180 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:23,183 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:23,287 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:23,288 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:24,037 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:24,038 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:24,040 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:24,041 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:24,044 | itj_planning | DEBUG | Copy process takes 0.042818307876586914 | total timeout 3600.1357910633087
+2022-03-21 12:56:24,090 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:24,091 | itj_planning | INFO | Beam b15 | movement_id | Trail #3 | time elapsed 2.80
+2022-03-21 12:56:24,092 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:24,095 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:24,097 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:24,099 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:24,186 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:24,187 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:24,918 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:24,920 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:24,921 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:24,922 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:56:24,925 | itj_planning | DEBUG | Copy process takes 0.04468393325805664 | total timeout 3600.1804749965668
+2022-03-21 12:56:24,970 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:24,971 | itj_planning | INFO | Beam b15 | movement_id | Trail #4 | time elapsed 3.68
+2022-03-21 12:56:24,972 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:24,974 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:24,975 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:24,977 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:25,072 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:25,073 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:25,854 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:25,857 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:25,858 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:25,859 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:25,863 | itj_planning | DEBUG | Copy process takes 0.04356646537780762 | total timeout 3600.2240414619446
+2022-03-21 12:56:25,910 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:25,911 | itj_planning | INFO | Beam b15 | movement_id | Trail #5 | time elapsed 4.62
+2022-03-21 12:56:25,913 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:25,915 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:25,916 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:25,919 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:26,012 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:26,013 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:26,772 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:26,774 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:26,776 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:26,777 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:26,780 | itj_planning | DEBUG | Copy process takes 0.04596138000488281 | total timeout 3600.2700028419495
+2022-03-21 12:56:26,828 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:26,830 | itj_planning | INFO | Beam b15 | movement_id | Trail #6 | time elapsed 5.54
+2022-03-21 12:56:26,832 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:26,836 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:26,837 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:26,840 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:26,946 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:26,947 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:27,733 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:27,735 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:27,737 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:27,738 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:27,742 | itj_planning | DEBUG | Copy process takes 0.04654979705810547 | total timeout 3600.3165526390076
+2022-03-21 12:56:27,792 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:27,793 | itj_planning | INFO | Beam b15 | movement_id | Trail #7 | time elapsed 6.51
+2022-03-21 12:56:27,794 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:27,796 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:27,797 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:27,801 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:27,905 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:27,907 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:28,731 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:28,733 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:28,735 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:28,736 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:28,740 | itj_planning | DEBUG | Copy process takes 0.04893350601196289 | total timeout 3600.3654861450195
+2022-03-21 12:56:28,794 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:28,795 | itj_planning | INFO | Beam b15 | movement_id | Trail #8 | time elapsed 7.51
+2022-03-21 12:56:28,795 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:28,798 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:28,800 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:28,802 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:28,909 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:28,910 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:29,830 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:29,833 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:29,835 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:29,837 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:29,840 | itj_planning | DEBUG | Copy process takes 0.0524287223815918 | total timeout 3600.417914867401
+2022-03-21 12:56:29,899 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:29,900 | itj_planning | INFO | Beam b15 | movement_id | Trail #9 | time elapsed 8.61
+2022-03-21 12:56:29,901 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:29,903 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:29,904 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:29,908 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:30,039 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:30,040 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:30,955 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:30,957 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:30,958 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:30,959 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.1
+2022-03-21 12:56:30,964 | itj_planning | DEBUG | Copy process takes 0.05712389945983887 | total timeout 3600.475038766861
+2022-03-21 12:56:31,022 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:31,024 | itj_planning | INFO | Beam b15 | movement_id | Trail #10 | time elapsed 9.74
+2022-03-21 12:56:31,026 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:31,029 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:31,030 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:31,033 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:31,144 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:31,145 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:32,035 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:32,038 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:32,039 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:32,040 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:32,044 | itj_planning | DEBUG | Copy process takes 0.05699014663696289 | total timeout 3600.532028913498
+2022-03-21 12:56:32,098 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:32,099 | itj_planning | INFO | Beam b15 | movement_id | Trail #11 | time elapsed 10.81
+2022-03-21 12:56:32,100 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:32,103 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:32,104 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:32,106 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:32,211 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:32,212 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:33,038 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:33,040 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:33,041 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:33,042 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:33,047 | itj_planning | DEBUG | Copy process takes 0.052954912185668945 | total timeout 3600.5849838256836
+2022-03-21 12:56:33,097 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:33,099 | itj_planning | INFO | Beam b15 | movement_id | Trail #12 | time elapsed 11.81
+2022-03-21 12:56:33,100 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:33,103 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:33,104 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:33,107 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:33,209 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:33,210 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:34,257 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:34,259 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:34,261 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:34,262 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 12:56:34,265 | itj_planning | DEBUG | Copy process takes 0.04835033416748047 | total timeout 3600.633334159851
+2022-03-21 12:56:34,319 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:34,320 | itj_planning | INFO | Beam b15 | movement_id | Trail #13 | time elapsed 13.03
+2022-03-21 12:56:34,322 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:34,325 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:34,326 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:34,329 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:34,437 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:34,438 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:35,249 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:35,251 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:35,252 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:35,253 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:35,257 | itj_planning | DEBUG | Copy process takes 0.05246376991271973 | total timeout 3600.685797929764
+2022-03-21 12:56:35,307 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:35,307 | itj_planning | INFO | Beam b15 | movement_id | Trail #14 | time elapsed 14.02
+2022-03-21 12:56:35,309 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:35,313 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:35,314 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:35,317 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:35,422 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:35,423 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:36,259 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:36,261 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:36,263 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:36,264 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:36,268 | itj_planning | DEBUG | Copy process takes 0.049035072326660156 | total timeout 3600.7348330020905
+2022-03-21 12:56:36,322 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:36,323 | itj_planning | INFO | Beam b15 | movement_id | Trail #15 | time elapsed 15.04
+2022-03-21 12:56:36,324 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:36,326 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:36,327 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:36,329 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:36,429 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:36,431 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:37,227 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:37,229 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:37,230 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:37,232 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:37,235 | itj_planning | DEBUG | Copy process takes 0.05342674255371094 | total timeout 3600.788259744644
+2022-03-21 12:56:37,287 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:37,288 | itj_planning | INFO | Beam b15 | movement_id | Trail #16 | time elapsed 16.00
+2022-03-21 12:56:37,289 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:37,291 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:37,292 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:37,296 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:37,400 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:37,402 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:38,268 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:38,270 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:38,272 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:38,273 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:38,277 | itj_planning | DEBUG | Copy process takes 0.0503544807434082 | total timeout 3600.8386142253876
+2022-03-21 12:56:38,338 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:38,340 | itj_planning | INFO | Beam b15 | movement_id | Trail #17 | time elapsed 17.05
+2022-03-21 12:56:38,341 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:38,343 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:38,344 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:38,346 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:38,448 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:38,450 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:39,259 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:39,261 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:39,263 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:39,263 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:39,268 | itj_planning | DEBUG | Copy process takes 0.05916881561279297 | total timeout 3600.8977830410004
+2022-03-21 12:56:39,317 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:39,318 | itj_planning | INFO | Beam b15 | movement_id | Trail #18 | time elapsed 18.03
+2022-03-21 12:56:39,319 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:39,322 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:39,322 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:39,325 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:39,426 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:39,427 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:40,348 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:40,351 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:40,352 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:40,354 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:40,358 | itj_planning | DEBUG | Copy process takes 0.04759478569030762 | total timeout 3600.9453778266907
+2022-03-21 12:56:40,412 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:40,414 | itj_planning | INFO | Beam b15 | movement_id | Trail #19 | time elapsed 19.13
+2022-03-21 12:56:40,415 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:40,418 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:40,420 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:40,425 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:40,555 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:40,557 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:41,439 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:41,441 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:41,443 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:41,444 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:41,448 | itj_planning | DEBUG | Copy process takes 0.051999568939208984 | total timeout 3600.99737739563
+2022-03-21 12:56:41,501 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:41,502 | itj_planning | INFO | Beam b15 | movement_id | Trail #20 | time elapsed 20.21
+2022-03-21 12:56:41,503 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:41,505 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:41,505 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:41,511 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:41,628 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:41,630 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:42,447 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:42,450 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:42,451 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:42,452 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:42,456 | itj_planning | DEBUG | Copy process takes 0.05134916305541992 | total timeout 3601.0487265586853
+2022-03-21 12:56:42,514 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:42,516 | itj_planning | INFO | Beam b15 | movement_id | Trail #21 | time elapsed 21.23
+2022-03-21 12:56:42,518 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:42,520 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:42,521 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:42,524 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:42,652 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:42,653 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:43,537 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:43,538 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:43,540 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:43,541 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:43,544 | itj_planning | DEBUG | Copy process takes 0.057778120040893555 | total timeout 3601.106504678726
+2022-03-21 12:56:43,609 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:43,611 | itj_planning | INFO | Beam b15 | movement_id | Trail #22 | time elapsed 22.32
+2022-03-21 12:56:43,611 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:43,613 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:43,614 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:43,618 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:43,763 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:43,764 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:44,772 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:44,773 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:44,775 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:44,776 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 12:56:44,779 | itj_planning | DEBUG | Copy process takes 0.06417155265808105 | total timeout 3601.1706762313843
+2022-03-21 12:56:44,841 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:44,843 | itj_planning | INFO | Beam b15 | movement_id | Trail #23 | time elapsed 23.56
+2022-03-21 12:56:44,844 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:44,847 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:44,848 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:44,851 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:44,960 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:44,961 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:45,766 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:45,768 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:45,769 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:45,769 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:45,773 | itj_planning | DEBUG | Copy process takes 0.0593259334564209 | total timeout 3601.2300021648407
+2022-03-21 12:56:45,828 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:45,829 | itj_planning | INFO | Beam b15 | movement_id | Trail #24 | time elapsed 24.54
+2022-03-21 12:56:45,830 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:45,831 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:45,832 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:45,834 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:45,940 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:45,941 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:46,798 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:46,800 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:46,801 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:46,802 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:46,805 | itj_planning | DEBUG | Copy process takes 0.05396246910095215 | total timeout 3601.2839646339417
+2022-03-21 12:56:46,855 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:46,856 | itj_planning | INFO | Beam b15 | movement_id | Trail #25 | time elapsed 25.57
+2022-03-21 12:56:46,858 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:46,862 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:46,863 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:46,868 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:46,973 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:46,975 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:47,829 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:47,831 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:47,832 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:47,832 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.0
+2022-03-21 12:56:47,836 | itj_planning | DEBUG | Copy process takes 0.050051212310791016 | total timeout 3601.3340158462524
+2022-03-21 12:56:47,882 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:47,884 | itj_planning | INFO | Beam b15 | movement_id | Trail #26 | time elapsed 26.60
+2022-03-21 12:56:47,885 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:47,887 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:47,888 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:47,891 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:47,997 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:47,998 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:48,715 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:48,717 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:48,719 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:48,720 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.8
+2022-03-21 12:56:48,723 | itj_planning | DEBUG | Copy process takes 0.045993804931640625 | total timeout 3601.380009651184
+2022-03-21 12:56:48,769 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:48,770 | itj_planning | INFO | Beam b15 | movement_id | Trail #27 | time elapsed 27.48
+2022-03-21 12:56:48,771 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:48,773 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:48,775 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:48,778 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:48,872 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:48,874 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:56:49,623 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:56:49,625 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 12:56:49,627 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 12:56:49,628 | itj_planning | INFO | Return success: False | runtime of current attempt: 0.9
+2022-03-21 12:56:49,632 | itj_planning | DEBUG | Copy process takes 0.04462909698486328 | total timeout 3601.424638748169
+2022-03-21 12:56:49,679 | itj_planning | DEBUG | ##########
+2022-03-21 12:56:49,681 | itj_planning | INFO | Beam b15 | movement_id | Trail #28 | time elapsed 28.39
+2022-03-21 12:56:49,682 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:56:49,684 | itj_planning | DEBUG | ====================
+2022-03-21 12:56:49,684 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:56:49,687 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:56:49,796 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:56:49,798 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:57:10,788 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 12:57:22,240 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 12:57:26,167 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 12:57:26,172 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 12:57:32,350 | itj_planning | DEBUG | --------------------
+2022-03-21 12:57:40,641 | itj_planning | DEBUG | ##########
+2022-03-21 12:57:40,642 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 12:57:40,644 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:57:40,648 | itj_planning | DEBUG | ====================
+2022-03-21 12:57:40,649 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:57:40,666 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:57:41,853 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:57:41,855 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:57:43,412 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:57:43,413 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 12:57:43,414 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 12:57:43,415 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((127, None), (70, None)), ((0, 'robot11_tool0'), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 12:59:34,225 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 12:59:38,401 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 12:59:38,407 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 12:59:43,768 | itj_planning | DEBUG | --------------------
+2022-03-21 12:59:50,947 | itj_planning | DEBUG | ##########
+2022-03-21 12:59:50,949 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 12:59:50,951 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 12:59:50,954 | itj_planning | DEBUG | ====================
+2022-03-21 12:59:50,956 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 12:59:50,970 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 12:59:52,309 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 12:59:52,311 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 12:59:58,565 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 12:59:58,568 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 12:59:58,569 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 12:59:58,571 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_link_6'), (120, None)), ((0, 'robot11_tool0'), (120, None))}})
+2022-03-21 13:19:24,010 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:19:28,940 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:19:28,946 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:19:34,834 | itj_planning | DEBUG | --------------------
+2022-03-21 13:19:43,502 | itj_planning | DEBUG | ##########
+2022-03-21 13:19:43,503 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 13:19:43,504 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:19:43,507 | itj_planning | DEBUG | ====================
+2022-03-21 13:19:43,508 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:19:43,526 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:19:44,747 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:19:44,749 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:19:51,415 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:19:51,419 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:19:51,420 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:19:51,422 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 13:19:59,321 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:19:59,323 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:19:59,325 | itj_planning | INFO | Return success: False | runtime of current attempt: 15.8
+2022-03-21 13:19:59,333 | itj_planning | DEBUG | Copy process takes 0.06897878646850586 | total timeout 3600.0689787864685
+2022-03-21 13:19:59,400 | itj_planning | DEBUG | ##########
+2022-03-21 13:19:59,402 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 15.97
+2022-03-21 13:19:59,403 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:19:59,406 | itj_planning | DEBUG | ====================
+2022-03-21 13:19:59,407 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:19:59,411 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:20:00,611 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:20:00,613 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:20:08,523 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:20:08,524 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:20:08,525 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:20:08,526 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 13:20:38,876 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:20:46,429 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:20:46,443 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:20:55,068 | itj_planning | DEBUG | --------------------
+2022-03-21 13:21:02,746 | itj_planning | DEBUG | ##########
+2022-03-21 13:21:02,748 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 13:21:02,750 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:21:02,752 | itj_planning | DEBUG | ====================
+2022-03-21 13:21:02,756 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:21:02,776 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:21:04,094 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:21:04,096 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:21:11,048 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:21:11,049 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:21:11,049 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:21:11,050 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_link_6'), (120, None)), ((0, 'robot11_tool0'), (120, None))}})
+2022-03-21 13:22:57,459 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:23:02,406 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:23:02,415 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:23:07,952 | itj_planning | DEBUG | --------------------
+2022-03-21 13:23:16,228 | itj_planning | DEBUG | ##########
+2022-03-21 13:23:16,229 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 13:23:16,230 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:23:16,232 | itj_planning | DEBUG | ====================
+2022-03-21 13:23:16,233 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:23:16,248 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:23:17,414 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:23:17,416 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:27:41,936 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:27:46,911 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:27:46,916 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:27:52,495 | itj_planning | DEBUG | --------------------
+2022-03-21 13:27:59,890 | itj_planning | DEBUG | ##########
+2022-03-21 13:27:59,891 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 13:27:59,893 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:27:59,896 | itj_planning | DEBUG | ====================
+2022-03-21 13:27:59,898 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:27:59,911 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:28:01,172 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:28:01,174 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:30:43,028 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:30:47,573 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:30:47,578 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:30:52,969 | itj_planning | DEBUG | --------------------
+2022-03-21 13:30:59,984 | itj_planning | DEBUG | ##########
+2022-03-21 13:30:59,986 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 13:30:59,987 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:30:59,990 | itj_planning | DEBUG | ====================
+2022-03-21 13:30:59,991 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:31:00,004 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:31:01,207 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:31:01,208 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:31:36,831 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:31:40,975 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:31:40,983 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:31:46,148 | itj_planning | DEBUG | --------------------
+2022-03-21 13:31:53,430 | itj_planning | DEBUG | ##########
+2022-03-21 13:31:53,432 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 13:31:53,433 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:31:53,436 | itj_planning | DEBUG | ====================
+2022-03-21 13:31:53,438 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:31:53,450 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:31:54,716 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:31:54,717 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:35:38,094 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:35:42,897 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:35:42,903 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:35:48,046 | itj_planning | DEBUG | --------------------
+2022-03-21 13:35:55,566 | itj_planning | DEBUG | ##########
+2022-03-21 13:35:55,567 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.10
+2022-03-21 13:35:55,569 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:35:55,571 | itj_planning | DEBUG | ====================
+2022-03-21 13:35:55,573 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:35:55,589 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:35:56,765 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:35:56,768 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:36:10,266 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:36:10,268 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:36:10,269 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:36:10,270 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((127, None), (70, None)), ((0, 'robot11_tool0'), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 13:38:26,559 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:38:31,146 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:38:31,151 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:38:37,838 | itj_planning | DEBUG | --------------------
+2022-03-21 13:38:45,902 | itj_planning | DEBUG | ##########
+2022-03-21 13:38:45,904 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 13:38:45,905 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:38:45,908 | itj_planning | DEBUG | ====================
+2022-03-21 13:38:45,909 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:38:45,923 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:38:47,193 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:38:47,195 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:38:54,511 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:38:54,513 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:38:54,513 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:38:54,515 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 13:38:58,678 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:38:58,680 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:38:58,681 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.8
+2022-03-21 13:38:58,688 | itj_planning | DEBUG | Copy process takes 0.07119488716125488 | total timeout 3600.0711948871613
+2022-03-21 13:38:58,776 | itj_planning | DEBUG | ##########
+2022-03-21 13:38:58,777 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 12.95
+2022-03-21 13:38:58,778 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:38:58,782 | itj_planning | DEBUG | ====================
+2022-03-21 13:38:58,784 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:38:58,787 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:39:00,185 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:39:00,186 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:39:05,249 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:39:05,250 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 13:39:05,251 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 13:39:05,252 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 13:43:20,485 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:43:25,218 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:43:25,230 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:43:31,104 | itj_planning | DEBUG | --------------------
+2022-03-21 13:43:38,737 | itj_planning | DEBUG | ##########
+2022-03-21 13:43:38,738 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.06
+2022-03-21 13:43:38,739 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:43:38,742 | itj_planning | DEBUG | ====================
+2022-03-21 13:43:38,743 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:43:38,761 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:43:39,946 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:43:39,948 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:44:29,765 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:44:29,780 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:44:29,782 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:44:29,783 | itj_planning | INFO | Return success: False | runtime of current attempt: 51.0
+2022-03-21 13:44:29,788 | itj_planning | DEBUG | Copy process takes 0.06297779083251953 | total timeout 3600.0629777908325
+2022-03-21 13:44:29,922 | itj_planning | DEBUG | ##########
+2022-03-21 13:44:29,925 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 51.25
+2022-03-21 13:44:29,928 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:44:29,933 | itj_planning | DEBUG | ====================
+2022-03-21 13:44:29,935 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:44:29,946 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:44:31,209 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:44:31,210 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:51:52,987 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:51:57,582 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:51:57,588 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:52:02,966 | itj_planning | DEBUG | --------------------
+2022-03-21 13:52:11,117 | itj_planning | DEBUG | ##########
+2022-03-21 13:52:11,119 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 13:52:11,120 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:52:11,122 | itj_planning | DEBUG | ====================
+2022-03-21 13:52:11,123 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:52:11,139 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:52:12,344 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:52:12,345 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:53:10,086 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:53:10,099 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:53:10,101 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:53:10,103 | itj_planning | INFO | Return success: False | runtime of current attempt: 59.0
+2022-03-21 13:53:10,109 | itj_planning | DEBUG | Copy process takes 0.07657980918884277 | total timeout 3600.076579809189
+2022-03-21 13:53:10,207 | itj_planning | DEBUG | ##########
+2022-03-21 13:53:10,209 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 59.17
+2022-03-21 13:53:10,210 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:53:10,213 | itj_planning | DEBUG | ====================
+2022-03-21 13:53:10,214 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:53:10,218 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:53:11,439 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:53:11,441 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:57:18,258 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 13:57:24,577 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 13:57:24,583 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 13:57:30,244 | itj_planning | DEBUG | --------------------
+2022-03-21 13:57:37,553 | itj_planning | DEBUG | ##########
+2022-03-21 13:57:37,555 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 13:57:37,556 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:57:37,559 | itj_planning | DEBUG | ====================
+2022-03-21 13:57:37,560 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:57:37,576 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:57:38,743 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:57:38,745 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:58:21,329 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:58:21,342 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:58:21,344 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:58:21,346 | itj_planning | INFO | Return success: False | runtime of current attempt: 43.8
+2022-03-21 13:58:21,351 | itj_planning | DEBUG | Copy process takes 0.07678365707397461 | total timeout 3600.076783657074
+2022-03-21 13:58:21,427 | itj_planning | DEBUG | ##########
+2022-03-21 13:58:21,428 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 43.95
+2022-03-21 13:58:21,430 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:58:21,433 | itj_planning | DEBUG | ====================
+2022-03-21 13:58:21,434 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:58:21,438 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:58:22,667 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:58:22,668 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 13:58:35,844 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 13:58:35,846 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 13:58:35,848 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 13:58:35,849 | itj_planning | INFO | Return success: False | runtime of current attempt: 14.4
+2022-03-21 13:58:35,853 | itj_planning | DEBUG | Copy process takes 0.0742347240447998 | total timeout 3600.151018381119
+2022-03-21 13:58:35,917 | itj_planning | DEBUG | ##########
+2022-03-21 13:58:35,918 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | time elapsed 58.44
+2022-03-21 13:58:35,919 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 13:58:35,922 | itj_planning | DEBUG | ====================
+2022-03-21 13:58:35,923 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 13:58:35,927 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 13:58:37,155 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 13:58:37,156 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:01:27,517 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:01:32,590 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:01:32,595 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:01:38,336 | itj_planning | DEBUG | --------------------
+2022-03-21 14:01:46,062 | itj_planning | DEBUG | ##########
+2022-03-21 14:01:46,064 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 14:01:46,066 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:01:46,068 | itj_planning | DEBUG | ====================
+2022-03-21 14:01:46,070 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:01:46,085 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:01:47,268 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:01:47,270 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:02:26,795 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 14:02:26,808 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:02:26,810 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:02:26,811 | itj_planning | INFO | Return success: False | runtime of current attempt: 40.7
+2022-03-21 14:02:26,820 | itj_planning | DEBUG | Copy process takes 0.07576727867126465 | total timeout 3600.0757672786713
+2022-03-21 14:02:26,929 | itj_planning | DEBUG | ##########
+2022-03-21 14:02:26,932 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 40.95
+2022-03-21 14:02:26,933 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:02:26,936 | itj_planning | DEBUG | ====================
+2022-03-21 14:02:26,937 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:02:26,940 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:02:28,153 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:02:28,155 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:03:23,319 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:03:27,571 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:03:27,578 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:03:32,909 | itj_planning | DEBUG | --------------------
+2022-03-21 14:03:40,136 | itj_planning | DEBUG | ##########
+2022-03-21 14:03:40,137 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.09
+2022-03-21 14:03:40,138 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:03:40,140 | itj_planning | DEBUG | ====================
+2022-03-21 14:03:40,142 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:03:40,162 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:03:41,495 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:03:41,496 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:05:52,944 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:05:57,403 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:05:57,413 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:06:02,547 | itj_planning | INFO | Recomputing Actions and States
+2022-03-21 14:06:36,396 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:06:40,619 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:06:40,628 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:06:45,952 | itj_planning | DEBUG | --------------------
+2022-03-21 14:06:53,122 | itj_planning | DEBUG | ##########
+2022-03-21 14:06:53,123 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.06
+2022-03-21 14:06:53,125 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:06:53,127 | itj_planning | DEBUG | ====================
+2022-03-21 14:06:53,129 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:06:53,145 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:06:54,458 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:06:54,460 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:07:47,320 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:07:51,882 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:07:51,889 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:07:52,447 | itj_planning | INFO | Recomputing Actions and States
+2022-03-21 14:09:17,311 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:09:22,196 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:09:22,202 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:09:27,650 | itj_planning | DEBUG | --------------------
+2022-03-21 14:09:34,945 | itj_planning | DEBUG | ##########
+2022-03-21 14:09:34,946 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 14:09:34,948 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:09:34,950 | itj_planning | DEBUG | ====================
+2022-03-21 14:09:34,951 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:09:34,965 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:09:36,304 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:09:36,305 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:11:54,430 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 14:11:54,443 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:11:54,445 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:11:54,447 | itj_planning | INFO | Return success: False | runtime of current attempt: 139.5
+2022-03-21 14:11:54,451 | itj_planning | DEBUG | Copy process takes 0.06902122497558594 | total timeout 3600.0690212249756
+2022-03-21 14:11:54,517 | itj_planning | DEBUG | ##########
+2022-03-21 14:11:54,519 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 139.64
+2022-03-21 14:11:54,520 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:11:54,522 | itj_planning | DEBUG | ====================
+2022-03-21 14:11:54,523 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:11:54,527 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:11:55,743 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:11:55,745 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:24:23,564 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:24:26,917 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:24:26,922 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:24:30,963 | itj_planning | DEBUG | --------------------
+2022-03-21 14:24:36,332 | itj_planning | DEBUG | ##########
+2022-03-21 14:24:36,332 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 14:24:36,332 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:24:36,332 | itj_planning | DEBUG | ====================
+2022-03-21 14:24:36,332 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:24:36,347 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:24:37,519 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:24:37,519 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:27:14,045 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 14:27:15,994 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:27:23,197 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-21 14:27:23,197 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:24,416 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:24,431 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:24,431 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:24,470 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 1.30
+2022-03-21 14:27:24,472 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:25,778 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:25,779 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:25,780 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:25,822 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | time elapsed 2.66
+2022-03-21 14:27:25,823 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:27,132 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:27,133 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:27,134 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:27,171 | itj_planning | INFO | Beam b15 | movement_id | Trail #3 | time elapsed 4.01
+2022-03-21 14:27:27,172 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:28,406 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:28,406 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:28,406 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:28,444 | itj_planning | INFO | Beam b15 | movement_id | Trail #4 | time elapsed 5.28
+2022-03-21 14:27:28,444 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:29,679 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:29,679 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:29,679 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:29,710 | itj_planning | INFO | Beam b15 | movement_id | Trail #5 | time elapsed 6.54
+2022-03-21 14:27:29,710 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:30,963 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:30,963 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:30,963 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:31,001 | itj_planning | INFO | Beam b15 | movement_id | Trail #6 | time elapsed 7.84
+2022-03-21 14:27:31,001 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:32,253 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:32,254 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:32,255 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:32,291 | itj_planning | INFO | Beam b15 | movement_id | Trail #7 | time elapsed 9.13
+2022-03-21 14:27:32,292 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:33,524 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:33,524 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:33,524 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:33,564 | itj_planning | INFO | Beam b15 | movement_id | Trail #8 | time elapsed 10.40
+2022-03-21 14:27:33,564 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:34,785 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:34,785 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:34,785 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:34,823 | itj_planning | INFO | Beam b15 | movement_id | Trail #9 | time elapsed 11.66
+2022-03-21 14:27:34,823 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:36,057 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:36,057 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:36,057 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:36,088 | itj_planning | INFO | Beam b15 | movement_id | Trail #10 | time elapsed 12.92
+2022-03-21 14:27:36,104 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:37,335 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:37,336 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:37,337 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-03-21 14:27:37,373 | itj_planning | INFO | Beam b15 | movement_id | Trail #11 | time elapsed 14.21
+2022-03-21 14:27:37,375 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:38,626 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:38,626 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:38,626 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:38,673 | itj_planning | INFO | Beam b15 | movement_id | Trail #12 | time elapsed 15.51
+2022-03-21 14:27:38,673 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:27:39,949 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 14:27:39,949 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 14:27:39,949 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.3
+2022-03-21 14:27:39,970 | itj_planning | INFO | Beam b15 | movement_id | Trail #13 | time elapsed 16.80
+2022-03-21 14:27:39,970 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:42:23,458 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:42:25,978 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:42:25,986 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:42:29,134 | itj_planning | DEBUG | --------------------
+2022-03-21 14:42:33,399 | itj_planning | DEBUG | ##########
+2022-03-21 14:42:33,407 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 14:42:33,409 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:42:33,409 | itj_planning | DEBUG | ====================
+2022-03-21 14:42:33,409 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:42:33,419 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:42:34,554 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:42:34,556 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:49:40,974 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:49:43,587 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:49:43,587 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:49:46,901 | itj_planning | DEBUG | --------------------
+2022-03-21 14:49:51,274 | itj_planning | DEBUG | ##########
+2022-03-21 14:49:51,274 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-21 14:49:51,282 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:49:51,284 | itj_planning | DEBUG | ====================
+2022-03-21 14:49:51,284 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:49:51,294 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:49:52,434 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:49:52,434 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 14:57:16,038 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 14:57:18,527 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 14:57:18,527 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 14:57:21,538 | itj_planning | DEBUG | --------------------
+2022-03-21 14:57:25,851 | itj_planning | DEBUG | ##########
+2022-03-21 14:57:25,852 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 14:57:25,853 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 14:57:25,855 | itj_planning | DEBUG | ====================
+2022-03-21 14:57:25,856 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 14:57:25,865 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 14:57:26,989 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 14:57:26,989 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:02:18,631 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:02:22,087 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:02:22,103 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:02:25,350 | itj_planning | DEBUG | --------------------
+2022-03-21 15:02:29,696 | itj_planning | DEBUG | ##########
+2022-03-21 15:02:29,698 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 15:02:29,699 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:02:29,700 | itj_planning | DEBUG | ====================
+2022-03-21 15:02:29,701 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:02:29,711 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:02:30,827 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:02:30,829 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:05:14,618 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:05:17,631 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:05:17,631 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:05:21,320 | itj_planning | DEBUG | --------------------
+2022-03-21 15:05:26,348 | itj_planning | DEBUG | ##########
+2022-03-21 15:05:26,356 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 15:05:26,358 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:05:26,358 | itj_planning | DEBUG | ====================
+2022-03-21 15:05:26,358 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:05:26,368 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:05:27,504 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:05:27,504 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:14:27,276 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:14:29,833 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:14:29,833 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:14:32,936 | itj_planning | DEBUG | --------------------
+2022-03-21 15:14:37,192 | itj_planning | DEBUG | ##########
+2022-03-21 15:14:37,198 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.04
+2022-03-21 15:14:37,198 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:14:37,198 | itj_planning | DEBUG | ====================
+2022-03-21 15:14:37,198 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:14:37,198 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:14:38,081 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:14:38,082 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:17:52,462 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:17:55,087 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:17:55,095 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:17:58,225 | itj_planning | DEBUG | --------------------
+2022-03-21 15:18:02,471 | itj_planning | DEBUG | ##########
+2022-03-21 15:18:02,471 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-21 15:18:02,471 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:18:02,479 | itj_planning | DEBUG | ====================
+2022-03-21 15:18:02,481 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:18:02,490 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:18:03,547 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:18:03,547 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:21:37,156 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:21:39,700 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:21:39,700 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:21:43,398 | itj_planning | DEBUG | --------------------
+2022-03-21 15:21:48,543 | itj_planning | DEBUG | ##########
+2022-03-21 15:21:48,543 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.09
+2022-03-21 15:21:48,543 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:21:48,543 | itj_planning | DEBUG | ====================
+2022-03-21 15:21:48,543 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:21:48,558 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:21:49,723 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:21:49,738 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:22:27,917 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:22:27,933 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 15:22:27,933 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 15:22:27,933 | itj_planning | INFO | Return success: False | runtime of current attempt: 39.4
+2022-03-21 15:22:27,933 | itj_planning | DEBUG | Copy process takes 0.09372949600219727 | total timeout 3600.093729496002
+2022-03-21 15:22:28,011 | itj_planning | DEBUG | ##########
+2022-03-21 15:22:28,012 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 39.56
+2022-03-21 15:22:28,014 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:22:28,016 | itj_planning | DEBUG | ====================
+2022-03-21 15:22:28,017 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:22:28,021 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:22:44,672 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:22:47,324 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:22:47,324 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:22:51,445 | itj_planning | DEBUG | --------------------
+2022-03-21 15:22:56,493 | itj_planning | DEBUG | ##########
+2022-03-21 15:22:56,493 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.06
+2022-03-21 15:22:56,493 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:22:56,493 | itj_planning | DEBUG | ====================
+2022-03-21 15:22:56,493 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:22:56,509 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:22:57,684 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:22:57,684 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:25:28,852 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:25:31,465 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:25:31,481 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:25:34,639 | itj_planning | DEBUG | --------------------
+2022-03-21 15:25:39,505 | itj_planning | DEBUG | ##########
+2022-03-21 15:25:39,505 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.06
+2022-03-21 15:25:39,505 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:25:39,505 | itj_planning | DEBUG | ====================
+2022-03-21 15:25:39,505 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:25:39,521 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:25:40,675 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:25:40,675 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:26:07,524 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:26:07,539 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 15:26:07,539 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 15:26:07,539 | itj_planning | INFO | Return success: False | runtime of current attempt: 28.0
+2022-03-21 15:26:07,539 | itj_planning | DEBUG | Copy process takes 0.0624842643737793 | total timeout 3600.062484264374
+2022-03-21 15:26:07,586 | itj_planning | DEBUG | ##########
+2022-03-21 15:26:07,586 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 28.14
+2022-03-21 15:26:07,586 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:26:07,602 | itj_planning | DEBUG | ====================
+2022-03-21 15:26:07,602 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:26:07,602 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:26:25,158 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:26:28,408 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:26:28,408 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:26:32,161 | itj_planning | DEBUG | --------------------
+2022-03-21 15:26:37,146 | itj_planning | DEBUG | ##########
+2022-03-21 15:26:37,147 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.07
+2022-03-21 15:26:37,148 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:26:37,150 | itj_planning | DEBUG | ====================
+2022-03-21 15:26:37,151 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:26:37,163 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:26:38,318 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:26:38,319 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:26:48,685 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:26:48,700 | itj_planning | INFO | No plan found for A183_M2 | RoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)
+2022-03-21 15:26:48,700 | itj_planning | INFO | A plan NOT found for movement_id A183_M2!
+2022-03-21 15:26:48,700 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.6
+2022-03-21 15:26:48,700 | itj_planning | DEBUG | Copy process takes 0.06551933288574219 | total timeout 3600.0655193328857
+2022-03-21 15:26:48,763 | itj_planning | DEBUG | ##########
+2022-03-21 15:26:48,763 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 11.68
+2022-03-21 15:26:48,763 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:26:48,763 | itj_planning | DEBUG | ====================
+2022-03-21 15:26:48,763 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:26:48,779 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:26:50,013 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:26:50,013 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:30:11,693 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:30:14,391 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:30:14,396 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:30:17,619 | itj_planning | DEBUG | --------------------
+2022-03-21 15:30:22,073 | itj_planning | DEBUG | ##########
+2022-03-21 15:30:22,089 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.06
+2022-03-21 15:30:22,089 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:30:22,089 | itj_planning | DEBUG | ====================
+2022-03-21 15:30:22,089 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:30:22,089 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:30:23,261 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:30:23,277 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:30:31,110 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:30:31,110 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 15:30:31,126 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 15:30:31,126 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((127, None), (70, None)), ((0, 'robot11_tool0'), (70, None))}, 'g3': {((120, None), (127, None)), ((0, 'robot11_tool0'), (127, None))}, 'tool_changer': {((0, 'robot11_link_6'), (120, None)), ((0, 'robot11_tool0'), (120, None))}})
+2022-03-21 15:32:24,544 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:32:27,136 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:32:27,140 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:32:30,404 | itj_planning | DEBUG | --------------------
+2022-03-21 15:32:35,039 | itj_planning | DEBUG | ##########
+2022-03-21 15:32:35,040 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.04
+2022-03-21 15:32:35,041 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:32:35,044 | itj_planning | DEBUG | ====================
+2022-03-21 15:32:35,045 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:32:35,055 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:32:36,167 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:32:36,168 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:32:46,966 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:32:46,966 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 15:32:46,966 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 15:32:46,966 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 15:33:13,980 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:33:16,687 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:33:16,691 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:33:20,221 | itj_planning | DEBUG | --------------------
+2022-03-21 15:33:25,561 | itj_planning | DEBUG | ##########
+2022-03-21 15:33:25,562 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 15:33:25,563 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:33:25,565 | itj_planning | DEBUG | ====================
+2022-03-21 15:33:25,566 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:33:25,577 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:33:26,760 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:33:26,761 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:33:41,279 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:33:41,295 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 15:33:41,295 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 15:33:41,295 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((127, None), (70, None)), ((0, 'robot11_tool0'), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_link_6'), (120, None)), ((0, 'robot11_tool0'), (120, None))}})
+2022-03-21 15:47:02,938 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:47:07,015 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:47:07,020 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:47:12,235 | itj_planning | DEBUG | --------------------
+2022-03-21 15:47:19,289 | itj_planning | DEBUG | ##########
+2022-03-21 15:47:19,291 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 15:47:19,292 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:47:19,294 | itj_planning | DEBUG | ====================
+2022-03-21 15:47:19,296 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:47:19,317 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:47:20,803 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:47:20,805 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:49:42,528 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 15:49:42,529 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 15:49:42,530 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 15:49:42,531 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((0, 'robot11_tool0'), (70, None)), ((127, None), (70, None))}, 'g3': {((0, 'robot11_tool0'), (127, None)), ((120, None), (127, None))}, 'tool_changer': {((0, 'robot11_tool0'), (120, None)), ((0, 'robot11_link_6'), (120, None))}})
+2022-03-21 15:49:58,056 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:50:02,939 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:50:02,951 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:50:08,805 | itj_planning | DEBUG | --------------------
+2022-03-21 15:50:15,799 | itj_planning | DEBUG | ##########
+2022-03-21 15:50:15,800 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.09
+2022-03-21 15:50:15,801 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:50:15,803 | itj_planning | DEBUG | ====================
+2022-03-21 15:50:15,804 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:50:15,817 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:50:17,006 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:50:17,007 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 15:53:51,958 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=True, draw_mp_exploration=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-03-21 15:53:55,898 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 15:53:55,903 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 15:54:01,799 | itj_planning | DEBUG | --------------------
+2022-03-21 15:54:09,574 | itj_planning | DEBUG | ##########
+2022-03-21 15:54:09,576 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.08
+2022-03-21 15:54:09,577 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 15:54:09,580 | itj_planning | DEBUG | ====================
+2022-03-21 15:54:09,582 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A183_M2'][0m
+2022-03-21 15:54:09,596 | itj_planning | DEBUG | [36mRoboticLinearMovement(#A183_M2, Final Move to reorient Beam ('b15'), has_traj False)[0m
+2022-03-21 15:54:11,067 | itj_planning | DEBUG | [34mOne-sided Cartesian planning : start conf set, forward mode[0m
+2022-03-21 15:54:11,068 | itj_planning | DEBUG | 	cartesian trial #0
+2022-03-21 16:03:22,358 | itj_planning | DEBUG | [33mCartesian Path planning (w/ prespecified st or end conf) failure after
+IterativeIK attempts of 1 + 1 LadderGraph attempt.[0m
+2022-03-21 16:03:22,360 | itj_planning | DEBUG | Start diagnosis.
+2022-03-21 16:03:22,361 | itj_planning | DEBUG | movement.allowed_collision_matrix: []
+2022-03-21 16:03:22,362 | itj_planning | DEBUG | extra_disabled_collision_links: defaultdict(<class 'set'>, {'b15': {((127, None), (70, None)), ((0, 'robot11_tool0'), (70, None))}, 'g3': {((120, None), (127, None)), ((0, 'robot11_tool0'), (127, None))}, 'tool_changer': {((0, 'robot11_link_6'), (120, None)), ((0, 'robot11_tool0'), (120, None))}})
+2022-03-21 16:15:54,941 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:15:57,590 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\harry\dropbox (mit)\code_ws_dropbox\itj_ws\integral_timber_joints\external\itj_design_study\210419_HyparHut\results\Shelter_process.json[0m
+2022-03-21 16:15:57,594 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 16:15:59,796 | itj_planning | INFO | Recomputing Actions and States
+2022-03-21 16:17:18,880 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:17:21,211 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 16:17:30,591 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 16:17:30,592 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 16:21:57,343 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:22:00,764 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 16:22:10,530 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 16:22:10,531 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 16:28:31,182 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:28:34,380 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 16:28:44,523 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 16:28:44,525 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 16:29:57,053 | itj_planning | INFO | Return success: True | runtime of current attempt: 72.5
+2022-03-21 16:29:57,058 | itj_planning | INFO | Planning done.
+2022-03-21 16:34:37,011 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=True, keep_planned_movements=False, low_res=False, movement_id='A183_M2', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:34:39,334 | itj_planning | INFO | [36mSolving for movement #(631) A183_M2[0m
+2022-03-21 16:34:54,992 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.05
+2022-03-21 16:34:54,993 | itj_planning | INFO | Computing only for A183_M2
+2022-03-21 16:37:21,332 | itj_planning | INFO | Return success: True | runtime of current attempt: 146.3
+2022-03-21 16:37:21,338 | itj_planning | INFO | Planning done.
+2022-03-21 16:52:18,221 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='210419_HyparHut', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id='A183_M1', mp_algorithm='birrt', no_smooth=False, problem='Shelter_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_mode='nonlinear', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-03-21 16:52:19,927 | itj_planning | INFO | [36mSolving for movement #(630) A183_M1[0m
+2022-03-21 16:52:27,220 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.03
+2022-03-21 16:52:27,220 | itj_planning | INFO | Computing only for A183_M1
+2022-03-21 16:52:27,283 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-03-21 16:52:37,108 | itj_planning | INFO | Return success: True | runtime of current attempt: 9.9
+2022-03-21 16:52:37,108 | itj_planning | INFO | Planning done.
