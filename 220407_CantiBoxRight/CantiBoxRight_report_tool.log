@@ -1,0 +1,188 @@
+{
+    "attributes": [
+        {
+            "assembly_tool_id_num_of_times_used": {
+                "c1": 11, 
+                "c2": 1, 
+                "c3": 11, 
+                "c4": 1, 
+                "s1": 4, 
+                "s2": 4, 
+                "s3": 4
+            }, 
+            "assembly_tool_type_num_of_times_used": {
+                "CL3": 12, 
+                "CL3M": 12, 
+                "SL1": 12
+            }, 
+            "gripper_id_num_of_times_used": {
+                "g2": 4, 
+                "g3": 16
+            }, 
+            "gripper_type_num_of_times_used": {
+                "PG1000": 4, 
+                "PG1500": 16
+            }
+        }
+    ], 
+    "beam_ids": [
+        [
+            "b0", 
+            "b1", 
+            "b2", 
+            "b24", 
+            "b25", 
+            "b23", 
+            "b3", 
+            "b21", 
+            "b22", 
+            "b20", 
+            "b4", 
+            "b5", 
+            "b6", 
+            "b29", 
+            "b30", 
+            "b31", 
+            "b8", 
+            "b26", 
+            "b28", 
+            "b27", 
+            "b12", 
+            "b13", 
+            "b7", 
+            "b9", 
+            "b10", 
+            "b11", 
+            "b14", 
+            "b15", 
+            "b16", 
+            "b17", 
+            "b18", 
+            "b19"
+        ]
+    ], 
+    "error": [
+        {}
+    ], 
+    "info": [
+        {
+            "b0": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b1": [
+                "Gripper Type (id): PG1500 (g3)"
+            ], 
+            "b10": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b11": [
+                "Gripper Type (id): PG1000 (g2)", 
+                "Assembly Tool used: SL1 (s1)SL1 (s2)SL1 (s3)"
+            ], 
+            "b12": [
+                "Gripper Type (id): PG1000 (g2)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b13": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b14": [
+                "Gripper Type (id): PG1000 (g2)", 
+                "Assembly Tool used: CL3M (c3)CL3M (c4)"
+            ], 
+            "b15": [
+                "Gripper Type (id): PG1000 (g2)", 
+                "Assembly Tool used: SL1 (s1)SL1 (s2)SL1 (s3)"
+            ], 
+            "b16": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b17": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: SL1 (s1)SL1 (s2)SL1 (s3)"
+            ], 
+            "b18": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3 (c1)CL3 (c2)"
+            ], 
+            "b19": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: SL1 (s1)SL1 (s2)SL1 (s3)"
+            ], 
+            "b2": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)"
+            ], 
+            "b20": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b21": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b22": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b23": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b24": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b25": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b26": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b27": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b28": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b29": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b3": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3 (c1)"
+            ], 
+            "b30": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b31": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b4": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b5": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+            ], 
+            "b6": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3M (c3)"
+            ], 
+            "b7": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3 (c1)CL3M (c3)"
+            ], 
+            "b8": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3 (c1)"
+            ], 
+            "b9": [
+                "Gripper Type (id): PG1500 (g3)", 
+                "Assembly Tool used: CL3 (c1)CL3M (c3)"
+            ]
+        }
+    ], 
+    "warn": [
+        {}
+    ]
+}
