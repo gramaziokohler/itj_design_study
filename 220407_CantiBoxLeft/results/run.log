@@ -1,0 +1,736 @@
+2022-04-28 17:37:07,477 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[0, 3], solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-28 17:37:08,423 | itj_planning | INFO | [36mSolving for beam ['b1', 'b0', 'b2', 'b23'][0m
+2022-04-28 17:37:09,163 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-28 17:37:09,234 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-04-28 17:37:09,318 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-04-28 17:37:09,399 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-04-28 17:37:09,482 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-04-28 17:37:09,548 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-28 17:37:09,614 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-28 17:37:09,678 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-28 17:37:09,749 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-28 17:37:09,843 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-28 17:37:09,932 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-28 17:37:10,023 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-28 17:37:12,201 | itj_planning | INFO | Beam b1 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 17:41:08,046 | itj_planning | INFO | Return success: True | runtime of current attempt: 235.8
+2022-04-28 17:41:10,422 | itj_planning | INFO | Beam b0 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 17:43:32,698 | itj_planning | INFO | Return success: True | runtime of current attempt: 142.3
+2022-04-28 17:43:34,987 | itj_planning | INFO | Beam b2 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 17:43:41,212 | itj_planning | INFO | No plan found for A13_M3 | RoboticLinearMovement(#A13_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False)
+2022-04-28 17:43:41,213 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=2) beam b2!
+2022-04-28 17:43:41,213 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.2
+2022-04-28 17:43:41,244 | itj_planning | INFO | Beam b2 | nonlinear | Trail #1 | time elapsed 6.28
+2022-04-28 17:50:35,837 | itj_planning | INFO | Return success: True | runtime of current attempt: 414.6
+2022-04-28 17:50:38,439 | itj_planning | INFO | Beam b23 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 17:50:42,384 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.9
+2022-04-28 17:50:42,384 | itj_planning | INFO | Planning done.
+2022-04-28 21:10:28,388 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[4, 31], solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-28 21:10:29,315 | itj_planning | INFO | [36mSolving for beam ['b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-04-28 21:10:30,319 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-28 21:10:30,382 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-04-28 21:10:30,460 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-04-28 21:10:30,538 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-04-28 21:10:30,618 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-04-28 21:10:30,680 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-28 21:10:30,744 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-28 21:10:30,806 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-28 21:10:30,870 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-28 21:10:30,948 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-28 21:10:31,027 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-28 21:10:31,105 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-28 21:10:33,406 | itj_planning | INFO | Beam b25 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:10:37,217 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.8
+2022-04-28 21:10:39,601 | itj_planning | INFO | Beam b24 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:10:43,342 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.7
+2022-04-28 21:10:45,786 | itj_planning | INFO | Beam b3 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:16:22,769 | itj_planning | INFO | Return success: True | runtime of current attempt: 337.0
+2022-04-28 21:16:25,448 | itj_planning | INFO | Beam b20 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:16:29,335 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.9
+2022-04-28 21:16:31,811 | itj_planning | INFO | Beam b22 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:16:35,617 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.8
+2022-04-28 21:16:38,251 | itj_planning | INFO | Beam b21 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 21:16:42,024 | itj_planning | INFO | Return success: True | runtime of current attempt: 3.8
+2022-04-28 21:16:44,706 | itj_planning | INFO | Beam b4 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:24:30,524 | itj_planning | INFO | Return success: True | runtime of current attempt: 465.8
+2022-04-28 21:24:33,256 | itj_planning | INFO | Beam b9 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:24:35,076 | itj_planning | INFO | No plan found for A49_M1 | RoboticLinearMovement(#A49_M1, Linear Advance to bring Beam ('b9') into clamp jaws, has_traj False)
+2022-04-28 21:24:35,076 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=11) beam b9!
+2022-04-28 21:24:35,076 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.8
+2022-04-28 21:24:35,107 | itj_planning | INFO | Beam b9 | nonlinear | Trail #1 | time elapsed 1.87
+2022-04-28 21:24:38,350 | itj_planning | INFO | No plan found for A49_M1 | RoboticLinearMovement(#A49_M1, Linear Advance to bring Beam ('b9') into clamp jaws, has_traj False)
+2022-04-28 21:24:38,350 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=11) beam b9!
+2022-04-28 21:24:38,358 | itj_planning | INFO | Return success: False | runtime of current attempt: 3.2
+2022-04-28 21:24:38,391 | itj_planning | INFO | Beam b9 | nonlinear | Trail #2 | time elapsed 5.15
+2022-04-28 21:24:40,499 | itj_planning | INFO | No plan found for A49_M1 | RoboticLinearMovement(#A49_M1, Linear Advance to bring Beam ('b9') into clamp jaws, has_traj False)
+2022-04-28 21:24:40,499 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=11) beam b9!
+2022-04-28 21:24:40,499 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.1
+2022-04-28 21:24:40,532 | itj_planning | INFO | Beam b9 | nonlinear | Trail #3 | time elapsed 7.29
+2022-04-28 21:30:36,557 | itj_planning | INFO | No plan found for A49_M0 | RoboticFreeMovement(#A49_M0, Free Move to bring Beam ('b9') to approach clamps on structure., has_traj False)
+2022-04-28 21:30:36,557 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=11) beam b9!
+2022-04-28 21:30:36,565 | itj_planning | INFO | Return success: False | runtime of current attempt: 356.0
+2022-04-28 21:30:36,591 | itj_planning | INFO | Beam b9 | nonlinear | Trail #4 | time elapsed 363.35
+2022-04-28 21:35:45,521 | itj_planning | INFO | No plan found for A49_M0 | RoboticFreeMovement(#A49_M0, Free Move to bring Beam ('b9') to approach clamps on structure., has_traj False)
+2022-04-28 21:35:45,521 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=11) beam b9!
+2022-04-28 21:35:45,521 | itj_planning | INFO | Return success: False | runtime of current attempt: 308.9
+2022-04-28 21:35:45,552 | itj_planning | INFO | Beam b9 | nonlinear | Trail #5 | time elapsed 672.31
+2022-04-28 21:45:07,945 | itj_planning | INFO | Return success: True | runtime of current attempt: 562.4
+2022-04-28 21:45:10,748 | itj_planning | INFO | Beam b5 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 21:48:06,252 | itj_planning | INFO | No plan found for A52_M0 | RoboticFreeMovement(#A52_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-04-28 21:48:06,252 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=12) beam b5!
+2022-04-28 21:48:06,252 | itj_planning | INFO | Return success: False | runtime of current attempt: 175.5
+2022-04-28 21:48:06,283 | itj_planning | INFO | Beam b5 | nonlinear | Trail #1 | time elapsed 175.56
+2022-04-28 21:55:05,872 | itj_planning | INFO | Return success: True | runtime of current attempt: 419.6
+2022-04-28 21:55:09,174 | itj_planning | INFO | Beam b26 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 21:55:13,524 | itj_planning | INFO | Return success: True | runtime of current attempt: 4.4
+2022-04-28 21:55:16,729 | itj_planning | INFO | Beam b27 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 21:55:21,354 | itj_planning | INFO | Return success: True | runtime of current attempt: 4.6
+2022-04-28 21:55:24,635 | itj_planning | INFO | Beam b28 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 21:55:29,228 | itj_planning | INFO | Return success: True | runtime of current attempt: 4.6
+2022-04-28 21:55:32,373 | itj_planning | INFO | Beam b6 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:04:23,055 | itj_planning | INFO | Return success: True | runtime of current attempt: 530.7
+2022-04-28 22:04:26,585 | itj_planning | INFO | Beam b7 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-28 22:10:23,146 | itj_planning | INFO | Return success: True | runtime of current attempt: 356.6
+2022-04-28 22:10:26,796 | itj_planning | INFO | Beam b30 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:10:31,778 | itj_planning | INFO | Return success: True | runtime of current attempt: 5.0
+2022-04-28 22:10:35,515 | itj_planning | INFO | Beam b29 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:10:40,433 | itj_planning | INFO | Return success: True | runtime of current attempt: 4.9
+2022-04-28 22:10:44,183 | itj_planning | INFO | Beam b31 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:10:49,022 | itj_planning | INFO | Return success: True | runtime of current attempt: 4.8
+2022-04-28 22:10:52,666 | itj_planning | INFO | Beam b12 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:18:31,333 | itj_planning | INFO | No plan found for A95_M0 | RoboticFreeMovement(#A95_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-04-28 22:18:31,333 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b12!
+2022-04-28 22:18:31,333 | itj_planning | INFO | Return success: False | runtime of current attempt: 458.7
+2022-04-28 22:18:31,380 | itj_planning | INFO | Beam b12 | nonlinear | Trail #1 | time elapsed 458.73
+2022-04-28 22:27:28,778 | itj_planning | INFO | No plan found for A95_M0 | RoboticFreeMovement(#A95_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-04-28 22:27:28,778 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=21) beam b12!
+2022-04-28 22:27:28,778 | itj_planning | INFO | Return success: False | runtime of current attempt: 537.4
+2022-04-28 22:27:28,825 | itj_planning | INFO | Beam b12 | nonlinear | Trail #2 | time elapsed 996.17
+2022-04-28 22:27:38,125 | itj_planning | INFO | No plan found for A89_M6 | RoboticLinearMovement(#A89_M6, Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False)
+2022-04-28 22:27:38,125 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=21) beam b12!
+2022-04-28 22:27:38,125 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.3
+2022-04-28 22:27:38,166 | itj_planning | INFO | Beam b12 | nonlinear | Trail #3 | time elapsed 1005.51
+2022-04-28 22:27:47,659 | itj_planning | INFO | No plan found for A89_M6 | RoboticLinearMovement(#A89_M6, Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False)
+2022-04-28 22:27:47,659 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=21) beam b12!
+2022-04-28 22:27:47,659 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.5
+2022-04-28 22:27:47,700 | itj_planning | INFO | Beam b12 | nonlinear | Trail #4 | time elapsed 1015.05
+2022-04-28 22:28:00,687 | itj_planning | INFO | No plan found for A93_M3 | RoboticLinearMovement(#A93_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False)
+2022-04-28 22:28:00,687 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=21) beam b12!
+2022-04-28 22:28:00,687 | itj_planning | INFO | Return success: False | runtime of current attempt: 13.0
+2022-04-28 22:28:00,718 | itj_planning | INFO | Beam b12 | nonlinear | Trail #5 | time elapsed 1028.07
+2022-04-28 22:39:59,879 | itj_planning | INFO | Return success: True | runtime of current attempt: 719.2
+2022-04-28 22:40:03,700 | itj_planning | INFO | Beam b13 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 22:49:38,706 | itj_planning | INFO | No plan found for A105_M0 | RoboticFreeMovement(#A105_M0, Free Move to bring Beam ('b13') to approach clamps on structure., has_traj False)
+2022-04-28 22:49:38,706 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b13!
+2022-04-28 22:49:38,706 | itj_planning | INFO | Return success: False | runtime of current attempt: 575.0
+2022-04-28 22:49:38,747 | itj_planning | INFO | Beam b13 | nonlinear | Trail #1 | time elapsed 575.07
+2022-04-28 22:54:51,763 | itj_planning | INFO | No plan found for A105_M0 | RoboticFreeMovement(#A105_M0, Free Move to bring Beam ('b13') to approach clamps on structure., has_traj False)
+2022-04-28 22:54:51,763 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b13!
+2022-04-28 22:54:51,763 | itj_planning | INFO | Return success: False | runtime of current attempt: 313.0
+2022-04-28 22:54:51,810 | itj_planning | INFO | Beam b13 | nonlinear | Trail #2 | time elapsed 888.13
+2022-04-28 23:05:55,214 | itj_planning | INFO | No plan found for A105_M0 | RoboticFreeMovement(#A105_M0, Free Move to bring Beam ('b13') to approach clamps on structure., has_traj False)
+2022-04-28 23:05:55,214 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=22) beam b13!
+2022-04-28 23:05:55,214 | itj_planning | INFO | Return success: False | runtime of current attempt: 663.4
+2022-04-28 23:05:55,246 | itj_planning | INFO | Beam b13 | nonlinear | Trail #3 | time elapsed 1551.57
+2022-04-28 23:15:56,696 | itj_planning | INFO | Return success: True | runtime of current attempt: 601.5
+2022-04-28 23:16:01,014 | itj_planning | INFO | Beam b8 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-28 23:25:43,751 | itj_planning | INFO | No plan found for A119_M0 | RoboticFreeMovement(#A119_M0, Free Move to bring Beam ('b8') to approach clamps on structure., has_traj False)
+2022-04-28 23:25:43,751 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=23) beam b8!
+2022-04-28 23:25:43,751 | itj_planning | INFO | Return success: False | runtime of current attempt: 582.7
+2022-04-28 23:25:43,798 | itj_planning | INFO | Beam b8 | nonlinear | Trail #1 | time elapsed 582.80
+2022-04-28 23:31:27,597 | itj_planning | INFO | No plan found for A115_M0 | RoboticFreeMovement(#A115_M0, Free Move to reach CL3 ('c2') to detach it from structure., has_traj False)
+2022-04-28 23:31:27,597 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=23) beam b8!
+2022-04-28 23:31:27,597 | itj_planning | INFO | Return success: False | runtime of current attempt: 343.8
+2022-04-28 23:31:27,644 | itj_planning | INFO | Beam b8 | nonlinear | Trail #2 | time elapsed 926.65
+2022-04-28 23:46:10,800 | itj_planning | INFO | No plan found for A119_M0 | RoboticFreeMovement(#A119_M0, Free Move to bring Beam ('b8') to approach clamps on structure., has_traj False)
+2022-04-28 23:46:10,800 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=23) beam b8!
+2022-04-28 23:46:10,800 | itj_planning | INFO | Return success: False | runtime of current attempt: 883.2
+2022-04-28 23:46:10,847 | itj_planning | INFO | Beam b8 | nonlinear | Trail #3 | time elapsed 1809.85
+2022-04-28 23:46:24,535 | itj_planning | INFO | No plan found for A112_M2 | RoboticLinearMovement(#A112_M2, Linear Approach 2 of 2 to attach CL3M ('c3') to structure., has_traj False)
+2022-04-28 23:46:24,535 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=23) beam b8!
+2022-04-28 23:46:24,535 | itj_planning | INFO | Return success: False | runtime of current attempt: 13.7
+2022-04-28 23:46:24,582 | itj_planning | INFO | Beam b8 | nonlinear | Trail #4 | time elapsed 1823.58
+2022-04-28 23:55:50,163 | itj_planning | INFO | No plan found for A119_M0 | RoboticFreeMovement(#A119_M0, Free Move to bring Beam ('b8') to approach clamps on structure., has_traj False)
+2022-04-28 23:55:50,163 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=23) beam b8!
+2022-04-28 23:55:50,163 | itj_planning | INFO | Return success: False | runtime of current attempt: 565.6
+2022-04-28 23:55:50,212 | itj_planning | INFO | Beam b8 | nonlinear | Trail #5 | time elapsed 2389.21
+2022-04-29 00:10:43,038 | itj_planning | INFO | Return success: True | runtime of current attempt: 892.8
+2022-04-29 00:10:47,655 | itj_planning | INFO | Beam b10 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-29 00:21:42,502 | itj_planning | INFO | Return success: True | runtime of current attempt: 654.8
+2022-04-29 00:21:47,430 | itj_planning | INFO | Beam b11 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-29 00:27:46,197 | itj_planning | ERROR | Smooth success: False | msg: Empty trajectory input.
+2022-04-29 00:30:04,197 | itj_planning | INFO | Return success: True | runtime of current attempt: 496.8
+2022-04-29 00:30:09,306 | itj_planning | INFO | Beam b14 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-29 00:30:20,802 | itj_planning | INFO | No plan found for A156_M3 | RoboticLinearMovement(#A156_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False)
+2022-04-29 00:30:20,802 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2022-04-29 00:30:20,802 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.5
+2022-04-29 00:30:20,833 | itj_planning | INFO | Beam b14 | nonlinear | Trail #1 | time elapsed 11.56
+2022-04-29 00:35:12,831 | itj_planning | INFO | No plan found for A154_M0 | RoboticFreeMovement(#A154_M0, Free Move to reach CL3 ('c2') to detach it from structure., has_traj False)
+2022-04-29 00:35:12,831 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2022-04-29 00:35:12,831 | itj_planning | INFO | Return success: False | runtime of current attempt: 292.0
+2022-04-29 00:35:12,863 | itj_planning | INFO | Beam b14 | nonlinear | Trail #2 | time elapsed 303.59
+2022-04-29 00:39:39,828 | itj_planning | INFO | No plan found for A153_M0 | RoboticFreeMovement(#A153_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-04-29 00:39:39,828 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2022-04-29 00:39:39,843 | itj_planning | INFO | Return success: False | runtime of current attempt: 267.0
+2022-04-29 00:39:39,891 | itj_planning | INFO | Beam b14 | nonlinear | Trail #3 | time elapsed 570.62
+2022-04-29 00:44:05,143 | itj_planning | INFO | No plan found for A154_M0 | RoboticFreeMovement(#A154_M0, Free Move to reach CL3 ('c2') to detach it from structure., has_traj False)
+2022-04-29 00:44:05,143 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2022-04-29 00:44:05,159 | itj_planning | INFO | Return success: False | runtime of current attempt: 265.3
+2022-04-29 00:44:05,190 | itj_planning | INFO | Beam b14 | nonlinear | Trail #4 | time elapsed 835.92
+2022-04-29 00:44:09,589 | itj_planning | INFO | No plan found for A158_M3 | RoboticClampSyncLinearMovement(#A158_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b14'), has_traj False)
+2022-04-29 00:44:09,589 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=26) beam b14!
+2022-04-29 00:44:09,589 | itj_planning | INFO | Return success: False | runtime of current attempt: 4.4
+2022-04-29 00:44:09,630 | itj_planning | INFO | Beam b14 | nonlinear | Trail #5 | time elapsed 840.36
+2022-04-29 00:53:59,319 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-04-29 00:53:59,319 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=26) beam b14!
+2022-04-29 00:53:59,319 | itj_planning | INFO | Return success: False | runtime of current attempt: 589.7
+2022-04-29 00:53:59,360 | itj_planning | INFO | Beam b14 | nonlinear | Trail #6 | time elapsed 1430.08
+2022-04-29 00:54:10,115 | itj_planning | INFO | No plan found for A157_M5 | RoboticLinearMovement(#A157_M5, Linear Retract after picking up Beam ('b14'), has_traj False)
+2022-04-29 00:54:10,115 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=26) beam b14!
+2022-04-29 00:54:10,115 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.8
+2022-04-29 00:54:10,148 | itj_planning | INFO | Beam b14 | nonlinear | Trail #7 | time elapsed 1440.87
+2022-04-29 01:06:32,297 | itj_planning | INFO | Return success: True | runtime of current attempt: 742.1
+2022-04-29 01:06:37,112 | itj_planning | INFO | Beam b15 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-29 01:07:10,177 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:07:10,177 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:07:10,179 | itj_planning | INFO | Return success: False | runtime of current attempt: 33.1
+2022-04-29 01:07:10,220 | itj_planning | INFO | Beam b15 | nonlinear | Trail #1 | time elapsed 33.13
+2022-04-29 01:07:43,892 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:07:43,892 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:07:43,907 | itj_planning | INFO | Return success: False | runtime of current attempt: 33.7
+2022-04-29 01:07:43,939 | itj_planning | INFO | Beam b15 | nonlinear | Trail #2 | time elapsed 66.85
+2022-04-29 01:18:51,416 | itj_planning | INFO | No plan found for A174_M0 | RoboticFreeMovement(#A174_M0, Free Move to reach SL1 ('s1') on Beam ('b15') , has_traj False)
+2022-04-29 01:18:51,416 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:18:51,416 | itj_planning | INFO | Return success: False | runtime of current attempt: 667.5
+2022-04-29 01:18:51,463 | itj_planning | INFO | Beam b15 | nonlinear | Trail #3 | time elapsed 734.37
+2022-04-29 01:19:20,885 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:19:20,885 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:19:20,885 | itj_planning | INFO | Return success: False | runtime of current attempt: 29.4
+2022-04-29 01:19:20,933 | itj_planning | INFO | Beam b15 | nonlinear | Trail #4 | time elapsed 763.84
+2022-04-29 01:19:57,759 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:19:57,759 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:19:57,759 | itj_planning | INFO | Return success: False | runtime of current attempt: 36.8
+2022-04-29 01:19:57,806 | itj_planning | INFO | Beam b15 | nonlinear | Trail #5 | time elapsed 800.71
+2022-04-29 01:20:24,994 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:20:24,994 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:20:24,994 | itj_planning | INFO | Return success: False | runtime of current attempt: 27.2
+2022-04-29 01:20:25,042 | itj_planning | INFO | Beam b15 | nonlinear | Trail #6 | time elapsed 827.95
+2022-04-29 01:20:51,821 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:20:51,821 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:20:51,821 | itj_planning | INFO | Return success: False | runtime of current attempt: 26.8
+2022-04-29 01:20:51,884 | itj_planning | INFO | Beam b15 | nonlinear | Trail #7 | time elapsed 854.79
+2022-04-29 01:21:36,764 | itj_planning | INFO | No plan found for A179_M4 | RoboticLinearMovement(#A179_M4, Linear Retract after placing SL1 ('s2') in storage, has_traj False)
+2022-04-29 01:21:36,764 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2022-04-29 01:21:36,764 | itj_planning | INFO | Return success: False | runtime of current attempt: 44.9
+2022-04-29 01:21:36,811 | itj_planning | INFO | Beam b15 | nonlinear | Trail #8 | time elapsed 899.72
+2022-04-29 01:22:08,521 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:22:08,521 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:22:08,521 | itj_planning | INFO | Return success: False | runtime of current attempt: 31.7
+2022-04-29 01:22:08,568 | itj_planning | INFO | Beam b15 | nonlinear | Trail #9 | time elapsed 931.48
+2022-04-29 01:22:28,470 | itj_planning | INFO | No plan found for A168_M2 | RobotScrewdriverSyncLinearMovement(#A168_M2, Robot and Screwdrivers (['s2', 's1', 's3']) syncronously move to screw Beam ('b15'), has_traj False)
+2022-04-29 01:22:28,470 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:22:28,470 | itj_planning | INFO | Return success: False | runtime of current attempt: 19.9
+2022-04-29 01:22:28,517 | itj_planning | INFO | Beam b15 | nonlinear | Trail #10 | time elapsed 951.43
+2022-04-29 01:23:04,204 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:23:04,204 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:23:04,204 | itj_planning | INFO | Return success: False | runtime of current attempt: 35.7
+2022-04-29 01:23:04,251 | itj_planning | INFO | Beam b15 | nonlinear | Trail #11 | time elapsed 987.16
+2022-04-29 01:23:26,545 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:23:26,545 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:23:26,545 | itj_planning | INFO | Return success: False | runtime of current attempt: 22.3
+2022-04-29 01:23:26,592 | itj_planning | INFO | Beam b15 | nonlinear | Trail #12 | time elapsed 1009.50
+2022-04-29 01:24:09,585 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:24:09,585 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:24:09,585 | itj_planning | INFO | Return success: False | runtime of current attempt: 43.0
+2022-04-29 01:24:09,632 | itj_planning | INFO | Beam b15 | nonlinear | Trail #13 | time elapsed 1052.54
+2022-04-29 01:28:26,330 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 01:28:26,330 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:28:26,330 | itj_planning | INFO | Return success: False | runtime of current attempt: 256.7
+2022-04-29 01:28:26,392 | itj_planning | INFO | Beam b15 | nonlinear | Trail #14 | time elapsed 1309.30
+2022-04-29 01:33:27,251 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 01:33:27,251 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:33:27,251 | itj_planning | INFO | Return success: False | runtime of current attempt: 300.9
+2022-04-29 01:33:27,298 | itj_planning | INFO | Beam b15 | nonlinear | Trail #15 | time elapsed 1610.21
+2022-04-29 01:41:58,932 | itj_planning | INFO | No plan found for A171_M0 | RoboticFreeMovement(#A171_M0, Free Move to reach SL1 ('s3') on Beam ('b15') , has_traj False)
+2022-04-29 01:41:58,932 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:41:58,932 | itj_planning | INFO | Return success: False | runtime of current attempt: 511.6
+2022-04-29 01:41:58,994 | itj_planning | INFO | Beam b15 | nonlinear | Trail #16 | time elapsed 2121.90
+2022-04-29 01:42:17,445 | itj_planning | INFO | No plan found for A168_M2 | RobotScrewdriverSyncLinearMovement(#A168_M2, Robot and Screwdrivers (['s2', 's1', 's3']) syncronously move to screw Beam ('b15'), has_traj False)
+2022-04-29 01:42:17,445 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:42:17,445 | itj_planning | INFO | Return success: False | runtime of current attempt: 18.5
+2022-04-29 01:42:17,491 | itj_planning | INFO | Beam b15 | nonlinear | Trail #17 | time elapsed 2140.40
+2022-04-29 01:42:56,386 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 01:42:56,386 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 01:42:56,386 | itj_planning | INFO | Return success: False | runtime of current attempt: 38.9
+2022-04-29 01:42:56,433 | itj_planning | INFO | Beam b15 | nonlinear | Trail #18 | time elapsed 2179.34
+2022-04-29 01:43:31,833 | itj_planning | INFO | No plan found for A162_M3 | RoboticLinearMovement(#A162_M3, Linear Retract after getting PG1000 ('g2') from storage., has_traj False)
+2022-04-29 01:43:31,833 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2022-04-29 01:43:31,833 | itj_planning | INFO | Return success: False | runtime of current attempt: 35.4
+2022-04-29 01:43:31,880 | itj_planning | INFO | Beam b15 | nonlinear | Trail #19 | time elapsed 2214.79
+2022-04-29 01:48:51,878 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 01:48:51,878 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:48:51,878 | itj_planning | INFO | Return success: False | runtime of current attempt: 320.0
+2022-04-29 01:48:51,910 | itj_planning | INFO | Beam b15 | nonlinear | Trail #20 | time elapsed 2534.82
+2022-04-29 01:55:11,141 | itj_planning | INFO | No plan found for A171_M0 | RoboticFreeMovement(#A171_M0, Free Move to reach SL1 ('s3') on Beam ('b15') , has_traj False)
+2022-04-29 01:55:11,141 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 01:55:11,141 | itj_planning | INFO | Return success: False | runtime of current attempt: 379.2
+2022-04-29 01:55:11,188 | itj_planning | INFO | Beam b15 | nonlinear | Trail #21 | time elapsed 2914.10
+2022-04-29 02:00:07,734 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:00:07,734 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:00:07,734 | itj_planning | INFO | Return success: False | runtime of current attempt: 296.5
+2022-04-29 02:00:07,781 | itj_planning | INFO | Beam b15 | nonlinear | Trail #22 | time elapsed 3210.69
+2022-04-29 02:00:35,448 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:00:35,448 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:00:35,448 | itj_planning | INFO | Return success: False | runtime of current attempt: 27.7
+2022-04-29 02:00:35,495 | itj_planning | INFO | Beam b15 | nonlinear | Trail #23 | time elapsed 3238.40
+2022-04-29 02:01:02,180 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:01:02,180 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:01:02,180 | itj_planning | INFO | Return success: False | runtime of current attempt: 26.7
+2022-04-29 02:01:02,211 | itj_planning | INFO | Beam b15 | nonlinear | Trail #24 | time elapsed 3265.12
+2022-04-29 02:01:36,785 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:01:36,785 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:01:36,785 | itj_planning | INFO | Return success: False | runtime of current attempt: 34.6
+2022-04-29 02:01:36,832 | itj_planning | INFO | Beam b15 | nonlinear | Trail #25 | time elapsed 3299.74
+2022-04-29 02:02:17,882 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:02:17,882 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:02:17,882 | itj_planning | INFO | Return success: False | runtime of current attempt: 41.0
+2022-04-29 02:02:17,915 | itj_planning | INFO | Beam b15 | nonlinear | Trail #26 | time elapsed 3340.82
+2022-04-29 02:02:39,990 | itj_planning | INFO | No plan found for A172_M2 | RobotScrewdriverSyncLinearMovement(#A172_M2, Robot and Screwdriver (s3) syncronously move to retract from Joint ('b14-b15'), has_traj False)
+2022-04-29 02:02:39,990 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:02:40,005 | itj_planning | INFO | Return success: False | runtime of current attempt: 22.1
+2022-04-29 02:02:40,038 | itj_planning | INFO | Beam b15 | nonlinear | Trail #27 | time elapsed 3362.95
+2022-04-29 02:08:47,296 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:08:47,296 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:08:47,296 | itj_planning | INFO | Return success: False | runtime of current attempt: 367.3
+2022-04-29 02:08:47,343 | itj_planning | INFO | Beam b15 | nonlinear | Trail #28 | time elapsed 3730.25
+2022-04-29 02:14:09,709 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:14:09,709 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:14:09,709 | itj_planning | INFO | Return success: False | runtime of current attempt: 322.4
+2022-04-29 02:14:09,756 | itj_planning | INFO | Beam b15 | nonlinear | Trail #29 | time elapsed 4052.66
+2022-04-29 02:22:21,181 | itj_planning | INFO | No plan found for A171_M0 | RoboticFreeMovement(#A171_M0, Free Move to reach SL1 ('s3') on Beam ('b15') , has_traj False)
+2022-04-29 02:22:21,181 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:22:21,181 | itj_planning | INFO | Return success: False | runtime of current attempt: 491.4
+2022-04-29 02:22:21,228 | itj_planning | INFO | Beam b15 | nonlinear | Trail #30 | time elapsed 4544.14
+2022-04-29 02:27:32,132 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:27:32,132 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:27:32,132 | itj_planning | INFO | Return success: False | runtime of current attempt: 310.9
+2022-04-29 02:27:32,179 | itj_planning | INFO | Beam b15 | nonlinear | Trail #31 | time elapsed 4855.09
+2022-04-29 02:27:53,269 | itj_planning | INFO | No plan found for A178_M3 | RoboticLinearMovement(#A178_M3, Linear retract after picking up Screwdriver ('s2'), has_traj False)
+2022-04-29 02:27:53,269 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=27) beam b15!
+2022-04-29 02:27:53,269 | itj_planning | INFO | Return success: False | runtime of current attempt: 21.1
+2022-04-29 02:27:53,316 | itj_planning | INFO | Beam b15 | nonlinear | Trail #32 | time elapsed 4876.22
+2022-04-29 02:28:48,805 | itj_planning | INFO | No plan found for A162_M3 | RoboticLinearMovement(#A162_M3, Linear Retract after getting PG1000 ('g2') from storage., has_traj False)
+2022-04-29 02:28:48,805 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=27) beam b15!
+2022-04-29 02:28:48,805 | itj_planning | INFO | Return success: False | runtime of current attempt: 55.5
+2022-04-29 02:28:48,852 | itj_planning | INFO | Beam b15 | nonlinear | Trail #33 | time elapsed 4931.76
+2022-04-29 02:29:22,850 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:29:22,850 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:29:22,850 | itj_planning | INFO | Return success: False | runtime of current attempt: 34.0
+2022-04-29 02:29:22,896 | itj_planning | INFO | Beam b15 | nonlinear | Trail #34 | time elapsed 4965.81
+2022-04-29 02:34:56,072 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:34:56,072 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:34:56,072 | itj_planning | INFO | Return success: False | runtime of current attempt: 333.2
+2022-04-29 02:34:56,119 | itj_planning | INFO | Beam b15 | nonlinear | Trail #35 | time elapsed 5299.03
+2022-04-29 02:40:19,960 | itj_planning | INFO | No plan found for A170_M0 | RoboticFreeMovement(#A170_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-04-29 02:40:19,960 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=27) beam b15!
+2022-04-29 02:40:19,960 | itj_planning | INFO | Return success: False | runtime of current attempt: 323.8
+2022-04-29 02:40:20,006 | itj_planning | INFO | Beam b15 | nonlinear | Trail #36 | time elapsed 5622.92
+2022-04-29 02:41:04,329 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:41:04,329 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:41:04,329 | itj_planning | INFO | Return success: False | runtime of current attempt: 44.3
+2022-04-29 02:41:04,376 | itj_planning | INFO | Beam b15 | nonlinear | Trail #37 | time elapsed 5667.29
+2022-04-29 02:41:57,905 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:41:57,905 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:41:57,905 | itj_planning | INFO | Return success: False | runtime of current attempt: 53.5
+2022-04-29 02:41:57,953 | itj_planning | INFO | Beam b15 | nonlinear | Trail #38 | time elapsed 5720.86
+2022-04-29 02:42:35,707 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:42:35,707 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:42:35,707 | itj_planning | INFO | Return success: False | runtime of current attempt: 37.8
+2022-04-29 02:42:35,738 | itj_planning | INFO | Beam b15 | nonlinear | Trail #39 | time elapsed 5758.65
+2022-04-29 02:43:18,008 | itj_planning | INFO | No plan found for A178_M2 | RobotScrewdriverSyncLinearMovement(#A178_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-04-29 02:43:18,008 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=27) beam b15!
+2022-04-29 02:43:18,008 | itj_planning | INFO | Return success: False | runtime of current attempt: 42.3
+2022-04-29 02:43:18,041 | itj_planning | ERROR | Planning (with restarts) for beam b15 failed: exceeding max solve iteration 40
+2022-04-29 02:43:22,781 | itj_planning | INFO | Beam b16 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-29 02:43:24,674 | itj_planning | INFO | No plan found for A189_M1 | RoboticLinearMovement(#A189_M1, Linear Advance to bring Beam ('b16') into clamp jaws, has_traj False)
+2022-04-29 02:43:24,674 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2022-04-29 02:43:24,674 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.9
+2022-04-29 02:43:24,714 | itj_planning | INFO | Beam b16 | nonlinear | Trail #1 | time elapsed 1.95
+2022-04-29 02:43:25,895 | itj_planning | INFO | No plan found for A189_M1 | RoboticLinearMovement(#A189_M1, Linear Advance to bring Beam ('b16') into clamp jaws, has_traj False)
+2022-04-29 02:43:25,895 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2022-04-29 02:43:25,895 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.2
+2022-04-29 02:43:25,940 | itj_planning | INFO | Beam b16 | nonlinear | Trail #2 | time elapsed 3.18
+2022-04-29 02:43:43,624 | itj_planning | INFO | No plan found for A187_M3 | RoboticLinearMovement(#A187_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False)
+2022-04-29 02:43:43,624 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2022-04-29 02:43:43,624 | itj_planning | INFO | Return success: False | runtime of current attempt: 17.7
+2022-04-29 02:43:43,664 | itj_planning | INFO | Beam b16 | nonlinear | Trail #3 | time elapsed 20.90
+2022-04-29 02:43:46,230 | itj_planning | INFO | No plan found for A189_M3 | RoboticClampSyncLinearMovement(#A189_M3, Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b16'), has_traj False)
+2022-04-29 02:43:46,230 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=28) beam b16!
+2022-04-29 02:43:46,230 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.6
+2022-04-29 02:43:46,271 | itj_planning | INFO | Beam b16 | nonlinear | Trail #4 | time elapsed 23.51
+2022-04-29 02:44:00,530 | itj_planning | INFO | No plan found for A187_M3 | RoboticLinearMovement(#A187_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False)
+2022-04-29 02:44:00,530 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=28) beam b16!
+2022-04-29 02:44:00,530 | itj_planning | INFO | Return success: False | runtime of current attempt: 14.3
+2022-04-29 02:44:00,578 | itj_planning | INFO | Beam b16 | nonlinear | Trail #5 | time elapsed 37.82
+2022-04-29 02:44:01,640 | itj_planning | INFO | No plan found for A189_M1 | RoboticLinearMovement(#A189_M1, Linear Advance to bring Beam ('b16') into clamp jaws, has_traj False)
+2022-04-29 02:44:01,640 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=28) beam b16!
+2022-04-29 02:44:01,640 | itj_planning | INFO | Return success: False | runtime of current attempt: 1.1
+2022-04-29 02:44:01,683 | itj_planning | INFO | Beam b16 | nonlinear | Trail #6 | time elapsed 38.92
+2022-04-29 02:44:03,926 | itj_planning | INFO | No plan found for A189_M3 | RoboticClampSyncLinearMovement(#A189_M3, Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b16'), has_traj False)
+2022-04-29 02:44:03,926 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 1 for (seq_n=28) beam b16!
+2022-04-29 02:44:03,926 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.2
+2022-04-29 02:44:03,969 | itj_planning | INFO | Beam b16 | nonlinear | Trail #7 | time elapsed 41.21
+2022-04-29 02:44:25,766 | itj_planning | WARNING | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A181_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False), we will sample an IK conf based on the given t0cp frame.
+2022-04-29 02:57:08,398 | itj_planning | INFO | No plan found for A189_M0 | RoboticFreeMovement(#A189_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-04-29 02:57:08,398 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 4 for (seq_n=28) beam b16!
+2022-04-29 02:57:08,398 | itj_planning | INFO | Return success: False | runtime of current attempt: 784.4
+2022-04-29 02:57:08,447 | itj_planning | INFO | Beam b16 | nonlinear | Trail #8 | time elapsed 825.69
+2022-04-29 02:57:23,170 | itj_planning | WARNING | FreeMovement: Robot start conf is NOT specified in RoboticFreeMovement(#A181_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False), we will sample an IK conf based on the given t0cp frame.
+2022-04-29 03:08:00,496 | itj_planning | INFO | Return success: True | runtime of current attempt: 652.0
+2022-04-29 03:08:05,826 | itj_planning | INFO | Beam b17 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-29 03:12:36,878 | itj_planning | ERROR | Smooth success: False | msg: Empty trajectory input.
+2022-04-29 03:16:23,895 | itj_planning | INFO | Return success: True | runtime of current attempt: 498.1
+2022-04-29 03:16:29,853 | itj_planning | INFO | Beam b18 | nonlinear | Trail #0 | time elapsed 0.03
+2022-04-29 03:16:35,839 | itj_planning | INFO | No plan found for A212_M6 | RoboticLinearMovement(#A212_M6, Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False)
+2022-04-29 03:16:35,839 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 3 for (seq_n=30) beam b18!
+2022-04-29 03:16:35,839 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.0
+2022-04-29 03:16:35,886 | itj_planning | INFO | Beam b18 | nonlinear | Trail #1 | time elapsed 6.06
+2022-04-29 03:21:40,437 | itj_planning | INFO | Return success: True | runtime of current attempt: 304.6
+2022-04-29 03:21:46,269 | itj_planning | INFO | Beam b19 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-29 03:21:54,290 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:21:54,290 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:21:54,290 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.0
+2022-04-29 03:21:54,352 | itj_planning | INFO | Beam b19 | nonlinear | Trail #1 | time elapsed 8.10
+2022-04-29 03:22:04,937 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:04,937 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:04,937 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.6
+2022-04-29 03:22:04,997 | itj_planning | INFO | Beam b19 | nonlinear | Trail #2 | time elapsed 18.74
+2022-04-29 03:22:13,410 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:13,410 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:13,410 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.4
+2022-04-29 03:22:13,471 | itj_planning | INFO | Beam b19 | nonlinear | Trail #3 | time elapsed 27.22
+2022-04-29 03:22:23,134 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:23,134 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:23,134 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.7
+2022-04-29 03:22:23,195 | itj_planning | INFO | Beam b19 | nonlinear | Trail #4 | time elapsed 36.94
+2022-04-29 03:22:33,322 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:33,322 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:33,322 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.1
+2022-04-29 03:22:33,383 | itj_planning | INFO | Beam b19 | nonlinear | Trail #5 | time elapsed 47.13
+2022-04-29 03:22:40,835 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:40,835 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:40,835 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.5
+2022-04-29 03:22:40,896 | itj_planning | INFO | Beam b19 | nonlinear | Trail #6 | time elapsed 54.64
+2022-04-29 03:22:48,028 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:48,028 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:48,028 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.1
+2022-04-29 03:22:48,087 | itj_planning | INFO | Beam b19 | nonlinear | Trail #7 | time elapsed 61.83
+2022-04-29 03:22:59,950 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:22:59,950 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:22:59,950 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.9
+2022-04-29 03:23:00,011 | itj_planning | INFO | Beam b19 | nonlinear | Trail #8 | time elapsed 73.76
+2022-04-29 03:23:07,428 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:07,428 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:07,428 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.4
+2022-04-29 03:23:07,477 | itj_planning | INFO | Beam b19 | nonlinear | Trail #9 | time elapsed 81.22
+2022-04-29 03:23:14,688 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:14,688 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:14,688 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.2
+2022-04-29 03:23:14,749 | itj_planning | INFO | Beam b19 | nonlinear | Trail #10 | time elapsed 88.50
+2022-04-29 03:23:21,816 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:21,816 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:21,816 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.1
+2022-04-29 03:23:21,879 | itj_planning | INFO | Beam b19 | nonlinear | Trail #11 | time elapsed 95.63
+2022-04-29 03:23:29,586 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:29,586 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:29,586 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.7
+2022-04-29 03:23:29,647 | itj_planning | INFO | Beam b19 | nonlinear | Trail #12 | time elapsed 103.39
+2022-04-29 03:23:38,619 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:38,619 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:38,619 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.0
+2022-04-29 03:23:38,678 | itj_planning | INFO | Beam b19 | nonlinear | Trail #13 | time elapsed 112.42
+2022-04-29 03:23:50,376 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:23:50,376 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:23:50,376 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.7
+2022-04-29 03:23:50,438 | itj_planning | INFO | Beam b19 | nonlinear | Trail #14 | time elapsed 124.18
+2022-04-29 03:24:00,517 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:00,517 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:00,517 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.1
+2022-04-29 03:24:00,578 | itj_planning | INFO | Beam b19 | nonlinear | Trail #15 | time elapsed 134.32
+2022-04-29 03:24:09,286 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:09,286 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:09,286 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.7
+2022-04-29 03:24:09,334 | itj_planning | INFO | Beam b19 | nonlinear | Trail #16 | time elapsed 143.08
+2022-04-29 03:24:21,345 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:21,345 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:21,345 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.0
+2022-04-29 03:24:21,406 | itj_planning | INFO | Beam b19 | nonlinear | Trail #17 | time elapsed 155.15
+2022-04-29 03:24:31,800 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:31,800 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:31,800 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.4
+2022-04-29 03:24:31,861 | itj_planning | INFO | Beam b19 | nonlinear | Trail #18 | time elapsed 165.61
+2022-04-29 03:24:39,345 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:39,345 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:39,345 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.5
+2022-04-29 03:24:39,398 | itj_planning | INFO | Beam b19 | nonlinear | Trail #19 | time elapsed 173.14
+2022-04-29 03:24:47,679 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:47,679 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:47,679 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.3
+2022-04-29 03:24:47,740 | itj_planning | INFO | Beam b19 | nonlinear | Trail #20 | time elapsed 181.49
+2022-04-29 03:24:56,569 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:24:56,569 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:24:56,569 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.8
+2022-04-29 03:24:56,628 | itj_planning | INFO | Beam b19 | nonlinear | Trail #21 | time elapsed 190.38
+2022-04-29 03:25:05,615 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:05,615 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:05,615 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.0
+2022-04-29 03:25:05,684 | itj_planning | INFO | Beam b19 | nonlinear | Trail #22 | time elapsed 199.43
+2022-04-29 03:25:16,256 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:16,256 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:16,256 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.6
+2022-04-29 03:25:16,315 | itj_planning | INFO | Beam b19 | nonlinear | Trail #23 | time elapsed 210.06
+2022-04-29 03:25:24,121 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:24,121 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:24,129 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.8
+2022-04-29 03:25:24,181 | itj_planning | INFO | Beam b19 | nonlinear | Trail #24 | time elapsed 217.93
+2022-04-29 03:25:33,220 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:33,220 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:33,220 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.0
+2022-04-29 03:25:33,278 | itj_planning | INFO | Beam b19 | nonlinear | Trail #25 | time elapsed 227.03
+2022-04-29 03:25:40,269 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:40,271 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:40,271 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.0
+2022-04-29 03:25:40,320 | itj_planning | INFO | Beam b19 | nonlinear | Trail #26 | time elapsed 234.07
+2022-04-29 03:25:50,870 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:50,872 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:50,872 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.6
+2022-04-29 03:25:50,930 | itj_planning | INFO | Beam b19 | nonlinear | Trail #27 | time elapsed 244.68
+2022-04-29 03:25:58,591 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:25:58,591 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:25:58,591 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.7
+2022-04-29 03:25:58,644 | itj_planning | INFO | Beam b19 | nonlinear | Trail #28 | time elapsed 252.39
+2022-04-29 03:26:07,010 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:07,010 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:07,010 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.4
+2022-04-29 03:26:07,072 | itj_planning | INFO | Beam b19 | nonlinear | Trail #29 | time elapsed 260.82
+2022-04-29 03:26:17,087 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:17,087 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:17,087 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.0
+2022-04-29 03:26:17,148 | itj_planning | INFO | Beam b19 | nonlinear | Trail #30 | time elapsed 270.89
+2022-04-29 03:26:25,284 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:25,292 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:25,292 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.1
+2022-04-29 03:26:25,345 | itj_planning | INFO | Beam b19 | nonlinear | Trail #31 | time elapsed 279.09
+2022-04-29 03:26:31,910 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:31,910 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:31,910 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.6
+2022-04-29 03:26:31,971 | itj_planning | INFO | Beam b19 | nonlinear | Trail #32 | time elapsed 285.72
+2022-04-29 03:26:41,652 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:41,652 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:41,652 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.7
+2022-04-29 03:26:41,713 | itj_planning | INFO | Beam b19 | nonlinear | Trail #33 | time elapsed 295.46
+2022-04-29 03:26:49,825 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:49,825 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:49,825 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.1
+2022-04-29 03:26:49,884 | itj_planning | INFO | Beam b19 | nonlinear | Trail #34 | time elapsed 303.63
+2022-04-29 03:26:59,892 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:26:59,892 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:26:59,892 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.0
+2022-04-29 03:26:59,951 | itj_planning | INFO | Beam b19 | nonlinear | Trail #35 | time elapsed 313.70
+2022-04-29 03:27:07,568 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:27:07,568 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:27:07,568 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.6
+2022-04-29 03:27:07,627 | itj_planning | INFO | Beam b19 | nonlinear | Trail #36 | time elapsed 321.37
+2022-04-29 03:27:14,020 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:27:14,020 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:27:14,020 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.4
+2022-04-29 03:27:14,079 | itj_planning | INFO | Beam b19 | nonlinear | Trail #37 | time elapsed 327.83
+2022-04-29 03:27:22,552 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:27:22,552 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:27:22,552 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.5
+2022-04-29 03:27:22,613 | itj_planning | INFO | Beam b19 | nonlinear | Trail #38 | time elapsed 336.36
+2022-04-29 03:27:29,406 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:27:29,406 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:27:29,406 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.8
+2022-04-29 03:27:29,467 | itj_planning | INFO | Beam b19 | nonlinear | Trail #39 | time elapsed 343.21
+2022-04-29 03:27:37,891 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 03:27:37,891 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 03:27:37,891 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.4
+2022-04-29 03:27:37,922 | itj_planning | ERROR | Planning (with restarts) for beam b19 failed: exceeding max solve iteration 40
+2022-04-29 03:27:37,922 | itj_planning | INFO | Planning done.
+2022-04-29 11:40:06,361 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=[31], solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-04-29 11:40:07,304 | itj_planning | INFO | [36mSolving for beam ['b19'][0m
+2022-04-29 11:40:09,315 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-04-29 11:40:09,379 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-04-29 11:40:09,453 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-04-29 11:40:09,535 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-04-29 11:40:09,612 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-04-29 11:40:09,674 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-04-29 11:40:09,737 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-04-29 11:40:09,798 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-04-29 11:40:09,859 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-04-29 11:40:09,939 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-04-29 11:40:10,025 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-04-29 11:40:10,112 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-04-29 11:40:14,959 | itj_planning | INFO | Beam b19 | nonlinear | Trail #0 | time elapsed 0.02
+2022-04-29 11:40:22,501 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:40:22,502 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:40:22,503 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.5
+2022-04-29 11:40:22,561 | itj_planning | INFO | Beam b19 | nonlinear | Trail #1 | time elapsed 7.62
+2022-04-29 11:40:31,799 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:40:31,799 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:40:31,799 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.2
+2022-04-29 11:40:31,860 | itj_planning | INFO | Beam b19 | nonlinear | Trail #2 | time elapsed 16.92
+2022-04-29 11:40:40,533 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:40:40,533 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:40:40,534 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.7
+2022-04-29 11:40:40,578 | itj_planning | INFO | Beam b19 | nonlinear | Trail #3 | time elapsed 25.64
+2022-04-29 11:40:48,463 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:40:48,463 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:40:48,463 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.9
+2022-04-29 11:40:48,518 | itj_planning | INFO | Beam b19 | nonlinear | Trail #4 | time elapsed 33.58
+2022-04-29 11:41:03,190 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:03,190 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:03,190 | itj_planning | INFO | Return success: False | runtime of current attempt: 14.7
+2022-04-29 11:41:03,251 | itj_planning | INFO | Beam b19 | nonlinear | Trail #5 | time elapsed 48.31
+2022-04-29 11:41:12,882 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:12,882 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:12,883 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.6
+2022-04-29 11:41:12,935 | itj_planning | INFO | Beam b19 | nonlinear | Trail #6 | time elapsed 58.00
+2022-04-29 11:41:28,411 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:28,411 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:28,411 | itj_planning | INFO | Return success: False | runtime of current attempt: 15.5
+2022-04-29 11:41:28,472 | itj_planning | INFO | Beam b19 | nonlinear | Trail #7 | time elapsed 73.53
+2022-04-29 11:41:35,304 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:35,304 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:35,304 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.8
+2022-04-29 11:41:35,367 | itj_planning | INFO | Beam b19 | nonlinear | Trail #8 | time elapsed 80.43
+2022-04-29 11:41:45,346 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:45,346 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:45,346 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.0
+2022-04-29 11:41:45,407 | itj_planning | INFO | Beam b19 | nonlinear | Trail #9 | time elapsed 90.47
+2022-04-29 11:41:52,168 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:41:52,176 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:41:52,176 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.8
+2022-04-29 11:41:52,229 | itj_planning | INFO | Beam b19 | nonlinear | Trail #10 | time elapsed 97.29
+2022-04-29 11:42:04,736 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:04,736 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:04,736 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.5
+2022-04-29 11:42:04,799 | itj_planning | INFO | Beam b19 | nonlinear | Trail #11 | time elapsed 109.86
+2022-04-29 11:42:15,053 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:15,053 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:15,053 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.3
+2022-04-29 11:42:15,106 | itj_planning | INFO | Beam b19 | nonlinear | Trail #12 | time elapsed 120.17
+2022-04-29 11:42:22,627 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:22,627 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:22,627 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.5
+2022-04-29 11:42:22,686 | itj_planning | INFO | Beam b19 | nonlinear | Trail #13 | time elapsed 127.75
+2022-04-29 11:42:32,901 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:32,902 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:32,903 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.2
+2022-04-29 11:42:32,971 | itj_planning | INFO | Beam b19 | nonlinear | Trail #14 | time elapsed 138.03
+2022-04-29 11:42:42,158 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:42,158 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:42,158 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.2
+2022-04-29 11:42:42,212 | itj_planning | INFO | Beam b19 | nonlinear | Trail #15 | time elapsed 147.27
+2022-04-29 11:42:54,635 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:42:54,635 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:42:54,636 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.4
+2022-04-29 11:42:54,702 | itj_planning | INFO | Beam b19 | nonlinear | Trail #16 | time elapsed 159.76
+2022-04-29 11:43:01,953 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:01,953 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:01,953 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.3
+2022-04-29 11:43:02,013 | itj_planning | INFO | Beam b19 | nonlinear | Trail #17 | time elapsed 167.07
+2022-04-29 11:43:14,678 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:14,678 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:14,678 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.7
+2022-04-29 11:43:14,740 | itj_planning | INFO | Beam b19 | nonlinear | Trail #18 | time elapsed 179.80
+2022-04-29 11:43:24,357 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:24,357 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:24,357 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.6
+2022-04-29 11:43:24,410 | itj_planning | INFO | Beam b19 | nonlinear | Trail #19 | time elapsed 189.47
+2022-04-29 11:43:32,144 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:32,144 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:32,144 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.7
+2022-04-29 11:43:32,206 | itj_planning | INFO | Beam b19 | nonlinear | Trail #20 | time elapsed 197.27
+2022-04-29 11:43:39,757 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:39,757 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:39,757 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.6
+2022-04-29 11:43:39,818 | itj_planning | INFO | Beam b19 | nonlinear | Trail #21 | time elapsed 204.88
+2022-04-29 11:43:47,049 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:47,049 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:47,049 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.2
+2022-04-29 11:43:47,114 | itj_planning | INFO | Beam b19 | nonlinear | Trail #22 | time elapsed 212.18
+2022-04-29 11:43:57,301 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:43:57,301 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:43:57,301 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.2
+2022-04-29 11:43:57,351 | itj_planning | INFO | Beam b19 | nonlinear | Trail #23 | time elapsed 222.41
+2022-04-29 11:44:03,923 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:03,923 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:03,923 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.6
+2022-04-29 11:44:03,984 | itj_planning | INFO | Beam b19 | nonlinear | Trail #24 | time elapsed 229.05
+2022-04-29 11:44:13,395 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:13,395 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:13,395 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.4
+2022-04-29 11:44:13,466 | itj_planning | INFO | Beam b19 | nonlinear | Trail #25 | time elapsed 238.53
+2022-04-29 11:44:24,575 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:24,575 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:24,575 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.1
+2022-04-29 11:44:24,636 | itj_planning | INFO | Beam b19 | nonlinear | Trail #26 | time elapsed 249.70
+2022-04-29 11:44:32,846 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:32,846 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:32,846 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.2
+2022-04-29 11:44:32,910 | itj_planning | INFO | Beam b19 | nonlinear | Trail #27 | time elapsed 257.97
+2022-04-29 11:44:43,157 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:43,157 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:43,157 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.2
+2022-04-29 11:44:43,281 | itj_planning | INFO | Beam b19 | nonlinear | Trail #28 | time elapsed 268.34
+2022-04-29 11:44:52,294 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:44:52,294 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:44:52,295 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.0
+2022-04-29 11:44:52,349 | itj_planning | INFO | Beam b19 | nonlinear | Trail #29 | time elapsed 277.41
+2022-04-29 11:45:03,015 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:45:03,015 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:45:03,015 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.7
+2022-04-29 11:45:03,084 | itj_planning | INFO | Beam b19 | nonlinear | Trail #30 | time elapsed 288.15
+2022-04-29 11:45:26,323 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:45:26,323 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:45:26,323 | itj_planning | INFO | Return success: False | runtime of current attempt: 23.2
+2022-04-29 11:45:26,385 | itj_planning | INFO | Beam b19 | nonlinear | Trail #31 | time elapsed 311.45
+2022-04-29 11:45:38,333 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:45:38,333 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:45:38,333 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.9
+2022-04-29 11:45:38,393 | itj_planning | INFO | Beam b19 | nonlinear | Trail #32 | time elapsed 323.45
+2022-04-29 11:45:46,465 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:45:46,465 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:45:46,465 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.1
+2022-04-29 11:45:46,529 | itj_planning | INFO | Beam b19 | nonlinear | Trail #33 | time elapsed 331.59
+2022-04-29 11:45:54,817 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:45:54,817 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:45:54,817 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.3
+2022-04-29 11:45:54,872 | itj_planning | INFO | Beam b19 | nonlinear | Trail #34 | time elapsed 339.93
+2022-04-29 11:46:04,313 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:04,313 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:04,313 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.4
+2022-04-29 11:46:04,378 | itj_planning | INFO | Beam b19 | nonlinear | Trail #35 | time elapsed 349.44
+2022-04-29 11:46:11,399 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:11,399 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:11,399 | itj_planning | INFO | Return success: False | runtime of current attempt: 7.0
+2022-04-29 11:46:11,460 | itj_planning | INFO | Beam b19 | nonlinear | Trail #36 | time elapsed 356.52
+2022-04-29 11:46:20,688 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:20,688 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:20,688 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.2
+2022-04-29 11:46:20,745 | itj_planning | INFO | Beam b19 | nonlinear | Trail #37 | time elapsed 365.81
+2022-04-29 11:46:30,542 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:30,550 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:30,550 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.8
+2022-04-29 11:46:30,601 | itj_planning | INFO | Beam b19 | nonlinear | Trail #38 | time elapsed 375.66
+2022-04-29 11:46:37,388 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:37,388 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:37,388 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.8
+2022-04-29 11:46:37,447 | itj_planning | INFO | Beam b19 | nonlinear | Trail #39 | time elapsed 382.51
+2022-04-29 11:46:47,241 | itj_planning | INFO | No plan found for A217_M2 | RoboticLinearMovement(#A217_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-04-29 11:46:47,241 | itj_planning | INFO | A plan NOT found using nonlinear planning at stage 2 for (seq_n=31) beam b19!
+2022-04-29 11:46:47,241 | itj_planning | INFO | Return success: False | runtime of current attempt: 9.8
+2022-04-29 11:46:47,280 | itj_planning | ERROR | Planning (with restarts) for beam b19 failed: exceeding max solve iteration 40
+2022-04-29 11:46:47,280 | itj_planning | INFO | Planning done.
