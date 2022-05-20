@@ -47,3 +47,296 @@
 2022-05-20 16:00:30,864 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #139/143
 2022-05-20 16:00:31,414 | itj_planning | WARNING | Movements that requires care and love:
 2022-05-20 16:00:31,422 | itj_planning | INFO | (MovementIndex=789) RoboticFreeMovement(#A167_M0, Free Move to bring Beam ('b10') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-05-20 17:38:26,573 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=True, viewer=False)
+2022-05-20 17:38:27,317 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-20 17:38:30,979 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-20 17:38:31,052 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-20 17:38:31,139 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-20 17:38:31,226 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-20 17:38:31,313 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-20 17:38:31,393 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-20 17:38:31,466 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-20 17:38:31,538 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-20 17:38:31,613 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-20 17:38:31,696 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-20 17:38:31,786 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-20 17:38:31,885 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-20 17:38:32,112 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b24', 'b25', 'b23', 'b3', 'b21', 'b22', 'b20', 'b4', 'b5', 'b6', 'b29', 'b30', 'b32', 'b31', 'b8', 'b26', 'b28', 'b27', 'b12', 'b13', 'b7', 'b9', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-05-20 17:40:18,040 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #1/121
+2022-05-20 17:59:30,454 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #118/121
+2022-05-20 18:03:21,603 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #186/191
+2022-05-20 18:07:14,342 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #83/85
+2022-05-20 18:16:28,258 | itj_planning | WARNING | A182_M0 : No trajectory found.
+2022-05-20 18:18:22,972 | itj_planning | WARNING | A194_M0 : No trajectory found.
+2022-05-20 18:18:23,055 | itj_planning | WARNING | A194_M1 : No trajectory found.
+2022-05-20 18:18:23,357 | itj_planning | WARNING | A194_M4 : No trajectory found.
+2022-05-20 18:18:23,476 | itj_planning | WARNING | A194_M5 : No trajectory found.
+2022-05-20 18:18:23,568 | itj_planning | WARNING | A195_M0 : No trajectory found.
+2022-05-20 18:18:23,664 | itj_planning | WARNING | A195_M2 : No trajectory found.
+2022-05-20 18:18:23,756 | itj_planning | WARNING | A195_M3 : No trajectory found.
+2022-05-20 18:18:23,841 | itj_planning | WARNING | A195_M6 : No trajectory found.
+2022-05-20 18:18:23,921 | itj_planning | WARNING | A196_M0 : No trajectory found.
+2022-05-20 18:18:24,002 | itj_planning | WARNING | A196_M1 : No trajectory found.
+2022-05-20 18:18:24,311 | itj_planning | WARNING | A196_M4 : No trajectory found.
+2022-05-20 18:18:24,425 | itj_planning | WARNING | A196_M5 : No trajectory found.
+2022-05-20 18:18:24,514 | itj_planning | WARNING | A197_M0 : No trajectory found.
+2022-05-20 18:18:24,606 | itj_planning | WARNING | A197_M2 : No trajectory found.
+2022-05-20 18:18:24,699 | itj_planning | WARNING | A197_M3 : No trajectory found.
+2022-05-20 18:18:24,797 | itj_planning | WARNING | A197_M6 : No trajectory found.
+2022-05-20 18:18:24,882 | itj_planning | WARNING | A199_M0 : No trajectory found.
+2022-05-20 18:18:24,961 | itj_planning | WARNING | A199_M1 : No trajectory found.
+2022-05-20 18:18:25,265 | itj_planning | WARNING | A199_M3 : No trajectory found.
+2022-05-20 18:18:25,356 | itj_planning | WARNING | A200_M0 : No trajectory found.
+2022-05-20 18:18:25,452 | itj_planning | WARNING | A200_M2 : No trajectory found.
+2022-05-20 18:18:25,790 | itj_planning | WARNING | A200_M5 : No trajectory found.
+2022-05-20 18:18:25,898 | itj_planning | WARNING | A201_M0 : No trajectory found.
+2022-05-20 18:18:26,012 | itj_planning | WARNING | A201_M1 : No trajectory found.
+2022-05-20 18:18:26,129 | itj_planning | WARNING | A201_M3 : No trajectory found.
+2022-05-20 18:18:26,222 | itj_planning | WARNING | A202_M2 : No trajectory found.
+2022-05-20 18:18:26,319 | itj_planning | WARNING | A203_M0 : No trajectory found.
+2022-05-20 18:18:26,430 | itj_planning | WARNING | A203_M1 : No trajectory found.
+2022-05-20 18:18:26,732 | itj_planning | WARNING | A203_M3 : No trajectory found.
+2022-05-20 18:18:26,816 | itj_planning | WARNING | A204_M0 : No trajectory found.
+2022-05-20 18:18:26,895 | itj_planning | WARNING | A204_M2 : No trajectory found.
+2022-05-20 18:18:26,982 | itj_planning | WARNING | A204_M6 : No trajectory found.
+2022-05-20 18:18:27,092 | itj_planning | WARNING | A204_M7 : No trajectory found.
+2022-05-20 18:18:27,182 | itj_planning | WARNING | A205_M0 : No trajectory found.
+2022-05-20 18:18:27,292 | itj_planning | WARNING | A205_M1 : No trajectory found.
+2022-05-20 18:18:27,393 | itj_planning | WARNING | A205_M2 : No trajectory found.
+2022-05-20 18:18:27,687 | itj_planning | WARNING | A205_M5 : No trajectory found.
+2022-05-20 18:18:27,771 | itj_planning | WARNING | A206_M0 : No trajectory found.
+2022-05-20 18:18:27,857 | itj_planning | WARNING | A206_M2 : No trajectory found.
+2022-05-20 18:18:27,953 | itj_planning | WARNING | A206_M6 : No trajectory found.
+2022-05-20 18:18:28,043 | itj_planning | WARNING | A206_M7 : No trajectory found.
+2022-05-20 18:18:28,138 | itj_planning | WARNING | A207_M0 : No trajectory found.
+2022-05-20 18:18:28,249 | itj_planning | WARNING | A207_M1 : No trajectory found.
+2022-05-20 18:18:28,348 | itj_planning | WARNING | A207_M2 : No trajectory found.
+2022-05-20 18:18:28,636 | itj_planning | WARNING | A207_M5 : No trajectory found.
+2022-05-20 18:19:13,079 | itj_planning | WARNING | A216_M0 : No trajectory found.
+2022-05-20 18:24:52,831 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #201/211
+2022-05-20 18:24:53,949 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #209/211
+2022-05-20 18:25:24,335 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #193/201
+2022-05-20 18:27:39,460 | itj_planning | WARNING | A250_M0 : No trajectory found.
+2022-05-20 18:30:01,654 | itj_planning | WARNING | A262_M0 : No trajectory found.
+2022-05-20 18:30:01,742 | itj_planning | WARNING | A262_M1 : No trajectory found.
+2022-05-20 18:30:02,034 | itj_planning | WARNING | A262_M4 : No trajectory found.
+2022-05-20 18:30:02,138 | itj_planning | WARNING | A262_M5 : No trajectory found.
+2022-05-20 18:30:02,238 | itj_planning | WARNING | A263_M0 : No trajectory found.
+2022-05-20 18:30:02,346 | itj_planning | WARNING | A263_M2 : No trajectory found.
+2022-05-20 18:30:02,444 | itj_planning | WARNING | A263_M3 : No trajectory found.
+2022-05-20 18:30:02,533 | itj_planning | WARNING | A263_M6 : No trajectory found.
+2022-05-20 18:30:02,623 | itj_planning | WARNING | A264_M0 : No trajectory found.
+2022-05-20 18:30:02,710 | itj_planning | WARNING | A264_M1 : No trajectory found.
+2022-05-20 18:30:03,012 | itj_planning | WARNING | A264_M4 : No trajectory found.
+2022-05-20 18:30:03,116 | itj_planning | WARNING | A264_M5 : No trajectory found.
+2022-05-20 18:30:03,209 | itj_planning | WARNING | A265_M0 : No trajectory found.
+2022-05-20 18:30:03,300 | itj_planning | WARNING | A265_M2 : No trajectory found.
+2022-05-20 18:30:03,393 | itj_planning | WARNING | A265_M3 : No trajectory found.
+2022-05-20 18:30:03,481 | itj_planning | WARNING | A265_M6 : No trajectory found.
+2022-05-20 18:30:03,565 | itj_planning | WARNING | A267_M0 : No trajectory found.
+2022-05-20 18:30:03,655 | itj_planning | WARNING | A267_M1 : No trajectory found.
+2022-05-20 18:30:03,947 | itj_planning | WARNING | A267_M3 : No trajectory found.
+2022-05-20 18:30:04,043 | itj_planning | WARNING | A268_M0 : No trajectory found.
+2022-05-20 18:30:04,135 | itj_planning | WARNING | A268_M2 : No trajectory found.
+2022-05-20 18:30:04,451 | itj_planning | WARNING | A268_M5 : No trajectory found.
+2022-05-20 18:30:04,546 | itj_planning | WARNING | A269_M0 : No trajectory found.
+2022-05-20 18:30:04,642 | itj_planning | WARNING | A269_M1 : No trajectory found.
+2022-05-20 18:30:04,755 | itj_planning | WARNING | A269_M3 : No trajectory found.
+2022-05-20 18:30:04,846 | itj_planning | WARNING | A270_M2 : No trajectory found.
+2022-05-20 18:30:04,935 | itj_planning | WARNING | A271_M0 : No trajectory found.
+2022-05-20 18:30:05,047 | itj_planning | WARNING | A271_M1 : No trajectory found.
+2022-05-20 18:30:05,318 | itj_planning | WARNING | A271_M3 : No trajectory found.
+2022-05-20 18:30:05,401 | itj_planning | WARNING | A272_M0 : No trajectory found.
+2022-05-20 18:30:05,484 | itj_planning | WARNING | A272_M2 : No trajectory found.
+2022-05-20 18:30:05,575 | itj_planning | WARNING | A272_M6 : No trajectory found.
+2022-05-20 18:30:05,666 | itj_planning | WARNING | A272_M7 : No trajectory found.
+2022-05-20 18:30:05,771 | itj_planning | WARNING | A273_M0 : No trajectory found.
+2022-05-20 18:30:05,873 | itj_planning | WARNING | A273_M1 : No trajectory found.
+2022-05-20 18:30:05,975 | itj_planning | WARNING | A273_M2 : No trajectory found.
+2022-05-20 18:30:06,246 | itj_planning | WARNING | A273_M5 : No trajectory found.
+2022-05-20 18:30:06,330 | itj_planning | WARNING | A274_M0 : No trajectory found.
+2022-05-20 18:30:06,414 | itj_planning | WARNING | A274_M2 : No trajectory found.
+2022-05-20 18:30:06,502 | itj_planning | WARNING | A274_M6 : No trajectory found.
+2022-05-20 18:30:06,595 | itj_planning | WARNING | A274_M7 : No trajectory found.
+2022-05-20 18:30:06,696 | itj_planning | WARNING | A275_M0 : No trajectory found.
+2022-05-20 18:30:06,800 | itj_planning | WARNING | A275_M1 : No trajectory found.
+2022-05-20 18:30:06,901 | itj_planning | WARNING | A275_M2 : No trajectory found.
+2022-05-20 18:30:07,177 | itj_planning | WARNING | A275_M5 : No trajectory found.
+2022-05-20 18:30:07,260 | itj_planning | WARNING | A276_M0 : No trajectory found.
+2022-05-20 18:30:07,342 | itj_planning | WARNING | A276_M1 : No trajectory found.
+2022-05-20 18:30:07,638 | itj_planning | WARNING | A276_M3 : No trajectory found.
+2022-05-20 18:30:07,731 | itj_planning | WARNING | A277_M0 : No trajectory found.
+2022-05-20 18:30:07,832 | itj_planning | WARNING | A277_M2 : No trajectory found.
+2022-05-20 18:30:08,133 | itj_planning | WARNING | A280_M0 : No trajectory found.
+2022-05-20 18:30:08,241 | itj_planning | WARNING | A280_M1 : No trajectory found.
+2022-05-20 18:30:08,337 | itj_planning | WARNING | A280_M2 : No trajectory found.
+2022-05-20 18:30:08,449 | itj_planning | WARNING | A284_M0 : No trajectory found.
+2022-05-20 18:30:08,577 | itj_planning | WARNING | A284_M1 : No trajectory found.
+2022-05-20 18:30:08,719 | itj_planning | WARNING | A284_M2 : No trajectory found.
+2022-05-20 18:30:08,832 | itj_planning | WARNING | A285_M2 : No trajectory found.
+2022-05-20 18:30:08,924 | itj_planning | WARNING | A286_M0 : No trajectory found.
+2022-05-20 18:30:09,026 | itj_planning | WARNING | A286_M1 : No trajectory found.
+2022-05-20 18:30:09,302 | itj_planning | WARNING | A286_M3 : No trajectory found.
+2022-05-20 18:30:09,387 | itj_planning | WARNING | A287_M0 : No trajectory found.
+2022-05-20 18:30:09,472 | itj_planning | WARNING | A287_M2 : No trajectory found.
+2022-05-20 18:30:09,565 | itj_planning | WARNING | A288_M2 : No trajectory found.
+2022-05-20 18:30:09,658 | itj_planning | WARNING | A288_M3 : No trajectory found.
+2022-05-20 18:30:09,752 | itj_planning | WARNING | A289_M0 : No trajectory found.
+2022-05-20 18:30:09,855 | itj_planning | WARNING | A289_M1 : No trajectory found.
+2022-05-20 18:30:09,959 | itj_planning | WARNING | A289_M2 : No trajectory found.
+2022-05-20 18:30:10,234 | itj_planning | WARNING | A289_M4 : No trajectory found.
+2022-05-20 18:30:10,319 | itj_planning | WARNING | A290_M0 : No trajectory found.
+2022-05-20 18:30:10,406 | itj_planning | WARNING | A290_M2 : No trajectory found.
+2022-05-20 18:30:10,496 | itj_planning | WARNING | A291_M2 : No trajectory found.
+2022-05-20 18:30:10,588 | itj_planning | WARNING | A291_M3 : No trajectory found.
+2022-05-20 18:30:10,680 | itj_planning | WARNING | A292_M0 : No trajectory found.
+2022-05-20 18:30:10,786 | itj_planning | WARNING | A292_M1 : No trajectory found.
+2022-05-20 18:30:10,896 | itj_planning | WARNING | A292_M2 : No trajectory found.
+2022-05-20 18:30:11,178 | itj_planning | WARNING | A292_M4 : No trajectory found.
+2022-05-20 18:30:11,270 | itj_planning | WARNING | A293_M0 : No trajectory found.
+2022-05-20 18:30:11,367 | itj_planning | WARNING | A293_M2 : No trajectory found.
+2022-05-20 18:30:11,464 | itj_planning | WARNING | A294_M2 : No trajectory found.
+2022-05-20 18:30:11,562 | itj_planning | WARNING | A294_M3 : No trajectory found.
+2022-05-20 18:30:11,662 | itj_planning | WARNING | A295_M0 : No trajectory found.
+2022-05-20 18:30:11,770 | itj_planning | WARNING | A295_M1 : No trajectory found.
+2022-05-20 18:30:11,878 | itj_planning | WARNING | A295_M2 : No trajectory found.
+2022-05-20 18:30:12,177 | itj_planning | WARNING | A295_M4 : No trajectory found.
+2022-05-20 18:30:12,201 | itj_planning | WARNING | Movements that requires care and love:
+2022-05-20 18:30:12,201 | itj_planning | INFO | (MovementIndex=36) RoboticFreeMovement(#A9_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-05-20 18:30:12,201 | itj_planning | INFO | (MovementIndex=469) RoboticFreeMovement(#A111_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-05-20 18:30:12,201 | itj_planning | INFO | (MovementIndex=549) RoboticFreeMovement(#A125_M0, Free Move to bring Beam ('b13') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-05-20 18:30:12,202 | itj_planning | INFO | (MovementIndex=629) RoboticFreeMovement(#A139_M0, Free Move to bring Beam ('b7') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-05-20 18:30:12,202 | itj_planning | INFO | (MovementIndex=846) RoboticFreeMovement(#A182_M0, Free Move to bring Beam ('b11') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,202 | itj_planning | INFO | (MovementIndex=899) RoboticFreeMovement(#A194_M0, Free Move for Toolchanger to approach CL3M ('c3'), to get clamp from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,202 | itj_planning | INFO | (MovementIndex=900) RoboticLinearMovement(#A194_M1, Toolchanger Advance to dock with CL3M ('c3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,203 | itj_planning | INFO | (MovementIndex=903) RoboticLinearMovement(#A194_M4, Linear Retract 1 from Storage Frame of CL3M ('c3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,204 | itj_planning | INFO | (MovementIndex=904) RoboticLinearMovement(#A194_M5, Linear Retract 2 from Storage Frame of CL3M ('c3'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,204 | itj_planning | INFO | (MovementIndex=905) RoboticFreeMovement(#A195_M0, Free Move to bring CL3M ('c3') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,204 | itj_planning | INFO | (MovementIndex=907) RoboticLinearMovement(#A195_M2, Linear Approach 1 of 2 to attach CL3M ('c3') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,204 | itj_planning | INFO | (MovementIndex=908) RoboticLinearMovement(#A195_M3, Linear Approach 2 of 2 to attach CL3M ('c3') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,205 | itj_planning | INFO | (MovementIndex=911) RoboticLinearMovement(#A195_M6, Linear Retract after attaching CL3M ('c3') on structure, has_traj False): no_traj_found
+2022-05-20 18:30:12,205 | itj_planning | INFO | (MovementIndex=913) RoboticFreeMovement(#A196_M0, Free Move for Toolchanger to approach CL3M ('c4'), to get clamp from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,205 | itj_planning | INFO | (MovementIndex=914) RoboticLinearMovement(#A196_M1, Toolchanger Advance to dock with CL3M ('c4')., has_traj False): no_traj_found
+2022-05-20 18:30:12,205 | itj_planning | INFO | (MovementIndex=917) RoboticLinearMovement(#A196_M4, Linear Retract 1 from Storage Frame of CL3M ('c4')., has_traj False): no_traj_found
+2022-05-20 18:30:12,206 | itj_planning | INFO | (MovementIndex=918) RoboticLinearMovement(#A196_M5, Linear Retract 2 from Storage Frame of CL3M ('c4'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,206 | itj_planning | INFO | (MovementIndex=919) RoboticFreeMovement(#A197_M0, Free Move to bring CL3M ('c4') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,206 | itj_planning | INFO | (MovementIndex=921) RoboticLinearMovement(#A197_M2, Linear Approach 1 of 2 to attach CL3M ('c4') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,206 | itj_planning | INFO | (MovementIndex=922) RoboticLinearMovement(#A197_M3, Linear Approach 2 of 2 to attach CL3M ('c4') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,207 | itj_planning | INFO | (MovementIndex=925) RoboticLinearMovement(#A197_M6, Linear Retract after attaching CL3M ('c4') on structure, has_traj False): no_traj_found
+2022-05-20 18:30:12,207 | itj_planning | INFO | (MovementIndex=928) RoboticFreeMovement(#A199_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,207 | itj_planning | INFO | (MovementIndex=929) RoboticLinearMovement(#A199_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,207 | itj_planning | INFO | (MovementIndex=931) RoboticLinearMovement(#A199_M3, Linear Retract after getting PG1000 ('g2') from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,208 | itj_planning | INFO | (MovementIndex=932) RoboticFreeMovement(#A200_M0, Free Move to reach Pickup Approach Frame of Beam ('b14'), has_traj False): no_traj_found
+2022-05-20 18:30:12,209 | itj_planning | INFO | (MovementIndex=934) RoboticLinearMovement(#A200_M2, Linear Advance to Storage Frame of Beam ('b14'), has_traj False): no_traj_found
+2022-05-20 18:30:12,209 | itj_planning | INFO | (MovementIndex=937) RoboticLinearMovement(#A200_M5, Linear Retract after picking up Beam ('b14'), has_traj False): no_traj_found
+2022-05-20 18:30:12,209 | itj_planning | INFO | (MovementIndex=938) RoboticFreeMovement(#A201_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,209 | itj_planning | INFO | (MovementIndex=939) RoboticLinearMovement(#A201_M1, Linear Advance to bring Beam ('b14') into clamp jaws, has_traj False): no_traj_found
+2022-05-20 18:30:12,209 | itj_planning | INFO | (MovementIndex=941) RoboticClampSyncLinearMovement(#A201_M3, Robot and Clamps (['c3', 'c4']) syncronously move to clamp Beam ('b14'), has_traj False): no_traj_found
+2022-05-20 18:30:12,210 | itj_planning | INFO | (MovementIndex=944) RoboticLinearMovement(#A202_M2, Linear retract of Gripper from Beam ('b14'), has_traj False): no_traj_found
+2022-05-20 18:30:12,210 | itj_planning | INFO | (MovementIndex=945) RoboticFreeMovement(#A203_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,210 | itj_planning | INFO | (MovementIndex=946) RoboticLinearMovement(#A203_M1, Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,210 | itj_planning | INFO | (MovementIndex=948) RoboticLinearMovement(#A203_M3, Linear Retract from storage after placing PG1000 ('g2') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,211 | itj_planning | INFO | (MovementIndex=949) RoboticFreeMovement(#A204_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,211 | itj_planning | INFO | (MovementIndex=951) RoboticLinearMovement(#A204_M2, Linear Advance to dock toolchanger of CL3M ('c4')., has_traj False): no_traj_found
+2022-05-20 18:30:12,211 | itj_planning | INFO | (MovementIndex=955) RoboticLinearMovement(#A204_M6, Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,211 | itj_planning | INFO | (MovementIndex=956) RoboticLinearMovement(#A204_M7, Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,212 | itj_planning | INFO | (MovementIndex=958) RoboticFreeMovement(#A205_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,212 | itj_planning | INFO | (MovementIndex=959) RoboticLinearMovement(#A205_M1, Linear Advance 1 to approach Storage Frame of CL3M ('c4'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,212 | itj_planning | INFO | (MovementIndex=960) RoboticLinearMovement(#A205_M2, Linear Advance 2 to Storage Frame of CL3M ('c4')., has_traj False): no_traj_found
+2022-05-20 18:30:12,212 | itj_planning | INFO | (MovementIndex=963) RoboticLinearMovement(#A205_M5, Linear Retract after placing CL3M ('c4') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,212 | itj_planning | INFO | (MovementIndex=964) RoboticFreeMovement(#A206_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,213 | itj_planning | INFO | (MovementIndex=966) RoboticLinearMovement(#A206_M2, Linear Advance to dock toolchanger of CL3M ('c3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,213 | itj_planning | INFO | (MovementIndex=970) RoboticLinearMovement(#A206_M6, Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,213 | itj_planning | INFO | (MovementIndex=971) RoboticLinearMovement(#A206_M7, Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,213 | itj_planning | INFO | (MovementIndex=973) RoboticFreeMovement(#A207_M0, Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,213 | itj_planning | INFO | (MovementIndex=974) RoboticLinearMovement(#A207_M1, Linear Advance 1 to approach Storage Frame of CL3M ('c3'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=975) RoboticLinearMovement(#A207_M2, Linear Advance 2 to Storage Frame of CL3M ('c3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=978) RoboticLinearMovement(#A207_M5, Linear Retract after placing CL3M ('c3') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=995) RoboticFreeMovement(#A216_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=1087) RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_polyline_collision
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=1094) RoboticFreeMovement(#A237_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-05-20 18:30:12,214 | itj_planning | INFO | (MovementIndex=1144) RoboticFreeMovement(#A250_M0, Free Move to bring Beam ('b17') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1197) RoboticFreeMovement(#A262_M0, Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1198) RoboticLinearMovement(#A262_M1, Toolchanger Advance to dock with CL3 ('c1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1201) RoboticLinearMovement(#A262_M4, Linear Retract 1 from Storage Frame of CL3 ('c1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1202) RoboticLinearMovement(#A262_M5, Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1203) RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,215 | itj_planning | INFO | (MovementIndex=1205) RoboticLinearMovement(#A263_M2, Linear Approach 1 of 2 to attach CL3 ('c1') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,216 | itj_planning | INFO | (MovementIndex=1206) RoboticLinearMovement(#A263_M3, Linear Approach 2 of 2 to attach CL3 ('c1') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,216 | itj_planning | INFO | (MovementIndex=1209) RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False): no_traj_found
+2022-05-20 18:30:12,216 | itj_planning | INFO | (MovementIndex=1211) RoboticFreeMovement(#A264_M0, Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,216 | itj_planning | INFO | (MovementIndex=1212) RoboticLinearMovement(#A264_M1, Toolchanger Advance to dock with CL3 ('c2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,216 | itj_planning | INFO | (MovementIndex=1215) RoboticLinearMovement(#A264_M4, Linear Retract 1 from Storage Frame of CL3 ('c2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1216) RoboticLinearMovement(#A264_M5, Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1217) RoboticFreeMovement(#A265_M0, Free Move to bring CL3 ('c2') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1219) RoboticLinearMovement(#A265_M2, Linear Approach 1 of 2 to attach CL3 ('c2') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1220) RoboticLinearMovement(#A265_M3, Linear Approach 2 of 2 to attach CL3 ('c2') to structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1223) RoboticLinearMovement(#A265_M6, Linear Retract after attaching CL3 ('c2') on structure, has_traj False): no_traj_found
+2022-05-20 18:30:12,217 | itj_planning | INFO | (MovementIndex=1226) RoboticFreeMovement(#A267_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1227) RoboticLinearMovement(#A267_M1, Linear Advance to Storage Frame of PG1500 ('g3'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1229) RoboticLinearMovement(#A267_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1230) RoboticFreeMovement(#A268_M0, Free Move to reach Pickup Approach Frame of Beam ('b18'), has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1232) RoboticLinearMovement(#A268_M2, Linear Advance to Storage Frame of Beam ('b18'), has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1235) RoboticLinearMovement(#A268_M5, Linear Retract after picking up Beam ('b18'), has_traj False): no_traj_found
+2022-05-20 18:30:12,218 | itj_planning | INFO | (MovementIndex=1236) RoboticFreeMovement(#A269_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,219 | itj_planning | INFO | (MovementIndex=1237) RoboticLinearMovement(#A269_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False): no_traj_found
+2022-05-20 18:30:12,219 | itj_planning | INFO | (MovementIndex=1239) RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False): no_traj_found
+2022-05-20 18:30:12,219 | itj_planning | INFO | (MovementIndex=1242) RoboticLinearMovement(#A270_M2, Linear retract of Gripper from Beam ('b18'), has_traj False): no_traj_found
+2022-05-20 18:30:12,219 | itj_planning | INFO | (MovementIndex=1243) RoboticFreeMovement(#A271_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,219 | itj_planning | INFO | (MovementIndex=1244) RoboticLinearMovement(#A271_M1, Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1246) RoboticLinearMovement(#A271_M3, Linear Retract from storage after placing PG1500 ('g3') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1247) RoboticFreeMovement(#A272_M0, Free Move to reach CL3 ('c2') to detach it from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1249) RoboticLinearMovement(#A272_M2, Linear Advance to dock toolchanger of CL3 ('c2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1253) RoboticLinearMovement(#A272_M6, Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1254) RoboticLinearMovement(#A272_M7, Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,220 | itj_planning | INFO | (MovementIndex=1256) RoboticFreeMovement(#A273_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1257) RoboticLinearMovement(#A273_M1, Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1258) RoboticLinearMovement(#A273_M2, Linear Advance 2 to Storage Frame of CL3 ('c2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1261) RoboticLinearMovement(#A273_M5, Linear Retract after placing CL3 ('c2') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1262) RoboticFreeMovement(#A274_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1264) RoboticLinearMovement(#A274_M2, Linear Advance to dock toolchanger of CL3 ('c1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,221 | itj_planning | INFO | (MovementIndex=1268) RoboticLinearMovement(#A274_M6, Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,222 | itj_planning | INFO | (MovementIndex=1269) RoboticLinearMovement(#A274_M7, Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,222 | itj_planning | INFO | (MovementIndex=1271) RoboticFreeMovement(#A275_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,223 | itj_planning | INFO | (MovementIndex=1272) RoboticLinearMovement(#A275_M1, Linear Advance 1 to approach Storage Frame of CL3 ('c1'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,223 | itj_planning | INFO | (MovementIndex=1273) RoboticLinearMovement(#A275_M2, Linear Advance 2 to Storage Frame of CL3 ('c1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,223 | itj_planning | INFO | (MovementIndex=1276) RoboticLinearMovement(#A275_M5, Linear Retract after placing CL3 ('c1') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,223 | itj_planning | INFO | (MovementIndex=1277) RoboticFreeMovement(#A276_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1278) RoboticLinearMovement(#A276_M1, Linear Advance to Storage Frame of PG1500 ('g3'), to get tool., has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1280) RoboticLinearMovement(#A276_M3, Linear Retract after getting PG1500 ('g3') from storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1281) RoboticFreeMovement(#A277_M0, Free Move to reach Pickup Approach Frame of Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1283) RoboticLinearMovement(#A277_M2, Linear Advance to Storage Frame of Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1287) RoboticLinearMovement(#A280_M0, Linear Move to lift up Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,224 | itj_planning | INFO | (MovementIndex=1288) RoboticLinearMovement(#A280_M1, Linear Move to intermediate position before reorienting Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,225 | itj_planning | INFO | (MovementIndex=1289) RoboticLinearMovement(#A280_M2, Final Move to reorient Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,225 | itj_planning | INFO | (MovementIndex=1293) RoboticFreeMovement(#A284_M0, Free Move to bring Beam ('b19') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-05-20 18:30:12,225 | itj_planning | INFO | (MovementIndex=1294) RoboticLinearMovement(#A284_M1, Linear Advance to bring Screwdriver tips to touch the predrilled hole., has_traj False): no_traj_found
+2022-05-20 18:30:12,226 | itj_planning | INFO | (MovementIndex=1295) RobotScrewdriverSyncLinearMovement(#A284_M2, Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,226 | itj_planning | INFO | (MovementIndex=1299) RoboticLinearMovement(#A285_M2, Linear retract of Gripper from Beam ('b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,226 | itj_planning | INFO | (MovementIndex=1300) RoboticFreeMovement(#A286_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,226 | itj_planning | INFO | (MovementIndex=1301) RoboticLinearMovement(#A286_M1, Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1303) RoboticLinearMovement(#A286_M3, Linear Retract from storage after placing PG1500 ('g3') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1304) RoboticFreeMovement(#A287_M0, Free Move to reach SL1 ('s3') on Beam ('b19') , has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1306) RoboticLinearMovement(#A287_M2, Linear Advance to dock toolchanger of SL1 ('s3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1310) RobotScrewdriverSyncLinearMovement(#A288_M2, Robot and Screwdriver (s3) syncronously move to retract from Joint ('b18-b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1311) RoboticLinearMovement(#A288_M3, Linear retract after picking up Screwdriver ('s3'), has_traj False): no_traj_found
+2022-05-20 18:30:12,227 | itj_planning | INFO | (MovementIndex=1313) RoboticFreeMovement(#A289_M0, Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,228 | itj_planning | INFO | (MovementIndex=1314) RoboticLinearMovement(#A289_M1, Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,228 | itj_planning | INFO | (MovementIndex=1315) RoboticLinearMovement(#A289_M2, Linear Advance 2 to Storage Frame of SL1 ('s3')., has_traj False): no_traj_found
+2022-05-20 18:30:12,228 | itj_planning | INFO | (MovementIndex=1317) RoboticLinearMovement(#A289_M4, Linear Retract after placing SL1 ('s3') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,228 | itj_planning | INFO | (MovementIndex=1318) RoboticFreeMovement(#A290_M0, Free Move to reach SL1 ('s2') on Beam ('b19') , has_traj False): no_traj_found
+2022-05-20 18:30:12,229 | itj_planning | INFO | (MovementIndex=1320) RoboticLinearMovement(#A290_M2, Linear Advance to dock toolchanger of SL1 ('s2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,229 | itj_planning | INFO | (MovementIndex=1324) RobotScrewdriverSyncLinearMovement(#A291_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b9-b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,229 | itj_planning | INFO | (MovementIndex=1325) RoboticLinearMovement(#A291_M3, Linear retract after picking up Screwdriver ('s2'), has_traj False): no_traj_found
+2022-05-20 18:30:12,229 | itj_planning | INFO | (MovementIndex=1327) RoboticFreeMovement(#A292_M0, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,229 | itj_planning | INFO | (MovementIndex=1328) RoboticLinearMovement(#A292_M1, Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,230 | itj_planning | INFO | (MovementIndex=1329) RoboticLinearMovement(#A292_M2, Linear Advance 2 to Storage Frame of SL1 ('s2')., has_traj False): no_traj_found
+2022-05-20 18:30:12,230 | itj_planning | INFO | (MovementIndex=1331) RoboticLinearMovement(#A292_M4, Linear Retract after placing SL1 ('s2') in storage, has_traj False): no_traj_found
+2022-05-20 18:30:12,230 | itj_planning | INFO | (MovementIndex=1332) RoboticFreeMovement(#A293_M0, Free Move to reach SL1 ('s1') on Beam ('b19') , has_traj False): no_traj_found
+2022-05-20 18:30:12,230 | itj_planning | INFO | (MovementIndex=1334) RoboticLinearMovement(#A293_M2, Linear Advance to dock toolchanger of SL1 ('s1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,230 | itj_planning | INFO | (MovementIndex=1338) RobotScrewdriverSyncLinearMovement(#A294_M2, Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b19'), has_traj False): no_traj_found
+2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1339) RoboticLinearMovement(#A294_M3, Linear retract after picking up Screwdriver ('s1'), has_traj False): no_traj_found
+2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1341) RoboticFreeMovement(#A295_M0, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj False): no_traj_found
+2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1342) RoboticLinearMovement(#A295_M1, Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster), has_traj False): no_traj_found
+2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1343) RoboticLinearMovement(#A295_M2, Linear Advance 2 to Storage Frame of SL1 ('s1')., has_traj False): no_traj_found
+2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1345) RoboticLinearMovement(#A295_M4, Linear Retract after placing SL1 ('s1') in storage, has_traj False): no_traj_found
