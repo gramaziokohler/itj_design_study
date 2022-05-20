@@ -729,3 +729,168 @@
 2022-05-20 13:31:15,341 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=29) beam b16!
 2022-05-20 13:31:15,342 | itj_planning | INFO | Return success: False | runtime of current attempt: 835.1
 2022-05-20 13:31:15,397 | itj_planning | INFO | Beam b16 | nonlinear | Trail #48 | time elapsed 16569.46
+2022-05-20 13:44:30,742 | itj_planning | INFO | No plan found for A237_M0 | RoboticFreeMovement(#A237_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-05-20 13:44:30,743 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=29) beam b16!
+2022-05-20 13:44:30,745 | itj_planning | INFO | Return success: False | runtime of current attempt: 795.3
+2022-05-20 13:44:30,800 | itj_planning | INFO | Beam b16 | nonlinear | Trail #49 | time elapsed 17364.87
+2022-05-20 13:53:10,316 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-05-20 13:53:10,316 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=29) beam b16!
+2022-05-20 13:53:10,316 | itj_planning | INFO | Return success: False | runtime of current attempt: 519.5
+2022-05-20 13:53:10,364 | itj_planning | INFO | Beam b16 | nonlinear | Trail #50 | time elapsed 17884.43
+2022-05-20 13:59:54,407 | itj_planning | INFO | No plan found for A231_M0 | RoboticFreeMovement(#A231_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 13:59:54,407 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=29) beam b16!
+2022-05-20 13:59:54,423 | itj_planning | INFO | Return success: False | runtime of current attempt: 404.1
+2022-05-20 13:59:54,470 | itj_planning | INFO | Beam b16 | nonlinear | Trail #51 | time elapsed 18288.54
+2022-05-20 14:25:10,877 | itj_planning | INFO | Return success: True | runtime of current attempt: 1516.4
+2022-05-20 14:25:17,097 | itj_planning | INFO | Beam b17 | nonlinear | Trail #0 | time elapsed 0.03
+2022-05-20 14:30:41,689 | itj_planning | INFO | No plan found for A253_M0 | RoboticFreeMovement(#A253_M0, Free Move to reach SL1 ('s3') on Beam ('b17') , has_traj False)
+2022-05-20 14:30:41,689 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=30) beam b17!
+2022-05-20 14:30:41,689 | itj_planning | INFO | Return success: False | runtime of current attempt: 324.6
+2022-05-20 14:30:41,736 | itj_planning | INFO | Beam b17 | nonlinear | Trail #1 | time elapsed 324.67
+2022-05-20 14:34:56,758 | itj_planning | ERROR | Smooth success: False | msg: Empty trajectory input.
+2022-05-20 14:38:35,553 | itj_planning | INFO | Return success: True | runtime of current attempt: 473.8
+2022-05-20 14:38:42,498 | itj_planning | INFO | Beam b18 | nonlinear | Trail #0 | time elapsed 0.02
+2022-05-20 14:38:45,071 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 14:38:45,071 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 14:38:45,071 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.6
+2022-05-20 14:38:45,135 | itj_planning | INFO | Beam b18 | nonlinear | Trail #1 | time elapsed 2.65
+2022-05-20 14:47:35,314 | itj_planning | INFO | No plan found for A271_M0 | RoboticFreeMovement(#A271_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-05-20 14:47:35,314 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 14:47:35,314 | itj_planning | INFO | Return success: False | runtime of current attempt: 530.2
+2022-05-20 14:47:35,376 | itj_planning | INFO | Beam b18 | nonlinear | Trail #2 | time elapsed 532.89
+2022-05-20 14:47:37,433 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 14:47:37,433 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 14:47:37,433 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.1
+2022-05-20 14:47:37,493 | itj_planning | INFO | Beam b18 | nonlinear | Trail #3 | time elapsed 535.01
+2022-05-20 14:47:42,502 | itj_planning | INFO | No plan found for A270_M2 | RoboticLinearMovement(#A270_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-05-20 14:47:42,502 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, one-side done, (seq_n=31) beam b18!
+2022-05-20 14:47:42,502 | itj_planning | INFO | Return success: False | runtime of current attempt: 5.0
+2022-05-20 14:47:42,555 | itj_planning | INFO | Beam b18 | nonlinear | Trail #4 | time elapsed 540.07
+2022-05-20 14:53:21,856 | itj_planning | INFO | No plan found for A269_M0 | RoboticFreeMovement(#A269_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False)
+2022-05-20 14:53:21,856 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 14:53:21,856 | itj_planning | INFO | Return success: False | runtime of current attempt: 339.3
+2022-05-20 14:53:21,916 | itj_planning | INFO | Beam b18 | nonlinear | Trail #5 | time elapsed 879.43
+2022-05-20 14:53:24,852 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 14:53:24,860 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 14:53:24,860 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.9
+2022-05-20 14:53:24,913 | itj_planning | INFO | Beam b18 | nonlinear | Trail #6 | time elapsed 882.43
+2022-05-20 14:58:18,624 | itj_planning | INFO | No plan found for A263_M0 | RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 14:58:18,624 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 14:58:18,624 | itj_planning | INFO | Return success: False | runtime of current attempt: 293.7
+2022-05-20 14:58:18,675 | itj_planning | INFO | Beam b18 | nonlinear | Trail #7 | time elapsed 1176.19
+2022-05-20 14:58:26,957 | itj_planning | INFO | No plan found for A263_M6 | RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-05-20 14:58:26,957 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 14:58:26,957 | itj_planning | INFO | Return success: False | runtime of current attempt: 8.3
+2022-05-20 14:58:27,008 | itj_planning | INFO | Beam b18 | nonlinear | Trail #8 | time elapsed 1184.53
+2022-05-20 14:58:33,142 | itj_planning | INFO | No plan found for A269_M1 | RoboticLinearMovement(#A269_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False)
+2022-05-20 14:58:33,142 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, one-side done, (seq_n=31) beam b18!
+2022-05-20 14:58:33,142 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.1
+2022-05-20 14:58:33,193 | itj_planning | INFO | Beam b18 | nonlinear | Trail #9 | time elapsed 1190.71
+2022-05-20 15:05:46,246 | itj_planning | INFO | No plan found for A264_M0 | RoboticFreeMovement(#A264_M0, Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage., has_traj False)
+2022-05-20 15:05:46,246 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:05:46,246 | itj_planning | INFO | Return success: False | runtime of current attempt: 433.1
+2022-05-20 15:05:46,317 | itj_planning | INFO | Beam b18 | nonlinear | Trail #10 | time elapsed 1623.83
+2022-05-20 15:05:56,624 | itj_planning | INFO | No plan found for A263_M6 | RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-05-20 15:05:56,624 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:05:56,624 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.3
+2022-05-20 15:05:56,687 | itj_planning | INFO | Beam b18 | nonlinear | Trail #11 | time elapsed 1634.20
+2022-05-20 15:10:04,943 | itj_planning | INFO | No plan found for A265_M0 | RoboticFreeMovement(#A265_M0, Free Move to bring CL3 ('c2') to structure., has_traj False)
+2022-05-20 15:10:04,943 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:10:04,945 | itj_planning | INFO | Return success: False | runtime of current attempt: 248.3
+2022-05-20 15:10:05,005 | itj_planning | INFO | Beam b18 | nonlinear | Trail #12 | time elapsed 1882.52
+2022-05-20 15:10:09,020 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:10:09,020 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:10:09,020 | itj_planning | INFO | Return success: False | runtime of current attempt: 4.0
+2022-05-20 15:10:09,079 | itj_planning | INFO | Beam b18 | nonlinear | Trail #13 | time elapsed 1886.60
+2022-05-20 15:10:29,970 | itj_planning | INFO | No plan found for A274_M6 | RoboticLinearMovement(#A274_M6, Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure., has_traj False)
+2022-05-20 15:10:29,970 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:10:29,970 | itj_planning | INFO | Return success: False | runtime of current attempt: 20.9
+2022-05-20 15:10:30,031 | itj_planning | INFO | Beam b18 | nonlinear | Trail #14 | time elapsed 1907.55
+2022-05-20 15:10:45,633 | itj_planning | INFO | No plan found for A272_M7 | RoboticLinearMovement(#A272_M7, Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False)
+2022-05-20 15:10:45,633 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:10:45,633 | itj_planning | INFO | Return success: False | runtime of current attempt: 15.6
+2022-05-20 15:10:45,695 | itj_planning | INFO | Beam b18 | nonlinear | Trail #15 | time elapsed 1923.21
+2022-05-20 15:14:34,882 | itj_planning | INFO | No plan found for A265_M0 | RoboticFreeMovement(#A265_M0, Free Move to bring CL3 ('c2') to structure., has_traj False)
+2022-05-20 15:14:34,882 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:14:34,882 | itj_planning | INFO | Return success: False | runtime of current attempt: 229.2
+2022-05-20 15:14:34,943 | itj_planning | INFO | Beam b18 | nonlinear | Trail #16 | time elapsed 2152.46
+2022-05-20 15:21:15,566 | itj_planning | INFO | No plan found for A273_M0 | RoboticFreeMovement(#A273_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False)
+2022-05-20 15:21:15,566 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:21:15,566 | itj_planning | INFO | Return success: False | runtime of current attempt: 400.6
+2022-05-20 15:21:15,628 | itj_planning | INFO | Beam b18 | nonlinear | Trail #17 | time elapsed 2553.15
+2022-05-20 15:21:18,508 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:21:18,508 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:21:18,508 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.9
+2022-05-20 15:21:18,559 | itj_planning | INFO | Beam b18 | nonlinear | Trail #18 | time elapsed 2556.08
+2022-05-20 15:21:22,213 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:21:22,214 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:21:22,214 | itj_planning | INFO | Return success: False | runtime of current attempt: 3.7
+2022-05-20 15:21:22,268 | itj_planning | INFO | Beam b18 | nonlinear | Trail #19 | time elapsed 2559.79
+2022-05-20 15:26:49,362 | itj_planning | INFO | No plan found for A263_M0 | RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 15:26:49,362 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:26:49,370 | itj_planning | INFO | Return success: False | runtime of current attempt: 327.1
+2022-05-20 15:26:49,423 | itj_planning | INFO | Beam b18 | nonlinear | Trail #20 | time elapsed 2886.94
+2022-05-20 15:26:56,329 | itj_planning | INFO | No plan found for A269_M1 | RoboticLinearMovement(#A269_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False)
+2022-05-20 15:26:56,329 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, one-side done, (seq_n=31) beam b18!
+2022-05-20 15:26:56,329 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.9
+2022-05-20 15:26:56,392 | itj_planning | INFO | Beam b18 | nonlinear | Trail #21 | time elapsed 2893.91
+2022-05-20 15:32:22,286 | itj_planning | INFO | No plan found for A271_M0 | RoboticFreeMovement(#A271_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-05-20 15:32:22,286 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:32:22,288 | itj_planning | INFO | Return success: False | runtime of current attempt: 325.9
+2022-05-20 15:32:22,347 | itj_planning | INFO | Beam b18 | nonlinear | Trail #22 | time elapsed 3219.86
+2022-05-20 15:38:06,967 | itj_planning | INFO | No plan found for A263_M0 | RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 15:38:06,967 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:38:06,967 | itj_planning | INFO | Return success: False | runtime of current attempt: 344.6
+2022-05-20 15:38:07,044 | itj_planning | INFO | Beam b18 | nonlinear | Trail #23 | time elapsed 3564.56
+2022-05-20 15:38:10,059 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:38:10,060 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:38:10,061 | itj_planning | INFO | Return success: False | runtime of current attempt: 3.0
+2022-05-20 15:38:10,120 | itj_planning | INFO | Beam b18 | nonlinear | Trail #24 | time elapsed 3567.64
+2022-05-20 15:38:13,379 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:38:13,380 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:38:13,380 | itj_planning | INFO | Return success: False | runtime of current attempt: 3.3
+2022-05-20 15:38:13,422 | itj_planning | INFO | Beam b18 | nonlinear | Trail #25 | time elapsed 3570.94
+2022-05-20 15:38:15,842 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:38:15,843 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:38:15,843 | itj_planning | INFO | Return success: False | runtime of current attempt: 2.4
+2022-05-20 15:38:15,902 | itj_planning | INFO | Beam b18 | nonlinear | Trail #26 | time elapsed 3573.42
+2022-05-20 15:38:22,095 | itj_planning | INFO | No plan found for A269_M1 | RoboticLinearMovement(#A269_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False)
+2022-05-20 15:38:22,096 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, one-side done, (seq_n=31) beam b18!
+2022-05-20 15:38:22,097 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.2
+2022-05-20 15:38:22,169 | itj_planning | INFO | Beam b18 | nonlinear | Trail #27 | time elapsed 3579.69
+2022-05-20 15:43:48,585 | itj_planning | INFO | No plan found for A269_M0 | RoboticFreeMovement(#A269_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False)
+2022-05-20 15:43:48,585 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:43:48,585 | itj_planning | INFO | Return success: False | runtime of current attempt: 326.4
+2022-05-20 15:43:48,638 | itj_planning | INFO | Beam b18 | nonlinear | Trail #28 | time elapsed 3906.16
+2022-05-20 15:43:52,295 | itj_planning | INFO | No plan found for A269_M3 | RoboticClampSyncLinearMovement(#A269_M3, Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18'), has_traj False)
+2022-05-20 15:43:52,303 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 1, (seq_n=31) beam b18!
+2022-05-20 15:43:52,303 | itj_planning | INFO | Return success: False | runtime of current attempt: 3.6
+2022-05-20 15:43:52,366 | itj_planning | INFO | Beam b18 | nonlinear | Trail #29 | time elapsed 3909.88
+2022-05-20 15:48:59,284 | itj_planning | INFO | No plan found for A263_M0 | RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 15:48:59,284 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:48:59,284 | itj_planning | INFO | Return success: False | runtime of current attempt: 306.9
+2022-05-20 15:48:59,355 | itj_planning | INFO | Beam b18 | nonlinear | Trail #30 | time elapsed 4216.87
+2022-05-20 15:49:05,927 | itj_planning | INFO | No plan found for A270_M2 | RoboticLinearMovement(#A270_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-05-20 15:49:05,927 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, one-side done, (seq_n=31) beam b18!
+2022-05-20 15:49:05,927 | itj_planning | INFO | Return success: False | runtime of current attempt: 6.6
+2022-05-20 15:49:05,986 | itj_planning | INFO | Beam b18 | nonlinear | Trail #31 | time elapsed 4223.50
+2022-05-20 15:49:24,413 | itj_planning | INFO | No plan found for A263_M6 | RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-05-20 15:49:24,413 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:49:24,422 | itj_planning | INFO | Return success: False | runtime of current attempt: 18.4
+2022-05-20 15:49:24,476 | itj_planning | INFO | Beam b18 | nonlinear | Trail #32 | time elapsed 4241.99
+2022-05-20 15:54:32,235 | itj_planning | INFO | No plan found for A263_M0 | RoboticFreeMovement(#A263_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-20 15:54:32,235 | itj_planning | INFO | Trajectory NOT found (nonlinear) free movement, priority 0, both-side done, (seq_n=31) beam b18!
+2022-05-20 15:54:32,235 | itj_planning | INFO | Return success: False | runtime of current attempt: 307.8
+2022-05-20 15:54:32,297 | itj_planning | INFO | Beam b18 | nonlinear | Trail #33 | time elapsed 4549.81
+2022-05-20 15:54:43,067 | itj_planning | INFO | No plan found for A263_M6 | RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-05-20 15:54:43,067 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:54:43,067 | itj_planning | INFO | Return success: False | runtime of current attempt: 10.8
+2022-05-20 15:54:43,117 | itj_planning | INFO | Beam b18 | nonlinear | Trail #34 | time elapsed 4560.63
+2022-05-20 15:54:55,527 | itj_planning | INFO | No plan found for A263_M3 | RoboticLinearMovement(#A263_M3, Linear Approach 2 of 2 to attach CL3 ('c1') to structure., has_traj False)
+2022-05-20 15:54:55,527 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:54:55,527 | itj_planning | INFO | Return success: False | runtime of current attempt: 12.4
+2022-05-20 15:54:55,587 | itj_planning | INFO | Beam b18 | nonlinear | Trail #35 | time elapsed 4573.10
+2022-05-20 15:55:06,775 | itj_planning | INFO | No plan found for A263_M6 | RoboticLinearMovement(#A263_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-05-20 15:55:06,775 | itj_planning | INFO | Trajectory NOT found (nonlinear) linear movement, priority 0, neither-side done,(seq_n=31) beam b18!
+2022-05-20 15:55:06,775 | itj_planning | INFO | Return success: False | runtime of current attempt: 11.2
+2022-05-20 15:55:06,822 | itj_planning | INFO | Beam b18 | nonlinear | Trail #36 | time elapsed 4584.34
