@@ -340,3 +340,70 @@
 2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1342) RoboticLinearMovement(#A295_M1, Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster), has_traj False): no_traj_found
 2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1343) RoboticLinearMovement(#A295_M2, Linear Advance 2 to Storage Frame of SL1 ('s1')., has_traj False): no_traj_found
 2022-05-20 18:30:12,231 | itj_planning | INFO | (MovementIndex=1345) RoboticLinearMovement(#A295_M4, Linear Retract after placing SL1 ('s1') in storage, has_traj False): no_traj_found
+2022-05-21 00:04:42,047 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=250.0, movement_id='A139_M0', plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=True)
+2022-05-21 00:04:52,739 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:04:52,823 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:04:52,939 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:04:53,062 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:04:53,155 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:04:53,240 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:04:53,325 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:04:53,403 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:04:53,487 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:04:53,588 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:04:53,688 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:04:53,788 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:04:53,973 | itj_planning | INFO | [36mChecking for movement #(629) A139_M0[0m
+2022-05-21 00:04:56,633 | itj_planning | INFO | Congrats, check state done!
+2022-05-21 00:06:03,885 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=100.0, movement_id='A139_M0', plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-05-21 00:06:04,559 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-21 00:06:16,845 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:06:16,945 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:06:17,023 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:06:17,124 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:06:17,220 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:06:17,294 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:06:17,377 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:06:17,462 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:06:17,554 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:06:17,640 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:06:17,747 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:06:17,834 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:06:18,048 | itj_planning | INFO | [36mChecking for movement #(629) A139_M0[0m
+2022-05-21 00:21:32,860 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=100.0, movement_id='A235_M0', plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-05-21 00:21:33,533 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-21 00:21:46,375 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:21:46,491 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:21:46,591 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:21:46,676 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:21:46,761 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:21:46,861 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:21:46,961 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:21:47,045 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:21:47,124 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:21:47,239 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:21:47,324 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:21:47,440 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:21:47,640 | itj_planning | INFO | [36mChecking for movement #(1087) A235_M0[0m
+2022-05-21 00:22:45,046 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #201/211
+2022-05-21 00:22:56,651 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #209/211
+2022-05-21 00:22:57,844 | itj_planning | WARNING | Movements that requires care and love:
+2022-05-21 00:22:57,844 | itj_planning | INFO | (MovementIndex=1087) RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_polyline_collision
+2022-05-21 00:23:05,001 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=100.0, movement_id='A237_M0', plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-05-21 00:23:05,632 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-21 00:23:18,417 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:23:18,514 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:23:18,624 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:23:18,714 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:23:18,810 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:23:18,882 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:23:18,962 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:23:19,047 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:23:19,130 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:23:19,237 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:23:19,334 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:23:19,433 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:23:19,629 | itj_planning | INFO | [36mChecking for movement #(1094) A237_M0[0m
+2022-05-21 00:24:18,740 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #193/201
+2022-05-21 00:24:20,712 | itj_planning | WARNING | Movements that requires care and love:
+2022-05-21 00:24:20,712 | itj_planning | INFO | (MovementIndex=1094) RoboticFreeMovement(#A237_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_polyline_collision

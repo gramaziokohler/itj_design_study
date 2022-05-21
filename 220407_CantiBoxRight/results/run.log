@@ -930,3 +930,708 @@
 2022-05-20 16:34:51,632 | itj_planning | INFO | Computing only for A167_M0
 2022-05-20 16:39:32,902 | itj_planning | INFO | Return success: True | runtime of current attempt: 281.3
 2022-05-20 16:39:32,902 | itj_planning | INFO | Planning done.
+2022-05-20 23:47:54,818 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A9_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-20 23:47:55,828 | itj_planning | INFO | [36mSolving for movement #(36) A9_M0[0m
+2022-05-20 23:47:59,441 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-20 23:47:59,504 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-20 23:47:59,598 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-20 23:47:59,676 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-20 23:47:59,754 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-20 23:47:59,833 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-20 23:47:59,898 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-20 23:47:59,965 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-20 23:48:00,035 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-20 23:48:00,109 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-20 23:48:00,186 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-20 23:48:00,267 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-20 23:48:05,435 | itj_planning | INFO | Beam b1 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-20 23:48:05,435 | itj_planning | INFO | Computing only for A9_M0
+2022-05-20 23:49:36,870 | itj_planning | INFO | Return success: True | runtime of current attempt: 91.4
+2022-05-20 23:49:36,870 | itj_planning | INFO | Planning done.
+2022-05-21 00:24:27,158 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A111_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-21 00:24:28,144 | itj_planning | INFO | [36mSolving for movement #(469) A111_M0[0m
+2022-05-21 00:24:31,505 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:24:31,568 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:24:31,662 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:24:31,741 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:24:31,819 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:24:31,897 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:24:31,975 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:24:32,047 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:24:32,109 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:24:32,189 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:24:32,268 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:24:32,361 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:24:38,381 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-21 00:24:38,381 | itj_planning | INFO | Computing only for A111_M0
+2022-05-21 00:28:53,707 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-05-21 00:28:53,707 | itj_planning | INFO | A plan NOT found for movement_id A111_M0!
+2022-05-21 00:28:53,707 | itj_planning | INFO | Return success: False | runtime of current attempt: 255.3
+2022-05-21 00:28:53,754 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | time elapsed 255.40
+2022-05-21 00:28:53,754 | itj_planning | INFO | Computing only for A111_M0
+2022-05-21 00:33:04,495 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-05-21 00:33:04,496 | itj_planning | INFO | A plan NOT found for movement_id A111_M0!
+2022-05-21 00:33:04,496 | itj_planning | INFO | Return success: False | runtime of current attempt: 250.7
+2022-05-21 00:33:04,519 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | time elapsed 506.16
+2022-05-21 00:33:04,519 | itj_planning | INFO | Computing only for A111_M0
+2022-05-21 00:37:08,217 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-05-21 00:37:08,218 | itj_planning | INFO | A plan NOT found for movement_id A111_M0!
+2022-05-21 00:37:08,218 | itj_planning | INFO | Return success: False | runtime of current attempt: 243.7
+2022-05-21 00:37:08,241 | itj_planning | INFO | Beam b12 | movement_id | Trail #3 | time elapsed 749.89
+2022-05-21 00:37:08,242 | itj_planning | INFO | Computing only for A111_M0
+2022-05-21 00:39:33,099 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A125_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-21 00:39:34,083 | itj_planning | INFO | [36mSolving for movement #(549) A125_M0[0m
+2022-05-21 00:39:37,309 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:39:37,378 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:39:37,458 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:39:37,539 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:39:37,622 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:39:37,695 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:39:37,765 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:39:37,835 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:39:37,908 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:39:37,986 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:39:38,070 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:39:38,156 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:39:43,583 | itj_planning | INFO | Beam b13 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-21 00:39:43,583 | itj_planning | INFO | Computing only for A125_M0
+2022-05-21 00:41:17,893 | itj_planning | INFO | Return success: True | runtime of current attempt: 94.3
+2022-05-21 00:41:17,895 | itj_planning | INFO | Planning done.
+2022-05-21 00:41:20,380 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A139_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-21 00:41:21,373 | itj_planning | INFO | [36mSolving for movement #(629) A139_M0[0m
+2022-05-21 00:41:24,705 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:41:24,775 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:41:24,857 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:41:24,938 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:41:25,025 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:41:25,100 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:41:25,168 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:41:25,241 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:41:25,313 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:41:25,389 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:41:25,476 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:41:25,563 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:41:31,025 | itj_planning | INFO | Beam b7 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-21 00:41:31,026 | itj_planning | INFO | Computing only for A139_M0
+2022-05-21 00:42:33,157 | itj_planning | INFO | Return success: True | runtime of current attempt: 62.1
+2022-05-21 00:42:33,159 | itj_planning | INFO | Planning done.
+2022-05-21 00:42:35,592 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-21 00:42:36,565 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 00:42:39,803 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 00:42:39,871 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 00:42:39,951 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 00:42:40,040 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 00:42:40,140 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 00:42:40,215 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 00:42:40,285 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 00:42:40,353 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 00:42:40,425 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 00:42:40,503 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 00:42:40,587 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 00:42:40,673 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 00:42:46,056 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-21 00:42:46,056 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 00:47:34,415 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-05-21 00:47:34,416 | itj_planning | INFO | A plan NOT found for movement_id A235_M0!
+2022-05-21 00:47:34,416 | itj_planning | INFO | Return success: False | runtime of current attempt: 288.4
+2022-05-21 00:47:34,439 | itj_planning | INFO | Beam b16 | movement_id | Trail #1 | time elapsed 288.40
+2022-05-21 00:47:34,440 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 00:52:33,394 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-05-21 00:52:33,394 | itj_planning | INFO | A plan NOT found for movement_id A235_M0!
+2022-05-21 00:52:33,395 | itj_planning | INFO | Return success: False | runtime of current attempt: 299.0
+2022-05-21 00:52:33,420 | itj_planning | INFO | Beam b16 | movement_id | Trail #2 | time elapsed 587.38
+2022-05-21 00:52:33,420 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 00:57:32,055 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-05-21 00:57:32,056 | itj_planning | INFO | A plan NOT found for movement_id A235_M0!
+2022-05-21 00:57:32,056 | itj_planning | INFO | Return success: False | runtime of current attempt: 298.6
+2022-05-21 00:57:32,085 | itj_planning | INFO | Beam b16 | movement_id | Trail #3 | time elapsed 886.05
+2022-05-21 00:57:32,085 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:00:12,368 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-05-21 01:00:13,772 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:00:17,788 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:00:17,856 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:00:17,935 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:00:18,012 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:00:18,094 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:00:18,172 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:00:18,243 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:00:18,308 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:00:18,383 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:00:18,460 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:00:18,541 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:00:18,627 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:00:24,633 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-21 01:00:24,633 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:01:34,155 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-05-21 01:01:35,519 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:01:35,522 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:01:42,337 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:01:42,339 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:01:42,506 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:01:42,508 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:01:42,706 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:01:42,708 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:01:42,885 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:01:42,887 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:01:43,062 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:01:43,064 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:01:43,225 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:01:43,227 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:01:43,390 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:01:43,392 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:01:43,593 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:01:43,595 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:01:43,891 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:01:43,893 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:01:44,088 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:01:44,089 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:01:44,253 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:01:44,254 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:01:44,473 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:01:44,475 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:01:44,652 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:01:44,653 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:01:44,811 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:44,811 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:44,912 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:44,913 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:45,010 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,011 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:01:45,127 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,128 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:45,228 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,228 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:45,312 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,312 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:01:45,410 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,411 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:45,511 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,511 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:45,612 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,612 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:01:45,728 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:45,728 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:01:45,864 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:01:45,865 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:01:46,012 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:46,013 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:01:46,128 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:46,129 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:46,228 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:01:46,229 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:01:46,342 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:01:46,344 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:01:46,491 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:01:46,492 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:01:46,667 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:01:46,669 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:01:46,842 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:01:46,843 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:01:47,026 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:01:47,029 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:01:47,207 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:01:47,209 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:01:47,402 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:01:47,497 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:01:47,594 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:01:47,677 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:01:47,759 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:01:47,842 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:01:47,919 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:01:48,001 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:01:48,092 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:01:48,182 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:01:48,279 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:01:48,369 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:01:48,406 | itj_planning | DEBUG | --------------------
+2022-05-21 01:01:55,178 | itj_planning | DEBUG | ##########
+2022-05-21 01:01:55,178 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-21 01:01:55,178 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:01:55,179 | itj_planning | DEBUG | ====================
+2022-05-21 01:01:55,179 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:01:55,188 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:01:55,998 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:01:55,999 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:03:00,815 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=True, watch=False, write=True)
+2022-05-21 01:03:02,219 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:03:02,221 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:03:09,159 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:03:09,161 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:03:09,328 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:03:09,330 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:03:09,513 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:03:09,515 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:03:09,667 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:03:09,668 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:03:09,835 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:03:09,837 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:03:09,975 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:03:09,977 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:03:10,123 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:03:10,125 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:03:10,319 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:03:10,321 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:03:10,614 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:03:10,616 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:03:10,795 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:03:10,797 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:03:10,955 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:03:10,957 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:03:11,151 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:03:11,152 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:03:11,301 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:03:11,303 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:03:11,431 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,432 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:11,532 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,533 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:11,632 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,633 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:03:11,749 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,750 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:11,850 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,850 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:11,933 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:11,933 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:03:12,049 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,050 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:12,150 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,150 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:12,232 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,233 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:03:12,349 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,351 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:03:12,481 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:03:12,483 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:03:12,616 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,617 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:03:12,733 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,734 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:12,834 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:03:12,834 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:03:12,946 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:03:12,947 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:03:13,093 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:03:13,094 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:03:13,250 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:03:13,251 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:03:13,392 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:03:13,394 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:03:13,551 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:03:13,553 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:03:13,708 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:03:13,710 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:03:13,884 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:03:13,987 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:03:14,081 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:03:14,163 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:03:14,246 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:03:14,327 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:03:14,407 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:03:14,491 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:03:14,577 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:03:14,665 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:03:14,761 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:03:14,855 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:03:14,903 | itj_planning | DEBUG | --------------------
+2022-05-21 01:03:21,649 | itj_planning | DEBUG | ##########
+2022-05-21 01:03:21,649 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-21 01:03:21,649 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:03:21,651 | itj_planning | DEBUG | ====================
+2022-05-21 01:03:21,651 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:03:21,659 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:03:22,603 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:03:22,604 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:04:36,734 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-21 01:04:38,137 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:04:38,137 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:04:45,108 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:04:45,108 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:04:45,280 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:04:45,280 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:04:45,468 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:04:45,468 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:04:45,624 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:04:45,624 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:04:45,769 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:04:45,769 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:04:45,941 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:04:45,941 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:04:46,083 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:04:46,083 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:04:46,255 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:04:46,270 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:04:46,567 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:04:46,567 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:04:46,739 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:04:46,739 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:04:46,911 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:04:46,911 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:04:47,105 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:04:47,105 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:04:47,277 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:04:47,292 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:04:47,417 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,417 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:47,527 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,527 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:47,624 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,624 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:04:47,739 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,739 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:47,833 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,833 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:47,941 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:47,941 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:04:48,061 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,062 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:48,151 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,151 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:48,258 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,258 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:04:48,358 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,358 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:04:48,473 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:04:48,473 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:04:48,606 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,606 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:04:48,715 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,715 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:48,824 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:04:48,824 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:04:48,925 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:04:48,940 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:04:49,074 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:04:49,090 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:04:49,246 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:04:49,262 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:04:49,421 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:04:49,421 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:04:49,577 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:04:49,577 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:04:49,738 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:04:49,738 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:04:49,910 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:04:50,003 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:04:50,105 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:04:50,199 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:04:50,308 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:04:50,386 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:04:50,465 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:04:50,558 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:04:50,636 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:04:50,730 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:04:50,824 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:04:50,933 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:04:50,980 | itj_planning | DEBUG | --------------------
+2022-05-21 01:04:57,859 | itj_planning | DEBUG | ##########
+2022-05-21 01:04:57,859 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-21 01:04:57,859 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:04:57,859 | itj_planning | DEBUG | ====================
+2022-05-21 01:04:57,859 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:04:57,859 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:04:58,829 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:04:58,829 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:07:48,885 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-21 01:07:50,294 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:07:50,294 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:08:01,084 | itj_planning | DEBUG | --------------------
+2022-05-21 01:08:08,074 | itj_planning | DEBUG | ##########
+2022-05-21 01:08:08,074 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.93
+2022-05-21 01:08:08,074 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:08:08,074 | itj_planning | DEBUG | ====================
+2022-05-21 01:08:08,074 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:08:08,090 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:08:08,652 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:08:08,652 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:08:31,183 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-21 01:08:32,590 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:08:32,590 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:08:39,590 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:08:39,590 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:08:39,762 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:08:39,762 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:08:39,951 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:08:39,951 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:08:40,108 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:08:40,124 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:08:40,296 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:08:40,311 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:08:40,452 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:08:40,452 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:08:40,608 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:08:40,608 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:08:40,764 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:08:40,764 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:08:41,046 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:08:41,046 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:08:41,234 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:08:41,234 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:08:41,390 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:08:41,390 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:08:41,562 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:08:41,578 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:08:41,734 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:08:41,750 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:08:41,876 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:41,876 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:41,985 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:41,985 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:42,086 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,086 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:08:42,200 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,200 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:42,293 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,293 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:42,402 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,402 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:08:42,511 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,511 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:42,619 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,619 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:42,718 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,718 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:08:42,833 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:42,833 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:08:42,974 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:08:42,974 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:08:43,074 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:43,090 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:08:43,199 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:43,199 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:43,293 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:08:43,293 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:08:43,402 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:08:43,402 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:08:43,558 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:08:43,558 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:08:43,714 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:08:43,714 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:08:43,872 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:08:43,872 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:08:44,028 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:08:44,028 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:08:44,201 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:08:44,201 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:08:44,404 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:08:44,498 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:08:44,592 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:08:44,687 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:08:44,781 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:08:44,859 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:08:44,937 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:08:45,030 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:08:45,110 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:08:45,204 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:08:45,297 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:08:45,407 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:08:45,438 | itj_planning | DEBUG | --------------------
+2022-05-21 01:08:52,346 | itj_planning | DEBUG | ##########
+2022-05-21 01:08:52,346 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-21 01:08:52,346 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:08:52,346 | itj_planning | DEBUG | ====================
+2022-05-21 01:08:52,346 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:08:52,362 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:08:53,128 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:08:53,144 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:11:41,589 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=True, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=1000, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-21 01:11:42,970 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:11:42,979 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:11:49,890 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:11:49,905 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:11:50,060 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:11:50,076 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:11:50,253 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:11:50,253 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:11:50,422 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:11:50,438 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:11:50,623 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:11:50,623 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:11:50,792 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:11:50,792 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:11:50,939 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:11:50,939 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:11:51,108 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:11:51,108 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:11:51,425 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:11:51,425 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:11:51,594 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:11:51,609 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:11:51,779 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:11:51,779 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:11:51,995 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:11:51,995 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:11:52,195 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:11:52,195 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:11:52,342 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,342 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:52,443 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,443 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:52,546 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,547 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:11:52,656 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,656 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:52,761 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,761 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:52,844 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,844 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:11:52,958 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:52,958 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:53,061 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,061 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:53,160 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,160 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:11:53,274 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,281 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:11:53,428 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:11:53,428 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:11:53,559 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,559 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:11:53,676 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,676 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:53,777 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:11:53,777 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:11:53,861 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:11:53,877 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:11:54,044 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:11:54,061 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:11:54,229 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:11:54,229 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:11:54,414 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:11:54,414 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:11:54,583 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:11:54,583 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:11:54,783 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:11:54,783 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:11:54,983 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:11:55,099 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:11:55,184 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:11:55,284 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:11:55,377 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:11:55,449 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:11:55,531 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:11:55,615 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:11:55,700 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:11:55,784 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:11:55,884 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:11:55,984 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:11:56,031 | itj_planning | DEBUG | --------------------
+2022-05-21 01:12:02,875 | itj_planning | DEBUG | ##########
+2022-05-21 01:12:02,875 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.93
+2022-05-21 01:12:02,875 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:12:02,875 | itj_planning | DEBUG | ====================
+2022-05-21 01:12:02,875 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:12:02,889 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:12:03,782 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:12:03,782 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:20:55,468 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=True, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-21 01:20:56,863 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results\CantiBoxRight_process.json[0m
+2022-05-21 01:20:56,863 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:21:03,414 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:21:03,429 | itj_planning | DEBUG | After splitting long edges, #V: 964, #F: 1928
+2022-05-21 01:21:03,585 | itj_planning | DEBUG | Before splitting long edges, #V: 148, #F: 296
+2022-05-21 01:21:03,585 | itj_planning | DEBUG | After splitting long edges, #V: 1226, #F: 2452
+2022-05-21 01:21:03,773 | itj_planning | DEBUG | Before splitting long edges, #V: 138, #F: 276
+2022-05-21 01:21:03,773 | itj_planning | DEBUG | After splitting long edges, #V: 796, #F: 1592
+2022-05-21 01:21:03,941 | itj_planning | DEBUG | Before splitting long edges, #V: 261, #F: 534
+2022-05-21 01:21:03,942 | itj_planning | DEBUG | After splitting long edges, #V: 839, #F: 1690
+2022-05-21 01:21:04,086 | itj_planning | DEBUG | Before splitting long edges, #V: 190, #F: 380
+2022-05-21 01:21:04,087 | itj_planning | DEBUG | After splitting long edges, #V: 750, #F: 1500
+2022-05-21 01:21:04,230 | itj_planning | DEBUG | Before splitting long edges, #V: 166, #F: 332
+2022-05-21 01:21:04,230 | itj_planning | DEBUG | After splitting long edges, #V: 704, #F: 1408
+2022-05-21 01:21:04,369 | itj_planning | DEBUG | Before splitting long edges, #V: 121, #F: 242
+2022-05-21 01:21:04,371 | itj_planning | DEBUG | After splitting long edges, #V: 873, #F: 1746
+2022-05-21 01:21:04,545 | itj_planning | DEBUG | Before splitting long edges, #V: 330, #F: 672
+2022-05-21 01:21:04,545 | itj_planning | DEBUG | After splitting long edges, #V: 1136, #F: 2284
+2022-05-21 01:21:04,814 | itj_planning | DEBUG | Before splitting long edges, #V: 136, #F: 272
+2022-05-21 01:21:04,814 | itj_planning | DEBUG | After splitting long edges, #V: 998, #F: 1996
+2022-05-21 01:21:04,978 | itj_planning | DEBUG | Before splitting long edges, #V: 272, #F: 556
+2022-05-21 01:21:04,978 | itj_planning | DEBUG | After splitting long edges, #V: 966, #F: 1944
+2022-05-21 01:21:05,147 | itj_planning | DEBUG | Before splitting long edges, #V: 81, #F: 162
+2022-05-21 01:21:05,147 | itj_planning | DEBUG | After splitting long edges, #V: 1337, #F: 2674
+2022-05-21 01:21:05,331 | itj_planning | DEBUG | Before splitting long edges, #V: 257, #F: 526
+2022-05-21 01:21:05,331 | itj_planning | DEBUG | After splitting long edges, #V: 745, #F: 1502
+2022-05-21 01:21:05,483 | itj_planning | DEBUG | Before splitting long edges, #V: 254, #F: 508
+2022-05-21 01:21:05,483 | itj_planning | DEBUG | After splitting long edges, #V: 656, #F: 1312
+2022-05-21 01:21:05,616 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:05,616 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:05,714 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:05,714 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:05,817 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:05,817 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:21:05,917 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:05,917 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:06,019 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,019 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:06,119 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,120 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:21:06,232 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,232 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:06,319 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,320 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:06,421 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,421 | itj_planning | DEBUG | After splitting long edges, #V: 276, #F: 548
+2022-05-21 01:21:06,520 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,521 | itj_planning | DEBUG | After splitting long edges, #V: 268, #F: 532
+2022-05-21 01:21:06,636 | itj_planning | DEBUG | Before splitting long edges, #V: 189, #F: 378
+2022-05-21 01:21:06,651 | itj_planning | DEBUG | After splitting long edges, #V: 677, #F: 1354
+2022-05-21 01:21:06,787 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,787 | itj_planning | DEBUG | After splitting long edges, #V: 280, #F: 556
+2022-05-21 01:21:06,897 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:06,897 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:07,003 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-05-21 01:21:07,004 | itj_planning | DEBUG | After splitting long edges, #V: 84, #F: 164
+2022-05-21 01:21:07,113 | itj_planning | DEBUG | Before splitting long edges, #V: 137, #F: 274
+2022-05-21 01:21:07,114 | itj_planning | DEBUG | After splitting long edges, #V: 831, #F: 1662
+2022-05-21 01:21:07,261 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:21:07,261 | itj_planning | DEBUG | After splitting long edges, #V: 866, #F: 1732
+2022-05-21 01:21:07,419 | itj_planning | DEBUG | Before splitting long edges, #V: 218, #F: 436
+2022-05-21 01:21:07,419 | itj_planning | DEBUG | After splitting long edges, #V: 818, #F: 1636
+2022-05-21 01:21:07,585 | itj_planning | DEBUG | Before splitting long edges, #V: 132, #F: 264
+2022-05-21 01:21:07,587 | itj_planning | DEBUG | After splitting long edges, #V: 788, #F: 1576
+2022-05-21 01:21:07,732 | itj_planning | DEBUG | Before splitting long edges, #V: 227, #F: 454
+2022-05-21 01:21:07,732 | itj_planning | DEBUG | After splitting long edges, #V: 999, #F: 1998
+2022-05-21 01:21:07,898 | itj_planning | DEBUG | Before splitting long edges, #V: 110, #F: 220
+2022-05-21 01:21:07,900 | itj_planning | DEBUG | After splitting long edges, #V: 1110, #F: 2220
+2022-05-21 01:21:08,072 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:21:08,164 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:21:08,269 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:21:08,370 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:21:08,467 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:21:08,568 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:21:08,651 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:21:08,744 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:21:08,823 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:21:08,925 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:21:09,019 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:21:09,127 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:21:09,155 | itj_planning | DEBUG | --------------------
+2022-05-21 01:21:16,018 | itj_planning | DEBUG | ##########
+2022-05-21 01:21:16,018 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.93
+2022-05-21 01:21:16,018 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 01:21:16,018 | itj_planning | DEBUG | ====================
+2022-05-21 01:21:16,018 | itj_planning | DEBUG | [1m[47m[34m* compute movement ids: ['A235_M0'][0m
+2022-05-21 01:21:16,018 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)[0m
+2022-05-21 01:21:16,822 | itj_planning | DEBUG | [32mST: No retraction motion specified.[0m
+2022-05-21 01:21:16,822 | itj_planning | DEBUG | [32mEND: No retraction motion specified.[0m
+2022-05-21 01:22:13,584 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=True, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=150.0, movement_id='A235_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-21 01:22:14,561 | itj_planning | INFO | [36mSolving for movement #(1087) A235_M0[0m
+2022-05-21 01:22:17,816 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-21 01:22:17,878 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-21 01:22:17,956 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-21 01:22:18,034 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-21 01:22:18,122 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-21 01:22:18,200 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-21 01:22:18,262 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-21 01:22:18,342 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-21 01:22:18,404 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-21 01:22:18,483 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-21 01:22:18,577 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-21 01:22:18,655 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-21 01:22:23,907 | itj_planning | INFO | Beam b16 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-21 01:22:23,907 | itj_planning | INFO | Computing only for A235_M0
+2022-05-21 09:11:15,271 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-05-21 09:11:15,272 | itj_planning | INFO | A plan NOT found for movement_id A235_M0!
+2022-05-21 09:11:15,272 | itj_planning | INFO | Return success: False | runtime of current attempt: 28131.4
+2022-05-21 09:11:15,272 | itj_planning | ERROR | Planning (with restarts) for beam b16 failed: exceeding solve timeout 21600.02.
+2022-05-21 09:11:15,272 | itj_planning | INFO | Planning done.
