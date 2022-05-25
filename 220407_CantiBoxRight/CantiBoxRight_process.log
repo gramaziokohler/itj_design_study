@@ -494,26 +494,7 @@ Beam b13 assembly
 |  |- <0> Movement 1 (RoboticLinearMovement): Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Unlock PG1000 ('g2')
 |  |- <0> Movement 3 (RoboticLinearMovement): Linear Retract from storage after placing PG1000 ('g2') in storage
-|- Action 86 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b6-b12')
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
-|  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset to Toolchanger of CL3M ('c3') and move to alignment.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of CL3M ('c3').
-|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
-|  |- <x> Movement 4 (ClampsJawMovement): CL3M ('c3') Open Clamp Jaws to be released.
-|  |- <x> Movement 5 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
-|  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
-|  |- <0> Movement 7 (RoboticLinearMovement): Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
-|  |- <0> Movement 8 (CancelRobotOffset): Cancel Docking Offset
-|- Action 87 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b6-b13')
-|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
-|  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset from CL3M ('c3') to Marker on Joint ('b6-b13') and move to alignment.
-|  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
-|  |- <0> Movement 3 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
-|  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
-|  |- <x> Movement 5 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
-|  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
-|  |- <0> Movement 7 (CancelRobotOffset): Cancel Docking Offset
-|- Action 88 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b8-b12')
+|- Action 86 (PickClampFromStructureAction): Pick CL3 ('c1') from Joint ('b8-b12')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3 ('c1') to detach it from structure.
 |  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset to Toolchanger of CL3 ('c1') and move to alignment.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of CL3 ('c1').
@@ -523,7 +504,7 @@ Beam b13 assembly
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 7 (RoboticLinearMovement): Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
 |  |- <0> Movement 8 (CancelRobotOffset): Cancel Docking Offset
-|- Action 89 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b8-b13')
+|- Action 87 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b8-b13')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset from CL3 ('c1') to Marker on Joint ('b8-b13') and move to alignment.
 |  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
@@ -531,6 +512,25 @@ Beam b13 assembly
 |  |- <x> Movement 4 (RoboticDigitalOutput): CL3 ('c1') Close Gripper and attach to structure.
 |  |- <x> Movement 5 (RoboticDigitalOutput): Toolchanger Unlock CL3 ('c1').
 |  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract after attaching CL3 ('c1') on structure
+|  |- <0> Movement 7 (CancelRobotOffset): Cancel Docking Offset
+|- Action 88 (PickClampFromStructureAction): Pick CL3M ('c3') from Joint ('b6-b12')
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to reach CL3M ('c3') to detach it from structure.
+|  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset to Toolchanger of CL3M ('c3') and move to alignment.
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Advance to dock toolchanger of CL3M ('c3').
+|  |- <x> Movement 3 (RoboticDigitalOutput): Toolchanger Lock CL3M ('c3')
+|  |- <x> Movement 4 (ClampsJawMovement): CL3M ('c3') Open Clamp Jaws to be released.
+|  |- <x> Movement 5 (RoboticDigitalOutput): CL3M ('c3') Open Gripper to be released from structure.
+|  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+|  |- <0> Movement 7 (RoboticLinearMovement): Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+|  |- <0> Movement 8 (CancelRobotOffset): Cancel Docking Offset
+|- Action 89 (PlaceClampToStructureAction): Place CL3M ('c3') to Joint ('b6-b13')
+|  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3M ('c3') to structure.
+|  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset from CL3M ('c3') to Marker on Joint ('b6-b13') and move to alignment.
+|  |- <0> Movement 2 (RoboticLinearMovement): Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+|  |- <0> Movement 3 (RoboticLinearMovement): Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+|  |- <x> Movement 4 (RoboticDigitalOutput): CL3M ('c3') Close Gripper and attach to structure.
+|  |- <x> Movement 5 (RoboticDigitalOutput): Toolchanger Unlock CL3M ('c3').
+|  |- <0> Movement 6 (RoboticLinearMovement): Linear Retract after attaching CL3M ('c3') on structure
 |  |- <0> Movement 7 (CancelRobotOffset): Cancel Docking Offset
 |- Action 90 (PickGripperFromStorageAction): Pick PG1500 ('g3') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
@@ -1035,15 +1035,15 @@ Beam b15 assembly
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract after placing SL1 ('s2') in storage
 
 Beam b16 assembly
-|- Action 175 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
+|- Action 175 (LoadBeamAction): Operator load Beam ('b16') for pickup
+|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b16) to Pickup Location
+|- Action 176 (PickClampFromStorageAction): Pick CL3 ('c1') from Storage
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage.
 |  |- <0> Movement 1 (RoboticLinearMovement): Toolchanger Advance to dock with CL3 ('c1').
 |  |- <x> Movement 2 (RoboticDigitalOutput): Toolchanger Lock CL3 ('c1')
 |  |- <x> Movement 3 (RoboticDigitalOutput): CL3 ('c1') Open Gripper to release itself from storage pad.
 |  |- <0> Movement 4 (RoboticLinearMovement): Linear Retract 1 from Storage Frame of CL3 ('c1').
 |  |- <0> Movement 5 (RoboticLinearMovement): Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster)
-|- Action 176 (LoadBeamAction): Operator load Beam ('b16') for pickup
-|  |- <x> Movement 0 (OperatorLoadBeamMovement): Opeartor Load Beam (b16) to Pickup Location
 |- Action 177 (PlaceClampToStructureAction): Place CL3 ('c1') to Joint ('b2-b16')
 |  |- <0> Movement 0 (RoboticFreeMovement): Free Move to bring CL3 ('c1') to structure.
 |  |- <0> Movement 1 (AcquireDockingOffset): Visually acquire offset from CL3 ('c1') to Marker on Joint ('b2-b16') and move to alignment.
