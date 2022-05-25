@@ -12535,3 +12535,465 @@
 2022-05-24 07:15:17,345 | itj_planning | INFO | Beam b19 | nonlinear | Trail #12 | Plan Failure | Runtime of current attempt: 142.8
 2022-05-24 07:15:17,397 | itj_planning | ERROR | Planning (with restarts) for beam b19 failed: exceeding solve timeout 1800.28.
 2022-05-24 07:15:17,398 | itj_planning | INFO | Planning done.
+2022-05-24 20:21:35,230 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A73_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 20:21:35,591 | itj_planning | ERROR | If movement_id is supplied. Solve mode must be movement_id or linear_movement_group
+2022-05-24 20:22:48,680 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A73_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 20:22:48,990 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 20:22:49,650 | itj_planning | INFO | [36mSolving for movement #(302) A73_M2[0m
+2022-05-24 20:22:55,655 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #0 | time elapsed 0.03
+2022-05-24 20:22:55,655 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:17,367 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A73_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 20:24:17,687 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 20:24:18,351 | itj_planning | INFO | [36mSolving for movement #(302) A73_M2[0m
+2022-05-24 20:24:23,782 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-24 20:24:23,783 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:24,143 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:24,143 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:24,144 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #0 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:24,170 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #1 | time elapsed 0.41
+2022-05-24 20:24:24,170 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:24,620 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:24,621 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:24,621 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #1 | Plan Failure | Runtime of current attempt: 0.5
+2022-05-24 20:24:24,645 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #2 | time elapsed 0.89
+2022-05-24 20:24:24,645 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,011 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:25,011 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,012 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #2 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:25,035 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #3 | time elapsed 1.28
+2022-05-24 20:24:25,036 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,414 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:25,414 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,414 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #3 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:25,437 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #4 | time elapsed 1.68
+2022-05-24 20:24:25,438 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,808 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:25,808 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:25,809 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #4 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:25,834 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #5 | time elapsed 2.07
+2022-05-24 20:24:25,835 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,201 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:26,202 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,202 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #5 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:26,225 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #6 | time elapsed 2.46
+2022-05-24 20:24:26,226 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,595 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:26,595 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,595 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #6 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:26,619 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #7 | time elapsed 2.86
+2022-05-24 20:24:26,619 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,979 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:26,980 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:26,980 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #7 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:27,005 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #8 | time elapsed 3.24
+2022-05-24 20:24:27,005 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:27,368 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:27,368 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:27,369 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #8 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:27,392 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #9 | time elapsed 3.63
+2022-05-24 20:24:27,393 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:27,748 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:27,748 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:27,749 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #9 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:27,772 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #10 | time elapsed 4.01
+2022-05-24 20:24:27,772 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,136 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:28,137 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,137 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #10 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:28,161 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #11 | time elapsed 4.40
+2022-05-24 20:24:28,162 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,526 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:28,526 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,526 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #11 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:28,550 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #12 | time elapsed 4.79
+2022-05-24 20:24:28,551 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,915 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:28,915 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:28,915 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #12 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:28,941 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #13 | time elapsed 5.18
+2022-05-24 20:24:28,941 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:29,445 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:29,445 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:29,445 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #13 | Plan Failure | Runtime of current attempt: 0.5
+2022-05-24 20:24:29,469 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #14 | time elapsed 5.71
+2022-05-24 20:24:29,470 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:29,849 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:29,850 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:29,850 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #14 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:29,875 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #15 | time elapsed 6.12
+2022-05-24 20:24:29,875 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:30,284 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:30,284 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:30,284 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #15 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:30,313 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #16 | time elapsed 6.55
+2022-05-24 20:24:30,313 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:30,688 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:30,688 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:30,689 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #16 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:30,712 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #17 | time elapsed 6.95
+2022-05-24 20:24:30,713 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,064 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:31,065 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,065 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #17 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:31,091 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #18 | time elapsed 7.33
+2022-05-24 20:24:31,092 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,450 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:31,450 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,450 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #18 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:31,473 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #19 | time elapsed 7.71
+2022-05-24 20:24:31,473 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,834 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:31,834 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:31,834 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #19 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:31,858 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #20 | time elapsed 8.10
+2022-05-24 20:24:31,859 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:32,215 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:32,215 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:32,216 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #20 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:32,240 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #21 | time elapsed 8.48
+2022-05-24 20:24:32,240 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:32,623 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:32,623 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:32,624 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #21 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:32,648 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #22 | time elapsed 8.89
+2022-05-24 20:24:32,648 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,020 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:33,020 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,021 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #22 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:33,045 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #23 | time elapsed 9.29
+2022-05-24 20:24:33,045 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,399 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:33,400 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,400 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #23 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:33,425 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #24 | time elapsed 9.67
+2022-05-24 20:24:33,426 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,781 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:33,782 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:33,782 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #24 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:33,811 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #25 | time elapsed 10.05
+2022-05-24 20:24:33,812 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,171 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:34,171 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,171 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #25 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:34,197 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #26 | time elapsed 10.44
+2022-05-24 20:24:34,197 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,552 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:34,552 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,553 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #26 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:34,578 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #27 | time elapsed 10.82
+2022-05-24 20:24:34,578 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,945 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:34,946 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:34,946 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #27 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:34,973 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #28 | time elapsed 11.21
+2022-05-24 20:24:34,973 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:35,331 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:35,331 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:35,331 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #28 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:35,357 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #29 | time elapsed 11.60
+2022-05-24 20:24:35,357 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:35,740 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:35,740 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:35,740 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #29 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:35,764 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #30 | time elapsed 12.00
+2022-05-24 20:24:35,764 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,143 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:36,143 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,144 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #30 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:36,168 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #31 | time elapsed 12.41
+2022-05-24 20:24:36,168 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,561 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:36,561 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,561 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #31 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:36,586 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #32 | time elapsed 12.83
+2022-05-24 20:24:36,586 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,946 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:36,946 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:36,946 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #32 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:36,971 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #33 | time elapsed 13.21
+2022-05-24 20:24:36,971 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:37,345 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:37,345 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:37,346 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #33 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:37,369 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #34 | time elapsed 13.61
+2022-05-24 20:24:37,370 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:37,749 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:37,749 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:37,749 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #34 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:37,776 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #35 | time elapsed 14.02
+2022-05-24 20:24:37,777 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,123 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:38,123 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,123 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #35 | Plan Failure | Runtime of current attempt: 0.3
+2022-05-24 20:24:38,147 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #36 | time elapsed 14.39
+2022-05-24 20:24:38,147 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,505 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:38,506 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,506 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #36 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:38,533 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #37 | time elapsed 14.77
+2022-05-24 20:24:38,533 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,905 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:38,906 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:38,906 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #37 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:38,931 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #38 | time elapsed 15.17
+2022-05-24 20:24:38,931 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:39,291 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:39,291 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:39,291 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #38 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:39,314 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #39 | time elapsed 15.55
+2022-05-24 20:24:39,315 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:39,671 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:39,671 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:39,671 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #39 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:39,694 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #40 | time elapsed 15.93
+2022-05-24 20:24:39,695 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,048 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:40,048 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,049 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #40 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:40,074 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #41 | time elapsed 16.31
+2022-05-24 20:24:40,074 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,448 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:40,449 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,449 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #41 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:40,469 | itj_planning | INFO | Recomputing Actions and States
+2022-05-24 20:24:40,497 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #42 | time elapsed 16.74
+2022-05-24 20:24:40,497 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,864 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:40,864 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:40,864 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #42 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:40,894 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #43 | time elapsed 17.13
+2022-05-24 20:24:40,894 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:41,273 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:41,274 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:41,274 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #43 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:41,297 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #44 | time elapsed 17.54
+2022-05-24 20:24:41,297 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:41,666 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:41,667 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:41,667 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #44 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:41,693 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #45 | time elapsed 17.93
+2022-05-24 20:24:41,694 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:42,050 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:42,050 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:42,051 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #45 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:42,081 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #46 | time elapsed 18.32
+2022-05-24 20:24:42,081 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:42,442 | itj_planning | INFO | No plan found for A73_M2 | RoboticLinearMovement(#A73_M2, Linear retract of Gripper from Beam ('b8'), has_traj False)
+2022-05-24 20:24:42,442 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:24:42,442 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #46 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:24:42,470 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #47 | time elapsed 18.71
+2022-05-24 20:24:42,470 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:27:58,089 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A73_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 20:27:58,410 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 20:27:59,050 | itj_planning | INFO | [36mSolving for movement #(302) A73_M2[0m
+2022-05-24 20:27:59,055 | itj_planning | INFO | Linear Movement group member A69_M1 removed.
+2022-05-24 20:27:59,057 | itj_planning | INFO | Linear Movement group member A69_M3 removed.
+2022-05-24 20:28:04,824 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-24 20:28:04,825 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:05,936 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:05,965 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:06,324 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:06,330 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:06,330 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:06,330 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #0 | Plan Failure | Runtime of current attempt: 1.5
+2022-05-24 20:28:06,355 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #1 | time elapsed 1.55
+2022-05-24 20:28:06,355 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:06,376 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:06,417 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:06,776 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:06,777 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:06,778 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:06,778 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #1 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:06,803 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #2 | time elapsed 2.00
+2022-05-24 20:28:06,803 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:06,824 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:06,859 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:07,214 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:07,215 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:07,216 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:07,216 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #2 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:07,240 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #3 | time elapsed 2.44
+2022-05-24 20:28:07,240 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:07,258 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:07,294 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:07,666 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:07,667 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:07,667 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:07,668 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #3 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:07,691 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #4 | time elapsed 2.89
+2022-05-24 20:28:07,691 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:07,709 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:07,747 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:08,110 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:08,111 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:08,111 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:08,112 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #4 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:08,139 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #5 | time elapsed 3.34
+2022-05-24 20:28:08,140 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:08,156 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:08,187 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:08,548 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:08,549 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:08,550 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:08,550 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #5 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:08,573 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #6 | time elapsed 3.77
+2022-05-24 20:28:08,574 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:08,594 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:08,633 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:08,994 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:08,995 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:08,996 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:08,996 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #6 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:09,021 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #7 | time elapsed 4.22
+2022-05-24 20:28:09,021 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:09,040 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:09,074 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:09,438 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:09,439 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:09,439 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:09,439 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #7 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:09,466 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #8 | time elapsed 4.67
+2022-05-24 20:28:09,466 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:09,484 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:09,527 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:09,884 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:09,885 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:09,885 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:09,885 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #8 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:09,912 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #9 | time elapsed 5.11
+2022-05-24 20:28:09,913 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:09,932 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:09,964 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:10,320 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:10,321 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:10,321 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:10,321 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #9 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:10,346 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #10 | time elapsed 5.55
+2022-05-24 20:28:10,346 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:10,365 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:10,405 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:10,779 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:10,780 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:10,780 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:10,781 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #10 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:10,804 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #11 | time elapsed 6.00
+2022-05-24 20:28:10,805 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:10,826 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:10,863 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:11,223 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:11,224 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:11,224 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:11,225 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #11 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:11,249 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #12 | time elapsed 6.45
+2022-05-24 20:28:11,250 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:11,267 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:11,301 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 20:28:11,655 | itj_planning | ERROR | compute_linear_motion: end conf disagreement.
+2022-05-24 20:28:11,656 | itj_planning | INFO | No plan found for A69_M1 | RoboticLinearMovement(#A69_M1, Linear Advance to bring Beam ('b8') into clamp jaws, has_traj False)
+2022-05-24 20:28:11,656 | itj_planning | INFO | Computing failed priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:11,656 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #12 | Plan Failure | Runtime of current attempt: 0.4
+2022-05-24 20:28:11,681 | itj_planning | INFO | Beam b12 | linear_movement_group | Trail #13 | time elapsed 6.88
+2022-05-24 20:28:11,681 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=21, b12)
+2022-05-24 20:28:11,702 | itj_planning | WARNING | Both start and end config is fixed for Linear Movement #A69_M1. This is likely overconstrained.
+2022-05-24 20:28:11,736 | itj_planning | ERROR | Both start/end confs are pre-specified, problem might be too stiff to be solved.
+2022-05-24 21:26:16,605 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A151_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 21:26:16,933 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 21:26:17,560 | itj_planning | INFO | [36mSolving for movement #(704) A151_M2[0m
+2022-05-24 21:26:22,496 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | time elapsed 0.03
+2022-05-24 21:26:22,496 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:26:25,058 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:26:25,058 | itj_planning | INFO | Solved 3 Movements in 2.56 s: ['A151_M2', 'A151_M6', 'A151_M7'] 
+2022-05-24 21:26:25,074 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 2.6
+2022-05-24 21:26:25,074 | itj_planning | INFO | Planning done.
+2022-05-24 21:27:00,635 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A151_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 21:27:00,916 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 21:27:01,510 | itj_planning | INFO | [36mSolving for movement #(704) A151_M2[0m
+2022-05-24 21:27:01,510 | itj_planning | INFO | Linear Movement group member A151_M6 removed.
+2022-05-24 21:27:01,510 | itj_planning | INFO | Linear Movement group member A151_M7 removed.
+2022-05-24 21:27:06,442 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-24 21:27:06,442 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:27:07,442 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:27:07,442 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A151_M2', 'A151_M6', 'A151_M7'] 
+2022-05-24 21:27:07,458 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-05-24 21:27:07,458 | itj_planning | INFO | Planning done.
+2022-05-24 21:28:05,227 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A151_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-24 21:28:05,524 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-24 21:28:06,102 | itj_planning | INFO | [36mSolving for movement #(704) A151_M2[0m
+2022-05-24 21:28:10,992 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-24 21:28:10,992 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:28:12,616 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=27, b14)
+2022-05-24 21:28:12,616 | itj_planning | INFO | Solved 3 Movements in 1.62 s: ['A151_M2', 'A151_M6', 'A151_M7'] 
+2022-05-24 21:28:12,632 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-05-24 21:28:12,632 | itj_planning | INFO | Planning done.
+2022-05-25 16:58:37,058 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A152_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 16:58:37,429 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-25 16:58:38,033 | itj_planning | INFO | [36mSolving for movement #(713) A152_M2[0m
+2022-05-25 16:58:43,362 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-25 16:58:43,362 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=27, b14)
+2022-05-25 16:58:45,302 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=27, b14)
+2022-05-25 16:58:45,302 | itj_planning | INFO | Solved 3 Movements in 1.94 s: ['A152_M2', 'A152_M3', 'A152_M6'] 
+2022-05-25 16:58:45,318 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-05-25 16:58:45,318 | itj_planning | INFO | Planning done.
+2022-05-25 17:30:01,015 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A152_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 17:30:01,312 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-25 17:30:01,916 | itj_planning | INFO | [36mSolving for movement #(713) A152_M2[0m
+2022-05-25 17:30:01,916 | itj_planning | INFO | Linear Movement group member A152_M3 removed.
+2022-05-25 17:30:01,932 | itj_planning | INFO | Linear Movement group member A152_M6 removed.
+2022-05-25 17:30:06,889 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-25 17:30:06,889 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=27, b14)
+2022-05-25 17:30:10,485 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=27, b14)
+2022-05-25 17:30:10,485 | itj_planning | INFO | Solved 3 Movements in 3.60 s: ['A152_M2', 'A152_M3', 'A152_M6'] 
+2022-05-25 17:30:10,500 | itj_planning | INFO | Beam b14 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 3.6
+2022-05-25 17:30:10,500 | itj_planning | INFO | Planning done.
+2022-05-25 17:31:43,865 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A152_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 17:31:44,146 | itj_planning | ERROR | If movement_id is supplied. Solve mode must be movement_id or linear_movement_group
+2022-05-25 17:31:53,125 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A152_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 17:31:53,422 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-25 17:31:54,000 | itj_planning | INFO | [36mSolving for movement #(713) A152_M2[0m
+2022-05-25 17:31:58,896 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-25 17:31:58,896 | itj_planning | INFO | Computing only Movement A152_M2
+2022-05-25 17:31:59,239 | itj_planning | INFO | Solved 1 Movements in 0.34 s: ['A152_M2'] 
+2022-05-25 17:31:59,255 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | Plan Success | Runtime of current attempt: 0.4
+2022-05-25 17:31:59,255 | itj_planning | INFO | Planning done.
+2022-05-25 17:32:07,124 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A152_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 17:32:07,406 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-25 17:32:07,984 | itj_planning | INFO | [36mSolving for movement #(711) A152_M0[0m
+2022-05-25 17:32:13,078 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-25 17:32:13,078 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:33:34,701 | itj_planning | INFO | No plan found for A152_M0 | RoboticFreeMovement(#A152_M0, Free Move to bring CL3M ('c4') to structure., has_traj False)
+2022-05-25 17:33:34,701 | itj_planning | INFO | A plan NOT found for movement_id A152_M0!
+2022-05-25 17:33:34,701 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 81.6
+2022-05-25 17:33:34,732 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | time elapsed 81.67
+2022-05-25 17:33:34,732 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:34:58,945 | itj_planning | INFO | No plan found for A152_M0 | RoboticFreeMovement(#A152_M0, Free Move to bring CL3M ('c4') to structure., has_traj False)
+2022-05-25 17:34:58,945 | itj_planning | INFO | A plan NOT found for movement_id A152_M0!
+2022-05-25 17:34:58,960 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 84.2
+2022-05-25 17:34:58,976 | itj_planning | INFO | Beam b14 | movement_id | Trail #2 | time elapsed 165.91
+2022-05-25 17:34:58,976 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:36:22,216 | itj_planning | INFO | No plan found for A152_M0 | RoboticFreeMovement(#A152_M0, Free Move to bring CL3M ('c4') to structure., has_traj False)
+2022-05-25 17:36:22,216 | itj_planning | INFO | A plan NOT found for movement_id A152_M0!
+2022-05-25 17:36:22,216 | itj_planning | INFO | Beam b14 | movement_id | Trail #2 | Plan Failure | Runtime of current attempt: 83.2
+2022-05-25 17:36:22,278 | itj_planning | INFO | Beam b14 | movement_id | Trail #3 | time elapsed 249.22
+2022-05-25 17:36:22,278 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:37:42,206 | itj_planning | INFO | No plan found for A152_M0 | RoboticFreeMovement(#A152_M0, Free Move to bring CL3M ('c4') to structure., has_traj False)
+2022-05-25 17:37:42,207 | itj_planning | INFO | A plan NOT found for movement_id A152_M0!
+2022-05-25 17:37:42,207 | itj_planning | INFO | Beam b14 | movement_id | Trail #3 | Plan Failure | Runtime of current attempt: 79.9
+2022-05-25 17:37:42,230 | itj_planning | INFO | Beam b14 | movement_id | Trail #4 | time elapsed 329.17
+2022-05-25 17:37:42,231 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:38:59,368 | itj_planning | INFO | No plan found for A152_M0 | RoboticFreeMovement(#A152_M0, Free Move to bring CL3M ('c4') to structure., has_traj False)
+2022-05-25 17:38:59,368 | itj_planning | INFO | A plan NOT found for movement_id A152_M0!
+2022-05-25 17:38:59,368 | itj_planning | INFO | Beam b14 | movement_id | Trail #4 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-25 17:38:59,376 | itj_planning | INFO | Beam b14 | movement_id | Trail #5 | time elapsed 406.31
+2022-05-25 17:38:59,376 | itj_planning | INFO | Computing only Movement A152_M0
+2022-05-25 17:39:31,270 | itj_planning | INFO | Solved 1 Movements in 31.89 s: ['A152_M0'] 
+2022-05-25 17:40:09,738 | itj_planning | INFO | Beam b14 | movement_id | Trail #5 | Plan Success | Runtime of current attempt: 70.4
+2022-05-25 17:40:09,738 | itj_planning | INFO | Planning done.
+2022-05-25 18:35:32,765 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A235_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='linear_movement_group', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-25 18:35:33,077 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-25 18:35:33,655 | itj_planning | INFO | [36mSolving for movement #(1082) A235_M2[0m
+2022-05-25 18:35:38,785 | itj_planning | INFO | Beam b19 | linear_movement_group | Trail #0 | time elapsed 0.02
+2022-05-25 18:35:38,785 | itj_planning | INFO | Computing priority 1 LinearMovement(s) (seq_n=32, b19)
+2022-05-25 18:35:39,832 | itj_planning | INFO | Computing priority 0 LinearMovement(s) (seq_n=32, b19)
+2022-05-25 18:35:39,832 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A235_M2', 'A235_M6', 'A235_M7'] 
+2022-05-25 18:35:39,847 | itj_planning | INFO | Beam b19 | linear_movement_group | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-05-25 18:35:39,847 | itj_planning | INFO | Planning done.
