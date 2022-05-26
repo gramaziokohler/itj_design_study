@@ -21,3 +21,8 @@
 2022-05-26 15:01:23,899 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #154/163
 2022-05-26 15:01:25,258 | itj_planning | WARNING | Movements that requires care and love:
 2022-05-26 15:01:25,258 | itj_planning | INFO | (MovementIndex=352) RoboticFreeMovement(#A82_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-05-26 15:31:44,127 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=100.0, movement_id='A82_M0', plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-05-26 15:31:44,128 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 15:31:44,772 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-26 15:31:49,160 | itj_planning | INFO | [36mChecking for movement #(352) A82_M0[0m
+2022-05-26 15:32:04,852 | itj_planning | INFO | Congrats, check state done!
