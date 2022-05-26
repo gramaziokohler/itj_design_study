@@ -2146,3 +2146,123 @@
 2022-05-26 20:07:19,975 | itj_planning | INFO | Solved 3 Movements in 6.77 s: ['A163_M2', 'A163_M1', 'A164_M2'] 
 2022-05-26 20:07:19,998 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 6.8
 2022-05-26 20:07:20,002 | itj_planning | INFO | Planning done.
+2022-05-26 23:20:06,972 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='nonlinear', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:20:07,707 | itj_planning | ERROR | If movement_id is supplied. Solve mode must be movement_id or linear_movement_group
+2022-05-26 23:20:21,035 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:20:21,784 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:20:22,466 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json[0m
+2022-05-26 23:20:22,466 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:20:33,028 | itj_planning | DEBUG | --------------------
+2022-05-26 23:20:39,810 | itj_planning | DEBUG | ##########
+2022-05-26 23:20:39,810 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-26 23:20:39,810 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:20:39,810 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)[0m
+2022-05-26 23:20:39,810 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 2
+2022-05-26 23:20:39,810 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((16.503, -8.976, -4.800, -2.880, -0.854, -1.892, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((18.066, -5.968, -4.238, -2.848, -1.265, -1.808, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-05-26 23:20:40,753 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:24:09,596 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:24:10,289 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:24:10,988 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json[0m
+2022-05-26 23:24:10,988 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:24:21,639 | itj_planning | DEBUG | --------------------
+2022-05-26 23:24:28,597 | itj_planning | DEBUG | ##########
+2022-05-26 23:24:28,597 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-26 23:24:28,597 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:24:28,597 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)[0m
+2022-05-26 23:24:28,613 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 2
+2022-05-26 23:24:28,613 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((16.503, -8.976, -4.800, -2.880, -0.854, -1.892, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((18.066, -5.968, -4.238, -2.848, -1.265, -1.808, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-05-26 23:24:29,553 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:24:56,370 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:24:57,139 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:24:57,798 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json[0m
+2022-05-26 23:24:57,814 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:25:08,118 | itj_planning | DEBUG | --------------------
+2022-05-26 23:25:14,725 | itj_planning | DEBUG | ##########
+2022-05-26 23:25:14,725 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.69
+2022-05-26 23:25:14,725 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:25:14,725 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)[0m
+2022-05-26 23:25:14,725 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 2
+2022-05-26 23:25:14,725 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((16.503, -8.976, -4.800, 0.554, 0.034, -1.892, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((18.066, -5.968, -4.238, -2.848, -1.265, -1.808, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-05-26 23:25:15,655 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:27:20,539 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:27:21,263 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:27:21,931 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json[0m
+2022-05-26 23:27:21,931 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:27:32,630 | itj_planning | DEBUG | --------------------
+2022-05-26 23:27:39,613 | itj_planning | DEBUG | ##########
+2022-05-26 23:27:39,613 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.92
+2022-05-26 23:27:39,613 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:27:39,613 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)[0m
+2022-05-26 23:27:39,613 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 2
+2022-05-26 23:27:39,613 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((18.344, -9.402, -3.303, -2.592, -0.478, -2.894, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((18.066, -5.968, -4.238, -2.848, -1.265, -1.808, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-05-26 23:27:40,535 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:27:41,081 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:30:17,249 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxRight', diagnosis=True, draw_mp_exploration=True, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=True, use_stored_seed=False, viewer=True, watch=True, write=True)
+2022-05-26 23:30:18,039 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:30:18,727 | itj_planning | DEBUG | [34mProcess json parsed from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json[0m
+2022-05-26 23:30:18,736 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:30:29,162 | itj_planning | DEBUG | --------------------
+2022-05-26 23:30:35,911 | itj_planning | DEBUG | ##########
+2022-05-26 23:30:35,926 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.94
+2022-05-26 23:30:35,926 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:30:35,926 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)[0m
+2022-05-26 23:30:35,926 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 2
+2022-05-26 23:30:35,926 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((18.344, -9.402, -3.303, -2.592, -0.478, -2.894, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((16.882, -9.402, -4.800, -2.592, -0.478, -2.894, -2.494, 0.790, -3.069), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-05-26 23:30:36,848 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:30:37,395 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:32:38,375 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:32:38,688 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:32:39,297 | itj_planning | INFO | [36mSolving for movement #(679) A148_M0[0m
+2022-05-26 23:32:46,946 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-26 23:32:46,946 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:32:46,977 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:32:47,336 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:32:49,414 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A148_M0
+2022-05-26 23:34:11,349 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:34:11,349 | itj_planning | INFO | A plan NOT found for movement_id A148_M0!
+2022-05-26 23:34:11,349 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 84.4
+2022-05-26 23:34:11,397 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | time elapsed 84.47
+2022-05-26 23:34:11,397 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:34:11,486 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:34:11,802 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:34:47,205 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A148_M0
+2022-05-26 23:36:29,815 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:36:29,815 | itj_planning | INFO | A plan NOT found for movement_id A148_M0!
+2022-05-26 23:36:29,815 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 138.4
+2022-05-26 23:36:29,846 | itj_planning | INFO | Beam b14 | movement_id | Trail #2 | time elapsed 222.92
+2022-05-26 23:36:29,846 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:36:29,877 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:36:30,198 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:36:58,839 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A149_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:36:59,151 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:36:59,854 | itj_planning | INFO | [36mSolving for movement #(687) A149_M0[0m
+2022-05-26 23:37:08,260 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-26 23:37:08,260 | itj_planning | INFO | Computing only Movement A149_M0
+2022-05-26 23:37:32,109 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A149_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:37:32,421 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:37:33,093 | itj_planning | INFO | [36mSolving for movement #(687) A149_M0[0m
+2022-05-26 23:37:41,169 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-26 23:37:41,169 | itj_planning | INFO | Computing only Movement A149_M0
+2022-05-26 23:37:41,201 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A149_M0
+2022-05-26 23:37:43,294 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:37:43,294 | itj_planning | INFO | A plan NOT found for movement_id A148_M0!
+2022-05-26 23:37:43,294 | itj_planning | INFO | Beam b14 | movement_id | Trail #2 | Plan Failure | Runtime of current attempt: 73.4
+2022-05-26 23:37:43,341 | itj_planning | INFO | Beam b14 | movement_id | Trail #3 | time elapsed 296.41
+2022-05-26 23:37:43,341 | itj_planning | INFO | Computing only Movement A148_M0
+2022-05-26 23:37:43,388 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:37:43,753 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A148_M0
+2022-05-26 23:37:59,772 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A149_M0
+2022-05-26 23:38:38,956 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A148_M0
+2022-05-26 23:39:16,520 | itj_planning | INFO | No plan found for A149_M0 | RoboticFreeMovement(#A149_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj False)
+2022-05-26 23:39:16,521 | itj_planning | INFO | A plan NOT found for movement_id A149_M0!
+2022-05-26 23:39:16,521 | itj_planning | INFO | Beam b14 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 95.4
+2022-05-26 23:39:16,545 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | time elapsed 95.39
+2022-05-26 23:39:16,545 | itj_planning | INFO | Computing only Movement A149_M0
+2022-05-26 23:39:16,633 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A149_M0
+2022-05-26 23:39:29,652 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A149_M0
+2022-05-26 23:39:45,521 | itj_planning | INFO | Solved 1 Movements in 28.98 s: ['A149_M0'] 
+2022-05-26 23:40:02,803 | itj_planning | INFO | Solved 1 Movements in 139.46 s: ['A148_M0'] 
+2022-05-26 23:40:18,620 | itj_planning | INFO | Beam b14 | movement_id | Trail #1 | Plan Success | Runtime of current attempt: 62.1
+2022-05-26 23:40:18,621 | itj_planning | INFO | Planning done.
+2022-05-26 23:40:57,071 | itj_planning | INFO | Beam b14 | movement_id | Trail #3 | Plan Success | Runtime of current attempt: 193.7
+2022-05-26 23:40:57,073 | itj_planning | INFO | Planning done.

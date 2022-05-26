@@ -6,3 +6,331 @@
 2022-05-26 20:21:26,770 | itj_planning | INFO | Solved 1 Movements in 92.34 s: ['A182_M0'] 
 2022-05-26 20:22:14,763 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 140.3
 2022-05-26 20:22:14,766 | itj_planning | INFO | Planning done.
+2022-05-26 22:57:48,829 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 22:57:49,153 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 22:57:57,525 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 22:57:57,557 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 22:59:14,797 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 22:59:14,797 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 22:59:14,797 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 77.3
+2022-05-26 22:59:14,860 | itj_planning | INFO | Trail #1 | time elapsed 77.35
+2022-05-26 22:59:14,891 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:00:32,749 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:00:32,749 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:00:32,749 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 77.9
+2022-05-26 23:00:32,780 | itj_planning | INFO | Trail #2 | time elapsed 155.27
+2022-05-26 23:00:32,811 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:01:51,455 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:01:51,455 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:01:51,455 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 78.7
+2022-05-26 23:01:51,470 | itj_planning | INFO | Trail #3 | time elapsed 233.96
+2022-05-26 23:01:51,517 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:03:09,388 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:03:09,388 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:03:09,388 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 77.9
+2022-05-26 23:03:09,420 | itj_planning | INFO | Trail #4 | time elapsed 311.91
+2022-05-26 23:03:09,451 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:04:36,964 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:04:36,964 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:04:36,964 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 87.5
+2022-05-26 23:04:36,995 | itj_planning | INFO | Trail #5 | time elapsed 399.49
+2022-05-26 23:04:37,026 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:05:57,090 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:05:57,090 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:05:57,090 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 80.1
+2022-05-26 23:05:57,121 | itj_planning | INFO | Trail #6 | time elapsed 479.61
+2022-05-26 23:05:57,152 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:07:16,236 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:07:16,236 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:07:16,236 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 79.1
+2022-05-26 23:07:16,252 | itj_planning | INFO | Trail #7 | time elapsed 558.74
+2022-05-26 23:07:16,299 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:08:34,777 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:08:34,777 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:08:34,777 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 78.5
+2022-05-26 23:08:34,777 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.22.
+2022-05-26 23:08:34,777 | itj_planning | ERROR | Free movement group #0/1 fails, which contains ['A148_M0']
+2022-05-26 23:08:34,777 | itj_planning | INFO | Planning done.
+2022-05-26 23:14:51,971 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:14:52,284 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:15:00,501 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 23:15:00,547 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:00,719 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:00,719 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:00,719 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:00,750 | itj_planning | INFO | Trail #1 | time elapsed 0.27
+2022-05-26 23:15:00,844 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:00,968 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:00,968 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:00,968 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:00,984 | itj_planning | INFO | Trail #2 | time elapsed 0.50
+2022-05-26 23:15:01,031 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:01,142 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:01,142 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:01,142 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:01,162 | itj_planning | INFO | Trail #3 | time elapsed 0.68
+2022-05-26 23:15:01,193 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:01,318 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:01,318 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:01,318 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:01,333 | itj_planning | INFO | Trail #4 | time elapsed 0.85
+2022-05-26 23:15:01,385 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:01,505 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:01,505 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:01,505 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:01,521 | itj_planning | INFO | Trail #5 | time elapsed 1.04
+2022-05-26 23:15:01,552 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:01,681 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:01,681 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:01,681 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:01,712 | itj_planning | INFO | Trail #6 | time elapsed 1.23
+2022-05-26 23:15:01,743 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:01,869 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:01,869 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:01,869 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:01,895 | itj_planning | INFO | Trail #7 | time elapsed 1.41
+2022-05-26 23:15:01,942 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:02,054 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:02,054 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:02,054 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:02,079 | itj_planning | INFO | Trail #8 | time elapsed 1.59
+2022-05-26 23:15:02,126 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:02,242 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:02,242 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:02,242 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:02,258 | itj_planning | INFO | Trail #9 | time elapsed 1.77
+2022-05-26 23:15:02,313 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:02,424 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:02,424 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:02,424 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:02,440 | itj_planning | INFO | Trail #10 | time elapsed 1.95
+2022-05-26 23:15:02,479 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:02,604 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:02,604 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:02,604 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:02,619 | itj_planning | INFO | Trail #11 | time elapsed 2.13
+2022-05-26 23:15:02,666 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:02,812 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:02,812 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:02,812 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:02,828 | itj_planning | INFO | Trail #12 | time elapsed 2.34
+2022-05-26 23:15:02,875 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,001 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,001 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,001 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,032 | itj_planning | INFO | Trail #13 | time elapsed 2.55
+2022-05-26 23:15:03,064 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,185 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,185 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,185 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,216 | itj_planning | INFO | Trail #14 | time elapsed 2.73
+2022-05-26 23:15:03,247 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,377 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,377 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,377 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,393 | itj_planning | INFO | Trail #15 | time elapsed 2.91
+2022-05-26 23:15:03,443 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,550 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,550 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,550 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,581 | itj_planning | INFO | Trail #16 | time elapsed 3.10
+2022-05-26 23:15:03,612 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,742 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,742 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,742 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,758 | itj_planning | INFO | Trail #17 | time elapsed 3.27
+2022-05-26 23:15:03,809 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:03,926 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:03,926 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:03,926 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:03,942 | itj_planning | INFO | Trail #18 | time elapsed 3.46
+2022-05-26 23:15:03,980 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:04,112 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:04,112 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:04,112 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:04,128 | itj_planning | INFO | Trail #19 | time elapsed 3.64
+2022-05-26 23:15:04,179 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:04,296 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:04,296 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:04,296 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:04,311 | itj_planning | INFO | Trail #20 | time elapsed 3.83
+2022-05-26 23:15:04,362 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:04,494 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:04,494 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:04,494 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:04,510 | itj_planning | INFO | Trail #21 | time elapsed 4.03
+2022-05-26 23:15:04,557 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:04,694 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:04,694 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:04,694 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:04,709 | itj_planning | INFO | Trail #22 | time elapsed 4.22
+2022-05-26 23:15:04,756 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:04,886 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:04,886 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:04,886 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:04,917 | itj_planning | INFO | Trail #23 | time elapsed 4.43
+2022-05-26 23:15:04,948 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:05,068 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:05,068 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:05,068 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:05,099 | itj_planning | INFO | Recomputing Actions and States
+2022-05-26 23:15:05,115 | itj_planning | INFO | Trail #24 | time elapsed 4.63
+2022-05-26 23:15:05,166 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:05,284 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:05,284 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:05,284 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:05,315 | itj_planning | INFO | Trail #25 | time elapsed 4.83
+2022-05-26 23:15:05,347 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:05,463 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:05,463 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:05,463 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 23:15:05,494 | itj_planning | INFO | Trail #26 | time elapsed 5.01
+2022-05-26 23:15:05,536 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:05,642 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:05,642 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:05,642 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 23:15:05,673 | itj_planning | INFO | Trail #27 | time elapsed 5.19
+2022-05-26 23:15:05,716 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:05,838 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:05,838 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:05,838 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:05,854 | itj_planning | INFO | Trail #28 | time elapsed 5.37
+2022-05-26 23:15:05,901 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:06,031 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:06,031 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:06,031 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:06,047 | itj_planning | INFO | Trail #29 | time elapsed 5.56
+2022-05-26 23:15:06,082 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:06,209 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:06,209 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:06,209 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:06,224 | itj_planning | INFO | Trail #30 | time elapsed 5.74
+2022-05-26 23:15:06,271 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:06,389 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:06,389 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:06,389 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:15:06,420 | itj_planning | INFO | Trail #31 | time elapsed 5.93
+2022-05-26 23:15:06,451 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:06,568 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:15:06,568 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:15:06,568 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 23:15:06,599 | itj_planning | INFO | Trail #32 | time elapsed 6.11
+2022-05-26 23:15:06,632 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:15:57,019 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:15:57,316 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:16:05,611 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-26 23:16:05,647 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:05,819 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:05,819 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:05,819 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:05,850 | itj_planning | INFO | Trail #1 | time elapsed 0.27
+2022-05-26 23:16:05,882 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,018 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,018 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,018 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:06,033 | itj_planning | INFO | Trail #2 | time elapsed 0.45
+2022-05-26 23:16:06,080 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,207 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,207 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,207 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:06,238 | itj_planning | INFO | Trail #3 | time elapsed 0.66
+2022-05-26 23:16:06,269 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,391 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,391 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,391 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:06,422 | itj_planning | INFO | Trail #4 | time elapsed 0.84
+2022-05-26 23:16:06,453 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,579 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,579 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,579 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:06,610 | itj_planning | INFO | Trail #5 | time elapsed 1.03
+2022-05-26 23:16:06,657 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,773 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,773 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,773 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:06,789 | itj_planning | INFO | Trail #6 | time elapsed 1.21
+2022-05-26 23:16:06,836 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:06,951 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:06,951 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:06,951 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 23:16:06,967 | itj_planning | INFO | Trail #7 | time elapsed 1.39
+2022-05-26 23:16:07,015 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:07,155 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:07,155 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:07,155 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:07,171 | itj_planning | INFO | Trail #8 | time elapsed 1.59
+2022-05-26 23:16:07,218 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:07,334 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:07,334 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:07,334 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:07,365 | itj_planning | INFO | Trail #9 | time elapsed 1.79
+2022-05-26 23:16:07,396 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:07,516 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:07,516 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:07,516 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:07,547 | itj_planning | INFO | Trail #10 | time elapsed 1.97
+2022-05-26 23:16:07,592 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:07,712 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:07,712 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:07,712 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:07,728 | itj_planning | INFO | Trail #11 | time elapsed 2.15
+2022-05-26 23:16:07,775 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:07,885 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:07,885 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:07,901 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:07,916 | itj_planning | INFO | Trail #12 | time elapsed 2.34
+2022-05-26 23:16:07,948 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:08,077 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:08,077 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:08,077 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:08,109 | itj_planning | INFO | Trail #13 | time elapsed 2.53
+2022-05-26 23:16:08,133 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:08,257 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:08,257 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:08,257 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 23:16:08,272 | itj_planning | INFO | Trail #14 | time elapsed 2.69
+2022-05-26 23:16:08,319 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:08,456 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:08,456 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:08,456 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:08,471 | itj_planning | INFO | Trail #15 | time elapsed 2.89
+2022-05-26 23:16:08,530 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:08,656 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:08,656 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:08,656 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:08,672 | itj_planning | INFO | Trail #16 | time elapsed 3.09
+2022-05-26 23:16:08,719 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:08,834 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:08,834 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:08,834 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:08,850 | itj_planning | INFO | Trail #17 | time elapsed 3.27
+2022-05-26 23:16:08,897 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:09,031 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:09,031 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:09,031 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:09,047 | itj_planning | INFO | Trail #18 | time elapsed 3.47
+2022-05-26 23:16:09,106 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:09,225 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:09,225 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:09,225 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:09,256 | itj_planning | INFO | Trail #19 | time elapsed 3.68
+2022-05-26 23:16:09,287 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:09,428 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:09,428 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:09,428 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:09,444 | itj_planning | INFO | Trail #20 | time elapsed 3.86
+2022-05-26 23:16:09,491 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:16:09,606 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:16:09,606 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:16:09,606 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 23:16:09,637 | itj_planning | INFO | Trail #21 | time elapsed 4.06
+2022-05-26 23:16:09,698 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:17:43,117 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A148_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 23:17:43,414 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 23:17:51,733 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 23:17:51,780 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-26 23:18:59,335 | itj_planning | INFO | No plan found for A148_M0 | RoboticFreeMovement(#A148_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-05-26 23:18:59,335 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-26 23:18:59,335 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 67.6
+2022-05-26 23:18:59,382 | itj_planning | INFO | Trail #1 | time elapsed 67.66
+2022-05-26 23:18:59,428 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
