@@ -2099,3 +2099,50 @@
 2022-05-26 19:01:18,309 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.18.
 2022-05-26 19:01:18,309 | itj_planning | ERROR | Free movement group #57/58 fails, which contains ['A236_M0']
 2022-05-26 19:01:18,309 | itj_planning | INFO | Planning done.
+2022-05-26 19:31:18,283 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A149_M7', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 19:31:18,687 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 19:34:21,767 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A149_M7', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 19:34:22,137 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 19:34:22,832 | itj_planning | INFO | Movement group member A149_M2 (RoboticLinearMovement) removed.
+2022-05-26 19:34:22,833 | itj_planning | INFO | Movement group member A149_M6 (RoboticLinearMovement) removed.
+2022-05-26 19:34:22,835 | itj_planning | INFO | Movement group member A149_M7 (RoboticLinearMovement) removed.
+2022-05-26 19:34:33,367 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 19:34:35,886 | itj_planning | INFO | Solved 3 Movements in 2.52 s: ['A149_M2', 'A149_M6', 'A149_M7'] 
+2022-05-26 19:34:35,898 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-05-26 19:34:35,902 | itj_planning | INFO | Planning done.
+2022-05-26 20:05:09,991 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 20:05:10,328 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 20:05:11,079 | itj_planning | INFO | Movement group member A163_M1 (RoboticLinearMovement) removed.
+2022-05-26 20:05:11,081 | itj_planning | INFO | Movement group member A163_M2 (RobotScrewdriverSyncLinearMovement) removed.
+2022-05-26 20:05:11,082 | itj_planning | INFO | Movement group member A164_M2 (RoboticLinearMovement) removed.
+2022-05-26 20:05:20,324 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 20:05:27,722 | itj_planning | INFO | Solved 3 Movements in 7.40 s: ['A163_M2', 'A163_M1', 'A164_M2'] 
+2022-05-26 20:05:27,744 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 7.4
+2022-05-26 20:05:27,748 | itj_planning | INFO | Planning done.
+2022-05-26 20:06:00,431 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 20:06:00,820 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 20:06:01,562 | itj_planning | INFO | Movement group member A163_M1 (RoboticLinearMovement) removed.
+2022-05-26 20:06:01,565 | itj_planning | INFO | Movement group member A163_M2 (RobotScrewdriverSyncLinearMovement) removed.
+2022-05-26 20:06:01,568 | itj_planning | INFO | Movement group member A164_M2 (RoboticLinearMovement) removed.
+2022-05-26 20:06:11,320 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 20:06:18,402 | itj_planning | INFO | Solved 3 Movements in 7.08 s: ['A163_M2', 'A163_M1', 'A164_M2'] 
+2022-05-26 20:06:18,419 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 7.1
+2022-05-26 20:06:18,424 | itj_planning | INFO | Planning done.
+2022-05-26 20:06:35,075 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 20:06:35,442 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 20:06:36,276 | itj_planning | INFO | Movement group member A163_M1 (RoboticLinearMovement) removed.
+2022-05-26 20:06:36,279 | itj_planning | INFO | Movement group member A163_M2 (RobotScrewdriverSyncLinearMovement) removed.
+2022-05-26 20:06:36,282 | itj_planning | INFO | Movement group member A164_M2 (RoboticLinearMovement) removed.
+2022-05-26 20:06:45,791 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-26 20:06:49,788 | itj_planning | INFO | Solved 3 Movements in 4.00 s: ['A163_M2', 'A163_M1', 'A164_M2'] 
+2022-05-26 20:06:49,810 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.0
+2022-05-26 20:06:49,814 | itj_planning | INFO | Planning done.
+2022-05-26 20:07:01,920 | itj_planning | INFO | planning.run.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 20:07:02,300 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 20:07:03,143 | itj_planning | INFO | Movement group member A163_M1 (RoboticLinearMovement) removed.
+2022-05-26 20:07:03,146 | itj_planning | INFO | Movement group member A163_M2 (RobotScrewdriverSyncLinearMovement) removed.
+2022-05-26 20:07:03,149 | itj_planning | INFO | Movement group member A164_M2 (RoboticLinearMovement) removed.
+2022-05-26 20:07:13,204 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-26 20:07:19,975 | itj_planning | INFO | Solved 3 Movements in 6.77 s: ['A163_M2', 'A163_M1', 'A164_M2'] 
+2022-05-26 20:07:19,998 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 6.8
+2022-05-26 20:07:20,002 | itj_planning | INFO | Planning done.

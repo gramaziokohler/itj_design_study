@@ -1,0 +1,8 @@
+2022-05-26 20:19:43,620 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A182_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 20:19:43,988 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 20:19:54,433 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-26 20:19:54,481 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A182_M0
+2022-05-26 20:21:25,208 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A182_M0
+2022-05-26 20:21:26,770 | itj_planning | INFO | Solved 1 Movements in 92.34 s: ['A182_M0'] 
+2022-05-26 20:22:14,763 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 140.3
+2022-05-26 20:22:14,766 | itj_planning | INFO | Planning done.
