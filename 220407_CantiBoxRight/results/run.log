@@ -1237,3 +1237,264 @@
 2022-05-26 14:18:12,546 | itj_planning | INFO | Computing failed priority 0 Movement(s)
 2022-05-26 14:18:12,546 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 107.3
 2022-05-26 14:18:12,562 | itj_planning | INFO | Trail #5 | time elapsed 492.35
+2022-05-26 14:26:40,589 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A77_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:26:40,870 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:26:41,495 | itj_planning | INFO | [36mSolving for movement #(317) A77_M0[0m
+2022-05-26 14:26:43,261 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-26 14:26:43,338 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-26 14:26:43,417 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-26 14:26:43,495 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-26 14:26:43,573 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-26 14:26:43,651 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-26 14:26:43,713 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-26 14:26:43,791 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-26 14:26:43,854 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-26 14:26:43,932 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-26 14:26:44,010 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-26 14:26:44,104 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-26 14:26:48,495 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-26 14:26:48,495 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:26:48,527 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:27:52,830 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:27:52,830 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:27:52,830 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 64.3
+2022-05-26 14:27:52,846 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | time elapsed 64.38
+2022-05-26 14:27:52,846 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:27:52,924 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:28:58,752 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:28:58,752 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:28:58,768 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 65.9
+2022-05-26 14:28:58,784 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | time elapsed 130.32
+2022-05-26 14:28:58,784 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:28:58,834 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:27,750 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A77_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=True, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:29:28,040 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:29:28,652 | itj_planning | INFO | [36mSolving for movement #(317) A77_M0[0m
+2022-05-26 14:29:30,413 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-05-26 14:29:30,481 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-05-26 14:29:30,561 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-05-26 14:29:30,643 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-05-26 14:29:30,725 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-05-26 14:29:30,801 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-05-26 14:29:30,868 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-05-26 14:29:30,940 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-05-26 14:29:31,010 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-05-26 14:29:31,091 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-05-26 14:29:31,174 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-05-26 14:29:31,259 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-05-26 14:29:35,792 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-26 14:29:35,792 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:35,824 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:35,994 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:35,994 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:35,995 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:36,017 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | time elapsed 0.25
+2022-05-26 14:29:36,018 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:36,047 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:36,186 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:36,187 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:36,187 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:36,219 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | time elapsed 0.45
+2022-05-26 14:29:36,219 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:36,250 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:36,364 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:36,365 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:36,365 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:36,438 | itj_planning | INFO | Beam b12 | movement_id | Trail #3 | time elapsed 0.67
+2022-05-26 14:29:36,439 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:36,526 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:36,643 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:36,643 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:36,643 | itj_planning | INFO | Beam b12 | movement_id | Trail #3 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:36,667 | itj_planning | INFO | Beam b12 | movement_id | Trail #4 | time elapsed 0.90
+2022-05-26 14:29:36,667 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:36,701 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:36,823 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:36,823 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:36,824 | itj_planning | INFO | Beam b12 | movement_id | Trail #4 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:36,847 | itj_planning | INFO | Beam b12 | movement_id | Trail #5 | time elapsed 1.08
+2022-05-26 14:29:36,848 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:36,877 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:36,992 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:36,992 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:36,992 | itj_planning | INFO | Beam b12 | movement_id | Trail #5 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:37,015 | itj_planning | INFO | Beam b12 | movement_id | Trail #6 | time elapsed 1.24
+2022-05-26 14:29:37,016 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,048 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:37,169 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:37,170 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:37,170 | itj_planning | INFO | Beam b12 | movement_id | Trail #6 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:37,193 | itj_planning | INFO | Beam b12 | movement_id | Trail #7 | time elapsed 1.42
+2022-05-26 14:29:37,194 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,224 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:37,340 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:37,340 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:37,340 | itj_planning | INFO | Beam b12 | movement_id | Trail #7 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:37,363 | itj_planning | INFO | Beam b12 | movement_id | Trail #8 | time elapsed 1.59
+2022-05-26 14:29:37,364 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,393 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:37,512 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:37,512 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:37,512 | itj_planning | INFO | Beam b12 | movement_id | Trail #8 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:37,535 | itj_planning | INFO | Beam b12 | movement_id | Trail #9 | time elapsed 1.76
+2022-05-26 14:29:37,535 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,565 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:37,693 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:37,693 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:37,693 | itj_planning | INFO | Beam b12 | movement_id | Trail #9 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:37,716 | itj_planning | INFO | Beam b12 | movement_id | Trail #10 | time elapsed 1.95
+2022-05-26 14:29:37,716 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,747 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:37,863 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:37,863 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:37,864 | itj_planning | INFO | Beam b12 | movement_id | Trail #10 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:37,887 | itj_planning | INFO | Beam b12 | movement_id | Trail #11 | time elapsed 2.12
+2022-05-26 14:29:37,887 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:37,917 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,030 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,031 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,031 | itj_planning | INFO | Beam b12 | movement_id | Trail #11 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:38,056 | itj_planning | INFO | Beam b12 | movement_id | Trail #12 | time elapsed 2.29
+2022-05-26 14:29:38,056 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,088 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,209 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,209 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,209 | itj_planning | INFO | Beam b12 | movement_id | Trail #12 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:38,234 | itj_planning | INFO | Beam b12 | movement_id | Trail #13 | time elapsed 2.46
+2022-05-26 14:29:38,235 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,267 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,384 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,384 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,384 | itj_planning | INFO | Beam b12 | movement_id | Trail #13 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:38,409 | itj_planning | INFO | Beam b12 | movement_id | Trail #14 | time elapsed 2.64
+2022-05-26 14:29:38,409 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,439 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,552 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,553 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,553 | itj_planning | INFO | Beam b12 | movement_id | Trail #14 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:38,577 | itj_planning | INFO | Beam b12 | movement_id | Trail #15 | time elapsed 2.81
+2022-05-26 14:29:38,578 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,607 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,723 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,723 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,724 | itj_planning | INFO | Beam b12 | movement_id | Trail #15 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:38,746 | itj_planning | INFO | Beam b12 | movement_id | Trail #16 | time elapsed 2.98
+2022-05-26 14:29:38,746 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,777 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:38,894 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:38,894 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:38,894 | itj_planning | INFO | Beam b12 | movement_id | Trail #16 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:38,918 | itj_planning | INFO | Beam b12 | movement_id | Trail #17 | time elapsed 3.15
+2022-05-26 14:29:38,918 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:38,948 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,065 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,065 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,065 | itj_planning | INFO | Beam b12 | movement_id | Trail #17 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,089 | itj_planning | INFO | Beam b12 | movement_id | Trail #18 | time elapsed 3.32
+2022-05-26 14:29:39,090 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,120 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,236 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,236 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,236 | itj_planning | INFO | Beam b12 | movement_id | Trail #18 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,260 | itj_planning | INFO | Beam b12 | movement_id | Trail #19 | time elapsed 3.49
+2022-05-26 14:29:39,260 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,291 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,405 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,405 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,405 | itj_planning | INFO | Beam b12 | movement_id | Trail #19 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,428 | itj_planning | INFO | Beam b12 | movement_id | Trail #20 | time elapsed 3.66
+2022-05-26 14:29:39,429 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,459 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,575 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,575 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,576 | itj_planning | INFO | Beam b12 | movement_id | Trail #20 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,598 | itj_planning | INFO | Beam b12 | movement_id | Trail #21 | time elapsed 3.83
+2022-05-26 14:29:39,598 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,629 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,743 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,743 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,744 | itj_planning | INFO | Beam b12 | movement_id | Trail #21 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,767 | itj_planning | INFO | Beam b12 | movement_id | Trail #22 | time elapsed 4.00
+2022-05-26 14:29:39,768 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,796 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:39,912 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:39,912 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:39,912 | itj_planning | INFO | Beam b12 | movement_id | Trail #22 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:39,936 | itj_planning | INFO | Beam b12 | movement_id | Trail #23 | time elapsed 4.17
+2022-05-26 14:29:39,937 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:39,967 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:40,087 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:40,087 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:40,087 | itj_planning | INFO | Beam b12 | movement_id | Trail #23 | Plan Failure | Runtime of current attempt: 0.2
+2022-05-26 14:29:40,110 | itj_planning | INFO | Beam b12 | movement_id | Trail #24 | time elapsed 4.34
+2022-05-26 14:29:40,111 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:40,145 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:40,258 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:40,258 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:40,258 | itj_planning | INFO | Beam b12 | movement_id | Trail #24 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:40,282 | itj_planning | INFO | Beam b12 | movement_id | Trail #25 | time elapsed 4.51
+2022-05-26 14:29:40,283 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:40,314 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:29:40,429 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:29:40,429 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:29:40,429 | itj_planning | INFO | Beam b12 | movement_id | Trail #25 | Plan Failure | Runtime of current attempt: 0.1
+2022-05-26 14:29:40,454 | itj_planning | INFO | Beam b12 | movement_id | Trail #26 | time elapsed 4.68
+2022-05-26 14:29:40,454 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:29:40,486 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:30:52,612 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A77_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:30:52,909 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:30:53,518 | itj_planning | INFO | [36mSolving for movement #(317) A77_M0[0m
+2022-05-26 14:30:59,564 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-26 14:30:59,564 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:30:59,595 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:32:20,074 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:32:20,074 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:32:20,074 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 80.5
+2022-05-26 14:32:20,096 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | time elapsed 80.55
+2022-05-26 14:32:20,096 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:32:20,175 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:33:41,262 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:33:41,262 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:33:41,262 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 81.2
+2022-05-26 14:33:41,278 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | time elapsed 161.73
+2022-05-26 14:33:41,278 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:33:41,324 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:34:55,033 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:34:55,033 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:34:55,033 | itj_planning | INFO | Beam b12 | movement_id | Trail #2 | Plan Failure | Runtime of current attempt: 73.8
+2022-05-26 14:34:55,111 | itj_planning | INFO | Beam b12 | movement_id | Trail #3 | time elapsed 235.56
+2022-05-26 14:34:55,111 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:34:55,216 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:36:27,792 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:36:27,792 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:36:27,792 | itj_planning | INFO | Beam b12 | movement_id | Trail #3 | Plan Failure | Runtime of current attempt: 92.7
+2022-05-26 14:36:27,807 | itj_planning | INFO | Beam b12 | movement_id | Trail #4 | time elapsed 328.26
+2022-05-26 14:36:27,807 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:36:27,853 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:37:47,245 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:37:47,245 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:37:47,245 | itj_planning | INFO | Beam b12 | movement_id | Trail #4 | Plan Failure | Runtime of current attempt: 79.4
+2022-05-26 14:37:47,280 | itj_planning | INFO | Beam b12 | movement_id | Trail #5 | time elapsed 407.73
+2022-05-26 14:37:47,281 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:37:47,327 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:39:03,637 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:39:03,637 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:39:03,637 | itj_planning | INFO | Beam b12 | movement_id | Trail #5 | Plan Failure | Runtime of current attempt: 76.4
+2022-05-26 14:39:03,668 | itj_planning | INFO | Beam b12 | movement_id | Trail #6 | time elapsed 484.12
+2022-05-26 14:39:03,668 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:39:03,711 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:40:27,780 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-05-26 14:40:27,780 | itj_planning | INFO | A plan NOT found for movement_id A77_M0!
+2022-05-26 14:40:27,780 | itj_planning | INFO | Beam b12 | movement_id | Trail #6 | Plan Failure | Runtime of current attempt: 84.1
+2022-05-26 14:40:27,811 | itj_planning | INFO | Beam b12 | movement_id | Trail #7 | time elapsed 568.26
+2022-05-26 14:40:27,811 | itj_planning | INFO | Computing only Movement A77_M0
+2022-05-26 14:40:27,849 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A77_M0
+2022-05-26 14:40:58,963 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A77_M0
+2022-05-26 14:41:11,810 | itj_planning | INFO | Solved 1 Movements in 44.00 s: ['A77_M0'] 
+2022-05-26 14:41:39,038 | itj_planning | INFO | Beam b12 | movement_id | Trail #7 | Plan Success | Runtime of current attempt: 71.2
+2022-05-26 14:41:39,040 | itj_planning | INFO | Planning done.
+2022-05-26 14:53:37,457 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A82_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:53:37,770 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:53:38,488 | itj_planning | INFO | [36mSolving for movement #(352) A82_M0[0m
+2022-05-26 14:53:45,609 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.02
+2022-05-26 14:53:45,609 | itj_planning | INFO | Computing only Movement A82_M0
