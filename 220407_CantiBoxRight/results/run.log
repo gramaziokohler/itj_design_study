@@ -1498,3 +1498,26 @@
 2022-05-26 14:53:38,488 | itj_planning | INFO | [36mSolving for movement #(352) A82_M0[0m
 2022-05-26 14:53:45,609 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.02
 2022-05-26 14:53:45,609 | itj_planning | INFO | Computing only Movement A82_M0
+2022-05-26 14:54:44,238 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A82_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:54:44,519 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:54:45,144 | itj_planning | INFO | [36mSolving for movement #(352) A82_M0[0m
+2022-05-26 14:54:51,513 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-26 14:54:51,513 | itj_planning | INFO | Computing only Movement A82_M0
+2022-05-26 14:54:51,528 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A82_M0
+2022-05-26 14:56:29,686 | itj_planning | INFO | No plan found for A82_M0 | RoboticFreeMovement(#A82_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-05-26 14:56:29,701 | itj_planning | INFO | A plan NOT found for movement_id A82_M0!
+2022-05-26 14:56:29,701 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 98.2
+2022-05-26 14:56:29,717 | itj_planning | INFO | Beam b12 | movement_id | Trail #1 | time elapsed 98.24
+2022-05-26 14:56:29,717 | itj_planning | INFO | Computing only Movement A82_M0
+2022-05-26 14:56:29,748 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A82_M0
+2022-05-26 14:56:55,668 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A82_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-26 14:56:55,965 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-26 14:56:56,558 | itj_planning | INFO | [36mSolving for movement #(352) A82_M0[0m
+2022-05-26 14:57:02,947 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | time elapsed 0.03
+2022-05-26 14:57:02,947 | itj_planning | INFO | Computing only Movement A82_M0
+2022-05-26 14:57:02,978 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A82_M0
+2022-05-26 14:57:26,859 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A82_M0
+2022-05-26 14:57:27,109 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A82_M0
+2022-05-26 14:57:53,240 | itj_planning | INFO | Solved 1 Movements in 50.29 s: ['A82_M0'] 
+2022-05-26 14:58:24,330 | itj_planning | INFO | Beam b12 | movement_id | Trail #0 | Plan Success | Runtime of current attempt: 81.4
+2022-05-26 14:58:24,330 | itj_planning | INFO | Planning done.
