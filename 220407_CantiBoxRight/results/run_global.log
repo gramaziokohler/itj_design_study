@@ -334,3 +334,1093 @@
 2022-05-26 23:18:59,335 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 67.6
 2022-05-26 23:18:59,382 | itj_planning | INFO | Trail #1 | time elapsed 67.66
 2022-05-26 23:18:59,428 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A148_M0
+2022-05-27 01:08:45,331 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A150_M0,A155_M0,A158_M0,A163_M0,A165_M0,A235_M0,A236_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-27 01:08:45,612 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-27 01:08:53,878 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 01:09:58,362 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:09:58,362 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:09:58,363 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 64.5
+2022-05-27 01:09:58,433 | itj_planning | INFO | Trail #1 | time elapsed 64.59
+2022-05-27 01:11:02,593 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:11:02,593 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:11:02,593 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 64.2
+2022-05-27 01:11:02,617 | itj_planning | INFO | Trail #2 | time elapsed 128.77
+2022-05-27 01:12:08,211 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:12:08,211 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:12:08,211 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 65.6
+2022-05-27 01:12:08,227 | itj_planning | INFO | Trail #3 | time elapsed 194.38
+2022-05-27 01:13:21,692 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:13:21,692 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:13:21,692 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 73.5
+2022-05-27 01:13:21,723 | itj_planning | INFO | Trail #4 | time elapsed 267.88
+2022-05-27 01:14:27,058 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:14:27,058 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:14:27,058 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 65.3
+2022-05-27 01:14:27,097 | itj_planning | INFO | Trail #5 | time elapsed 333.25
+2022-05-27 01:15:32,221 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:15:32,221 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:15:32,221 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 65.1
+2022-05-27 01:15:32,236 | itj_planning | INFO | Trail #6 | time elapsed 398.39
+2022-05-27 01:16:36,154 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:16:36,154 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:16:36,154 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 63.9
+2022-05-27 01:16:36,185 | itj_planning | INFO | Trail #7 | time elapsed 462.34
+2022-05-27 01:17:02,345 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A3_M0,A15_M0,A21_M0,A39_M0,A57_M0,A92_M0,A107_M0,A114_M0,A139_M0,A209_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-05-27 01:17:02,657 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-27 01:17:04,891 | itj_planning | INFO | Movement A3_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,891 | itj_planning | INFO | Movement A15_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,891 | itj_planning | INFO | Movement A21_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A39_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A57_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A92_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A107_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A114_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,906 | itj_planning | INFO | Movement A139_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:04,922 | itj_planning | INFO | Movement A209_M0 (RoboticFreeMovement) archived.
+2022-05-27 01:17:16,480 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 01:17:42,457 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:17:42,457 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:17:42,457 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 66.3
+2022-05-27 01:17:42,488 | itj_planning | INFO | Trail #8 | time elapsed 528.64
+2022-05-27 01:18:52,871 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:18:52,871 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:18:52,871 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 70.4
+2022-05-27 01:18:52,902 | itj_planning | INFO | Trail #9 | time elapsed 599.06
+2022-05-27 01:18:55,464 | itj_planning | INFO | Solved 1 Movements in 98.98 s: ['A3_M0'] 
+2022-05-27 01:20:03,820 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:20:03,820 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:20:03,821 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 70.9
+2022-05-27 01:20:03,848 | itj_planning | INFO | Trail #10 | time elapsed 670.00
+2022-05-27 01:21:14,537 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:21:14,538 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:21:14,538 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 70.7
+2022-05-27 01:21:14,562 | itj_planning | INFO | Trail #11 | time elapsed 740.71
+2022-05-27 01:21:17,561 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 241.1
+2022-05-27 01:21:23,710 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:22:15,530 | itj_planning | INFO | Solved 1 Movements in 51.82 s: ['A15_M0'] 
+2022-05-27 01:22:25,041 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:22:25,041 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:22:25,041 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 70.5
+2022-05-27 01:22:25,070 | itj_planning | INFO | Trail #12 | time elapsed 811.22
+2022-05-27 01:23:35,740 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:23:35,740 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:23:35,741 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 70.7
+2022-05-27 01:23:35,767 | itj_planning | INFO | Trail #13 | time elapsed 881.92
+2022-05-27 01:23:45,497 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 141.8
+2022-05-27 01:23:52,244 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 01:23:58,869 | itj_planning | INFO | Solved 1 Movements in 6.62 s: ['A21_M0'] 
+2022-05-27 01:24:37,091 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 44.8
+2022-05-27 01:24:43,262 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:24:48,104 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:24:48,104 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:24:48,105 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 72.3
+2022-05-27 01:24:48,129 | itj_planning | INFO | Trail #14 | time elapsed 954.28
+2022-05-27 01:25:58,717 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:25:58,717 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:25:58,717 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 70.6
+2022-05-27 01:25:58,741 | itj_planning | INFO | Trail #15 | time elapsed 1024.89
+2022-05-27 01:27:09,211 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:27:09,212 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:27:09,212 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 70.5
+2022-05-27 01:27:09,236 | itj_planning | INFO | Trail #16 | time elapsed 1095.39
+2022-05-27 01:28:05,357 | itj_planning | INFO | No plan found for A39_M0 | RoboticFreeMovement(#A39_M0, Free Move to bring Beam ('b4') to approach clamps on structure., has_traj False)
+2022-05-27 01:28:05,357 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:28:05,358 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 202.1
+2022-05-27 01:28:05,430 | itj_planning | INFO | Trail #1 | time elapsed 202.19
+2022-05-27 01:28:19,115 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:28:19,115 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:28:19,115 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 69.9
+2022-05-27 01:28:19,141 | itj_planning | INFO | Trail #17 | time elapsed 1165.29
+2022-05-27 01:29:03,695 | itj_planning | INFO | Solved 1 Movements in 58.26 s: ['A39_M0'] 
+2022-05-27 01:29:28,278 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:29:28,278 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:29:28,278 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 69.1
+2022-05-27 01:29:28,302 | itj_planning | INFO | Trail #18 | time elapsed 1234.46
+2022-05-27 01:30:32,511 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 147.1
+2022-05-27 01:30:35,813 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:30:35,813 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:30:35,813 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 67.5
+2022-05-27 01:30:35,829 | itj_planning | INFO | Trail #19 | time elapsed 1301.98
+2022-05-27 01:30:38,756 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 01:31:43,803 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:31:43,803 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:31:43,803 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 68.0
+2022-05-27 01:31:43,835 | itj_planning | INFO | Trail #20 | time elapsed 1369.99
+2022-05-27 01:32:54,367 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:32:54,367 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:32:54,367 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 70.5
+2022-05-27 01:32:54,383 | itj_planning | INFO | Trail #21 | time elapsed 1440.54
+2022-05-27 01:34:03,281 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:34:03,281 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:34:03,281 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 68.9
+2022-05-27 01:34:03,313 | itj_planning | INFO | Trail #22 | time elapsed 1509.47
+2022-05-27 01:35:12,239 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:35:12,239 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:35:12,239 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 68.9
+2022-05-27 01:35:12,270 | itj_planning | INFO | Trail #23 | time elapsed 1578.42
+2022-05-27 01:36:20,983 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:36:20,983 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:36:20,983 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 68.7
+2022-05-27 01:36:20,998 | itj_planning | INFO | Trail #24 | time elapsed 1647.15
+2022-05-27 01:36:41,640 | itj_planning | INFO | No plan found for A57_M0 | RoboticFreeMovement(#A57_M0, Free Move to bring Beam ('b6') to approach clamps on structure., has_traj False)
+2022-05-27 01:36:41,640 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:36:41,640 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 362.9
+2022-05-27 01:36:41,671 | itj_planning | INFO | Trail #1 | time elapsed 362.95
+2022-05-27 01:37:28,992 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:37:28,992 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:37:28,992 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 68.0
+2022-05-27 01:37:29,024 | itj_planning | INFO | Trail #25 | time elapsed 1715.18
+2022-05-27 01:38:37,511 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:38:37,511 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:38:37,511 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 68.5
+2022-05-27 01:38:37,527 | itj_planning | INFO | Trail #26 | time elapsed 1783.68
+2022-05-27 01:39:39,908 | itj_planning | INFO | Solved 1 Movements in 178.24 s: ['A57_M0'] 
+2022-05-27 01:39:47,439 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:39:47,439 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:39:47,439 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 69.9
+2022-05-27 01:39:47,455 | itj_planning | INFO | Trail #27 | time elapsed 1853.61
+2022-05-27 01:40:23,615 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 221.9
+2022-05-27 01:40:30,430 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:40:59,167 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:40:59,167 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:40:59,167 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 71.7
+2022-05-27 01:40:59,198 | itj_planning | INFO | Trail #28 | time elapsed 1925.35
+2022-05-27 01:42:07,695 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:42:07,695 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:42:07,695 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 68.5
+2022-05-27 01:42:07,726 | itj_planning | INFO | Trail #29 | time elapsed 1993.88
+2022-05-27 01:42:37,751 | itj_planning | INFO | Solved 1 Movements in 127.32 s: ['A92_M0'] 
+2022-05-27 01:43:16,782 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:43:16,782 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:43:16,782 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 69.1
+2022-05-27 01:43:16,815 | itj_planning | INFO | Trail #30 | time elapsed 2062.97
+2022-05-27 01:44:22,909 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 232.5
+2022-05-27 01:44:25,245 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:44:25,245 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:44:25,245 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 68.4
+2022-05-27 01:44:25,276 | itj_planning | INFO | Trail #31 | time elapsed 2131.43
+2022-05-27 01:44:29,434 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 01:45:36,117 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:45:36,133 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:45:36,133 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 70.9
+2022-05-27 01:45:36,149 | itj_planning | INFO | Trail #32 | time elapsed 2202.30
+2022-05-27 01:46:15,101 | itj_planning | INFO | No plan found for A107_M0 | RoboticFreeMovement(#A107_M0, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-05-27 01:46:15,101 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:46:15,101 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 105.7
+2022-05-27 01:46:15,132 | itj_planning | INFO | Trail #1 | time elapsed 105.73
+2022-05-27 01:46:44,803 | itj_planning | INFO | Solved 1 Movements in 29.67 s: ['A107_M0'] 
+2022-05-27 01:46:45,795 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:46:45,795 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:46:45,795 | itj_planning | INFO | Trail #32 | Plan Failure | Runtime of current attempt: 69.6
+2022-05-27 01:46:45,827 | itj_planning | INFO | Trail #33 | time elapsed 2271.98
+2022-05-27 01:47:31,355 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 76.2
+2022-05-27 01:47:37,824 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:47:55,805 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:47:55,805 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:47:55,805 | itj_planning | INFO | Trail #33 | Plan Failure | Runtime of current attempt: 70.0
+2022-05-27 01:47:55,831 | itj_planning | INFO | Trail #34 | time elapsed 2341.98
+2022-05-27 01:49:04,905 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:49:04,905 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:49:04,905 | itj_planning | INFO | Trail #34 | Plan Failure | Runtime of current attempt: 69.1
+2022-05-27 01:49:04,920 | itj_planning | INFO | Trail #35 | time elapsed 2411.07
+2022-05-27 01:50:13,691 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:50:13,691 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:50:13,691 | itj_planning | INFO | Trail #35 | Plan Failure | Runtime of current attempt: 68.8
+2022-05-27 01:50:13,722 | itj_planning | INFO | Trail #36 | time elapsed 2479.88
+2022-05-27 01:51:23,464 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:51:23,464 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:51:23,464 | itj_planning | INFO | Trail #36 | Plan Failure | Runtime of current attempt: 69.7
+2022-05-27 01:51:23,495 | itj_planning | INFO | Trail #37 | time elapsed 2549.65
+2022-05-27 01:51:58,463 | itj_planning | INFO | No plan found for A114_M0 | RoboticFreeMovement(#A114_M0, Free Move to bring Beam ('b9') to approach clamps on structure., has_traj False)
+2022-05-27 01:51:58,463 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:51:58,463 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 260.6
+2022-05-27 01:51:58,495 | itj_planning | INFO | Trail #1 | time elapsed 260.69
+2022-05-27 01:52:33,197 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:52:33,198 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:52:33,198 | itj_planning | INFO | Trail #37 | Plan Failure | Runtime of current attempt: 69.7
+2022-05-27 01:52:33,222 | itj_planning | INFO | Trail #38 | time elapsed 2619.37
+2022-05-27 01:53:24,546 | itj_planning | INFO | Solved 1 Movements in 86.05 s: ['A114_M0'] 
+2022-05-27 01:53:41,854 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:53:41,854 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:53:41,854 | itj_planning | INFO | Trail #38 | Plan Failure | Runtime of current attempt: 68.6
+2022-05-27 01:53:41,885 | itj_planning | INFO | Trail #39 | time elapsed 2688.04
+2022-05-27 01:54:50,191 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 171.7
+2022-05-27 01:54:50,834 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:54:50,834 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:54:50,834 | itj_planning | INFO | Trail #39 | Plan Failure | Runtime of current attempt: 68.9
+2022-05-27 01:54:50,850 | itj_planning | INFO | Trail #40 | time elapsed 2757.00
+2022-05-27 01:54:57,112 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:55:00,427 | itj_planning | INFO | Solved 1 Movements in 3.32 s: ['A139_M0'] 
+2022-05-27 01:55:25,880 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 28.8
+2022-05-27 01:55:32,733 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 01:56:01,373 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:56:01,373 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:56:01,373 | itj_planning | INFO | Trail #40 | Plan Failure | Runtime of current attempt: 70.5
+2022-05-27 01:56:01,404 | itj_planning | INFO | Trail #41 | time elapsed 2827.56
+2022-05-27 01:57:10,595 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:57:10,595 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:57:10,611 | itj_planning | INFO | Trail #41 | Plan Failure | Runtime of current attempt: 69.2
+2022-05-27 01:57:10,626 | itj_planning | INFO | Trail #42 | time elapsed 2896.78
+2022-05-27 01:58:19,714 | itj_planning | INFO | Solved 1 Movements in 166.98 s: ['A209_M0'] 
+2022-05-27 01:58:19,935 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:58:19,935 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:58:19,935 | itj_planning | INFO | Trail #42 | Plan Failure | Runtime of current attempt: 69.3
+2022-05-27 01:58:19,967 | itj_planning | INFO | Trail #43 | time elapsed 2966.12
+2022-05-27 01:59:29,016 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 01:59:29,016 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 01:59:29,016 | itj_planning | INFO | Trail #43 | Plan Failure | Runtime of current attempt: 69.0
+2022-05-27 01:59:29,031 | itj_planning | INFO | Trail #44 | time elapsed 3035.18
+2022-05-27 02:00:54,842 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:00:54,842 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:00:54,842 | itj_planning | INFO | Trail #44 | Plan Failure | Runtime of current attempt: 85.8
+2022-05-27 02:00:54,857 | itj_planning | INFO | Trail #45 | time elapsed 3121.01
+2022-05-27 02:01:20,278 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 347.5
+2022-05-27 02:01:20,278 | itj_planning | INFO | Planning done.
+2022-05-27 02:01:20,278 | itj_planning | INFO | 10 of 10 Movements planned successfully.
+2022-05-27 02:01:20,278 | itj_planning | INFO | Failed movements: 
+2022-05-27 02:02:00,445 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:02:00,445 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:02:00,445 | itj_planning | INFO | Trail #45 | Plan Failure | Runtime of current attempt: 65.6
+2022-05-27 02:02:00,461 | itj_planning | INFO | Trail #46 | time elapsed 3186.61
+2022-05-27 02:03:04,650 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:03:04,666 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:03:04,666 | itj_planning | INFO | Trail #46 | Plan Failure | Runtime of current attempt: 64.2
+2022-05-27 02:03:04,681 | itj_planning | INFO | Trail #47 | time elapsed 3250.83
+2022-05-27 02:04:09,248 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:04:09,248 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:04:09,248 | itj_planning | INFO | Trail #47 | Plan Failure | Runtime of current attempt: 64.6
+2022-05-27 02:04:09,279 | itj_planning | INFO | Trail #48 | time elapsed 3315.43
+2022-05-27 02:05:13,627 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:05:13,627 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:05:13,627 | itj_planning | INFO | Trail #48 | Plan Failure | Runtime of current attempt: 64.3
+2022-05-27 02:05:13,658 | itj_planning | INFO | Trail #49 | time elapsed 3379.81
+2022-05-27 02:06:17,872 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:06:17,872 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:06:17,872 | itj_planning | INFO | Trail #49 | Plan Failure | Runtime of current attempt: 64.2
+2022-05-27 02:06:17,904 | itj_planning | INFO | Trail #50 | time elapsed 3444.06
+2022-05-27 02:07:21,680 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:07:21,680 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:07:21,680 | itj_planning | INFO | Trail #50 | Plan Failure | Runtime of current attempt: 63.8
+2022-05-27 02:07:21,696 | itj_planning | INFO | Trail #51 | time elapsed 3507.85
+2022-05-27 02:08:25,962 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:08:25,962 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:08:25,962 | itj_planning | INFO | Trail #51 | Plan Failure | Runtime of current attempt: 64.3
+2022-05-27 02:08:25,993 | itj_planning | INFO | Trail #52 | time elapsed 3572.15
+2022-05-27 02:09:30,078 | itj_planning | INFO | No plan found for A150_M0 | RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False)
+2022-05-27 02:09:30,078 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:09:30,078 | itj_planning | INFO | Trail #52 | Plan Failure | Runtime of current attempt: 64.1
+2022-05-27 02:09:30,078 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 3601.32.
+2022-05-27 02:09:30,078 | itj_planning | ERROR | Free movement group #0/7 fails, which contains ['A150_M0']
+2022-05-27 02:09:36,363 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 02:10:43,622 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:10:43,622 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:10:43,622 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 67.3
+2022-05-27 02:10:43,653 | itj_planning | INFO | Trail #1 | time elapsed 67.31
+2022-05-27 02:11:52,342 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:11:52,342 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:11:52,342 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 68.7
+2022-05-27 02:11:52,369 | itj_planning | INFO | Trail #2 | time elapsed 136.02
+2022-05-27 02:12:59,740 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:12:59,740 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:12:59,740 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 67.4
+2022-05-27 02:12:59,771 | itj_planning | INFO | Trail #3 | time elapsed 203.42
+2022-05-27 02:14:06,930 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:14:06,930 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:14:06,930 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 67.2
+2022-05-27 02:14:06,961 | itj_planning | INFO | Trail #4 | time elapsed 270.61
+2022-05-27 02:15:14,355 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:15:14,355 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:15:14,355 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 67.4
+2022-05-27 02:15:14,371 | itj_planning | INFO | Trail #5 | time elapsed 338.02
+2022-05-27 02:16:24,363 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:16:24,363 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:16:24,363 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 70.0
+2022-05-27 02:16:24,379 | itj_planning | INFO | Trail #6 | time elapsed 408.03
+2022-05-27 02:17:38,638 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:17:38,638 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:17:38,638 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 74.3
+2022-05-27 02:17:38,654 | itj_planning | INFO | Trail #7 | time elapsed 482.31
+2022-05-27 02:18:53,887 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:18:53,887 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:18:53,887 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 75.2
+2022-05-27 02:18:53,903 | itj_planning | INFO | Trail #8 | time elapsed 557.56
+2022-05-27 02:20:02,313 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:20:02,313 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:20:02,313 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 68.4
+2022-05-27 02:20:02,328 | itj_planning | INFO | Trail #9 | time elapsed 625.98
+2022-05-27 02:21:20,492 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:21:20,492 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:21:20,492 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 78.2
+2022-05-27 02:21:20,523 | itj_planning | INFO | Trail #10 | time elapsed 704.18
+2022-05-27 02:22:35,866 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:22:35,866 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:22:35,866 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 75.3
+2022-05-27 02:22:35,890 | itj_planning | INFO | Trail #11 | time elapsed 779.54
+2022-05-27 02:23:54,157 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:23:54,157 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:23:54,157 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 78.3
+2022-05-27 02:23:54,172 | itj_planning | INFO | Trail #12 | time elapsed 857.83
+2022-05-27 02:25:17,012 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:25:17,012 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:25:17,012 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 82.8
+2022-05-27 02:25:17,028 | itj_planning | INFO | Trail #13 | time elapsed 940.68
+2022-05-27 02:26:27,220 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:26:27,220 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:26:27,220 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 70.2
+2022-05-27 02:26:27,236 | itj_planning | INFO | Trail #14 | time elapsed 1010.89
+2022-05-27 02:27:45,340 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:27:45,340 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:27:45,340 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 78.1
+2022-05-27 02:27:45,371 | itj_planning | INFO | Trail #15 | time elapsed 1089.02
+2022-05-27 02:29:20,662 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:29:20,662 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:29:20,662 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 95.3
+2022-05-27 02:29:20,694 | itj_planning | INFO | Trail #16 | time elapsed 1184.35
+2022-05-27 02:30:55,439 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:30:55,439 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:30:55,439 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 94.7
+2022-05-27 02:30:55,471 | itj_planning | INFO | Trail #17 | time elapsed 1279.12
+2022-05-27 02:32:31,935 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:32:31,935 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:32:31,935 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 96.5
+2022-05-27 02:32:31,951 | itj_planning | INFO | Trail #18 | time elapsed 1375.60
+2022-05-27 02:34:03,712 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:34:03,712 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:34:03,712 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 91.8
+2022-05-27 02:34:03,744 | itj_planning | INFO | Trail #19 | time elapsed 1467.40
+2022-05-27 02:35:21,205 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:35:21,205 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:35:21,205 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 77.5
+2022-05-27 02:35:21,221 | itj_planning | INFO | Trail #20 | time elapsed 1544.87
+2022-05-27 02:36:38,194 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:36:38,194 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:36:38,194 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 77.0
+2022-05-27 02:36:38,225 | itj_planning | INFO | Trail #21 | time elapsed 1621.88
+2022-05-27 02:38:02,888 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:38:02,888 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:38:02,888 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 84.7
+2022-05-27 02:38:02,919 | itj_planning | INFO | Trail #22 | time elapsed 1706.57
+2022-05-27 02:39:32,007 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:39:32,007 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:39:32,007 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 89.1
+2022-05-27 02:39:32,023 | itj_planning | INFO | Trail #23 | time elapsed 1795.68
+2022-05-27 02:40:51,687 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:40:51,703 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:40:51,703 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 79.7
+2022-05-27 02:40:51,718 | itj_planning | INFO | Trail #24 | time elapsed 1875.37
+2022-05-27 02:42:04,087 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:42:04,087 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:42:04,087 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 72.4
+2022-05-27 02:42:04,118 | itj_planning | INFO | Trail #25 | time elapsed 1947.77
+2022-05-27 02:43:17,113 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:43:17,113 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:43:17,113 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 73.0
+2022-05-27 02:43:17,142 | itj_planning | INFO | Trail #26 | time elapsed 2020.79
+2022-05-27 02:44:27,723 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:44:27,723 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:44:27,724 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 70.6
+2022-05-27 02:44:27,739 | itj_planning | INFO | Trail #27 | time elapsed 2091.39
+2022-05-27 02:45:38,750 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:45:38,765 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:45:38,765 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 71.0
+2022-05-27 02:45:38,797 | itj_planning | INFO | Trail #28 | time elapsed 2162.45
+2022-05-27 02:46:49,964 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:46:49,964 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:46:49,964 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 71.2
+2022-05-27 02:46:49,980 | itj_planning | INFO | Trail #29 | time elapsed 2233.63
+2022-05-27 02:48:11,276 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:48:11,277 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:48:11,277 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 81.3
+2022-05-27 02:48:11,300 | itj_planning | INFO | Trail #30 | time elapsed 2314.95
+2022-05-27 02:49:22,153 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:49:22,153 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:49:22,153 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 70.9
+2022-05-27 02:49:22,185 | itj_planning | INFO | Trail #31 | time elapsed 2385.84
+2022-05-27 02:50:50,201 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:50:50,202 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:50:50,202 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 88.0
+2022-05-27 02:50:50,227 | itj_planning | INFO | Trail #32 | time elapsed 2473.88
+2022-05-27 02:52:09,210 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:52:09,210 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:52:09,210 | itj_planning | INFO | Trail #32 | Plan Failure | Runtime of current attempt: 79.0
+2022-05-27 02:52:09,226 | itj_planning | INFO | Trail #33 | time elapsed 2552.88
+2022-05-27 02:53:20,383 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:53:20,383 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:53:20,383 | itj_planning | INFO | Trail #33 | Plan Failure | Runtime of current attempt: 71.2
+2022-05-27 02:53:20,414 | itj_planning | INFO | Trail #34 | time elapsed 2624.07
+2022-05-27 02:54:32,612 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:54:32,612 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:54:32,612 | itj_planning | INFO | Trail #34 | Plan Failure | Runtime of current attempt: 72.2
+2022-05-27 02:54:32,627 | itj_planning | INFO | Trail #35 | time elapsed 2696.28
+2022-05-27 02:56:01,051 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:56:01,051 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:56:01,051 | itj_planning | INFO | Trail #35 | Plan Failure | Runtime of current attempt: 88.4
+2022-05-27 02:56:01,067 | itj_planning | INFO | Trail #36 | time elapsed 2784.72
+2022-05-27 02:57:12,322 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:57:12,322 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:57:12,322 | itj_planning | INFO | Trail #36 | Plan Failure | Runtime of current attempt: 71.3
+2022-05-27 02:57:12,353 | itj_planning | INFO | Trail #37 | time elapsed 2856.01
+2022-05-27 02:58:31,212 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:58:31,212 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:58:31,212 | itj_planning | INFO | Trail #37 | Plan Failure | Runtime of current attempt: 78.9
+2022-05-27 02:58:31,227 | itj_planning | INFO | Trail #38 | time elapsed 2934.88
+2022-05-27 02:59:49,958 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 02:59:49,958 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 02:59:49,958 | itj_planning | INFO | Trail #38 | Plan Failure | Runtime of current attempt: 78.7
+2022-05-27 02:59:49,974 | itj_planning | INFO | Trail #39 | time elapsed 3013.63
+2022-05-27 03:01:01,502 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:01:01,502 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:01:01,502 | itj_planning | INFO | Trail #39 | Plan Failure | Runtime of current attempt: 71.5
+2022-05-27 03:01:01,518 | itj_planning | INFO | Trail #40 | time elapsed 3085.17
+2022-05-27 03:02:15,445 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:02:15,445 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:02:15,445 | itj_planning | INFO | Trail #40 | Plan Failure | Runtime of current attempt: 73.9
+2022-05-27 03:02:15,477 | itj_planning | INFO | Trail #41 | time elapsed 3159.13
+2022-05-27 03:03:34,763 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:03:34,763 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:03:34,763 | itj_planning | INFO | Trail #41 | Plan Failure | Runtime of current attempt: 79.3
+2022-05-27 03:03:34,779 | itj_planning | INFO | Trail #42 | time elapsed 3238.43
+2022-05-27 03:05:09,866 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:05:09,866 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:05:09,866 | itj_planning | INFO | Trail #42 | Plan Failure | Runtime of current attempt: 95.1
+2022-05-27 03:05:09,897 | itj_planning | INFO | Trail #43 | time elapsed 3333.55
+2022-05-27 03:06:29,665 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:06:29,665 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:06:29,665 | itj_planning | INFO | Trail #43 | Plan Failure | Runtime of current attempt: 79.8
+2022-05-27 03:06:29,696 | itj_planning | INFO | Trail #44 | time elapsed 3413.35
+2022-05-27 03:07:43,671 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:07:43,671 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:07:43,671 | itj_planning | INFO | Trail #44 | Plan Failure | Runtime of current attempt: 74.0
+2022-05-27 03:07:43,686 | itj_planning | INFO | Trail #45 | time elapsed 3487.34
+2022-05-27 03:08:55,747 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:08:55,762 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:08:55,762 | itj_planning | INFO | Trail #45 | Plan Failure | Runtime of current attempt: 72.1
+2022-05-27 03:08:55,778 | itj_planning | INFO | Trail #46 | time elapsed 3559.43
+2022-05-27 03:10:21,904 | itj_planning | INFO | No plan found for A155_M0 | RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False)
+2022-05-27 03:10:21,904 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:10:21,904 | itj_planning | INFO | Trail #46 | Plan Failure | Runtime of current attempt: 86.1
+2022-05-27 03:10:21,904 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 3601.01.
+2022-05-27 03:10:21,904 | itj_planning | ERROR | Free movement group #1/7 fails, which contains ['A155_M0']
+2022-05-27 03:10:28,503 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 03:11:56,010 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:11:56,010 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:11:56,011 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 87.5
+2022-05-27 03:11:56,035 | itj_planning | INFO | Trail #1 | time elapsed 87.55
+2022-05-27 03:13:22,170 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:13:22,170 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:13:22,170 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 86.1
+2022-05-27 03:13:22,185 | itj_planning | INFO | Trail #2 | time elapsed 173.70
+2022-05-27 03:14:47,611 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:14:47,611 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:14:47,611 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 85.4
+2022-05-27 03:14:47,642 | itj_planning | INFO | Trail #3 | time elapsed 259.16
+2022-05-27 03:16:14,489 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:16:14,489 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:16:14,490 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 86.8
+2022-05-27 03:16:14,514 | itj_planning | INFO | Trail #4 | time elapsed 346.03
+2022-05-27 03:17:41,212 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:17:41,212 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:17:41,212 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 86.7
+2022-05-27 03:17:41,246 | itj_planning | INFO | Trail #5 | time elapsed 432.76
+2022-05-27 03:19:08,334 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:19:08,334 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:19:08,334 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 87.1
+2022-05-27 03:19:08,365 | itj_planning | INFO | Trail #6 | time elapsed 519.88
+2022-05-27 03:20:34,109 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:20:34,109 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:20:34,109 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 85.7
+2022-05-27 03:20:34,140 | itj_planning | INFO | Trail #7 | time elapsed 605.65
+2022-05-27 03:22:04,582 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:22:04,582 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:22:04,582 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 90.4
+2022-05-27 03:22:04,613 | itj_planning | INFO | Trail #8 | time elapsed 696.13
+2022-05-27 03:23:26,273 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:23:26,273 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:23:26,273 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 81.7
+2022-05-27 03:23:26,303 | itj_planning | INFO | Trail #9 | time elapsed 777.82
+2022-05-27 03:24:48,331 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:24:48,331 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:24:48,331 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 82.0
+2022-05-27 03:24:48,362 | itj_planning | INFO | Trail #10 | time elapsed 859.87
+2022-05-27 03:26:07,969 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:26:07,969 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:26:07,969 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 79.6
+2022-05-27 03:26:08,000 | itj_planning | INFO | Trail #11 | time elapsed 939.51
+2022-05-27 03:27:28,365 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:27:28,365 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:27:28,365 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 80.4
+2022-05-27 03:27:28,381 | itj_planning | INFO | Trail #12 | time elapsed 1019.89
+2022-05-27 03:28:47,023 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:28:47,023 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:28:47,023 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 78.6
+2022-05-27 03:28:47,039 | itj_planning | INFO | Trail #13 | time elapsed 1098.55
+2022-05-27 03:30:07,080 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:30:07,080 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:30:07,080 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 80.0
+2022-05-27 03:30:07,096 | itj_planning | INFO | Trail #14 | time elapsed 1178.61
+2022-05-27 03:31:24,227 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:31:24,227 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:31:24,227 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-27 03:31:24,242 | itj_planning | INFO | Trail #15 | time elapsed 1255.76
+2022-05-27 03:32:44,898 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:32:44,898 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:32:44,898 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 80.7
+2022-05-27 03:32:44,929 | itj_planning | INFO | Trail #16 | time elapsed 1336.44
+2022-05-27 03:34:05,647 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:34:05,647 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:34:05,647 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 80.7
+2022-05-27 03:34:05,678 | itj_planning | INFO | Trail #17 | time elapsed 1417.19
+2022-05-27 03:35:22,476 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:35:22,476 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:35:22,476 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 76.8
+2022-05-27 03:35:22,492 | itj_planning | INFO | Trail #18 | time elapsed 1494.00
+2022-05-27 03:36:39,090 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:36:39,090 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:36:39,090 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 76.6
+2022-05-27 03:36:39,122 | itj_planning | INFO | Trail #19 | time elapsed 1570.63
+2022-05-27 03:37:55,728 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:37:55,728 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:37:55,728 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 76.6
+2022-05-27 03:37:55,759 | itj_planning | INFO | Trail #20 | time elapsed 1647.27
+2022-05-27 03:39:12,741 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:39:12,741 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:39:12,741 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 77.0
+2022-05-27 03:39:12,771 | itj_planning | INFO | Trail #21 | time elapsed 1724.28
+2022-05-27 03:40:30,802 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:40:30,802 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:40:30,802 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 78.0
+2022-05-27 03:40:30,833 | itj_planning | INFO | Trail #22 | time elapsed 1802.35
+2022-05-27 03:41:49,148 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:41:49,148 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:41:49,148 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 78.3
+2022-05-27 03:41:49,179 | itj_planning | INFO | Trail #23 | time elapsed 1880.69
+2022-05-27 03:43:06,602 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:43:06,602 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:43:06,602 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 77.4
+2022-05-27 03:43:06,618 | itj_planning | INFO | Trail #24 | time elapsed 1958.13
+2022-05-27 03:44:23,192 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:44:23,192 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:44:23,192 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 76.6
+2022-05-27 03:44:23,208 | itj_planning | INFO | Trail #25 | time elapsed 2034.72
+2022-05-27 03:45:40,718 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:45:40,718 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:45:40,718 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 77.5
+2022-05-27 03:45:40,749 | itj_planning | INFO | Trail #26 | time elapsed 2112.26
+2022-05-27 03:46:57,431 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:46:57,431 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:46:57,431 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 76.7
+2022-05-27 03:46:57,459 | itj_planning | INFO | Trail #27 | time elapsed 2188.97
+2022-05-27 03:48:14,195 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:48:14,195 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:48:14,195 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 76.7
+2022-05-27 03:48:14,227 | itj_planning | INFO | Trail #28 | time elapsed 2265.74
+2022-05-27 03:49:30,873 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:49:30,873 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:49:30,873 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 76.6
+2022-05-27 03:49:30,904 | itj_planning | INFO | Trail #29 | time elapsed 2342.42
+2022-05-27 03:50:47,731 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:50:47,731 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:50:47,731 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 76.8
+2022-05-27 03:50:47,762 | itj_planning | INFO | Trail #30 | time elapsed 2419.28
+2022-05-27 03:52:04,855 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:52:04,855 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:52:04,855 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-27 03:52:04,886 | itj_planning | INFO | Trail #31 | time elapsed 2496.40
+2022-05-27 03:53:23,835 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:53:23,835 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:53:23,835 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 78.9
+2022-05-27 03:53:23,851 | itj_planning | INFO | Trail #32 | time elapsed 2575.36
+2022-05-27 03:54:41,203 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:54:41,203 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:54:41,204 | itj_planning | INFO | Trail #32 | Plan Failure | Runtime of current attempt: 77.4
+2022-05-27 03:54:41,227 | itj_planning | INFO | Trail #33 | time elapsed 2652.74
+2022-05-27 03:55:58,227 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:55:58,227 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:55:58,227 | itj_planning | INFO | Trail #33 | Plan Failure | Runtime of current attempt: 77.0
+2022-05-27 03:55:58,242 | itj_planning | INFO | Trail #34 | time elapsed 2729.76
+2022-05-27 03:57:15,366 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:57:15,366 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:57:15,366 | itj_planning | INFO | Trail #34 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-27 03:57:15,382 | itj_planning | INFO | Trail #35 | time elapsed 2806.89
+2022-05-27 03:58:35,394 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:58:35,409 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:58:35,409 | itj_planning | INFO | Trail #35 | Plan Failure | Runtime of current attempt: 80.0
+2022-05-27 03:58:35,432 | itj_planning | INFO | Trail #36 | time elapsed 2886.95
+2022-05-27 03:59:52,346 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 03:59:52,346 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 03:59:52,346 | itj_planning | INFO | Trail #36 | Plan Failure | Runtime of current attempt: 76.9
+2022-05-27 03:59:52,377 | itj_planning | INFO | Trail #37 | time elapsed 2963.89
+2022-05-27 04:01:09,218 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:01:09,218 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:01:09,218 | itj_planning | INFO | Trail #37 | Plan Failure | Runtime of current attempt: 76.8
+2022-05-27 04:01:09,233 | itj_planning | INFO | Trail #38 | time elapsed 3040.75
+2022-05-27 04:02:26,615 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:02:26,615 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:02:26,630 | itj_planning | INFO | Trail #38 | Plan Failure | Runtime of current attempt: 77.4
+2022-05-27 04:02:26,646 | itj_planning | INFO | Trail #39 | time elapsed 3118.16
+2022-05-27 04:04:04,156 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:04:04,156 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:04:04,156 | itj_planning | INFO | Trail #39 | Plan Failure | Runtime of current attempt: 97.5
+2022-05-27 04:04:04,187 | itj_planning | INFO | Trail #40 | time elapsed 3215.70
+2022-05-27 04:05:22,597 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:05:22,597 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:05:22,597 | itj_planning | INFO | Trail #40 | Plan Failure | Runtime of current attempt: 78.4
+2022-05-27 04:05:22,628 | itj_planning | INFO | Trail #41 | time elapsed 3294.14
+2022-05-27 04:06:40,318 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:06:40,318 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:06:40,318 | itj_planning | INFO | Trail #41 | Plan Failure | Runtime of current attempt: 77.7
+2022-05-27 04:06:40,334 | itj_planning | INFO | Trail #42 | time elapsed 3371.85
+2022-05-27 04:07:57,020 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:07:57,020 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:07:57,020 | itj_planning | INFO | Trail #42 | Plan Failure | Runtime of current attempt: 76.7
+2022-05-27 04:07:57,051 | itj_planning | INFO | Trail #43 | time elapsed 3448.56
+2022-05-27 04:09:14,350 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:09:14,350 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:09:14,350 | itj_planning | INFO | Trail #43 | Plan Failure | Runtime of current attempt: 77.3
+2022-05-27 04:09:14,382 | itj_planning | INFO | Trail #44 | time elapsed 3525.89
+2022-05-27 04:10:31,472 | itj_planning | INFO | No plan found for A158_M0 | RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False)
+2022-05-27 04:10:31,472 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 04:10:31,472 | itj_planning | INFO | Trail #44 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-27 04:10:31,472 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 3601.04.
+2022-05-27 04:10:31,472 | itj_planning | ERROR | Free movement group #2/7 fails, which contains ['A158_M0']
+2022-05-27 04:10:37,289 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 04:12:25,461 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:12:25,461 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:12:25,461 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 108.2
+2022-05-27 04:12:25,492 | itj_planning | INFO | Trail #1 | time elapsed 108.23
+2022-05-27 04:14:29,748 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:14:29,748 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:14:29,748 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 124.3
+2022-05-27 04:14:29,779 | itj_planning | INFO | Trail #2 | time elapsed 232.52
+2022-05-27 04:16:20,281 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:16:20,281 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:16:20,281 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 110.5
+2022-05-27 04:16:20,296 | itj_planning | INFO | Trail #3 | time elapsed 343.04
+2022-05-27 04:18:16,838 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:18:16,838 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:18:16,838 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 116.5
+2022-05-27 04:18:16,854 | itj_planning | INFO | Trail #4 | time elapsed 459.60
+2022-05-27 04:20:05,841 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:20:05,841 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:20:05,841 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 109.0
+2022-05-27 04:20:05,856 | itj_planning | INFO | Trail #5 | time elapsed 568.60
+2022-05-27 04:21:49,169 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:21:49,169 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:21:49,169 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 103.3
+2022-05-27 04:21:49,200 | itj_planning | INFO | Trail #6 | time elapsed 671.94
+2022-05-27 04:23:45,375 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:23:45,375 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:23:45,375 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 116.2
+2022-05-27 04:23:45,391 | itj_planning | INFO | Trail #7 | time elapsed 788.13
+2022-05-27 04:25:33,607 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:25:33,622 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:25:33,622 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 108.2
+2022-05-27 04:25:33,638 | itj_planning | INFO | Trail #8 | time elapsed 896.38
+2022-05-27 04:27:31,263 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:27:31,279 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:27:31,279 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 117.6
+2022-05-27 04:27:31,303 | itj_planning | INFO | Trail #9 | time elapsed 1014.04
+2022-05-27 04:29:28,182 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:29:28,182 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:29:28,182 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 116.9
+2022-05-27 04:29:28,214 | itj_planning | INFO | Trail #10 | time elapsed 1130.96
+2022-05-27 04:31:17,288 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:31:17,288 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:31:17,288 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 109.1
+2022-05-27 04:31:17,319 | itj_planning | INFO | Trail #11 | time elapsed 1240.06
+2022-05-27 04:33:03,093 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:33:03,093 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:33:03,093 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 105.8
+2022-05-27 04:33:03,108 | itj_planning | INFO | Trail #12 | time elapsed 1345.85
+2022-05-27 04:34:47,042 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:34:47,042 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:34:47,042 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 103.9
+2022-05-27 04:34:47,058 | itj_planning | INFO | Trail #13 | time elapsed 1449.80
+2022-05-27 04:36:36,502 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:36:36,502 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:36:36,502 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 109.4
+2022-05-27 04:36:36,518 | itj_planning | INFO | Trail #14 | time elapsed 1559.26
+2022-05-27 04:38:37,762 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:38:37,762 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:38:37,762 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 121.2
+2022-05-27 04:38:37,793 | itj_planning | INFO | Trail #15 | time elapsed 1680.54
+2022-05-27 04:40:27,838 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:40:27,838 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:40:27,838 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 110.0
+2022-05-27 04:40:27,861 | itj_planning | INFO | Trail #16 | time elapsed 1790.60
+2022-05-27 04:42:25,085 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:42:25,085 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:42:25,085 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 117.2
+2022-05-27 04:42:25,101 | itj_planning | INFO | Trail #17 | time elapsed 1907.84
+2022-05-27 04:44:20,679 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:44:20,679 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:44:20,679 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 115.6
+2022-05-27 04:44:20,710 | itj_planning | INFO | Trail #18 | time elapsed 2023.45
+2022-05-27 04:46:37,009 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:46:37,009 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:46:37,009 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 136.3
+2022-05-27 04:46:37,040 | itj_planning | INFO | Trail #19 | time elapsed 2159.78
+2022-05-27 04:48:26,588 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:48:26,588 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:48:26,588 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 109.5
+2022-05-27 04:48:26,619 | itj_planning | INFO | Trail #20 | time elapsed 2269.36
+2022-05-27 04:50:13,580 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:50:13,580 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:50:13,580 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 107.0
+2022-05-27 04:50:13,596 | itj_planning | INFO | Trail #21 | time elapsed 2376.34
+2022-05-27 04:52:05,836 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:52:05,836 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:52:05,836 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 112.2
+2022-05-27 04:52:05,867 | itj_planning | INFO | Trail #22 | time elapsed 2488.61
+2022-05-27 04:54:06,102 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:54:06,102 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:54:06,102 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 120.2
+2022-05-27 04:54:06,133 | itj_planning | INFO | Trail #23 | time elapsed 2608.88
+2022-05-27 04:55:49,597 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:55:49,597 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:55:49,597 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 103.5
+2022-05-27 04:55:49,612 | itj_planning | INFO | Trail #24 | time elapsed 2712.35
+2022-05-27 04:57:59,023 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:57:59,023 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:57:59,023 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 129.4
+2022-05-27 04:57:59,055 | itj_planning | INFO | Trail #25 | time elapsed 2841.80
+2022-05-27 04:59:57,859 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 04:59:57,859 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 04:59:57,859 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 118.8
+2022-05-27 04:59:57,890 | itj_planning | INFO | Trail #26 | time elapsed 2960.63
+2022-05-27 05:01:48,975 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:01:48,975 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:01:48,975 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 111.1
+2022-05-27 05:01:49,007 | itj_planning | INFO | Trail #27 | time elapsed 3071.75
+2022-05-27 05:03:33,485 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:03:33,485 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:03:33,485 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 104.5
+2022-05-27 05:03:33,517 | itj_planning | INFO | Trail #28 | time elapsed 3176.26
+2022-05-27 05:05:35,862 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:05:35,862 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:05:35,862 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 122.3
+2022-05-27 05:05:35,878 | itj_planning | INFO | Trail #29 | time elapsed 3298.62
+2022-05-27 05:07:21,168 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:07:21,168 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:07:21,168 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 105.3
+2022-05-27 05:07:21,199 | itj_planning | INFO | Trail #30 | time elapsed 3403.94
+2022-05-27 05:09:18,034 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:09:18,034 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:09:18,034 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 116.8
+2022-05-27 05:09:18,066 | itj_planning | INFO | Trail #31 | time elapsed 3520.81
+2022-05-27 05:11:16,644 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-05-27 05:11:16,660 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-05-27 05:11:16,660 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 118.6
+2022-05-27 05:11:16,660 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 3600.72.
+2022-05-27 05:11:16,660 | itj_planning | ERROR | Free movement group #3/7 fails, which contains ['A163_M0']
+2022-05-27 05:11:22,472 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 05:12:41,485 | itj_planning | INFO | No plan found for A165_M0 | RoboticFreeMovement(#A165_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False)
+2022-05-27 05:12:41,485 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:12:41,485 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 79.0
+2022-05-27 05:12:41,516 | itj_planning | INFO | Trail #1 | time elapsed 79.08
+2022-05-27 05:13:40,761 | itj_planning | INFO | Solved 1 Movements in 59.24 s: ['A165_M0'] 
+2022-05-27 05:14:16,329 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 94.8
+2022-05-27 05:14:22,113 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-05-27 05:15:36,614 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:15:36,614 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:15:36,614 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 74.5
+2022-05-27 05:15:36,645 | itj_planning | INFO | Trail #1 | time elapsed 74.56
+2022-05-27 05:16:51,259 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:16:51,259 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:16:51,259 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 74.6
+2022-05-27 05:16:51,275 | itj_planning | INFO | Trail #2 | time elapsed 149.19
+2022-05-27 05:18:05,052 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:18:05,052 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:18:05,052 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 73.8
+2022-05-27 05:18:05,083 | itj_planning | INFO | Trail #3 | time elapsed 223.00
+2022-05-27 05:19:28,077 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:19:28,077 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:19:28,077 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 83.0
+2022-05-27 05:19:28,108 | itj_planning | INFO | Trail #4 | time elapsed 306.03
+2022-05-27 05:20:42,952 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:20:42,952 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:20:42,952 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 74.8
+2022-05-27 05:20:42,984 | itj_planning | INFO | Trail #5 | time elapsed 380.90
+2022-05-27 05:22:00,155 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:22:00,155 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:22:00,155 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 77.2
+2022-05-27 05:22:00,186 | itj_planning | INFO | Trail #6 | time elapsed 458.10
+2022-05-27 05:23:18,883 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:23:18,883 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:23:18,899 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 78.7
+2022-05-27 05:23:18,915 | itj_planning | INFO | Trail #7 | time elapsed 536.83
+2022-05-27 05:24:35,230 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:24:35,230 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:24:35,230 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 76.3
+2022-05-27 05:24:35,246 | itj_planning | INFO | Trail #8 | time elapsed 613.16
+2022-05-27 05:25:53,187 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:25:53,187 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:25:53,187 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 77.9
+2022-05-27 05:25:53,203 | itj_planning | INFO | Trail #9 | time elapsed 691.12
+2022-05-27 05:27:10,869 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:27:10,869 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:27:10,869 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 77.7
+2022-05-27 05:27:10,885 | itj_planning | INFO | Trail #10 | time elapsed 768.80
+2022-05-27 05:28:31,852 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:28:31,852 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:28:31,852 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 81.0
+2022-05-27 05:28:31,868 | itj_planning | INFO | Trail #11 | time elapsed 849.79
+2022-05-27 05:29:46,014 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:29:46,014 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:29:46,014 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 74.1
+2022-05-27 05:29:46,046 | itj_planning | INFO | Trail #12 | time elapsed 923.96
+2022-05-27 05:30:58,427 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:30:58,427 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:30:58,427 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 72.4
+2022-05-27 05:30:58,442 | itj_planning | INFO | Trail #13 | time elapsed 996.36
+2022-05-27 05:32:13,914 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:32:13,914 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:32:13,914 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 75.5
+2022-05-27 05:32:13,946 | itj_planning | INFO | Trail #14 | time elapsed 1071.86
+2022-05-27 05:33:32,898 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:33:32,898 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:33:32,898 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 79.0
+2022-05-27 05:33:32,929 | itj_planning | INFO | Trail #15 | time elapsed 1150.85
+2022-05-27 05:34:47,753 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:34:47,753 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:34:47,753 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 74.8
+2022-05-27 05:34:47,769 | itj_planning | INFO | Trail #16 | time elapsed 1225.69
+2022-05-27 05:36:04,401 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:36:04,401 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:36:04,401 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 76.6
+2022-05-27 05:36:04,432 | itj_planning | INFO | Trail #17 | time elapsed 1302.35
+2022-05-27 05:37:20,595 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:37:20,611 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:37:20,611 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 76.2
+2022-05-27 05:37:20,626 | itj_planning | INFO | Trail #18 | time elapsed 1378.54
+2022-05-27 05:38:35,903 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:38:35,903 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:38:35,903 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 75.3
+2022-05-27 05:38:35,934 | itj_planning | INFO | Trail #19 | time elapsed 1453.85
+2022-05-27 05:39:51,962 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:39:51,962 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:39:51,962 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 76.0
+2022-05-27 05:39:51,978 | itj_planning | INFO | Trail #20 | time elapsed 1529.90
+2022-05-27 05:41:08,835 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:41:08,835 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:41:08,835 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 76.8
+2022-05-27 05:41:08,867 | itj_planning | INFO | Trail #21 | time elapsed 1606.78
+2022-05-27 05:42:20,337 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:42:20,337 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:42:20,337 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 71.5
+2022-05-27 05:42:20,353 | itj_planning | INFO | Trail #22 | time elapsed 1678.27
+2022-05-27 05:43:34,899 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:43:34,899 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:43:34,899 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 74.5
+2022-05-27 05:43:34,930 | itj_planning | INFO | Trail #23 | time elapsed 1752.85
+2022-05-27 05:44:53,871 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:44:53,871 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:44:53,871 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 78.9
+2022-05-27 05:44:53,887 | itj_planning | INFO | Trail #24 | time elapsed 1831.80
+2022-05-27 05:46:15,037 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:46:15,037 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:46:15,037 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 81.1
+2022-05-27 05:46:15,052 | itj_planning | INFO | Trail #25 | time elapsed 1912.97
+2022-05-27 05:47:25,213 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:47:25,213 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:47:25,213 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 70.2
+2022-05-27 05:47:25,229 | itj_planning | INFO | Trail #26 | time elapsed 1983.15
+2022-05-27 05:48:40,469 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:48:40,469 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:48:40,469 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 75.2
+2022-05-27 05:48:40,485 | itj_planning | INFO | Trail #27 | time elapsed 2058.40
+2022-05-27 05:49:53,152 | itj_planning | INFO | No plan found for A235_M0 | RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False)
+2022-05-27 05:49:53,152 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:49:53,152 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 72.7
+2022-05-27 05:49:53,188 | itj_planning | INFO | Trail #28 | time elapsed 2131.11
+2022-05-27 05:51:03,463 | itj_planning | INFO | Solved 1 Movements in 70.27 s: ['A235_M0'] 
+2022-05-27 05:51:24,591 | itj_planning | INFO | Trail #28 | Plan Success | Runtime of current attempt: 91.4
+2022-05-27 05:51:30,593 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-05-27 05:52:50,153 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:52:50,153 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:52:50,153 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 79.6
+2022-05-27 05:52:50,169 | itj_planning | INFO | Trail #1 | time elapsed 79.59
+2022-05-27 05:54:10,751 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:54:10,751 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:54:10,751 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 80.6
+2022-05-27 05:54:10,782 | itj_planning | INFO | Trail #2 | time elapsed 160.20
+2022-05-27 05:55:34,793 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:55:34,793 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:55:34,793 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 84.0
+2022-05-27 05:55:34,824 | itj_planning | INFO | Trail #3 | time elapsed 244.25
+2022-05-27 05:57:07,443 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:57:07,443 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:57:07,443 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 92.6
+2022-05-27 05:57:07,458 | itj_planning | INFO | Trail #4 | time elapsed 336.88
+2022-05-27 05:58:28,827 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:58:28,827 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:58:28,827 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 81.4
+2022-05-27 05:58:28,859 | itj_planning | INFO | Trail #5 | time elapsed 418.28
+2022-05-27 05:59:44,347 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 05:59:44,347 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 05:59:44,347 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 75.5
+2022-05-27 05:59:44,362 | itj_planning | INFO | Trail #6 | time elapsed 493.78
+2022-05-27 06:01:05,256 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:01:05,256 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:01:05,256 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 80.9
+2022-05-27 06:01:05,287 | itj_planning | INFO | Trail #7 | time elapsed 574.71
+2022-05-27 06:02:24,412 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:02:24,412 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:02:24,412 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 79.1
+2022-05-27 06:02:24,428 | itj_planning | INFO | Trail #8 | time elapsed 653.85
+2022-05-27 06:03:47,659 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:03:47,659 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:03:47,659 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 83.2
+2022-05-27 06:03:47,675 | itj_planning | INFO | Trail #9 | time elapsed 737.10
+2022-05-27 06:05:05,246 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:05:05,246 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:05:05,246 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 77.6
+2022-05-27 06:05:05,262 | itj_planning | INFO | Trail #10 | time elapsed 814.68
+2022-05-27 06:06:33,730 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:06:33,730 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:06:33,730 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 88.5
+2022-05-27 06:06:33,745 | itj_planning | INFO | Trail #11 | time elapsed 903.17
+2022-05-27 06:07:51,424 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:07:51,424 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:07:51,424 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 77.7
+2022-05-27 06:07:51,455 | itj_planning | INFO | Trail #12 | time elapsed 980.88
+2022-05-27 06:09:21,010 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:09:21,010 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:09:21,010 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 89.6
+2022-05-27 06:09:21,041 | itj_planning | INFO | Trail #13 | time elapsed 1070.46
+2022-05-27 06:10:32,908 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:10:32,908 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:10:32,908 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 71.9
+2022-05-27 06:10:32,939 | itj_planning | INFO | Trail #14 | time elapsed 1142.36
+2022-05-27 06:11:49,666 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:11:49,666 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:11:49,666 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 76.7
+2022-05-27 06:11:49,697 | itj_planning | INFO | Trail #15 | time elapsed 1219.12
+2022-05-27 06:13:14,257 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:13:14,257 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:13:14,257 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 84.6
+2022-05-27 06:13:14,272 | itj_planning | INFO | Trail #16 | time elapsed 1303.69
+2022-05-27 06:14:27,771 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:14:27,771 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:14:27,771 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 73.5
+2022-05-27 06:14:27,802 | itj_planning | INFO | Trail #17 | time elapsed 1377.22
+2022-05-27 06:15:41,086 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:15:41,086 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:15:41,086 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 73.3
+2022-05-27 06:15:41,102 | itj_planning | INFO | Trail #18 | time elapsed 1450.52
+2022-05-27 06:17:05,899 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:17:05,899 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:17:05,899 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 84.8
+2022-05-27 06:17:05,930 | itj_planning | INFO | Trail #19 | time elapsed 1535.35
+2022-05-27 06:18:31,679 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:18:31,679 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:18:31,679 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 85.7
+2022-05-27 06:18:31,695 | itj_planning | INFO | Trail #20 | time elapsed 1621.12
+2022-05-27 06:19:48,639 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:19:48,639 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:19:48,639 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 76.9
+2022-05-27 06:19:48,670 | itj_planning | INFO | Trail #21 | time elapsed 1698.09
+2022-05-27 06:21:04,349 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:21:04,349 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:21:04,349 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 75.7
+2022-05-27 06:21:04,365 | itj_planning | INFO | Trail #22 | time elapsed 1773.79
+2022-05-27 06:22:21,888 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:22:21,888 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:22:21,888 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 77.5
+2022-05-27 06:22:21,919 | itj_planning | INFO | Trail #23 | time elapsed 1851.34
+2022-05-27 06:23:33,931 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:23:33,931 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:23:33,946 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 72.0
+2022-05-27 06:23:33,962 | itj_planning | INFO | Trail #24 | time elapsed 1923.38
+2022-05-27 06:24:57,254 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:24:57,254 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:24:57,254 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 83.3
+2022-05-27 06:24:57,285 | itj_planning | INFO | Trail #25 | time elapsed 2006.71
+2022-05-27 06:26:13,607 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:26:13,607 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:26:13,607 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 76.3
+2022-05-27 06:26:13,623 | itj_planning | INFO | Trail #26 | time elapsed 2083.05
+2022-05-27 06:27:28,832 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:27:28,832 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:27:28,832 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 75.2
+2022-05-27 06:27:28,848 | itj_planning | INFO | Trail #27 | time elapsed 2158.27
+2022-05-27 06:28:43,420 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:28:43,420 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:28:43,420 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 74.6
+2022-05-27 06:28:43,451 | itj_planning | INFO | Trail #28 | time elapsed 2232.87
+2022-05-27 06:30:02,346 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:30:02,346 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:30:02,346 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 78.9
+2022-05-27 06:30:02,362 | itj_planning | INFO | Trail #29 | time elapsed 2311.78
+2022-05-27 06:31:11,076 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:31:11,076 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:31:11,076 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 68.7
+2022-05-27 06:31:11,107 | itj_planning | INFO | Trail #30 | time elapsed 2380.53
+2022-05-27 06:32:39,855 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:32:39,855 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:32:39,855 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 88.7
+2022-05-27 06:32:39,886 | itj_planning | INFO | Trail #31 | time elapsed 2469.31
+2022-05-27 06:33:53,851 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:33:53,851 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:33:53,851 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 74.0
+2022-05-27 06:33:53,883 | itj_planning | INFO | Trail #32 | time elapsed 2543.30
+2022-05-27 06:35:13,088 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:35:13,088 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:35:13,088 | itj_planning | INFO | Trail #32 | Plan Failure | Runtime of current attempt: 79.2
+2022-05-27 06:35:13,104 | itj_planning | INFO | Trail #33 | time elapsed 2622.53
+2022-05-27 06:36:38,286 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:36:38,286 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:36:38,286 | itj_planning | INFO | Trail #33 | Plan Failure | Runtime of current attempt: 85.2
+2022-05-27 06:36:38,317 | itj_planning | INFO | Trail #34 | time elapsed 2707.74
+2022-05-27 06:38:00,054 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:38:00,054 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:38:00,054 | itj_planning | INFO | Trail #34 | Plan Failure | Runtime of current attempt: 81.7
+2022-05-27 06:38:00,086 | itj_planning | INFO | Trail #35 | time elapsed 2789.51
+2022-05-27 06:39:17,359 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:39:17,359 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:39:17,359 | itj_planning | INFO | Trail #35 | Plan Failure | Runtime of current attempt: 77.3
+2022-05-27 06:39:17,374 | itj_planning | INFO | Trail #36 | time elapsed 2866.80
+2022-05-27 06:40:34,507 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:40:34,507 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:40:34,507 | itj_planning | INFO | Trail #36 | Plan Failure | Runtime of current attempt: 77.1
+2022-05-27 06:40:34,538 | itj_planning | INFO | Trail #37 | time elapsed 2943.96
+2022-05-27 06:42:01,509 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:42:01,509 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:42:01,509 | itj_planning | INFO | Trail #37 | Plan Failure | Runtime of current attempt: 87.0
+2022-05-27 06:42:01,540 | itj_planning | INFO | Trail #38 | time elapsed 3030.96
+2022-05-27 06:43:16,759 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:43:16,759 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:43:16,759 | itj_planning | INFO | Trail #38 | Plan Failure | Runtime of current attempt: 75.2
+2022-05-27 06:43:16,775 | itj_planning | INFO | Trail #39 | time elapsed 3106.20
+2022-05-27 06:44:31,281 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:44:31,281 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:44:31,281 | itj_planning | INFO | Trail #39 | Plan Failure | Runtime of current attempt: 74.5
+2022-05-27 06:44:31,312 | itj_planning | INFO | Trail #40 | time elapsed 3180.73
+2022-05-27 06:45:48,118 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:45:48,118 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:45:48,118 | itj_planning | INFO | Trail #40 | Plan Failure | Runtime of current attempt: 76.8
+2022-05-27 06:45:48,149 | itj_planning | INFO | Trail #41 | time elapsed 3257.57
+2022-05-27 06:47:06,271 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:47:06,271 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:47:06,271 | itj_planning | INFO | Trail #41 | Plan Failure | Runtime of current attempt: 78.1
+2022-05-27 06:47:06,302 | itj_planning | INFO | Trail #42 | time elapsed 3335.72
+2022-05-27 06:48:24,561 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:48:24,561 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:48:24,561 | itj_planning | INFO | Trail #42 | Plan Failure | Runtime of current attempt: 78.3
+2022-05-27 06:48:24,577 | itj_planning | INFO | Trail #43 | time elapsed 3414.00
+2022-05-27 06:49:39,425 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:49:39,426 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:49:39,426 | itj_planning | INFO | Trail #43 | Plan Failure | Runtime of current attempt: 74.8
+2022-05-27 06:49:39,450 | itj_planning | INFO | Trail #44 | time elapsed 3488.87
+2022-05-27 06:51:06,656 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:51:06,656 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:51:06,656 | itj_planning | INFO | Trail #44 | Plan Failure | Runtime of current attempt: 87.2
+2022-05-27 06:51:06,687 | itj_planning | INFO | Trail #45 | time elapsed 3576.11
+2022-05-27 06:52:24,320 | itj_planning | INFO | No plan found for A236_M0 | RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False)
+2022-05-27 06:52:24,320 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-05-27 06:52:24,320 | itj_planning | INFO | Trail #45 | Plan Failure | Runtime of current attempt: 77.6
+2022-05-27 06:52:24,320 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 3601.05.
+2022-05-27 06:52:24,320 | itj_planning | ERROR | Free movement group #6/7 fails, which contains ['A236_M0']
+2022-05-27 06:52:24,320 | itj_planning | INFO | Planning done.
+2022-05-27 06:52:24,320 | itj_planning | INFO | 2 of 7 Movements planned successfully.
+2022-05-27 06:52:24,320 | itj_planning | INFO | Failed movements: A150_M0,A155_M0,A158_M0,A163_M0,A236_M0

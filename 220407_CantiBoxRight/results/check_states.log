@@ -76,3 +76,25 @@
 2022-05-26 20:08:27,646 | itj_planning | INFO | (MovementIndex=962) RoboticFreeMovement(#A209_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj True): traj_polyline_collision
 2022-05-26 20:08:27,646 | itj_planning | INFO | (MovementIndex=1080) RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False): no_traj_found
 2022-05-26 20:08:27,646 | itj_planning | INFO | (MovementIndex=1089) RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False): no_traj_found
+2022-05-27 02:23:16,153 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxRight', mesh_split_long_edge_max_length=50.0, movement_id=None, plan_summary=False, problem='CantiBoxRight_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-05-27 02:23:16,153 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-05-27 02:23:16,919 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\results
+2022-05-27 02:23:25,635 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b24', 'b25', 'b23', 'b3', 'b21', 'b22', 'b20', 'b4', 'b5', 'b6', 'b29', 'b30', 'b32', 'b31', 'b8', 'b26', 'b28', 'b27', 'b12', 'b13', 'b7', 'b9', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-05-27 02:58:15,531 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #20/34
+2022-05-27 03:01:08,584 | itj_planning | WARNING | A150_M0 : No trajectory found.
+2022-05-27 03:02:42,253 | itj_planning | WARNING | A155_M0 : No trajectory found.
+2022-05-27 03:02:49,546 | itj_planning | WARNING | A158_M0 : No trajectory found.
+2022-05-27 03:03:06,724 | itj_planning | WARNING | A163_M0 : No trajectory found.
+2022-05-27 03:03:16,802 | itj_planning | WARNING | A165_M0 : No trajectory found.
+2022-05-27 03:22:29,563 | itj_planning | WARNING | A235_M0 : No trajectory found.
+2022-05-27 03:22:33,418 | itj_planning | WARNING | A236_M0 : No trajectory found.
+2022-05-27 03:22:38,358 | itj_planning | WARNING | Movements that requires care and love:
+2022-05-27 03:22:38,358 | itj_planning | INFO | A139_M0,A150_M0,A155_M0,A158_M0,A163_M0,A165_M0,A235_M0,A236_M0
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=636) RoboticFreeMovement(#A139_M0, Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=696) RoboticFreeMovement(#A150_M0, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj False): no_traj_found
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=729) RoboticFreeMovement(#A155_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False): no_traj_found
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=737) RoboticFreeMovement(#A158_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj False): no_traj_found
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=749) RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-05-27 03:22:38,358 | itj_planning | INFO | (MovementIndex=756) RoboticFreeMovement(#A165_M0, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj False): no_traj_found
+2022-05-27 03:22:38,374 | itj_planning | INFO | (MovementIndex=1080) RoboticFreeMovement(#A235_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj False): no_traj_found
+2022-05-27 03:22:38,374 | itj_planning | INFO | (MovementIndex=1089) RoboticFreeMovement(#A236_M0, Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage., has_traj False): no_traj_found
