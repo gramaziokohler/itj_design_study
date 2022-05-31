@@ -2,10 +2,10 @@
     "attributes": [
         {
             "assembly_tool_id_num_of_times_used": {
-                "c1": 11, 
-                "c2": 1, 
-                "c3": 11, 
-                "c4": 1, 
+                "c1": 8, 
+                "c2": 4, 
+                "c3": 8, 
+                "c4": 4, 
                 "s1": 4, 
                 "s2": 4, 
                 "s3": 4
@@ -42,6 +42,7 @@
             "b6", 
             "b29", 
             "b30", 
+            "b32", 
             "b31", 
             "b8", 
             "b26", 
@@ -74,7 +75,7 @@
             ], 
             "b10": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+                "Assembly Tool used: CL3M (c4)CL3 (c2)"
             ], 
             "b11": [
                 "Gripper Type (id): PG1000 (g2)", 
@@ -90,7 +91,7 @@
             ], 
             "b14": [
                 "Gripper Type (id): PG1000 (g2)", 
-                "Assembly Tool used: CL3M (c3)CL3M (c4)"
+                "Assembly Tool used: CL3M (c4)CL3M (c3)"
             ], 
             "b15": [
                 "Gripper Type (id): PG1000 (g2)", 
@@ -106,7 +107,7 @@
             ], 
             "b18": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)CL3 (c2)"
+                "Assembly Tool used: CL3 (c2)CL3 (c1)"
             ], 
             "b19": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -156,13 +157,16 @@
             "b31": [
                 "MANUAL_ASSEMBLY, no gripper used."
             ], 
+            "b32": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
             "b4": [
                 "Gripper Type (id): PG1500 (g3)", 
                 "Assembly Tool used: CL3M (c3)CL3 (c1)"
             ], 
             "b5": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+                "Assembly Tool used: CL3M (c4)CL3 (c2)"
             ], 
             "b6": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -170,7 +174,7 @@
             ], 
             "b7": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)CL3M (c3)"
+                "Assembly Tool used: CL3 (c1)CL3M (c4)"
             ], 
             "b8": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -178,7 +182,7 @@
             ], 
             "b9": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)CL3M (c3)"
+                "Assembly Tool used: CL3 (c2)CL3M (c3)"
             ]
         }
     ], 
