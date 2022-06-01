@@ -7704,3 +7704,36 @@
 2022-06-01 07:04:35,655 | itj_planning | INFO | Planning done.
 2022-06-01 07:04:35,655 | itj_planning | INFO | 0 of 1 Movements planned successfully.
 2022-06-01 07:04:35,655 | itj_planning | INFO | Failed movements: A163_M0
+2022-06-01 19:23:56,161 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=1000, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-01 19:23:56,489 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-06-01 19:24:05,222 | itj_planning | INFO | Trail #0 | time elapsed 0.08
+2022-06-01 19:24:05,316 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A163_M0
+2022-06-01 19:24:18,302 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A163_M0
+2022-06-01 19:29:20,865 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-06-01 19:29:20,865 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-06-01 19:29:20,865 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 315.6
+2022-06-01 19:29:20,896 | itj_planning | INFO | Trail #1 | time elapsed 315.75
+2022-06-01 19:29:20,943 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A163_M0
+2022-06-01 19:30:27,751 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A163_M0
+2022-06-01 19:35:44,384 | itj_planning | INFO | No plan found for A163_M0 | RoboticFreeMovement(#A163_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False)
+2022-06-01 19:35:44,384 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-06-01 19:35:44,384 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 383.5
+2022-06-01 19:35:44,405 | itj_planning | INFO | Trail #2 | time elapsed 699.26
+2022-06-01 19:35:44,461 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A163_M0
+2022-06-01 19:36:05,539 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A163_M0
+2022-06-01 19:38:21,687 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=1000, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-01 19:38:21,984 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-06-01 19:38:30,092 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-01 19:38:30,139 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A163_M0
+2022-06-01 19:42:29,204 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxRight', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A163_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxRight_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=300, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-01 19:42:29,501 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxRight\CantiBoxRight_process.json
+2022-06-01 19:42:37,922 | itj_planning | INFO | Trail #0 | time elapsed 0.06
+2022-06-01 19:42:38,016 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A163_M0
+2022-06-01 19:42:54,696 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A163_M0
+2022-06-01 19:43:07,354 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A163_M0
+2022-06-01 19:43:08,823 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A163_M0
+2022-06-01 19:43:09,623 | itj_planning | INFO | Solved 1 Movements in 31.70 s: ['A163_M0'] 
+2022-06-01 19:43:38,043 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 60.1
+2022-06-01 19:43:38,043 | itj_planning | INFO | Planning done.
+2022-06-01 19:43:38,043 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-01 19:43:38,043 | itj_planning | INFO | Failed movements: 
