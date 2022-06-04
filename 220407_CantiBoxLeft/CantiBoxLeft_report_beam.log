@@ -4,21 +4,23 @@
             "assembly_type_counter": {
                 "Clamped": 14, 
                 "GroundContact": 2, 
-                "ManualAssembly": 12, 
+                "ManualAssembly": 13, 
                 "ScrewedWithGripper": 4
             }, 
             "beam_size_counter": {
                 "100 x 100": 20, 
-                "200 x 250": 4, 
-                "261 x 300": 7, 
-                "300 x 700": 1
+                "200 x 200": 1, 
+                "200 x 250": 3, 
+                "200 x 261": 6, 
+                "200 x 300": 1, 
+                "261 x 300": 2
             }, 
             "estimated_density_kg_per_m3": "500.0", 
-            "estimated_total_weight_kg": 828.0, 
+            "estimated_total_weight_kg": 698.0, 
             "joint_type_counter_pairs": {
                 "JointPolylineLap": 36
             }, 
-            "total_beam_number": 32
+            "total_beam_number": 33
         }
     ], 
     "beam_ids": [
@@ -42,6 +44,7 @@
             "b6", 
             "b7", 
             "b30", 
+            "b32", 
             "b29", 
             "b31", 
             "b12", 
@@ -141,14 +144,14 @@
                 "Number of Joints (# to previous elements) = 6 (1)"
             ], 
             "b20": [
-                "Size = 261 x 300, Length = 501.0", 
-                "Estimated Weight = 20.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b21": [
-                "Size = 261 x 300, Length = 500.0", 
-                "Estimated Weight = 20.0kg", 
+                "Size = 200 x 261, Length = 500.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
@@ -177,26 +180,26 @@
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b26": [
-                "Size = 261 x 300, Length = 500.0", 
-                "Estimated Weight = 20.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b27": [
-                "Size = 200 x 250, Length = 1801.0", 
-                "Estimated Weight = 45.0kg", 
+                "Size = 200 x 250, Length = 1648.0", 
+                "Estimated Weight = 41.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b28": [
-                "Size = 261 x 300, Length = 501.0", 
-                "Estimated Weight = 20.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b29": [
-                "Size = 200 x 250, Length = 1427.0", 
-                "Estimated Weight = 36.0kg", 
+                "Size = 200 x 300, Length = 1427.0", 
+                "Estimated Weight = 43.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
@@ -207,14 +210,20 @@
                 "Number of Joints (# to previous elements) = 6 (1)"
             ], 
             "b30": [
-                "Size = 300 x 700, Length = 1307.0", 
-                "Estimated Weight = 137.0kg", 
+                "Size = 200 x 200, Length = 1306.0", 
+                "Estimated Weight = 26.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b31": [
-                "Size = 261 x 300, Length = 501.0", 
-                "Estimated Weight = 20.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
+                "Assembly Method = ManualAssembly", 
+                "Number of Joints (# to previous elements) = 0 (0)"
+            ], 
+            "b32": [
+                "Size = 200 x 261, Length = 500.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 

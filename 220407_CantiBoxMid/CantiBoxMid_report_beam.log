@@ -4,21 +4,21 @@
             "assembly_type_counter": {
                 "Clamped": 14, 
                 "GroundContact": 2, 
-                "ManualAssembly": 6, 
+                "ManualAssembly": 8, 
                 "ScrewedWithoutGripper": 4
             }, 
             "beam_size_counter": {
                 "100 x 100": 20, 
-                "200 x 250": 2, 
-                "200 x 300": 2, 
-                "300 x 700": 2
+                "150 x 200": 2, 
+                "200 x 200": 2, 
+                "200 x 261": 4
             }, 
             "estimated_density_kg_per_m3": "500.0", 
-            "estimated_total_weight_kg": 732.0, 
+            "estimated_total_weight_kg": 502.0, 
             "joint_type_counter_pairs": {
-                "JointHalfLap": 36
+                "JointPolylineLap": 36
             }, 
-            "total_beam_number": 26
+            "total_beam_number": 28
         }
     ], 
     "beam_ids": [
@@ -30,10 +30,12 @@
             "b4", 
             "b5", 
             "b23", 
+            "b27", 
             "b24", 
             "b25", 
             "b6", 
             "b20", 
+            "b26", 
             "b21", 
             "b22", 
             "b7", 
@@ -135,38 +137,50 @@
                 "Number of Joints (# to previous elements) = 6 (1)"
             ], 
             "b20": [
-                "Size = 300 x 700, Length = 1307.0", 
-                "Estimated Weight = 137.0kg", 
+                "Size = 200 x 200, Length = 1306.0", 
+                "Estimated Weight = 26.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b21": [
-                "Size = 200 x 250, Length = 1427.0", 
-                "Estimated Weight = 36.0kg", 
+                "Size = 150 x 200, Length = 1427.0", 
+                "Estimated Weight = 21.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b22": [
-                "Size = 200 x 300, Length = 501.0", 
-                "Estimated Weight = 15.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b23": [
-                "Size = 300 x 700, Length = 1307.0", 
-                "Estimated Weight = 137.0kg", 
+                "Size = 200 x 200, Length = 1306.0", 
+                "Estimated Weight = 26.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b24": [
-                "Size = 200 x 250, Length = 1427.0", 
-                "Estimated Weight = 36.0kg", 
+                "Size = 150 x 200, Length = 1427.0", 
+                "Estimated Weight = 21.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 
             "b25": [
-                "Size = 200 x 300, Length = 501.0", 
-                "Estimated Weight = 15.0kg", 
+                "Size = 200 x 261, Length = 501.0", 
+                "Estimated Weight = 13.0kg", 
+                "Assembly Method = ManualAssembly", 
+                "Number of Joints (# to previous elements) = 0 (0)"
+            ], 
+            "b26": [
+                "Size = 200 x 261, Length = 500.0", 
+                "Estimated Weight = 13.0kg", 
+                "Assembly Method = ManualAssembly", 
+                "Number of Joints (# to previous elements) = 0 (0)"
+            ], 
+            "b27": [
+                "Size = 200 x 261, Length = 500.0", 
+                "Estimated Weight = 13.0kg", 
                 "Assembly Method = ManualAssembly", 
                 "Number of Joints (# to previous elements) = 0 (0)"
             ], 

@@ -2,7 +2,7 @@
     "attributes": [
         {
             "beam_with_screw_counter": {
-                "beam_no_screws": 28, 
+                "beam_no_screws": 29, 
                 "beam_with_screws": 4
             }, 
             "screw_counter": {
@@ -34,6 +34,7 @@
             "b6", 
             "b7", 
             "b30", 
+            "b32", 
             "b29", 
             "b31", 
             "b12", 
@@ -138,6 +139,9 @@
                 "Beam is not assembled by screws."
             ], 
             "b31": [
+                "Beam is not assembled by screws."
+            ], 
+            "b32": [
                 "Beam is not assembled by screws."
             ], 
             "b4": [

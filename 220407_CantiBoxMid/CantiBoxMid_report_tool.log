@@ -37,10 +37,12 @@
             "b4", 
             "b5", 
             "b23", 
+            "b27", 
             "b24", 
             "b25", 
             "b6", 
             "b20", 
+            "b26", 
             "b21", 
             "b22", 
             "b7", 
@@ -129,6 +131,12 @@
                 "MANUAL_ASSEMBLY, no gripper used."
             ], 
             "b25": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b26": [
+                "MANUAL_ASSEMBLY, no gripper used."
+            ], 
+            "b27": [
                 "MANUAL_ASSEMBLY, no gripper used."
             ], 
             "b3": [
