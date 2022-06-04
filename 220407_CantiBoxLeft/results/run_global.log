@@ -1,0 +1,1801 @@
+2022-06-04 14:10:48,590 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=300, solve_iters=1000, solve_mode='all', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-04 14:10:48,921 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-04 14:12:16,651 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=300, solve_iters=1000, solve_mode='all', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-04 14:12:16,979 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-04 14:12:21,297 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:12:22,171 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A0_M1', 'A0_M3'] 
+2022-06-04 14:12:22,171 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:24,659 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:25,582 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A2_M2', 'A2_M5'] 
+2022-06-04 14:12:25,594 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:27,968 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:12:28,866 | itj_planning | INFO | Solved 3 Movements in 0.90 s: ['A3_M1', 'A3_M4', 'A4_M2'] 
+2022-06-04 14:12:28,875 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:31,192 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:32,065 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A6_M2', 'A6_M5'] 
+2022-06-04 14:12:32,075 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:34,453 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:35,293 | itj_planning | INFO | Solved 3 Movements in 0.84 s: ['A7_M1', 'A7_M4', 'A8_M2'] 
+2022-06-04 14:12:35,304 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:37,917 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:12:38,814 | itj_planning | INFO | Solved 2 Movements in 0.90 s: ['A10_M1', 'A10_M3'] 
+2022-06-04 14:12:38,826 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:41,354 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:42,346 | itj_planning | INFO | Solved 3 Movements in 0.99 s: ['A11_M1', 'A11_M4', 'A11_M5'] 
+2022-06-04 14:12:42,358 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:12:44,798 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:12:45,716 | itj_planning | INFO | Solved 3 Movements in 0.92 s: ['A12_M2', 'A12_M3', 'A12_M6'] 
+2022-06-04 14:12:45,726 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:48,114 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:12:48,983 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A13_M1', 'A13_M3'] 
+2022-06-04 14:12:48,993 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:12:51,568 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:52,741 | itj_planning | INFO | Solved 2 Movements in 1.17 s: ['A14_M2', 'A14_M5'] 
+2022-06-04 14:12:52,750 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:12:55,092 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:12:57,296 | itj_planning | INFO | Solved 3 Movements in 2.20 s: ['A15_M3', 'A15_M1', 'A19_M2'] 
+2022-06-04 14:12:57,310 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.2
+2022-06-04 14:12:59,606 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:00,501 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A21_M1', 'A21_M3'] 
+2022-06-04 14:13:00,512 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:13:02,992 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:03,973 | itj_planning | INFO | Solved 3 Movements in 0.98 s: ['A22_M1', 'A22_M4', 'A22_M5'] 
+2022-06-04 14:13:03,984 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:13:06,311 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:07,246 | itj_planning | INFO | Solved 3 Movements in 0.93 s: ['A23_M2', 'A23_M3', 'A23_M6'] 
+2022-06-04 14:13:07,256 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:13:09,614 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:10,484 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A24_M1', 'A24_M3'] 
+2022-06-04 14:13:10,493 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:13:12,843 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:13,735 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A25_M2', 'A25_M5'] 
+2022-06-04 14:13:13,745 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:13:16,079 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:18,113 | itj_planning | INFO | Solved 3 Movements in 2.03 s: ['A26_M3', 'A26_M1', 'A30_M2'] 
+2022-06-04 14:13:18,127 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-04 14:13:20,486 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:21,322 | itj_planning | INFO | Solved 2 Movements in 0.84 s: ['A32_M1', 'A32_M3'] 
+2022-06-04 14:13:21,330 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-04 14:13:23,679 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:25,364 | itj_planning | INFO | Solved 3 Movements in 1.69 s: ['A33_M2', 'A33_M6', 'A33_M7'] 
+2022-06-04 14:13:25,380 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:13:28,105 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:30,150 | itj_planning | INFO | Solved 3 Movements in 2.04 s: ['A34_M2', 'A34_M3', 'A34_M6'] 
+2022-06-04 14:13:30,165 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.1
+2022-06-04 14:13:33,006 | itj_planning | INFO | Trail #0 | time elapsed 0.05
+2022-06-04 14:13:34,040 | itj_planning | INFO | Solved 3 Movements in 1.03 s: ['A35_M2', 'A35_M6', 'A35_M7'] 
+2022-06-04 14:13:34,056 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:13:36,814 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:38,308 | itj_planning | INFO | Solved 3 Movements in 1.49 s: ['A36_M2', 'A36_M3', 'A36_M6'] 
+2022-06-04 14:13:38,324 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:13:41,119 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:42,163 | itj_planning | INFO | Solved 2 Movements in 1.04 s: ['A37_M1', 'A37_M3'] 
+2022-06-04 14:13:42,163 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:13:45,030 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:46,032 | itj_planning | INFO | Solved 2 Movements in 1.00 s: ['A38_M2', 'A38_M5'] 
+2022-06-04 14:13:46,048 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:13:48,604 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:13:50,277 | itj_planning | INFO | Solved 3 Movements in 1.67 s: ['A39_M3', 'A39_M1', 'A40_M2'] 
+2022-06-04 14:13:50,292 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:13:52,894 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:53,815 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A42_M1', 'A42_M3'] 
+2022-06-04 14:13:53,815 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:13:56,443 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:13:57,493 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A43_M1', 'A43_M4', 'A43_M5'] 
+2022-06-04 14:13:57,493 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:14:00,077 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:01,485 | itj_planning | INFO | Solved 3 Movements in 1.41 s: ['A44_M2', 'A44_M3', 'A44_M6'] 
+2022-06-04 14:14:01,485 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:14:04,132 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:05,183 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A45_M1', 'A45_M4', 'A45_M5'] 
+2022-06-04 14:14:05,183 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:14:07,802 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:08,923 | itj_planning | INFO | Solved 3 Movements in 1.12 s: ['A46_M2', 'A46_M3', 'A46_M6'] 
+2022-06-04 14:14:08,932 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:14:11,322 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:12,274 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A47_M1', 'A47_M3'] 
+2022-06-04 14:14:12,274 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:14:14,851 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:15,837 | itj_planning | INFO | Solved 2 Movements in 0.99 s: ['A48_M2', 'A48_M5'] 
+2022-06-04 14:14:15,853 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:14:18,461 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:20,728 | itj_planning | INFO | Solved 3 Movements in 2.27 s: ['A49_M3', 'A49_M1', 'A50_M2'] 
+2022-06-04 14:14:20,743 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-04 14:14:23,369 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:24,275 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A52_M1', 'A52_M3'] 
+2022-06-04 14:14:24,275 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:14:26,744 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:28,293 | itj_planning | INFO | Solved 3 Movements in 1.55 s: ['A53_M2', 'A53_M6', 'A53_M7'] 
+2022-06-04 14:14:28,293 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:14:30,823 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:32,761 | itj_planning | INFO | Solved 3 Movements in 1.94 s: ['A54_M2', 'A54_M3', 'A54_M6'] 
+2022-06-04 14:14:32,776 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-04 14:14:35,366 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:36,272 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A55_M1', 'A55_M3'] 
+2022-06-04 14:14:36,287 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:14:39,019 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:39,921 | itj_planning | INFO | Solved 2 Movements in 0.90 s: ['A56_M2', 'A56_M5'] 
+2022-06-04 14:14:39,936 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:14:42,496 | itj_planning | INFO | Trail #0 | time elapsed 0.05
+2022-06-04 14:14:44,042 | itj_planning | INFO | Solved 3 Movements in 1.55 s: ['A57_M3', 'A57_M1', 'A61_M2'] 
+2022-06-04 14:14:44,058 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-04 14:14:46,603 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:47,588 | itj_planning | INFO | Solved 2 Movements in 0.98 s: ['A63_M1', 'A63_M3'] 
+2022-06-04 14:14:47,588 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:14:50,180 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:14:51,289 | itj_planning | INFO | Solved 3 Movements in 1.11 s: ['A64_M2', 'A64_M6', 'A64_M7'] 
+2022-06-04 14:14:51,305 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:14:53,960 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:54,913 | itj_planning | INFO | Solved 3 Movements in 0.95 s: ['A65_M2', 'A65_M3', 'A65_M6'] 
+2022-06-04 14:14:54,913 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:14:57,460 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:14:58,570 | itj_planning | INFO | Solved 3 Movements in 1.11 s: ['A66_M2', 'A66_M6', 'A66_M7'] 
+2022-06-04 14:14:58,585 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:15:01,147 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:02,193 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A67_M2', 'A67_M5', 'A67_M1'] 
+2022-06-04 14:15:02,209 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:15:04,814 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:05,861 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A68_M2', 'A68_M6', 'A68_M7'] 
+2022-06-04 14:15:05,877 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:15:08,423 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:10,137 | itj_planning | INFO | Solved 3 Movements in 1.71 s: ['A69_M2', 'A69_M3', 'A69_M6'] 
+2022-06-04 14:15:10,146 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:15:12,666 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:13,556 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A70_M1', 'A70_M3'] 
+2022-06-04 14:15:13,556 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:15:16,121 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:16,997 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A71_M2', 'A71_M5'] 
+2022-06-04 14:15:17,013 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:15:19,716 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:21,422 | itj_planning | INFO | Solved 3 Movements in 1.71 s: ['A72_M3', 'A72_M1', 'A73_M2'] 
+2022-06-04 14:15:21,437 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:15:24,014 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:24,920 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A75_M1', 'A75_M3'] 
+2022-06-04 14:15:24,938 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:15:27,501 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:28,537 | itj_planning | INFO | Solved 3 Movements in 1.04 s: ['A76_M1', 'A76_M4', 'A76_M5'] 
+2022-06-04 14:15:28,553 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:15:31,134 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:32,484 | itj_planning | INFO | Solved 3 Movements in 1.35 s: ['A77_M2', 'A77_M3', 'A77_M6'] 
+2022-06-04 14:15:32,500 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:15:35,029 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:35,919 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A78_M1', 'A78_M3'] 
+2022-06-04 14:15:35,919 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:15:38,556 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:39,525 | itj_planning | INFO | Solved 2 Movements in 0.97 s: ['A79_M2', 'A79_M5'] 
+2022-06-04 14:15:39,540 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:15:42,299 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:44,137 | itj_planning | INFO | Solved 3 Movements in 1.82 s: ['A80_M3', 'A80_M1', 'A85_M2'] 
+2022-06-04 14:15:44,152 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.8
+2022-06-04 14:15:46,869 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:47,791 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A87_M1', 'A87_M3'] 
+2022-06-04 14:15:47,807 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:15:50,347 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:15:51,144 | itj_planning | INFO | No plan found for A88_M6 | RoboticLinearMovement(#A88_M6, Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure., has_traj False)
+2022-06-04 14:15:51,144 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 14:15:51,144 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 0.8
+2022-06-04 14:15:51,175 | itj_planning | INFO | Trail #1 | time elapsed 0.86
+2022-06-04 14:15:53,958 | itj_planning | INFO | Solved 3 Movements in 2.78 s: ['A88_M2', 'A88_M6', 'A88_M7'] 
+2022-06-04 14:15:53,969 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 2.8
+2022-06-04 14:15:56,454 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:15:57,431 | itj_planning | INFO | Solved 3 Movements in 0.98 s: ['A89_M2', 'A89_M5', 'A89_M1'] 
+2022-06-04 14:15:57,449 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:16:00,038 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:01,573 | itj_planning | INFO | Solved 3 Movements in 1.53 s: ['A90_M2', 'A90_M6', 'A90_M7'] 
+2022-06-04 14:16:01,583 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:16:04,075 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:05,314 | itj_planning | INFO | Solved 3 Movements in 1.24 s: ['A91_M2', 'A91_M3', 'A91_M6'] 
+2022-06-04 14:16:05,330 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-04 14:16:08,030 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:09,087 | itj_planning | INFO | Solved 3 Movements in 1.06 s: ['A92_M1', 'A92_M4', 'A92_M5'] 
+2022-06-04 14:16:09,103 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:16:11,692 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:12,834 | itj_planning | INFO | Solved 3 Movements in 1.14 s: ['A93_M2', 'A93_M3', 'A93_M6'] 
+2022-06-04 14:16:12,834 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:16:15,628 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:16,600 | itj_planning | INFO | Solved 2 Movements in 0.97 s: ['A94_M1', 'A94_M3'] 
+2022-06-04 14:16:16,600 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:16:19,326 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:20,264 | itj_planning | INFO | Solved 2 Movements in 0.94 s: ['A95_M2', 'A95_M5'] 
+2022-06-04 14:16:20,264 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:16:23,357 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:16:24,968 | itj_planning | INFO | Solved 3 Movements in 1.61 s: ['A96_M3', 'A96_M1', 'A97_M2'] 
+2022-06-04 14:16:24,984 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-04 14:16:27,804 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:28,696 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A99_M1', 'A99_M3'] 
+2022-06-04 14:16:28,712 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:16:31,627 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:16:33,874 | itj_planning | INFO | Solved 3 Movements in 2.25 s: ['A100_M2', 'A100_M6', 'A100_M7'] 
+2022-06-04 14:16:33,874 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.2
+2022-06-04 14:16:36,794 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:16:39,107 | itj_planning | INFO | Solved 3 Movements in 2.31 s: ['A101_M2', 'A101_M3', 'A101_M6'] 
+2022-06-04 14:16:39,122 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-04 14:16:41,827 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:42,858 | itj_planning | INFO | Solved 3 Movements in 1.03 s: ['A102_M2', 'A102_M6', 'A102_M7'] 
+2022-06-04 14:16:42,874 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:16:45,738 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:47,411 | itj_planning | INFO | Solved 3 Movements in 1.67 s: ['A103_M2', 'A103_M3', 'A103_M6'] 
+2022-06-04 14:16:47,427 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:16:50,370 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:51,293 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A104_M1', 'A104_M3'] 
+2022-06-04 14:16:51,293 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:16:54,183 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:16:55,107 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A105_M2', 'A105_M5'] 
+2022-06-04 14:16:55,107 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:16:57,897 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:16:59,525 | itj_planning | INFO | Solved 3 Movements in 1.63 s: ['A106_M3', 'A106_M1', 'A107_M2'] 
+2022-06-04 14:16:59,541 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-04 14:17:02,416 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:03,308 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A109_M1', 'A109_M3'] 
+2022-06-04 14:17:03,324 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:17:06,137 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:07,061 | itj_planning | INFO | Solved 3 Movements in 0.92 s: ['A110_M2', 'A110_M6', 'A110_M7'] 
+2022-06-04 14:17:07,077 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:17:09,987 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:11,805 | itj_planning | INFO | Solved 3 Movements in 1.82 s: ['A111_M2', 'A111_M3', 'A111_M6'] 
+2022-06-04 14:17:11,814 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.8
+2022-06-04 14:17:14,468 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:16,485 | itj_planning | INFO | Solved 3 Movements in 2.02 s: ['A112_M2', 'A112_M6', 'A112_M7'] 
+2022-06-04 14:17:16,501 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-04 14:17:19,410 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:20,794 | itj_planning | INFO | Solved 3 Movements in 1.38 s: ['A113_M2', 'A113_M3', 'A113_M6'] 
+2022-06-04 14:17:20,809 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:17:23,853 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:24,775 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A114_M1', 'A114_M3'] 
+2022-06-04 14:17:24,790 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:17:27,707 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:28,687 | itj_planning | INFO | Solved 2 Movements in 0.98 s: ['A115_M2', 'A115_M5'] 
+2022-06-04 14:17:28,703 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:17:31,629 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:33,169 | itj_planning | INFO | Solved 3 Movements in 1.54 s: ['A116_M3', 'A116_M1', 'A117_M2'] 
+2022-06-04 14:17:33,185 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-04 14:17:36,078 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:36,984 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A119_M1', 'A119_M3'] 
+2022-06-04 14:17:36,999 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:17:39,860 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:41,634 | itj_planning | INFO | Solved 3 Movements in 1.77 s: ['A120_M2', 'A120_M6', 'A120_M7'] 
+2022-06-04 14:17:41,634 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.8
+2022-06-04 14:17:44,233 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:45,657 | itj_planning | INFO | Solved 3 Movements in 1.42 s: ['A121_M2', 'A121_M3', 'A121_M6'] 
+2022-06-04 14:17:45,657 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:17:48,310 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:49,701 | itj_planning | INFO | Solved 3 Movements in 1.39 s: ['A122_M2', 'A122_M6', 'A122_M7'] 
+2022-06-04 14:17:49,716 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:17:52,490 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:17:54,251 | itj_planning | INFO | Solved 3 Movements in 1.76 s: ['A123_M2', 'A123_M3', 'A123_M6'] 
+2022-06-04 14:17:54,251 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.8
+2022-06-04 14:17:56,932 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:17:57,790 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A124_M1', 'A124_M3'] 
+2022-06-04 14:17:57,805 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:18:00,515 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:18:01,390 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A125_M2', 'A125_M5'] 
+2022-06-04 14:18:01,406 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:18:04,059 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:05,856 | itj_planning | INFO | No plan found for A127_M2 | RoboticLinearMovement(#A127_M2, Linear retract of Gripper from Beam ('b10'), has_traj False)
+2022-06-04 14:18:05,856 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 14:18:05,856 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 1.8
+2022-06-04 14:18:05,871 | itj_planning | INFO | Trail #1 | time elapsed 1.83
+2022-06-04 14:18:07,373 | itj_planning | INFO | Solved 3 Movements in 1.50 s: ['A126_M3', 'A126_M1', 'A127_M2'] 
+2022-06-04 14:18:07,393 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:18:10,071 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:18:10,950 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A129_M1', 'A129_M3'] 
+2022-06-04 14:18:10,957 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:18:13,448 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:14,293 | itj_planning | INFO | Solved 2 Movements in 0.84 s: ['A130_M1', 'A130_M3'] 
+2022-06-04 14:18:14,303 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:18:16,861 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:20,105 | itj_planning | INFO | Solved 5 Movements in 3.24 s: ['A131_M2', 'A131_M5', 'A132_M0', 'A132_M1', 'A132_M2'] 
+2022-06-04 14:18:20,136 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.3
+2022-06-04 14:18:22,949 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:26,546 | itj_planning | INFO | Solved 3 Movements in 3.60 s: ['A136_M2', 'A136_M1', 'A137_M2'] 
+2022-06-04 14:18:26,562 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.6
+2022-06-04 14:18:29,300 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:18:30,128 | itj_planning | INFO | Solved 2 Movements in 0.83 s: ['A138_M1', 'A138_M3'] 
+2022-06-04 14:18:30,144 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-04 14:18:32,971 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:34,687 | itj_planning | INFO | Solved 3 Movements in 1.72 s: ['A140_M2', 'A139_M2', 'A140_M3'] 
+2022-06-04 14:18:34,703 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:18:37,518 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:18:38,689 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A141_M2', 'A141_M4', 'A141_M1'] 
+2022-06-04 14:18:38,705 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:18:41,515 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:43,595 | itj_planning | INFO | Solved 3 Movements in 2.08 s: ['A143_M2', 'A142_M2', 'A143_M3'] 
+2022-06-04 14:18:43,610 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.1
+2022-06-04 14:18:46,390 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:47,564 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A144_M2', 'A144_M4', 'A144_M1'] 
+2022-06-04 14:18:47,564 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:18:50,286 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:52,728 | itj_planning | INFO | Solved 3 Movements in 2.44 s: ['A146_M2', 'A145_M2', 'A146_M3'] 
+2022-06-04 14:18:52,743 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-06-04 14:18:55,529 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:18:56,669 | itj_planning | INFO | Solved 3 Movements in 1.14 s: ['A147_M2', 'A147_M4', 'A147_M1'] 
+2022-06-04 14:18:56,685 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:18:59,493 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:00,758 | itj_planning | INFO | Solved 3 Movements in 1.27 s: ['A149_M2', 'A149_M6', 'A149_M7'] 
+2022-06-04 14:19:00,774 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-04 14:19:03,601 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:05,132 | itj_planning | INFO | Solved 3 Movements in 1.53 s: ['A150_M2', 'A150_M3', 'A150_M6'] 
+2022-06-04 14:19:05,132 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:19:08,084 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:10,052 | itj_planning | INFO | Solved 3 Movements in 1.97 s: ['A151_M2', 'A151_M6', 'A151_M7'] 
+2022-06-04 14:19:10,068 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-04 14:19:12,811 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:14,014 | itj_planning | INFO | Solved 3 Movements in 1.20 s: ['A152_M2', 'A152_M3', 'A152_M6'] 
+2022-06-04 14:19:14,023 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:19:16,749 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:17,630 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A153_M1', 'A153_M3'] 
+2022-06-04 14:19:17,630 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:19:20,471 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:21,378 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A154_M2', 'A154_M5'] 
+2022-06-04 14:19:21,378 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:19:24,193 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:27,786 | itj_planning | INFO | Solved 3 Movements in 3.59 s: ['A155_M3', 'A155_M1', 'A156_M2'] 
+2022-06-04 14:19:27,802 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.6
+2022-06-04 14:19:30,598 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:31,457 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A158_M1', 'A158_M3'] 
+2022-06-04 14:19:31,457 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:19:34,302 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:35,160 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A159_M1', 'A159_M3'] 
+2022-06-04 14:19:35,175 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:19:37,987 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:41,307 | itj_planning | INFO | Solved 5 Movements in 3.32 s: ['A160_M2', 'A160_M5', 'A161_M0', 'A161_M1', 'A161_M2'] 
+2022-06-04 14:19:41,338 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.4
+2022-06-04 14:19:44,189 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:19:49,769 | itj_planning | INFO | Solved 3 Movements in 5.58 s: ['A165_M2', 'A165_M1', 'A166_M2'] 
+2022-06-04 14:19:49,785 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 5.6
+2022-06-04 14:19:52,612 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:53,456 | itj_planning | INFO | Solved 2 Movements in 0.84 s: ['A167_M1', 'A167_M3'] 
+2022-06-04 14:19:53,471 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:19:56,527 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:19:58,601 | itj_planning | INFO | Solved 3 Movements in 2.07 s: ['A169_M2', 'A168_M2', 'A169_M3'] 
+2022-06-04 14:19:58,617 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.1
+2022-06-04 14:20:01,398 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:20:02,522 | itj_planning | INFO | Solved 3 Movements in 1.12 s: ['A170_M2', 'A170_M4', 'A170_M1'] 
+2022-06-04 14:20:02,538 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:20:05,303 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:20:08,542 | itj_planning | INFO | Solved 3 Movements in 3.24 s: ['A172_M2', 'A171_M2', 'A172_M3'] 
+2022-06-04 14:20:08,558 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.3
+2022-06-04 14:20:11,421 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:20:12,559 | itj_planning | INFO | Solved 3 Movements in 1.14 s: ['A173_M2', 'A173_M4', 'A173_M1'] 
+2022-06-04 14:20:12,575 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:20:15,378 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:20:36,830 | itj_planning | INFO | No plan found for A175_M2 | RobotScrewdriverSyncLinearMovement(#A175_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-06-04 14:20:36,830 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-06-04 14:20:36,830 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 21.5
+2022-06-04 14:20:36,866 | itj_planning | INFO | Trail #1 | time elapsed 21.52
+2022-06-04 14:20:55,287 | itj_planning | INFO | No plan found for A175_M2 | RobotScrewdriverSyncLinearMovement(#A175_M2, Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15'), has_traj False)
+2022-06-04 14:20:55,287 | itj_planning | INFO | Computing failed priority 1 Movement(s)
+2022-06-04 14:20:55,287 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 18.4
+2022-06-04 14:20:55,303 | itj_planning | INFO | Trail #2 | time elapsed 39.96
+2022-06-04 14:21:08,043 | itj_planning | INFO | Solved 3 Movements in 12.74 s: ['A175_M2', 'A174_M2', 'A175_M3'] 
+2022-06-04 14:21:08,058 | itj_planning | INFO | Trail #2 | Plan Success | Runtime of current attempt: 12.8
+2022-06-04 14:21:10,904 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:21:12,077 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A176_M2', 'A176_M4', 'A176_M1'] 
+2022-06-04 14:21:12,077 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:21:15,078 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:17,125 | itj_planning | INFO | Solved 3 Movements in 2.05 s: ['A178_M2', 'A178_M6', 'A178_M7'] 
+2022-06-04 14:21:17,141 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.1
+2022-06-04 14:21:20,127 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:21,175 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A179_M2', 'A179_M3', 'A179_M6'] 
+2022-06-04 14:21:21,190 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-04 14:21:24,215 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:21:26,575 | itj_planning | INFO | Solved 3 Movements in 2.36 s: ['A180_M2', 'A180_M6', 'A180_M7'] 
+2022-06-04 14:21:26,575 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.4
+2022-06-04 14:21:29,529 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:21:30,499 | itj_planning | INFO | Solved 3 Movements in 0.97 s: ['A181_M2', 'A181_M5', 'A181_M1'] 
+2022-06-04 14:21:30,515 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:21:33,468 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:35,385 | itj_planning | INFO | Solved 3 Movements in 1.92 s: ['A182_M2', 'A182_M6', 'A182_M7'] 
+2022-06-04 14:21:35,401 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-04 14:21:38,439 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:39,738 | itj_planning | INFO | Solved 3 Movements in 1.30 s: ['A183_M2', 'A183_M3', 'A183_M6'] 
+2022-06-04 14:21:39,738 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-04 14:21:42,802 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:21:43,661 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A184_M1', 'A184_M3'] 
+2022-06-04 14:21:43,677 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:21:46,670 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:47,576 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A185_M2', 'A185_M5'] 
+2022-06-04 14:21:47,592 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:21:50,528 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:21:53,481 | itj_planning | INFO | Solved 3 Movements in 2.95 s: ['A186_M3', 'A186_M1', 'A187_M2'] 
+2022-06-04 14:21:53,481 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.0
+2022-06-04 14:21:56,603 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:21:59,941 | itj_planning | INFO | Solved 5 Movements in 3.34 s: ['A189_M2', 'A189_M5', 'A190_M0', 'A190_M1', 'A190_M2'] 
+2022-06-04 14:21:59,973 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.4
+2022-06-04 14:22:02,941 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:06,659 | itj_planning | INFO | Solved 3 Movements in 3.72 s: ['A194_M2', 'A194_M1', 'A195_M2'] 
+2022-06-04 14:22:06,690 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.7
+2022-06-04 14:22:09,834 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:10,787 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A196_M1', 'A196_M3'] 
+2022-06-04 14:22:10,802 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:22:13,942 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:22:16,420 | itj_planning | INFO | Solved 3 Movements in 2.48 s: ['A198_M2', 'A197_M2', 'A198_M3'] 
+2022-06-04 14:22:16,435 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-06-04 14:22:19,536 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:20,785 | itj_planning | INFO | Solved 3 Movements in 1.25 s: ['A199_M2', 'A199_M4', 'A199_M1'] 
+2022-06-04 14:22:20,801 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-04 14:22:23,843 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:26,561 | itj_planning | INFO | Solved 3 Movements in 2.72 s: ['A201_M2', 'A200_M2', 'A201_M3'] 
+2022-06-04 14:22:26,577 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.7
+2022-06-04 14:22:29,729 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:22:30,906 | itj_planning | INFO | Solved 3 Movements in 1.18 s: ['A202_M2', 'A202_M4', 'A202_M1'] 
+2022-06-04 14:22:30,922 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:22:33,843 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:22:35,577 | itj_planning | INFO | Solved 3 Movements in 1.73 s: ['A204_M2', 'A203_M2', 'A204_M3'] 
+2022-06-04 14:22:35,593 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-04 14:22:38,684 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:39,856 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A205_M2', 'A205_M4', 'A205_M1'] 
+2022-06-04 14:22:39,856 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:22:43,086 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:44,088 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A207_M1', 'A207_M4', 'A207_M5'] 
+2022-06-04 14:22:44,104 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:22:47,280 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:48,729 | itj_planning | INFO | Solved 3 Movements in 1.45 s: ['A208_M2', 'A208_M3', 'A208_M6'] 
+2022-06-04 14:22:48,729 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-04 14:22:51,901 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:22:52,947 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A209_M2', 'A209_M6', 'A209_M7'] 
+2022-06-04 14:22:52,947 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:22:56,133 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:00,346 | itj_planning | INFO | Solved 3 Movements in 4.20 s: ['A210_M2', 'A210_M3', 'A210_M6'] 
+2022-06-04 14:23:00,346 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.2
+2022-06-04 14:23:03,489 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:04,350 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A211_M1', 'A211_M3'] 
+2022-06-04 14:23:04,350 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:23:07,444 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:08,368 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A212_M2', 'A212_M5'] 
+2022-06-04 14:23:08,384 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:23:11,474 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:13,023 | itj_planning | INFO | Solved 3 Movements in 1.55 s: ['A213_M3', 'A213_M1', 'A214_M2'] 
+2022-06-04 14:23:13,038 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-04 14:23:16,115 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:19,444 | itj_planning | INFO | Solved 5 Movements in 3.33 s: ['A216_M2', 'A216_M5', 'A217_M0', 'A217_M1', 'A217_M2'] 
+2022-06-04 14:23:19,474 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.4
+2022-06-04 14:23:22,569 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:24,992 | itj_planning | INFO | Solved 3 Movements in 2.42 s: ['A221_M2', 'A221_M1', 'A222_M2'] 
+2022-06-04 14:23:25,008 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.4
+2022-06-04 14:23:28,117 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:28,994 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A223_M1', 'A223_M3'] 
+2022-06-04 14:23:29,010 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-04 14:23:31,979 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:33,903 | itj_planning | INFO | Solved 3 Movements in 1.92 s: ['A225_M2', 'A224_M2', 'A225_M3'] 
+2022-06-04 14:23:33,918 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-04 14:23:36,908 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:38,147 | itj_planning | INFO | Solved 3 Movements in 1.24 s: ['A226_M2', 'A226_M4', 'A226_M1'] 
+2022-06-04 14:23:38,156 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:23:41,219 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:43,493 | itj_planning | INFO | Solved 3 Movements in 2.27 s: ['A228_M2', 'A227_M2', 'A228_M3'] 
+2022-06-04 14:23:43,509 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-04 14:23:46,838 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:47,990 | itj_planning | INFO | Solved 3 Movements in 1.15 s: ['A229_M2', 'A229_M4', 'A229_M1'] 
+2022-06-04 14:23:47,990 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:23:50,973 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:23:54,958 | itj_planning | INFO | Solved 3 Movements in 3.98 s: ['A231_M2', 'A230_M2', 'A231_M3'] 
+2022-06-04 14:23:54,973 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.0
+2022-06-04 14:23:58,095 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:23:59,269 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A232_M2', 'A232_M4', 'A232_M1'] 
+2022-06-04 14:23:59,285 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-04 14:24:02,440 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:24:03,926 | itj_planning | INFO | Solved 3 Movements in 1.49 s: ['A233_M2', 'A233_M6', 'A233_M7'] 
+2022-06-04 14:24:03,926 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-04 14:24:07,112 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:24:08,113 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A234_M2', 'A234_M5', 'A234_M1'] 
+2022-06-04 14:24:08,129 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:24:11,286 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:24:15,334 | itj_planning | INFO | Solved 3 Movements in 4.05 s: ['A235_M2', 'A235_M6', 'A235_M7'] 
+2022-06-04 14:24:15,334 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.0
+2022-06-04 14:24:18,507 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:24:19,522 | itj_planning | INFO | Solved 3 Movements in 1.02 s: ['A236_M2', 'A236_M5', 'A236_M1'] 
+2022-06-04 14:24:19,533 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:24:22,602 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:24:25,634 | itj_planning | INFO | Solved 3 Movements in 3.03 s: ['A237_M2', 'A237_M6', 'A237_M7'] 
+2022-06-04 14:24:25,634 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.0
+2022-06-04 14:24:28,842 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:24:29,874 | itj_planning | INFO | Solved 3 Movements in 1.03 s: ['A238_M2', 'A238_M5', 'A238_M1'] 
+2022-06-04 14:24:29,874 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:24:33,179 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:24:37,526 | itj_planning | INFO | Solved 3 Movements in 4.35 s: ['A239_M2', 'A239_M6', 'A239_M7'] 
+2022-06-04 14:24:37,541 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.4
+2022-06-04 14:24:40,821 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:24:41,841 | itj_planning | INFO | Solved 3 Movements in 1.02 s: ['A240_M2', 'A240_M5', 'A240_M1'] 
+2022-06-04 14:24:41,856 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-04 14:24:45,165 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:24:46,073 | itj_planning | INFO | Solved 1 Movements in 0.91 s: ['A0_M0'] 
+2022-06-04 14:24:47,572 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.4
+2022-06-04 14:24:51,226 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:25:00,658 | itj_planning | INFO | Solved 1 Movements in 9.43 s: ['A2_M0'] 
+2022-06-04 14:25:45,316 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 54.1
+2022-06-04 14:25:48,554 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:25:52,763 | itj_planning | INFO | Solved 1 Movements in 4.21 s: ['A3_M0'] 
+2022-06-04 14:26:01,409 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 12.9
+2022-06-04 14:26:04,742 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:26:50,341 | itj_planning | INFO | Solved 1 Movements in 45.60 s: ['A6_M0'] 
+2022-06-04 14:27:13,585 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 68.8
+2022-06-04 14:27:16,790 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:27:21,760 | itj_planning | INFO | Solved 1 Movements in 4.97 s: ['A7_M0'] 
+2022-06-04 14:27:58,613 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 41.8
+2022-06-04 14:28:01,877 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:28:07,785 | itj_planning | INFO | Solved 1 Movements in 5.91 s: ['A10_M0'] 
+2022-06-04 14:29:29,722 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 87.8
+2022-06-04 14:29:32,961 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:29:34,336 | itj_planning | INFO | Solved 1 Movements in 1.37 s: ['A11_M0'] 
+2022-06-04 14:29:38,229 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 5.3
+2022-06-04 14:29:41,559 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:29:46,846 | itj_planning | INFO | Solved 1 Movements in 5.29 s: ['A12_M0'] 
+2022-06-04 14:30:00,495 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 18.9
+2022-06-04 14:30:03,797 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:30:09,814 | itj_planning | INFO | Solved 1 Movements in 6.02 s: ['A13_M0'] 
+2022-06-04 14:30:57,877 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 54.1
+2022-06-04 14:31:01,315 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:31:09,521 | itj_planning | INFO | Solved 1 Movements in 8.19 s: ['A14_M0'] 
+2022-06-04 14:31:46,548 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 45.2
+2022-06-04 14:31:49,926 | itj_planning | INFO | Trail #0 | time elapsed 0.01
+2022-06-04 14:31:57,810 | itj_planning | INFO | Solved 1 Movements in 7.88 s: ['A15_M0'] 
+2022-06-04 14:32:31,306 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 41.4
+2022-06-04 14:32:34,648 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:33:00,968 | itj_planning | INFO | Solved 1 Movements in 26.32 s: ['A21_M0'] 
+2022-06-04 14:33:58,363 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 83.7
+2022-06-04 14:34:01,890 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:34:02,799 | itj_planning | INFO | Solved 1 Movements in 0.91 s: ['A22_M0'] 
+2022-06-04 14:34:04,807 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.9
+2022-06-04 14:34:08,347 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:34:17,226 | itj_planning | INFO | Solved 1 Movements in 8.88 s: ['A23_M0'] 
+2022-06-04 14:34:39,028 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 30.7
+2022-06-04 14:34:42,470 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:34:50,524 | itj_planning | INFO | Solved 1 Movements in 8.05 s: ['A24_M0'] 
+2022-06-04 14:35:08,421 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 26.0
+2022-06-04 14:35:11,893 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:35:24,887 | itj_planning | INFO | Solved 1 Movements in 12.99 s: ['A25_M0'] 
+2022-06-04 14:35:43,336 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 31.4
+2022-06-04 14:35:46,814 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:35:56,111 | itj_planning | INFO | Solved 1 Movements in 9.30 s: ['A26_M0'] 
+2022-06-04 14:36:48,102 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 61.3
+2022-06-04 14:36:51,593 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:37:00,423 | itj_planning | INFO | Solved 1 Movements in 8.83 s: ['A32_M0'] 
+2022-06-04 14:37:40,248 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 48.7
+2022-06-04 14:37:43,747 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:37:46,760 | itj_planning | INFO | Solved 1 Movements in 3.01 s: ['A33_M0'] 
+2022-06-04 14:37:58,752 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 15.0
+2022-06-04 14:38:02,475 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:38:14,667 | itj_planning | INFO | Solved 1 Movements in 12.19 s: ['A34_M0'] 
+2022-06-04 14:38:41,939 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 39.5
+2022-06-04 14:38:45,463 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:38:55,136 | itj_planning | INFO | Solved 1 Movements in 9.67 s: ['A35_M0'] 
+2022-06-04 14:39:31,184 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 45.7
+2022-06-04 14:39:34,688 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:40:16,505 | itj_planning | INFO | Solved 1 Movements in 41.82 s: ['A36_M0'] 
+2022-06-04 14:40:30,811 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 56.1
+2022-06-04 14:40:34,323 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:40:41,994 | itj_planning | INFO | Solved 1 Movements in 7.67 s: ['A37_M0'] 
+2022-06-04 14:41:00,044 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 25.7
+2022-06-04 14:41:03,608 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:41:15,199 | itj_planning | INFO | Solved 1 Movements in 11.59 s: ['A38_M0'] 
+2022-06-04 14:41:45,416 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 41.8
+2022-06-04 14:41:48,979 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:42:21,319 | itj_planning | INFO | Solved 1 Movements in 32.34 s: ['A39_M0'] 
+2022-06-04 14:43:33,724 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 104.7
+2022-06-04 14:43:37,369 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:43:42,226 | itj_planning | INFO | Solved 1 Movements in 4.86 s: ['A42_M0'] 
+2022-06-04 14:44:34,294 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 56.9
+2022-06-04 14:44:38,104 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:44:39,022 | itj_planning | INFO | Solved 1 Movements in 0.92 s: ['A43_M0'] 
+2022-06-04 14:44:41,309 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.2
+2022-06-04 14:44:44,973 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:45:08,196 | itj_planning | INFO | Solved 1 Movements in 23.22 s: ['A44_M0'] 
+2022-06-04 14:45:46,811 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 61.8
+2022-06-04 14:45:50,489 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:45:54,609 | itj_planning | INFO | Solved 1 Movements in 4.12 s: ['A45_M0'] 
+2022-06-04 14:46:21,603 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 31.1
+2022-06-04 14:46:25,325 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:46:31,032 | itj_planning | INFO | Solved 1 Movements in 5.71 s: ['A46_M0'] 
+2022-06-04 14:47:00,187 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 34.9
+2022-06-04 14:47:03,925 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:47:11,268 | itj_planning | INFO | Solved 1 Movements in 7.34 s: ['A47_M0'] 
+2022-06-04 14:47:41,204 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 37.3
+2022-06-04 14:47:44,996 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:47:53,648 | itj_planning | INFO | Solved 1 Movements in 8.65 s: ['A48_M0'] 
+2022-06-04 14:48:39,927 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 54.9
+2022-06-04 14:48:43,800 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:49:24,803 | itj_planning | INFO | Solved 1 Movements in 41.00 s: ['A49_M0'] 
+2022-06-04 14:49:51,940 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 68.1
+2022-06-04 14:49:55,791 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:50:43,974 | itj_planning | INFO | Solved 1 Movements in 48.18 s: ['A52_M0'] 
+2022-06-04 14:51:37,511 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 101.7
+2022-06-04 14:51:41,382 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:51:47,430 | itj_planning | INFO | Solved 1 Movements in 6.03 s: ['A53_M0'] 
+2022-06-04 14:52:18,633 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 37.3
+2022-06-04 14:52:22,402 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:52:34,861 | itj_planning | INFO | Solved 1 Movements in 12.46 s: ['A54_M0'] 
+2022-06-04 14:53:03,481 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 41.1
+2022-06-04 14:53:07,326 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 14:53:17,803 | itj_planning | INFO | Solved 1 Movements in 10.48 s: ['A55_M0'] 
+2022-06-04 14:53:53,428 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 46.1
+2022-06-04 14:53:57,341 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:54:33,927 | itj_planning | INFO | Solved 1 Movements in 36.59 s: ['A56_M0'] 
+2022-06-04 14:55:18,228 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 80.9
+2022-06-04 14:55:22,160 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:57:06,996 | itj_planning | INFO | Solved 1 Movements in 104.82 s: ['A57_M0'] 
+2022-06-04 14:57:30,709 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 128.5
+2022-06-04 14:57:34,879 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:58:06,183 | itj_planning | INFO | Solved 1 Movements in 31.30 s: ['A63_M0'] 
+2022-06-04 14:59:03,552 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 88.7
+2022-06-04 14:59:07,772 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 14:59:19,372 | itj_planning | INFO | Solved 1 Movements in 11.60 s: ['A64_M0'] 
+2022-06-04 14:59:37,417 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 29.6
+2022-06-04 14:59:41,627 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:00:03,990 | itj_planning | INFO | Solved 1 Movements in 22.36 s: ['A65_M0'] 
+2022-06-04 15:00:49,096 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 67.5
+2022-06-04 15:00:53,774 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:00:58,649 | itj_planning | INFO | Solved 1 Movements in 4.87 s: ['A66_M0'] 
+2022-06-04 15:01:18,488 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 24.7
+2022-06-04 15:01:22,727 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:02:05,161 | itj_planning | INFO | Solved 1 Movements in 42.43 s: ['A67_M0'] 
+2022-06-04 15:02:20,823 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 58.1
+2022-06-04 15:02:24,439 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:02:29,034 | itj_planning | INFO | Solved 1 Movements in 4.59 s: ['A68_M0'] 
+2022-06-04 15:02:55,366 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 30.9
+2022-06-04 15:02:59,342 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:03:10,467 | itj_planning | INFO | Solved 1 Movements in 11.12 s: ['A69_M0'] 
+2022-06-04 15:03:37,401 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 38.1
+2022-06-04 15:03:41,460 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:03:48,048 | itj_planning | INFO | Solved 1 Movements in 6.59 s: ['A70_M0'] 
+2022-06-04 15:04:12,965 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 31.5
+2022-06-04 15:04:17,418 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:04:41,518 | itj_planning | INFO | Solved 1 Movements in 24.10 s: ['A71_M0'] 
+2022-06-04 15:05:15,751 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 58.3
+2022-06-04 15:05:19,881 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:05:37,307 | itj_planning | INFO | Solved 1 Movements in 17.42 s: ['A72_M0'] 
+2022-06-04 15:06:26,194 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 66.3
+2022-06-04 15:06:30,424 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:06:40,876 | itj_planning | INFO | Solved 1 Movements in 10.45 s: ['A75_M0'] 
+2022-06-04 15:07:46,031 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 75.6
+2022-06-04 15:07:50,270 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:07:51,178 | itj_planning | INFO | Solved 1 Movements in 0.91 s: ['A76_M0'] 
+2022-06-04 15:07:53,258 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.0
+2022-06-04 15:07:57,184 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:08:59,134 | itj_planning | INFO | No plan found for A77_M0 | RoboticFreeMovement(#A77_M0, Free Move to bring CL3 ('c2') to structure., has_traj False)
+2022-06-04 15:08:59,134 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:08:59,134 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 62.0
+2022-06-04 15:08:59,169 | itj_planning | INFO | Trail #1 | time elapsed 62.00
+2022-06-04 15:10:08,221 | itj_planning | INFO | Solved 1 Movements in 69.05 s: ['A77_M0'] 
+2022-06-04 15:10:34,282 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 95.1
+2022-06-04 15:10:38,943 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:11:42,955 | itj_planning | INFO | No plan found for A78_M0 | RoboticFreeMovement(#A78_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj False)
+2022-06-04 15:11:42,955 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:11:42,955 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 64.0
+2022-06-04 15:11:42,970 | itj_planning | INFO | Trail #1 | time elapsed 64.04
+2022-06-04 15:12:11,681 | itj_planning | INFO | Solved 1 Movements in 28.71 s: ['A78_M0'] 
+2022-06-04 15:12:45,293 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 62.3
+2022-06-04 15:12:49,460 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:13:08,248 | itj_planning | INFO | Solved 1 Movements in 18.79 s: ['A79_M0'] 
+2022-06-04 15:13:34,657 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 45.2
+2022-06-04 15:13:38,992 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:14:35,985 | itj_planning | INFO | No plan found for A80_M0 | RoboticFreeMovement(#A80_M0, Free Move to bring Beam ('b7') to approach clamps on structure., has_traj False)
+2022-06-04 15:14:35,985 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:14:35,985 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 57.0
+2022-06-04 15:14:36,017 | itj_planning | INFO | Trail #1 | time elapsed 57.04
+2022-06-04 15:15:56,991 | itj_planning | INFO | No plan found for A80_M0 | RoboticFreeMovement(#A80_M0, Free Move to bring Beam ('b7') to approach clamps on structure., has_traj False)
+2022-06-04 15:15:56,991 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:15:56,991 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 81.0
+2022-06-04 15:15:57,011 | itj_planning | INFO | Trail #2 | time elapsed 138.03
+2022-06-04 15:17:04,041 | itj_planning | INFO | No plan found for A80_M0 | RoboticFreeMovement(#A80_M0, Free Move to bring Beam ('b7') to approach clamps on structure., has_traj False)
+2022-06-04 15:17:04,041 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:17:04,041 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 67.0
+2022-06-04 15:17:04,057 | itj_planning | INFO | Trail #3 | time elapsed 205.08
+2022-06-04 15:17:22,384 | itj_planning | INFO | Solved 1 Movements in 18.33 s: ['A80_M0'] 
+2022-06-04 15:17:43,266 | itj_planning | INFO | Trail #3 | Plan Success | Runtime of current attempt: 39.2
+2022-06-04 15:17:47,443 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:18:14,918 | itj_planning | INFO | Solved 1 Movements in 27.47 s: ['A87_M0'] 
+2022-06-04 15:19:05,293 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 77.9
+2022-06-04 15:19:09,563 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:19:39,558 | itj_planning | INFO | Solved 1 Movements in 29.99 s: ['A88_M0'] 
+2022-06-04 15:20:14,740 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 65.2
+2022-06-04 15:20:18,777 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:21:11,567 | itj_planning | INFO | No plan found for A89_M0 | RoboticFreeMovement(#A89_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False)
+2022-06-04 15:21:11,567 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:21:11,583 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 52.8
+2022-06-04 15:21:11,598 | itj_planning | INFO | Trail #1 | time elapsed 52.84
+2022-06-04 15:22:17,720 | itj_planning | INFO | No plan found for A89_M0 | RoboticFreeMovement(#A89_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False)
+2022-06-04 15:22:17,720 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:22:17,720 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 66.1
+2022-06-04 15:22:17,759 | itj_planning | INFO | Trail #2 | time elapsed 119.00
+2022-06-04 15:23:10,584 | itj_planning | INFO | No plan found for A89_M0 | RoboticFreeMovement(#A89_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False)
+2022-06-04 15:23:10,584 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:23:10,584 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 52.8
+2022-06-04 15:23:10,615 | itj_planning | INFO | Trail #3 | time elapsed 171.85
+2022-06-04 15:24:05,611 | itj_planning | INFO | No plan found for A89_M0 | RoboticFreeMovement(#A89_M0, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj False)
+2022-06-04 15:24:05,611 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:24:05,611 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 55.0
+2022-06-04 15:24:05,626 | itj_planning | INFO | Trail #4 | time elapsed 226.87
+2022-06-04 15:24:44,287 | itj_planning | INFO | Solved 1 Movements in 38.66 s: ['A89_M0'] 
+2022-06-04 15:25:02,143 | itj_planning | INFO | Trail #4 | Plan Success | Runtime of current attempt: 56.5
+2022-06-04 15:25:06,429 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:25:20,811 | itj_planning | INFO | Solved 1 Movements in 14.38 s: ['A90_M0'] 
+2022-06-04 15:25:45,399 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 39.0
+2022-06-04 15:25:49,609 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:26:43,041 | itj_planning | INFO | Solved 1 Movements in 53.43 s: ['A91_M0'] 
+2022-06-04 15:27:05,493 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 75.9
+2022-06-04 15:27:09,907 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:27:16,421 | itj_planning | INFO | Solved 1 Movements in 6.51 s: ['A92_M0'] 
+2022-06-04 15:27:55,938 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 46.0
+2022-06-04 15:28:00,224 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:28:25,183 | itj_planning | INFO | Solved 1 Movements in 24.96 s: ['A93_M0'] 
+2022-06-04 15:28:52,064 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 51.8
+2022-06-04 15:28:56,206 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:29:05,377 | itj_planning | INFO | Solved 1 Movements in 9.17 s: ['A94_M0'] 
+2022-06-04 15:29:31,519 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 35.3
+2022-06-04 15:29:35,871 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-04 15:29:45,827 | itj_planning | INFO | Solved 1 Movements in 9.96 s: ['A95_M0'] 
+2022-06-04 15:30:16,367 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 40.5
+2022-06-04 15:30:20,749 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-04 15:31:07,634 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:31:07,634 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:31:07,634 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 15:31:07,654 | itj_planning | INFO | Trail #1 | time elapsed 46.94
+2022-06-04 15:32:01,266 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:32:01,266 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:32:01,266 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 53.6
+2022-06-04 15:32:01,291 | itj_planning | INFO | Trail #2 | time elapsed 100.57
+2022-06-04 15:32:49,009 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:32:49,009 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:32:49,009 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 15:32:49,025 | itj_planning | INFO | Trail #3 | time elapsed 148.31
+2022-06-04 15:33:43,755 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:33:43,755 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:33:43,755 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 54.7
+2022-06-04 15:33:43,786 | itj_planning | INFO | Trail #4 | time elapsed 203.07
+2022-06-04 15:34:30,765 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:34:30,765 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:34:30,765 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 15:34:30,781 | itj_planning | INFO | Trail #5 | time elapsed 250.06
+2022-06-04 15:35:18,221 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:35:18,221 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:35:18,221 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 15:35:18,249 | itj_planning | INFO | Trail #6 | time elapsed 297.53
+2022-06-04 15:36:05,958 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:36:05,958 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:36:05,958 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 15:36:05,973 | itj_planning | INFO | Trail #7 | time elapsed 345.26
+2022-06-04 15:36:56,430 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:36:56,430 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:36:56,430 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 50.5
+2022-06-04 15:36:56,461 | itj_planning | INFO | Trail #8 | time elapsed 395.74
+2022-06-04 15:37:47,530 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:37:47,530 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:37:47,530 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 51.1
+2022-06-04 15:37:47,545 | itj_planning | INFO | Trail #9 | time elapsed 446.83
+2022-06-04 15:38:41,776 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:38:41,776 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:38:41,776 | itj_planning | INFO | Trail #9 | Plan Failure | Runtime of current attempt: 54.2
+2022-06-04 15:38:41,808 | itj_planning | INFO | Trail #10 | time elapsed 501.09
+2022-06-04 15:39:29,068 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:39:29,068 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:39:29,068 | itj_planning | INFO | Trail #10 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 15:39:29,084 | itj_planning | INFO | Trail #11 | time elapsed 548.37
+2022-06-04 15:40:17,826 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:40:17,826 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:40:17,826 | itj_planning | INFO | Trail #11 | Plan Failure | Runtime of current attempt: 48.7
+2022-06-04 15:40:17,857 | itj_planning | INFO | Trail #12 | time elapsed 597.14
+2022-06-04 15:41:15,320 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:41:15,320 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:41:15,320 | itj_planning | INFO | Trail #12 | Plan Failure | Runtime of current attempt: 57.5
+2022-06-04 15:41:15,335 | itj_planning | INFO | Trail #13 | time elapsed 654.62
+2022-06-04 15:42:03,876 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:42:03,876 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:42:03,876 | itj_planning | INFO | Trail #13 | Plan Failure | Runtime of current attempt: 48.5
+2022-06-04 15:42:03,912 | itj_planning | INFO | Trail #14 | time elapsed 703.19
+2022-06-04 15:42:50,370 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:42:50,370 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:42:50,370 | itj_planning | INFO | Trail #14 | Plan Failure | Runtime of current attempt: 46.5
+2022-06-04 15:42:50,386 | itj_planning | INFO | Trail #15 | time elapsed 749.67
+2022-06-04 15:43:42,194 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:43:42,194 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:43:42,194 | itj_planning | INFO | Trail #15 | Plan Failure | Runtime of current attempt: 51.8
+2022-06-04 15:43:42,210 | itj_planning | INFO | Trail #16 | time elapsed 801.49
+2022-06-04 15:44:28,936 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:44:28,936 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:44:28,936 | itj_planning | INFO | Trail #16 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 15:44:28,951 | itj_planning | INFO | Trail #17 | time elapsed 848.23
+2022-06-04 15:45:19,112 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:45:19,112 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:45:19,112 | itj_planning | INFO | Trail #17 | Plan Failure | Runtime of current attempt: 50.2
+2022-06-04 15:45:19,127 | itj_planning | INFO | Trail #18 | time elapsed 898.41
+2022-06-04 15:46:05,995 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:46:05,995 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:46:05,996 | itj_planning | INFO | Trail #18 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 15:46:06,017 | itj_planning | INFO | Trail #19 | time elapsed 945.30
+2022-06-04 15:46:58,496 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:46:58,496 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:46:58,496 | itj_planning | INFO | Trail #19 | Plan Failure | Runtime of current attempt: 52.5
+2022-06-04 15:46:58,512 | itj_planning | INFO | Trail #20 | time elapsed 997.79
+2022-06-04 15:47:47,772 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:47:47,772 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:47:47,772 | itj_planning | INFO | Trail #20 | Plan Failure | Runtime of current attempt: 49.3
+2022-06-04 15:47:47,788 | itj_planning | INFO | Trail #21 | time elapsed 1047.07
+2022-06-04 15:48:37,381 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:48:37,381 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:48:37,381 | itj_planning | INFO | Trail #21 | Plan Failure | Runtime of current attempt: 49.6
+2022-06-04 15:48:37,412 | itj_planning | INFO | Trail #22 | time elapsed 1096.69
+2022-06-04 15:49:29,430 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:49:29,430 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:49:29,430 | itj_planning | INFO | Trail #22 | Plan Failure | Runtime of current attempt: 52.0
+2022-06-04 15:49:29,446 | itj_planning | INFO | Trail #23 | time elapsed 1148.73
+2022-06-04 15:50:15,726 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:50:15,726 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:50:15,726 | itj_planning | INFO | Trail #23 | Plan Failure | Runtime of current attempt: 46.3
+2022-06-04 15:50:15,758 | itj_planning | INFO | Trail #24 | time elapsed 1195.04
+2022-06-04 15:51:02,759 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:51:02,759 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:51:02,759 | itj_planning | INFO | Trail #24 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 15:51:02,790 | itj_planning | INFO | Trail #25 | time elapsed 1242.07
+2022-06-04 15:51:50,579 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:51:50,579 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:51:50,579 | itj_planning | INFO | Trail #25 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 15:51:50,610 | itj_planning | INFO | Trail #26 | time elapsed 1289.89
+2022-06-04 15:52:38,270 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:52:38,270 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:52:38,270 | itj_planning | INFO | Trail #26 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 15:52:38,285 | itj_planning | INFO | Trail #27 | time elapsed 1337.57
+2022-06-04 15:53:27,646 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:53:27,646 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:53:27,646 | itj_planning | INFO | Trail #27 | Plan Failure | Runtime of current attempt: 49.4
+2022-06-04 15:53:27,662 | itj_planning | INFO | Trail #28 | time elapsed 1386.94
+2022-06-04 15:54:20,376 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:54:20,376 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:54:20,376 | itj_planning | INFO | Trail #28 | Plan Failure | Runtime of current attempt: 52.7
+2022-06-04 15:54:20,408 | itj_planning | INFO | Trail #29 | time elapsed 1439.69
+2022-06-04 15:55:07,817 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:55:07,817 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:55:07,817 | itj_planning | INFO | Trail #29 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 15:55:07,848 | itj_planning | INFO | Trail #30 | time elapsed 1487.13
+2022-06-04 15:56:07,394 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:56:07,394 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:56:07,394 | itj_planning | INFO | Trail #30 | Plan Failure | Runtime of current attempt: 59.5
+2022-06-04 15:56:07,426 | itj_planning | INFO | Trail #31 | time elapsed 1546.71
+2022-06-04 15:56:58,425 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:56:58,425 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:56:58,425 | itj_planning | INFO | Trail #31 | Plan Failure | Runtime of current attempt: 51.0
+2022-06-04 15:56:58,440 | itj_planning | INFO | Trail #32 | time elapsed 1597.72
+2022-06-04 15:57:47,846 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:57:47,846 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:57:47,846 | itj_planning | INFO | Trail #32 | Plan Failure | Runtime of current attempt: 49.4
+2022-06-04 15:57:47,883 | itj_planning | INFO | Trail #33 | time elapsed 1647.16
+2022-06-04 15:58:36,326 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:58:36,326 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:58:36,326 | itj_planning | INFO | Trail #33 | Plan Failure | Runtime of current attempt: 48.4
+2022-06-04 15:58:36,355 | itj_planning | INFO | Trail #34 | time elapsed 1695.64
+2022-06-04 15:59:22,430 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 15:59:22,430 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 15:59:22,430 | itj_planning | INFO | Trail #34 | Plan Failure | Runtime of current attempt: 46.1
+2022-06-04 15:59:22,446 | itj_planning | INFO | Trail #35 | time elapsed 1741.73
+2022-06-04 16:00:19,010 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:00:19,010 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:00:19,010 | itj_planning | INFO | Trail #35 | Plan Failure | Runtime of current attempt: 56.6
+2022-06-04 16:00:19,026 | itj_planning | INFO | Trail #36 | time elapsed 1798.31
+2022-06-04 16:01:07,370 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:01:07,370 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:01:07,371 | itj_planning | INFO | Trail #36 | Plan Failure | Runtime of current attempt: 48.3
+2022-06-04 16:01:07,392 | itj_planning | INFO | Trail #37 | time elapsed 1846.67
+2022-06-04 16:01:55,766 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:01:55,766 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:01:55,766 | itj_planning | INFO | Trail #37 | Plan Failure | Runtime of current attempt: 48.4
+2022-06-04 16:01:55,782 | itj_planning | INFO | Trail #38 | time elapsed 1895.06
+2022-06-04 16:02:48,756 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:02:48,756 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:02:48,756 | itj_planning | INFO | Trail #38 | Plan Failure | Runtime of current attempt: 53.0
+2022-06-04 16:02:48,772 | itj_planning | INFO | Trail #39 | time elapsed 1948.05
+2022-06-04 16:03:36,276 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:03:36,276 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:03:36,276 | itj_planning | INFO | Trail #39 | Plan Failure | Runtime of current attempt: 47.5
+2022-06-04 16:03:36,307 | itj_planning | INFO | Trail #40 | time elapsed 1995.59
+2022-06-04 16:04:29,497 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:04:29,497 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:04:29,497 | itj_planning | INFO | Trail #40 | Plan Failure | Runtime of current attempt: 53.2
+2022-06-04 16:04:29,528 | itj_planning | INFO | Trail #41 | time elapsed 2048.81
+2022-06-04 16:05:21,015 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:05:21,016 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:05:21,016 | itj_planning | INFO | Trail #41 | Plan Failure | Runtime of current attempt: 51.5
+2022-06-04 16:05:21,022 | itj_planning | INFO | Trail #42 | time elapsed 2100.30
+2022-06-04 16:06:08,139 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:06:08,139 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:06:08,139 | itj_planning | INFO | Trail #42 | Plan Failure | Runtime of current attempt: 47.1
+2022-06-04 16:06:08,154 | itj_planning | INFO | Trail #43 | time elapsed 2147.44
+2022-06-04 16:06:55,508 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:06:55,508 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:06:55,524 | itj_planning | INFO | Trail #43 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 16:06:55,539 | itj_planning | INFO | Trail #44 | time elapsed 2194.82
+2022-06-04 16:07:52,373 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:07:52,373 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:07:52,373 | itj_planning | INFO | Trail #44 | Plan Failure | Runtime of current attempt: 56.8
+2022-06-04 16:07:52,404 | itj_planning | INFO | Trail #45 | time elapsed 2251.69
+2022-06-04 16:08:40,906 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:08:40,906 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:08:40,907 | itj_planning | INFO | Trail #45 | Plan Failure | Runtime of current attempt: 48.5
+2022-06-04 16:08:40,928 | itj_planning | INFO | Trail #46 | time elapsed 2300.21
+2022-06-04 16:09:29,028 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:09:29,028 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:09:29,029 | itj_planning | INFO | Trail #46 | Plan Failure | Runtime of current attempt: 48.1
+2022-06-04 16:09:29,051 | itj_planning | INFO | Trail #47 | time elapsed 2348.33
+2022-06-04 16:10:17,068 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:10:17,068 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:10:17,068 | itj_planning | INFO | Trail #47 | Plan Failure | Runtime of current attempt: 48.0
+2022-06-04 16:10:17,090 | itj_planning | INFO | Trail #48 | time elapsed 2396.37
+2022-06-04 16:11:09,688 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:11:09,688 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:11:09,688 | itj_planning | INFO | Trail #48 | Plan Failure | Runtime of current attempt: 52.6
+2022-06-04 16:11:09,703 | itj_planning | INFO | Trail #49 | time elapsed 2448.99
+2022-06-04 16:12:03,034 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:12:03,034 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:12:03,034 | itj_planning | INFO | Trail #49 | Plan Failure | Runtime of current attempt: 53.3
+2022-06-04 16:12:03,050 | itj_planning | INFO | Trail #50 | time elapsed 2502.33
+2022-06-04 16:12:50,459 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:12:50,459 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:12:50,459 | itj_planning | INFO | Trail #50 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 16:12:50,485 | itj_planning | INFO | Trail #51 | time elapsed 2549.77
+2022-06-04 16:13:43,044 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:13:43,044 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:13:43,044 | itj_planning | INFO | Trail #51 | Plan Failure | Runtime of current attempt: 52.6
+2022-06-04 16:13:43,075 | itj_planning | INFO | Trail #52 | time elapsed 2602.36
+2022-06-04 16:14:29,012 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:14:29,012 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:14:29,012 | itj_planning | INFO | Trail #52 | Plan Failure | Runtime of current attempt: 45.9
+2022-06-04 16:14:29,044 | itj_planning | INFO | Trail #53 | time elapsed 2648.33
+2022-06-04 16:15:17,189 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:15:17,189 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:15:17,190 | itj_planning | INFO | Trail #53 | Plan Failure | Runtime of current attempt: 48.1
+2022-06-04 16:15:17,197 | itj_planning | INFO | Trail #54 | time elapsed 2696.48
+2022-06-04 16:16:03,898 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:16:03,898 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:16:03,898 | itj_planning | INFO | Trail #54 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 16:16:03,929 | itj_planning | INFO | Trail #55 | time elapsed 2743.21
+2022-06-04 16:16:50,078 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:16:50,078 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:16:50,078 | itj_planning | INFO | Trail #55 | Plan Failure | Runtime of current attempt: 46.1
+2022-06-04 16:16:50,094 | itj_planning | INFO | Trail #56 | time elapsed 2789.38
+2022-06-04 16:17:45,326 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:17:45,326 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:17:45,326 | itj_planning | INFO | Trail #56 | Plan Failure | Runtime of current attempt: 55.2
+2022-06-04 16:17:45,342 | itj_planning | INFO | Trail #57 | time elapsed 2844.62
+2022-06-04 16:18:34,622 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:18:34,622 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:18:34,622 | itj_planning | INFO | Trail #57 | Plan Failure | Runtime of current attempt: 49.3
+2022-06-04 16:18:34,638 | itj_planning | INFO | Trail #58 | time elapsed 2893.92
+2022-06-04 16:19:22,409 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:19:22,409 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:19:22,409 | itj_planning | INFO | Trail #58 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 16:19:22,441 | itj_planning | INFO | Trail #59 | time elapsed 2941.72
+2022-06-04 16:20:09,722 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:20:09,722 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:20:09,722 | itj_planning | INFO | Trail #59 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 16:20:09,753 | itj_planning | INFO | Trail #60 | time elapsed 2989.04
+2022-06-04 16:21:01,949 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:21:01,949 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:21:01,949 | itj_planning | INFO | Trail #60 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 16:21:01,965 | itj_planning | INFO | Trail #61 | time elapsed 3041.25
+2022-06-04 16:21:48,110 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:21:48,110 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:21:48,110 | itj_planning | INFO | Trail #61 | Plan Failure | Runtime of current attempt: 46.1
+2022-06-04 16:21:48,134 | itj_planning | INFO | Trail #62 | time elapsed 3087.42
+2022-06-04 16:22:36,929 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:22:36,929 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:22:36,929 | itj_planning | INFO | Trail #62 | Plan Failure | Runtime of current attempt: 48.8
+2022-06-04 16:22:36,960 | itj_planning | INFO | Trail #63 | time elapsed 3136.24
+2022-06-04 16:23:27,589 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:23:27,589 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:23:27,589 | itj_planning | INFO | Trail #63 | Plan Failure | Runtime of current attempt: 50.6
+2022-06-04 16:23:27,605 | itj_planning | INFO | Trail #64 | time elapsed 3186.89
+2022-06-04 16:24:15,520 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:24:15,520 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:24:15,520 | itj_planning | INFO | Trail #64 | Plan Failure | Runtime of current attempt: 47.9
+2022-06-04 16:24:15,551 | itj_planning | INFO | Trail #65 | time elapsed 3234.83
+2022-06-04 16:25:07,765 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:25:07,765 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:25:07,765 | itj_planning | INFO | Trail #65 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 16:25:07,781 | itj_planning | INFO | Trail #66 | time elapsed 3287.06
+2022-06-04 16:25:58,839 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:25:58,839 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:25:58,839 | itj_planning | INFO | Trail #66 | Plan Failure | Runtime of current attempt: 51.1
+2022-06-04 16:25:58,854 | itj_planning | INFO | Trail #67 | time elapsed 3338.14
+2022-06-04 16:26:45,300 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:26:45,300 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:26:45,300 | itj_planning | INFO | Trail #67 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-04 16:26:45,331 | itj_planning | INFO | Trail #68 | time elapsed 3384.61
+2022-06-04 16:27:34,486 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:27:34,486 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:27:34,486 | itj_planning | INFO | Trail #68 | Plan Failure | Runtime of current attempt: 49.2
+2022-06-04 16:27:34,501 | itj_planning | INFO | Trail #69 | time elapsed 3433.78
+2022-06-04 16:28:25,022 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:28:25,022 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:28:25,022 | itj_planning | INFO | Trail #69 | Plan Failure | Runtime of current attempt: 50.5
+2022-06-04 16:28:25,053 | itj_planning | INFO | Trail #70 | time elapsed 3484.34
+2022-06-04 16:29:13,232 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:29:13,232 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:29:13,232 | itj_planning | INFO | Trail #70 | Plan Failure | Runtime of current attempt: 48.2
+2022-06-04 16:29:13,263 | itj_planning | INFO | Trail #71 | time elapsed 3532.55
+2022-06-04 16:30:00,569 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:30:00,569 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:30:00,569 | itj_planning | INFO | Trail #71 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 16:30:00,584 | itj_planning | INFO | Trail #72 | time elapsed 3579.87
+2022-06-04 16:30:47,685 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:30:47,685 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:30:47,685 | itj_planning | INFO | Trail #72 | Plan Failure | Runtime of current attempt: 47.1
+2022-06-04 16:30:47,707 | itj_planning | INFO | Trail #73 | time elapsed 3626.99
+2022-06-04 16:31:39,695 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:31:39,695 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:31:39,695 | itj_planning | INFO | Trail #73 | Plan Failure | Runtime of current attempt: 52.0
+2022-06-04 16:31:39,726 | itj_planning | INFO | Trail #74 | time elapsed 3679.01
+2022-06-04 16:32:28,221 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:32:28,221 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:32:28,221 | itj_planning | INFO | Trail #74 | Plan Failure | Runtime of current attempt: 48.5
+2022-06-04 16:32:28,253 | itj_planning | INFO | Trail #75 | time elapsed 3727.53
+2022-06-04 16:33:15,565 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:33:15,565 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:33:15,565 | itj_planning | INFO | Trail #75 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 16:33:15,581 | itj_planning | INFO | Trail #76 | time elapsed 3774.86
+2022-06-04 16:34:02,543 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:34:02,543 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:34:02,543 | itj_planning | INFO | Trail #76 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 16:34:02,574 | itj_planning | INFO | Trail #77 | time elapsed 3821.86
+2022-06-04 16:34:55,280 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:34:55,280 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:34:55,280 | itj_planning | INFO | Trail #77 | Plan Failure | Runtime of current attempt: 52.7
+2022-06-04 16:34:55,311 | itj_planning | INFO | Trail #78 | time elapsed 3874.59
+2022-06-04 16:35:43,151 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:35:43,151 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:35:43,151 | itj_planning | INFO | Trail #78 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 16:35:43,183 | itj_planning | INFO | Trail #79 | time elapsed 3922.46
+2022-06-04 16:36:31,438 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:36:31,438 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:36:31,438 | itj_planning | INFO | Trail #79 | Plan Failure | Runtime of current attempt: 48.3
+2022-06-04 16:36:31,454 | itj_planning | INFO | Trail #80 | time elapsed 3970.74
+2022-06-04 16:37:20,341 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:37:20,341 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:37:20,341 | itj_planning | INFO | Trail #80 | Plan Failure | Runtime of current attempt: 48.9
+2022-06-04 16:37:20,373 | itj_planning | INFO | Trail #81 | time elapsed 4019.65
+2022-06-04 16:38:07,661 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:38:07,661 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:38:07,661 | itj_planning | INFO | Trail #81 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 16:38:07,692 | itj_planning | INFO | Trail #82 | time elapsed 4066.97
+2022-06-04 16:38:54,005 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:38:54,005 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:38:54,005 | itj_planning | INFO | Trail #82 | Plan Failure | Runtime of current attempt: 46.3
+2022-06-04 16:38:54,036 | itj_planning | INFO | Trail #83 | time elapsed 4113.32
+2022-06-04 16:39:41,595 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:39:41,595 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:39:41,595 | itj_planning | INFO | Trail #83 | Plan Failure | Runtime of current attempt: 47.6
+2022-06-04 16:39:41,626 | itj_planning | INFO | Trail #84 | time elapsed 4160.91
+2022-06-04 16:40:27,862 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:40:27,862 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:40:27,862 | itj_planning | INFO | Trail #84 | Plan Failure | Runtime of current attempt: 46.2
+2022-06-04 16:40:27,893 | itj_planning | INFO | Trail #85 | time elapsed 4207.18
+2022-06-04 16:41:20,547 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:41:20,547 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:41:20,547 | itj_planning | INFO | Trail #85 | Plan Failure | Runtime of current attempt: 52.7
+2022-06-04 16:41:20,563 | itj_planning | INFO | Trail #86 | time elapsed 4259.85
+2022-06-04 16:42:07,472 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:42:07,472 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:42:07,472 | itj_planning | INFO | Trail #86 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 16:42:07,504 | itj_planning | INFO | Trail #87 | time elapsed 4306.79
+2022-06-04 16:42:54,174 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:42:54,174 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:42:54,174 | itj_planning | INFO | Trail #87 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 16:42:54,190 | itj_planning | INFO | Trail #88 | time elapsed 4353.47
+2022-06-04 16:43:49,467 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:43:49,467 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:43:49,467 | itj_planning | INFO | Trail #88 | Plan Failure | Runtime of current attempt: 55.3
+2022-06-04 16:43:49,483 | itj_planning | INFO | Trail #89 | time elapsed 4408.77
+2022-06-04 16:44:35,669 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:44:35,669 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:44:35,669 | itj_planning | INFO | Trail #89 | Plan Failure | Runtime of current attempt: 46.2
+2022-06-04 16:44:35,685 | itj_planning | INFO | Trail #90 | time elapsed 4454.97
+2022-06-04 16:45:25,200 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:45:25,200 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:45:25,200 | itj_planning | INFO | Trail #90 | Plan Failure | Runtime of current attempt: 49.5
+2022-06-04 16:45:25,231 | itj_planning | INFO | Trail #91 | time elapsed 4504.51
+2022-06-04 16:46:18,321 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:46:18,321 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:46:18,321 | itj_planning | INFO | Trail #91 | Plan Failure | Runtime of current attempt: 53.1
+2022-06-04 16:46:18,337 | itj_planning | INFO | Trail #92 | time elapsed 4557.62
+2022-06-04 16:47:06,143 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:47:06,143 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:47:06,143 | itj_planning | INFO | Trail #92 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 16:47:06,174 | itj_planning | INFO | Trail #93 | time elapsed 4605.46
+2022-06-04 16:47:54,720 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:47:54,721 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:47:54,721 | itj_planning | INFO | Trail #93 | Plan Failure | Runtime of current attempt: 48.5
+2022-06-04 16:47:54,736 | itj_planning | INFO | Trail #94 | time elapsed 4654.02
+2022-06-04 16:48:42,004 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:48:42,004 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:48:42,004 | itj_planning | INFO | Trail #94 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 16:48:42,035 | itj_planning | INFO | Trail #95 | time elapsed 4701.32
+2022-06-04 16:49:34,196 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:49:34,196 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:49:34,196 | itj_planning | INFO | Trail #95 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 16:49:34,211 | itj_planning | INFO | Trail #96 | time elapsed 4753.49
+2022-06-04 16:50:21,657 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:50:21,657 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:50:21,657 | itj_planning | INFO | Trail #96 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 16:50:21,697 | itj_planning | INFO | Trail #97 | time elapsed 4800.98
+2022-06-04 16:51:20,235 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:51:20,236 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:51:20,236 | itj_planning | INFO | Trail #97 | Plan Failure | Runtime of current attempt: 58.5
+2022-06-04 16:51:20,253 | itj_planning | INFO | Trail #98 | time elapsed 4859.53
+2022-06-04 16:52:07,915 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:52:07,915 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:52:07,915 | itj_planning | INFO | Trail #98 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 16:52:07,946 | itj_planning | INFO | Trail #99 | time elapsed 4907.23
+2022-06-04 16:53:00,563 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:53:00,563 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:53:00,563 | itj_planning | INFO | Trail #99 | Plan Failure | Runtime of current attempt: 52.6
+2022-06-04 16:53:00,579 | itj_planning | INFO | Trail #100 | time elapsed 4959.86
+2022-06-04 16:53:53,425 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:53:53,425 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:53:53,425 | itj_planning | INFO | Trail #100 | Plan Failure | Runtime of current attempt: 52.8
+2022-06-04 16:53:53,440 | itj_planning | INFO | Trail #101 | time elapsed 5012.72
+2022-06-04 16:54:40,351 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:54:40,351 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:54:40,351 | itj_planning | INFO | Trail #101 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 16:54:40,367 | itj_planning | INFO | Trail #102 | time elapsed 5059.65
+2022-06-04 16:55:27,288 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:55:27,288 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:55:27,288 | itj_planning | INFO | Trail #102 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 16:55:27,303 | itj_planning | INFO | Trail #103 | time elapsed 5106.59
+2022-06-04 16:56:13,507 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:56:13,507 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:56:13,507 | itj_planning | INFO | Trail #103 | Plan Failure | Runtime of current attempt: 46.2
+2022-06-04 16:56:13,538 | itj_planning | INFO | Trail #104 | time elapsed 5152.82
+2022-06-04 16:57:00,587 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:57:00,587 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:57:00,587 | itj_planning | INFO | Trail #104 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 16:57:00,618 | itj_planning | INFO | Trail #105 | time elapsed 5199.90
+2022-06-04 16:57:54,074 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:57:54,074 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:57:54,074 | itj_planning | INFO | Trail #105 | Plan Failure | Runtime of current attempt: 53.5
+2022-06-04 16:57:54,090 | itj_planning | INFO | Trail #106 | time elapsed 5253.37
+2022-06-04 16:58:46,163 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:58:46,163 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:58:46,163 | itj_planning | INFO | Trail #106 | Plan Failure | Runtime of current attempt: 52.1
+2022-06-04 16:58:46,179 | itj_planning | INFO | Trail #107 | time elapsed 5305.46
+2022-06-04 16:59:33,606 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 16:59:33,606 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 16:59:33,606 | itj_planning | INFO | Trail #107 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 16:59:33,621 | itj_planning | INFO | Trail #108 | time elapsed 5352.90
+2022-06-04 17:00:22,709 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:00:22,709 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:00:22,709 | itj_planning | INFO | Trail #108 | Plan Failure | Runtime of current attempt: 49.1
+2022-06-04 17:00:22,725 | itj_planning | INFO | Trail #109 | time elapsed 5402.01
+2022-06-04 17:01:12,353 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:01:12,353 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:01:12,353 | itj_planning | INFO | Trail #109 | Plan Failure | Runtime of current attempt: 49.6
+2022-06-04 17:01:12,384 | itj_planning | INFO | Trail #110 | time elapsed 5451.67
+2022-06-04 17:01:59,291 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:01:59,291 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:01:59,291 | itj_planning | INFO | Trail #110 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 17:01:59,307 | itj_planning | INFO | Trail #111 | time elapsed 5498.59
+2022-06-04 17:02:45,945 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:02:45,945 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:02:45,945 | itj_planning | INFO | Trail #111 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 17:02:45,960 | itj_planning | INFO | Trail #112 | time elapsed 5545.24
+2022-06-04 17:03:33,799 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:03:33,815 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:03:33,815 | itj_planning | INFO | Trail #112 | Plan Failure | Runtime of current attempt: 47.9
+2022-06-04 17:03:33,831 | itj_planning | INFO | Trail #113 | time elapsed 5593.11
+2022-06-04 17:04:26,077 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:04:26,077 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:04:26,077 | itj_planning | INFO | Trail #113 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 17:04:26,092 | itj_planning | INFO | Trail #114 | time elapsed 5645.37
+2022-06-04 17:05:18,666 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:05:18,666 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:05:18,666 | itj_planning | INFO | Trail #114 | Plan Failure | Runtime of current attempt: 52.6
+2022-06-04 17:05:18,681 | itj_planning | INFO | Trail #115 | time elapsed 5697.96
+2022-06-04 17:06:11,495 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:06:11,495 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:06:11,495 | itj_planning | INFO | Trail #115 | Plan Failure | Runtime of current attempt: 52.8
+2022-06-04 17:06:11,527 | itj_planning | INFO | Trail #116 | time elapsed 5750.81
+2022-06-04 17:07:00,410 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:07:00,410 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:07:00,410 | itj_planning | INFO | Trail #116 | Plan Failure | Runtime of current attempt: 48.9
+2022-06-04 17:07:00,441 | itj_planning | INFO | Trail #117 | time elapsed 5799.72
+2022-06-04 17:07:47,004 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:07:47,004 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:07:47,004 | itj_planning | INFO | Trail #117 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 17:07:47,020 | itj_planning | INFO | Trail #118 | time elapsed 5846.30
+2022-06-04 17:08:39,853 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:08:39,853 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:08:39,853 | itj_planning | INFO | Trail #118 | Plan Failure | Runtime of current attempt: 52.8
+2022-06-04 17:08:39,868 | itj_planning | INFO | Trail #119 | time elapsed 5899.15
+2022-06-04 17:09:25,927 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:09:25,927 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:09:25,927 | itj_planning | INFO | Trail #119 | Plan Failure | Runtime of current attempt: 46.1
+2022-06-04 17:09:25,960 | itj_planning | INFO | Trail #120 | time elapsed 5945.24
+2022-06-04 17:10:12,506 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:10:12,506 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:10:12,506 | itj_planning | INFO | Trail #120 | Plan Failure | Runtime of current attempt: 46.5
+2022-06-04 17:10:12,522 | itj_planning | INFO | Trail #121 | time elapsed 5991.80
+2022-06-04 17:10:59,398 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:10:59,398 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:10:59,398 | itj_planning | INFO | Trail #121 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 17:10:59,414 | itj_planning | INFO | Trail #122 | time elapsed 6038.70
+2022-06-04 17:11:51,050 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:11:51,050 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:11:51,050 | itj_planning | INFO | Trail #122 | Plan Failure | Runtime of current attempt: 51.6
+2022-06-04 17:11:51,081 | itj_planning | INFO | Trail #123 | time elapsed 6090.36
+2022-06-04 17:12:38,715 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:12:38,715 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:12:38,715 | itj_planning | INFO | Trail #123 | Plan Failure | Runtime of current attempt: 47.6
+2022-06-04 17:12:38,731 | itj_planning | INFO | Trail #124 | time elapsed 6138.01
+2022-06-04 17:13:32,109 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:13:32,109 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:13:32,109 | itj_planning | INFO | Trail #124 | Plan Failure | Runtime of current attempt: 53.4
+2022-06-04 17:13:32,125 | itj_planning | INFO | Trail #125 | time elapsed 6191.41
+2022-06-04 17:14:21,123 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:14:21,123 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:14:21,123 | itj_planning | INFO | Trail #125 | Plan Failure | Runtime of current attempt: 49.0
+2022-06-04 17:14:21,139 | itj_planning | INFO | Trail #126 | time elapsed 6240.42
+2022-06-04 17:15:13,153 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:15:13,153 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:15:13,153 | itj_planning | INFO | Trail #126 | Plan Failure | Runtime of current attempt: 52.0
+2022-06-04 17:15:13,188 | itj_planning | INFO | Trail #127 | time elapsed 6292.47
+2022-06-04 17:16:06,563 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:16:06,563 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:16:06,563 | itj_planning | INFO | Trail #127 | Plan Failure | Runtime of current attempt: 53.4
+2022-06-04 17:16:06,578 | itj_planning | INFO | Trail #128 | time elapsed 6345.86
+2022-06-04 17:17:05,039 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:17:05,039 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:17:05,039 | itj_planning | INFO | Trail #128 | Plan Failure | Runtime of current attempt: 58.5
+2022-06-04 17:17:05,071 | itj_planning | INFO | Trail #129 | time elapsed 6404.35
+2022-06-04 17:17:58,641 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:17:58,641 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:17:58,641 | itj_planning | INFO | Trail #129 | Plan Failure | Runtime of current attempt: 53.6
+2022-06-04 17:17:58,673 | itj_planning | INFO | Trail #130 | time elapsed 6457.95
+2022-06-04 17:18:46,967 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:18:46,967 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:18:46,967 | itj_planning | INFO | Trail #130 | Plan Failure | Runtime of current attempt: 48.3
+2022-06-04 17:18:46,998 | itj_planning | INFO | Trail #131 | time elapsed 6506.28
+2022-06-04 17:19:39,126 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:19:39,126 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:19:39,126 | itj_planning | INFO | Trail #131 | Plan Failure | Runtime of current attempt: 52.1
+2022-06-04 17:19:39,157 | itj_planning | INFO | Trail #132 | time elapsed 6558.44
+2022-06-04 17:20:29,993 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:20:29,994 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:20:29,994 | itj_planning | INFO | Trail #132 | Plan Failure | Runtime of current attempt: 50.8
+2022-06-04 17:20:30,013 | itj_planning | INFO | Trail #133 | time elapsed 6609.30
+2022-06-04 17:21:17,313 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:21:17,313 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:21:17,313 | itj_planning | INFO | Trail #133 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 17:21:17,328 | itj_planning | INFO | Trail #134 | time elapsed 6656.61
+2022-06-04 17:22:06,987 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:22:06,987 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:22:07,002 | itj_planning | INFO | Trail #134 | Plan Failure | Runtime of current attempt: 49.7
+2022-06-04 17:22:07,018 | itj_planning | INFO | Trail #135 | time elapsed 6706.30
+2022-06-04 17:22:57,490 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:22:57,490 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:22:57,490 | itj_planning | INFO | Trail #135 | Plan Failure | Runtime of current attempt: 50.5
+2022-06-04 17:22:57,521 | itj_planning | INFO | Trail #136 | time elapsed 6756.80
+2022-06-04 17:23:52,437 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:23:52,437 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:23:52,437 | itj_planning | INFO | Trail #136 | Plan Failure | Runtime of current attempt: 54.9
+2022-06-04 17:23:52,469 | itj_planning | INFO | Trail #137 | time elapsed 6811.75
+2022-06-04 17:24:45,530 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:24:45,530 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:24:45,530 | itj_planning | INFO | Trail #137 | Plan Failure | Runtime of current attempt: 53.1
+2022-06-04 17:24:45,546 | itj_planning | INFO | Trail #138 | time elapsed 6864.83
+2022-06-04 17:25:34,576 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:25:34,576 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:25:34,576 | itj_planning | INFO | Trail #138 | Plan Failure | Runtime of current attempt: 49.0
+2022-06-04 17:25:34,592 | itj_planning | INFO | Trail #139 | time elapsed 6913.87
+2022-06-04 17:26:20,622 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:26:20,622 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:26:20,622 | itj_planning | INFO | Trail #139 | Plan Failure | Runtime of current attempt: 46.0
+2022-06-04 17:26:20,653 | itj_planning | INFO | Trail #140 | time elapsed 6959.93
+2022-06-04 17:27:12,352 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:27:12,352 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:27:12,352 | itj_planning | INFO | Trail #140 | Plan Failure | Runtime of current attempt: 51.7
+2022-06-04 17:27:12,383 | itj_planning | INFO | Trail #141 | time elapsed 7011.67
+2022-06-04 17:27:58,908 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:27:58,908 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:27:58,908 | itj_planning | INFO | Trail #141 | Plan Failure | Runtime of current attempt: 46.5
+2022-06-04 17:27:58,939 | itj_planning | INFO | Trail #142 | time elapsed 7058.22
+2022-06-04 17:28:45,726 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:28:45,726 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:28:45,726 | itj_planning | INFO | Trail #142 | Plan Failure | Runtime of current attempt: 46.8
+2022-06-04 17:28:45,742 | itj_planning | INFO | Trail #143 | time elapsed 7105.02
+2022-06-04 17:29:32,826 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:29:32,826 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:29:32,826 | itj_planning | INFO | Trail #143 | Plan Failure | Runtime of current attempt: 47.1
+2022-06-04 17:29:32,842 | itj_planning | INFO | Trail #144 | time elapsed 7152.12
+2022-06-04 17:30:19,792 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:30:19,792 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:30:19,793 | itj_planning | INFO | Trail #144 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 17:30:19,815 | itj_planning | INFO | Trail #145 | time elapsed 7199.10
+2022-06-04 17:31:08,374 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:31:08,374 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:31:08,374 | itj_planning | INFO | Trail #145 | Plan Failure | Runtime of current attempt: 48.6
+2022-06-04 17:31:08,405 | itj_planning | INFO | Trail #146 | time elapsed 7247.69
+2022-06-04 17:31:54,922 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:31:54,923 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:31:54,923 | itj_planning | INFO | Trail #146 | Plan Failure | Runtime of current attempt: 46.5
+2022-06-04 17:31:54,943 | itj_planning | INFO | Trail #147 | time elapsed 7294.22
+2022-06-04 17:32:41,380 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:32:41,380 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:32:41,380 | itj_planning | INFO | Trail #147 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-04 17:32:41,411 | itj_planning | INFO | Trail #148 | time elapsed 7340.69
+2022-06-04 17:33:29,609 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:33:29,609 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:33:29,609 | itj_planning | INFO | Trail #148 | Plan Failure | Runtime of current attempt: 48.2
+2022-06-04 17:33:29,625 | itj_planning | INFO | Trail #149 | time elapsed 7388.91
+2022-06-04 17:34:23,365 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:34:23,365 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:34:23,365 | itj_planning | INFO | Trail #149 | Plan Failure | Runtime of current attempt: 53.7
+2022-06-04 17:34:23,396 | itj_planning | INFO | Trail #150 | time elapsed 7442.68
+2022-06-04 17:35:13,605 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:35:13,605 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:35:13,605 | itj_planning | INFO | Trail #150 | Plan Failure | Runtime of current attempt: 50.2
+2022-06-04 17:35:13,620 | itj_planning | INFO | Trail #151 | time elapsed 7492.90
+2022-06-04 17:36:01,052 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:36:01,052 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:36:01,052 | itj_planning | INFO | Trail #151 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 17:36:01,068 | itj_planning | INFO | Trail #152 | time elapsed 7540.35
+2022-06-04 17:36:48,661 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:36:48,661 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:36:48,662 | itj_planning | INFO | Trail #152 | Plan Failure | Runtime of current attempt: 47.6
+2022-06-04 17:36:48,683 | itj_planning | INFO | Trail #153 | time elapsed 7587.97
+2022-06-04 17:37:41,067 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:37:41,067 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:37:41,067 | itj_planning | INFO | Trail #153 | Plan Failure | Runtime of current attempt: 52.4
+2022-06-04 17:37:41,098 | itj_planning | INFO | Trail #154 | time elapsed 7640.38
+2022-06-04 17:38:28,117 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:38:28,117 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:38:28,117 | itj_planning | INFO | Trail #154 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 17:38:28,133 | itj_planning | INFO | Trail #155 | time elapsed 7687.41
+2022-06-04 17:39:27,349 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:39:27,349 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:39:27,349 | itj_planning | INFO | Trail #155 | Plan Failure | Runtime of current attempt: 59.2
+2022-06-04 17:39:27,388 | itj_planning | INFO | Trail #156 | time elapsed 7746.67
+2022-06-04 17:40:18,986 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:40:18,986 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:40:18,986 | itj_planning | INFO | Trail #156 | Plan Failure | Runtime of current attempt: 51.6
+2022-06-04 17:40:19,001 | itj_planning | INFO | Trail #157 | time elapsed 7798.28
+2022-06-04 17:41:11,320 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:41:11,320 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:41:11,320 | itj_planning | INFO | Trail #157 | Plan Failure | Runtime of current attempt: 52.3
+2022-06-04 17:41:11,351 | itj_planning | INFO | Trail #158 | time elapsed 7850.62
+2022-06-04 17:41:58,668 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:41:58,668 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:41:58,668 | itj_planning | INFO | Trail #158 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 17:41:58,699 | itj_planning | INFO | Trail #159 | time elapsed 7897.98
+2022-06-04 17:42:46,389 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:42:46,389 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:42:46,389 | itj_planning | INFO | Trail #159 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 17:42:46,421 | itj_planning | INFO | Trail #160 | time elapsed 7945.70
+2022-06-04 17:43:42,965 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:43:42,965 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:43:42,965 | itj_planning | INFO | Trail #160 | Plan Failure | Runtime of current attempt: 56.5
+2022-06-04 17:43:42,996 | itj_planning | INFO | Trail #161 | time elapsed 8002.28
+2022-06-04 17:44:35,213 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:44:35,213 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:44:35,213 | itj_planning | INFO | Trail #161 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 17:44:35,229 | itj_planning | INFO | Trail #162 | time elapsed 8054.51
+2022-06-04 17:45:22,594 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:45:22,594 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:45:22,594 | itj_planning | INFO | Trail #162 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 17:45:22,609 | itj_planning | INFO | Trail #163 | time elapsed 8101.89
+2022-06-04 17:46:18,351 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:46:18,351 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:46:18,351 | itj_planning | INFO | Trail #163 | Plan Failure | Runtime of current attempt: 55.7
+2022-06-04 17:46:18,366 | itj_planning | INFO | Trail #164 | time elapsed 8157.65
+2022-06-04 17:47:05,838 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:47:05,838 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:47:05,838 | itj_planning | INFO | Trail #164 | Plan Failure | Runtime of current attempt: 47.5
+2022-06-04 17:47:05,880 | itj_planning | INFO | Trail #165 | time elapsed 8205.16
+2022-06-04 17:47:54,036 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:47:54,036 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:47:54,036 | itj_planning | INFO | Trail #165 | Plan Failure | Runtime of current attempt: 48.2
+2022-06-04 17:47:54,067 | itj_planning | INFO | Trail #166 | time elapsed 8253.35
+2022-06-04 17:48:44,729 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:48:44,729 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:48:44,729 | itj_planning | INFO | Trail #166 | Plan Failure | Runtime of current attempt: 50.7
+2022-06-04 17:48:44,760 | itj_planning | INFO | Trail #167 | time elapsed 8304.04
+2022-06-04 17:49:31,831 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:49:31,831 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:49:31,831 | itj_planning | INFO | Trail #167 | Plan Failure | Runtime of current attempt: 47.1
+2022-06-04 17:49:31,847 | itj_planning | INFO | Trail #168 | time elapsed 8351.13
+2022-06-04 17:50:24,915 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:50:24,915 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:50:24,915 | itj_planning | INFO | Trail #168 | Plan Failure | Runtime of current attempt: 53.1
+2022-06-04 17:50:24,930 | itj_planning | INFO | Trail #169 | time elapsed 8404.21
+2022-06-04 17:51:11,012 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:51:11,012 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:51:11,027 | itj_planning | INFO | Trail #169 | Plan Failure | Runtime of current attempt: 46.1
+2022-06-04 17:51:11,043 | itj_planning | INFO | Trail #170 | time elapsed 8450.33
+2022-06-04 17:52:03,567 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:52:03,567 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:52:03,567 | itj_planning | INFO | Trail #170 | Plan Failure | Runtime of current attempt: 52.5
+2022-06-04 17:52:03,582 | itj_planning | INFO | Trail #171 | time elapsed 8502.86
+2022-06-04 17:52:50,203 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:52:50,203 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:52:50,203 | itj_planning | INFO | Trail #171 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 17:52:50,219 | itj_planning | INFO | Trail #172 | time elapsed 8549.50
+2022-06-04 17:53:36,551 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:53:36,551 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:53:36,551 | itj_planning | INFO | Trail #172 | Plan Failure | Runtime of current attempt: 46.3
+2022-06-04 17:53:36,567 | itj_planning | INFO | Trail #173 | time elapsed 8595.85
+2022-06-04 17:54:30,662 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:54:30,662 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:54:30,662 | itj_planning | INFO | Trail #173 | Plan Failure | Runtime of current attempt: 54.1
+2022-06-04 17:54:30,678 | itj_planning | INFO | Trail #174 | time elapsed 8649.96
+2022-06-04 17:55:21,637 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:55:21,637 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:55:21,637 | itj_planning | INFO | Trail #174 | Plan Failure | Runtime of current attempt: 51.0
+2022-06-04 17:55:21,653 | itj_planning | INFO | Trail #175 | time elapsed 8700.93
+2022-06-04 17:56:15,457 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:56:15,457 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:56:15,457 | itj_planning | INFO | Trail #175 | Plan Failure | Runtime of current attempt: 53.8
+2022-06-04 17:56:15,473 | itj_planning | INFO | Trail #176 | time elapsed 8754.75
+2022-06-04 17:57:09,665 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:57:09,665 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:57:09,665 | itj_planning | INFO | Trail #176 | Plan Failure | Runtime of current attempt: 54.2
+2022-06-04 17:57:09,697 | itj_planning | INFO | Trail #177 | time elapsed 8808.98
+2022-06-04 17:57:58,271 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:57:58,271 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:57:58,271 | itj_planning | INFO | Trail #177 | Plan Failure | Runtime of current attempt: 48.6
+2022-06-04 17:57:58,287 | itj_planning | INFO | Trail #178 | time elapsed 8857.57
+2022-06-04 17:58:52,886 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:58:52,886 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:58:52,886 | itj_planning | INFO | Trail #178 | Plan Failure | Runtime of current attempt: 54.6
+2022-06-04 17:58:52,917 | itj_planning | INFO | Trail #179 | time elapsed 8912.20
+2022-06-04 17:59:41,350 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 17:59:41,350 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 17:59:41,350 | itj_planning | INFO | Trail #179 | Plan Failure | Runtime of current attempt: 48.4
+2022-06-04 17:59:41,382 | itj_planning | INFO | Trail #180 | time elapsed 8960.66
+2022-06-04 18:00:28,356 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:00:28,356 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:00:28,356 | itj_planning | INFO | Trail #180 | Plan Failure | Runtime of current attempt: 47.0
+2022-06-04 18:00:28,387 | itj_planning | INFO | Trail #181 | time elapsed 9007.67
+2022-06-04 18:01:15,076 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:01:15,076 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:01:15,076 | itj_planning | INFO | Trail #181 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 18:01:15,092 | itj_planning | INFO | Trail #182 | time elapsed 9054.37
+2022-06-04 18:02:02,893 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:02:02,893 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:02:02,893 | itj_planning | INFO | Trail #182 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 18:02:02,924 | itj_planning | INFO | Trail #183 | time elapsed 9102.21
+2022-06-04 18:02:57,905 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:02:57,905 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:02:57,905 | itj_planning | INFO | Trail #183 | Plan Failure | Runtime of current attempt: 55.0
+2022-06-04 18:02:57,920 | itj_planning | INFO | Trail #184 | time elapsed 9157.20
+2022-06-04 18:03:44,670 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:03:44,670 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:03:44,670 | itj_planning | INFO | Trail #184 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 18:03:44,701 | itj_planning | INFO | Trail #185 | time elapsed 9203.98
+2022-06-04 18:04:31,156 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:04:31,156 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:04:31,156 | itj_planning | INFO | Trail #185 | Plan Failure | Runtime of current attempt: 46.5
+2022-06-04 18:04:31,187 | itj_planning | INFO | Trail #186 | time elapsed 9250.47
+2022-06-04 18:05:24,147 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:05:24,147 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:05:24,147 | itj_planning | INFO | Trail #186 | Plan Failure | Runtime of current attempt: 53.0
+2022-06-04 18:05:24,179 | itj_planning | INFO | Trail #187 | time elapsed 9303.46
+2022-06-04 18:06:16,119 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:06:16,119 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:06:16,119 | itj_planning | INFO | Trail #187 | Plan Failure | Runtime of current attempt: 51.9
+2022-06-04 18:06:16,134 | itj_planning | INFO | Trail #188 | time elapsed 9355.42
+2022-06-04 18:07:03,972 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:07:03,987 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:07:03,987 | itj_planning | INFO | Trail #188 | Plan Failure | Runtime of current attempt: 47.9
+2022-06-04 18:07:04,003 | itj_planning | INFO | Trail #189 | time elapsed 9403.29
+2022-06-04 18:07:58,281 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:07:58,281 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:07:58,281 | itj_planning | INFO | Trail #189 | Plan Failure | Runtime of current attempt: 54.3
+2022-06-04 18:07:58,297 | itj_planning | INFO | Trail #190 | time elapsed 9457.58
+2022-06-04 18:08:45,947 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:08:45,947 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:08:45,947 | itj_planning | INFO | Trail #190 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 18:08:45,963 | itj_planning | INFO | Trail #191 | time elapsed 9505.24
+2022-06-04 18:09:39,214 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:09:39,214 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:09:39,214 | itj_planning | INFO | Trail #191 | Plan Failure | Runtime of current attempt: 53.3
+2022-06-04 18:09:39,246 | itj_planning | INFO | Trail #192 | time elapsed 9558.53
+2022-06-04 18:10:26,646 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:10:26,646 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:10:26,647 | itj_planning | INFO | Trail #192 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 18:10:26,669 | itj_planning | INFO | Trail #193 | time elapsed 9605.95
+2022-06-04 18:11:13,970 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:11:13,970 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:11:13,970 | itj_planning | INFO | Trail #193 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 18:11:14,001 | itj_planning | INFO | Trail #194 | time elapsed 9653.28
+2022-06-04 18:12:10,274 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:12:10,274 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:12:10,274 | itj_planning | INFO | Trail #194 | Plan Failure | Runtime of current attempt: 56.3
+2022-06-04 18:12:10,305 | itj_planning | INFO | Trail #195 | time elapsed 9709.59
+2022-06-04 18:12:56,980 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:12:56,980 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:12:56,995 | itj_planning | INFO | Trail #195 | Plan Failure | Runtime of current attempt: 46.7
+2022-06-04 18:12:57,011 | itj_planning | INFO | Trail #196 | time elapsed 9756.29
+2022-06-04 18:13:45,318 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:13:45,318 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:13:45,318 | itj_planning | INFO | Trail #196 | Plan Failure | Runtime of current attempt: 48.3
+2022-06-04 18:13:45,333 | itj_planning | INFO | Trail #197 | time elapsed 9804.62
+2022-06-04 18:14:33,826 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:14:33,826 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:14:33,826 | itj_planning | INFO | Trail #197 | Plan Failure | Runtime of current attempt: 48.5
+2022-06-04 18:14:33,842 | itj_planning | INFO | Trail #198 | time elapsed 9853.12
+2022-06-04 18:15:26,306 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:15:26,306 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:15:26,306 | itj_planning | INFO | Trail #198 | Plan Failure | Runtime of current attempt: 52.5
+2022-06-04 18:15:26,333 | itj_planning | INFO | Trail #199 | time elapsed 9905.62
+2022-06-04 18:16:13,995 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:16:13,995 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:16:13,995 | itj_planning | INFO | Trail #199 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 18:16:14,011 | itj_planning | INFO | Trail #200 | time elapsed 9953.29
+2022-06-04 18:17:01,549 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:17:01,549 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:17:01,549 | itj_planning | INFO | Trail #200 | Plan Failure | Runtime of current attempt: 47.5
+2022-06-04 18:17:01,565 | itj_planning | INFO | Trail #201 | time elapsed 10000.85
+2022-06-04 18:18:05,068 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:18:05,068 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:18:05,068 | itj_planning | INFO | Trail #201 | Plan Failure | Runtime of current attempt: 63.5
+2022-06-04 18:18:05,101 | itj_planning | INFO | Trail #202 | time elapsed 10064.38
+2022-06-04 18:18:59,313 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:18:59,313 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:18:59,313 | itj_planning | INFO | Trail #202 | Plan Failure | Runtime of current attempt: 54.2
+2022-06-04 18:18:59,341 | itj_planning | INFO | Trail #203 | time elapsed 10118.62
+2022-06-04 18:19:47,466 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:19:47,466 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:19:47,466 | itj_planning | INFO | Trail #203 | Plan Failure | Runtime of current attempt: 48.1
+2022-06-04 18:19:47,482 | itj_planning | INFO | Trail #204 | time elapsed 10166.76
+2022-06-04 18:20:33,940 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:20:33,940 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:20:33,940 | itj_planning | INFO | Trail #204 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-04 18:20:33,956 | itj_planning | INFO | Trail #205 | time elapsed 10213.24
+2022-06-04 18:21:28,088 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:21:28,088 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:21:28,088 | itj_planning | INFO | Trail #205 | Plan Failure | Runtime of current attempt: 54.1
+2022-06-04 18:21:28,120 | itj_planning | INFO | Trail #206 | time elapsed 10267.40
+2022-06-04 18:22:22,111 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:22:22,111 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:22:22,111 | itj_planning | INFO | Trail #206 | Plan Failure | Runtime of current attempt: 54.0
+2022-06-04 18:22:22,142 | itj_planning | INFO | Trail #207 | time elapsed 10321.42
+2022-06-04 18:23:12,285 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:23:12,285 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:23:12,285 | itj_planning | INFO | Trail #207 | Plan Failure | Runtime of current attempt: 50.1
+2022-06-04 18:23:12,301 | itj_planning | INFO | Trail #208 | time elapsed 10371.58
+2022-06-04 18:24:01,030 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:24:01,030 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:24:01,030 | itj_planning | INFO | Trail #208 | Plan Failure | Runtime of current attempt: 48.7
+2022-06-04 18:24:01,045 | itj_planning | INFO | Trail #209 | time elapsed 10420.33
+2022-06-04 18:24:49,716 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:24:49,716 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:24:49,717 | itj_planning | INFO | Trail #209 | Plan Failure | Runtime of current attempt: 48.7
+2022-06-04 18:24:49,739 | itj_planning | INFO | Trail #210 | time elapsed 10469.02
+2022-06-04 18:25:36,687 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:25:36,687 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:25:36,687 | itj_planning | INFO | Trail #210 | Plan Failure | Runtime of current attempt: 46.9
+2022-06-04 18:25:36,718 | itj_planning | INFO | Trail #211 | time elapsed 10516.00
+2022-06-04 18:26:24,427 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:26:24,427 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:26:24,427 | itj_planning | INFO | Trail #211 | Plan Failure | Runtime of current attempt: 47.7
+2022-06-04 18:26:24,457 | itj_planning | INFO | Trail #212 | time elapsed 10563.74
+2022-06-04 18:27:11,053 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:27:11,053 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:27:11,053 | itj_planning | INFO | Trail #212 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 18:27:11,077 | itj_planning | INFO | Trail #213 | time elapsed 10610.36
+2022-06-04 18:27:58,591 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:27:58,591 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:27:58,591 | itj_planning | INFO | Trail #213 | Plan Failure | Runtime of current attempt: 47.5
+2022-06-04 18:27:58,607 | itj_planning | INFO | Trail #214 | time elapsed 10657.89
+2022-06-04 18:28:52,427 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:28:52,427 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:28:52,427 | itj_planning | INFO | Trail #214 | Plan Failure | Runtime of current attempt: 53.8
+2022-06-04 18:28:52,459 | itj_planning | INFO | Trail #215 | time elapsed 10711.74
+2022-06-04 18:29:38,855 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:29:38,855 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:29:38,855 | itj_planning | INFO | Trail #215 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-04 18:29:38,871 | itj_planning | INFO | Trail #216 | time elapsed 10758.15
+2022-06-04 18:30:32,310 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:30:32,310 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:30:32,310 | itj_planning | INFO | Trail #216 | Plan Failure | Runtime of current attempt: 53.4
+2022-06-04 18:30:32,348 | itj_planning | INFO | Trail #217 | time elapsed 10811.63
+2022-06-04 18:31:19,155 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:31:19,155 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:31:19,155 | itj_planning | INFO | Trail #217 | Plan Failure | Runtime of current attempt: 46.8
+2022-06-04 18:31:19,171 | itj_planning | INFO | Trail #218 | time elapsed 10858.45
+2022-06-04 18:32:06,491 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:32:06,491 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:32:06,491 | itj_planning | INFO | Trail #218 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 18:32:06,506 | itj_planning | INFO | Trail #219 | time elapsed 10905.79
+2022-06-04 18:33:01,178 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:33:01,178 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:33:01,178 | itj_planning | INFO | Trail #219 | Plan Failure | Runtime of current attempt: 54.7
+2022-06-04 18:33:01,202 | itj_planning | INFO | Trail #220 | time elapsed 10960.48
+2022-06-04 18:33:47,058 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:33:47,058 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:33:47,058 | itj_planning | INFO | Trail #220 | Plan Failure | Runtime of current attempt: 45.9
+2022-06-04 18:33:47,092 | itj_planning | INFO | Trail #221 | time elapsed 11006.37
+2022-06-04 18:34:37,266 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:34:37,266 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:34:37,266 | itj_planning | INFO | Trail #221 | Plan Failure | Runtime of current attempt: 50.2
+2022-06-04 18:34:37,282 | itj_planning | INFO | Trail #222 | time elapsed 11056.56
+2022-06-04 18:35:24,868 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:35:24,868 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:35:24,868 | itj_planning | INFO | Trail #222 | Plan Failure | Runtime of current attempt: 47.6
+2022-06-04 18:35:24,884 | itj_planning | INFO | Trail #223 | time elapsed 11104.17
+2022-06-04 18:36:18,279 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:36:18,279 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:36:18,279 | itj_planning | INFO | Trail #223 | Plan Failure | Runtime of current attempt: 53.4
+2022-06-04 18:36:18,310 | itj_planning | INFO | Trail #224 | time elapsed 11157.59
+2022-06-04 18:37:12,034 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:37:12,034 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:37:12,034 | itj_planning | INFO | Trail #224 | Plan Failure | Runtime of current attempt: 53.7
+2022-06-04 18:37:12,050 | itj_planning | INFO | Trail #225 | time elapsed 11211.33
+2022-06-04 18:38:04,786 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:38:04,786 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:38:04,786 | itj_planning | INFO | Trail #225 | Plan Failure | Runtime of current attempt: 52.7
+2022-06-04 18:38:04,821 | itj_planning | INFO | Trail #226 | time elapsed 11264.10
+2022-06-04 18:38:51,050 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:38:51,050 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:38:51,050 | itj_planning | INFO | Trail #226 | Plan Failure | Runtime of current attempt: 46.2
+2022-06-04 18:38:51,081 | itj_planning | INFO | Trail #227 | time elapsed 11310.36
+2022-06-04 18:39:37,930 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:39:37,930 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:39:37,930 | itj_planning | INFO | Trail #227 | Plan Failure | Runtime of current attempt: 46.8
+2022-06-04 18:39:37,946 | itj_planning | INFO | Trail #228 | time elapsed 11357.23
+2022-06-04 18:40:24,570 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:40:24,570 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:40:24,570 | itj_planning | INFO | Trail #228 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 18:40:24,586 | itj_planning | INFO | Trail #229 | time elapsed 11403.87
+2022-06-04 18:41:16,613 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:41:16,613 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:41:16,613 | itj_planning | INFO | Trail #229 | Plan Failure | Runtime of current attempt: 52.0
+2022-06-04 18:41:16,629 | itj_planning | INFO | Trail #230 | time elapsed 11455.91
+2022-06-04 18:42:08,962 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:42:08,963 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:42:08,963 | itj_planning | INFO | Trail #230 | Plan Failure | Runtime of current attempt: 52.3
+2022-06-04 18:42:08,983 | itj_planning | INFO | Trail #231 | time elapsed 11508.26
+2022-06-04 18:43:01,073 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:43:01,073 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:43:01,073 | itj_planning | INFO | Trail #231 | Plan Failure | Runtime of current attempt: 52.1
+2022-06-04 18:43:01,089 | itj_planning | INFO | Trail #232 | time elapsed 11560.37
+2022-06-04 18:43:55,970 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:43:55,970 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:43:55,970 | itj_planning | INFO | Trail #232 | Plan Failure | Runtime of current attempt: 54.9
+2022-06-04 18:43:56,001 | itj_planning | INFO | Trail #233 | time elapsed 11615.28
+2022-06-04 18:44:45,569 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:44:45,569 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:44:45,569 | itj_planning | INFO | Trail #233 | Plan Failure | Runtime of current attempt: 49.6
+2022-06-04 18:44:45,585 | itj_planning | INFO | Trail #234 | time elapsed 11664.87
+2022-06-04 18:45:33,344 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:45:33,344 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:45:33,344 | itj_planning | INFO | Trail #234 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 18:45:33,375 | itj_planning | INFO | Trail #235 | time elapsed 11712.66
+2022-06-04 18:46:21,226 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:46:21,226 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:46:21,226 | itj_planning | INFO | Trail #235 | Plan Failure | Runtime of current attempt: 47.9
+2022-06-04 18:46:21,242 | itj_planning | INFO | Trail #236 | time elapsed 11760.52
+2022-06-04 18:47:14,492 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:47:14,492 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:47:14,492 | itj_planning | INFO | Trail #236 | Plan Failure | Runtime of current attempt: 53.3
+2022-06-04 18:47:14,508 | itj_planning | INFO | Trail #237 | time elapsed 11813.79
+2022-06-04 18:48:09,660 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:48:09,660 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:48:09,660 | itj_planning | INFO | Trail #237 | Plan Failure | Runtime of current attempt: 55.2
+2022-06-04 18:48:09,676 | itj_planning | INFO | Trail #238 | time elapsed 11868.96
+2022-06-04 18:49:02,117 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:49:02,117 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:49:02,117 | itj_planning | INFO | Trail #238 | Plan Failure | Runtime of current attempt: 52.4
+2022-06-04 18:49:02,152 | itj_planning | INFO | Trail #239 | time elapsed 11921.43
+2022-06-04 18:49:49,409 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:49:49,409 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:49:49,410 | itj_planning | INFO | Trail #239 | Plan Failure | Runtime of current attempt: 47.3
+2022-06-04 18:49:49,426 | itj_planning | INFO | Trail #240 | time elapsed 11968.71
+2022-06-04 18:50:37,811 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:50:37,811 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:50:37,811 | itj_planning | INFO | Trail #240 | Plan Failure | Runtime of current attempt: 48.4
+2022-06-04 18:50:37,827 | itj_planning | INFO | Trail #241 | time elapsed 12017.11
+2022-06-04 18:51:25,676 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:51:25,676 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:51:25,676 | itj_planning | INFO | Trail #241 | Plan Failure | Runtime of current attempt: 47.8
+2022-06-04 18:51:25,692 | itj_planning | INFO | Trail #242 | time elapsed 12064.97
+2022-06-04 18:52:14,359 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:52:14,359 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:52:14,359 | itj_planning | INFO | Trail #242 | Plan Failure | Runtime of current attempt: 48.7
+2022-06-04 18:52:14,390 | itj_planning | INFO | Trail #243 | time elapsed 12113.67
+2022-06-04 18:53:02,588 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:53:02,588 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:53:02,588 | itj_planning | INFO | Trail #243 | Plan Failure | Runtime of current attempt: 48.2
+2022-06-04 18:53:02,601 | itj_planning | INFO | Trail #244 | time elapsed 12161.88
+2022-06-04 18:53:50,017 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:53:50,017 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:53:50,017 | itj_planning | INFO | Trail #244 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 18:53:50,033 | itj_planning | INFO | Trail #245 | time elapsed 12209.32
+2022-06-04 18:54:37,404 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:54:37,404 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:54:37,404 | itj_planning | INFO | Trail #245 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 18:54:37,420 | itj_planning | INFO | Trail #246 | time elapsed 12256.70
+2022-06-04 18:55:25,445 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:55:25,445 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:55:25,445 | itj_planning | INFO | Trail #246 | Plan Failure | Runtime of current attempt: 48.0
+2022-06-04 18:55:25,476 | itj_planning | INFO | Trail #247 | time elapsed 12304.76
+2022-06-04 18:56:13,738 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:56:13,738 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:56:13,738 | itj_planning | INFO | Trail #247 | Plan Failure | Runtime of current attempt: 48.3
+2022-06-04 18:56:13,769 | itj_planning | INFO | Trail #248 | time elapsed 12353.05
+2022-06-04 18:57:05,371 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:57:05,371 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:57:05,371 | itj_planning | INFO | Trail #248 | Plan Failure | Runtime of current attempt: 51.6
+2022-06-04 18:57:05,387 | itj_planning | INFO | Trail #249 | time elapsed 12404.67
+2022-06-04 18:57:52,625 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:57:52,625 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:57:52,625 | itj_planning | INFO | Trail #249 | Plan Failure | Runtime of current attempt: 47.2
+2022-06-04 18:57:52,657 | itj_planning | INFO | Trail #250 | time elapsed 12451.94
+2022-06-04 18:58:41,355 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:58:41,355 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:58:41,355 | itj_planning | INFO | Trail #250 | Plan Failure | Runtime of current attempt: 48.7
+2022-06-04 18:58:41,386 | itj_planning | INFO | Trail #251 | time elapsed 12500.67
+2022-06-04 18:59:36,034 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 18:59:36,034 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 18:59:36,034 | itj_planning | INFO | Trail #251 | Plan Failure | Runtime of current attempt: 54.6
+2022-06-04 18:59:36,050 | itj_planning | INFO | Trail #252 | time elapsed 12555.33
+2022-06-04 19:00:22,465 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:00:22,465 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:00:22,481 | itj_planning | INFO | Trail #252 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-04 19:00:22,497 | itj_planning | INFO | Trail #253 | time elapsed 12601.78
+2022-06-04 19:01:18,509 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:01:18,509 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:01:18,509 | itj_planning | INFO | Trail #253 | Plan Failure | Runtime of current attempt: 56.0
+2022-06-04 19:01:18,540 | itj_planning | INFO | Trail #254 | time elapsed 12657.82
+2022-06-04 19:02:06,161 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:02:06,161 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:02:06,161 | itj_planning | INFO | Trail #254 | Plan Failure | Runtime of current attempt: 47.6
+2022-06-04 19:02:06,192 | itj_planning | INFO | Trail #255 | time elapsed 12705.47
+2022-06-04 19:02:53,434 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:02:53,434 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:02:53,434 | itj_planning | INFO | Trail #255 | Plan Failure | Runtime of current attempt: 47.2
+2022-06-04 19:02:53,449 | itj_planning | INFO | Trail #256 | time elapsed 12752.73
+2022-06-04 19:03:45,258 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:03:45,258 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:03:45,258 | itj_planning | INFO | Trail #256 | Plan Failure | Runtime of current attempt: 51.8
+2022-06-04 19:03:45,289 | itj_planning | INFO | Trail #257 | time elapsed 12804.57
+2022-06-04 19:04:37,511 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:04:37,511 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:04:37,511 | itj_planning | INFO | Trail #257 | Plan Failure | Runtime of current attempt: 52.2
+2022-06-04 19:04:37,542 | itj_planning | INFO | Trail #258 | time elapsed 12856.82
+2022-06-04 19:05:28,252 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:05:28,252 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:05:28,252 | itj_planning | INFO | Trail #258 | Plan Failure | Runtime of current attempt: 50.7
+2022-06-04 19:05:28,284 | itj_planning | INFO | Trail #259 | time elapsed 12907.57
+2022-06-04 19:06:14,868 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:06:14,868 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:06:14,868 | itj_planning | INFO | Trail #259 | Plan Failure | Runtime of current attempt: 46.6
+2022-06-04 19:06:14,906 | itj_planning | INFO | Trail #260 | time elapsed 12954.19
+2022-06-04 19:07:02,324 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:07:02,324 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:07:02,324 | itj_planning | INFO | Trail #260 | Plan Failure | Runtime of current attempt: 47.4
+2022-06-04 19:07:02,339 | itj_planning | INFO | Trail #261 | time elapsed 13001.62
+2022-06-04 19:08:03,318 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:08:03,318 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:08:03,318 | itj_planning | INFO | Trail #261 | Plan Failure | Runtime of current attempt: 61.0
+2022-06-04 19:08:03,349 | itj_planning | INFO | Trail #262 | time elapsed 13062.63
+2022-06-04 19:08:51,314 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:08:51,314 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:08:51,314 | itj_planning | INFO | Trail #262 | Plan Failure | Runtime of current attempt: 48.0
+2022-06-04 19:08:51,329 | itj_planning | INFO | Trail #263 | time elapsed 13110.61
+2022-06-04 19:09:44,217 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:09:44,217 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:09:44,217 | itj_planning | INFO | Trail #263 | Plan Failure | Runtime of current attempt: 52.9
+2022-06-04 19:09:44,249 | itj_planning | INFO | Trail #264 | time elapsed 13163.53
+2022-06-04 19:10:40,813 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:10:40,813 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:10:40,813 | itj_planning | INFO | Trail #264 | Plan Failure | Runtime of current attempt: 56.6
+2022-06-04 19:10:40,844 | itj_planning | INFO | Trail #265 | time elapsed 13220.13
+2022-06-04 19:11:30,210 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:11:30,210 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:11:30,210 | itj_planning | INFO | Trail #265 | Plan Failure | Runtime of current attempt: 49.4
+2022-06-04 19:11:30,225 | itj_planning | INFO | Trail #266 | time elapsed 13269.51
+2022-06-04 19:12:20,622 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:12:20,622 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:12:20,622 | itj_planning | INFO | Trail #266 | Plan Failure | Runtime of current attempt: 50.4
+2022-06-04 19:12:20,637 | itj_planning | INFO | Trail #267 | time elapsed 13319.92
+2022-06-04 19:13:12,122 | itj_planning | INFO | No plan found for A96_M0 | RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-04 19:13:12,122 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-04 19:13:12,122 | itj_planning | INFO | Trail #267 | Plan Failure | Runtime of current attempt: 51.5
+2022-06-04 19:13:12,137 | itj_planning | INFO | Trail #268 | time elapsed 13371.42
