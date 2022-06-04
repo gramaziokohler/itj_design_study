@@ -40,3 +40,7 @@
 2022-04-28 14:22:42,178 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
 2022-04-28 14:22:42,352 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
 2022-04-28 14:23:44,595 | itj_planning | INFO | Congrats, check state done!
+2022-06-04 13:09:06,389 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-04 13:09:06,389 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-04 13:09:09,394 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-04 13:10:52,963 | itj_planning | INFO | Congrats, check state done!
