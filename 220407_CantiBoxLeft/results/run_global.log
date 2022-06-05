@@ -1,0 +1,519 @@
+2022-06-05 11:14:35,472 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id=None, mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='lmg', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 11:14:35,760 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 11:14:39,904 | itj_planning | INFO | Trail #0 | time elapsed 0.06
+2022-06-05 11:14:40,854 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A0_M1', 'A0_M3'] 
+2022-06-05 11:14:40,862 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:14:43,115 | itj_planning | INFO | Trail #0 | time elapsed 0.08
+2022-06-05 11:14:44,137 | itj_planning | INFO | Solved 2 Movements in 1.02 s: ['A2_M2', 'A2_M5'] 
+2022-06-05 11:14:44,146 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:14:46,376 | itj_planning | INFO | Trail #0 | time elapsed 0.06
+2022-06-05 11:14:47,289 | itj_planning | INFO | Solved 3 Movements in 0.91 s: ['A3_M1', 'A3_M4', 'A4_M2'] 
+2022-06-05 11:14:47,299 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:14:49,399 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:14:50,279 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A6_M2', 'A6_M5'] 
+2022-06-05 11:14:50,288 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:14:52,561 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:14:53,559 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A7_M1', 'A7_M4', 'A8_M2'] 
+2022-06-05 11:14:53,570 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:14:56,398 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:14:57,293 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A10_M2', 'A10_M4'] 
+2022-06-05 11:14:57,303 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:14:59,596 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:00,602 | itj_planning | INFO | Solved 3 Movements in 1.01 s: ['A11_M1', 'A11_M5', 'A11_M6'] 
+2022-06-05 11:15:00,613 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:15:02,756 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:03,599 | itj_planning | INFO | Solved 3 Movements in 0.84 s: ['A12_M2', 'A12_M3', 'A12_M6'] 
+2022-06-05 11:15:03,609 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:05,823 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:06,663 | itj_planning | INFO | Solved 2 Movements in 0.84 s: ['A13_M1', 'A13_M3'] 
+2022-06-05 11:15:06,672 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:15:08,938 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:09,854 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A14_M2', 'A14_M5'] 
+2022-06-05 11:15:09,864 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:12,162 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:13,575 | itj_planning | INFO | Solved 3 Movements in 1.41 s: ['A15_M3', 'A15_M1', 'A19_M2'] 
+2022-06-05 11:15:13,588 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:15:15,745 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:16,591 | itj_planning | INFO | Solved 2 Movements in 0.85 s: ['A21_M2', 'A21_M4'] 
+2022-06-05 11:15:16,601 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:18,832 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:19,838 | itj_planning | INFO | Solved 3 Movements in 1.01 s: ['A22_M1', 'A22_M5', 'A22_M6'] 
+2022-06-05 11:15:19,850 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:15:21,972 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:23,304 | itj_planning | INFO | Solved 3 Movements in 1.33 s: ['A23_M2', 'A23_M3', 'A23_M6'] 
+2022-06-05 11:15:23,313 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-05 11:15:25,825 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:26,712 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A24_M1', 'A24_M3'] 
+2022-06-05 11:15:26,721 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:28,866 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:29,728 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A25_M2', 'A25_M5'] 
+2022-06-05 11:15:29,738 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:31,977 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:33,408 | itj_planning | INFO | Solved 3 Movements in 1.43 s: ['A26_M3', 'A26_M1', 'A30_M2'] 
+2022-06-05 11:15:33,421 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:15:35,747 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:36,638 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A32_M2', 'A32_M4'] 
+2022-06-05 11:15:36,649 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:39,222 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:41,133 | itj_planning | INFO | Solved 3 Movements in 1.91 s: ['A33_M2', 'A33_M6', 'A33_M7'] 
+2022-06-05 11:15:41,142 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-05 11:15:43,395 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:44,568 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A34_M2', 'A34_M3', 'A34_M6'] 
+2022-06-05 11:15:44,577 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:15:46,860 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:47,723 | itj_planning | INFO | Solved 3 Movements in 0.86 s: ['A35_M2', 'A35_M6', 'A35_M7'] 
+2022-06-05 11:15:47,733 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:49,869 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:51,592 | itj_planning | INFO | Solved 3 Movements in 1.72 s: ['A36_M2', 'A36_M3', 'A36_M6'] 
+2022-06-05 11:15:51,600 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-05 11:15:53,879 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:54,744 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A37_M1', 'A37_M3'] 
+2022-06-05 11:15:54,753 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:15:57,004 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:15:57,909 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A38_M2', 'A38_M5'] 
+2022-06-05 11:15:57,919 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:00,120 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:01,540 | itj_planning | INFO | Solved 3 Movements in 1.42 s: ['A39_M3', 'A39_M1', 'A40_M2'] 
+2022-06-05 11:16:01,553 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:16:03,924 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:04,780 | itj_planning | INFO | Solved 2 Movements in 0.85 s: ['A42_M2', 'A42_M4'] 
+2022-06-05 11:16:04,789 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:07,117 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:08,119 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A43_M1', 'A43_M5', 'A43_M6'] 
+2022-06-05 11:16:08,130 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:16:10,404 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:11,244 | itj_planning | INFO | Solved 3 Movements in 0.84 s: ['A44_M2', 'A44_M3', 'A44_M6'] 
+2022-06-05 11:16:11,254 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:16:13,539 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:14,540 | itj_planning | INFO | Solved 3 Movements in 1.00 s: ['A45_M1', 'A45_M5', 'A45_M6'] 
+2022-06-05 11:16:14,550 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:16:16,766 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:17,586 | itj_planning | INFO | Solved 3 Movements in 0.82 s: ['A46_M2', 'A46_M3', 'A46_M6'] 
+2022-06-05 11:16:17,594 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:16:19,935 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:20,871 | itj_planning | INFO | Solved 2 Movements in 0.94 s: ['A47_M1', 'A47_M3'] 
+2022-06-05 11:16:20,881 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:23,276 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:24,182 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A48_M2', 'A48_M5'] 
+2022-06-05 11:16:24,182 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:26,482 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:27,904 | itj_planning | INFO | Solved 3 Movements in 1.42 s: ['A49_M3', 'A49_M1', 'A50_M2'] 
+2022-06-05 11:16:27,920 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:16:30,277 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:31,124 | itj_planning | INFO | Solved 2 Movements in 0.85 s: ['A52_M2', 'A52_M4'] 
+2022-06-05 11:16:31,133 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:33,531 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:34,578 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A53_M2', 'A53_M6', 'A53_M7'] 
+2022-06-05 11:16:34,585 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:16:37,105 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:37,995 | itj_planning | INFO | Solved 3 Movements in 0.89 s: ['A54_M2', 'A54_M3', 'A54_M6'] 
+2022-06-05 11:16:38,010 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:40,466 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:41,351 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A55_M1', 'A55_M3'] 
+2022-06-05 11:16:41,359 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:16:43,762 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:44,707 | itj_planning | INFO | Solved 2 Movements in 0.94 s: ['A56_M2', 'A56_M5'] 
+2022-06-05 11:16:44,719 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:16:47,236 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:49,452 | itj_planning | INFO | Solved 3 Movements in 2.21 s: ['A57_M3', 'A57_M1', 'A61_M2'] 
+2022-06-05 11:16:49,466 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.2
+2022-06-05 11:16:51,787 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:16:52,784 | itj_planning | INFO | Solved 2 Movements in 1.00 s: ['A63_M2', 'A63_M4'] 
+2022-06-05 11:16:52,792 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:16:55,310 | itj_planning | INFO | Trail #0 | time elapsed 0.01
+2022-06-05 11:16:57,206 | itj_planning | INFO | Solved 3 Movements in 1.90 s: ['A64_M2', 'A64_M6', 'A64_M7'] 
+2022-06-05 11:16:57,215 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-05 11:16:59,680 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:17:01,579 | itj_planning | INFO | Solved 3 Movements in 1.90 s: ['A65_M2', 'A65_M3', 'A65_M6'] 
+2022-06-05 11:17:01,588 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-05 11:17:03,987 | itj_planning | INFO | Trail #0 | time elapsed 0.01
+2022-06-05 11:17:06,262 | itj_planning | INFO | Solved 3 Movements in 2.28 s: ['A66_M2', 'A66_M6', 'A66_M7'] 
+2022-06-05 11:17:06,271 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-05 11:17:08,846 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:09,912 | itj_planning | INFO | Solved 3 Movements in 1.07 s: ['A67_M3', 'A67_M6', 'A67_M2'] 
+2022-06-05 11:17:09,923 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:17:12,483 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:13,385 | itj_planning | INFO | Solved 3 Movements in 0.90 s: ['A68_M2', 'A68_M6', 'A68_M7'] 
+2022-06-05 11:17:13,394 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:15,873 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:16,771 | itj_planning | INFO | Solved 3 Movements in 0.90 s: ['A69_M2', 'A69_M3', 'A69_M6'] 
+2022-06-05 11:17:16,780 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:19,391 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:20,339 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A70_M1', 'A70_M3'] 
+2022-06-05 11:17:20,349 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:17:22,806 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:23,707 | itj_planning | INFO | Solved 2 Movements in 0.90 s: ['A71_M2', 'A71_M5'] 
+2022-06-05 11:17:23,716 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:26,388 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:28,163 | itj_planning | INFO | No plan found for A72_M1 | RoboticLinearMovement(#A72_M1, Linear Advance to bring Beam ('b6') into clamp jaws, has_traj False)
+2022-06-05 11:17:28,163 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:17:28,163 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 1.8
+2022-06-05 11:17:28,187 | itj_planning | INFO | Trail #1 | time elapsed 1.82
+2022-06-05 11:17:29,923 | itj_planning | INFO | Solved 3 Movements in 1.74 s: ['A72_M3', 'A72_M1', 'A73_M2'] 
+2022-06-05 11:17:29,937 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 1.7
+2022-06-05 11:17:32,406 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:33,312 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A75_M2', 'A75_M4'] 
+2022-06-05 11:17:33,320 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:36,025 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:37,071 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A76_M2', 'A76_M6', 'A76_M7'] 
+2022-06-05 11:17:37,081 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:17:39,591 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:40,644 | itj_planning | INFO | Solved 3 Movements in 1.05 s: ['A77_M2', 'A77_M3', 'A77_M6'] 
+2022-06-05 11:17:40,653 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:17:43,149 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:44,024 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A78_M1', 'A78_M3'] 
+2022-06-05 11:17:44,033 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:46,544 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:47,453 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A79_M2', 'A79_M5'] 
+2022-06-05 11:17:47,462 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:50,117 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:51,833 | itj_planning | INFO | Solved 3 Movements in 1.72 s: ['A80_M3', 'A80_M1', 'A85_M2'] 
+2022-06-05 11:17:51,847 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.7
+2022-06-05 11:17:54,419 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:17:55,308 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A87_M2', 'A87_M4'] 
+2022-06-05 11:17:55,317 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:17:57,846 | itj_planning | INFO | Trail #0 | time elapsed 0.01
+2022-06-05 11:18:00,654 | itj_planning | INFO | No plan found for A88_M7 | RoboticLinearMovement(#A88_M7, Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure., has_traj False)
+2022-06-05 11:18:00,654 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:18:00,654 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 2.8
+2022-06-05 11:18:00,670 | itj_planning | INFO | Trail #1 | time elapsed 2.83
+2022-06-05 11:18:03,277 | itj_planning | INFO | No plan found for A88_M7 | RoboticLinearMovement(#A88_M7, Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure., has_traj False)
+2022-06-05 11:18:03,277 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:18:03,277 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 2.6
+2022-06-05 11:18:03,301 | itj_planning | INFO | Trail #2 | time elapsed 5.46
+2022-06-05 11:18:05,070 | itj_planning | INFO | Solved 3 Movements in 1.76 s: ['A88_M2', 'A88_M6', 'A88_M7'] 
+2022-06-05 11:18:05,080 | itj_planning | INFO | Trail #2 | Plan Success | Runtime of current attempt: 1.8
+2022-06-05 11:18:07,467 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:08,422 | itj_planning | INFO | Solved 3 Movements in 0.95 s: ['A89_M3', 'A89_M6', 'A89_M2'] 
+2022-06-05 11:18:08,432 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:18:10,821 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:12,291 | itj_planning | INFO | Solved 3 Movements in 1.47 s: ['A90_M2', 'A90_M6', 'A90_M7'] 
+2022-06-05 11:18:12,301 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-05 11:18:14,661 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:15,494 | itj_planning | INFO | Solved 3 Movements in 0.82 s: ['A91_M2', 'A91_M3', 'A91_M6'] 
+2022-06-05 11:18:15,502 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:18:17,979 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:18:18,946 | itj_planning | INFO | Solved 3 Movements in 0.97 s: ['A92_M1', 'A92_M5', 'A92_M6'] 
+2022-06-05 11:18:18,956 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:18:21,429 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:22,932 | itj_planning | INFO | Solved 3 Movements in 1.50 s: ['A93_M2', 'A93_M3', 'A93_M6'] 
+2022-06-05 11:18:22,943 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-05 11:18:25,473 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:26,289 | itj_planning | INFO | Solved 2 Movements in 0.82 s: ['A94_M1', 'A94_M3'] 
+2022-06-05 11:18:26,297 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:18:28,683 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:29,519 | itj_planning | INFO | Solved 2 Movements in 0.84 s: ['A95_M2', 'A95_M5'] 
+2022-06-05 11:18:29,527 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:18:31,922 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:33,318 | itj_planning | INFO | Solved 3 Movements in 1.40 s: ['A96_M3', 'A96_M1', 'A97_M2'] 
+2022-06-05 11:18:33,337 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:18:35,731 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:36,596 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A99_M2', 'A99_M4'] 
+2022-06-05 11:18:36,604 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:18:38,863 | itj_planning | INFO | Trail #0 | time elapsed 0.01
+2022-06-05 11:18:39,810 | itj_planning | INFO | Solved 3 Movements in 0.94 s: ['A100_M1', 'A100_M5', 'A100_M6'] 
+2022-06-05 11:18:39,818 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:18:42,309 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:43,215 | itj_planning | INFO | Solved 3 Movements in 0.91 s: ['A101_M2', 'A101_M3', 'A101_M6'] 
+2022-06-05 11:18:43,221 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:18:45,681 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:46,822 | itj_planning | INFO | Solved 3 Movements in 1.14 s: ['A102_M2', 'A102_M6', 'A102_M7'] 
+2022-06-05 11:18:46,830 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:18:49,191 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:50,320 | itj_planning | INFO | No plan found for A103_M6 | RoboticLinearMovement(#A103_M6, Linear Retract after attaching CL3 ('c2') on structure, has_traj False)
+2022-06-05 11:18:50,320 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:18:50,320 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 1.1
+2022-06-05 11:18:50,341 | itj_planning | INFO | Trail #1 | time elapsed 1.17
+2022-06-05 11:18:51,373 | itj_planning | INFO | Solved 3 Movements in 1.03 s: ['A103_M2', 'A103_M3', 'A103_M6'] 
+2022-06-05 11:18:51,382 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:18:53,935 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:18:54,873 | itj_planning | INFO | Solved 2 Movements in 0.94 s: ['A104_M1', 'A104_M3'] 
+2022-06-05 11:18:54,882 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:18:57,424 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:18:58,293 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A105_M2', 'A105_M5'] 
+2022-06-05 11:18:58,301 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:19:00,710 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:02,097 | itj_planning | INFO | Solved 3 Movements in 1.39 s: ['A106_M3', 'A106_M1', 'A107_M2'] 
+2022-06-05 11:19:02,105 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-05 11:19:04,672 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:05,549 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A109_M2', 'A109_M4'] 
+2022-06-05 11:19:05,559 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:19:08,140 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:09,327 | itj_planning | INFO | Solved 3 Movements in 1.19 s: ['A110_M2', 'A110_M6', 'A110_M7'] 
+2022-06-05 11:19:09,343 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:19:11,835 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:13,069 | itj_planning | INFO | Solved 3 Movements in 1.23 s: ['A111_M2', 'A111_M3', 'A111_M6'] 
+2022-06-05 11:19:13,084 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:19:15,572 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:16,873 | itj_planning | INFO | Solved 3 Movements in 1.30 s: ['A112_M2', 'A112_M6', 'A112_M7'] 
+2022-06-05 11:19:16,888 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-05 11:19:19,392 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:20,407 | itj_planning | INFO | Solved 3 Movements in 1.02 s: ['A113_M3', 'A113_M6', 'A113_M2'] 
+2022-06-05 11:19:20,407 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:19:22,994 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:19:23,837 | itj_planning | INFO | Solved 3 Movements in 0.84 s: ['A114_M2', 'A114_M6', 'A114_M7'] 
+2022-06-05 11:19:23,853 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:19:26,436 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:27,317 | itj_planning | INFO | Solved 3 Movements in 0.88 s: ['A115_M2', 'A115_M3', 'A115_M6'] 
+2022-06-05 11:19:27,332 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:19:29,886 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:30,718 | itj_planning | INFO | Solved 2 Movements in 0.83 s: ['A116_M1', 'A116_M3'] 
+2022-06-05 11:19:30,733 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:19:33,195 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:34,013 | itj_planning | INFO | Solved 2 Movements in 0.82 s: ['A117_M2', 'A117_M5'] 
+2022-06-05 11:19:34,029 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:19:36,584 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:38,599 | itj_planning | INFO | Solved 3 Movements in 2.02 s: ['A118_M3', 'A118_M1', 'A119_M2'] 
+2022-06-05 11:19:38,615 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-05 11:19:41,102 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:41,952 | itj_planning | INFO | Solved 2 Movements in 0.85 s: ['A121_M2', 'A121_M4'] 
+2022-06-05 11:19:41,968 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:19:44,564 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:45,669 | itj_planning | INFO | Solved 3 Movements in 1.10 s: ['A122_M2', 'A122_M6', 'A122_M7'] 
+2022-06-05 11:19:45,669 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:19:48,126 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:50,343 | itj_planning | INFO | Solved 3 Movements in 2.22 s: ['A123_M2', 'A123_M3', 'A123_M6'] 
+2022-06-05 11:19:50,343 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.2
+2022-06-05 11:19:52,849 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:54,333 | itj_planning | INFO | Solved 3 Movements in 1.48 s: ['A124_M2', 'A124_M6', 'A124_M7'] 
+2022-06-05 11:19:54,333 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-05 11:19:56,955 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:19:57,783 | itj_planning | INFO | Solved 3 Movements in 0.83 s: ['A125_M2', 'A125_M3', 'A125_M6'] 
+2022-06-05 11:19:57,798 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:20:00,423 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:01,371 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A126_M1', 'A126_M3'] 
+2022-06-05 11:20:01,380 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:20:03,976 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:04,897 | itj_planning | INFO | Solved 2 Movements in 0.92 s: ['A127_M2', 'A127_M5'] 
+2022-06-05 11:20:04,907 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:20:07,523 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:10,270 | itj_planning | INFO | Solved 3 Movements in 2.75 s: ['A128_M3', 'A128_M1', 'A129_M2'] 
+2022-06-05 11:20:10,285 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.8
+2022-06-05 11:20:12,842 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:13,666 | itj_planning | INFO | Solved 2 Movements in 0.82 s: ['A131_M2', 'A131_M4'] 
+2022-06-05 11:20:13,666 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:20:16,485 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:17,439 | itj_planning | INFO | Solved 2 Movements in 0.95 s: ['A132_M1', 'A132_M3'] 
+2022-06-05 11:20:17,449 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:20:20,147 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:23,436 | itj_planning | INFO | Solved 5 Movements in 3.29 s: ['A133_M2', 'A133_M5', 'A134_M0', 'A134_M1', 'A134_M2'] 
+2022-06-05 11:20:23,467 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.3
+2022-06-05 11:20:26,097 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:28,441 | itj_planning | INFO | Solved 3 Movements in 2.34 s: ['A138_M2', 'A138_M1', 'A139_M2'] 
+2022-06-05 11:20:28,465 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.4
+2022-06-05 11:20:31,114 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:31,933 | itj_planning | INFO | Solved 2 Movements in 0.82 s: ['A140_M2', 'A140_M4'] 
+2022-06-05 11:20:31,938 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:20:34,468 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:36,418 | itj_planning | INFO | Solved 3 Movements in 1.95 s: ['A142_M2', 'A141_M2', 'A142_M3'] 
+2022-06-05 11:20:36,433 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-05 11:20:39,120 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:40,220 | itj_planning | INFO | Solved 3 Movements in 1.10 s: ['A143_M3', 'A143_M5', 'A143_M2'] 
+2022-06-05 11:20:40,235 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:20:42,853 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:46,196 | itj_planning | INFO | Solved 3 Movements in 3.34 s: ['A145_M2', 'A144_M2', 'A145_M3'] 
+2022-06-05 11:20:46,212 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.4
+2022-06-05 11:20:48,840 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:20:49,992 | itj_planning | INFO | Solved 3 Movements in 1.15 s: ['A146_M3', 'A146_M5', 'A146_M2'] 
+2022-06-05 11:20:49,992 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:20:52,721 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:55,005 | itj_planning | INFO | Solved 3 Movements in 2.28 s: ['A148_M2', 'A147_M2', 'A148_M3'] 
+2022-06-05 11:20:55,022 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-05 11:20:57,781 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:20:58,891 | itj_planning | INFO | Solved 3 Movements in 1.11 s: ['A149_M3', 'A149_M5', 'A149_M2'] 
+2022-06-05 11:20:58,906 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:21:01,718 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:02,666 | itj_planning | INFO | Solved 3 Movements in 0.95 s: ['A150_M1', 'A150_M5', 'A150_M6'] 
+2022-06-05 11:21:02,682 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:21:05,378 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:09,056 | itj_planning | INFO | Solved 3 Movements in 3.68 s: ['A152_M2', 'A152_M3', 'A152_M6'] 
+2022-06-05 11:21:09,056 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.7
+2022-06-05 11:21:11,623 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:12,835 | itj_planning | INFO | Solved 3 Movements in 1.21 s: ['A153_M2', 'A153_M6', 'A153_M7'] 
+2022-06-05 11:21:12,835 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:21:15,498 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:16,623 | itj_planning | INFO | Solved 3 Movements in 1.12 s: ['A154_M2', 'A154_M3', 'A154_M6'] 
+2022-06-05 11:21:16,639 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:21:19,254 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:21:20,082 | itj_planning | INFO | Solved 2 Movements in 0.83 s: ['A155_M1', 'A155_M3'] 
+2022-06-05 11:21:20,082 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:21:22,755 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:23,786 | itj_planning | INFO | Solved 2 Movements in 1.03 s: ['A156_M2', 'A156_M5'] 
+2022-06-05 11:21:23,801 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:21:26,581 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:31,083 | itj_planning | INFO | Solved 3 Movements in 4.50 s: ['A157_M3', 'A157_M1', 'A158_M2'] 
+2022-06-05 11:21:31,099 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.5
+2022-06-05 11:21:33,751 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:34,632 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A160_M2', 'A160_M4'] 
+2022-06-05 11:21:34,644 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:21:37,365 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:38,178 | itj_planning | INFO | Solved 2 Movements in 0.81 s: ['A161_M1', 'A161_M3'] 
+2022-06-05 11:21:38,178 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.8
+2022-06-05 11:21:40,921 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:21:44,631 | itj_planning | INFO | Solved 5 Movements in 3.71 s: ['A162_M2', 'A162_M5', 'A163_M0', 'A163_M1', 'A163_M2'] 
+2022-06-05 11:21:44,650 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.7
+2022-06-05 11:21:47,393 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:21:51,246 | itj_planning | INFO | Solved 3 Movements in 3.85 s: ['A167_M2', 'A167_M1', 'A168_M2'] 
+2022-06-05 11:21:51,261 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.9
+2022-06-05 11:21:54,028 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:21:54,888 | itj_planning | INFO | Solved 2 Movements in 0.86 s: ['A169_M2', 'A169_M4'] 
+2022-06-05 11:21:54,888 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:21:57,689 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:22:06,800 | itj_planning | INFO | Solved 3 Movements in 9.11 s: ['A171_M2', 'A170_M2', 'A171_M3'] 
+2022-06-05 11:22:06,815 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 9.1
+2022-06-05 11:22:09,615 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:22:10,740 | itj_planning | INFO | Solved 3 Movements in 1.12 s: ['A172_M3', 'A172_M5', 'A172_M2'] 
+2022-06-05 11:22:10,756 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:22:13,686 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:22:20,576 | itj_planning | INFO | Solved 3 Movements in 6.89 s: ['A174_M2', 'A173_M2', 'A174_M3'] 
+2022-06-05 11:22:20,592 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 6.9
+2022-06-05 11:22:23,298 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:22:24,437 | itj_planning | INFO | Solved 3 Movements in 1.14 s: ['A175_M3', 'A175_M5', 'A175_M2'] 
+2022-06-05 11:22:24,437 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:22:27,221 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:22:45,560 | itj_planning | INFO | Solved 3 Movements in 18.34 s: ['A177_M2', 'A176_M2', 'A177_M3'] 
+2022-06-05 11:22:45,576 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 18.4
+2022-06-05 11:22:48,655 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:22:49,809 | itj_planning | INFO | Solved 3 Movements in 1.15 s: ['A178_M3', 'A178_M5', 'A178_M2'] 
+2022-06-05 11:22:49,821 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:22:52,720 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:22:54,806 | itj_planning | INFO | Solved 3 Movements in 2.09 s: ['A180_M2', 'A180_M6', 'A180_M7'] 
+2022-06-05 11:22:54,816 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.1
+2022-06-05 11:22:57,721 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:23:08,351 | itj_planning | INFO | No plan found for A181_M6 | RoboticLinearMovement(#A181_M6, Linear Retract after attaching CL3M ('c4') on structure, has_traj False)
+2022-06-05 11:23:08,351 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:23:08,351 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 10.6
+2022-06-05 11:23:08,371 | itj_planning | INFO | Trail #1 | time elapsed 10.68
+2022-06-05 11:23:09,304 | itj_planning | INFO | Solved 3 Movements in 0.93 s: ['A181_M2', 'A181_M3', 'A181_M6'] 
+2022-06-05 11:23:09,313 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:23:12,114 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:17,020 | itj_planning | INFO | Solved 3 Movements in 4.90 s: ['A182_M2', 'A182_M6', 'A182_M7'] 
+2022-06-05 11:23:17,030 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 4.9
+2022-06-05 11:23:20,001 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:21,041 | itj_planning | INFO | Solved 3 Movements in 1.04 s: ['A183_M3', 'A183_M6', 'A183_M2'] 
+2022-06-05 11:23:21,056 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:23:24,003 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:30,468 | itj_planning | INFO | Solved 3 Movements in 6.47 s: ['A184_M2', 'A184_M6', 'A184_M7'] 
+2022-06-05 11:23:30,484 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 6.5
+2022-06-05 11:23:33,528 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:35,121 | itj_planning | INFO | Solved 3 Movements in 1.59 s: ['A185_M2', 'A185_M3', 'A185_M6'] 
+2022-06-05 11:23:35,121 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.6
+2022-06-05 11:23:38,295 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:23:39,163 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A186_M1', 'A186_M3'] 
+2022-06-05 11:23:39,179 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:23:42,137 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:43,011 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A187_M2', 'A187_M5'] 
+2022-06-05 11:23:43,027 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:23:45,844 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:23:48,493 | itj_planning | INFO | Solved 3 Movements in 2.65 s: ['A188_M3', 'A188_M1', 'A189_M2'] 
+2022-06-05 11:23:48,508 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.7
+2022-06-05 11:23:51,397 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:23:54,855 | itj_planning | INFO | Solved 5 Movements in 3.46 s: ['A191_M2', 'A191_M5', 'A192_M0', 'A192_M1', 'A192_M2'] 
+2022-06-05 11:23:54,875 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.5
+2022-06-05 11:23:57,864 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:00,333 | itj_planning | INFO | Solved 3 Movements in 2.47 s: ['A196_M2', 'A196_M1', 'A197_M2'] 
+2022-06-05 11:24:00,349 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-06-05 11:24:03,287 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:24:04,193 | itj_planning | INFO | Solved 2 Movements in 0.91 s: ['A198_M2', 'A198_M4'] 
+2022-06-05 11:24:04,193 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:24:07,098 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:24:08,854 | itj_planning | INFO | Solved 3 Movements in 1.76 s: ['A200_M2', 'A199_M2', 'A200_M3'] 
+2022-06-05 11:24:08,870 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.8
+2022-06-05 11:24:11,796 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:12,920 | itj_planning | INFO | Solved 3 Movements in 1.12 s: ['A201_M3', 'A201_M5', 'A201_M2'] 
+2022-06-05 11:24:12,920 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:24:15,866 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:24:18,354 | itj_planning | INFO | Solved 3 Movements in 2.49 s: ['A203_M2', 'A202_M2', 'A203_M3'] 
+2022-06-05 11:24:18,369 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-06-05 11:24:21,297 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:22,409 | itj_planning | INFO | Solved 3 Movements in 1.11 s: ['A204_M3', 'A204_M5', 'A204_M2'] 
+2022-06-05 11:24:22,430 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:24:25,528 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:27,923 | itj_planning | INFO | Solved 3 Movements in 2.40 s: ['A206_M2', 'A205_M2', 'A206_M3'] 
+2022-06-05 11:24:27,939 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.4
+2022-06-05 11:24:31,016 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:32,203 | itj_planning | INFO | Solved 3 Movements in 1.19 s: ['A207_M3', 'A207_M5', 'A207_M2'] 
+2022-06-05 11:24:32,215 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:24:35,271 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:37,934 | itj_planning | INFO | Solved 3 Movements in 2.66 s: ['A209_M2', 'A209_M6', 'A209_M7'] 
+2022-06-05 11:24:37,942 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.7
+2022-06-05 11:24:40,891 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:24:45,322 | itj_planning | INFO | No plan found for A210_M6 | RoboticLinearMovement(#A210_M6, Linear Retract after attaching CL3 ('c1') on structure, has_traj False)
+2022-06-05 11:24:45,322 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:24:45,322 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 4.4
+2022-06-05 11:24:45,347 | itj_planning | INFO | Trail #1 | time elapsed 4.49
+2022-06-05 11:24:46,500 | itj_planning | INFO | Solved 3 Movements in 1.15 s: ['A210_M2', 'A210_M3', 'A210_M6'] 
+2022-06-05 11:24:46,505 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:24:49,455 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:50,462 | itj_planning | INFO | Solved 3 Movements in 1.01 s: ['A211_M1', 'A211_M5', 'A211_M6'] 
+2022-06-05 11:24:50,472 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:24:53,734 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:24:56,436 | itj_planning | INFO | Solved 3 Movements in 2.70 s: ['A212_M2', 'A212_M3', 'A212_M6'] 
+2022-06-05 11:24:56,445 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.7
+2022-06-05 11:24:59,561 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:00,433 | itj_planning | INFO | Solved 2 Movements in 0.87 s: ['A213_M1', 'A213_M3'] 
+2022-06-05 11:25:00,449 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:25:03,509 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:25:04,395 | itj_planning | INFO | Solved 2 Movements in 0.89 s: ['A214_M2', 'A214_M5'] 
+2022-06-05 11:25:04,395 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:25:07,376 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:09,477 | itj_planning | INFO | No plan found for A216_M2 | RoboticLinearMovement(#A216_M2, Linear retract of Gripper from Beam ('b18'), has_traj False)
+2022-06-05 11:25:09,477 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-05 11:25:09,477 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 2.1
+2022-06-05 11:25:09,504 | itj_planning | INFO | Trail #1 | time elapsed 2.15
+2022-06-05 11:25:14,120 | itj_planning | INFO | Solved 3 Movements in 4.62 s: ['A215_M3', 'A215_M1', 'A216_M2'] 
+2022-06-05 11:25:14,138 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 4.6
+2022-06-05 11:25:17,003 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:20,194 | itj_planning | INFO | Solved 5 Movements in 3.19 s: ['A218_M2', 'A218_M5', 'A219_M0', 'A219_M1', 'A219_M2'] 
+2022-06-05 11:25:20,232 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.2
+2022-06-05 11:25:23,277 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:25,778 | itj_planning | INFO | Solved 3 Movements in 2.50 s: ['A223_M2', 'A223_M1', 'A224_M2'] 
+2022-06-05 11:25:25,797 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.5
+2022-06-05 11:25:28,802 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:29,681 | itj_planning | INFO | Solved 2 Movements in 0.88 s: ['A225_M2', 'A225_M4'] 
+2022-06-05 11:25:29,690 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:25:32,877 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:35,003 | itj_planning | INFO | Solved 3 Movements in 2.13 s: ['A227_M2', 'A226_M2', 'A227_M3'] 
+2022-06-05 11:25:35,037 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.2
+2022-06-05 11:25:38,160 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:39,409 | itj_planning | INFO | Solved 3 Movements in 1.25 s: ['A228_M3', 'A228_M5', 'A228_M2'] 
+2022-06-05 11:25:39,422 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-05 11:25:42,752 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:44,709 | itj_planning | INFO | Solved 3 Movements in 1.96 s: ['A230_M2', 'A229_M2', 'A230_M3'] 
+2022-06-05 11:25:44,725 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-05 11:25:48,116 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:49,288 | itj_planning | INFO | Solved 3 Movements in 1.17 s: ['A231_M3', 'A231_M5', 'A231_M2'] 
+2022-06-05 11:25:49,304 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.2
+2022-06-05 11:25:52,597 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:25:54,451 | itj_planning | INFO | Solved 3 Movements in 1.85 s: ['A233_M2', 'A232_M2', 'A233_M3'] 
+2022-06-05 11:25:54,467 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.9
+2022-06-05 11:25:57,569 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:25:58,840 | itj_planning | INFO | Solved 3 Movements in 1.27 s: ['A234_M3', 'A234_M5', 'A234_M2'] 
+2022-06-05 11:25:58,855 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.3
+2022-06-05 11:26:02,132 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:26:03,119 | itj_planning | INFO | Solved 3 Movements in 0.99 s: ['A235_M2', 'A235_M6', 'A235_M7'] 
+2022-06-05 11:26:03,119 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:26:06,553 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:26:07,577 | itj_planning | INFO | Solved 3 Movements in 1.02 s: ['A236_M3', 'A236_M6', 'A236_M2'] 
+2022-06-05 11:26:07,593 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:26:10,933 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:26:13,233 | itj_planning | INFO | Solved 3 Movements in 2.30 s: ['A237_M2', 'A237_M6', 'A237_M7'] 
+2022-06-05 11:26:13,249 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.3
+2022-06-05 11:26:16,719 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:26:17,745 | itj_planning | INFO | Solved 3 Movements in 1.03 s: ['A238_M3', 'A238_M6', 'A238_M2'] 
+2022-06-05 11:26:17,745 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.0
+2022-06-05 11:26:21,222 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:26:22,752 | itj_planning | INFO | Solved 3 Movements in 1.53 s: ['A239_M2', 'A239_M6', 'A239_M7'] 
+2022-06-05 11:26:22,768 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.5
+2022-06-05 11:26:26,269 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:26:27,369 | itj_planning | INFO | Solved 3 Movements in 1.10 s: ['A240_M3', 'A240_M6', 'A240_M2'] 
+2022-06-05 11:26:27,385 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:26:30,764 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 11:26:31,693 | itj_planning | INFO | Solved 3 Movements in 0.93 s: ['A241_M2', 'A241_M6', 'A241_M7'] 
+2022-06-05 11:26:31,708 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 0.9
+2022-06-05 11:26:35,160 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 11:26:36,222 | itj_planning | INFO | Solved 3 Movements in 1.06 s: ['A242_M3', 'A242_M6', 'A242_M2'] 
+2022-06-05 11:26:36,238 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.1
+2022-06-05 11:26:36,238 | itj_planning | INFO | Planning done.
+2022-06-05 11:26:36,238 | itj_planning | INFO | 444 of 444 Movements planned successfully.
+2022-06-05 11:26:36,238 | itj_planning | INFO | Failed movements: 
