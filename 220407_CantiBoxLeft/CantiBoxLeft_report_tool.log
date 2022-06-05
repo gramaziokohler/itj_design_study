@@ -2,10 +2,10 @@
     "attributes": [
         {
             "assembly_tool_id_num_of_times_used": {
-                "c1": 11, 
-                "c2": 3, 
-                "c3": 9, 
-                "c4": 1, 
+                "c1": 9, 
+                "c2": 5, 
+                "c3": 6, 
+                "c4": 4, 
                 "s1": 4, 
                 "s2": 4, 
                 "s3": 4
@@ -75,7 +75,7 @@
             ], 
             "b10": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+                "Assembly Tool used: CL3M (c4)CL3 (c1)"
             ], 
             "b11": [
                 "Gripper Type (id): PG1000 (g2)", 
@@ -83,11 +83,11 @@
             ], 
             "b12": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+                "Assembly Tool used: CL3M (c3)CL3 (c2)"
             ], 
             "b13": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)CL3 (c2)"
+                "Assembly Tool used: CL3 (c2)CL3 (c1)"
             ], 
             "b14": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -99,7 +99,7 @@
             ], 
             "b16": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3M (c4)"
+                "Assembly Tool used: CL3M (c4)CL3M (c3)"
             ], 
             "b17": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -170,7 +170,7 @@
             ], 
             "b6": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3M (c3)CL3 (c1)"
+                "Assembly Tool used: CL3M (c4)CL3 (c1)"
             ], 
             "b7": [
                 "Gripper Type (id): PG1500 (g3)", 
@@ -182,7 +182,7 @@
             ], 
             "b9": [
                 "Gripper Type (id): PG1500 (g3)", 
-                "Assembly Tool used: CL3 (c1)CL3M (c3)"
+                "Assembly Tool used: CL3 (c2)CL3M (c4)"
             ]
         }
     ], 
