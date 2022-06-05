@@ -1,0 +1,1229 @@
+2022-06-05 19:50:35,947 | itj_planning | INFO | planning.statistics.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxLeft', movement_id=None, no_fk=True, problem='CantiBoxLeft_process.json', problem_subdir='results')
+2022-06-05 19:50:35,947 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 19:50:36,629 | itj_planning | INFO | --------------------------------------------------
+2022-06-05 19:50:36,630 | itj_planning | INFO | Process contains 1172 Movements, 606 of which are RoboticMovements
+2022-06-05 19:50:36,630 | itj_planning | INFO |   > among them are 444 RoboticLinearMovement and 162 RoboticFreeMovement
+2022-06-05 19:50:38,450 | itj_planning | INFO |   > 444 of 444 RoboticLinearMovement contains trajectory.
+2022-06-05 19:50:38,450 | itj_planning | INFO |   > 162 of 162 RoboticFreeMovement contains trajectory.
+2022-06-05 19:50:38,450 | itj_planning | INFO | --------------------------------------------------
+2022-06-05 19:50:38,450 | itj_planning | INFO | #   0    A0_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    34  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #   1    A0_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #   3    A0_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #   5    A2_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    119 TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #   7    A2_M2  L  Linear Advance to Storage Frame of Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  10    A2_M5  L  Linear Retract after picking up Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  11    A3_M0  F  Free Move to bring Beam ('b1') to final location
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    65  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  12    A3_M1  L  Linear Advance to Final Frame of Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  15    A3_M4  L  Linear retract after placing Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  18    A4_M2  L  Linear retract of Gripper from Beam ('b1')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    1   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  20    A6_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    57  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  22    A6_M2  L  Linear Advance to Storage Frame of Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  25    A6_M5  L  Linear Retract after picking up Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  26    A7_M0  F  Free Move to bring Beam ('b0') to final location
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    115 TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  27    A7_M1  L  Linear Advance to Final Frame of Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  30    A7_M4  L  Linear retract after placing Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  33    A8_M2  L  Linear retract of Gripper from Beam ('b0')
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    2   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  36   A10_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    150 TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  37   A10_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  39   A10_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  40   A11_M0  F  Free Move for Toolchanger to approach CL3M ('c3'), to get clamp from storage.
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    69  TrajPts.
+2022-06-05 19:50:38,450 | itj_planning | INFO | #  41   A11_M1  L  Toolchanger Advance to dock with CL3M ('c3').
+2022-06-05 19:50:38,450 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  45   A11_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c3').
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  46   A11_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c3'). (Faster)
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  47   A12_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    90  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  49   A12_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  50   A12_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  53   A12_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  55   A13_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    118 TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  56   A13_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  58   A13_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  59   A14_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b2')
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    116 TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  61   A14_M2  L  Linear Advance to Storage Frame of Beam ('b2')
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  64   A14_M5  L  Linear Retract after picking up Beam ('b2')
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  65   A15_M0  F  Free Move to bring Beam ('b2') to approach clamps on structure.
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    94  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  66   A15_M1  L  Linear Advance to bring Beam ('b2') into clamp jaws
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  68   A15_M3  L  Robot and Clamps (['c3']) syncronously move to clamp Beam ('b2')
+2022-06-05 19:50:38,465 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,465 | itj_planning | INFO | #  74   A19_M2  L  Linear retract of Gripper from Beam ('b2')
+2022-06-05 19:50:38,470 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,470 | itj_planning | INFO | #  77   A21_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,470 | itj_planning | INFO |                    139 TrajPts.
+2022-06-05 19:50:38,470 | itj_planning | INFO | #  78   A21_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,470 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,470 | itj_planning | INFO | #  80   A21_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,470 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,471 | itj_planning | INFO | #  81   A22_M0  F  Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage.
+2022-06-05 19:50:38,471 | itj_planning | INFO |                    45  TrajPts.
+2022-06-05 19:50:38,471 | itj_planning | INFO | #  82   A22_M1  L  Toolchanger Advance to dock with CL3 ('c1').
+2022-06-05 19:50:38,471 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,471 | itj_planning | INFO | #  86   A22_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c1').
+2022-06-05 19:50:38,471 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,471 | itj_planning | INFO | #  87   A22_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster)
+2022-06-05 19:50:38,471 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  88   A23_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    87  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  90   A23_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  91   A23_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  94   A23_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  96   A24_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    84  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  97   A24_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | #  99   A24_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 100   A25_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b3')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    132 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 102   A25_M2  L  Linear Advance to Storage Frame of Beam ('b3')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 105   A25_M5  L  Linear Retract after picking up Beam ('b3')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 106   A26_M0  F  Free Move to bring Beam ('b3') to approach clamps on structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    105 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 107   A26_M1  L  Linear Advance to bring Beam ('b3') into clamp jaws
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 109   A26_M3  L  Robot and Clamps (['c1']) syncronously move to clamp Beam ('b3')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 115   A30_M2  L  Linear retract of Gripper from Beam ('b3')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 118   A32_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    71  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 119   A32_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 121   A32_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 122   A33_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    58  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 124   A33_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 128   A33_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 129   A33_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 131   A34_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    144 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 133   A34_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 134   A34_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 137   A34_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 139   A35_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    141 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 141   A35_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 145   A35_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 146   A35_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 148   A36_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    69  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 150   A36_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 151   A36_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 154   A36_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 156   A37_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    245 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 157   A37_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 159   A37_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 160   A38_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b4')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    139 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 162   A38_M2  L  Linear Advance to Storage Frame of Beam ('b4')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 165   A38_M5  L  Linear Retract after picking up Beam ('b4')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 166   A39_M0  F  Free Move to bring Beam ('b4') to approach clamps on structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    118 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 167   A39_M1  L  Linear Advance to bring Beam ('b4') into clamp jaws
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 169   A39_M3  L  Robot and Clamps (['c3', 'c1']) syncronously move to clamp Beam ('b4')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 172   A40_M2  L  Linear retract of Gripper from Beam ('b4')
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 175   A42_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    255 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 176   A42_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 178   A42_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 179   A43_M0  F  Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    44  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 180   A43_M1  L  Toolchanger Advance to dock with CL3 ('c2').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 184   A43_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 185   A43_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 186   A44_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    217 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 188   A44_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 189   A44_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 192   A44_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 194   A45_M0  F  Free Move for Toolchanger to approach CL3M ('c4'), to get clamp from storage.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    93  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 195   A45_M1  L  Toolchanger Advance to dock with CL3M ('c4').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 199   A45_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c4').
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 200   A45_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c4'). (Faster)
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 201   A46_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    179 TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 203   A46_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 204   A46_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,472 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,472 | itj_planning | INFO | # 207   A46_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 209   A47_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    105 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 210   A47_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 212   A47_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 213   A48_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b9')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    120 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 215   A48_M2  L  Linear Advance to Storage Frame of Beam ('b9')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 218   A48_M5  L  Linear Retract after picking up Beam ('b9')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 219   A49_M0  F  Free Move to bring Beam ('b9') to approach clamps on structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    179 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 220   A49_M1  L  Linear Advance to bring Beam ('b9') into clamp jaws
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 222   A49_M3  L  Robot and Clamps (['c2', 'c4']) syncronously move to clamp Beam ('b9')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 225   A50_M2  L  Linear retract of Gripper from Beam ('b9')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 228   A52_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    291 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 229   A52_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 231   A52_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 232   A53_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    152 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 234   A53_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 238   A53_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 239   A53_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 241   A54_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    85  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 243   A54_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 244   A54_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 247   A54_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 249   A55_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    226 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 250   A55_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 252   A55_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 253   A56_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b5')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    120 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 255   A56_M2  L  Linear Advance to Storage Frame of Beam ('b5')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 258   A56_M5  L  Linear Retract after picking up Beam ('b5')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 259   A57_M0  F  Free Move to bring Beam ('b5') to approach clamps on structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    160 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 260   A57_M1  L  Linear Advance to bring Beam ('b5') into clamp jaws
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 262   A57_M3  L  Robot and Clamps (['c3']) syncronously move to clamp Beam ('b5')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 268   A61_M2  L  Linear retract of Gripper from Beam ('b5')
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 271   A63_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    167 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 272   A63_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 274   A63_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 275   A64_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    95  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 277   A64_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 281   A64_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 282   A64_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 284   A65_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    275 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 286   A65_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 287   A65_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 290   A65_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 292   A66_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    86  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 294   A66_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 298   A66_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 299   A66_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 302   A67_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    211 TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 303   A67_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 304   A67_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 307   A67_M6  L  Linear Retract after placing CL3 ('c2') in storage
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 308   A68_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    92  TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 310   A68_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 314   A68_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,488 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,488 | itj_planning | INFO | # 315   A68_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 317   A69_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    127 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 319   A69_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 320   A69_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 323   A69_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 325   A70_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    78  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 326   A70_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 328   A70_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 329   A71_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b6')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    114 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 331   A71_M2  L  Linear Advance to Storage Frame of Beam ('b6')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 334   A71_M5  L  Linear Retract after picking up Beam ('b6')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 335   A72_M0  F  Free Move to bring Beam ('b6') to approach clamps on structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    100 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 336   A72_M1  L  Linear Advance to bring Beam ('b6') into clamp jaws
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 338   A72_M3  L  Robot and Clamps (['c4', 'c1']) syncronously move to clamp Beam ('b6')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 341   A73_M2  L  Linear retract of Gripper from Beam ('b6')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 344   A75_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    149 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 345   A75_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 347   A75_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 348   A76_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    245 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 350   A76_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 354   A76_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 355   A76_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 357   A77_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    408 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 359   A77_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 360   A77_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 363   A77_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 365   A78_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    188 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 366   A78_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 368   A78_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 369   A79_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b7')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    126 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 371   A79_M2  L  Linear Advance to Storage Frame of Beam ('b7')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 374   A79_M5  L  Linear Retract after picking up Beam ('b7')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 375   A80_M0  F  Free Move to bring Beam ('b7') to approach clamps on structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    98  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 376   A80_M1  L  Linear Advance to bring Beam ('b7') into clamp jaws
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 378   A80_M3  L  Robot and Clamps (['c1']) syncronously move to clamp Beam ('b7')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 385   A85_M2  L  Linear retract of Gripper from Beam ('b7')
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 388   A87_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    151 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 389   A87_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 391   A87_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 392   A88_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    201 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 394   A88_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 398   A88_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 399   A88_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 402   A89_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    175 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 403   A89_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c1'). (Faster)
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 404   A89_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c1').
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 407   A89_M6  L  Linear Retract after placing CL3 ('c1') in storage
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 408   A90_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    163 TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 410   A90_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 414   A90_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,504 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,504 | itj_planning | INFO | # 415   A90_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 417   A91_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    103 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 419   A91_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 420   A91_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 423   A91_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 425   A92_M0  F  Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    94  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 426   A92_M1  L  Toolchanger Advance to dock with CL3 ('c2').
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 430   A92_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 431   A92_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 432   A93_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    145 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 434   A93_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 435   A93_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 438   A93_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 440   A94_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    227 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 441   A94_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 443   A94_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 444   A95_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b12')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    122 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 446   A95_M2  L  Linear Advance to Storage Frame of Beam ('b12')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 449   A95_M5  L  Linear Retract after picking up Beam ('b12')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 450   A96_M0  F  Free Move to bring Beam ('b12') to approach clamps on structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    151 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 451   A96_M1  L  Linear Advance to bring Beam ('b12') into clamp jaws
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 453   A96_M3  L  Robot and Clamps (['c2', 'c3']) syncronously move to clamp Beam ('b12')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 456   A97_M2  L  Linear retract of Gripper from Beam ('b12')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 459   A99_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    156 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 460   A99_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 462   A99_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 463  A100_M0  F  Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    42  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 464  A100_M1  L  Toolchanger Advance to dock with CL3 ('c1').
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 468  A100_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c1').
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 469  A100_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster)
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 470  A101_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    239 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 472  A101_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 473  A101_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 476  A101_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 478  A102_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    270 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 480  A102_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 484  A102_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 485  A102_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 487  A103_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    260 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 489  A103_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 490  A103_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 493  A103_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 495  A104_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    147 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 496  A104_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 498  A104_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 499  A105_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b13')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    139 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 501  A105_M2  L  Linear Advance to Storage Frame of Beam ('b13')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 504  A105_M5  L  Linear Retract after picking up Beam ('b13')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 505  A106_M0  F  Free Move to bring Beam ('b13') to approach clamps on structure.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    101 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 506  A106_M1  L  Linear Advance to bring Beam ('b13') into clamp jaws
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 508  A106_M3  L  Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b13')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 511  A107_M2  L  Linear retract of Gripper from Beam ('b13')
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 514  A109_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    170 TrajPts.
+2022-06-05 19:50:38,519 | itj_planning | INFO | # 515  A109_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,519 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,535 | itj_planning | INFO | # 517  A109_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,535 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,535 | itj_planning | INFO | # 518  A110_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,535 | itj_planning | INFO |                    218 TrajPts.
+2022-06-05 19:50:38,535 | itj_planning | INFO | # 520  A110_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,535 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,535 | itj_planning | INFO | # 524  A110_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,535 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,535 | itj_planning | INFO | # 525  A110_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,535 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,537 | itj_planning | INFO | # 527  A111_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,537 | itj_planning | INFO |                    222 TrajPts.
+2022-06-05 19:50:38,537 | itj_planning | INFO | # 529  A111_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,537 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,537 | itj_planning | INFO | # 530  A111_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,537 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,537 | itj_planning | INFO | # 533  A111_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 535  A112_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    149 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 537  A112_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 541  A112_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 542  A112_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 545  A113_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    143 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 546  A113_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 547  A113_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 550  A113_M6  L  Linear Retract after placing CL3 ('c2') in storage
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 551  A114_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    123 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 553  A114_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 557  A114_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 558  A114_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    11  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 560  A115_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    67  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 562  A115_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 563  A115_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 566  A115_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 568  A116_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    160 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 569  A116_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 571  A116_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 572  A117_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b8')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    127 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 574  A117_M2  L  Linear Advance to Storage Frame of Beam ('b8')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 577  A117_M5  L  Linear Retract after picking up Beam ('b8')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 578  A118_M0  F  Free Move to bring Beam ('b8') to approach clamps on structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    103 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 579  A118_M1  L  Linear Advance to bring Beam ('b8') into clamp jaws
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 581  A118_M3  L  Robot and Clamps (['c1', 'c3']) syncronously move to clamp Beam ('b8')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 584  A119_M2  L  Linear retract of Gripper from Beam ('b8')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 587  A121_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    183 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 588  A121_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 590  A121_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 591  A122_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    80  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 593  A122_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 597  A122_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 598  A122_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 600  A123_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    84  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 602  A123_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 603  A123_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 606  A123_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 608  A124_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    183 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 610  A124_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 614  A124_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 615  A124_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 617  A125_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    51  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 619  A125_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 620  A125_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 623  A125_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 625  A126_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    87  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 626  A126_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 628  A126_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 629  A127_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b10')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    120 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 631  A127_M2  L  Linear Advance to Storage Frame of Beam ('b10')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 634  A127_M5  L  Linear Retract after picking up Beam ('b10')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 635  A128_M0  F  Free Move to bring Beam ('b10') to approach clamps on structure.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    161 TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 636  A128_M1  L  Linear Advance to bring Beam ('b10') into clamp jaws
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 638  A128_M3  L  Robot and Clamps (['c4', 'c1']) syncronously move to clamp Beam ('b10')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 641  A129_M2  L  Linear retract of Gripper from Beam ('b10')
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 644  A131_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    72  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 645  A131_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,538 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,538 | itj_planning | INFO | # 647  A131_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 648  A132_M0  F  Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    18  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 649  A132_M1  L  Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 651  A132_M3  L  Linear Retract after getting PG1000 ('g2') from storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    26  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 652  A133_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    100 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 654  A133_M2  L  Linear Advance to Storage Frame of Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 657  A133_M5  L  Linear Retract after picking up Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 658  A134_M0  L  Linear Move to lift up Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    2   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 659  A134_M1  L  Linear Move to intermediate position before reorienting Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    70  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 660  A134_M2  L  Final Move to reorient Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 664  A138_M0  F  Free Move to bring Beam ('b11') to assemble_approach position on structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    147 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 665  A138_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 666  A138_M2  L  Robot and Screwdrivers (['s1', 's3', 's2']) syncronously move to screw Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 670  A139_M2  L  Linear retract of Gripper from Beam ('b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 672  A140_M1  F  Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    120 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 673  A140_M2  L  Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    26  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 675  A140_M4  L  Linear Retract from storage after placing PG1000 ('g2') in storage
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 676  A141_M0  F  Free Move to reach SL1 ('s2') on Beam ('b11') 
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    81  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 678  A141_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 682  A142_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b9-b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 683  A142_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 686  A143_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    98  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 687  A143_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 688  A143_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 690  A143_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 691  A144_M0  F  Free Move to reach SL1 ('s3') on Beam ('b11') 
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    54  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 693  A144_M2  L  Linear Advance to dock toolchanger of SL1 ('s3').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 697  A145_M2  L  Robot and Screwdriver (s3) syncronously move to retract from Joint ('b4-b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 698  A145_M3  L  Linear retract after picking up Screwdriver ('s3')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 701  A146_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    62  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 702  A146_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 703  A146_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s3').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 705  A146_M5  L  Linear Retract after placing SL1 ('s3') in storage
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 706  A147_M0  F  Free Move to reach SL1 ('s1') on Beam ('b11') 
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    39  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 708  A147_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 712  A148_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b10-b11')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 713  A148_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 716  A149_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    41  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 717  A149_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 718  A149_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 720  A149_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 721  A150_M0  F  Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 722  A150_M1  L  Toolchanger Advance to dock with CL3 ('c2').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 726  A150_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 727  A150_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 729  A152_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    180 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 731  A152_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 732  A152_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 735  A152_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 737  A153_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    210 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 739  A153_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 743  A153_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 744  A153_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 746  A154_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    127 TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 748  A154_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,554 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,554 | itj_planning | INFO | # 749  A154_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 752  A154_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 754  A155_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    148 TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 755  A155_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 757  A155_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 758  A156_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b14')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    116 TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 760  A156_M2  L  Linear Advance to Storage Frame of Beam ('b14')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 763  A156_M5  L  Linear Retract after picking up Beam ('b14')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 764  A157_M0  F  Free Move to bring Beam ('b14') to approach clamps on structure.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    283 TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 765  A157_M1  L  Linear Advance to bring Beam ('b14') into clamp jaws
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 767  A157_M3  L  Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b14')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 770  A158_M2  L  Linear retract of Gripper from Beam ('b14')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 773  A160_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    143 TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 774  A160_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 776  A160_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 777  A161_M0  F  Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    18  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 778  A161_M1  L  Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 780  A161_M3  L  Linear Retract after getting PG1000 ('g2') from storage.
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    26  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 781  A162_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b15')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    98  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 783  A162_M2  L  Linear Advance to Storage Frame of Beam ('b15')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 786  A162_M5  L  Linear Retract after picking up Beam ('b15')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 787  A163_M0  L  Linear Move to lift up Beam ('b15')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    2   TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 788  A163_M1  L  Linear Move to intermediate position before reorienting Beam ('b15')
+2022-06-05 19:50:38,569 | itj_planning | INFO |                    70  TrajPts.
+2022-06-05 19:50:38,569 | itj_planning | INFO | # 789  A163_M2  L  Final Move to reorient Beam ('b15')
+2022-06-05 19:50:38,577 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,577 | itj_planning | INFO | # 793  A167_M0  F  Free Move to bring Beam ('b15') to assemble_approach position on structure.
+2022-06-05 19:50:38,577 | itj_planning | INFO |                    144 TrajPts.
+2022-06-05 19:50:38,577 | itj_planning | INFO | # 794  A167_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-05 19:50:38,577 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,577 | itj_planning | INFO | # 795  A167_M2  L  Robot and Screwdrivers (['s2', 's1', 's3']) syncronously move to screw Beam ('b15')
+2022-06-05 19:50:38,578 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,578 | itj_planning | INFO | # 799  A168_M2  L  Linear retract of Gripper from Beam ('b15')
+2022-06-05 19:50:38,578 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,578 | itj_planning | INFO | # 801  A169_M1  F  Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-05 19:50:38,578 | itj_planning | INFO |                    220 TrajPts.
+2022-06-05 19:50:38,578 | itj_planning | INFO | # 802  A169_M2  L  Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-05 19:50:38,579 | itj_planning | INFO |                    26  TrajPts.
+2022-06-05 19:50:38,579 | itj_planning | INFO | # 804  A169_M4  L  Linear Retract from storage after placing PG1000 ('g2') in storage
+2022-06-05 19:50:38,579 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,579 | itj_planning | INFO | # 805  A170_M0  F  Free Move to reach SL1 ('s3') on Beam ('b15') 
+2022-06-05 19:50:38,579 | itj_planning | INFO |                    207 TrajPts.
+2022-06-05 19:50:38,579 | itj_planning | INFO | # 807  A170_M2  L  Linear Advance to dock toolchanger of SL1 ('s3').
+2022-06-05 19:50:38,579 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,580 | itj_planning | INFO | # 811  A171_M2  L  Robot and Screwdriver (s3) syncronously move to retract from Joint ('b14-b15')
+2022-06-05 19:50:38,580 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,580 | itj_planning | INFO | # 812  A171_M3  L  Linear retract after picking up Screwdriver ('s3')
+2022-06-05 19:50:38,580 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,580 | itj_planning | INFO | # 815  A172_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
+2022-06-05 19:50:38,580 | itj_planning | INFO |                    224 TrajPts.
+2022-06-05 19:50:38,581 | itj_planning | INFO | # 816  A172_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+2022-06-05 19:50:38,581 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,581 | itj_planning | INFO | # 817  A172_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s3').
+2022-06-05 19:50:38,581 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,581 | itj_planning | INFO | # 819  A172_M5  L  Linear Retract after placing SL1 ('s3') in storage
+2022-06-05 19:50:38,581 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,581 | itj_planning | INFO | # 820  A173_M0  F  Free Move to reach SL1 ('s1') on Beam ('b15') 
+2022-06-05 19:50:38,582 | itj_planning | INFO |                    231 TrajPts.
+2022-06-05 19:50:38,582 | itj_planning | INFO | # 822  A173_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-05 19:50:38,582 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,582 | itj_planning | INFO | # 826  A174_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b13-b15')
+2022-06-05 19:50:38,582 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,582 | itj_planning | INFO | # 827  A174_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-05 19:50:38,583 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,583 | itj_planning | INFO | # 830  A175_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-05 19:50:38,583 | itj_planning | INFO |                    224 TrajPts.
+2022-06-05 19:50:38,583 | itj_planning | INFO | # 831  A175_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-05 19:50:38,583 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,584 | itj_planning | INFO | # 832  A175_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-05 19:50:38,584 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,584 | itj_planning | INFO | # 834  A175_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-05 19:50:38,584 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,584 | itj_planning | INFO | # 835  A176_M0  F  Free Move to reach SL1 ('s2') on Beam ('b15') 
+2022-06-05 19:50:38,584 | itj_planning | INFO |                    156 TrajPts.
+2022-06-05 19:50:38,584 | itj_planning | INFO | # 837  A176_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-05 19:50:38,585 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,585 | itj_planning | INFO | # 841  A177_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b15')
+2022-06-05 19:50:38,585 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,585 | itj_planning | INFO | # 842  A177_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-05 19:50:38,585 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,586 | itj_planning | INFO | # 845  A178_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-05 19:50:38,586 | itj_planning | INFO |                    209 TrajPts.
+2022-06-05 19:50:38,586 | itj_planning | INFO | # 846  A178_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-05 19:50:38,586 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,586 | itj_planning | INFO | # 847  A178_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-05 19:50:38,586 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,586 | itj_planning | INFO | # 849  A178_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-05 19:50:38,587 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,587 | itj_planning | INFO | # 851  A180_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-05 19:50:38,587 | itj_planning | INFO |                    95  TrajPts.
+2022-06-05 19:50:38,587 | itj_planning | INFO | # 853  A180_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-05 19:50:38,587 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,588 | itj_planning | INFO | # 857  A180_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,588 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,588 | itj_planning | INFO | # 858  A180_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,588 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,588 | itj_planning | INFO | # 860  A181_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-05 19:50:38,589 | itj_planning | INFO |                    113 TrajPts.
+2022-06-05 19:50:38,589 | itj_planning | INFO | # 862  A181_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,589 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,589 | itj_planning | INFO | # 863  A181_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-05 19:50:38,589 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,590 | itj_planning | INFO | # 866  A181_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-05 19:50:38,590 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,590 | itj_planning | INFO | # 868  A182_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-05 19:50:38,590 | itj_planning | INFO |                    128 TrajPts.
+2022-06-05 19:50:38,591 | itj_planning | INFO | # 870  A182_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-05 19:50:38,591 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,591 | itj_planning | INFO | # 874  A182_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,591 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,591 | itj_planning | INFO | # 875  A182_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,592 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,592 | itj_planning | INFO | # 878  A183_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage.
+2022-06-05 19:50:38,592 | itj_planning | INFO |                    154 TrajPts.
+2022-06-05 19:50:38,592 | itj_planning | INFO | # 879  A183_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,592 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,593 | itj_planning | INFO | # 880  A183_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,593 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,593 | itj_planning | INFO | # 883  A183_M6  L  Linear Retract after placing CL3 ('c2') in storage
+2022-06-05 19:50:38,593 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,593 | itj_planning | INFO | # 884  A184_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,593 | itj_planning | INFO |                    168 TrajPts.
+2022-06-05 19:50:38,594 | itj_planning | INFO | # 886  A184_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,594 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,594 | itj_planning | INFO | # 890  A184_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,594 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,594 | itj_planning | INFO | # 891  A184_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,594 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,595 | itj_planning | INFO | # 893  A185_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-05 19:50:38,595 | itj_planning | INFO |                    344 TrajPts.
+2022-06-05 19:50:38,595 | itj_planning | INFO | # 895  A185_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,595 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,595 | itj_planning | INFO | # 896  A185_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-05 19:50:38,595 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,596 | itj_planning | INFO | # 899  A185_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-05 19:50:38,596 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,596 | itj_planning | INFO | # 901  A186_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,596 | itj_planning | INFO |                    197 TrajPts.
+2022-06-05 19:50:38,596 | itj_planning | INFO | # 902  A186_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,596 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,597 | itj_planning | INFO | # 904  A186_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,597 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,597 | itj_planning | INFO | # 905  A187_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b16')
+2022-06-05 19:50:38,597 | itj_planning | INFO |                    115 TrajPts.
+2022-06-05 19:50:38,597 | itj_planning | INFO | # 907  A187_M2  L  Linear Advance to Storage Frame of Beam ('b16')
+2022-06-05 19:50:38,597 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,597 | itj_planning | INFO | # 910  A187_M5  L  Linear Retract after picking up Beam ('b16')
+2022-06-05 19:50:38,598 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,598 | itj_planning | INFO | # 911  A188_M0  F  Free Move to bring Beam ('b16') to approach clamps on structure.
+2022-06-05 19:50:38,598 | itj_planning | INFO |                    260 TrajPts.
+2022-06-05 19:50:38,598 | itj_planning | INFO | # 912  A188_M1  L  Linear Advance to bring Beam ('b16') into clamp jaws
+2022-06-05 19:50:38,598 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,598 | itj_planning | INFO | # 914  A188_M3  L  Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b16')
+2022-06-05 19:50:38,599 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,599 | itj_planning | INFO | # 917  A189_M2  L  Linear retract of Gripper from Beam ('b16')
+2022-06-05 19:50:38,599 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,599 | itj_planning | INFO | # 919  A191_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b17')
+2022-06-05 19:50:38,599 | itj_planning | INFO |                    161 TrajPts.
+2022-06-05 19:50:38,599 | itj_planning | INFO | # 921  A191_M2  L  Linear Advance to Storage Frame of Beam ('b17')
+2022-06-05 19:50:38,600 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,600 | itj_planning | INFO | # 924  A191_M5  L  Linear Retract after picking up Beam ('b17')
+2022-06-05 19:50:38,600 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,600 | itj_planning | INFO | # 925  A192_M0  L  Linear Move to lift up Beam ('b17')
+2022-06-05 19:50:38,600 | itj_planning | INFO |                    2   TrajPts.
+2022-06-05 19:50:38,600 | itj_planning | INFO | # 926  A192_M1  L  Linear Move to intermediate position before reorienting Beam ('b17')
+2022-06-05 19:50:38,600 | itj_planning | INFO |                    71  TrajPts.
+2022-06-05 19:50:38,601 | itj_planning | INFO | # 927  A192_M2  L  Final Move to reorient Beam ('b17')
+2022-06-05 19:50:38,601 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,601 | itj_planning | INFO | # 931  A196_M0  F  Free Move to bring Beam ('b17') to assemble_approach position on structure.
+2022-06-05 19:50:38,601 | itj_planning | INFO |                    274 TrajPts.
+2022-06-05 19:50:38,602 | itj_planning | INFO | # 932  A196_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-05 19:50:38,602 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,602 | itj_planning | INFO | # 933  A196_M2  L  Robot and Screwdrivers (['s2', 's3', 's1']) syncronously move to screw Beam ('b17')
+2022-06-05 19:50:38,602 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,602 | itj_planning | INFO | # 937  A197_M2  L  Linear retract of Gripper from Beam ('b17')
+2022-06-05 19:50:38,602 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,603 | itj_planning | INFO | # 939  A198_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,603 | itj_planning | INFO |                    201 TrajPts.
+2022-06-05 19:50:38,603 | itj_planning | INFO | # 940  A198_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,603 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,603 | itj_planning | INFO | # 942  A198_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,604 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,604 | itj_planning | INFO | # 943  A199_M0  F  Free Move to reach SL1 ('s1') on Beam ('b17') 
+2022-06-05 19:50:38,604 | itj_planning | INFO |                    166 TrajPts.
+2022-06-05 19:50:38,604 | itj_planning | INFO | # 945  A199_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-05 19:50:38,604 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,605 | itj_planning | INFO | # 949  A200_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b6-b17')
+2022-06-05 19:50:38,605 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,605 | itj_planning | INFO | # 950  A200_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-05 19:50:38,605 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,605 | itj_planning | INFO | # 953  A201_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-05 19:50:38,605 | itj_planning | INFO |                    161 TrajPts.
+2022-06-05 19:50:38,605 | itj_planning | INFO | # 954  A201_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-05 19:50:38,606 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,606 | itj_planning | INFO | # 955  A201_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-05 19:50:38,606 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,606 | itj_planning | INFO | # 957  A201_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-05 19:50:38,606 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,606 | itj_planning | INFO | # 958  A202_M0  F  Free Move to reach SL1 ('s3') on Beam ('b17') 
+2022-06-05 19:50:38,607 | itj_planning | INFO |                    93  TrajPts.
+2022-06-05 19:50:38,607 | itj_planning | INFO | # 960  A202_M2  L  Linear Advance to dock toolchanger of SL1 ('s3').
+2022-06-05 19:50:38,607 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,607 | itj_planning | INFO | # 964  A203_M2  L  Robot and Screwdriver (s3) syncronously move to retract from Joint ('b16-b17')
+2022-06-05 19:50:38,607 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,608 | itj_planning | INFO | # 965  A203_M3  L  Linear retract after picking up Screwdriver ('s3')
+2022-06-05 19:50:38,608 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,608 | itj_planning | INFO | # 968  A204_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
+2022-06-05 19:50:38,608 | itj_planning | INFO |                    100 TrajPts.
+2022-06-05 19:50:38,608 | itj_planning | INFO | # 969  A204_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+2022-06-05 19:50:38,608 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,608 | itj_planning | INFO | # 970  A204_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s3').
+2022-06-05 19:50:38,609 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,609 | itj_planning | INFO | # 972  A204_M5  L  Linear Retract after placing SL1 ('s3') in storage
+2022-06-05 19:50:38,609 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,609 | itj_planning | INFO | # 973  A205_M0  F  Free Move to reach SL1 ('s2') on Beam ('b17') 
+2022-06-05 19:50:38,609 | itj_planning | INFO |                    148 TrajPts.
+2022-06-05 19:50:38,609 | itj_planning | INFO | # 975  A205_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-05 19:50:38,609 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,609 | itj_planning | INFO | # 979  A206_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b0-b17')
+2022-06-05 19:50:38,610 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,610 | itj_planning | INFO | # 980  A206_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-05 19:50:38,610 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,610 | itj_planning | INFO | # 983  A207_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-05 19:50:38,610 | itj_planning | INFO |                    114 TrajPts.
+2022-06-05 19:50:38,610 | itj_planning | INFO | # 984  A207_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-05 19:50:38,611 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,611 | itj_planning | INFO | # 985  A207_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-05 19:50:38,611 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,611 | itj_planning | INFO | # 987  A207_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-05 19:50:38,611 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,611 | itj_planning | INFO | # 989  A209_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,612 | itj_planning | INFO |                    178 TrajPts.
+2022-06-05 19:50:38,612 | itj_planning | INFO | # 991  A209_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,612 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,612 | itj_planning | INFO | # 995  A209_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,612 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,612 | itj_planning | INFO | # 996  A209_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,613 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,613 | itj_planning | INFO | # 998  A210_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-05 19:50:38,613 | itj_planning | INFO |                    58  TrajPts.
+2022-06-05 19:50:38,613 | itj_planning | INFO | #1000  A210_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,613 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,613 | itj_planning | INFO | #1001  A210_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-05 19:50:38,613 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,614 | itj_planning | INFO | #1004  A210_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-05 19:50:38,614 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,614 | itj_planning | INFO | #1006  A211_M0  F  Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage.
+2022-06-05 19:50:38,614 | itj_planning | INFO |                    125 TrajPts.
+2022-06-05 19:50:38,614 | itj_planning | INFO | #1007  A211_M1  L  Toolchanger Advance to dock with CL3 ('c2').
+2022-06-05 19:50:38,614 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,615 | itj_planning | INFO | #1011  A211_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,615 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,615 | itj_planning | INFO | #1012  A211_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,615 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,615 | itj_planning | INFO | #1013  A212_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-05 19:50:38,615 | itj_planning | INFO |                    38  TrajPts.
+2022-06-05 19:50:38,616 | itj_planning | INFO | #1015  A212_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,616 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,616 | itj_planning | INFO | #1016  A212_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-05 19:50:38,616 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,616 | itj_planning | INFO | #1019  A212_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-05 19:50:38,616 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1021  A213_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    57  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1022  A213_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1024  A213_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1025  A214_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b18')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    124 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1027  A214_M2  L  Linear Advance to Storage Frame of Beam ('b18')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1030  A214_M5  L  Linear Retract after picking up Beam ('b18')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1031  A215_M0  F  Free Move to bring Beam ('b18') to approach clamps on structure.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    82  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1032  A215_M1  L  Linear Advance to bring Beam ('b18') into clamp jaws
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1034  A215_M3  L  Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b18')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    25  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1037  A216_M2  L  Linear retract of Gripper from Beam ('b18')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1039  A218_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    126 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1041  A218_M2  L  Linear Advance to Storage Frame of Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1044  A218_M5  L  Linear Retract after picking up Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    19  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1045  A219_M0  L  Linear Move to lift up Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    2   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1046  A219_M1  L  Linear Move to intermediate position before reorienting Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    71  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1047  A219_M2  L  Final Move to reorient Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1051  A223_M0  F  Free Move to bring Beam ('b19') to assemble_approach position on structure.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    63  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1052  A223_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1053  A223_M2  L  Robot and Screwdrivers (['s1', 's2', 's3']) syncronously move to screw Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1057  A224_M2  L  Linear retract of Gripper from Beam ('b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    12  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1059  A225_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    120 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1060  A225_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    27  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1062  A225_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    5   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1063  A226_M0  F  Free Move to reach SL1 ('s3') on Beam ('b19') 
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    131 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1065  A226_M2  L  Linear Advance to dock toolchanger of SL1 ('s3').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1069  A227_M2  L  Robot and Screwdriver (s3) syncronously move to retract from Joint ('b8-b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1070  A227_M3  L  Linear retract after picking up Screwdriver ('s3')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1073  A228_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    133 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1074  A228_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s3'). (Faster)
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1075  A228_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s3').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1077  A228_M5  L  Linear Retract after placing SL1 ('s3') in storage
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1078  A229_M0  F  Free Move to reach SL1 ('s2') on Beam ('b19') 
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    187 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1080  A229_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1084  A230_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b18-b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1085  A230_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1088  A231_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    142 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1089  A231_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1090  A231_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1092  A231_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1093  A232_M0  F  Free Move to reach SL1 ('s1') on Beam ('b19') 
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    119 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1095  A232_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1099  A233_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b19')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    53  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1100  A233_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    3   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1103  A234_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    140 TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1104  A234_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    29  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1105  A234_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1107  A234_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1108  A235_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    90  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1110  A235_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1114  A235_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1115  A235_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1118  A236_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage.
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    76  TrajPts.
+2022-06-05 19:50:38,617 | itj_planning | INFO | #1119  A236_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster)
+2022-06-05 19:50:38,617 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1120  A236_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c2').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1123  A236_M6  L  Linear Retract after placing CL3 ('c2') in storage
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1124  A237_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    114 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1126  A237_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1130  A237_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1131  A237_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    11  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1134  A238_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    121 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1135  A238_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c1'). (Faster)
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1136  A238_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c1').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1139  A238_M6  L  Linear Retract after placing CL3 ('c1') in storage
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1140  A239_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    180 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1142  A239_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    8   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1146  A239_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1147  A239_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1150  A240_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    152 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1151  A240_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c3'). (Faster)
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    23  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1152  A240_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c3').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1155  A240_M6  L  Linear Retract after placing CL3M ('c3') in storage
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1156  A241_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    100 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1158  A241_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    7   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1162  A241_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1163  A241_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    13  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1166  A242_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage.
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    130 TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1167  A242_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c4'). (Faster)
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    22  TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1168  A242_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c4').
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    4   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | #1171  A242_M6  L  Linear Retract after placing CL3M ('c4') in storage
+2022-06-05 19:50:38,633 | itj_planning | INFO |                    6   TrajPts.
+2022-06-05 19:50:38,633 | itj_planning | INFO | --------------------------------------------------
+2022-06-05 19:50:38,633 | itj_planning | INFO | List of RoboticLinearMovement IDs without Trajectory (count = 0):
+2022-06-05 19:50:38,633 | itj_planning | INFO | 
+2022-06-05 19:50:38,633 | itj_planning | INFO | List of RoboticFreeMovement IDs without Trajectory (count = 0):
+2022-06-05 19:50:38,633 | itj_planning | INFO | 
+2022-06-05 19:50:38,633 | itj_planning | INFO | List of all Movements IDs without Trajectory (count = 0):
+2022-06-05 19:50:38,633 | itj_planning | INFO | 
+2022-06-05 19:50:38,633 | itj_planning | INFO | --------------------------------------------------
+2022-06-05 19:50:38,633 | itj_planning | INFO | End of Statistics.
