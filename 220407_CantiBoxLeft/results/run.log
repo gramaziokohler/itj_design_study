@@ -1,0 +1,85 @@
+2022-06-05 18:05:45,342 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A176_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 18:05:45,642 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 18:05:46,270 | itj_planning | INFO | [36mSolving for movement #(837) A176_M2[0m
+2022-06-05 18:05:54,681 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.02
+2022-06-05 18:05:54,681 | itj_planning | INFO | Computing only Movement A176_M2
+2022-06-05 18:05:56,624 | itj_planning | INFO | Solved 1 Movements in 1.94 s: ['A176_M2'] 
+2022-06-05 18:05:56,640 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | Plan Success | Runtime of current attempt: 2.0
+2022-06-05 18:05:56,640 | itj_planning | INFO | Planning done.
+2022-06-05 18:06:34,256 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A176_M2', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 18:06:34,553 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 18:06:35,210 | itj_planning | INFO | [36mSolving for movement #(837) A176_M2[0m
+2022-06-05 18:06:43,553 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.02
+2022-06-05 18:06:43,553 | itj_planning | INFO | Computing only Movement A176_M2
+2022-06-05 18:07:03,157 | itj_planning | INFO | No plan found for A176_M2 | RoboticLinearMovement(#A176_M2, Linear Advance to dock toolchanger of SL1 ('s2')., has_traj False)
+2022-06-05 18:07:03,157 | itj_planning | INFO | A plan NOT found for movement_id A176_M2!
+2022-06-05 18:07:03,157 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 19.6
+2022-06-05 18:07:03,182 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 19.65
+2022-06-05 18:07:03,182 | itj_planning | INFO | Computing only Movement A176_M2
+2022-06-05 18:07:07,280 | itj_planning | INFO | Solved 1 Movements in 4.10 s: ['A176_M2'] 
+2022-06-05 18:07:07,292 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | Plan Success | Runtime of current attempt: 4.1
+2022-06-05 18:07:07,292 | itj_planning | INFO | Planning done.
+2022-06-05 18:13:19,292 | itj_planning | INFO | planning.run.py started with args: Namespace(beam_id=None, buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, force_linear_to_free_movement=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A176_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, remove_overconstraining_free_movement=False, rrt_iterations=400, seq_n=None, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 18:13:19,605 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 18:13:20,261 | itj_planning | INFO | [36mSolving for movement #(835) A176_M0[0m
+2022-06-05 18:13:28,440 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | time elapsed 0.02
+2022-06-05 18:13:28,441 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:13:28,475 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:13:46,540 | itj_planning | WARNING | [31mEnd Config IK cannot be found for RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), solve fails.[0m
+2022-06-05 18:13:46,540 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:13:46,540 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:13:46,540 | itj_planning | INFO | Beam b15 | movement_id | Trail #0 | Plan Failure | Runtime of current attempt: 18.1
+2022-06-05 18:13:46,571 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | time elapsed 18.15
+2022-06-05 18:13:46,571 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:13:46,602 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:14:02,535 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A176_M0
+2022-06-05 18:14:03,612 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A176_M0
+2022-06-05 18:14:06,538 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A176_M0
+2022-06-05 18:14:07,649 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A176_M0
+2022-06-05 18:15:27,281 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:15:27,281 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:15:27,281 | itj_planning | INFO | Beam b15 | movement_id | Trail #1 | Plan Failure | Runtime of current attempt: 100.7
+2022-06-05 18:15:27,312 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | time elapsed 118.89
+2022-06-05 18:15:27,312 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:15:27,351 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:15:28,889 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A176_M0
+2022-06-05 18:15:29,828 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A176_M0
+2022-06-05 18:15:32,632 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A176_M0
+2022-06-05 18:15:33,700 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A176_M0
+2022-06-05 18:17:00,530 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:17:00,530 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:17:00,530 | itj_planning | INFO | Beam b15 | movement_id | Trail #2 | Plan Failure | Runtime of current attempt: 93.2
+2022-06-05 18:17:00,559 | itj_planning | INFO | Beam b15 | movement_id | Trail #3 | time elapsed 212.14
+2022-06-05 18:17:00,559 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:17:00,620 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:17:03,717 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A176_M0
+2022-06-05 18:17:04,906 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A176_M0
+2022-06-05 18:17:08,052 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A176_M0
+2022-06-05 18:17:09,056 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A176_M0
+2022-06-05 18:18:34,315 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:18:34,315 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:18:34,316 | itj_planning | INFO | Beam b15 | movement_id | Trail #3 | Plan Failure | Runtime of current attempt: 93.8
+2022-06-05 18:18:34,346 | itj_planning | INFO | Beam b15 | movement_id | Trail #4 | time elapsed 305.93
+2022-06-05 18:18:34,347 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:18:34,390 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:18:47,672 | itj_planning | WARNING | [31mEnd Config IK cannot be found for RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), solve fails.[0m
+2022-06-05 18:18:47,672 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:18:47,672 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:18:47,672 | itj_planning | INFO | Beam b15 | movement_id | Trail #4 | Plan Failure | Runtime of current attempt: 13.3
+2022-06-05 18:18:47,693 | itj_planning | INFO | Beam b15 | movement_id | Trail #5 | time elapsed 319.27
+2022-06-05 18:18:47,693 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:18:47,740 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:19:04,383 | itj_planning | WARNING | [31mEnd Config IK cannot be found for RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), solve fails.[0m
+2022-06-05 18:19:04,385 | itj_planning | INFO | No plan found for A176_M0 | RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False)
+2022-06-05 18:19:04,385 | itj_planning | INFO | A plan NOT found for movement_id A176_M0!
+2022-06-05 18:19:04,385 | itj_planning | INFO | Beam b15 | movement_id | Trail #5 | Plan Failure | Runtime of current attempt: 16.7
+2022-06-05 18:19:04,405 | itj_planning | INFO | Beam b15 | movement_id | Trail #6 | time elapsed 335.99
+2022-06-05 18:19:04,405 | itj_planning | INFO | Computing only Movement A176_M0
+2022-06-05 18:19:04,453 | itj_planning | INFO | FreeMovement: End Conf not specified in RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False), will sample IK conf based frame.
+2022-06-05 18:19:04,557 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A176_M0
+2022-06-05 18:19:05,502 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A176_M0
+2022-06-05 18:19:08,321 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A176_M0
+2022-06-05 18:19:09,361 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A176_M0
+2022-06-05 18:19:18,978 | itj_planning | INFO | Solved 1 Movements in 14.57 s: ['A176_M0'] 
+2022-06-05 18:19:49,373 | itj_planning | INFO | Beam b15 | movement_id | Trail #6 | Plan Success | Runtime of current attempt: 45.0
+2022-06-05 18:19:49,373 | itj_planning | INFO | Planning done.

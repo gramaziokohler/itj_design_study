@@ -260,3 +260,102 @@
 2022-06-05 19:50:18,224 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
 2022-06-05 19:50:26,156 | itj_planning | INFO | [36mChecking for movement #(764) A157_M0[0m
 2022-06-05 19:52:16,874 | itj_planning | INFO | Congrats, check state done!
+2022-06-05 21:46:42,298 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-05 21:46:42,299 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 21:46:45,011 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 21:47:53,752 | itj_planning | INFO | Congrats, check state done!
+2022-06-05 21:48:34,158 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=True, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 21:48:34,159 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 21:48:34,810 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 21:48:42,747 | itj_planning | INFO | Tool TC4_Camera (tool_changer) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\TC4_Camera\urdf\TC4_Camera.urdf
+2022-06-05 21:48:42,822 | itj_planning | INFO | Tool CL3 (c1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c1\urdf\c1.urdf
+2022-06-05 21:48:42,912 | itj_planning | INFO | Tool CL3 (c2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c2\urdf\c2.urdf
+2022-06-05 21:48:43,010 | itj_planning | INFO | Tool CL3M (c3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c3\urdf\c3.urdf
+2022-06-05 21:48:43,098 | itj_planning | INFO | Tool CL3M (c4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\c4\urdf\c4.urdf
+2022-06-05 21:48:43,178 | itj_planning | INFO | Tool SL1 (s1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s1\urdf\s1.urdf
+2022-06-05 21:48:43,251 | itj_planning | INFO | Tool SL1 (s2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s2\urdf\s2.urdf
+2022-06-05 21:48:43,325 | itj_planning | INFO | Tool SL1 (s3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s3\urdf\s3.urdf
+2022-06-05 21:48:43,398 | itj_planning | INFO | Tool SL1_G200 (s4) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\s4\urdf\s4.urdf
+2022-06-05 21:48:43,479 | itj_planning | INFO | Tool PG500 (g1) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g1\urdf\g1.urdf
+2022-06-05 21:48:43,567 | itj_planning | INFO | Tool PG1000 (g2) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g2\urdf\g2.urdf
+2022-06-05 21:48:43,659 | itj_planning | INFO | Tool PG1500 (g3) URDF generated to c:\users\leungp\documents\github\integral_timber_joints\src\integral_timber_joints\planning\data\g3\urdf\g3.urdf
+2022-06-05 21:48:43,850 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 21:50:52,895 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 21:50:52,896 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004657 (m) | point1 (20.133466,8.681532,2.151717), point2 (20.133164,8.680717,2.147141)
+2022-06-05 21:50:52,896 | compas_fab_pychoreo.utils | WARNING | pointwise collision: trajectory point #97/112
+2022-06-05 21:50:53,415 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 21:50:53,416 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.003985 (m) | point1 (20.102499,8.708907,2.138119), point2 (20.098635,8.708219,2.137430)
+2022-06-05 21:50:53,416 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #98/112
+2022-06-05 21:50:55,903 | compas_fab_pychoreo.utils | WARNING | pointwise collision: trajectory point #106/112
+2022-06-05 21:50:56,137 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #106/112
+2022-06-05 21:50:56,457 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #107/112
+2022-06-05 21:58:12,770 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #e53, Link #link0)
+2022-06-05 21:58:12,771 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002894 (m) | point1 (21.657279,4.839238,0.774181), point2 (21.659889,4.839238,0.775432)
+2022-06-05 21:58:12,771 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #61/62
+2022-06-05 21:59:28,832 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base_link) - (Body #b2, Link #link0)
+2022-06-05 21:59:28,833 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004706 (m) | point1 (19.521223,6.596659,3.153712), point2 (19.521879,6.592000,3.153712)
+2022-06-05 21:59:28,833 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #121/162
+2022-06-05 21:59:54,077 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #tool_changer, Link #toolchanger_base) - (Body #b0, Link #link0)
+2022-06-05 21:59:54,077 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001789 (m) | point1 (19.421756,6.293318,0.668500), point2 (19.421719,6.292574,0.670127)
+2022-06-05 21:59:54,077 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #42/69
+2022-06-05 21:59:54,286 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #c3, Link #gripper_jaw) - (Body #b0, Link #link0)
+2022-06-05 21:59:54,286 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002751 (m) | point1 (19.519455,6.293691,0.667613), point2 (19.519455,6.292590,0.670134)
+2022-06-05 21:59:54,287 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #43/69
+2022-06-05 22:00:57,428 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A7_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 22:00:57,429 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 22:00:58,102 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 22:01:06,182 | itj_planning | INFO | [36mChecking for movement #(26) A7_M0[0m
+2022-06-05 22:01:41,355 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 22:01:41,355 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004657 (m) | point1 (20.133466,8.681532,2.151717), point2 (20.133164,8.680717,2.147141)
+2022-06-05 22:01:41,355 | compas_fab_pychoreo.utils | WARNING | pointwise collision: trajectory point #97/112
+2022-06-05 22:01:41,868 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 22:01:41,868 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.003985 (m) | point1 (20.102499,8.708907,2.138119), point2 (20.098635,8.708219,2.137430)
+2022-06-05 22:01:41,868 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #98/112
+2022-06-05 22:01:44,487 | compas_fab_pychoreo.utils | WARNING | pointwise collision: trajectory point #106/112
+2022-06-05 22:01:44,716 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #106/112
+2022-06-05 22:01:45,041 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #107/112
+2022-06-05 22:01:46,474 | itj_planning | WARNING | A7_M0 : Verify trajectory failed. traj_pointwise_collision, traj_dense_convex_hull_collision, traj_pointwise_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 22:01:46,615 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 22:01:46,615 | itj_planning | INFO | A7_M0
+2022-06-05 22:01:46,615 | itj_planning | INFO | (MovementIndex=26) RoboticFreeMovement(#A7_M0, Free Move to bring Beam ('b0') to final location, has_traj True): traj_pointwise_collision, traj_dense_convex_hull_collision, traj_pointwise_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 22:04:29,943 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A7_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 22:04:29,944 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 22:04:30,640 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 22:04:38,733 | itj_planning | INFO | [36mChecking for movement #(26) A7_M0[0m
+2022-06-05 22:05:10,414 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 22:05:10,414 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002093 (m) | point1 (20.690372,8.131898,2.324158), point2 (20.688319,8.131557,2.323937)
+2022-06-05 22:05:10,414 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #88/112
+2022-06-05 22:05:18,610 | itj_planning | WARNING | A7_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-05 22:05:18,738 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 22:05:18,738 | itj_planning | INFO | A7_M0
+2022-06-05 22:05:18,739 | itj_planning | INFO | (MovementIndex=26) RoboticFreeMovement(#A7_M0, Free Move to bring Beam ('b0') to final location, has_traj True): traj_dense_convex_hull_collision
+2022-06-05 22:05:41,267 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A7_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 22:05:41,267 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 22:05:41,984 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 22:05:51,507 | itj_planning | INFO | [36mChecking for movement #(26) A7_M0[0m
+2022-06-05 22:06:27,908 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base) - (Body #rfl, Link #robot11_link_3)
+2022-06-05 22:06:27,908 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002093 (m) | point1 (20.690372,8.131898,2.324158), point2 (20.688319,8.131557,2.323937)
+2022-06-05 22:07:22,487 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #88/112
+2022-06-05 22:07:31,605 | itj_planning | WARNING | A7_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-05 22:07:31,788 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 22:07:31,788 | itj_planning | INFO | A7_M0
+2022-06-05 22:07:31,788 | itj_planning | INFO | (MovementIndex=26) RoboticFreeMovement(#A7_M0, Free Move to bring Beam ('b0') to final location, has_traj True): traj_dense_convex_hull_collision
+2022-06-05 22:09:17,551 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A33_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 22:09:17,552 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 22:09:18,232 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 22:09:27,650 | itj_planning | INFO | [36mChecking for movement #(122) A33_M0[0m
+2022-06-05 22:09:31,944 | pybullet_planning.utils.debug_utils | INFO | ray collision: Sweeping (Body #tool_changer, Link #toolchanger_base) -> (Body #g2, Link #gripper_base)
+2022-06-05 22:09:31,944 | pybullet_planning.utils.debug_utils | INFO | hit_fraction: 0.00 | hit_position (23.774267,3.890097,0.927439) | hit_normal (-0.000916,0.000233,1.000000)
+2022-06-05 22:10:51,525 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #16/60
+2022-06-05 22:10:53,919 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #g1, Link #gripper_base)
+2022-06-05 22:10:53,919 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001641 (m) | point1 (23.538757,4.468850,0.948467), point2 (23.539708,4.468644,0.949788)
+2022-06-05 22:11:25,520 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #25/60
+2022-06-05 22:11:33,888 | itj_planning | WARNING | A33_M0 : Verify trajectory failed. traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 22:11:34,009 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 22:11:34,009 | itj_planning | INFO | A33_M0
+2022-06-05 22:11:34,009 | itj_planning | INFO | (MovementIndex=122) RoboticFreeMovement(#A33_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 22:25:00,761 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A96_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 22:25:00,762 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 22:25:01,399 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 22:25:10,339 | itj_planning | INFO | [36mChecking for movement #(450) A96_M0[0m
+2022-06-05 22:26:37,965 | itj_planning | INFO | Congrats, check state done!
