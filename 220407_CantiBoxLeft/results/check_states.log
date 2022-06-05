@@ -48,3 +48,215 @@
 2022-06-04 13:52:01,634 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
 2022-06-04 13:52:04,307 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
 2022-06-04 13:53:10,622 | itj_planning | INFO | Congrats, check state done!
+2022-06-05 11:50:27,319 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 11:50:27,319 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 11:50:27,928 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 11:50:30,646 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 11:51:27,142 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 11:51:27,142 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 11:51:27,736 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 11:51:30,407 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 11:56:17,292 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=0.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 11:56:17,292 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 11:56:17,901 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 11:56:19,823 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 11:59:14,553 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=0.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 11:59:14,568 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 11:59:15,178 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 11:59:17,509 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 17:18:30,290 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=0.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 17:18:30,291 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 17:18:30,969 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 17:18:34,437 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 17:19:02,430 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id=None, plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 17:19:02,431 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 17:19:03,083 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 17:19:11,189 | itj_planning | INFO | [36mChecking for beam ['b1', 'b0', 'b2', 'b23', 'b25', 'b24', 'b3', 'b20', 'b22', 'b21', 'b4', 'b9', 'b5', 'b26', 'b27', 'b28', 'b6', 'b7', 'b30', 'b32', 'b29', 'b31', 'b12', 'b13', 'b8', 'b10', 'b11', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-05 17:20:32,722 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #23/57
+2022-06-05 17:21:22,546 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #104/115
+2022-06-05 17:26:23,798 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #82/84
+2022-06-05 17:28:21,272 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #24/58
+2022-06-05 17:28:29,713 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #57/58
+2022-06-05 17:29:17,388 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #1/141
+2022-06-05 17:30:06,863 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #39/69
+2022-06-05 17:30:12,510 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #60/69
+2022-06-05 17:31:28,561 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #17/139
+2022-06-05 17:32:51,242 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #116/118
+2022-06-05 17:32:51,354 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #116/118
+2022-06-05 17:35:21,106 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #181/217
+2022-06-05 17:39:04,015 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #159/179
+2022-06-05 17:39:04,132 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #159/179
+2022-06-05 17:39:10,881 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #177/179
+2022-06-05 17:39:10,992 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #177/179
+2022-06-05 17:41:08,649 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #124/152
+2022-06-05 17:41:48,008 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #12/226
+2022-06-05 17:42:57,273 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #41/120
+2022-06-05 17:44:36,945 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #4/167
+2022-06-05 17:45:19,291 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #157/167
+2022-06-05 17:45:58,012 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #14/275
+2022-06-05 17:48:59,990 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #64/92
+2022-06-05 17:49:02,456 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #74/92
+2022-06-05 17:50:01,534 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #45/78
+2022-06-05 17:51:32,293 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #96/100
+2022-06-05 17:51:32,425 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #96/100
+2022-06-05 17:52:23,867 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #144/149
+2022-06-05 17:56:27,680 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #26/126
+2022-06-05 18:00:46,037 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #101/163
+2022-06-05 18:00:56,795 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #149/163
+2022-06-05 18:01:41,040 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #33/94
+2022-06-05 18:04:01,028 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #80/122
+2022-06-05 18:04:36,756 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #60/151
+2022-06-05 18:05:08,909 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #148/151
+2022-06-05 18:05:09,003 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #148/151
+2022-06-05 18:06:55,178 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #152/239
+2022-06-05 18:09:12,609 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #170/260
+2022-06-05 18:11:32,533 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #98/101
+2022-06-05 18:11:32,704 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #98/101
+2022-06-05 18:11:40,175 | itj_planning | WARNING | A109_M1 : No trajectory found.
+2022-06-05 18:12:17,139 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #135/218
+2022-06-05 18:14:45,935 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #80/143
+2022-06-05 18:15:23,563 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #60/123
+2022-06-05 18:17:16,240 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #74/127
+2022-06-05 18:18:21,329 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #100/103
+2022-06-05 18:18:21,421 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #100/103
+2022-06-05 18:18:21,669 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #101/103
+2022-06-05 18:18:21,772 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #101/103
+2022-06-05 18:20:00,529 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #65/84
+2022-06-05 18:21:05,312 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #48/51
+2022-06-05 18:21:12,148 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #12/87
+2022-06-05 18:21:50,900 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #71/120
+2022-06-05 18:23:33,219 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #46/72
+2022-06-05 18:23:33,723 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #48/72
+2022-06-05 18:24:35,105 | itj_planning | WARNING | A138_M0 : No trajectory found.
+2022-06-05 18:26:20,701 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #30/54
+2022-06-05 18:28:49,499 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #73/210
+2022-06-05 18:29:27,431 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #4/127
+2022-06-05 18:31:15,168 | itj_planning | WARNING | A157_M0 : No trajectory found.
+2022-06-05 18:32:52,263 | itj_planning | WARNING | A167_M0 : No trajectory found.
+2022-06-05 18:33:43,013 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #159/220
+2022-06-05 18:34:18,136 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #68/207
+2022-06-05 18:34:34,164 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #138/207
+2022-06-05 18:34:50,687 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #205/207
+2022-06-05 18:38:06,878 | itj_planning | WARNING | A176_M0 : No trajectory found.
+2022-06-05 18:38:14,497 | itj_planning | WARNING | A178_M1 : No trajectory found.
+2022-06-05 18:38:21,328 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #6/95
+2022-06-05 18:38:41,376 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #93/95
+2022-06-05 18:39:08,099 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #91/113
+2022-06-05 18:40:49,221 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #66/168
+2022-06-05 18:41:10,874 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #161/168
+2022-06-05 18:41:11,073 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #162/168
+2022-06-05 18:44:02,715 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #71/115
+2022-06-05 18:44:17,973 | itj_planning | WARNING | A188_M0 : No trajectory found.
+2022-06-05 18:44:24,271 | itj_planning | WARNING | A191_M0 : No trajectory found.
+2022-06-05 18:44:38,980 | itj_planning | WARNING | A196_M0 : No trajectory found.
+2022-06-05 18:46:02,995 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #88/166
+2022-06-05 18:47:15,352 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #4/93
+2022-06-05 18:47:29,224 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #62/93
+2022-06-05 18:47:29,459 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #63/93
+2022-06-05 18:50:12,575 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #151/178
+2022-06-05 18:50:34,429 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #47/58
+2022-06-05 18:52:58,060 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #75/82
+2022-06-05 18:52:58,154 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #75/82
+2022-06-05 18:53:28,662 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #81/126
+2022-06-05 18:53:30,162 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #87/126
+2022-06-05 18:55:23,029 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #73/131
+2022-06-05 18:55:57,229 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #49/133
+2022-06-05 18:58:17,351 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #78/119
+2022-06-05 18:59:05,812 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #110/140
+2022-06-05 19:00:41,133 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #2/121
+2022-06-05 19:00:41,352 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #3/121
+2022-06-05 19:03:09,373 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #87/100
+2022-06-05 19:03:56,036 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 19:03:56,036 | itj_planning | INFO | A6_M0,A7_M0,A24_M0,A33_M0,A35_M0,A36_M0,A38_M0,A39_M0,A44_M0,A49_M0,A53_M0,A55_M0,A56_M0,A63_M1,A65_M0,A68_M0,A70_M0,A72_M0,A75_M1,A79_M0,A90_M0,A92_M0,A95_M0,A96_M0,A101_M0,A103_M0,A106_M0,A109_M1,A110_M0,A113_M1,A114_M0,A117_M0,A118_M0,A123_M0,A125_M0,A126_M0,A127_M0,A131_M1,A138_M0,A144_M0,A153_M0,A154_M0,A157_M0,A167_M0,A169_M1,A170_M0,A176_M0,A178_M1,A180_M0,A181_M0,A184_M0,A187_M0,A188_M0,A191_M0,A196_M0,A199_M0,A202_M0,A209_M0,A210_M0,A215_M0,A218_M0,A226_M0,A228_M1,A232_M0,A234_M1,A238_M1,A241_M0
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=20) RoboticFreeMovement(#A6_M0, Free Move to reach Pickup Approach Frame of Beam ('b0'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=26) RoboticFreeMovement(#A7_M0, Free Move to bring Beam ('b0') to final location, has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=96) RoboticFreeMovement(#A24_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj True): traj_polyline_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=122) RoboticFreeMovement(#A33_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=139) RoboticFreeMovement(#A35_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=148) RoboticFreeMovement(#A36_M0, Free Move to bring CL3M ('c3') to structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=160) RoboticFreeMovement(#A38_M0, Free Move to reach Pickup Approach Frame of Beam ('b4'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=166) RoboticFreeMovement(#A39_M0, Free Move to bring Beam ('b4') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=186) RoboticFreeMovement(#A44_M0, Free Move to bring CL3 ('c2') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=219) RoboticFreeMovement(#A49_M0, Free Move to bring Beam ('b9') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision, traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,036 | itj_planning | INFO | (MovementIndex=232) RoboticFreeMovement(#A53_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=249) RoboticFreeMovement(#A55_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=253) RoboticFreeMovement(#A56_M0, Free Move to reach Pickup Approach Frame of Beam ('b5'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=271) RoboticFreeMovement(#A63_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision, traj_polyline_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=284) RoboticFreeMovement(#A65_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=308) RoboticFreeMovement(#A68_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=325) RoboticFreeMovement(#A70_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=335) RoboticFreeMovement(#A72_M0, Free Move to bring Beam ('b6') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=344) RoboticFreeMovement(#A75_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=369) RoboticFreeMovement(#A79_M0, Free Move to reach Pickup Approach Frame of Beam ('b7'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=408) RoboticFreeMovement(#A90_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=425) RoboticFreeMovement(#A92_M0, Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=444) RoboticFreeMovement(#A95_M0, Free Move to reach Pickup Approach Frame of Beam ('b12'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=450) RoboticFreeMovement(#A96_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj True): traj_dense_convex_hull_collision, traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=470) RoboticFreeMovement(#A101_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=487) RoboticFreeMovement(#A103_M0, Free Move to bring CL3 ('c2') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=505) RoboticFreeMovement(#A106_M0, Free Move to bring Beam ('b13') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=514) RoboticFreeMovement(#A109_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=518) RoboticFreeMovement(#A110_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=545) RoboticFreeMovement(#A113_M1, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=551) RoboticFreeMovement(#A114_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=572) RoboticFreeMovement(#A117_M0, Free Move to reach Pickup Approach Frame of Beam ('b8'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=578) RoboticFreeMovement(#A118_M0, Free Move to bring Beam ('b8') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision, traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=600) RoboticFreeMovement(#A123_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=617) RoboticFreeMovement(#A125_M0, Free Move to bring CL3M ('c4') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=625) RoboticFreeMovement(#A126_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=629) RoboticFreeMovement(#A127_M0, Free Move to reach Pickup Approach Frame of Beam ('b10'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=644) RoboticFreeMovement(#A131_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=664) RoboticFreeMovement(#A138_M0, Free Move to bring Beam ('b11') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=691) RoboticFreeMovement(#A144_M0, Free Move to reach SL1 ('s3') on Beam ('b11') , has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=737) RoboticFreeMovement(#A153_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=746) RoboticFreeMovement(#A154_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=764) RoboticFreeMovement(#A157_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=793) RoboticFreeMovement(#A167_M0, Free Move to bring Beam ('b15') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=801) RoboticFreeMovement(#A169_M1, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=805) RoboticFreeMovement(#A170_M0, Free Move to reach SL1 ('s3') on Beam ('b15') , has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision, traj_polyline_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=835) RoboticFreeMovement(#A176_M0, Free Move to reach SL1 ('s2') on Beam ('b15') , has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=845) RoboticFreeMovement(#A178_M1, Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=851) RoboticFreeMovement(#A180_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=860) RoboticFreeMovement(#A181_M0, Free Move to bring CL3M ('c4') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=884) RoboticFreeMovement(#A184_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=905) RoboticFreeMovement(#A187_M0, Free Move to reach Pickup Approach Frame of Beam ('b16'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=911) RoboticFreeMovement(#A188_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=919) RoboticFreeMovement(#A191_M0, Free Move to reach Pickup Approach Frame of Beam ('b17'), has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=931) RoboticFreeMovement(#A196_M0, Free Move to bring Beam ('b17') to assemble_approach position on structure., has_traj False): no_traj_found
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=943) RoboticFreeMovement(#A199_M0, Free Move to reach SL1 ('s1') on Beam ('b17') , has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=958) RoboticFreeMovement(#A202_M0, Free Move to reach SL1 ('s3') on Beam ('b17') , has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=989) RoboticFreeMovement(#A209_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=998) RoboticFreeMovement(#A210_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1031) RoboticFreeMovement(#A215_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1039) RoboticFreeMovement(#A218_M0, Free Move to reach Pickup Approach Frame of Beam ('b19'), has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1063) RoboticFreeMovement(#A226_M0, Free Move to reach SL1 ('s3') on Beam ('b19') , has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1073) RoboticFreeMovement(#A228_M1, Free Move to reach Storage Approach Frame of SL1 ('s3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1093) RoboticFreeMovement(#A232_M0, Free Move to reach SL1 ('s1') on Beam ('b19') , has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1103) RoboticFreeMovement(#A234_M1, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1134) RoboticFreeMovement(#A238_M1, Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-05 19:03:56,051 | itj_planning | INFO | (MovementIndex=1156) RoboticFreeMovement(#A241_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:21:53,632 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A6_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 19:21:53,632 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 19:21:54,348 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 19:22:03,195 | itj_planning | INFO | [36mChecking for movement #(20) A6_M0[0m
+2022-06-05 19:22:27,170 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #23/57
+2022-06-05 19:22:35,980 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 19:22:35,981 | itj_planning | INFO | A6_M0
+2022-06-05 19:22:35,981 | itj_planning | INFO | (MovementIndex=20) RoboticFreeMovement(#A6_M0, Free Move to reach Pickup Approach Frame of Beam ('b0'), has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:22:41,042 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A7_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 19:22:41,043 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 19:22:41,703 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 19:22:50,173 | itj_planning | INFO | [36mChecking for movement #(26) A7_M0[0m
+2022-06-05 19:30:42,811 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #104/115
+2022-06-05 19:30:46,432 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-05 19:30:46,432 | itj_planning | INFO | A7_M0
+2022-06-05 19:30:46,433 | itj_planning | INFO | (MovementIndex=26) RoboticFreeMovement(#A7_M0, Free Move to bring Beam ('b0') to final location, has_traj True): traj_dense_convex_hull_collision
+2022-06-05 19:31:15,843 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A24_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-05 19:31:15,844 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 19:31:16,514 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 19:31:25,621 | itj_planning | INFO | [36mChecking for movement #(96) A24_M0[0m
+2022-06-05 19:50:17,550 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A157_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-05 19:50:17,550 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 19:50:18,224 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-05 19:50:26,156 | itj_planning | INFO | [36mChecking for movement #(764) A157_M0[0m
+2022-06-05 19:52:16,874 | itj_planning | INFO | Congrats, check state done!
