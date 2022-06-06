@@ -517,3 +517,186 @@
 2022-06-06 00:54:53,204 | itj_planning | INFO | (MovementIndex=1093) RoboticFreeMovement(#A232_M0, Free Move to reach SL1 ('s1') on Beam ('b19') , has_traj True): traj_dense_convex_hull_collision
 2022-06-06 00:54:53,204 | itj_planning | INFO | (MovementIndex=1103) RoboticFreeMovement(#A234_M1, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj True): traj_pointwise_collision, traj_dense_convex_hull_collision
 2022-06-06 00:54:53,204 | itj_planning | INFO | (MovementIndex=1156) RoboticFreeMovement(#A241_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-06 09:24:57,992 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A33_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-06 09:24:57,993 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:24:58,644 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:25:07,167 | itj_planning | INFO | [36mChecking for movement #(122) A33_M0[0m
+2022-06-06 09:25:13,122 | itj_planning | INFO | Congrats, check state done!
+2022-06-06 09:25:38,267 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=0, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A36_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-06 09:25:38,267 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:25:38,897 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:25:46,979 | itj_planning | INFO | [36mChecking for movement #(148) A36_M0[0m
+2022-06-06 09:26:02,259 | itj_planning | INFO | Congrats, check state done!
+2022-06-06 09:26:27,107 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A68_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-06 09:26:27,108 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:26:27,750 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:26:35,329 | itj_planning | INFO | [36mChecking for movement #(308) A68_M0[0m
+2022-06-06 09:26:50,432 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_1) - (Body #b9, Link #link0)
+2022-06-06 09:26:50,432 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004431 (m) | point1 (23.372348,6.593506,2.786928), point2 (23.376728,6.592840,2.786928)
+2022-06-06 09:26:50,432 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #65/93
+2022-06-06 09:26:56,624 | itj_planning | WARNING | A68_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-06 09:26:56,734 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:26:56,734 | itj_planning | INFO | A68_M0
+2022-06-06 09:26:56,734 | itj_planning | INFO | (MovementIndex=308) RoboticFreeMovement(#A68_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-06 09:32:00,108 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A69_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-06 09:32:00,108 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:32:00,733 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:32:08,122 | itj_planning | INFO | [36mChecking for movement #(317) A69_M0[0m
+2022-06-06 09:32:38,774 | itj_planning | INFO | Congrats, check state done!
+2022-06-06 09:33:03,571 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A90_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-06 09:33:03,571 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:33:04,180 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:33:11,702 | itj_planning | INFO | [36mChecking for movement #(408) A90_M0[0m
+2022-06-06 09:33:39,921 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b20, Link #link0)
+2022-06-06 09:33:39,921 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002309 (m) | point1 (22.423204,7.808567,0.967210), point2 (22.423204,7.809363,0.969377)
+2022-06-06 09:33:39,921 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #121/156
+2022-06-06 09:33:47,898 | itj_planning | WARNING | A90_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-06 09:33:48,025 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:33:48,025 | itj_planning | INFO | A90_M0
+2022-06-06 09:33:48,025 | itj_planning | INFO | (MovementIndex=408) RoboticFreeMovement(#A90_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-06 09:33:59,547 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A90_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:33:59,547 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:34:00,156 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:34:08,979 | itj_planning | INFO | [36mChecking for movement #(408) A90_M0[0m
+2022-06-06 09:34:39,414 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b20, Link #link0)
+2022-06-06 09:34:39,414 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002309 (m) | point1 (22.423204,7.808567,0.967210), point2 (22.423204,7.809363,0.969377)
+2022-06-06 09:34:44,931 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #121/156
+2022-06-06 09:34:53,377 | itj_planning | WARNING | A90_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-06 09:34:53,544 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:34:53,544 | itj_planning | INFO | A90_M0
+2022-06-06 09:34:53,544 | itj_planning | INFO | (MovementIndex=408) RoboticFreeMovement(#A90_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-06 09:35:01,018 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A92_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:35:01,019 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:35:01,704 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:35:10,840 | itj_planning | INFO | [36mChecking for movement #(425) A92_M0[0m
+2022-06-06 09:35:22,234 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b9, Link #link0)
+2022-06-06 09:35:22,234 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.013440 (m) | point1 (23.373812,6.605278,2.719419), point2 (23.375895,6.592002,2.719201)
+2022-06-06 09:35:49,231 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #43/105
+2022-06-06 09:36:04,166 | pybullet_planning.utils.debug_utils | INFO | ray collision: Sweeping (Body #tool_changer, Link #toolchanger_base) -> (Body #c2, Link #gripper_base)
+2022-06-06 09:36:04,166 | pybullet_planning.utils.debug_utils | INFO | hit_fraction: 0.35 | hit_position (21.662899,3.743378,0.910057) | hit_normal (-0.000543,0.660448,0.750871)
+2022-06-06 09:36:17,005 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #103/105
+2022-06-06 09:36:17,401 | itj_planning | WARNING | A92_M0 : Verify trajectory failed. traj_dense_convex_hull_collision, traj_polyline_collision
+2022-06-06 09:36:17,541 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:36:17,541 | itj_planning | INFO | A92_M0
+2022-06-06 09:36:17,541 | itj_planning | INFO | (MovementIndex=425) RoboticFreeMovement(#A92_M0, Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage., has_traj True): traj_dense_convex_hull_collision, traj_polyline_collision
+2022-06-06 09:40:01,108 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A118_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:40:01,108 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:40:01,705 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:40:10,598 | itj_planning | INFO | [36mChecking for movement #(578) A118_M0[0m
+2022-06-06 09:40:12,356 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #4/112
+2022-06-06 09:40:12,773 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #5/112
+2022-06-06 09:40:13,206 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #6/112
+2022-06-06 09:40:13,607 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #7/112
+2022-06-06 09:40:14,542 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #9/112
+2022-06-06 09:40:15,095 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #10/112
+2022-06-06 09:40:15,559 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #11/112
+2022-06-06 09:40:15,995 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #12/112
+2022-06-06 09:40:16,393 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #13/112
+2022-06-06 09:40:16,926 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #14/112
+2022-06-06 09:40:17,380 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #15/112
+2022-06-06 09:40:17,812 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #16/112
+2022-06-06 09:40:18,220 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #17/112
+2022-06-06 09:40:18,663 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #18/112
+2022-06-06 09:40:19,095 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #19/112
+2022-06-06 09:40:19,511 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #20/112
+2022-06-06 09:40:19,925 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #21/112
+2022-06-06 09:40:20,362 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #22/112
+2022-06-06 09:40:20,921 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #23/112
+2022-06-06 09:40:21,418 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #24/112
+2022-06-06 09:40:21,875 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #25/112
+2022-06-06 09:40:22,354 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #26/112
+2022-06-06 09:40:22,828 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #27/112
+2022-06-06 09:40:23,255 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #28/112
+2022-06-06 09:40:23,694 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #29/112
+2022-06-06 09:40:24,117 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #30/112
+2022-06-06 09:40:24,528 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #31/112
+2022-06-06 09:40:24,948 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #32/112
+2022-06-06 09:40:25,505 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #33/112
+2022-06-06 09:40:25,931 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #34/112
+2022-06-06 09:40:26,358 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #35/112
+2022-06-06 09:40:26,758 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #36/112
+2022-06-06 09:40:27,228 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #37/112
+2022-06-06 09:40:27,624 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #38/112
+2022-06-06 09:40:28,016 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #39/112
+2022-06-06 09:40:28,421 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #40/112
+2022-06-06 09:40:28,957 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #41/112
+2022-06-06 09:40:29,403 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #42/112
+2022-06-06 09:40:29,798 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #43/112
+2022-06-06 09:40:30,190 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #44/112
+2022-06-06 09:40:30,991 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #46/112
+2022-06-06 09:40:31,376 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #47/112
+2022-06-06 09:40:31,759 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #48/112
+2022-06-06 09:40:32,168 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #49/112
+2022-06-06 09:40:32,584 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #50/112
+2022-06-06 09:40:32,991 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #51/112
+2022-06-06 09:40:33,547 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #52/112
+2022-06-06 09:40:33,946 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #53/112
+2022-06-06 09:40:34,366 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #54/112
+2022-06-06 09:40:34,748 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #55/112
+2022-06-06 09:40:35,125 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #56/112
+2022-06-06 09:40:35,539 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #57/112
+2022-06-06 09:40:35,961 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #58/112
+2022-06-06 09:40:36,420 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #59/112
+2022-06-06 09:40:36,805 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #60/112
+2022-06-06 09:40:37,206 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #61/112
+2022-06-06 09:40:37,623 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #62/112
+2022-06-06 09:40:38,009 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #63/112
+2022-06-06 09:40:38,404 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #64/112
+2022-06-06 09:40:39,254 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #66/112
+2022-06-06 09:40:39,697 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #67/112
+2022-06-06 09:40:40,073 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #68/112
+2022-06-06 09:40:40,451 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #69/112
+2022-06-06 09:40:40,834 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #70/112
+2022-06-06 09:40:41,405 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #71/112
+2022-06-06 09:40:41,804 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #72/112
+2022-06-06 09:40:42,227 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #73/112
+2022-06-06 09:40:42,628 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #74/112
+2022-06-06 09:40:42,985 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #75/112
+2022-06-06 09:40:43,392 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #76/112
+2022-06-06 09:40:43,814 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #77/112
+2022-06-06 09:40:44,248 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #78/112
+2022-06-06 09:40:44,639 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #79/112
+2022-06-06 09:40:45,045 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #80/112
+2022-06-06 09:40:45,449 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #81/112
+2022-06-06 09:40:45,830 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #82/112
+2022-06-06 09:40:46,208 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #83/112
+2022-06-06 09:40:46,633 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #84/112
+2022-06-06 09:40:47,000 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #85/112
+2022-06-06 09:40:47,410 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #86/112
+2022-06-06 09:40:47,862 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #87/112
+2022-06-06 09:40:48,344 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #88/112
+2022-06-06 09:40:48,754 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #89/112
+2022-06-06 09:40:49,309 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #90/112
+2022-06-06 09:40:49,701 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #91/112
+2022-06-06 09:40:50,074 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #92/112
+2022-06-06 09:40:50,441 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #93/112
+2022-06-06 09:40:50,864 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #94/112
+2022-06-06 09:40:51,307 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #95/112
+2022-06-06 09:40:52,036 | compas_fab_pychoreo.utils | WARNING | joint_flip: trajectory point #97/112
+2022-06-06 09:40:55,336 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A118_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:40:55,336 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:40:55,945 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:41:04,443 | itj_planning | INFO | [36mChecking for movement #(578) A118_M0[0m
+2022-06-06 09:41:50,104 | itj_planning | INFO | Congrats, check state done!
+2022-06-06 09:41:58,610 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:41:58,610 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:41:59,220 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:42:07,716 | itj_planning | INFO | [36mChecking for movement #(600) A123_M0[0m
+2022-06-06 09:42:25,239 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b9, Link #link0)
+2022-06-06 09:42:25,239 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.008463 (m) | point1 (23.375731,6.661964,2.726680), point2 (23.375741,6.661964,2.718218)
+2022-06-06 09:42:33,969 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #66/77
+2022-06-06 09:42:36,531 | itj_planning | WARNING | A123_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-06 09:42:36,672 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:42:36,672 | itj_planning | INFO | A123_M0
+2022-06-06 09:42:36,673 | itj_planning | INFO | (MovementIndex=600) RoboticFreeMovement(#A123_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-06 09:42:44,546 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxLeft', mesh_split_long_edge_max_length=50.0, movement_id='A124_M0', plan_summary=False, problem='CantiBoxLeft_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-06 09:42:44,546 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:42:45,155 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\results
+2022-06-06 09:42:53,693 | itj_planning | INFO | [36mChecking for movement #(608) A124_M0[0m
+2022-06-06 09:43:03,848 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_base_link) - (Body #b3, Link #link0)
+2022-06-06 09:43:03,848 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004056 (m) | point1 (22.521313,6.596016,3.779040), point2 (22.521879,6.592000,3.779040)
+2022-06-06 09:43:12,027 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #41/166
+2022-06-06 09:43:41,694 | itj_planning | WARNING | A124_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-06 09:43:41,850 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-06 09:43:41,850 | itj_planning | INFO | A124_M0
+2022-06-06 09:43:41,850 | itj_planning | INFO | (MovementIndex=608) RoboticFreeMovement(#A124_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision

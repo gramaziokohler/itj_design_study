@@ -2205,3 +2205,136 @@
 2022-06-05 22:35:03,896 | itj_planning | INFO | Planning done.
 2022-06-05 22:35:03,896 | itj_planning | INFO | 1 of 1 Movements planned successfully.
 2022-06-05 22:35:03,896 | itj_planning | INFO | Failed movements: 
+2022-06-05 23:53:50,269 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A69_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 23:53:50,613 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 23:53:52,907 | itj_planning | INFO | Movement A69_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:54:04,465 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-05 23:54:27,728 | itj_planning | INFO | Solved 1 Movements in 23.26 s: ['A69_M0'] 
+2022-06-05 23:55:08,702 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 64.2
+2022-06-05 23:55:08,704 | itj_planning | INFO | Planning done.
+2022-06-05 23:55:08,704 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-05 23:55:08,704 | itj_planning | INFO | Failed movements: 
+2022-06-05 23:56:19,345 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A90_M0,A92_M0,A109_M1,A111_M0,A33_M0,A36_M0,A49_M0,A55_M0,A68_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-05 23:56:19,641 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-05 23:56:22,092 | itj_planning | INFO | Movement A90_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,099 | itj_planning | INFO | Movement A92_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,102 | itj_planning | INFO | Movement A109_M1 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,104 | itj_planning | INFO | Movement A111_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,111 | itj_planning | INFO | Movement A33_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,117 | itj_planning | INFO | Movement A36_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,123 | itj_planning | INFO | Movement A49_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,130 | itj_planning | INFO | Movement A55_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:22,137 | itj_planning | INFO | Movement A68_M0 (RoboticFreeMovement) archived.
+2022-06-05 23:56:33,516 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 23:56:48,996 | itj_planning | INFO | Solved 1 Movements in 15.48 s: ['A90_M0'] 
+2022-06-05 23:57:21,242 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 47.7
+2022-06-05 23:57:28,065 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 23:57:33,531 | itj_planning | INFO | Solved 1 Movements in 5.46 s: ['A92_M0'] 
+2022-06-05 23:58:12,350 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 44.3
+2022-06-05 23:58:18,996 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-05 23:58:19,044 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A109_M1
+2022-06-05 23:58:20,103 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A109_M1
+2022-06-05 23:58:23,158 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A109_M1
+2022-06-05 23:58:24,624 | itj_planning | INFO | Solved 1 Movements in 5.63 s: ['A109_M1'] 
+2022-06-05 23:59:05,671 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 46.7
+2022-06-05 23:59:12,148 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-06 00:00:46,761 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:00:46,761 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:00:46,761 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 94.6
+2022-06-06 00:00:46,792 | itj_planning | INFO | Trail #1 | time elapsed 94.68
+2022-06-06 00:02:23,797 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:02:23,797 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:02:23,798 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 97.0
+2022-06-06 00:02:23,822 | itj_planning | INFO | Trail #2 | time elapsed 191.71
+2022-06-06 00:03:43,415 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:03:43,415 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:03:43,415 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 79.6
+2022-06-06 00:03:43,442 | itj_planning | INFO | Trail #3 | time elapsed 271.33
+2022-06-06 00:05:39,981 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:05:39,981 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:05:39,981 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 116.5
+2022-06-06 00:05:40,012 | itj_planning | INFO | Trail #4 | time elapsed 387.90
+2022-06-06 00:07:15,328 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:07:15,328 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:07:15,328 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 95.3
+2022-06-06 00:07:15,348 | itj_planning | INFO | Trail #5 | time elapsed 483.23
+2022-06-06 00:08:48,617 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:08:48,617 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:08:48,617 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 93.3
+2022-06-06 00:08:48,643 | itj_planning | INFO | Trail #6 | time elapsed 576.53
+2022-06-06 00:10:30,602 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:10:30,602 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:10:30,602 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 102.0
+2022-06-06 00:10:30,602 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.19.
+2022-06-06 00:10:30,602 | itj_planning | ERROR | Free movement group #3/9 fails, which contains ['A111_M0']
+2022-06-06 00:11:10,113 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A111_M0,A33_M0,A36_M0,A49_M0,A55_M0,A68_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-06 00:11:10,413 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 00:11:24,589 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 00:13:11,877 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:13:11,877 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:13:11,877 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 107.3
+2022-06-06 00:13:11,908 | itj_planning | INFO | Trail #1 | time elapsed 107.33
+2022-06-06 00:14:43,500 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:14:43,500 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:14:43,500 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 91.6
+2022-06-06 00:14:43,531 | itj_planning | INFO | Trail #2 | time elapsed 198.96
+2022-06-06 00:16:11,158 | itj_planning | INFO | No plan found for A111_M0 | RoboticFreeMovement(#A111_M0, Free Move to bring CL3 ('c1') to structure., has_traj False)
+2022-06-06 00:16:11,158 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-06 00:16:11,158 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 87.6
+2022-06-06 00:16:11,189 | itj_planning | INFO | Trail #3 | time elapsed 286.62
+2022-06-06 00:16:37,718 | itj_planning | INFO | Solved 1 Movements in 26.53 s: ['A111_M0'] 
+2022-06-06 00:17:18,088 | itj_planning | INFO | Trail #3 | Plan Success | Runtime of current attempt: 66.9
+2022-06-06 00:17:24,963 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 00:17:28,509 | itj_planning | INFO | Solved 1 Movements in 3.55 s: ['A33_M0'] 
+2022-06-06 00:17:54,091 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 29.1
+2022-06-06 00:18:00,771 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 00:19:19,757 | itj_planning | INFO | Solved 1 Movements in 78.99 s: ['A36_M0'] 
+2022-06-06 00:19:46,139 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 105.4
+2022-06-06 00:19:53,115 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 00:19:53,147 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A49_M0
+2022-06-06 00:20:36,128 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A49_M0
+2022-06-06 00:20:40,580 | itj_planning | INFO | Solved 1 Movements in 47.46 s: ['A49_M0'] 
+2022-06-06 00:21:26,998 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 93.9
+2022-06-06 00:21:33,975 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-06 00:21:47,848 | itj_planning | INFO | Solved 1 Movements in 13.87 s: ['A55_M0'] 
+2022-06-06 00:22:25,330 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 51.4
+2022-06-06 00:22:32,031 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 00:22:36,268 | itj_planning | INFO | Solved 1 Movements in 4.24 s: ['A68_M0'] 
+2022-06-06 00:23:16,250 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 44.2
+2022-06-06 00:23:16,265 | itj_planning | INFO | Planning done.
+2022-06-06 00:23:16,265 | itj_planning | INFO | 6 of 6 Movements planned successfully.
+2022-06-06 00:23:16,265 | itj_planning | INFO | Failed movements: 
+2022-06-06 09:27:52,121 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A69_M0,A90_M0,A92_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-06 09:27:52,434 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:27:54,621 | itj_planning | INFO | Movement A69_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:27:54,636 | itj_planning | INFO | Movement A90_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:27:54,636 | itj_planning | INFO | Movement A92_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:28:06,033 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 09:28:38,642 | itj_planning | INFO | Solved 1 Movements in 32.61 s: ['A69_M0'] 
+2022-06-06 09:29:10,644 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 64.6
+2022-06-06 09:29:16,997 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 09:29:33,118 | itj_planning | INFO | Solved 1 Movements in 16.12 s: ['A90_M0'] 
+2022-06-06 09:29:57,706 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 40.7
+2022-06-06 09:30:03,975 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-06 09:30:13,226 | itj_planning | INFO | Solved 1 Movements in 9.25 s: ['A92_M0'] 
+2022-06-06 09:30:32,352 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 28.4
+2022-06-06 09:30:32,352 | itj_planning | INFO | Planning done.
+2022-06-06 09:30:32,352 | itj_planning | INFO | 3 of 3 Movements planned successfully.
+2022-06-06 09:30:32,352 | itj_planning | INFO | Failed movements: 
+2022-06-06 09:33:25,602 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxLeft', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A118_M0,A123_M0,A124_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxLeft_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-06 09:33:25,899 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxLeft\CantiBoxLeft_process.json
+2022-06-06 09:33:28,264 | itj_planning | INFO | Movement A118_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:33:28,271 | itj_planning | INFO | Movement A123_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:33:28,275 | itj_planning | INFO | Movement A124_M0 (RoboticFreeMovement) archived.
+2022-06-06 09:33:39,843 | itj_planning | INFO | Trail #0 | time elapsed 0.08
+2022-06-06 09:35:42,349 | itj_planning | INFO | Solved 1 Movements in 122.51 s: ['A118_M0'] 
+2022-06-06 09:37:23,381 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 223.5
+2022-06-06 09:37:29,907 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 09:37:42,829 | itj_planning | INFO | Solved 1 Movements in 12.92 s: ['A123_M0'] 
+2022-06-06 09:38:17,003 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 47.1
+2022-06-06 09:38:23,272 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-06 09:38:34,966 | itj_planning | INFO | Solved 1 Movements in 11.69 s: ['A124_M0'] 
+2022-06-06 09:39:01,208 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 37.9
+2022-06-06 09:39:01,208 | itj_planning | INFO | Planning done.
+2022-06-06 09:39:01,208 | itj_planning | INFO | 3 of 3 Movements planned successfully.
+2022-06-06 09:39:01,208 | itj_planning | INFO | Failed movements: 
