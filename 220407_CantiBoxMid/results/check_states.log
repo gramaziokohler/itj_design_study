@@ -2,3 +2,97 @@
 2022-06-04 13:09:29,488 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
 2022-06-04 13:09:32,277 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
 2022-06-04 13:11:04,815 | itj_planning | INFO | Congrats, check state done!
+2022-06-07 13:22:29,207 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxMid_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-07 13:22:29,220 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 13:22:32,548 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-07 13:23:01,548 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b11, Link #link0) - (Body #c4, Link #gripper_base)
+2022-06-07 13:23:01,564 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001557 (m) | point1 (22.311241,10.072875,1.388560), point2 (22.311241,10.073146,1.390094)
+2022-06-07 13:23:01,564 | itj_planning | WARNING | A113_M0 | End State in collision.
+2022-06-07 13:23:01,611 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b11, Link #link0) - (Body #c4, Link #gripper_base)
+2022-06-07 13:23:01,611 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001557 (m) | point1 (22.311241,10.072875,1.388560), point2 (22.311241,10.073146,1.390094)
+2022-06-07 13:23:01,611 | itj_planning | WARNING | A113_M1 | Start State in collision.
+2022-06-07 13:23:24,330 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b18, Link #link0) - (Body #c4, Link #gripper_base)
+2022-06-07 13:23:24,330 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.005748 (m) | point1 (19.311241,6.146942,1.948218), point2 (19.311241,6.146942,1.953966)
+2022-06-07 13:23:24,330 | itj_planning | WARNING | A203_M0 | End State in collision.
+2022-06-07 13:23:24,392 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b18, Link #link0) - (Body #c4, Link #gripper_base)
+2022-06-07 13:23:24,392 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.005748 (m) | point1 (19.311241,6.146942,1.948218), point2 (19.311241,6.146942,1.953966)
+2022-06-07 13:23:24,392 | itj_planning | WARNING | A203_M1 | Start State in collision.
+2022-06-07 13:23:31,939 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-07 13:23:31,939 | itj_planning | INFO | A113_M0,A113_M1,A203_M0,A203_M1
+2022-06-07 13:23:31,939 | itj_planning | INFO | (MovementIndex=571) RoboticFreeMovement(#A113_M0, Free Move to bring Beam ('b11') to approach clamps on structure., has_traj False): end_state_in_collision
+2022-06-07 13:23:31,939 | itj_planning | INFO | (MovementIndex=572) RoboticLinearMovement(#A113_M1, Linear Advance to bring Beam ('b11') into clamp jaws, has_traj False): start_state_in_collision
+2022-06-07 13:23:31,939 | itj_planning | INFO | (MovementIndex=996) RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False): end_state_in_collision
+2022-06-07 13:23:31,939 | itj_planning | INFO | (MovementIndex=997) RoboticLinearMovement(#A203_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False): start_state_in_collision
+2022-06-07 13:24:07,221 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=True, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=250.0, movement_id='A203_M1', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=True)
+2022-06-07 13:24:07,221 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 13:24:07,892 | itj_planning | DEBUG | [34mProcess json parsed from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json[0m
+2022-06-07 13:24:14,377 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-07 13:24:14,377 | itj_planning | DEBUG | After splitting long edges, #V: 654, #F: 1308
+2022-06-07 13:24:14,533 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-07 13:24:14,533 | itj_planning | DEBUG | After splitting long edges, #V: 654, #F: 1308
+2022-06-07 13:24:14,674 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-07 13:24:14,690 | itj_planning | DEBUG | After splitting long edges, #V: 540, #F: 1080
+2022-06-07 13:24:14,853 | itj_planning | DEBUG | Before splitting long edges, #V: 108, #F: 216
+2022-06-07 13:24:14,855 | itj_planning | DEBUG | After splitting long edges, #V: 528, #F: 1056
+2022-06-07 13:24:15,003 | itj_planning | DEBUG | Before splitting long edges, #V: 96, #F: 192
+2022-06-07 13:24:15,003 | itj_planning | DEBUG | After splitting long edges, #V: 512, #F: 1024
+2022-06-07 13:24:15,158 | itj_planning | DEBUG | Before splitting long edges, #V: 198, #F: 404
+2022-06-07 13:24:15,158 | itj_planning | DEBUG | After splitting long edges, #V: 382, #F: 772
+2022-06-07 13:24:15,299 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-07 13:24:15,299 | itj_planning | DEBUG | After splitting long edges, #V: 758, #F: 1516
+2022-06-07 13:24:15,455 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-07 13:24:15,475 | itj_planning | DEBUG | After splitting long edges, #V: 445, #F: 898
+2022-06-07 13:24:15,596 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-07 13:24:15,612 | itj_planning | DEBUG | After splitting long edges, #V: 758, #F: 1516
+2022-06-07 13:24:15,783 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-07 13:24:15,830 | itj_planning | DEBUG | After splitting long edges, #V: 445, #F: 898
+2022-06-07 13:24:15,971 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-07 13:24:15,971 | itj_planning | DEBUG | After splitting long edges, #V: 460, #F: 920
+2022-06-07 13:24:16,113 | itj_planning | DEBUG | Before splitting long edges, #V: 164, #F: 336
+2022-06-07 13:24:16,113 | itj_planning | DEBUG | After splitting long edges, #V: 348, #F: 704
+2022-06-07 13:24:16,236 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-07 13:24:16,236 | itj_planning | DEBUG | After splitting long edges, #V: 125, #F: 246
+2022-06-07 13:24:16,346 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,346 | itj_planning | DEBUG | After splitting long edges, #V: 124, #F: 244
+2022-06-07 13:24:16,471 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,471 | itj_planning | DEBUG | After splitting long edges, #V: 120, #F: 236
+2022-06-07 13:24:16,580 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,580 | itj_planning | DEBUG | After splitting long edges, #V: 68, #F: 132
+2022-06-07 13:24:16,705 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,705 | itj_planning | DEBUG | After splitting long edges, #V: 124, #F: 244
+2022-06-07 13:24:16,799 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,799 | itj_planning | DEBUG | After splitting long edges, #V: 120, #F: 236
+2022-06-07 13:24:16,924 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:16,924 | itj_planning | DEBUG | After splitting long edges, #V: 68, #F: 132
+2022-06-07 13:24:17,033 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:17,033 | itj_planning | DEBUG | After splitting long edges, #V: 52, #F: 100
+2022-06-07 13:24:17,142 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-07 13:24:17,142 | itj_planning | DEBUG | After splitting long edges, #V: 52, #F: 100
+2022-06-07 13:24:17,252 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-07 13:24:17,252 | itj_planning | DEBUG | After splitting long edges, #V: 125, #F: 246
+2022-06-07 13:24:17,361 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-07 13:24:17,361 | itj_planning | DEBUG | After splitting long edges, #V: 540, #F: 1080
+2022-06-07 13:24:17,502 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-07 13:24:17,502 | itj_planning | DEBUG | After splitting long edges, #V: 196, #F: 388
+2022-06-07 13:24:17,611 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-07 13:24:17,627 | itj_planning | DEBUG | After splitting long edges, #V: 196, #F: 388
+2022-06-07 13:24:17,752 | itj_planning | DEBUG | Before splitting long edges, #V: 106, #F: 212
+2022-06-07 13:24:17,752 | itj_planning | DEBUG | After splitting long edges, #V: 562, #F: 1124
+2022-06-07 13:24:17,924 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-07 13:24:17,924 | itj_planning | DEBUG | After splitting long edges, #V: 715, #F: 1430
+2022-06-07 13:24:18,080 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-07 13:24:18,096 | itj_planning | DEBUG | After splitting long edges, #V: 715, #F: 1430
+2022-06-07 13:24:18,892 | itj_planning | INFO | [36mChecking for movement #(997) A203_M1[0m
+2022-06-07 13:24:18,924 | itj_planning | DEBUG | ----------
+2022-06-07 13:24:18,924 | itj_planning | DEBUG | [1m[47m[34m(MovementIndex=997) RoboticLinearMovement(#A203_M1, Linear Advance to bring Beam ('b18') into clamp jaws, has_traj False)[0m
+2022-06-07 13:24:19,783 | itj_planning | DEBUG | Start State:
+2022-06-07 13:24:20,627 | compas_fab_pychoreo.utils | DEBUG | check_attachment_collisions:
+2022-06-07 13:24:20,643 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b18, Link #link0) - (Body #c4, Link #gripper_base)
+2022-06-07 13:24:20,643 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.005748 (m) | point1 (19.311241,6.146942,1.948218), point2 (19.311241,6.146942,1.953966)
+2022-06-07 13:27:06,612 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxMid_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-07 13:27:06,628 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 13:27:10,065 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-07 14:17:51,625 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=250.0, movement_id=None, plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-07 14:17:51,625 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 14:17:55,047 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-07 14:20:03,360 | itj_planning | INFO | Congrats, check state done!
