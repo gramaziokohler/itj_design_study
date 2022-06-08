@@ -96,3 +96,172 @@
 2022-06-07 14:17:51,625 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
 2022-06-07 14:17:55,047 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
 2022-06-07 14:20:03,360 | itj_planning | INFO | Congrats, check state done!
+2022-06-07 22:42:46,442 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=100.0, movement_id=None, plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-07 22:42:46,442 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 22:42:47,113 | itj_planning | INFO | Loading external movements from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-07 22:42:53,144 | itj_planning | INFO | [36mChecking for beam ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b23', 'b27', 'b24', 'b25', 'b6', 'b20', 'b26', 'b21', 'b22', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19'][0m
+2022-06-07 22:43:53,566 | pybullet_planning.utils.debug_utils | WARNING | ray collision: Sweeping (Body #g3, Link #gripper_jaw_r) -> (Body #e26, Link #link0)
+2022-06-07 22:43:53,566 | pybullet_planning.utils.debug_utils | WARNING | hit_fraction: 0.00 | hit_position (23.617764,6.671264,0.210719) | hit_normal (0.000000,0.000000,1.000000)
+2022-06-07 22:43:53,566 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #95/143
+2022-06-07 22:44:08,238 | itj_planning | WARNING | A2_M0 : Verify trajectory failed. traj_polyline_collision
+2022-06-07 22:50:02,256 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #tool_changer, Link #toolchanger_base) - (Body #g2, Link #gripper_base)
+2022-06-07 22:50:02,256 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001906 (m) | point1 (23.441048,3.896183,0.947212), point2 (23.440928,3.896302,0.949111)
+2022-06-07 22:50:02,256 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #163/167
+2022-06-07 22:50:03,209 | itj_planning | WARNING | A13_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 22:51:37,584 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b2, Link #link0) - (Body #c2, Link #clamp_jaw)
+2022-06-07 22:51:37,584 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004230 (m) | point1 (19.544469,6.215795,0.606037), point2 (19.540242,6.215696,0.605919)
+2022-06-07 22:51:37,584 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #158/160
+2022-06-07 22:51:37,928 | itj_planning | WARNING | A15_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 22:52:21,819 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #g2, Link #gripper_jaw_l) - (Body #g1, Link #gripper_base)
+2022-06-07 22:52:21,819 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001365 (m) | point1 (23.220298,4.506130,0.926299), point2 (23.219956,4.506860,0.927400)
+2022-06-07 22:52:21,819 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #128/161
+2022-06-07 22:52:31,537 | itj_planning | WARNING | A18_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:01:38,606 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b2, Link #link0)
+2022-06-07 23:01:38,606 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001788 (m) | point1 (19.405102,6.273242,2.448430), point2 (19.405102,6.273242,2.450218)
+2022-06-07 23:01:38,606 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #77/170
+2022-06-07 23:02:05,098 | itj_planning | WARNING | A36_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:03:04,705 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b1, Link #link0)
+2022-06-07 23:03:04,705 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001320 (m) | point1 (22.316229,9.403715,0.668897), point2 (22.316229,9.403715,0.670218)
+2022-06-07 23:03:04,705 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #62/144
+2022-06-07 23:03:27,752 | itj_planning | WARNING | A38_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:11:28,967 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b3, Link #link0)
+2022-06-07 23:11:28,967 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001474 (m) | point1 (22.410772,6.304277,1.989749), point2 (22.412226,6.304518,1.989749)
+2022-06-07 23:11:28,967 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #126/247
+2022-06-07 23:12:03,740 | itj_planning | WARNING | A60_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:15:39,514 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b5, Link #link0)
+2022-06-07 23:15:39,516 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.005960 (m) | point1 (19.312302,10.090267,1.128666), point2 (19.311025,10.084533,1.129677)
+2022-06-07 23:15:39,517 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #177/216
+2022-06-07 23:15:50,840 | itj_planning | WARNING | A64_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:16:02,709 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_1) - (Body #b25, Link #link0)
+2022-06-07 23:16:02,710 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.008977 (m) | point1 (19.189132,10.223238,2.184025), point2 (19.189132,10.214566,2.186349)
+2022-06-07 23:16:02,711 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #31/144
+2022-06-07 23:16:31,008 | itj_planning | WARNING | A65_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:28:01,886 | pybullet_planning.utils.debug_utils | WARNING | ray collision: Sweeping (Body #g3, Link #gripper_jaw_r) -> (Body #e48, Link #link0)
+2022-06-07 23:28:01,886 | pybullet_planning.utils.debug_utils | WARNING | hit_fraction: 0.27 | hit_position (24.151342,3.330955,0.880311) | hit_normal (0.814743,0.579822,0.000000)
+2022-06-07 23:28:01,886 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #173/177
+2022-06-07 23:28:02,901 | itj_planning | WARNING | A82_M1 : Verify trajectory failed. traj_polyline_collision
+2022-06-07 23:33:38,282 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b3, Link #link0)
+2022-06-07 23:33:38,297 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002295 (m) | point1 (22.410747,6.303294,2.448661), point2 (22.411620,6.305174,2.449647)
+2022-06-07 23:33:38,297 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #50/202
+2022-06-07 23:34:21,565 | itj_planning | WARNING | A92_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:39:47,346 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b3, Link #link0)
+2022-06-07 23:39:47,362 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001397 (m) | point1 (22.410886,6.204537,2.145650), point2 (22.412128,6.203896,2.145650)
+2022-06-07 23:39:47,362 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #50/157
+2022-06-07 23:40:13,471 | itj_planning | WARNING | A99_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-07 23:49:40,206 | pybullet_planning.utils.debug_utils | WARNING | ray collision: Sweeping (Body #b11, Link #link0) -> (Body #b9, Link #link0)
+2022-06-07 23:49:40,206 | pybullet_planning.utils.debug_utils | WARNING | hit_fraction: 0.18 | hit_position (22.310239,9.872018,1.270527) | hit_normal (-0.606987,0.000000,0.794712)
+2022-06-07 23:49:40,206 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #154/161
+2022-06-07 23:49:42,331 | itj_planning | WARNING | A113_M0 : Verify trajectory failed. traj_polyline_collision
+2022-06-07 23:52:28,583 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #c2, Link #gripper_base)
+2022-06-07 23:52:28,598 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002441 (m) | point1 (22.519418,10.278465,2.699294), point2 (22.519486,10.276050,2.699636)
+2022-06-07 23:52:28,598 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #70/141
+2022-06-07 23:52:29,787 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #c2, Link #gripper_base)
+2022-06-07 23:52:29,787 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001471 (m) | point1 (22.335651,10.261949,2.611254), point2 (22.335651,10.260500,2.611509)
+2022-06-07 23:52:29,787 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #75/141
+2022-06-07 23:52:31,443 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #c2, Link #gripper_base)
+2022-06-07 23:52:31,443 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002572 (m) | point1 (22.386960,10.270944,2.655934), point2 (22.386960,10.268412,2.656380)
+2022-06-07 23:52:31,443 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #82/141
+2022-06-07 23:52:45,947 | itj_planning | WARNING | A119_M0 : Verify trajectory failed. traj_dense_convex_hull_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-07 23:55:15,883 | itj_planning | WARNING | A123_M0 : No trajectory found.
+2022-06-08 00:01:17,550 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b10, Link #link0)
+2022-06-08 00:01:17,551 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.005985 (m) | point1 (21.628351,6.204392,1.524232), point2 (21.628351,6.204347,1.530217)
+2022-06-08 00:01:17,552 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #53/197
+2022-06-08 00:01:53,308 | itj_planning | WARNING | A136_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:02:50,960 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b3, Link #link0)
+2022-06-08 00:02:50,960 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.004658 (m) | point1 (22.411209,6.208012,2.431516), point2 (22.411248,6.203355,2.431516)
+2022-06-08 00:02:50,960 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #179/238
+2022-06-08 00:03:07,431 | itj_planning | WARNING | A138_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:03:23,763 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b3, Link #link0)
+2022-06-08 00:03:23,763 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.006622 (m) | point1 (22.410047,6.209849,2.371726), point2 (22.411451,6.203377,2.371726)
+2022-06-08 00:03:23,763 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #46/226
+2022-06-08 00:04:07,979 | itj_planning | WARNING | A139_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:08:37,069 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #c3, Link #gripper_base) - (Body #b12, Link #link0)
+2022-06-08 00:08:37,069 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001277 (m) | point1 (19.209026,10.343096,2.588839), point2 (19.209026,10.341838,2.589060)
+2022-06-08 00:08:37,069 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #24/69
+2022-06-08 00:08:50,337 | itj_planning | WARNING | A146_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:10:34,174 | itj_planning | WARNING | A149_M0 : No trajectory found.
+2022-06-08 00:12:23,234 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b10, Link #link0)
+2022-06-08 00:12:23,250 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002750 (m) | point1 (22.952240,6.210798,1.527468), point2 (22.952240,6.210798,1.530218)
+2022-06-08 00:12:23,250 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #69/109
+2022-06-08 00:12:34,324 | itj_planning | WARNING | A153_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:20:09,281 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b3, Link #link0)
+2022-06-08 00:20:09,281 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001359 (m) | point1 (22.410967,6.222919,2.448984), point2 (22.411999,6.222919,2.449868)
+2022-06-08 00:20:09,281 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #118/173
+2022-06-08 00:20:25,192 | itj_planning | WARNING | A170_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:24:34,521 | pybullet_planning.utils.debug_utils | WARNING | ray collision: Sweeping (Body #b16, Link #link0) -> (Body #b10, Link #link0)
+2022-06-08 00:24:34,521 | pybullet_planning.utils.debug_utils | WARNING | hit_fraction: 0.80 | hit_position (22.961256,6.240737,1.529742) | hit_normal (0.885651,-0.000000,0.464351)
+2022-06-08 00:24:34,521 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #60/76
+2022-06-08 00:24:34,693 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #b16, Link #link0) - (Body #b10, Link #link0)
+2022-06-08 00:24:34,693 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.009349 (m) | point1 (22.952046,6.204416,1.527706), point2 (22.961240,6.204347,1.529399)
+2022-06-08 00:24:34,693 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #60/76
+2022-06-08 00:24:39,927 | itj_planning | WARNING | A175_M0 : Verify trajectory failed. traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-08 00:26:01,207 | pybullet_planning.utils.debug_utils | WARNING | ray collision: Sweeping (Body #tool_changer, Link #toolchanger_base) -> (Body #s4, Link #gripper_jaw_l)
+2022-06-08 00:26:01,209 | pybullet_planning.utils.debug_utils | WARNING | hit_fraction: 0.00 | hit_position (21.467844,3.291984,0.954758) | hit_normal (-0.001145,-0.001405,0.999998)
+2022-06-08 00:26:01,209 | compas_fab_pychoreo.utils | WARNING | polyline collision: trajectory point #61/74
+2022-06-08 00:26:04,447 | itj_planning | WARNING | A178_M0 : Verify trajectory failed. traj_polyline_collision
+2022-06-08 00:29:25,662 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #c2, Link #gripper_base)
+2022-06-08 00:29:25,662 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002147 (m) | point1 (22.612501,6.131301,1.930209), point2 (22.613879,6.132358,1.931472)
+2022-06-08 00:29:25,662 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #95/192
+2022-06-08 00:29:49,410 | itj_planning | WARNING | A188_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:37:22,640 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #c1, Link #clamp_jaw)
+2022-06-08 00:37:22,640 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.006745 (m) | point1 (19.200433,6.029599,2.203585), point2 (19.197687,6.023439,2.203470)
+2022-06-08 00:37:22,640 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #75/193
+2022-06-08 00:37:51,845 | itj_planning | WARNING | A201_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:39:26,954 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #c2, Link #gripper_base)
+2022-06-08 00:39:26,954 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001670 (m) | point1 (22.234453,6.002796,2.230473), point2 (22.233487,6.001702,2.231283)
+2022-06-08 00:39:26,954 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #163/217
+2022-06-08 00:39:44,214 | itj_planning | WARNING | A203_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:39:50,235 | itj_planning | WARNING | A205_M1 : No trajectory found.
+2022-06-08 00:46:32,229 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #151/210
+2022-06-08 00:46:46,653 | itj_planning | WARNING | A222_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:48:13,220 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b18, Link #link0)
+2022-06-08 00:48:13,220 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.002675 (m) | point1 (21.914445,6.304349,2.147543), point2 (21.914445,6.304358,2.150218)
+2022-06-08 00:48:13,220 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #121/142
+2022-06-08 00:48:18,144 | itj_planning | WARNING | A224_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:49:05,613 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_4) - (Body #b3, Link #link0)
+2022-06-08 00:49:05,613 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001300 (m) | point1 (22.362501,6.204460,2.448936), point2 (22.362501,6.204004,2.450154)
+2022-06-08 00:49:05,613 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #153/210
+2022-06-08 00:49:21,462 | itj_planning | WARNING | A225_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:49:47,414 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #b2, Link #link0)
+2022-06-08 00:49:47,414 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001460 (m) | point1 (19.338596,6.304353,2.448757), point2 (19.338596,6.304357,2.450218)
+2022-06-08 00:49:47,422 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #86/171
+2022-06-08 00:50:07,987 | itj_planning | WARNING | A226_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:50:42,699 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_2) - (Body #b14, Link #link0)
+2022-06-08 00:50:42,700 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001764 (m) | point1 (19.311880,5.927145,1.664740), point2 (19.310401,5.927223,1.663781)
+2022-06-08 00:50:42,702 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #104/190
+2022-06-08 00:51:08,389 | itj_planning | WARNING | A227_M1 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-08 00:51:12,781 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-08 00:51:12,783 | itj_planning | INFO | A2_M0,A13_M0,A15_M0,A18_M1,A36_M1,A38_M0,A60_M1,A64_M0,A65_M0,A82_M1,A92_M1,A99_M0,A113_M0,A119_M0,A123_M0,A136_M0,A138_M1,A139_M0,A146_M0,A149_M0,A153_M0,A170_M0,A175_M0,A178_M0,A188_M0,A201_M0,A203_M0,A205_M1,A222_M0,A224_M0,A225_M1,A226_M0,A227_M1
+2022-06-08 00:51:12,784 | itj_planning | INFO | (MovementIndex=5) RoboticFreeMovement(#A2_M0, Free Move to reach Pickup Approach Frame of Beam ('b0'), has_traj True): traj_polyline_collision
+2022-06-08 00:51:12,785 | itj_planning | INFO | (MovementIndex=55) RoboticFreeMovement(#A13_M0, Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,786 | itj_planning | INFO | (MovementIndex=65) RoboticFreeMovement(#A15_M0, Free Move to bring Beam ('b2') to approach clamps on structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,788 | itj_planning | INFO | (MovementIndex=74) RoboticFreeMovement(#A18_M1, Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,789 | itj_planning | INFO | (MovementIndex=165) RoboticFreeMovement(#A36_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,789 | itj_planning | INFO | (MovementIndex=178) RoboticFreeMovement(#A38_M0, Free Move to bring CL3M ('c4') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,790 | itj_planning | INFO | (MovementIndex=253) RoboticFreeMovement(#A60_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,791 | itj_planning | INFO | (MovementIndex=282) RoboticFreeMovement(#A64_M0, Free Move to bring CL3 ('c1') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,791 | itj_planning | INFO | (MovementIndex=290) RoboticFreeMovement(#A65_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,792 | itj_planning | INFO | (MovementIndex=383) RoboticFreeMovement(#A82_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_polyline_collision
+2022-06-08 00:51:12,792 | itj_planning | INFO | (MovementIndex=438) RoboticFreeMovement(#A92_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,793 | itj_planning | INFO | (MovementIndex=491) RoboticFreeMovement(#A99_M0, Free Move to reach CL3M ('c4') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,793 | itj_planning | INFO | (MovementIndex=571) RoboticFreeMovement(#A113_M0, Free Move to bring Beam ('b11') to approach clamps on structure., has_traj True): traj_polyline_collision
+2022-06-08 00:51:12,794 | itj_planning | INFO | (MovementIndex=601) RoboticFreeMovement(#A119_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision, traj_dense_convex_hull_collision, traj_dense_convex_hull_collision
+2022-06-08 00:51:12,794 | itj_planning | INFO | (MovementIndex=628) RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False): no_traj_found
+2022-06-08 00:51:12,795 | itj_planning | INFO | (MovementIndex=671) RoboticFreeMovement(#A136_M0, Free Move to reach SL1 ('s1') on Beam ('b13') , has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,795 | itj_planning | INFO | (MovementIndex=681) RoboticFreeMovement(#A138_M1, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,796 | itj_planning | INFO | (MovementIndex=686) RoboticFreeMovement(#A139_M0, Free Move to reach SL1 ('s2') on Beam ('b13') , has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,797 | itj_planning | INFO | (MovementIndex=728) RoboticFreeMovement(#A146_M0, Free Move to bring CL3M ('c3') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,798 | itj_planning | INFO | (MovementIndex=746) RoboticFreeMovement(#A149_M0, Free Move to bring Beam ('b14') to approach clamps on structure., has_traj False): no_traj_found
+2022-06-08 00:51:12,799 | itj_planning | INFO | (MovementIndex=763) RoboticFreeMovement(#A153_M0, Free Move to reach Pickup Approach Frame of Beam ('b15'), has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,799 | itj_planning | INFO | (MovementIndex=829) RoboticFreeMovement(#A170_M0, Free Move to bring CL3 ('c2') to structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,800 | itj_planning | INFO | (MovementIndex=864) RoboticFreeMovement(#A175_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj True): traj_polyline_collision, traj_dense_convex_hull_collision
+2022-06-08 00:51:12,801 | itj_planning | INFO | (MovementIndex=876) RoboticFreeMovement(#A178_M0, Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage., has_traj True): traj_polyline_collision
+2022-06-08 00:51:12,801 | itj_planning | INFO | (MovementIndex=907) RoboticFreeMovement(#A188_M0, Free Move to reach SL1 ('s2') on Beam ('b17') , has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,802 | itj_planning | INFO | (MovementIndex=988) RoboticFreeMovement(#A201_M0, Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,803 | itj_planning | INFO | (MovementIndex=998) RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,803 | itj_planning | INFO | (MovementIndex=1006) RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False): no_traj_found
+2022-06-08 00:51:12,804 | itj_planning | INFO | (MovementIndex=1071) RoboticFreeMovement(#A222_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,805 | itj_planning | INFO | (MovementIndex=1087) RoboticFreeMovement(#A224_M0, Free Move to reach CL3 ('c2') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,806 | itj_planning | INFO | (MovementIndex=1097) RoboticFreeMovement(#A225_M1, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,807 | itj_planning | INFO | (MovementIndex=1103) RoboticFreeMovement(#A226_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 00:51:12,808 | itj_planning | INFO | (MovementIndex=1113) RoboticFreeMovement(#A227_M1, Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
