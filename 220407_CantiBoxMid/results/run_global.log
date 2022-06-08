@@ -1147,3 +1147,25 @@
 2022-06-07 18:54:57,024 | itj_planning | INFO | Planning done.
 2022-06-07 18:54:57,024 | itj_planning | INFO | 582 of 586 Movements planned successfully.
 2022-06-07 18:54:57,024 | itj_planning | INFO | Failed movements: A69_M0,A123_M0,A149_M0,A205_M1
+2022-06-07 22:02:44,758 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A69_M0,A123_M0,A149_M0,A205_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=1000, solve_iters=1000, solve_mode='movement_id', solve_timeout=21600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-07 22:02:45,352 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-07 22:03:03,180 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-07 22:11:48,276 | itj_planning | INFO | No plan found for A69_M0 | RoboticFreeMovement(#A69_M0, Free Move to bring Beam ('b7') to approach clamps on structure., has_traj False)
+2022-06-07 22:11:48,276 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-07 22:11:48,276 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 525.1
+2022-06-07 22:11:48,308 | itj_planning | INFO | Trail #1 | time elapsed 525.16
+2022-06-07 22:17:28,809 | itj_planning | INFO | Solved 1 Movements in 340.50 s: ['A69_M0'] 
+2022-06-07 22:19:22,388 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 454.1
+2022-06-07 22:19:29,107 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-07 22:26:26,671 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-07 22:26:26,671 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-07 22:26:26,687 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 417.6
+2022-06-07 22:26:26,702 | itj_planning | INFO | Trail #1 | time elapsed 417.63
+2022-06-07 22:33:38,860 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-07 22:33:38,860 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-07 22:33:38,860 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 432.2
+2022-06-07 22:33:38,892 | itj_planning | INFO | Trail #2 | time elapsed 849.82
+2022-06-07 22:40:56,258 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-07 22:40:56,259 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-07 22:40:56,260 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 437.4
+2022-06-07 22:40:56,289 | itj_planning | INFO | Trail #3 | time elapsed 1287.21
