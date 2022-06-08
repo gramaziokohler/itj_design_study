@@ -265,3 +265,9 @@
 2022-06-08 00:51:12,806 | itj_planning | INFO | (MovementIndex=1097) RoboticFreeMovement(#A225_M1, Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
 2022-06-08 00:51:12,807 | itj_planning | INFO | (MovementIndex=1103) RoboticFreeMovement(#A226_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
 2022-06-08 00:51:12,808 | itj_planning | INFO | (MovementIndex=1113) RoboticFreeMovement(#A227_M1, Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 12:08:35,112 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=0.0, movement_id='A13_M0', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-08 12:08:35,112 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 12:08:35,799 | itj_planning | INFO | Loading external movements from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-08 12:08:48,018 | itj_planning | INFO | [36mChecking for movement #(55) A13_M0[0m
+2022-06-08 12:09:34,706 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #tool_changer, Link #toolchanger_base) - (Body #g2, Link #gripper_base)
+2022-06-08 12:09:34,706 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001906 (m) | point1 (23.441048,3.896183,0.947212), point2 (23.440928,3.896302,0.949111)

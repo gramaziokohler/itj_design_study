@@ -1169,3 +1169,450 @@
 2022-06-07 22:40:56,259 | itj_planning | INFO | Computing failed priority 0 Movement(s)
 2022-06-07 22:40:56,260 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 437.4
 2022-06-07 22:40:56,289 | itj_planning | INFO | Trail #3 | time elapsed 1287.21
+2022-06-08 13:14:47,957 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:14:48,301 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:14:56,426 | itj_planning | INFO | Recomputing Actions and States
+2022-06-08 13:15:46,223 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:15:46,598 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:16:01,677 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:16:01,716 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A123_M0
+2022-06-08 13:17:06,599 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A123_M0
+2022-06-08 13:20:02,725 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 13:20:02,741 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 13:20:02,741 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 241.1
+2022-06-08 13:20:02,757 | itj_planning | INFO | Trail #1 | time elapsed 241.10
+2022-06-08 13:20:02,803 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A123_M0
+2022-06-08 13:20:39,405 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A149_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:20:39,741 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:20:55,271 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:21:57,476 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A149_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:21:57,788 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:22:12,445 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:22:12,492 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A149_M0
+2022-06-08 13:25:54,365 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A149_M0
+2022-06-08 13:25:56,677 | itj_planning | INFO | Solved 1 Movements in 224.23 s: ['A149_M0'] 
+2022-06-08 13:28:11,525 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 359.1
+2022-06-08 13:28:11,525 | itj_planning | INFO | Planning done.
+2022-06-08 13:28:11,525 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-08 13:28:11,541 | itj_planning | INFO | Failed movements: 
+2022-06-08 13:34:16,450 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:34:16,809 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:34:31,622 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:34:31,669 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:35:42,352 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 13:35:47,450 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 13:38:54,094 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 13:38:54,094 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 13:38:54,094 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 262.5
+2022-06-08 13:38:54,124 | itj_planning | INFO | Trail #1 | time elapsed 262.52
+2022-06-08 13:38:54,170 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:39:42,686 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 13:39:48,171 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 13:42:45,641 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 13:42:45,641 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 13:42:45,641 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 231.5
+2022-06-08 13:42:45,678 | itj_planning | INFO | Trail #2 | time elapsed 494.07
+2022-06-08 13:42:45,719 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:50:10,097 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:50:10,425 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:50:25,202 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:50:25,242 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:50:41,015 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 13:50:46,399 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 13:53:31,754 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 13:53:32,067 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 13:53:46,911 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 13:53:46,958 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:54:22,161 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 13:54:27,192 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 13:57:11,584 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 13:57:11,584 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 13:57:11,584 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 204.7
+2022-06-08 13:57:11,615 | itj_planning | INFO | Trail #1 | time elapsed 204.72
+2022-06-08 13:57:11,662 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 13:57:27,475 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 13:57:32,709 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 14:00:15,960 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:00:15,960 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:00:15,960 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 184.3
+2022-06-08 14:00:15,991 | itj_planning | INFO | Trail #2 | time elapsed 389.10
+2022-06-08 14:00:16,033 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 14:00:29,875 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 14:00:35,189 | itj_planning | INFO | Planning waypoint segment 3 of 3 of A123_M0
+2022-06-08 14:03:16,195 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:03:16,195 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:03:16,195 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 180.2
+2022-06-08 14:03:16,211 | itj_planning | INFO | Trail #3 | time elapsed 569.32
+2022-06-08 14:03:16,269 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 14:23:17,968 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 14:23:18,359 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 14:23:33,718 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 14:23:33,765 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 14:23:39,406 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 14:26:47,423 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:26:47,423 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:26:47,423 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 193.7
+2022-06-08 14:26:47,454 | itj_planning | INFO | Trail #1 | time elapsed 193.75
+2022-06-08 14:26:47,485 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 14:26:53,114 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 14:30:14,752 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:30:14,752 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:30:14,768 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 207.3
+2022-06-08 14:30:14,783 | itj_planning | INFO | Trail #2 | time elapsed 401.08
+2022-06-08 14:30:14,825 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 14:30:20,335 | itj_planning | INFO | Planning waypoint segment 2 of 3 of A123_M0
+2022-06-08 14:33:25,909 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 14:33:32,019 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 14:33:32,331 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 14:33:33,050 | itj_planning | DEBUG | [34mProcess json parsed from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json[0m
+2022-06-08 14:33:36,003 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 14:33:36,003 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 14:33:36,191 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 14:33:36,206 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 14:33:36,399 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:33:36,403 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 14:33:36,550 | itj_planning | DEBUG | Before splitting long edges, #V: 108, #F: 216
+2022-06-08 14:33:36,566 | itj_planning | DEBUG | After splitting long edges, #V: 2900, #F: 5800
+2022-06-08 14:33:36,753 | itj_planning | DEBUG | Before splitting long edges, #V: 96, #F: 192
+2022-06-08 14:33:36,753 | itj_planning | DEBUG | After splitting long edges, #V: 2752, #F: 5504
+2022-06-08 14:33:37,113 | itj_planning | DEBUG | Before splitting long edges, #V: 198, #F: 404
+2022-06-08 14:33:37,113 | itj_planning | DEBUG | After splitting long edges, #V: 2026, #F: 4060
+2022-06-08 14:33:37,253 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 14:33:37,253 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 14:33:37,519 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 14:33:37,519 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 14:33:37,659 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 14:33:37,659 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 14:33:37,925 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 14:33:37,925 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 14:33:38,222 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:33:38,222 | itj_planning | DEBUG | After splitting long edges, #V: 2092, #F: 4184
+2022-06-08 14:33:38,378 | itj_planning | DEBUG | Before splitting long edges, #V: 164, #F: 336
+2022-06-08 14:33:38,378 | itj_planning | DEBUG | After splitting long edges, #V: 1492, #F: 2992
+2022-06-08 14:33:38,488 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 14:33:38,488 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 14:33:38,597 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,597 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 14:33:38,644 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,644 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 14:33:38,691 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,691 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:33:38,738 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,738 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 14:33:38,800 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,800 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 14:33:38,847 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,847 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:33:38,878 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,878 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:33:38,909 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:33:38,909 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:33:38,956 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 14:33:38,956 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 14:33:39,066 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:33:39,066 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 14:33:39,238 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 14:33:39,238 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 14:33:39,378 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 14:33:39,378 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 14:33:39,691 | itj_planning | DEBUG | Before splitting long edges, #V: 106, #F: 212
+2022-06-08 14:33:39,691 | itj_planning | DEBUG | After splitting long edges, #V: 2746, #F: 5492
+2022-06-08 14:33:39,878 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 14:33:39,878 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 14:33:40,097 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 14:33:40,113 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 14:33:47,222 | itj_planning | DEBUG | ##########
+2022-06-08 14:33:47,222 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 14:33:47,222 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:33:47,222 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:33:47,222 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:33:47,238 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 14:33:47,238 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 14:33:47,238 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((20.842, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -4.125, -2.404, -0.236, -2.924, -0.130, 1.474, 0.838), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 14:33:47,269 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 14:36:22,728 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 14:36:28,004 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A123_M0
+2022-06-08 14:39:19,505 | itj_planning | DEBUG | No path for waypoint segment 3 of 4 of A123_M0, free movement planning fail.
+2022-06-08 14:39:19,521 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:39:19,521 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:39:19,521 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 332.3
+2022-06-08 14:39:19,521 | itj_planning | DEBUG | Copy process takes 0.015613079071044922 | total timeout 600.015613079071
+2022-06-08 14:39:19,552 | itj_planning | DEBUG | ##########
+2022-06-08 14:39:19,552 | itj_planning | INFO | Trail #1 | time elapsed 332.35
+2022-06-08 14:39:19,552 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:39:19,552 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:39:19,552 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:39:19,568 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 14:39:19,568 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 14:39:19,568 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((20.842, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -4.125, -2.404, -0.236, -2.924, -0.130, 1.474, 0.838), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 14:39:19,614 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 14:39:50,177 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 14:39:55,349 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A123_M0
+2022-06-08 14:43:37,804 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 14:43:38,132 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 14:43:38,820 | itj_planning | DEBUG | [34mProcess json parsed from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json[0m
+2022-06-08 14:43:41,850 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 14:43:41,850 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 14:43:42,038 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 14:43:42,038 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 14:43:42,241 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:43:42,241 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 14:43:42,395 | itj_planning | DEBUG | Before splitting long edges, #V: 108, #F: 216
+2022-06-08 14:43:42,413 | itj_planning | DEBUG | After splitting long edges, #V: 2900, #F: 5800
+2022-06-08 14:43:42,601 | itj_planning | DEBUG | Before splitting long edges, #V: 96, #F: 192
+2022-06-08 14:43:42,601 | itj_planning | DEBUG | After splitting long edges, #V: 2752, #F: 5504
+2022-06-08 14:43:42,944 | itj_planning | DEBUG | Before splitting long edges, #V: 198, #F: 404
+2022-06-08 14:43:42,960 | itj_planning | DEBUG | After splitting long edges, #V: 2026, #F: 4060
+2022-06-08 14:43:43,085 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 14:43:43,100 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 14:43:43,366 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 14:43:43,366 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 14:43:43,522 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 14:43:43,522 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 14:43:43,837 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 14:43:43,837 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 14:43:44,147 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:43:44,147 | itj_planning | DEBUG | After splitting long edges, #V: 2092, #F: 4184
+2022-06-08 14:43:44,335 | itj_planning | DEBUG | Before splitting long edges, #V: 164, #F: 336
+2022-06-08 14:43:44,335 | itj_planning | DEBUG | After splitting long edges, #V: 1492, #F: 2992
+2022-06-08 14:43:44,460 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 14:43:44,460 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 14:43:44,553 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,569 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 14:43:44,616 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,616 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 14:43:44,663 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,663 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:43:44,694 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,710 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 14:43:44,757 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,757 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 14:43:44,804 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,819 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:43:44,850 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,850 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:43:44,882 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 14:43:44,897 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 14:43:44,928 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 14:43:44,944 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 14:43:45,069 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 14:43:45,069 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 14:43:45,225 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 14:43:45,225 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 14:43:45,382 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 14:43:45,382 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 14:43:45,678 | itj_planning | DEBUG | Before splitting long edges, #V: 106, #F: 212
+2022-06-08 14:43:45,678 | itj_planning | DEBUG | After splitting long edges, #V: 2746, #F: 5492
+2022-06-08 14:43:45,866 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 14:43:45,866 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 14:43:46,085 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 14:43:46,101 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | ##########
+2022-06-08 14:43:53,757 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 14:43:53,757 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((20.842, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -3.622, -2.852, -0.337, -2.946, -1.210, 1.309, 1.274), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((17.251, -9.408, -4.125, -2.404, -0.236, -2.924, -0.130, 1.474, 0.838), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 14:43:53,804 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 14:54:23,276 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 14:54:29,088 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A123_M0
+2022-06-08 14:57:20,449 | itj_planning | DEBUG | No path for waypoint segment 3 of 4 of A123_M0, free movement planning fail.
+2022-06-08 14:57:20,464 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 14:57:20,464 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 14:57:20,464 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 806.7
+2022-06-08 14:57:20,464 | itj_planning | DEBUG | Copy process takes 0.031250953674316406 | total timeout 600.0312509536743
+2022-06-08 14:57:20,464 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.03.
+2022-06-08 14:57:20,464 | itj_planning | ERROR | Free movement group #0/1 fails, which contains ['A123_M0']
+2022-06-08 14:57:20,464 | itj_planning | INFO | Planning done.
+2022-06-08 14:57:20,464 | itj_planning | INFO | 0 of 1 Movements planned successfully.
+2022-06-08 14:57:20,464 | itj_planning | INFO | Failed movements: A123_M0
+2022-06-08 15:04:44,998 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A123_M3', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 15:04:45,326 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 15:04:48,202 | itj_planning | INFO | Movement A123_M1 (RoboticLinearMovement) archived.
+2022-06-08 15:04:48,202 | itj_planning | INFO | Movement A123_M3 (RoboticClampSyncLinearMovement) archived.
+2022-06-08 15:04:48,202 | itj_planning | INFO | Movement A124_M2 (RoboticLinearMovement) archived.
+2022-06-08 15:04:48,217 | itj_planning | INFO | Movement A125_M1 (RoboticFreeMovement) archived.
+2022-06-08 15:04:56,123 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 15:04:57,514 | itj_planning | INFO | Solved 3 Movements in 1.39 s: ['A123_M3', 'A123_M1', 'A124_M2'] 
+2022-06-08 15:04:57,529 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 1.4
+2022-06-08 15:04:57,529 | itj_planning | INFO | Planning done.
+2022-06-08 15:04:57,529 | itj_planning | INFO | 3 of 3 Movements planned successfully.
+2022-06-08 15:04:57,545 | itj_planning | INFO | Failed movements: 
+2022-06-08 15:17:22,205 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=True, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 15:17:22,809 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 15:17:23,533 | itj_planning | DEBUG | [34mProcess json parsed from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json[0m
+2022-06-08 15:17:30,971 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 15:17:30,971 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 15:17:31,143 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 172
+2022-06-08 15:17:31,158 | itj_planning | DEBUG | After splitting long edges, #V: 2918, #F: 5836
+2022-06-08 15:17:31,346 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 15:17:31,346 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 15:17:31,533 | itj_planning | DEBUG | Before splitting long edges, #V: 108, #F: 216
+2022-06-08 15:17:31,533 | itj_planning | DEBUG | After splitting long edges, #V: 2900, #F: 5800
+2022-06-08 15:17:31,924 | itj_planning | DEBUG | Before splitting long edges, #V: 96, #F: 192
+2022-06-08 15:17:31,924 | itj_planning | DEBUG | After splitting long edges, #V: 2752, #F: 5504
+2022-06-08 15:17:32,158 | itj_planning | DEBUG | Before splitting long edges, #V: 198, #F: 404
+2022-06-08 15:17:32,158 | itj_planning | DEBUG | After splitting long edges, #V: 2026, #F: 4060
+2022-06-08 15:17:32,299 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 15:17:32,315 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 15:17:32,565 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 15:17:32,565 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 15:17:32,705 | itj_planning | DEBUG | Before splitting long edges, #V: 80, #F: 160
+2022-06-08 15:17:32,721 | itj_planning | DEBUG | After splitting long edges, #V: 4100, #F: 8200
+2022-06-08 15:17:33,174 | itj_planning | DEBUG | Before splitting long edges, #V: 179, #F: 366
+2022-06-08 15:17:33,190 | itj_planning | DEBUG | After splitting long edges, #V: 1873, #F: 3754
+2022-06-08 15:17:33,330 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 15:17:33,346 | itj_planning | DEBUG | After splitting long edges, #V: 2092, #F: 4184
+2022-06-08 15:17:33,533 | itj_planning | DEBUG | Before splitting long edges, #V: 164, #F: 336
+2022-06-08 15:17:33,533 | itj_planning | DEBUG | After splitting long edges, #V: 1492, #F: 2992
+2022-06-08 15:17:33,643 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 15:17:33,643 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 15:17:33,736 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,752 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 15:17:33,799 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,799 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 15:17:33,846 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,846 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 15:17:33,893 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,893 | itj_planning | DEBUG | After splitting long edges, #V: 612, #F: 1220
+2022-06-08 15:17:33,940 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,940 | itj_planning | DEBUG | After splitting long edges, #V: 580, #F: 1156
+2022-06-08 15:17:33,986 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:33,986 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 15:17:34,018 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:34,018 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 15:17:34,049 | itj_planning | DEBUG | Before splitting long edges, #V: 8, #F: 12
+2022-06-08 15:17:34,065 | itj_planning | DEBUG | After splitting long edges, #V: 356, #F: 708
+2022-06-08 15:17:34,096 | itj_planning | DEBUG | Before splitting long edges, #V: 85, #F: 166
+2022-06-08 15:17:34,096 | itj_planning | DEBUG | After splitting long edges, #V: 1409, #F: 2814
+2022-06-08 15:17:34,205 | itj_planning | DEBUG | Before splitting long edges, #V: 84, #F: 168
+2022-06-08 15:17:34,205 | itj_planning | DEBUG | After splitting long edges, #V: 2412, #F: 4824
+2022-06-08 15:17:34,362 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 15:17:34,362 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 15:17:34,502 | itj_planning | DEBUG | Before splitting long edges, #V: 86, #F: 168
+2022-06-08 15:17:34,518 | itj_planning | DEBUG | After splitting long edges, #V: 2122, #F: 4240
+2022-06-08 15:17:34,815 | itj_planning | DEBUG | Before splitting long edges, #V: 106, #F: 212
+2022-06-08 15:17:34,815 | itj_planning | DEBUG | After splitting long edges, #V: 2746, #F: 5492
+2022-06-08 15:17:35,018 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 15:17:35,018 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 15:17:35,283 | itj_planning | DEBUG | Before splitting long edges, #V: 103, #F: 206
+2022-06-08 15:17:35,283 | itj_planning | DEBUG | After splitting long edges, #V: 3447, #F: 6894
+2022-06-08 15:17:46,268 | itj_planning | DEBUG | ##########
+2022-06-08 15:17:46,268 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 15:17:46,268 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:17:46,268 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:17:46,283 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:17:46,283 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:17:46,283 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:17:46,283 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:17:46,315 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:18:32,127 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:18:32,643 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:18:32,690 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:18:32,690 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:18:32,690 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 46.4
+2022-06-08 15:18:32,690 | itj_planning | DEBUG | Copy process takes 0.01564645767211914 | total timeout 600.0156464576721
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | ##########
+2022-06-08 15:18:32,737 | itj_planning | INFO | Trail #1 | time elapsed 46.48
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:18:32,737 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:18:32,787 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:19:17,799 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:19:17,987 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:19:17,987 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:19:18,003 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:19:18,003 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 45.3
+2022-06-08 15:19:18,003 | itj_planning | DEBUG | Copy process takes 0.0468754768371582 | total timeout 600.0625219345093
+2022-06-08 15:19:18,018 | itj_planning | DEBUG | ##########
+2022-06-08 15:19:18,018 | itj_planning | INFO | Trail #2 | time elapsed 91.77
+2022-06-08 15:19:18,018 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:19:18,018 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:19:18,034 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:19:18,034 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:19:18,034 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:19:18,034 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:19:18,065 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:21:31,738 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:21:31,925 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:21:31,925 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:21:31,941 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:21:31,941 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 133.9
+2022-06-08 15:21:31,941 | itj_planning | DEBUG | Copy process takes 0.015607595443725586 | total timeout 600.078129529953
+2022-06-08 15:21:31,956 | itj_planning | DEBUG | ##########
+2022-06-08 15:21:31,956 | itj_planning | INFO | Trail #3 | time elapsed 225.70
+2022-06-08 15:21:31,956 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:21:31,972 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:21:31,972 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:21:31,972 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:21:31,972 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:21:31,972 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:21:32,003 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:24:08,520 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:24:08,723 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:24:08,723 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:24:08,723 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:24:08,723 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 156.8
+2022-06-08 15:24:08,738 | itj_planning | DEBUG | Copy process takes 0.015657663345336914 | total timeout 600.0937871932983
+2022-06-08 15:24:08,754 | itj_planning | DEBUG | ##########
+2022-06-08 15:24:08,754 | itj_planning | INFO | Trail #4 | time elapsed 382.50
+2022-06-08 15:24:08,754 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:08,754 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:08,754 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:08,770 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:24:08,770 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:24:08,770 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:24:08,801 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:24:35,035 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:24:35,239 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:24:35,239 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:24:35,239 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:24:35,239 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 26.5
+2022-06-08 15:24:35,239 | itj_planning | DEBUG | Copy process takes 0.015655040740966797 | total timeout 600.1094422340393
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | ##########
+2022-06-08 15:24:35,270 | itj_planning | INFO | Trail #5 | time elapsed 409.02
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.both_done: 4>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.one_sided: 3>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | compute_selected_movements(movement_id_filter = ['A123_M0'], planning_priority_filter = [1], movement_status_filter = [<MovementStatus.neither_done: 5>], has_no_trajectory = True, ) solved 0 Movements: []
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | [36mRoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)[0m
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | Number of intermediate_planning_waypoint: 3
+2022-06-08 15:24:35,270 | itj_planning | DEBUG | intermediate_planning_waypoint: [Configuration((23.292, -9.500, -4.398, -0.532, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((20.215, -9.500, -4.440, -0.763, -0.168, -2.809, 0.126, 1.282, -0.779), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6')), Configuration((19.154, -9.500, -4.440, -0.724, -0.168, -2.809, 0.126, 1.282, -0.825), (2, 2, 2, 0, 0, 0, 0, 0, 0), ('bridge1_joint_EA_X', 'robot11_joint_EA_Y', 'robot11_joint_EA_Z', 'robot11_joint_1', 'robot11_joint_2', 'robot11_joint_3', 'robot11_joint_4', 'robot11_joint_5', 'robot11_joint_6'))]
+2022-06-08 15:24:35,317 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-08 15:28:15,177 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-08 15:28:15,365 | itj_planning | DEBUG | No path for waypoint segment 2 of 4 of A123_M0, free movement planning fail.
+2022-06-08 15:28:15,380 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 15:28:15,380 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 15:28:15,380 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 220.1
+2022-06-08 15:28:15,380 | itj_planning | DEBUG | Copy process takes 0.03125762939453125 | total timeout 600.1406998634338
+2022-06-08 15:28:15,380 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.14.
+2022-06-08 15:28:15,380 | itj_planning | ERROR | Free movement group #0/1 fails, which contains ['A123_M0']
+2022-06-08 15:28:15,380 | itj_planning | INFO | Planning done.
+2022-06-08 15:28:15,380 | itj_planning | INFO | 0 of 1 Movements planned successfully.
+2022-06-08 15:28:15,380 | itj_planning | INFO | Failed movements: A123_M0
+2022-06-08 15:31:48,538 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A123_M3', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 15:31:48,866 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 15:31:51,866 | itj_planning | INFO | Movement A123_M1 (RoboticLinearMovement) archived.
+2022-06-08 15:31:51,866 | itj_planning | INFO | Movement A123_M3 (RoboticClampSyncLinearMovement) archived.
+2022-06-08 15:31:51,882 | itj_planning | INFO | Movement A124_M2 (RoboticLinearMovement) archived.
+2022-06-08 15:32:00,413 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 15:32:03,022 | itj_planning | INFO | Solved 3 Movements in 2.61 s: ['A123_M3', 'A123_M1', 'A124_M2'] 
+2022-06-08 15:32:03,039 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 2.6
+2022-06-08 15:32:03,039 | itj_planning | INFO | Planning done.
+2022-06-08 15:32:03,039 | itj_planning | INFO | 3 of 3 Movements planned successfully.
+2022-06-08 15:32:03,039 | itj_planning | INFO | Failed movements: 
+2022-06-08 15:35:07,117 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=0.0, movement_id='A123_M3', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 15:35:07,445 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 15:35:10,367 | itj_planning | INFO | Movement A123_M1 (RoboticLinearMovement) archived.
+2022-06-08 15:35:10,367 | itj_planning | INFO | Movement A123_M3 (RoboticClampSyncLinearMovement) archived.
+2022-06-08 15:35:10,383 | itj_planning | INFO | Movement A124_M2 (RoboticLinearMovement) archived.
+2022-06-08 15:35:18,682 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 15:35:21,781 | itj_planning | INFO | Solved 3 Movements in 3.10 s: ['A123_M3', 'A123_M1', 'A124_M2'] 
+2022-06-08 15:35:21,800 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 3.1
+2022-06-08 15:35:21,805 | itj_planning | INFO | Planning done.
+2022-06-08 15:35:21,806 | itj_planning | INFO | 3 of 3 Movements planned successfully.
+2022-06-08 15:35:21,807 | itj_planning | INFO | Failed movements: 
