@@ -1616,3 +1616,254 @@
 2022-06-08 15:35:21,805 | itj_planning | INFO | Planning done.
 2022-06-08 15:35:21,806 | itj_planning | INFO | 3 of 3 Movements planned successfully.
 2022-06-08 15:35:21,807 | itj_planning | INFO | Failed movements: 
+2022-06-08 17:35:46,711 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A2_M0,A13_M0,A15_M0,A18_M1,A36_M1,A38_M0,A60_M1,A64_M0,A65_M0,A82_M1,A92_M1,A99_M0,A113_M0,A119_M0,A123_M0,A136_M0,A138_M1,A139_M0,A146_M0,A149_M0,A153_M0,A170_M0,A175_M0,A178_M0,A188_M0,A201_M0,A203_M0,A205_M1,A222_M0,A224_M0,A225_M1,A226_M0,A227_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 17:35:47,036 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 17:35:54,110 | itj_planning | INFO | Movement A2_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,114 | itj_planning | INFO | Movement A13_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,118 | itj_planning | INFO | Movement A15_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,123 | itj_planning | INFO | Movement A18_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,127 | itj_planning | INFO | Movement A36_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,132 | itj_planning | INFO | Movement A38_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,136 | itj_planning | INFO | Movement A60_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,140 | itj_planning | INFO | Movement A64_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,144 | itj_planning | INFO | Movement A65_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,148 | itj_planning | INFO | Movement A82_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,153 | itj_planning | INFO | Movement A92_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,157 | itj_planning | INFO | Movement A99_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,161 | itj_planning | INFO | Movement A113_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,165 | itj_planning | INFO | Movement A119_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,169 | itj_planning | INFO | Movement A136_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,174 | itj_planning | INFO | Movement A138_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,178 | itj_planning | INFO | Movement A139_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,182 | itj_planning | INFO | Movement A146_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,187 | itj_planning | INFO | Movement A149_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,191 | itj_planning | INFO | Movement A153_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,196 | itj_planning | INFO | Movement A170_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,200 | itj_planning | INFO | Movement A175_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,203 | itj_planning | INFO | Movement A178_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,206 | itj_planning | INFO | Movement A188_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,209 | itj_planning | INFO | Movement A201_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,212 | itj_planning | INFO | Movement A203_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,216 | itj_planning | INFO | Movement A222_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,220 | itj_planning | INFO | Movement A224_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,224 | itj_planning | INFO | Movement A225_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,228 | itj_planning | INFO | Movement A226_M0 (RoboticFreeMovement) archived.
+2022-06-08 17:35:54,232 | itj_planning | INFO | Movement A227_M1 (RoboticFreeMovement) archived.
+2022-06-08 17:36:05,820 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:36:15,154 | itj_planning | INFO | Solved 1 Movements in 9.33 s: ['A2_M0'] 
+2022-06-08 17:36:56,604 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 50.8
+2022-06-08 17:37:03,151 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:37:08,120 | itj_planning | INFO | Solved 1 Movements in 4.97 s: ['A13_M0'] 
+2022-06-08 17:38:57,136 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 114.0
+2022-06-08 17:39:03,355 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 17:39:30,996 | itj_planning | INFO | Solved 1 Movements in 27.64 s: ['A15_M0'] 
+2022-06-08 17:42:22,575 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 199.2
+2022-06-08 17:42:28,762 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 17:42:42,981 | itj_planning | INFO | Solved 1 Movements in 14.22 s: ['A18_M1'] 
+2022-06-08 17:43:55,700 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 86.9
+2022-06-08 17:44:01,606 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 17:44:13,278 | itj_planning | INFO | Solved 1 Movements in 11.67 s: ['A36_M1'] 
+2022-06-08 17:44:39,544 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 37.9
+2022-06-08 17:44:45,685 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 17:44:52,372 | itj_planning | INFO | Solved 1 Movements in 6.69 s: ['A38_M0'] 
+2022-06-08 17:45:10,950 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 25.3
+2022-06-08 17:45:16,841 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:46:13,878 | itj_planning | INFO | Solved 1 Movements in 57.04 s: ['A60_M1'] 
+2022-06-08 17:46:45,623 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 88.8
+2022-06-08 17:46:51,623 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:47:42,935 | itj_planning | INFO | Solved 1 Movements in 51.31 s: ['A64_M0'] 
+2022-06-08 17:48:27,921 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 96.3
+2022-06-08 17:48:33,998 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:48:37,217 | itj_planning | INFO | Solved 1 Movements in 3.22 s: ['A65_M0'] 
+2022-06-08 17:49:03,951 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 30.0
+2022-06-08 17:49:10,201 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:49:24,639 | itj_planning | INFO | Solved 1 Movements in 14.44 s: ['A82_M1'] 
+2022-06-08 17:50:45,747 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 95.5
+2022-06-08 17:50:52,205 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:51:03,977 | itj_planning | INFO | Solved 1 Movements in 11.77 s: ['A92_M1'] 
+2022-06-08 17:51:44,515 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 52.3
+2022-06-08 17:51:50,577 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:52:00,265 | itj_planning | INFO | Solved 1 Movements in 9.69 s: ['A99_M0'] 
+2022-06-08 17:52:45,577 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 55.0
+2022-06-08 17:52:51,765 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:53:50,062 | itj_planning | INFO | Solved 1 Movements in 58.30 s: ['A113_M0'] 
+2022-06-08 17:54:50,468 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 118.7
+2022-06-08 17:54:56,765 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:55:11,125 | itj_planning | INFO | Solved 1 Movements in 14.36 s: ['A119_M0'] 
+2022-06-08 17:55:59,020 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 62.3
+2022-06-08 17:56:05,471 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 17:56:05,511 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 17:59:07,235 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 17:59:07,235 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 17:59:07,235 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 181.8
+2022-06-08 17:59:07,252 | itj_planning | INFO | Trail #1 | time elapsed 181.80
+2022-06-08 17:59:07,298 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 18:02:04,658 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 18:02:04,658 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:02:04,673 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 177.4
+2022-06-08 18:02:04,705 | itj_planning | INFO | Trail #2 | time elapsed 359.26
+2022-06-08 18:02:04,736 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 18:04:55,159 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 18:04:55,159 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:04:55,159 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 170.5
+2022-06-08 18:04:55,189 | itj_planning | INFO | Trail #3 | time elapsed 529.74
+2022-06-08 18:04:55,221 | itj_planning | INFO | Planning waypoint segment 1 of 3 of A123_M0
+2022-06-08 18:07:55,409 | itj_planning | INFO | No plan found for A123_M0 | RoboticFreeMovement(#A123_M0, Free Move to bring Beam ('b12') to approach clamps on structure., has_traj False)
+2022-06-08 18:07:55,409 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:07:55,409 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 180.2
+2022-06-08 18:07:55,409 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.10.
+2022-06-08 18:07:55,409 | itj_planning | ERROR | Free movement group #14/33 fails, which contains ['A123_M0']
+2022-06-08 18:08:01,996 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:09:43,832 | itj_planning | INFO | Solved 1 Movements in 101.83 s: ['A136_M0'] 
+2022-06-08 18:10:37,139 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 155.1
+2022-06-08 18:10:43,470 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:12:37,004 | itj_planning | INFO | Solved 1 Movements in 113.53 s: ['A138_M1'] 
+2022-06-08 18:13:19,598 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 156.1
+2022-06-08 18:13:25,927 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:14:05,849 | itj_planning | INFO | Solved 1 Movements in 39.92 s: ['A139_M0'] 
+2022-06-08 18:14:47,958 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 82.0
+2022-06-08 18:14:54,442 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 18:16:16,471 | itj_planning | INFO | No plan found for A146_M0 | RoboticFreeMovement(#A146_M0, Free Move to bring CL3M ('c3') to structure., has_traj False)
+2022-06-08 18:16:16,472 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:16:16,474 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 82.0
+2022-06-08 18:16:16,502 | itj_planning | INFO | Trail #1 | time elapsed 82.09
+2022-06-08 18:16:37,302 | itj_planning | INFO | Solved 1 Movements in 20.80 s: ['A146_M0'] 
+2022-06-08 18:16:57,756 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 41.3
+2022-06-08 18:17:03,880 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:17:03,927 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A149_M0
+2022-06-08 18:23:33,492 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A149_M0
+2022-06-08 18:23:36,023 | itj_planning | INFO | Solved 1 Movements in 392.14 s: ['A149_M0'] 
+2022-06-08 18:25:08,664 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 484.8
+2022-06-08 18:25:15,351 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:25:21,048 | itj_planning | INFO | Solved 1 Movements in 5.68 s: ['A153_M0'] 
+2022-06-08 18:25:43,423 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 28.1
+2022-06-08 18:25:49,878 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:27:23,692 | itj_planning | INFO | Solved 1 Movements in 93.81 s: ['A170_M0'] 
+2022-06-08 18:28:27,024 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 157.1
+2022-06-08 18:28:33,462 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:32:34,416 | itj_planning | INFO | No plan found for A175_M0 | RoboticFreeMovement(#A175_M0, Free Move to bring Beam ('b16') to approach clamps on structure., has_traj False)
+2022-06-08 18:32:34,431 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:32:34,431 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 241.0
+2022-06-08 18:32:34,460 | itj_planning | INFO | Trail #1 | time elapsed 241.01
+2022-06-08 18:34:42,291 | itj_planning | INFO | Solved 1 Movements in 127.83 s: ['A175_M0'] 
+2022-06-08 18:35:36,397 | itj_planning | INFO | Trail #1 | Plan Success | Runtime of current attempt: 181.9
+2022-06-08 18:35:42,993 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:35:50,641 | itj_planning | INFO | Solved 1 Movements in 7.65 s: ['A178_M0'] 
+2022-06-08 18:36:35,964 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 53.0
+2022-06-08 18:36:42,714 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:36:49,964 | itj_planning | INFO | Solved 1 Movements in 7.23 s: ['A188_M0'] 
+2022-06-08 18:37:47,839 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 65.1
+2022-06-08 18:37:54,198 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:38:18,011 | itj_planning | INFO | Solved 1 Movements in 23.81 s: ['A201_M0'] 
+2022-06-08 18:39:03,355 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 69.2
+2022-06-08 18:39:10,183 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 18:45:44,627 | itj_planning | INFO | No plan found for A203_M0 | RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False)
+2022-06-08 18:45:44,628 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:45:44,630 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 394.4
+2022-06-08 18:45:44,657 | itj_planning | INFO | Trail #1 | time elapsed 394.51
+2022-06-08 18:49:41,358 | itj_planning | INFO | No plan found for A203_M0 | RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj False)
+2022-06-08 18:49:41,358 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:49:41,358 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 236.7
+2022-06-08 18:49:41,358 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.06.
+2022-06-08 18:49:41,358 | itj_planning | ERROR | Free movement group #26/33 fails, which contains ['A203_M0']
+2022-06-08 18:49:48,251 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 18:50:52,025 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:50:52,027 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:50:52,028 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 63.8
+2022-06-08 18:50:52,060 | itj_planning | INFO | Trail #1 | time elapsed 63.83
+2022-06-08 18:52:04,749 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:52:04,749 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:52:04,749 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 72.7
+2022-06-08 18:52:04,785 | itj_planning | INFO | Trail #2 | time elapsed 136.56
+2022-06-08 18:53:06,968 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:53:06,968 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:53:06,968 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 62.2
+2022-06-08 18:53:07,012 | itj_planning | INFO | Trail #3 | time elapsed 198.78
+2022-06-08 18:54:09,921 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:54:09,921 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:54:09,921 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 62.9
+2022-06-08 18:54:09,952 | itj_planning | INFO | Trail #4 | time elapsed 261.72
+2022-06-08 18:55:06,312 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:55:06,312 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:55:06,312 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 56.4
+2022-06-08 18:55:06,352 | itj_planning | INFO | Trail #5 | time elapsed 318.12
+2022-06-08 18:56:07,242 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:56:07,243 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:56:07,244 | itj_planning | INFO | Trail #5 | Plan Failure | Runtime of current attempt: 60.9
+2022-06-08 18:56:07,271 | itj_planning | INFO | Trail #6 | time elapsed 379.04
+2022-06-08 18:57:10,234 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:57:10,234 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:57:10,234 | itj_planning | INFO | Trail #6 | Plan Failure | Runtime of current attempt: 63.0
+2022-06-08 18:57:10,268 | itj_planning | INFO | Trail #7 | time elapsed 442.04
+2022-06-08 18:59:37,641 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 18:59:37,641 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 18:59:37,641 | itj_planning | INFO | Trail #7 | Plan Failure | Runtime of current attempt: 147.4
+2022-06-08 18:59:37,680 | itj_planning | INFO | Trail #8 | time elapsed 589.45
+2022-06-08 19:00:42,959 | itj_planning | INFO | No plan found for A205_M1 | RoboticFreeMovement(#A205_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-08 19:00:42,960 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 19:00:42,962 | itj_planning | INFO | Trail #8 | Plan Failure | Runtime of current attempt: 65.3
+2022-06-08 19:00:42,965 | itj_planning | ERROR | Planning (with restarts) failed: exceeding solve timeout 600.28.
+2022-06-08 19:00:42,966 | itj_planning | ERROR | Free movement group #27/33 fails, which contains ['A205_M1']
+2022-06-08 19:00:49,974 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 19:01:03,589 | itj_planning | INFO | Solved 1 Movements in 13.61 s: ['A222_M0'] 
+2022-06-08 19:02:17,767 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 87.8
+2022-06-08 19:02:24,861 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 19:03:27,533 | itj_planning | INFO | Solved 1 Movements in 62.67 s: ['A224_M0'] 
+2022-06-08 19:04:13,611 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 108.8
+2022-06-08 19:04:20,658 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 19:06:10,742 | itj_planning | INFO | Solved 1 Movements in 110.08 s: ['A225_M1'] 
+2022-06-08 19:07:12,143 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 171.5
+2022-06-08 19:07:19,206 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 19:07:22,503 | itj_planning | INFO | Solved 1 Movements in 3.30 s: ['A226_M0'] 
+2022-06-08 19:08:16,347 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 57.1
+2022-06-08 19:08:23,331 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 19:09:01,706 | itj_planning | INFO | Solved 1 Movements in 38.38 s: ['A227_M1'] 
+2022-06-08 19:09:58,738 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 95.4
+2022-06-08 19:09:58,738 | itj_planning | INFO | Planning done.
+2022-06-08 19:09:58,738 | itj_planning | INFO | 30 of 33 Movements planned successfully.
+2022-06-08 19:09:58,738 | itj_planning | INFO | Failed movements: A123_M0,A203_M0,A205_M1
+2022-06-08 20:05:58,893 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A36_M1,A99_M0,A113_M0,A119_M0,A138_M1,A175_M0,A222_M0,A226_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 20:05:59,287 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 20:06:02,301 | itj_planning | INFO | Movement A36_M1 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,312 | itj_planning | INFO | Movement A99_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,324 | itj_planning | INFO | Movement A113_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,335 | itj_planning | INFO | Movement A119_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,347 | itj_planning | INFO | Movement A138_M1 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,357 | itj_planning | INFO | Movement A175_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,369 | itj_planning | INFO | Movement A222_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:02,380 | itj_planning | INFO | Movement A226_M0 (RoboticFreeMovement) archived.
+2022-06-08 20:06:14,139 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 20:06:29,982 | itj_planning | INFO | Solved 1 Movements in 15.84 s: ['A36_M1'] 
+2022-06-08 20:07:39,123 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 85.0
+2022-06-08 20:07:45,827 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 20:07:57,014 | itj_planning | INFO | Solved 1 Movements in 11.19 s: ['A99_M0'] 
+2022-06-08 20:08:37,655 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 51.8
+2022-06-08 20:08:44,077 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 20:12:35,533 | itj_planning | INFO | Solved 1 Movements in 231.46 s: ['A113_M0'] 
+2022-06-08 20:15:12,645 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 388.6
+2022-06-08 20:15:19,637 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 20:15:27,520 | itj_planning | INFO | Solved 1 Movements in 7.88 s: ['A119_M0'] 
+2022-06-08 20:16:22,923 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 63.3
+2022-06-08 20:16:29,583 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 20:18:42,413 | itj_planning | INFO | No plan found for A138_M1 | RoboticFreeMovement(#A138_M1, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj False)
+2022-06-08 20:18:42,413 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 20:18:42,413 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 132.8
+2022-06-08 20:18:42,444 | itj_planning | INFO | Trail #1 | time elapsed 132.89
+2022-06-08 20:20:37,204 | itj_planning | INFO | No plan found for A138_M1 | RoboticFreeMovement(#A138_M1, Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage., has_traj False)
+2022-06-08 20:20:37,206 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-08 20:20:37,207 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 114.8
+2022-06-08 20:20:37,234 | itj_planning | INFO | Trail #2 | time elapsed 247.68
+2022-06-08 20:23:23,720 | itj_planning | INFO | Solved 1 Movements in 166.48 s: ['A138_M1'] 
+2022-06-08 20:24:40,417 | itj_planning | INFO | Trail #2 | Plan Success | Runtime of current attempt: 243.2
+2022-06-08 20:24:47,789 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 20:27:39,618 | itj_planning | INFO | Solved 1 Movements in 171.83 s: ['A175_M0'] 
+2022-06-08 20:30:11,871 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 324.1
+2022-06-08 20:30:19,136 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 20:31:26,980 | itj_planning | INFO | Solved 1 Movements in 67.84 s: ['A222_M0'] 
+2022-06-08 20:32:45,828 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 146.7
+2022-06-08 20:32:52,880 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 20:33:13,798 | itj_planning | INFO | Solved 1 Movements in 20.92 s: ['A226_M0'] 
+2022-06-08 20:34:05,309 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 72.4
+2022-06-08 20:34:05,313 | itj_planning | INFO | Planning done.
+2022-06-08 20:34:05,314 | itj_planning | INFO | 8 of 8 Movements planned successfully.
+2022-06-08 20:34:05,315 | itj_planning | INFO | Failed movements: 
