@@ -347,3 +347,23 @@
 2022-06-08 20:56:00,417 | itj_planning | INFO | A119_M0,A222_M0
 2022-06-08 20:56:00,419 | itj_planning | INFO | (MovementIndex=601) RoboticFreeMovement(#A119_M0, Free Move to reach CL3M ('c3') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
 2022-06-08 20:56:00,420 | itj_planning | INFO | (MovementIndex=1071) RoboticFreeMovement(#A222_M0, Free Move to reach CL3 ('c1') to detach it from structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-08 23:44:44,777 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A119_M0,A222_M0', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-08 23:44:44,792 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 23:44:51,277 | itj_planning | INFO | Congrats, check state done!
+2022-06-08 23:45:07,918 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A119_M0,A222_M0', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-08 23:45:07,918 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 23:45:08,621 | itj_planning | INFO | Loading external movements from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-08 23:50:16,091 | itj_planning | INFO | Congrats, check state done!
+2022-06-09 01:07:11,631 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A203_M0,A205_M1', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=False, verify_plan=False, viewer=False)
+2022-06-09 01:07:11,631 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 01:07:18,084 | itj_planning | INFO | Congrats, check state done!
+2022-06-09 01:07:32,568 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=5, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A203_M0,A205_M1', plan_summary=False, problem='CantiBoxMid_process', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=False)
+2022-06-09 01:07:32,568 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 01:07:33,287 | itj_planning | INFO | Loading external movements from d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-09 01:08:23,350 | pybullet_planning.utils.debug_utils | WARNING | pairwise link collision: (Body #rfl, Link #robot11_link_3) - (Body #c2, Link #gripper_base)
+2022-06-09 01:08:23,366 | pybullet_planning.utils.debug_utils | WARNING | Penetration depth: 0.001653 (m) | point1 (22.232586,6.002895,2.228458), point2 (22.231868,6.001534,2.229061)
+2022-06-09 01:08:23,366 | compas_fab_pychoreo.utils | WARNING | dense sampled convex hull collision: trajectory point #114/171
+2022-06-09 01:08:43,694 | itj_planning | WARNING | A203_M0 : Verify trajectory failed. traj_dense_convex_hull_collision
+2022-06-09 01:10:23,652 | itj_planning | WARNING | Movements that requires care and love:
+2022-06-09 01:10:23,653 | itj_planning | INFO | A203_M0
+2022-06-09 01:10:23,655 | itj_planning | INFO | (MovementIndex=998) RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj True): traj_dense_convex_hull_collision

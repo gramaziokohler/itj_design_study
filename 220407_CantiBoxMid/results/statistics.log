@@ -1,0 +1,1189 @@
+2022-06-09 00:42:33,389 | itj_planning | INFO | planning.statistics.py started with args: Namespace(debug=False, design_dir='220407_CantiBoxMid', movement_id=None, no_fk=False, problem='CantiBoxMid_process', problem_subdir='results')
+2022-06-09 00:42:33,405 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 00:42:34,045 | itj_planning | INFO | --------------------------------------------------
+2022-06-09 00:42:34,045 | itj_planning | INFO | Process contains 1119 Movements, 586 of which are RoboticMovements
+2022-06-09 00:42:34,045 | itj_planning | INFO |   > among them are 430 RoboticLinearMovement and 156 RoboticFreeMovement
+2022-06-09 00:42:36,373 | itj_planning | INFO |   > 430 of 430 RoboticLinearMovement contains trajectory.
+2022-06-09 00:42:36,389 | itj_planning | INFO |   > 152 of 156 RoboticFreeMovement contains trajectory.
+2022-06-09 00:42:36,389 | itj_planning | INFO | --------------------------------------------------
+2022-06-09 00:42:36,389 | itj_planning | INFO | #   0    A0_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:39,436 | itj_planning | INFO |                    98  TrajPts, 2226.9 mm Flange Distance
+2022-06-09 00:42:39,436 | itj_planning | INFO | #   1    A0_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:39,467 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:39,467 | itj_planning | INFO | #   3    A0_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:42:39,561 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:39,561 | itj_planning | INFO | #   5    A2_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b0')
+2022-06-09 00:42:40,045 | itj_planning | INFO |                    141 TrajPts, 7015.4 mm Flange Distance
+2022-06-09 00:42:40,045 | itj_planning | INFO | #   7    A2_M2  L  Linear Advance to Storage Frame of Beam ('b0')
+2022-06-09 00:42:40,092 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:40,108 | itj_planning | INFO | #  10    A2_M5  L  Linear Retract after picking up Beam ('b0')
+2022-06-09 00:42:40,170 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:40,170 | itj_planning | INFO | #  11    A3_M0  F  Free Move to bring Beam ('b0') to final location
+2022-06-09 00:42:40,795 | itj_planning | INFO |                    182 TrajPts, 8010.3 mm Flange Distance
+2022-06-09 00:42:40,811 | itj_planning | INFO | #  12    A3_M1  L  Linear Advance to Final Frame of Beam ('b0')
+2022-06-09 00:42:40,827 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:42:40,827 | itj_planning | INFO | #  15    A3_M4  L  Linear retract after placing Beam ('b0')
+2022-06-09 00:42:40,873 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:40,873 | itj_planning | INFO | #  18    A4_M2  L  Linear retract of Gripper from Beam ('b0')
+2022-06-09 00:42:40,889 | itj_planning | INFO |                    1   TrajPts, 0.0 mm Flange Distance
+2022-06-09 00:42:40,889 | itj_planning | INFO | #  20    A6_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b1')
+2022-06-09 00:42:41,373 | itj_planning | INFO |                    142 TrajPts, 5653.0 mm Flange Distance
+2022-06-09 00:42:41,373 | itj_planning | INFO | #  22    A6_M2  L  Linear Advance to Storage Frame of Beam ('b1')
+2022-06-09 00:42:41,420 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:41,420 | itj_planning | INFO | #  25    A6_M5  L  Linear Retract after picking up Beam ('b1')
+2022-06-09 00:42:41,498 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:41,498 | itj_planning | INFO | #  26    A7_M0  F  Free Move to bring Beam ('b1') to final location
+2022-06-09 00:42:42,043 | itj_planning | INFO |                    156 TrajPts, 8288.6 mm Flange Distance
+2022-06-09 00:42:42,043 | itj_planning | INFO | #  27    A7_M1  L  Linear Advance to Final Frame of Beam ('b1')
+2022-06-09 00:42:42,077 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:42:42,077 | itj_planning | INFO | #  30    A7_M4  L  Linear retract after placing Beam ('b1')
+2022-06-09 00:42:42,124 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:42,124 | itj_planning | INFO | #  33    A8_M2  L  Linear retract of Gripper from Beam ('b1')
+2022-06-09 00:42:42,124 | itj_planning | INFO |                    1   TrajPts, 0.0 mm Flange Distance
+2022-06-09 00:42:42,124 | itj_planning | INFO | #  36   A10_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:42,561 | itj_planning | INFO |                    124 TrajPts, 5336.4 mm Flange Distance
+2022-06-09 00:42:42,561 | itj_planning | INFO | #  37   A10_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:42,655 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:42,655 | itj_planning | INFO | #  39   A10_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:42:42,670 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:42,670 | itj_planning | INFO | #  40   A11_M0  F  Free Move for Toolchanger to approach CL3 ('c2'), to get clamp from storage.
+2022-06-09 00:42:42,998 | itj_planning | INFO |                    95  TrajPts, 1931.3 mm Flange Distance
+2022-06-09 00:42:42,998 | itj_planning | INFO | #  41   A11_M1  L  Toolchanger Advance to dock with CL3 ('c2').
+2022-06-09 00:42:43,030 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:43,030 | itj_planning | INFO | #  45   A11_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c2').
+2022-06-09 00:42:43,045 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:42:43,045 | itj_planning | INFO | #  46   A11_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c2'). (Faster)
+2022-06-09 00:42:43,139 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:42:43,139 | itj_planning | INFO | #  47   A12_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:42:43,717 | itj_planning | INFO |                    170 TrajPts, 4259.5 mm Flange Distance
+2022-06-09 00:42:43,717 | itj_planning | INFO | #  49   A12_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:42:43,764 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:43,764 | itj_planning | INFO | #  50   A12_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:42:43,780 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:43,780 | itj_planning | INFO | #  53   A12_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:42:43,811 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:43,811 | itj_planning | INFO | #  55   A13_M0  F  Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
+2022-06-09 00:42:44,405 | itj_planning | INFO |                    171 TrajPts, 5078.8 mm Flange Distance
+2022-06-09 00:42:44,405 | itj_planning | INFO | #  56   A13_M1  L  Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
+2022-06-09 00:42:44,420 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:44,420 | itj_planning | INFO | #  58   A13_M3  L  Linear Retract after getting PG1000 ('g2') from storage.
+2022-06-09 00:42:44,530 | itj_planning | INFO |                    26  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:44,530 | itj_planning | INFO | #  59   A14_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b2')
+2022-06-09 00:42:44,905 | itj_planning | INFO |                    109 TrajPts, 5343.8 mm Flange Distance
+2022-06-09 00:42:44,905 | itj_planning | INFO | #  61   A14_M2  L  Linear Advance to Storage Frame of Beam ('b2')
+2022-06-09 00:42:44,952 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:44,952 | itj_planning | INFO | #  64   A14_M5  L  Linear Retract after picking up Beam ('b2')
+2022-06-09 00:42:45,014 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:45,014 | itj_planning | INFO | #  65   A15_M0  F  Free Move to bring Beam ('b2') to approach clamps on structure.
+2022-06-09 00:42:45,483 | itj_planning | INFO |                    134 TrajPts, 6234.1 mm Flange Distance
+2022-06-09 00:42:45,483 | itj_planning | INFO | #  66   A15_M1  L  Linear Advance to bring Beam ('b2') into clamp jaws
+2022-06-09 00:42:45,530 | itj_planning | INFO |                    12  TrajPts, 100.9 mm Flange Distance
+2022-06-09 00:42:45,530 | itj_planning | INFO | #  68   A15_M3  L  Robot and Clamps (['c2']) syncronously move to clamp Beam ('b2')
+2022-06-09 00:42:45,624 | itj_planning | INFO |                    24  TrajPts, 110.9 mm Flange Distance
+2022-06-09 00:42:45,624 | itj_planning | INFO | #  71   A16_M2  L  Linear retract of Gripper from Beam ('b2')
+2022-06-09 00:42:45,670 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:45,670 | itj_planning | INFO | #  74   A18_M1  F  Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-09 00:42:46,202 | itj_planning | INFO |                    155 TrajPts, 4612.0 mm Flange Distance
+2022-06-09 00:42:46,202 | itj_planning | INFO | #  75   A18_M2  L  Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-09 00:42:46,295 | itj_planning | INFO |                    26  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:46,295 | itj_planning | INFO | #  77   A18_M4  L  Linear Retract from storage after placing PG1000 ('g2') in storage
+2022-06-09 00:42:46,327 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:46,327 | itj_planning | INFO | #  78   A19_M0  F  Free Move for Toolchanger to approach CL3M ('c3'), to get clamp from storage.
+2022-06-09 00:42:46,577 | itj_planning | INFO |                    73  TrajPts, 3194.7 mm Flange Distance
+2022-06-09 00:42:46,577 | itj_planning | INFO | #  79   A19_M1  L  Toolchanger Advance to dock with CL3M ('c3').
+2022-06-09 00:42:46,608 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:46,608 | itj_planning | INFO | #  83   A19_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c3').
+2022-06-09 00:42:46,624 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:42:46,624 | itj_planning | INFO | #  84   A19_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c3'). (Faster)
+2022-06-09 00:42:46,702 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:42:46,702 | itj_planning | INFO | #  85   A20_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:42:47,078 | itj_planning | INFO |                    107 TrajPts, 3089.7 mm Flange Distance
+2022-06-09 00:42:47,093 | itj_planning | INFO | #  87   A20_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:42:47,139 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:47,139 | itj_planning | INFO | #  88   A20_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:42:47,155 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:47,155 | itj_planning | INFO | #  91   A20_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:42:47,186 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:47,186 | itj_planning | INFO | #  93   A21_M0  F  Free Move reach Storage Approach Frame of PG1000 ('g2'), to get tool.
+2022-06-09 00:42:47,655 | itj_planning | INFO |                    139 TrajPts, 6763.3 mm Flange Distance
+2022-06-09 00:42:47,655 | itj_planning | INFO | #  94   A21_M1  L  Linear Advance to Storage Frame of PG1000 ('g2'), to get tool.
+2022-06-09 00:42:47,686 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:47,686 | itj_planning | INFO | #  96   A21_M3  L  Linear Retract after getting PG1000 ('g2') from storage.
+2022-06-09 00:42:47,780 | itj_planning | INFO |                    26  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:47,780 | itj_planning | INFO | #  97   A22_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b3')
+2022-06-09 00:42:48,155 | itj_planning | INFO |                    109 TrajPts, 5199.4 mm Flange Distance
+2022-06-09 00:42:48,155 | itj_planning | INFO | #  99   A22_M2  L  Linear Advance to Storage Frame of Beam ('b3')
+2022-06-09 00:42:48,202 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:48,202 | itj_planning | INFO | # 102   A22_M5  L  Linear Retract after picking up Beam ('b3')
+2022-06-09 00:42:48,280 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:48,280 | itj_planning | INFO | # 103   A23_M0  F  Free Move to bring Beam ('b3') to approach clamps on structure.
+2022-06-09 00:42:48,608 | itj_planning | INFO |                    97  TrajPts, 5399.8 mm Flange Distance
+2022-06-09 00:42:48,608 | itj_planning | INFO | # 104   A23_M1  L  Linear Advance to bring Beam ('b3') into clamp jaws
+2022-06-09 00:42:48,655 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:48,655 | itj_planning | INFO | # 106   A23_M3  L  Robot and Clamps (['c3']) syncronously move to clamp Beam ('b3')
+2022-06-09 00:42:48,749 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:42:48,749 | itj_planning | INFO | # 109   A24_M2  L  Linear retract of Gripper from Beam ('b3')
+2022-06-09 00:42:48,795 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:48,795 | itj_planning | INFO | # 112   A26_M1  F  Free Move to reach Storage Approach Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-09 00:42:49,170 | itj_planning | INFO |                    110 TrajPts, 3516.0 mm Flange Distance
+2022-06-09 00:42:49,170 | itj_planning | INFO | # 113   A26_M2  L  Linear Advance to Storage Frame of PG1000 ('g2'), to place tool in storage.
+2022-06-09 00:42:49,280 | itj_planning | INFO |                    26  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:49,280 | itj_planning | INFO | # 115   A26_M4  L  Linear Retract from storage after placing PG1000 ('g2') in storage
+2022-06-09 00:42:49,295 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:49,295 | itj_planning | INFO | # 116   A27_M0  F  Free Move for Toolchanger to approach CL3M ('c4'), to get clamp from storage.
+2022-06-09 00:42:49,545 | itj_planning | INFO |                    71  TrajPts, 3141.8 mm Flange Distance
+2022-06-09 00:42:49,545 | itj_planning | INFO | # 117   A27_M1  L  Toolchanger Advance to dock with CL3M ('c4').
+2022-06-09 00:42:49,577 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:49,577 | itj_planning | INFO | # 121   A27_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c4').
+2022-06-09 00:42:49,592 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:42:49,592 | itj_planning | INFO | # 122   A27_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c4'). (Faster)
+2022-06-09 00:42:49,670 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:42:49,670 | itj_planning | INFO | # 123   A28_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-09 00:42:50,264 | itj_planning | INFO |                    173 TrajPts, 5954.9 mm Flange Distance
+2022-06-09 00:42:50,264 | itj_planning | INFO | # 125   A28_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:42:50,311 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:50,327 | itj_planning | INFO | # 126   A28_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:42:50,343 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:50,343 | itj_planning | INFO | # 129   A28_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-09 00:42:50,374 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:50,374 | itj_planning | INFO | # 131   A29_M0  F  Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage.
+2022-06-09 00:42:50,717 | itj_planning | INFO |                    101 TrajPts, 3711.7 mm Flange Distance
+2022-06-09 00:42:50,717 | itj_planning | INFO | # 132   A29_M1  L  Toolchanger Advance to dock with CL3 ('c1').
+2022-06-09 00:42:50,733 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:50,749 | itj_planning | INFO | # 136   A29_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c1').
+2022-06-09 00:42:50,764 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:42:50,764 | itj_planning | INFO | # 137   A29_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster)
+2022-06-09 00:42:50,842 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:42:50,842 | itj_planning | INFO | # 138   A30_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:42:51,280 | itj_planning | INFO |                    130 TrajPts, 4286.4 mm Flange Distance
+2022-06-09 00:42:51,295 | itj_planning | INFO | # 140   A30_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:42:51,343 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:51,343 | itj_planning | INFO | # 141   A30_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:42:51,358 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:51,358 | itj_planning | INFO | # 144   A30_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:42:51,374 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:51,389 | itj_planning | INFO | # 146   A31_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:51,874 | itj_planning | INFO |                    145 TrajPts, 7978.8 mm Flange Distance
+2022-06-09 00:42:51,874 | itj_planning | INFO | # 147   A31_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:51,905 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:51,905 | itj_planning | INFO | # 149   A31_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:42:51,999 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:51,999 | itj_planning | INFO | # 150   A32_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b4')
+2022-06-09 00:42:52,452 | itj_planning | INFO |                    126 TrajPts, 6134.3 mm Flange Distance
+2022-06-09 00:42:52,452 | itj_planning | INFO | # 152   A32_M2  L  Linear Advance to Storage Frame of Beam ('b4')
+2022-06-09 00:42:52,499 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:52,499 | itj_planning | INFO | # 155   A32_M5  L  Linear Retract after picking up Beam ('b4')
+2022-06-09 00:42:52,577 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:52,577 | itj_planning | INFO | # 156   A33_M0  F  Free Move to bring Beam ('b4') to approach clamps on structure.
+2022-06-09 00:42:53,358 | itj_planning | INFO |                    220 TrajPts, 10263.4 mm Flange Distance
+2022-06-09 00:42:53,358 | itj_planning | INFO | # 157   A33_M1  L  Linear Advance to bring Beam ('b4') into clamp jaws
+2022-06-09 00:42:53,405 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:53,405 | itj_planning | INFO | # 159   A33_M3  L  Robot and Clamps (['c1', 'c4']) syncronously move to clamp Beam ('b4')
+2022-06-09 00:42:53,499 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:42:53,499 | itj_planning | INFO | # 162   A34_M2  L  Linear retract of Gripper from Beam ('b4')
+2022-06-09 00:42:53,545 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:53,545 | itj_planning | INFO | # 165   A36_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:53,920 | itj_planning | INFO |                    108 TrajPts, 4505.5 mm Flange Distance
+2022-06-09 00:42:53,920 | itj_planning | INFO | # 166   A36_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:54,030 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:54,030 | itj_planning | INFO | # 168   A36_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:42:54,046 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:54,046 | itj_planning | INFO | # 169   A37_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-09 00:42:54,530 | itj_planning | INFO |                    139 TrajPts, 3300.8 mm Flange Distance
+2022-06-09 00:42:54,530 | itj_planning | INFO | # 171   A37_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-09 00:42:54,561 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:42:54,561 | itj_planning | INFO | # 175   A37_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:42:54,577 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:54,577 | itj_planning | INFO | # 176   A37_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:42:54,624 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:42:54,624 | itj_planning | INFO | # 178   A38_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-09 00:42:55,124 | itj_planning | INFO |                    148 TrajPts, 6905.0 mm Flange Distance
+2022-06-09 00:42:55,124 | itj_planning | INFO | # 180   A38_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:42:55,170 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:55,170 | itj_planning | INFO | # 181   A38_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:42:55,186 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:55,202 | itj_planning | INFO | # 184   A38_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-09 00:42:55,217 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:55,217 | itj_planning | INFO | # 186   A39_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:55,865 | itj_planning | INFO |                    185 TrajPts, 8546.3 mm Flange Distance
+2022-06-09 00:42:55,866 | itj_planning | INFO | # 187   A39_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:55,879 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:55,879 | itj_planning | INFO | # 189   A39_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:42:55,983 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:55,983 | itj_planning | INFO | # 190   A40_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b5')
+2022-06-09 00:42:56,421 | itj_planning | INFO |                    130 TrajPts, 6348.8 mm Flange Distance
+2022-06-09 00:42:56,421 | itj_planning | INFO | # 192   A40_M2  L  Linear Advance to Storage Frame of Beam ('b5')
+2022-06-09 00:42:56,467 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:56,467 | itj_planning | INFO | # 195   A40_M5  L  Linear Retract after picking up Beam ('b5')
+2022-06-09 00:42:56,545 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:42:56,545 | itj_planning | INFO | # 196   A41_M0  F  Free Move to bring Beam ('b5') to approach clamps on structure.
+2022-06-09 00:42:57,014 | itj_planning | INFO |                    136 TrajPts, 7554.3 mm Flange Distance
+2022-06-09 00:42:57,014 | itj_planning | INFO | # 197   A41_M1  L  Linear Advance to bring Beam ('b5') into clamp jaws
+2022-06-09 00:42:57,061 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:57,061 | itj_planning | INFO | # 199   A41_M3  L  Robot and Clamps (['c4']) syncronously move to clamp Beam ('b5')
+2022-06-09 00:42:57,155 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:42:57,155 | itj_planning | INFO | # 206   A46_M2  L  Linear retract of Gripper from Beam ('b5')
+2022-06-09 00:42:57,202 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:42:57,202 | itj_planning | INFO | # 209   A48_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:57,811 | itj_planning | INFO |                    178 TrajPts, 8986.3 mm Flange Distance
+2022-06-09 00:42:57,811 | itj_planning | INFO | # 210   A48_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:42:57,905 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:42:57,905 | itj_planning | INFO | # 212   A48_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:42:57,920 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:57,920 | itj_planning | INFO | # 213   A49_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:42:58,592 | itj_planning | INFO |                    185 TrajPts, 8174.7 mm Flange Distance
+2022-06-09 00:42:58,592 | itj_planning | INFO | # 215   A49_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:42:58,621 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:42:58,623 | itj_planning | INFO | # 219   A49_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:42:58,631 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:58,631 | itj_planning | INFO | # 220   A49_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:42:58,671 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:42:58,671 | itj_planning | INFO | # 222   A50_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:42:59,249 | itj_planning | INFO |                    169 TrajPts, 6583.4 mm Flange Distance
+2022-06-09 00:42:59,249 | itj_planning | INFO | # 224   A50_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:42:59,295 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:42:59,295 | itj_planning | INFO | # 225   A50_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:42:59,311 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:42:59,327 | itj_planning | INFO | # 228   A50_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:42:59,343 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:42:59,343 | itj_planning | INFO | # 230   A51_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:59,967 | itj_planning | INFO |                    179 TrajPts, 7221.9 mm Flange Distance
+2022-06-09 00:42:59,967 | itj_planning | INFO | # 231   A51_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:42:59,999 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:42:59,999 | itj_planning | INFO | # 233   A51_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:00,092 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:00,092 | itj_planning | INFO | # 234   A52_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b6')
+2022-06-09 00:43:00,561 | itj_planning | INFO |                    132 TrajPts, 6293.5 mm Flange Distance
+2022-06-09 00:43:00,561 | itj_planning | INFO | # 236   A52_M2  L  Linear Advance to Storage Frame of Beam ('b6')
+2022-06-09 00:43:00,608 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:00,608 | itj_planning | INFO | # 239   A52_M5  L  Linear Retract after picking up Beam ('b6')
+2022-06-09 00:43:00,686 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:00,686 | itj_planning | INFO | # 240   A53_M0  F  Free Move to bring Beam ('b6') to approach clamps on structure.
+2022-06-09 00:43:01,170 | itj_planning | INFO |                    136 TrajPts, 8292.5 mm Flange Distance
+2022-06-09 00:43:01,170 | itj_planning | INFO | # 241   A53_M1  L  Linear Advance to bring Beam ('b6') into clamp jaws
+2022-06-09 00:43:01,217 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:01,217 | itj_planning | INFO | # 243   A53_M3  L  Robot and Clamps (['c1']) syncronously move to clamp Beam ('b6')
+2022-06-09 00:43:01,311 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:01,311 | itj_planning | INFO | # 250   A58_M2  L  Linear retract of Gripper from Beam ('b6')
+2022-06-09 00:43:01,359 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:01,359 | itj_planning | INFO | # 253   A60_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:02,044 | itj_planning | INFO |                    199 TrajPts, 12474.4 mm Flange Distance
+2022-06-09 00:43:02,044 | itj_planning | INFO | # 254   A60_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:02,139 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:02,139 | itj_planning | INFO | # 256   A60_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:02,171 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:02,171 | itj_planning | INFO | # 257   A61_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-09 00:43:02,905 | itj_planning | INFO |                    216 TrajPts, 9874.1 mm Flange Distance
+2022-06-09 00:43:02,905 | itj_planning | INFO | # 259   A61_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-09 00:43:02,936 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:02,936 | itj_planning | INFO | # 263   A61_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:02,952 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:02,952 | itj_planning | INFO | # 264   A61_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:02,999 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:02,999 | itj_planning | INFO | # 267   A62_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage.
+2022-06-09 00:43:03,686 | itj_planning | INFO |                    202 TrajPts, 8654.5 mm Flange Distance
+2022-06-09 00:43:03,686 | itj_planning | INFO | # 268   A62_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c4'). (Faster)
+2022-06-09 00:43:03,764 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:03,764 | itj_planning | INFO | # 269   A62_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c4').
+2022-06-09 00:43:03,780 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:03,780 | itj_planning | INFO | # 272   A62_M6  L  Linear Retract after placing CL3M ('c4') in storage
+2022-06-09 00:43:03,811 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:03,811 | itj_planning | INFO | # 273   A63_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:43:04,342 | itj_planning | INFO |                    156 TrajPts, 6775.1 mm Flange Distance
+2022-06-09 00:43:04,342 | itj_planning | INFO | # 275   A63_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:43:04,374 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:04,374 | itj_planning | INFO | # 279   A63_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:04,389 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:04,389 | itj_planning | INFO | # 280   A63_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:04,452 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:04,452 | itj_planning | INFO | # 282   A64_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:43:05,045 | itj_planning | INFO |                    173 TrajPts, 6764.0 mm Flange Distance
+2022-06-09 00:43:05,045 | itj_planning | INFO | # 284   A64_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:05,079 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:05,093 | itj_planning | INFO | # 285   A64_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:05,108 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:05,108 | itj_planning | INFO | # 288   A64_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:43:05,140 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:05,140 | itj_planning | INFO | # 290   A65_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:43:05,608 | itj_planning | INFO |                    137 TrajPts, 5115.7 mm Flange Distance
+2022-06-09 00:43:05,608 | itj_planning | INFO | # 292   A65_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:43:05,639 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:05,639 | itj_planning | INFO | # 296   A65_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:05,655 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:05,655 | itj_planning | INFO | # 297   A65_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:05,702 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:05,702 | itj_planning | INFO | # 299   A66_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:43:06,311 | itj_planning | INFO |                    173 TrajPts, 5283.4 mm Flange Distance
+2022-06-09 00:43:06,311 | itj_planning | INFO | # 301   A66_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:06,358 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:06,358 | itj_planning | INFO | # 302   A66_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:06,374 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:06,374 | itj_planning | INFO | # 305   A66_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:43:06,405 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:06,405 | itj_planning | INFO | # 307   A67_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:07,092 | itj_planning | INFO |                    203 TrajPts, 7122.8 mm Flange Distance
+2022-06-09 00:43:07,108 | itj_planning | INFO | # 308   A67_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:07,124 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:07,124 | itj_planning | INFO | # 310   A67_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:07,217 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:07,217 | itj_planning | INFO | # 311   A68_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b7')
+2022-06-09 00:43:07,670 | itj_planning | INFO |                    129 TrajPts, 6604.5 mm Flange Distance
+2022-06-09 00:43:07,670 | itj_planning | INFO | # 313   A68_M2  L  Linear Advance to Storage Frame of Beam ('b7')
+2022-06-09 00:43:07,718 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:07,718 | itj_planning | INFO | # 316   A68_M5  L  Linear Retract after picking up Beam ('b7')
+2022-06-09 00:43:07,796 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:07,796 | itj_planning | INFO | # 317   A69_M0  F  Free Move to bring Beam ('b7') to approach clamps on structure.
+2022-06-09 00:43:08,514 | itj_planning | INFO |                    215 TrajPts, 8250.6 mm Flange Distance
+2022-06-09 00:43:08,530 | itj_planning | INFO | # 318   A69_M1  L  Linear Advance to bring Beam ('b7') into clamp jaws
+2022-06-09 00:43:08,577 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:08,577 | itj_planning | INFO | # 320   A69_M3  L  Robot and Clamps (['c1', 'c3']) syncronously move to clamp Beam ('b7')
+2022-06-09 00:43:08,655 | itj_planning | INFO |                    25  TrajPts, 110.9 mm Flange Distance
+2022-06-09 00:43:08,655 | itj_planning | INFO | # 323   A70_M2  L  Linear retract of Gripper from Beam ('b7')
+2022-06-09 00:43:08,717 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:08,717 | itj_planning | INFO | # 326   A72_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:09,186 | itj_planning | INFO |                    139 TrajPts, 8024.7 mm Flange Distance
+2022-06-09 00:43:09,186 | itj_planning | INFO | # 327   A72_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:09,296 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:09,296 | itj_planning | INFO | # 329   A72_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:09,311 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:09,311 | itj_planning | INFO | # 330   A73_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:43:09,967 | itj_planning | INFO |                    190 TrajPts, 8234.1 mm Flange Distance
+2022-06-09 00:43:09,967 | itj_planning | INFO | # 332   A73_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:43:09,983 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:09,999 | itj_planning | INFO | # 336   A73_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:10,014 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:10,014 | itj_planning | INFO | # 337   A73_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:10,061 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:10,061 | itj_planning | INFO | # 339   A74_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:43:10,608 | itj_planning | INFO |                    159 TrajPts, 5243.1 mm Flange Distance
+2022-06-09 00:43:10,608 | itj_planning | INFO | # 341   A74_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:10,655 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:10,655 | itj_planning | INFO | # 342   A74_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:10,671 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:10,671 | itj_planning | INFO | # 345   A74_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:43:10,686 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:10,686 | itj_planning | INFO | # 347   A75_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:43:11,124 | itj_planning | INFO |                    124 TrajPts, 1699.0 mm Flange Distance
+2022-06-09 00:43:11,124 | itj_planning | INFO | # 349   A75_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:43:11,155 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:11,155 | itj_planning | INFO | # 353   A75_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:11,170 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:11,170 | itj_planning | INFO | # 354   A75_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:11,202 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:11,217 | itj_planning | INFO | # 356   A76_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:43:11,780 | itj_planning | INFO |                    168 TrajPts, 6057.9 mm Flange Distance
+2022-06-09 00:43:11,780 | itj_planning | INFO | # 358   A76_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:11,827 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:11,827 | itj_planning | INFO | # 359   A76_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:11,842 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:11,842 | itj_planning | INFO | # 362   A76_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:43:11,874 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:11,874 | itj_planning | INFO | # 364   A77_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:12,421 | itj_planning | INFO |                    159 TrajPts, 5017.6 mm Flange Distance
+2022-06-09 00:43:12,421 | itj_planning | INFO | # 365   A77_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:12,436 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:12,436 | itj_planning | INFO | # 367   A77_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:12,546 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:12,546 | itj_planning | INFO | # 368   A78_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b8')
+2022-06-09 00:43:13,092 | itj_planning | INFO |                    159 TrajPts, 8130.2 mm Flange Distance
+2022-06-09 00:43:13,092 | itj_planning | INFO | # 370   A78_M2  L  Linear Advance to Storage Frame of Beam ('b8')
+2022-06-09 00:43:13,139 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:13,139 | itj_planning | INFO | # 373   A78_M5  L  Linear Retract after picking up Beam ('b8')
+2022-06-09 00:43:13,217 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:13,217 | itj_planning | INFO | # 374   A79_M0  F  Free Move to bring Beam ('b8') to approach clamps on structure.
+2022-06-09 00:43:14,014 | itj_planning | INFO |                    234 TrajPts, 15095.5 mm Flange Distance
+2022-06-09 00:43:14,014 | itj_planning | INFO | # 375   A79_M1  L  Linear Advance to bring Beam ('b8') into clamp jaws
+2022-06-09 00:43:14,063 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:14,063 | itj_planning | INFO | # 377   A79_M3  L  Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b8')
+2022-06-09 00:43:14,155 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:14,155 | itj_planning | INFO | # 380   A80_M2  L  Linear retract of Gripper from Beam ('b8')
+2022-06-09 00:43:14,202 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:14,202 | itj_planning | INFO | # 383   A82_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:14,686 | itj_planning | INFO |                    139 TrajPts, 6747.5 mm Flange Distance
+2022-06-09 00:43:14,686 | itj_planning | INFO | # 384   A82_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:14,780 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:14,780 | itj_planning | INFO | # 386   A82_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:14,811 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:14,811 | itj_planning | INFO | # 387   A83_M0  F  Free Move for Toolchanger to approach CL3M ('c4'), to get clamp from storage.
+2022-06-09 00:43:15,046 | itj_planning | INFO |                    68  TrajPts, 3166.8 mm Flange Distance
+2022-06-09 00:43:15,046 | itj_planning | INFO | # 388   A83_M1  L  Toolchanger Advance to dock with CL3M ('c4').
+2022-06-09 00:43:15,061 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:15,061 | itj_planning | INFO | # 392   A83_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c4').
+2022-06-09 00:43:15,077 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:15,092 | itj_planning | INFO | # 393   A83_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c4'). (Faster)
+2022-06-09 00:43:15,171 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:15,171 | itj_planning | INFO | # 394   A84_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-09 00:43:15,749 | itj_planning | INFO |                    169 TrajPts, 6782.9 mm Flange Distance
+2022-06-09 00:43:15,749 | itj_planning | INFO | # 396   A84_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:15,796 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:15,796 | itj_planning | INFO | # 397   A84_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:15,811 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:15,811 | itj_planning | INFO | # 400   A84_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-09 00:43:15,842 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:15,842 | itj_planning | INFO | # 402   A85_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:43:16,155 | itj_planning | INFO |                    92  TrajPts, 2360.5 mm Flange Distance
+2022-06-09 00:43:16,155 | itj_planning | INFO | # 404   A85_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:43:16,186 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:16,186 | itj_planning | INFO | # 408   A85_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:16,202 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:16,217 | itj_planning | INFO | # 409   A85_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:16,249 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:16,249 | itj_planning | INFO | # 411   A86_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:43:16,796 | itj_planning | INFO |                    158 TrajPts, 5534.7 mm Flange Distance
+2022-06-09 00:43:16,796 | itj_planning | INFO | # 413   A86_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:16,842 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:16,842 | itj_planning | INFO | # 414   A86_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:16,858 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:16,858 | itj_planning | INFO | # 417   A86_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:43:16,874 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:16,889 | itj_planning | INFO | # 419   A87_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:17,468 | itj_planning | INFO |                    171 TrajPts, 3415.4 mm Flange Distance
+2022-06-09 00:43:17,468 | itj_planning | INFO | # 420   A87_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:17,483 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:17,483 | itj_planning | INFO | # 422   A87_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:17,577 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:17,577 | itj_planning | INFO | # 423   A88_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b9')
+2022-06-09 00:43:18,046 | itj_planning | INFO |                    133 TrajPts, 7070.9 mm Flange Distance
+2022-06-09 00:43:18,046 | itj_planning | INFO | # 425   A88_M2  L  Linear Advance to Storage Frame of Beam ('b9')
+2022-06-09 00:43:18,077 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:18,092 | itj_planning | INFO | # 428   A88_M5  L  Linear Retract after picking up Beam ('b9')
+2022-06-09 00:43:18,155 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:18,155 | itj_planning | INFO | # 429   A89_M0  F  Free Move to bring Beam ('b9') to approach clamps on structure.
+2022-06-09 00:43:18,905 | itj_planning | INFO |                    213 TrajPts, 7126.3 mm Flange Distance
+2022-06-09 00:43:18,905 | itj_planning | INFO | # 430   A89_M1  L  Linear Advance to bring Beam ('b9') into clamp jaws
+2022-06-09 00:43:18,967 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:18,967 | itj_planning | INFO | # 432   A89_M3  L  Robot and Clamps (['c3', 'c4']) syncronously move to clamp Beam ('b9')
+2022-06-09 00:43:19,077 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:19,077 | itj_planning | INFO | # 435   A90_M2  L  Linear retract of Gripper from Beam ('b9')
+2022-06-09 00:43:19,139 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:19,139 | itj_planning | INFO | # 438   A92_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:19,842 | itj_planning | INFO |                    197 TrajPts, 7016.0 mm Flange Distance
+2022-06-09 00:43:19,842 | itj_planning | INFO | # 439   A92_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:19,952 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:19,952 | itj_planning | INFO | # 441   A92_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:19,968 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:19,968 | itj_planning | INFO | # 442   A93_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:43:20,452 | itj_planning | INFO |                    133 TrajPts, 3076.8 mm Flange Distance
+2022-06-09 00:43:20,452 | itj_planning | INFO | # 444   A93_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:43:20,468 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:20,483 | itj_planning | INFO | # 448   A93_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:20,483 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:20,499 | itj_planning | INFO | # 449   A93_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:20,546 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:20,546 | itj_planning | INFO | # 452   A94_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage.
+2022-06-09 00:43:21,124 | itj_planning | INFO |                    162 TrajPts, 7803.5 mm Flange Distance
+2022-06-09 00:43:21,124 | itj_planning | INFO | # 453   A94_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c3'). (Faster)
+2022-06-09 00:43:21,202 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:21,202 | itj_planning | INFO | # 454   A94_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c3').
+2022-06-09 00:43:21,217 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:21,217 | itj_planning | INFO | # 457   A94_M6  L  Linear Retract after placing CL3M ('c3') in storage
+2022-06-09 00:43:21,249 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:21,249 | itj_planning | INFO | # 458   A95_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:43:21,702 | itj_planning | INFO |                    130 TrajPts, 5757.8 mm Flange Distance
+2022-06-09 00:43:21,702 | itj_planning | INFO | # 460   A95_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:43:21,717 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:21,717 | itj_planning | INFO | # 464   A95_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:21,733 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:21,733 | itj_planning | INFO | # 465   A95_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:21,796 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:21,796 | itj_planning | INFO | # 467   A96_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:43:22,733 | itj_planning | INFO |                    268 TrajPts, 12035.0 mm Flange Distance
+2022-06-09 00:43:22,733 | itj_planning | INFO | # 469   A96_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:22,780 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:22,780 | itj_planning | INFO | # 470   A96_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:22,796 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:22,796 | itj_planning | INFO | # 473   A96_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:43:22,811 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:22,827 | itj_planning | INFO | # 475   A97_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:43:23,467 | itj_planning | INFO |                    190 TrajPts, 6187.3 mm Flange Distance
+2022-06-09 00:43:23,467 | itj_planning | INFO | # 477   A97_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:43:23,483 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:23,499 | itj_planning | INFO | # 481   A97_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:23,514 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:23,514 | itj_planning | INFO | # 482   A97_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:43:23,561 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:23,561 | itj_planning | INFO | # 485   A98_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage.
+2022-06-09 00:43:24,155 | itj_planning | INFO |                    173 TrajPts, 3241.7 mm Flange Distance
+2022-06-09 00:43:24,155 | itj_planning | INFO | # 486   A98_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c1'). (Faster)
+2022-06-09 00:43:24,233 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:24,233 | itj_planning | INFO | # 487   A98_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c1').
+2022-06-09 00:43:24,249 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:24,249 | itj_planning | INFO | # 490   A98_M6  L  Linear Retract after placing CL3 ('c1') in storage
+2022-06-09 00:43:24,264 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:24,264 | itj_planning | INFO | # 491   A99_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-09 00:43:25,092 | itj_planning | INFO |                    244 TrajPts, 6065.7 mm Flange Distance
+2022-06-09 00:43:25,108 | itj_planning | INFO | # 493   A99_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-09 00:43:25,124 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:25,140 | itj_planning | INFO | # 497   A99_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:25,155 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:25,155 | itj_planning | INFO | # 498   A99_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:25,202 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:25,202 | itj_planning | INFO | # 500  A100_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-09 00:43:25,780 | itj_planning | INFO |                    169 TrajPts, 7593.8 mm Flange Distance
+2022-06-09 00:43:25,780 | itj_planning | INFO | # 502  A100_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:25,827 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:25,827 | itj_planning | INFO | # 503  A100_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:25,842 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:25,858 | itj_planning | INFO | # 506  A100_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-09 00:43:25,885 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:25,887 | itj_planning | INFO | # 508  A101_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:26,499 | itj_planning | INFO |                    178 TrajPts, 7887.4 mm Flange Distance
+2022-06-09 00:43:26,499 | itj_planning | INFO | # 509  A101_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:26,514 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:26,514 | itj_planning | INFO | # 511  A101_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:26,608 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:26,624 | itj_planning | INFO | # 512  A102_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b10')
+2022-06-09 00:43:27,092 | itj_planning | INFO |                    136 TrajPts, 6178.6 mm Flange Distance
+2022-06-09 00:43:27,092 | itj_planning | INFO | # 514  A102_M2  L  Linear Advance to Storage Frame of Beam ('b10')
+2022-06-09 00:43:27,139 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:27,139 | itj_planning | INFO | # 517  A102_M5  L  Linear Retract after picking up Beam ('b10')
+2022-06-09 00:43:27,217 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:27,217 | itj_planning | INFO | # 518  A103_M0  F  Free Move to bring Beam ('b10') to approach clamps on structure.
+2022-06-09 00:43:27,780 | itj_planning | INFO |                    166 TrajPts, 6303.0 mm Flange Distance
+2022-06-09 00:43:27,780 | itj_planning | INFO | # 519  A103_M1  L  Linear Advance to bring Beam ('b10') into clamp jaws
+2022-06-09 00:43:27,827 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:27,827 | itj_planning | INFO | # 521  A103_M3  L  Robot and Clamps (['c4', 'c2']) syncronously move to clamp Beam ('b10')
+2022-06-09 00:43:27,921 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:27,921 | itj_planning | INFO | # 524  A104_M2  L  Linear retract of Gripper from Beam ('b10')
+2022-06-09 00:43:27,968 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:27,968 | itj_planning | INFO | # 527  A106_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:28,233 | itj_planning | INFO |                    73  TrajPts, 4241.1 mm Flange Distance
+2022-06-09 00:43:28,233 | itj_planning | INFO | # 528  A106_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:28,327 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:28,327 | itj_planning | INFO | # 530  A106_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:28,358 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:28,358 | itj_planning | INFO | # 531  A107_M0  F  Free Move for Toolchanger to approach CL3M ('c3'), to get clamp from storage.
+2022-06-09 00:43:28,592 | itj_planning | INFO |                    67  TrajPts, 3365.7 mm Flange Distance
+2022-06-09 00:43:28,592 | itj_planning | INFO | # 532  A107_M1  L  Toolchanger Advance to dock with CL3M ('c3').
+2022-06-09 00:43:28,608 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:28,608 | itj_planning | INFO | # 536  A107_M5  L  Linear Retract 1 from Storage Frame of CL3M ('c3').
+2022-06-09 00:43:28,624 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:28,624 | itj_planning | INFO | # 537  A107_M6  L  Linear Retract 2 from Storage Frame of CL3M ('c3'). (Faster)
+2022-06-09 00:43:28,717 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:28,717 | itj_planning | INFO | # 538  A108_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:43:29,280 | itj_planning | INFO |                    167 TrajPts, 6194.0 mm Flange Distance
+2022-06-09 00:43:29,280 | itj_planning | INFO | # 540  A108_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:29,327 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:29,327 | itj_planning | INFO | # 541  A108_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:29,342 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:29,342 | itj_planning | INFO | # 544  A108_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:43:29,374 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:29,374 | itj_planning | INFO | # 546  A109_M0  F  Free Move for Toolchanger to approach CL3 ('c1'), to get clamp from storage.
+2022-06-09 00:43:30,139 | itj_planning | INFO |                    227 TrajPts, 9611.9 mm Flange Distance
+2022-06-09 00:43:30,139 | itj_planning | INFO | # 547  A109_M1  L  Toolchanger Advance to dock with CL3 ('c1').
+2022-06-09 00:43:30,171 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:30,171 | itj_planning | INFO | # 551  A109_M5  L  Linear Retract 1 from Storage Frame of CL3 ('c1').
+2022-06-09 00:43:30,186 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:43:30,186 | itj_planning | INFO | # 552  A109_M6  L  Linear Retract 2 from Storage Frame of CL3 ('c1'). (Faster)
+2022-06-09 00:43:30,264 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:43:30,264 | itj_planning | INFO | # 553  A110_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:43:30,952 | itj_planning | INFO |                    201 TrajPts, 6528.1 mm Flange Distance
+2022-06-09 00:43:30,952 | itj_planning | INFO | # 555  A110_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:30,999 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:30,999 | itj_planning | INFO | # 556  A110_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:43:31,015 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:31,030 | itj_planning | INFO | # 559  A110_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:43:31,046 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:31,046 | itj_planning | INFO | # 561  A111_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:31,546 | itj_planning | INFO |                    147 TrajPts, 7533.6 mm Flange Distance
+2022-06-09 00:43:31,546 | itj_planning | INFO | # 562  A111_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:31,577 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:31,577 | itj_planning | INFO | # 564  A111_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:31,671 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:31,671 | itj_planning | INFO | # 565  A112_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b11')
+2022-06-09 00:43:32,171 | itj_planning | INFO |                    147 TrajPts, 6748.3 mm Flange Distance
+2022-06-09 00:43:32,171 | itj_planning | INFO | # 567  A112_M2  L  Linear Advance to Storage Frame of Beam ('b11')
+2022-06-09 00:43:32,217 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:32,217 | itj_planning | INFO | # 570  A112_M5  L  Linear Retract after picking up Beam ('b11')
+2022-06-09 00:43:32,296 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:32,296 | itj_planning | INFO | # 571  A113_M0  F  Free Move to bring Beam ('b11') to approach clamps on structure.
+2022-06-09 00:43:33,452 | itj_planning | INFO |                    328 TrajPts, 10552.0 mm Flange Distance
+2022-06-09 00:43:33,467 | itj_planning | INFO | # 572  A113_M1  L  Linear Advance to bring Beam ('b11') into clamp jaws
+2022-06-09 00:43:33,499 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:33,499 | itj_planning | INFO | # 574  A113_M3  L  Robot and Clamps (['c3', 'c1']) syncronously move to clamp Beam ('b11')
+2022-06-09 00:43:33,592 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:33,592 | itj_planning | INFO | # 577  A114_M2  L  Linear retract of Gripper from Beam ('b11')
+2022-06-09 00:43:33,639 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:33,639 | itj_planning | INFO | # 580  A116_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:34,639 | itj_planning | INFO |                    285 TrajPts, 13725.6 mm Flange Distance
+2022-06-09 00:43:34,639 | itj_planning | INFO | # 581  A116_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:34,733 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:34,733 | itj_planning | INFO | # 583  A116_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:34,764 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:34,764 | itj_planning | INFO | # 584  A117_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:43:35,155 | itj_planning | INFO |                    116 TrajPts, 4323.9 mm Flange Distance
+2022-06-09 00:43:35,155 | itj_planning | INFO | # 586  A117_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:43:35,186 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:35,186 | itj_planning | INFO | # 590  A117_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:35,202 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:35,202 | itj_planning | INFO | # 591  A117_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:43:35,249 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:35,249 | itj_planning | INFO | # 593  A118_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:43:35,468 | itj_planning | INFO |                    63  TrajPts, 4585.3 mm Flange Distance
+2022-06-09 00:43:35,468 | itj_planning | INFO | # 595  A118_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:35,514 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:35,514 | itj_planning | INFO | # 596  A118_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:43:35,546 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:35,546 | itj_planning | INFO | # 599  A118_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:43:35,577 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:35,577 | itj_planning | INFO | # 601  A119_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:43:37,296 | itj_planning | INFO |                    505 TrajPts, 5589.3 mm Flange Distance
+2022-06-09 00:43:37,296 | itj_planning | INFO | # 603  A119_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:43:37,327 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:37,327 | itj_planning | INFO | # 607  A119_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:37,343 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:37,343 | itj_planning | INFO | # 608  A119_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:37,389 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:37,389 | itj_planning | INFO | # 610  A120_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:43:38,046 | itj_planning | INFO |                    191 TrajPts, 6089.6 mm Flange Distance
+2022-06-09 00:43:38,046 | itj_planning | INFO | # 612  A120_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:38,093 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:38,093 | itj_planning | INFO | # 613  A120_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:38,108 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:38,108 | itj_planning | INFO | # 616  A120_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:43:38,140 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:38,140 | itj_planning | INFO | # 618  A121_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:38,733 | itj_planning | INFO |                    172 TrajPts, 8730.8 mm Flange Distance
+2022-06-09 00:43:38,733 | itj_planning | INFO | # 619  A121_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:38,749 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:38,749 | itj_planning | INFO | # 621  A121_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:38,843 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:38,858 | itj_planning | INFO | # 622  A122_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b12')
+2022-06-09 00:43:39,296 | itj_planning | INFO |                    133 TrajPts, 6514.6 mm Flange Distance
+2022-06-09 00:43:39,311 | itj_planning | INFO | # 624  A122_M2  L  Linear Advance to Storage Frame of Beam ('b12')
+2022-06-09 00:43:39,343 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:39,343 | itj_planning | INFO | # 627  A122_M5  L  Linear Retract after picking up Beam ('b12')
+2022-06-09 00:43:39,421 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:39,421 | itj_planning | INFO | # 628  A123_M0  F  Free Move to bring Beam ('b12') to approach clamps on structure.
+2022-06-09 00:43:39,421 | itj_planning | INFO |                    NO TRAJECTORY PLANNED
+2022-06-09 00:43:39,421 | itj_planning | INFO | # 629  A123_M1  L  Linear Advance to bring Beam ('b12') into clamp jaws
+2022-06-09 00:43:39,468 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:39,468 | itj_planning | INFO | # 631  A123_M3  L  Robot and Clamps (['c3', 'c2']) syncronously move to clamp Beam ('b12')
+2022-06-09 00:43:39,561 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:39,561 | itj_planning | INFO | # 634  A124_M2  L  Linear retract of Gripper from Beam ('b12')
+2022-06-09 00:43:39,608 | itj_planning | INFO |                    12  TrajPts, 104.9 mm Flange Distance
+2022-06-09 00:43:39,608 | itj_planning | INFO | # 636  A125_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:39,608 | itj_planning | INFO |                    NO TRAJECTORY PLANNED
+2022-06-09 00:43:39,608 | itj_planning | INFO | # 637  A125_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:39,717 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:39,717 | itj_planning | INFO | # 639  A125_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:39,733 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:39,733 | itj_planning | INFO | # 640  A126_M0  F  Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
+2022-06-09 00:43:39,983 | itj_planning | INFO |                    73  TrajPts, 2378.6 mm Flange Distance
+2022-06-09 00:43:39,983 | itj_planning | INFO | # 641  A126_M1  L  Toolchanger Advance to dock with SL1_G200 ('s4').
+2022-06-09 00:43:40,014 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:40,014 | itj_planning | INFO | # 643  A126_M3  L  Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:43:40,030 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:40,030 | itj_planning | INFO | # 644  A126_M4  L  Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:43:40,139 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:40,139 | itj_planning | INFO | # 645  A127_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b13')
+2022-06-09 00:43:40,514 | itj_planning | INFO |                    107 TrajPts, 7159.4 mm Flange Distance
+2022-06-09 00:43:40,514 | itj_planning | INFO | # 647  A127_M2  L  Linear Advance to Storage Frame of Beam ('b13')
+2022-06-09 00:43:40,608 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:40,608 | itj_planning | INFO | # 651  A130_M0  L  Linear Move to lift up Beam ('b13')
+2022-06-09 00:43:40,671 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:40,686 | itj_planning | INFO | # 652  A130_M1  L  Linear Move to intermediate position before reorienting Beam ('b13')
+2022-06-09 00:43:40,906 | itj_planning | INFO |                    64  TrajPts, 620.7 mm Flange Distance
+2022-06-09 00:43:40,906 | itj_planning | INFO | # 653  A130_M2  L  Final Move to reorient Beam ('b13')
+2022-06-09 00:43:40,999 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:40,999 | itj_planning | INFO | # 656  A133_M0  F  Free Move to bring Beam ('b13') to assemble_approach position on structure.
+2022-06-09 00:43:41,889 | itj_planning | INFO |                    260 TrajPts, 10592.4 mm Flange Distance
+2022-06-09 00:43:41,889 | itj_planning | INFO | # 657  A133_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-09 00:43:41,906 | itj_planning | INFO |                    5   TrajPts, 21.0 mm Flange Distance
+2022-06-09 00:43:41,906 | itj_planning | INFO | # 658  A133_M2  L  Robot and Screwdrivers (['s4', 's2', 's1']) syncronously move to screw Beam ('b13')
+2022-06-09 00:43:42,093 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:43:42,093 | itj_planning | INFO | # 662  A134_M2  L  Robot and Screwdriver (s4) syncronously move to retract from Joint ('b11-b13')
+2022-06-09 00:43:42,280 | itj_planning | INFO |                    53  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:42,280 | itj_planning | INFO | # 663  A134_M3  L  Linear retract after picking up Screwdriver ('s4')
+2022-06-09 00:43:42,311 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:42,311 | itj_planning | INFO | # 666  A135_M1  F  Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
+2022-06-09 00:43:43,421 | itj_planning | INFO |                    325 TrajPts, 12428.2 mm Flange Distance
+2022-06-09 00:43:43,421 | itj_planning | INFO | # 667  A135_M2  L  Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:43:43,530 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:43,530 | itj_planning | INFO | # 668  A135_M3  L  Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:43:43,546 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:43,546 | itj_planning | INFO | # 670  A135_M5  L  Linear Retract after placing SL1_G200 ('s4') in storage
+2022-06-09 00:43:43,577 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:43,577 | itj_planning | INFO | # 671  A136_M0  F  Free Move to reach SL1 ('s1') on Beam ('b13') 
+2022-06-09 00:43:44,405 | itj_planning | INFO |                    246 TrajPts, 17090.0 mm Flange Distance
+2022-06-09 00:43:44,421 | itj_planning | INFO | # 673  A136_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-09 00:43:44,437 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:44,437 | itj_planning | INFO | # 677  A137_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b7-b13')
+2022-06-09 00:43:44,624 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:43:44,640 | itj_planning | INFO | # 678  A137_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-09 00:43:44,640 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:44,640 | itj_planning | INFO | # 681  A138_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-09 00:43:46,233 | itj_planning | INFO |                    471 TrajPts, 13006.3 mm Flange Distance
+2022-06-09 00:43:46,233 | itj_planning | INFO | # 682  A138_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-09 00:43:46,343 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:46,343 | itj_planning | INFO | # 683  A138_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-09 00:43:46,358 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:46,374 | itj_planning | INFO | # 685  A138_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-09 00:43:46,389 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:46,389 | itj_planning | INFO | # 686  A139_M0  F  Free Move to reach SL1 ('s2') on Beam ('b13') 
+2022-06-09 00:43:47,514 | itj_planning | INFO |                    328 TrajPts, 13135.2 mm Flange Distance
+2022-06-09 00:43:47,514 | itj_planning | INFO | # 688  A139_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-09 00:43:47,546 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:47,546 | itj_planning | INFO | # 692  A140_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b12-b13')
+2022-06-09 00:43:47,718 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:43:47,733 | itj_planning | INFO | # 693  A140_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-09 00:43:47,749 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:47,749 | itj_planning | INFO | # 696  A141_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-09 00:43:48,624 | itj_planning | INFO |                    255 TrajPts, 11216.3 mm Flange Distance
+2022-06-09 00:43:48,624 | itj_planning | INFO | # 697  A141_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-09 00:43:48,733 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:48,733 | itj_planning | INFO | # 698  A141_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-09 00:43:48,749 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:48,749 | itj_planning | INFO | # 700  A141_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-09 00:43:48,780 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:48,780 | itj_planning | INFO | # 702  A143_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-09 00:43:49,280 | itj_planning | INFO |                    145 TrajPts, 4842.5 mm Flange Distance
+2022-06-09 00:43:49,280 | itj_planning | INFO | # 704  A143_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-09 00:43:49,296 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:49,296 | itj_planning | INFO | # 708  A143_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:49,311 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:49,327 | itj_planning | INFO | # 709  A143_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:43:49,358 | itj_planning | INFO |                    11  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:49,358 | itj_planning | INFO | # 711  A144_M0  F  Free Move to bring CL3M ('c4') to structure.
+2022-06-09 00:43:50,155 | itj_planning | INFO |                    231 TrajPts, 10343.5 mm Flange Distance
+2022-06-09 00:43:50,155 | itj_planning | INFO | # 713  A144_M2  L  Linear Approach 1 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:50,202 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:50,218 | itj_planning | INFO | # 714  A144_M3  L  Linear Approach 2 of 2 to attach CL3M ('c4') to structure.
+2022-06-09 00:43:50,218 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:50,218 | itj_planning | INFO | # 717  A144_M6  L  Linear Retract after attaching CL3M ('c4') on structure
+2022-06-09 00:43:50,249 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:50,249 | itj_planning | INFO | # 719  A145_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:43:50,983 | itj_planning | INFO |                    214 TrajPts, 12123.6 mm Flange Distance
+2022-06-09 00:43:50,983 | itj_planning | INFO | # 721  A145_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:43:51,014 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:51,014 | itj_planning | INFO | # 725  A145_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:51,014 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:51,030 | itj_planning | INFO | # 726  A145_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:43:51,077 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:43:51,077 | itj_planning | INFO | # 728  A146_M0  F  Free Move to bring CL3M ('c3') to structure.
+2022-06-09 00:43:51,343 | itj_planning | INFO |                    78  TrajPts, 1207.2 mm Flange Distance
+2022-06-09 00:43:51,343 | itj_planning | INFO | # 730  A146_M2  L  Linear Approach 1 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:51,389 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:51,389 | itj_planning | INFO | # 731  A146_M3  L  Linear Approach 2 of 2 to attach CL3M ('c3') to structure.
+2022-06-09 00:43:51,405 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:51,405 | itj_planning | INFO | # 734  A146_M6  L  Linear Retract after attaching CL3M ('c3') on structure
+2022-06-09 00:43:51,436 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:51,452 | itj_planning | INFO | # 736  A147_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:52,155 | itj_planning | INFO |                    208 TrajPts, 12587.3 mm Flange Distance
+2022-06-09 00:43:52,155 | itj_planning | INFO | # 737  A147_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:43:52,171 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:52,171 | itj_planning | INFO | # 739  A147_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:43:52,280 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:52,280 | itj_planning | INFO | # 740  A148_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b14')
+2022-06-09 00:43:52,702 | itj_planning | INFO |                    124 TrajPts, 7105.8 mm Flange Distance
+2022-06-09 00:43:52,702 | itj_planning | INFO | # 742  A148_M2  L  Linear Advance to Storage Frame of Beam ('b14')
+2022-06-09 00:43:52,749 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:52,749 | itj_planning | INFO | # 745  A148_M5  L  Linear Retract after picking up Beam ('b14')
+2022-06-09 00:43:52,827 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:52,827 | itj_planning | INFO | # 746  A149_M0  F  Free Move to bring Beam ('b14') to approach clamps on structure.
+2022-06-09 00:43:54,015 | itj_planning | INFO |                    350 TrajPts, 18940.3 mm Flange Distance
+2022-06-09 00:43:54,015 | itj_planning | INFO | # 747  A149_M1  L  Linear Advance to bring Beam ('b14') into clamp jaws
+2022-06-09 00:43:54,061 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:43:54,061 | itj_planning | INFO | # 749  A149_M3  L  Robot and Clamps (['c4', 'c3']) syncronously move to clamp Beam ('b14')
+2022-06-09 00:43:54,155 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:43:54,155 | itj_planning | INFO | # 752  A150_M2  L  Linear retract of Gripper from Beam ('b14')
+2022-06-09 00:43:54,202 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:43:54,202 | itj_planning | INFO | # 754  A151_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:54,827 | itj_planning | INFO |                    183 TrajPts, 6712.9 mm Flange Distance
+2022-06-09 00:43:54,827 | itj_planning | INFO | # 755  A151_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:43:54,922 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:54,922 | itj_planning | INFO | # 757  A151_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:43:54,952 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:43:54,952 | itj_planning | INFO | # 758  A152_M0  F  Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
+2022-06-09 00:43:55,218 | itj_planning | INFO |                    78  TrajPts, 2378.8 mm Flange Distance
+2022-06-09 00:43:55,218 | itj_planning | INFO | # 759  A152_M1  L  Toolchanger Advance to dock with SL1_G200 ('s4').
+2022-06-09 00:43:55,249 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:55,249 | itj_planning | INFO | # 761  A152_M3  L  Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:43:55,264 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:55,264 | itj_planning | INFO | # 762  A152_M4  L  Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:43:55,374 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:55,374 | itj_planning | INFO | # 763  A153_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b15')
+2022-06-09 00:43:55,874 | itj_planning | INFO |                    144 TrajPts, 8659.3 mm Flange Distance
+2022-06-09 00:43:55,874 | itj_planning | INFO | # 765  A153_M2  L  Linear Advance to Storage Frame of Beam ('b15')
+2022-06-09 00:43:55,968 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:55,968 | itj_planning | INFO | # 769  A156_M0  L  Linear Move to lift up Beam ('b15')
+2022-06-09 00:43:56,046 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:43:56,046 | itj_planning | INFO | # 770  A156_M1  L  Linear Move to intermediate position before reorienting Beam ('b15')
+2022-06-09 00:43:56,280 | itj_planning | INFO |                    64  TrajPts, 620.7 mm Flange Distance
+2022-06-09 00:43:56,280 | itj_planning | INFO | # 771  A156_M2  L  Final Move to reorient Beam ('b15')
+2022-06-09 00:43:56,374 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:56,374 | itj_planning | INFO | # 774  A159_M0  F  Free Move to bring Beam ('b15') to assemble_approach position on structure.
+2022-06-09 00:43:57,405 | itj_planning | INFO |                    273 TrajPts, 11997.1 mm Flange Distance
+2022-06-09 00:43:57,405 | itj_planning | INFO | # 775  A159_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-09 00:43:57,436 | itj_planning | INFO |                    4   TrajPts, 21.0 mm Flange Distance
+2022-06-09 00:43:57,436 | itj_planning | INFO | # 776  A159_M2  L  Robot and Screwdrivers (['s2', 's1', 's4']) syncronously move to screw Beam ('b15')
+2022-06-09 00:43:57,655 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:43:57,655 | itj_planning | INFO | # 780  A160_M2  L  Robot and Screwdriver (s4) syncronously move to retract from Joint ('b8-b15')
+2022-06-09 00:43:57,858 | itj_planning | INFO |                    52  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:43:57,858 | itj_planning | INFO | # 781  A160_M3  L  Linear retract after picking up Screwdriver ('s4')
+2022-06-09 00:43:57,874 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:57,874 | itj_planning | INFO | # 784  A161_M1  F  Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
+2022-06-09 00:43:58,468 | itj_planning | INFO |                    146 TrajPts, 6153.5 mm Flange Distance
+2022-06-09 00:43:58,468 | itj_planning | INFO | # 785  A161_M2  L  Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:43:58,593 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:58,593 | itj_planning | INFO | # 786  A161_M3  L  Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:43:58,608 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:58,608 | itj_planning | INFO | # 788  A161_M5  L  Linear Retract after placing SL1_G200 ('s4') in storage
+2022-06-09 00:43:58,639 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:58,639 | itj_planning | INFO | # 789  A162_M0  F  Free Move to reach SL1 ('s1') on Beam ('b15') 
+2022-06-09 00:43:59,062 | itj_planning | INFO |                    116 TrajPts, 6193.8 mm Flange Distance
+2022-06-09 00:43:59,077 | itj_planning | INFO | # 791  A162_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-09 00:43:59,093 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:43:59,093 | itj_planning | INFO | # 795  A163_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b14-b15')
+2022-06-09 00:43:59,280 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:43:59,296 | itj_planning | INFO | # 796  A163_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-09 00:43:59,296 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:43:59,296 | itj_planning | INFO | # 799  A164_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-09 00:43:59,811 | itj_planning | INFO |                    147 TrajPts, 5687.2 mm Flange Distance
+2022-06-09 00:43:59,811 | itj_planning | INFO | # 800  A164_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-09 00:43:59,905 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:43:59,905 | itj_planning | INFO | # 801  A164_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-09 00:43:59,921 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:43:59,937 | itj_planning | INFO | # 803  A164_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-09 00:43:59,952 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:43:59,952 | itj_planning | INFO | # 804  A165_M0  F  Free Move to reach SL1 ('s2') on Beam ('b15') 
+2022-06-09 00:44:00,655 | itj_planning | INFO |                    204 TrajPts, 6742.6 mm Flange Distance
+2022-06-09 00:44:00,671 | itj_planning | INFO | # 806  A165_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-09 00:44:00,686 | itj_planning | INFO |                    7   TrajPts, 50.9 mm Flange Distance
+2022-06-09 00:44:00,702 | itj_planning | INFO | # 810  A166_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b0-b15')
+2022-06-09 00:44:00,890 | itj_planning | INFO |                    53  TrajPts, 250.9 mm Flange Distance
+2022-06-09 00:44:00,890 | itj_planning | INFO | # 811  A166_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-09 00:44:00,905 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:00,905 | itj_planning | INFO | # 814  A167_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-09 00:44:01,483 | itj_planning | INFO |                    164 TrajPts, 5853.1 mm Flange Distance
+2022-06-09 00:44:01,483 | itj_planning | INFO | # 815  A167_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-09 00:44:01,577 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:01,593 | itj_planning | INFO | # 816  A167_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-09 00:44:01,593 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:01,608 | itj_planning | INFO | # 818  A167_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-09 00:44:01,624 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:01,624 | itj_planning | INFO | # 820  A169_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:44:02,280 | itj_planning | INFO |                    190 TrajPts, 9452.8 mm Flange Distance
+2022-06-09 00:44:02,280 | itj_planning | INFO | # 822  A169_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:44:02,311 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:02,311 | itj_planning | INFO | # 826  A169_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:02,327 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:02,327 | itj_planning | INFO | # 827  A169_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:02,374 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:02,374 | itj_planning | INFO | # 829  A170_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:44:03,186 | itj_planning | INFO |                    215 TrajPts, 7468.1 mm Flange Distance
+2022-06-09 00:44:03,186 | itj_planning | INFO | # 831  A170_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:44:03,249 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:03,249 | itj_planning | INFO | # 832  A170_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:44:03,265 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:03,265 | itj_planning | INFO | # 835  A170_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:44:03,280 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:03,296 | itj_planning | INFO | # 837  A171_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:44:04,640 | itj_planning | INFO |                    357 TrajPts, 19361.7 mm Flange Distance
+2022-06-09 00:44:04,640 | itj_planning | INFO | # 839  A171_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:44:04,671 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:04,671 | itj_planning | INFO | # 843  A171_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:04,702 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:04,702 | itj_planning | INFO | # 844  A171_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:04,749 | itj_planning | INFO |                    11  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:04,749 | itj_planning | INFO | # 846  A172_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:44:05,265 | itj_planning | INFO |                    127 TrajPts, 5514.3 mm Flange Distance
+2022-06-09 00:44:05,265 | itj_planning | INFO | # 848  A172_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:44:05,327 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:05,327 | itj_planning | INFO | # 849  A172_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:44:05,327 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:05,327 | itj_planning | INFO | # 852  A172_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:44:05,374 | itj_planning | INFO |                    8   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:05,374 | itj_planning | INFO | # 854  A173_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:44:06,046 | itj_planning | INFO |                    189 TrajPts, 7797.4 mm Flange Distance
+2022-06-09 00:44:06,046 | itj_planning | INFO | # 855  A173_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:44:06,077 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:44:06,077 | itj_planning | INFO | # 857  A173_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:44:06,171 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:06,171 | itj_planning | INFO | # 858  A174_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b16')
+2022-06-09 00:44:06,593 | itj_planning | INFO |                    123 TrajPts, 6706.5 mm Flange Distance
+2022-06-09 00:44:06,593 | itj_planning | INFO | # 860  A174_M2  L  Linear Advance to Storage Frame of Beam ('b16')
+2022-06-09 00:44:06,655 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:44:06,655 | itj_planning | INFO | # 863  A174_M5  L  Linear Retract after picking up Beam ('b16')
+2022-06-09 00:44:06,718 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:44:06,718 | itj_planning | INFO | # 864  A175_M0  F  Free Move to bring Beam ('b16') to approach clamps on structure.
+2022-06-09 00:44:07,218 | itj_planning | INFO |                    143 TrajPts, 3699.8 mm Flange Distance
+2022-06-09 00:44:07,218 | itj_planning | INFO | # 865  A175_M1  L  Linear Advance to bring Beam ('b16') into clamp jaws
+2022-06-09 00:44:07,264 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:07,264 | itj_planning | INFO | # 867  A175_M3  L  Robot and Clamps (['c2', 'c1']) syncronously move to clamp Beam ('b16')
+2022-06-09 00:44:07,358 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:44:07,358 | itj_planning | INFO | # 870  A176_M2  L  Linear retract of Gripper from Beam ('b16')
+2022-06-09 00:44:07,405 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:44:07,405 | itj_planning | INFO | # 872  A177_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:44:08,046 | itj_planning | INFO |                    188 TrajPts, 9397.6 mm Flange Distance
+2022-06-09 00:44:08,046 | itj_planning | INFO | # 873  A177_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:44:08,140 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:08,140 | itj_planning | INFO | # 875  A177_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:44:08,155 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:44:08,155 | itj_planning | INFO | # 876  A178_M0  F  Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
+2022-06-09 00:44:08,452 | itj_planning | INFO |                    77  TrajPts, 2399.2 mm Flange Distance
+2022-06-09 00:44:08,452 | itj_planning | INFO | # 877  A178_M1  L  Toolchanger Advance to dock with SL1_G200 ('s4').
+2022-06-09 00:44:08,484 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:08,484 | itj_planning | INFO | # 879  A178_M3  L  Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:44:08,499 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:08,499 | itj_planning | INFO | # 880  A178_M4  L  Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:44:08,608 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:08,608 | itj_planning | INFO | # 881  A179_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b17')
+2022-06-09 00:44:08,968 | itj_planning | INFO |                    102 TrajPts, 6670.7 mm Flange Distance
+2022-06-09 00:44:08,968 | itj_planning | INFO | # 883  A179_M2  L  Linear Advance to Storage Frame of Beam ('b17')
+2022-06-09 00:44:09,062 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:09,062 | itj_planning | INFO | # 887  A182_M0  L  Linear Move to lift up Beam ('b17')
+2022-06-09 00:44:09,124 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:44:09,124 | itj_planning | INFO | # 888  A182_M1  L  Linear Move to intermediate position before reorienting Beam ('b17')
+2022-06-09 00:44:09,358 | itj_planning | INFO |                    64  TrajPts, 620.7 mm Flange Distance
+2022-06-09 00:44:09,358 | itj_planning | INFO | # 889  A182_M2  L  Final Move to reorient Beam ('b17')
+2022-06-09 00:44:09,452 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:09,468 | itj_planning | INFO | # 892  A185_M0  F  Free Move to bring Beam ('b17') to assemble_approach position on structure.
+2022-06-09 00:44:10,015 | itj_planning | INFO |                    162 TrajPts, 3756.1 mm Flange Distance
+2022-06-09 00:44:10,015 | itj_planning | INFO | # 893  A185_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-09 00:44:10,030 | itj_planning | INFO |                    4   TrajPts, 21.0 mm Flange Distance
+2022-06-09 00:44:10,030 | itj_planning | INFO | # 894  A185_M2  L  Robot and Screwdrivers (['s1', 's2', 's4']) syncronously move to screw Beam ('b17')
+2022-06-09 00:44:10,218 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:44:10,218 | itj_planning | INFO | # 898  A186_M2  L  Robot and Screwdriver (s4) syncronously move to retract from Joint ('b9-b17')
+2022-06-09 00:44:10,421 | itj_planning | INFO |                    53  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:10,421 | itj_planning | INFO | # 899  A186_M3  L  Linear retract after picking up Screwdriver ('s4')
+2022-06-09 00:44:10,436 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:10,436 | itj_planning | INFO | # 902  A187_M1  F  Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
+2022-06-09 00:44:11,046 | itj_planning | INFO |                    176 TrajPts, 6490.5 mm Flange Distance
+2022-06-09 00:44:11,046 | itj_planning | INFO | # 903  A187_M2  L  Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:44:11,140 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:11,155 | itj_planning | INFO | # 904  A187_M3  L  Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:44:11,155 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:11,171 | itj_planning | INFO | # 906  A187_M5  L  Linear Retract after placing SL1_G200 ('s4') in storage
+2022-06-09 00:44:11,186 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:11,186 | itj_planning | INFO | # 907  A188_M0  F  Free Move to reach SL1 ('s2') on Beam ('b17') 
+2022-06-09 00:44:11,819 | itj_planning | INFO |                    182 TrajPts, 7858.4 mm Flange Distance
+2022-06-09 00:44:11,819 | itj_planning | INFO | # 909  A188_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-09 00:44:11,843 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:11,843 | itj_planning | INFO | # 913  A189_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b16-b17')
+2022-06-09 00:44:12,038 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:44:12,038 | itj_planning | INFO | # 914  A189_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-09 00:44:12,046 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:12,046 | itj_planning | INFO | # 917  A190_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-09 00:44:12,702 | itj_planning | INFO |                    189 TrajPts, 6474.3 mm Flange Distance
+2022-06-09 00:44:12,702 | itj_planning | INFO | # 918  A190_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-09 00:44:12,796 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:12,796 | itj_planning | INFO | # 919  A190_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-09 00:44:12,812 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:12,812 | itj_planning | INFO | # 921  A190_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-09 00:44:12,843 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:12,843 | itj_planning | INFO | # 922  A191_M0  F  Free Move to reach SL1 ('s1') on Beam ('b17') 
+2022-06-09 00:44:13,327 | itj_planning | INFO |                    142 TrajPts, 7198.0 mm Flange Distance
+2022-06-09 00:44:13,327 | itj_planning | INFO | # 924  A191_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-09 00:44:13,358 | itj_planning | INFO |                    8   TrajPts, 50.9 mm Flange Distance
+2022-06-09 00:44:13,358 | itj_planning | INFO | # 928  A192_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b1-b17')
+2022-06-09 00:44:13,546 | itj_planning | INFO |                    53  TrajPts, 250.9 mm Flange Distance
+2022-06-09 00:44:13,546 | itj_planning | INFO | # 929  A192_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-09 00:44:13,561 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:13,561 | itj_planning | INFO | # 932  A193_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-09 00:44:14,124 | itj_planning | INFO |                    155 TrajPts, 7006.0 mm Flange Distance
+2022-06-09 00:44:14,124 | itj_planning | INFO | # 933  A193_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-09 00:44:14,265 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:14,265 | itj_planning | INFO | # 934  A193_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-09 00:44:14,280 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:14,280 | itj_planning | INFO | # 936  A193_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-09 00:44:14,311 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:14,311 | itj_planning | INFO | # 938  A195_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:44:14,890 | itj_planning | INFO |                    166 TrajPts, 2789.1 mm Flange Distance
+2022-06-09 00:44:14,890 | itj_planning | INFO | # 940  A195_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:44:14,921 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:14,921 | itj_planning | INFO | # 944  A195_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:14,936 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:14,936 | itj_planning | INFO | # 945  A195_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:14,984 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:14,984 | itj_planning | INFO | # 947  A196_M0  F  Free Move to bring CL3 ('c2') to structure.
+2022-06-09 00:44:15,546 | itj_planning | INFO |                    157 TrajPts, 842.7 mm Flange Distance
+2022-06-09 00:44:15,546 | itj_planning | INFO | # 949  A196_M2  L  Linear Approach 1 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:44:15,593 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:15,593 | itj_planning | INFO | # 950  A196_M3  L  Linear Approach 2 of 2 to attach CL3 ('c2') to structure.
+2022-06-09 00:44:15,624 | itj_planning | INFO |                    5   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:15,624 | itj_planning | INFO | # 953  A196_M6  L  Linear Retract after attaching CL3 ('c2') on structure
+2022-06-09 00:44:15,655 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:15,655 | itj_planning | INFO | # 955  A197_M0  F  Free Move to reach CL3M ('c4') to detach it from structure.
+2022-06-09 00:44:16,061 | itj_planning | INFO |                    118 TrajPts, 3039.3 mm Flange Distance
+2022-06-09 00:44:16,061 | itj_planning | INFO | # 957  A197_M2  L  Linear Advance to dock toolchanger of CL3M ('c4').
+2022-06-09 00:44:16,077 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:16,077 | itj_planning | INFO | # 961  A197_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:44:16,093 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:16,108 | itj_planning | INFO | # 962  A197_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c4') from structure.
+2022-06-09 00:44:16,155 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:16,155 | itj_planning | INFO | # 965  A198_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c4'), to place tool in storage.
+2022-06-09 00:44:16,577 | itj_planning | INFO |                    123 TrajPts, 2706.4 mm Flange Distance
+2022-06-09 00:44:16,577 | itj_planning | INFO | # 966  A198_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c4'). (Faster)
+2022-06-09 00:44:16,655 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:44:16,655 | itj_planning | INFO | # 967  A198_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c4').
+2022-06-09 00:44:16,671 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:44:16,671 | itj_planning | INFO | # 970  A198_M6  L  Linear Retract after placing CL3M ('c4') in storage
+2022-06-09 00:44:16,702 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:16,702 | itj_planning | INFO | # 971  A199_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:44:17,265 | itj_planning | INFO |                    166 TrajPts, 8711.1 mm Flange Distance
+2022-06-09 00:44:17,265 | itj_planning | INFO | # 973  A199_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:44:17,296 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:17,311 | itj_planning | INFO | # 977  A199_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:17,311 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:17,327 | itj_planning | INFO | # 978  A199_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:17,358 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:17,358 | itj_planning | INFO | # 980  A200_M0  F  Free Move to bring CL3 ('c1') to structure.
+2022-06-09 00:44:18,061 | itj_planning | INFO |                    206 TrajPts, 8222.0 mm Flange Distance
+2022-06-09 00:44:18,077 | itj_planning | INFO | # 982  A200_M2  L  Linear Approach 1 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:44:18,124 | itj_planning | INFO |                    13  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:18,124 | itj_planning | INFO | # 983  A200_M3  L  Linear Approach 2 of 2 to attach CL3 ('c1') to structure.
+2022-06-09 00:44:18,140 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:18,140 | itj_planning | INFO | # 986  A200_M6  L  Linear Retract after attaching CL3 ('c1') on structure
+2022-06-09 00:44:18,171 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:18,171 | itj_planning | INFO | # 988  A201_M0  F  Free Move reach Storage Approach Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:44:18,858 | itj_planning | INFO |                    199 TrajPts, 7767.2 mm Flange Distance
+2022-06-09 00:44:18,858 | itj_planning | INFO | # 989  A201_M1  L  Linear Advance to Storage Frame of PG1500 ('g3'), to get tool.
+2022-06-09 00:44:18,874 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:44:18,874 | itj_planning | INFO | # 991  A201_M3  L  Linear Retract after getting PG1500 ('g3') from storage.
+2022-06-09 00:44:18,968 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:18,984 | itj_planning | INFO | # 992  A202_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b18')
+2022-06-09 00:44:19,390 | itj_planning | INFO |                    121 TrajPts, 6325.6 mm Flange Distance
+2022-06-09 00:44:19,390 | itj_planning | INFO | # 994  A202_M2  L  Linear Advance to Storage Frame of Beam ('b18')
+2022-06-09 00:44:19,436 | itj_planning | INFO |                    12  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:44:19,436 | itj_planning | INFO | # 997  A202_M5  L  Linear Retract after picking up Beam ('b18')
+2022-06-09 00:44:19,546 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:44:19,546 | itj_planning | INFO | # 998  A203_M0  F  Free Move to bring Beam ('b18') to approach clamps on structure.
+2022-06-09 00:44:19,546 | itj_planning | INFO |                    NO TRAJECTORY PLANNED
+2022-06-09 00:44:19,546 | itj_planning | INFO | # 999  A203_M1  L  Linear Advance to bring Beam ('b18') into clamp jaws
+2022-06-09 00:44:19,608 | itj_planning | INFO |                    12  TrajPts, 101.0 mm Flange Distance
+2022-06-09 00:44:19,608 | itj_planning | INFO | #1001  A203_M3  L  Robot and Clamps (['c1', 'c2']) syncronously move to clamp Beam ('b18')
+2022-06-09 00:44:19,702 | itj_planning | INFO |                    25  TrajPts, 111.0 mm Flange Distance
+2022-06-09 00:44:19,702 | itj_planning | INFO | #1004  A204_M2  L  Linear retract of Gripper from Beam ('b18')
+2022-06-09 00:44:19,749 | itj_planning | INFO |                    13  TrajPts, 105.0 mm Flange Distance
+2022-06-09 00:44:19,765 | itj_planning | INFO | #1006  A205_M1  F  Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:44:19,765 | itj_planning | INFO |                    NO TRAJECTORY PLANNED
+2022-06-09 00:44:19,765 | itj_planning | INFO | #1007  A205_M2  L  Linear Advance to Storage Frame of PG1500 ('g3'), to place tool in storage.
+2022-06-09 00:44:19,874 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:19,874 | itj_planning | INFO | #1009  A205_M4  L  Linear Retract from storage after placing PG1500 ('g3') in storage
+2022-06-09 00:44:19,890 | itj_planning | INFO |                    5   TrajPts, 35.0 mm Flange Distance
+2022-06-09 00:44:19,890 | itj_planning | INFO | #1010  A206_M0  F  Free Move for Toolchanger to approach Storage Frame of SL1_G200 ('s4'), to pick tool from storage.
+2022-06-09 00:44:20,171 | itj_planning | INFO |                    76  TrajPts, 2378.6 mm Flange Distance
+2022-06-09 00:44:20,171 | itj_planning | INFO | #1011  A206_M1  L  Toolchanger Advance to dock with SL1_G200 ('s4').
+2022-06-09 00:44:20,187 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:20,187 | itj_planning | INFO | #1013  A206_M3  L  Linear Retract 1 from Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:44:20,202 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:20,202 | itj_planning | INFO | #1014  A206_M4  L  Linear Retract 2 from Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:44:20,312 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:20,312 | itj_planning | INFO | #1015  A207_M0  F  Free Move to reach Pickup Approach Frame of Beam ('b19')
+2022-06-09 00:44:20,687 | itj_planning | INFO |                    107 TrajPts, 6924.0 mm Flange Distance
+2022-06-09 00:44:20,687 | itj_planning | INFO | #1017  A207_M2  L  Linear Advance to Storage Frame of Beam ('b19')
+2022-06-09 00:44:20,780 | itj_planning | INFO |                    27  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:20,780 | itj_planning | INFO | #1021  A210_M0  L  Linear Move to lift up Beam ('b19')
+2022-06-09 00:44:20,858 | itj_planning | INFO |                    19  TrajPts, 170.0 mm Flange Distance
+2022-06-09 00:44:20,858 | itj_planning | INFO | #1022  A210_M1  L  Linear Move to intermediate position before reorienting Beam ('b19')
+2022-06-09 00:44:21,093 | itj_planning | INFO |                    64  TrajPts, 620.7 mm Flange Distance
+2022-06-09 00:44:21,093 | itj_planning | INFO | #1023  A210_M2  L  Final Move to reorient Beam ('b19')
+2022-06-09 00:44:21,218 | itj_planning | INFO |                    28  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:21,218 | itj_planning | INFO | #1026  A213_M0  F  Free Move to bring Beam ('b19') to assemble_approach position on structure.
+2022-06-09 00:44:21,780 | itj_planning | INFO |                    158 TrajPts, 6136.0 mm Flange Distance
+2022-06-09 00:44:21,780 | itj_planning | INFO | #1027  A213_M1  L  Linear Advance to bring Screwdriver tips to touch the predrilled hole.
+2022-06-09 00:44:21,796 | itj_planning | INFO |                    4   TrajPts, 21.0 mm Flange Distance
+2022-06-09 00:44:21,796 | itj_planning | INFO | #1028  A213_M2  L  Robot and Screwdrivers (['s4', 's1', 's2']) syncronously move to screw Beam ('b19')
+2022-06-09 00:44:21,983 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:44:21,983 | itj_planning | INFO | #1032  A214_M2  L  Robot and Screwdriver (s4) syncronously move to retract from Joint ('b10-b19')
+2022-06-09 00:44:22,171 | itj_planning | INFO |                    53  TrajPts, 250.0 mm Flange Distance
+2022-06-09 00:44:22,171 | itj_planning | INFO | #1033  A214_M3  L  Linear retract after picking up Screwdriver ('s4')
+2022-06-09 00:44:22,186 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:22,186 | itj_planning | INFO | #1036  A215_M1  F  Free Move to reach Storage Approach Frame of SL1_G200 ('s4'), to place tool in storage.
+2022-06-09 00:44:22,702 | itj_planning | INFO |                    153 TrajPts, 4375.6 mm Flange Distance
+2022-06-09 00:44:22,702 | itj_planning | INFO | #1037  A215_M2  L  Linear Advance 1 to approach Storage Frame of SL1_G200 ('s4'). (Faster)
+2022-06-09 00:44:22,796 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:22,812 | itj_planning | INFO | #1038  A215_M3  L  Linear Advance 2 to Storage Frame of SL1_G200 ('s4').
+2022-06-09 00:44:22,827 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:22,827 | itj_planning | INFO | #1040  A215_M5  L  Linear Retract after placing SL1_G200 ('s4') in storage
+2022-06-09 00:44:22,843 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:22,843 | itj_planning | INFO | #1041  A216_M0  F  Free Move to reach SL1 ('s2') on Beam ('b19') 
+2022-06-09 00:44:23,280 | itj_planning | INFO |                    127 TrajPts, 2734.3 mm Flange Distance
+2022-06-09 00:44:23,280 | itj_planning | INFO | #1043  A216_M2  L  Linear Advance to dock toolchanger of SL1 ('s2').
+2022-06-09 00:44:23,296 | itj_planning | INFO |                    7   TrajPts, 50.9 mm Flange Distance
+2022-06-09 00:44:23,296 | itj_planning | INFO | #1047  A217_M2  L  Robot and Screwdriver (s2) syncronously move to retract from Joint ('b4-b19')
+2022-06-09 00:44:23,484 | itj_planning | INFO |                    53  TrajPts, 250.9 mm Flange Distance
+2022-06-09 00:44:23,484 | itj_planning | INFO | #1048  A217_M3  L  Linear retract after picking up Screwdriver ('s2')
+2022-06-09 00:44:23,499 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:23,499 | itj_planning | INFO | #1051  A218_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s2'), to place tool in storage.
+2022-06-09 00:44:23,937 | itj_planning | INFO |                    129 TrajPts, 1615.0 mm Flange Distance
+2022-06-09 00:44:23,952 | itj_planning | INFO | #1052  A218_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s2'). (Faster)
+2022-06-09 00:44:24,046 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:24,046 | itj_planning | INFO | #1053  A218_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s2').
+2022-06-09 00:44:24,062 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:24,062 | itj_planning | INFO | #1055  A218_M5  L  Linear Retract after placing SL1 ('s2') in storage
+2022-06-09 00:44:24,093 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:24,093 | itj_planning | INFO | #1056  A219_M0  F  Free Move to reach SL1 ('s1') on Beam ('b19') 
+2022-06-09 00:44:24,765 | itj_planning | INFO |                    195 TrajPts, 8145.9 mm Flange Distance
+2022-06-09 00:44:24,765 | itj_planning | INFO | #1058  A219_M2  L  Linear Advance to dock toolchanger of SL1 ('s1').
+2022-06-09 00:44:24,780 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:24,780 | itj_planning | INFO | #1062  A220_M2  L  Robot and Screwdriver (s1) syncronously move to retract from Joint ('b18-b19')
+2022-06-09 00:44:24,968 | itj_planning | INFO |                    53  TrajPts, 251.0 mm Flange Distance
+2022-06-09 00:44:24,968 | itj_planning | INFO | #1063  A220_M3  L  Linear retract after picking up Screwdriver ('s1')
+2022-06-09 00:44:24,983 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:24,983 | itj_planning | INFO | #1066  A221_M1  F  Free Move to reach Storage Approach Frame of SL1 ('s1'), to place tool in storage.
+2022-06-09 00:44:25,312 | itj_planning | INFO |                    95  TrajPts, 3991.5 mm Flange Distance
+2022-06-09 00:44:25,312 | itj_planning | INFO | #1067  A221_M2  L  Linear Advance 1 to approach Storage Frame of SL1 ('s1'). (Faster)
+2022-06-09 00:44:25,421 | itj_planning | INFO |                    29  TrajPts, 269.3 mm Flange Distance
+2022-06-09 00:44:25,421 | itj_planning | INFO | #1068  A221_M3  L  Linear Advance 2 to Storage Frame of SL1 ('s1').
+2022-06-09 00:44:25,437 | itj_planning | INFO |                    4   TrajPts, 25.0 mm Flange Distance
+2022-06-09 00:44:25,437 | itj_planning | INFO | #1070  A221_M5  L  Linear Retract after placing SL1 ('s1') in storage
+2022-06-09 00:44:25,470 | itj_planning | INFO |                    7   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:25,472 | itj_planning | INFO | #1071  A222_M0  F  Free Move to reach CL3 ('c1') to detach it from structure.
+2022-06-09 00:44:27,687 | itj_planning | INFO |                    646 TrajPts, 4334.0 mm Flange Distance
+2022-06-09 00:44:27,687 | itj_planning | INFO | #1073  A222_M2  L  Linear Advance to dock toolchanger of CL3 ('c1').
+2022-06-09 00:44:27,702 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:27,702 | itj_planning | INFO | #1077  A222_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:27,718 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:27,718 | itj_planning | INFO | #1078  A222_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c1') from structure.
+2022-06-09 00:44:27,780 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:27,780 | itj_planning | INFO | #1081  A223_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c1'), to place tool in storage.
+2022-06-09 00:44:28,358 | itj_planning | INFO |                    172 TrajPts, 5377.4 mm Flange Distance
+2022-06-09 00:44:28,358 | itj_planning | INFO | #1082  A223_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c1'). (Faster)
+2022-06-09 00:44:28,452 | itj_planning | INFO |                    22  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:44:28,452 | itj_planning | INFO | #1083  A223_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c1').
+2022-06-09 00:44:28,468 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:44:28,468 | itj_planning | INFO | #1086  A223_M6  L  Linear Retract after placing CL3 ('c1') in storage
+2022-06-09 00:44:28,483 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:28,483 | itj_planning | INFO | #1087  A224_M0  F  Free Move to reach CL3 ('c2') to detach it from structure.
+2022-06-09 00:44:29,280 | itj_planning | INFO |                    232 TrajPts, 12311.2 mm Flange Distance
+2022-06-09 00:44:29,280 | itj_planning | INFO | #1089  A224_M2  L  Linear Advance to dock toolchanger of CL3 ('c2').
+2022-06-09 00:44:29,296 | itj_planning | INFO |                    7   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:29,312 | itj_planning | INFO | #1093  A224_M6  L  Linear Retract 1 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:29,312 | itj_planning | INFO |                    4   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:29,327 | itj_planning | INFO | #1094  A224_M7  L  Linear Retract 2 of 2 to storage after picking up CL3 ('c2') from structure.
+2022-06-09 00:44:29,358 | itj_planning | INFO |                    12  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:29,358 | itj_planning | INFO | #1097  A225_M1  F  Free Move to reach Storage Approach Frame of CL3 ('c2'), to place tool in storage.
+2022-06-09 00:44:30,280 | itj_planning | INFO |                    261 TrajPts, 13322.3 mm Flange Distance
+2022-06-09 00:44:30,280 | itj_planning | INFO | #1098  A225_M2  L  Linear Advance 1 to approach Storage Frame of CL3 ('c2'). (Faster)
+2022-06-09 00:44:30,358 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:44:30,374 | itj_planning | INFO | #1099  A225_M3  L  Linear Advance 2 to Storage Frame of CL3 ('c2').
+2022-06-09 00:44:30,390 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:44:30,390 | itj_planning | INFO | #1102  A225_M6  L  Linear Retract after placing CL3 ('c2') in storage
+2022-06-09 00:44:30,405 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:30,405 | itj_planning | INFO | #1103  A226_M0  F  Free Move to reach CL3M ('c3') to detach it from structure.
+2022-06-09 00:44:31,609 | itj_planning | INFO |                    353 TrajPts, 10931.3 mm Flange Distance
+2022-06-09 00:44:31,609 | itj_planning | INFO | #1105  A226_M2  L  Linear Advance to dock toolchanger of CL3M ('c3').
+2022-06-09 00:44:31,640 | itj_planning | INFO |                    8   TrajPts, 51.0 mm Flange Distance
+2022-06-09 00:44:31,640 | itj_planning | INFO | #1109  A226_M6  L  Linear Retract 1 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:44:31,656 | itj_planning | INFO |                    3   TrajPts, 20.0 mm Flange Distance
+2022-06-09 00:44:31,656 | itj_planning | INFO | #1110  A226_M7  L  Linear Retract 2 of 2 to storage after picking up CL3M ('c3') from structure.
+2022-06-09 00:44:31,703 | itj_planning | INFO |                    13  TrajPts, 100.0 mm Flange Distance
+2022-06-09 00:44:31,703 | itj_planning | INFO | #1113  A227_M1  F  Free Move to reach Storage Approach Frame of CL3M ('c3'), to place tool in storage.
+2022-06-09 00:44:32,312 | itj_planning | INFO |                    175 TrajPts, 6462.6 mm Flange Distance
+2022-06-09 00:44:32,312 | itj_planning | INFO | #1114  A227_M2  L  Linear Advance 1 to approach Storage Frame of CL3M ('c3'). (Faster)
+2022-06-09 00:44:32,390 | itj_planning | INFO |                    23  TrajPts, 200.0 mm Flange Distance
+2022-06-09 00:44:32,390 | itj_planning | INFO | #1115  A227_M3  L  Linear Advance 2 to Storage Frame of CL3M ('c3').
+2022-06-09 00:44:32,421 | itj_planning | INFO |                    4   TrajPts, 30.0 mm Flange Distance
+2022-06-09 00:44:32,421 | itj_planning | INFO | #1118  A227_M6  L  Linear Retract after placing CL3M ('c3') in storage
+2022-06-09 00:44:32,437 | itj_planning | INFO |                    6   TrajPts, 50.0 mm Flange Distance
+2022-06-09 00:44:32,437 | itj_planning | INFO | --------------------------------------------------
+2022-06-09 00:44:32,437 | itj_planning | INFO | List of RoboticLinearMovement IDs without Trajectory (count = 0):
+2022-06-09 00:44:32,437 | itj_planning | INFO | 
+2022-06-09 00:44:32,437 | itj_planning | INFO | List of RoboticFreeMovement IDs without Trajectory (count = 4):
+2022-06-09 00:44:32,437 | itj_planning | INFO | A123_M0,A125_M1,A203_M0,A205_M1
+2022-06-09 00:44:32,437 | itj_planning | INFO | List of all Movements IDs without Trajectory (count = 4):
+2022-06-09 00:44:32,452 | itj_planning | INFO | A123_M0,A125_M1,A203_M0,A205_M1
+2022-06-09 00:44:32,452 | itj_planning | INFO | --------------------------------------------------
+2022-06-09 00:44:32,452 | itj_planning | INFO | End of Statistics.

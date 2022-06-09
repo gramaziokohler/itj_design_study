@@ -1867,3 +1867,77 @@
 2022-06-08 20:34:05,313 | itj_planning | INFO | Planning done.
 2022-06-08 20:34:05,314 | itj_planning | INFO | 8 of 8 Movements planned successfully.
 2022-06-08 20:34:05,315 | itj_planning | INFO | Failed movements: 
+2022-06-08 21:00:23,943 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A119_M0,A222_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-08 21:00:24,285 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-08 21:00:27,262 | itj_planning | INFO | Movement A119_M0 (RoboticFreeMovement) archived.
+2022-06-08 21:00:27,282 | itj_planning | INFO | Movement A222_M0 (RoboticFreeMovement) archived.
+2022-06-08 21:00:39,718 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-08 21:01:16,757 | itj_planning | INFO | Solved 1 Movements in 37.04 s: ['A119_M0'] 
+2022-06-08 21:02:57,143 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 137.4
+2022-06-08 21:03:04,404 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-08 21:03:24,074 | itj_planning | INFO | Solved 1 Movements in 19.67 s: ['A222_M0'] 
+2022-06-08 21:06:25,376 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 201.0
+2022-06-08 21:06:25,380 | itj_planning | INFO | Planning done.
+2022-06-08 21:06:25,381 | itj_planning | INFO | 2 of 2 Movements planned successfully.
+2022-06-08 21:06:25,382 | itj_planning | INFO | Failed movements: 
+2022-06-09 00:36:05,191 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A125_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 00:36:05,549 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 00:36:20,922 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-09 00:37:25,497 | itj_planning | INFO | No plan found for A125_M1 | RoboticFreeMovement(#A125_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-09 00:37:25,497 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-09 00:37:25,497 | itj_planning | INFO | Trail #0 | Plan Failure | Runtime of current attempt: 64.6
+2022-06-09 00:37:25,513 | itj_planning | INFO | Trail #1 | time elapsed 64.61
+2022-06-09 00:38:24,171 | itj_planning | INFO | No plan found for A125_M1 | RoboticFreeMovement(#A125_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-09 00:38:24,171 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-09 00:38:24,171 | itj_planning | INFO | Trail #1 | Plan Failure | Runtime of current attempt: 58.7
+2022-06-09 00:38:24,200 | itj_planning | INFO | Trail #2 | time elapsed 123.30
+2022-06-09 00:39:42,716 | itj_planning | INFO | No plan found for A125_M1 | RoboticFreeMovement(#A125_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-09 00:39:42,716 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-09 00:39:42,716 | itj_planning | INFO | Trail #2 | Plan Failure | Runtime of current attempt: 78.5
+2022-06-09 00:39:42,761 | itj_planning | INFO | Trail #3 | time elapsed 201.86
+2022-06-09 00:40:42,810 | itj_planning | INFO | No plan found for A125_M1 | RoboticFreeMovement(#A125_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-09 00:40:42,812 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-09 00:40:42,813 | itj_planning | INFO | Trail #3 | Plan Failure | Runtime of current attempt: 60.1
+2022-06-09 00:40:42,841 | itj_planning | INFO | Trail #4 | time elapsed 261.94
+2022-06-09 00:41:53,139 | itj_planning | INFO | No plan found for A125_M1 | RoboticFreeMovement(#A125_M1, Free Move to reach Storage Approach Frame of PG1500 ('g3'), to place tool in storage., has_traj False)
+2022-06-09 00:41:53,139 | itj_planning | INFO | Computing failed priority 0 Movement(s)
+2022-06-09 00:41:53,139 | itj_planning | INFO | Trail #4 | Plan Failure | Runtime of current attempt: 70.3
+2022-06-09 00:41:53,170 | itj_planning | INFO | Trail #5 | time elapsed 332.27
+2022-06-09 00:57:43,613 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A203_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 00:57:43,956 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 00:58:01,081 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-09 00:59:36,597 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A203_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 00:59:36,910 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 00:59:51,722 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-09 00:59:51,754 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A203_M0
+2022-06-09 01:00:33,059 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A203_M0
+2022-06-09 01:00:52,655 | itj_planning | INFO | Solved 1 Movements in 60.93 s: ['A203_M0'] 
+2022-06-09 01:01:59,707 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 128.0
+2022-06-09 01:01:59,723 | itj_planning | INFO | Planning done.
+2022-06-09 01:01:59,723 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-09 01:01:59,723 | itj_planning | INFO | Failed movements: 
+2022-06-09 01:03:44,692 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A205_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 01:03:45,036 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 01:03:59,927 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-09 01:03:59,958 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A205_M1
+2022-06-09 01:04:00,521 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A205_M1
+2022-06-09 01:04:56,211 | itj_planning | INFO | Solved 1 Movements in 56.28 s: ['A205_M1'] 
+2022-06-09 01:05:37,798 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 97.9
+2022-06-09 01:05:37,802 | itj_planning | INFO | Planning done.
+2022-06-09 01:05:37,803 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-09 01:05:37,804 | itj_planning | INFO | Failed movements: 
+2022-06-09 01:15:16,071 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A203_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=True, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 01:15:16,399 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 01:15:19,336 | itj_planning | INFO | Movement A203_M0 (RoboticFreeMovement) archived.
+2022-06-09 01:15:31,807 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-09 01:15:31,859 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A203_M0
+2022-06-09 01:22:00,604 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, mesh_split_long_edge_max_length=50.0, movement_id='A203_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=600.0, step_sim=False, super_res=True, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 01:22:00,916 | itj_planning | INFO | Process file loaded from main problem folder: d:\code_ws\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 01:22:15,698 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-09 01:22:15,745 | itj_planning | INFO | Planning waypoint segment 1 of 2 of A203_M0
+2022-06-09 01:28:25,090 | itj_planning | INFO | Planning waypoint segment 2 of 2 of A203_M0
+2022-06-09 01:28:45,403 | itj_planning | INFO | Solved 1 Movements in 389.71 s: ['A203_M0'] 
+2022-06-09 01:31:36,966 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 561.3
+2022-06-09 01:31:36,982 | itj_planning | INFO | Planning done.
+2022-06-09 01:31:36,982 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-09 01:31:36,982 | itj_planning | INFO | Failed movements: 
