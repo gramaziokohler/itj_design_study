@@ -1941,3 +1941,27 @@
 2022-06-09 01:31:36,982 | itj_planning | INFO | Planning done.
 2022-06-09 01:31:36,982 | itj_planning | INFO | 1 of 1 Movements planned successfully.
 2022-06-09 01:31:36,982 | itj_planning | INFO | Failed movements: 
+2022-06-09 17:40:12,880 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A123_M0', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 17:40:13,226 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 17:40:27,288 | itj_planning | INFO | Trail #0 | time elapsed 0.02
+2022-06-09 17:40:27,322 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A123_M0
+2022-06-09 17:40:32,593 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A123_M0
+2022-06-09 17:40:36,314 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A123_M0
+2022-06-09 17:40:42,284 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A123_M0
+2022-06-09 17:40:43,208 | itj_planning | INFO | Solved 1 Movements in 15.92 s: ['A123_M0'] 
+2022-06-09 17:41:37,921 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 70.6
+2022-06-09 17:41:37,923 | itj_planning | INFO | Planning done.
+2022-06-09 17:41:37,923 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-09 17:41:37,924 | itj_planning | INFO | Failed movements: 
+2022-06-09 17:46:51,670 | itj_planning | INFO | planning.run_global.py started with args: Namespace(buffers_for_free_motions=False, debug=False, design_dir='220407_CantiBoxMid', diagnosis=False, draw_mp_exploration=False, keep_planned_movements=False, low_res=False, mesh_split_long_edge_max_length=50.0, movement_id='A125_M1', mp_algorithm='birrt', no_smooth=False, problem='CantiBoxMid_process.json', problem_subdir='results', quiet=False, reachable_range=[0.2, 2.4], reinit_tool=False, rrt_iterations=400, solve_iters=1000, solve_mode='movement_id', solve_timeout=3600.0, step_sim=False, use_stored_seed=False, viewer=False, watch=False, write=True)
+2022-06-09 17:46:51,982 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 17:47:05,968 | itj_planning | INFO | Trail #0 | time elapsed 0.03
+2022-06-09 17:47:06,011 | itj_planning | INFO | Planning waypoint segment 1 of 4 of A125_M1
+2022-06-09 17:47:06,667 | itj_planning | INFO | Planning waypoint segment 2 of 4 of A125_M1
+2022-06-09 17:47:09,853 | itj_planning | INFO | Planning waypoint segment 3 of 4 of A125_M1
+2022-06-09 17:47:11,743 | itj_planning | INFO | Planning waypoint segment 4 of 4 of A125_M1
+2022-06-09 17:47:22,382 | itj_planning | INFO | Solved 1 Movements in 16.41 s: ['A125_M1'] 
+2022-06-09 17:48:21,532 | itj_planning | INFO | Trail #0 | Plan Success | Runtime of current attempt: 75.6
+2022-06-09 17:48:21,535 | itj_planning | INFO | Planning done.
+2022-06-09 17:48:21,535 | itj_planning | INFO | 1 of 1 Movements planned successfully.
+2022-06-09 17:48:21,535 | itj_planning | INFO | Failed movements: 

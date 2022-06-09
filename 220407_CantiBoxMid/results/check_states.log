@@ -367,3 +367,10 @@
 2022-06-09 01:10:23,652 | itj_planning | WARNING | Movements that requires care and love:
 2022-06-09 01:10:23,653 | itj_planning | INFO | A203_M0
 2022-06-09 01:10:23,655 | itj_planning | INFO | (MovementIndex=998) RoboticFreeMovement(#A203_M0, Free Move to bring Beam ('b18') to approach clamps on structure., has_traj True): traj_dense_convex_hull_collision
+2022-06-09 17:49:21,383 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A123_M0,A125_M1', plan_summary=False, problem='CantiBoxMid_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-09 17:49:21,384 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 17:49:22,041 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-09 17:49:51,900 | itj_planning | INFO | planning.check_states.py started with args: Namespace(debug=False, dense_sample_sweeping_check_num_steps=3, design_dir='220407_CantiBoxMid', mesh_split_long_edge_max_length=50.0, movement_id='A123_M0,A125_M1', plan_summary=False, problem='CantiBoxMid_process.json', problem_subdir='results', reinit_tool=False, seq_n=None, skip_state_collision_check=False, traj_collision=True, verify_plan=True, viewer=True)
+2022-06-09 17:49:51,901 | itj_planning | INFO | Process file loaded from main problem folder: c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\CantiBoxMid_process.json
+2022-06-09 17:49:52,567 | itj_planning | INFO | Loading external movements from c:\users\leungp\documents\github\integral_timber_joints\external\itj_design_study\220407_CantiBoxMid\results
+2022-06-09 17:51:52,158 | itj_planning | INFO | Congrats, check state done!
